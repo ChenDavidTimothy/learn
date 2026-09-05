@@ -156,7 +156,7 @@ except Exception:  # pragma: no cover
     psutil = None
 
 
-SCRIPT_VERSION = "2026-09-05-stage2a-v1"
+SCRIPT_VERSION = "2026-09-05-stage2a-v2"
 EPS = 1e-12
 
 
@@ -843,51 +843,59 @@ def evaluate_model(
     weights: np.ndarray,
     epsilon_regret: float,
 ) -> EvalSummary:
+    """Evaluate one fitted model without recomputing predictions per task weight.
+
+    V1 repeatedly propagated the same model once for every task weight. That was
+    mathematically redundant and made each condition far slower than intended.
+    Here each action-sequence prediction is computed exactly once per evaluation
+    state, then all task weights are scored by matrix multiplication.
+    """
     seqs = all_action_sequences(env.n_actions, env.horizon)
+    nseq = len(seqs)
     regrets: List[float] = []
-    mses: List[float] = []
+    mse_sum = 0.0
+    mse_count = 0
     successes = 0
+    total_tasks = 0
 
     for ep in eval_eps:
         o0 = ep["O"][0]
         r0 = ep["X"][0, : env.d_rel]
-        true_features = {seq: env.expected_terminal_features(o0, seq) for seq in seqs}
-        # Prediction MSE over all sequences, independent of task weight.
-        for seq in seqs:
-            if model_name == "Oracle-Relevant-Fit":
-                pred = model.predict_features(r0, seq)
-            elif model_name.startswith("Full-"):
-                pred = model.predict_features(o0, seq, env.W_obs)
-            else:
-                pred = model.predict_features(o0, seq)
-            mses.append(float(np.mean((pred - true_features[seq]) ** 2)))
 
-        for w in weights:
-            true_scores = np.asarray([float(w @ true_features[s]) for s in seqs])
-            i_best = int(np.argmax(true_scores))
-            best = float(true_scores[i_best])
-            worst = float(np.min(true_scores))
-            scale = max(best - worst, 1e-6)
+        true_mat = np.vstack([env.expected_terminal_features(o0, seq) for seq in seqs])
 
-            if model_name == "Oracle-Relevant-Fit":
-                chosen = choose_sequence(seqs, w, lambda s: model.predict_features(r0, s))
-            elif model_name.startswith("Full-"):
-                chosen = choose_sequence(seqs, w, lambda s: model.predict_features(o0, s, env.W_obs))
-            else:
-                chosen = choose_sequence(seqs, w, lambda s: model.predict_features(o0, s))
-            chosen_score = float(w @ true_features[chosen])
-            rr = max(0.0, (best - chosen_score) / scale)
-            regrets.append(rr)
-            if rr <= epsilon_regret:
-                successes += 1
+        if model_name == "Oracle-Relevant-Fit":
+            pred_mat = np.vstack([model.predict_features(r0, seq) for seq in seqs])
+        elif model_name.startswith("Full-"):
+            pred_mat = np.vstack([model.predict_features(o0, seq, env.W_obs) for seq in seqs])
+        else:
+            pred_mat = np.vstack([model.predict_features(o0, seq) for seq in seqs])
+
+        diff = pred_mat - true_mat
+        mse_sum += float(np.sum(diff * diff))
+        mse_count += int(diff.size)
+
+        # Shapes: [num_weights, num_sequences]. One model propagation per sequence,
+        # then all downstream tasks are cheap linear queries on the predicted features.
+        true_scores = weights @ true_mat.T
+        pred_scores = weights @ pred_mat.T
+        chosen_idx = np.argmax(pred_scores, axis=1)
+        best = np.max(true_scores, axis=1)
+        worst = np.min(true_scores, axis=1)
+        scale = np.maximum(best - worst, 1e-6)
+        chosen_score = true_scores[np.arange(len(weights)), chosen_idx]
+        rr = np.maximum(0.0, (best - chosen_score) / scale)
+
+        regrets.extend(rr.tolist())
+        successes += int(np.sum(rr <= epsilon_regret))
+        total_tasks += int(len(rr))
 
     return EvalSummary(
         mean_rel_regret=float(np.mean(regrets)) if regrets else float("nan"),
         median_rel_regret=float(np.median(regrets)) if regrets else float("nan"),
-        success_rate=float(successes / len(regrets)) if regrets else float("nan"),
-        feature_mse=float(np.mean(mses)) if mses else float("nan"),
+        success_rate=float(successes / total_tasks) if total_tasks else float("nan"),
+        feature_mse=float(mse_sum / mse_count) if mse_count else float("nan"),
     )
-
 
 def model_diagnostics(env: LinearProductEnv, name: str, model: Any) -> Dict[str, Any]:
     out: Dict[str, Any] = {}
@@ -1066,6 +1074,10 @@ def run_condition(
                         "traceback": traceback.format_exc(),
                     }
                 records.append(rec)
+            print(
+                f"[Stage2A] {condition_tag} trial={trial + 1}/{trials} n={int(n)} complete",
+                flush=True,
+            )
     return records
 
 
