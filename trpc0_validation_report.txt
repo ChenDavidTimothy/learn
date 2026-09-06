@@ -1,0 +1,411 @@
+
+========================================================================================
+TRPC-0 EXHAUSTIVE ONE-FILE VALIDATION REPORT
+========================================================================================
+script_version                            : TRPC0-EXHAUSTIVE-1.0
+script_sha256                             : bd08fe7d197a27e100b9d2771954fee6b5b9818169073bec528118810deb432f
+generated_utc                             : 2026-09-06T13:08:33.035427+00:00
+python                                    : 3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]
+platform                                  : Linux-7.0.0-30-generic-x86_64-with-glibc2.39
+numpy                                     : 2.5.2
+scipy                                     : 1.18.1
+seed                                      : 20260906
+epsilon                                   : 0.11
+delta                                     : 0.05
+mc_trials_per_true_class                  : 200000
+max_recursion_depth                       : 3
+nuisance_sizes                            : [1, 2, 4, 8, 16, 64, 256]
+curve_multipliers                         : [0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 2.0]
+
+========================================================================================
+0. WHAT THIS SCRIPT IS TESTING
+========================================================================================
+K1  Declared competence: fixed tasks, supported policies/controllers, epsilon.
+K2  Recursive predictive soundness: exact recursive state and exact task values.
+K3  Terminal target: adequate controller, not quotient identity.
+K4  Acquisition: only controller-invalidating confusions constrain design.
+
+TRPC-0 finite machinery: exact supplied class, quotient compilation, observable
+experiment laws, identifiability collapse, safe selector, Hellinger max-min
+fixed allocation, finite MLE, fixed-confidence theorem budget.
+
+========================================================================================
+1. DECLARED COMPETENCE CONTRACT (K1)
+========================================================================================
+tasks U                                   : ('copy_hidden_bit', 'invert_hidden_bit')
+supported policies Pi                     : ('trust_sensor', 'invert_sensor')
+epsilon                                   : 0.11
+controller count |Pi|^|U|                 : 4
+common implementation map L               : policy_action(policy, operational_sensor_observation)
+  g_plus: {'copy_hidden_bit': 'trust_sensor', 'invert_hidden_bit': 'invert_sensor'}
+  g_minus: {'copy_hidden_bit': 'invert_sensor', 'invert_hidden_bit': 'trust_sensor'}
+  g_trust_both: {'copy_hidden_bit': 'trust_sensor', 'invert_hidden_bit': 'trust_sensor'}
+  g_invert_both: {'copy_hidden_bit': 'invert_sensor', 'invert_hidden_bit': 'invert_sensor'}
+
+========================================================================================
+2. EXHAUSTIVE RECURSIVE PREDICTIVE-STATE VALIDATION (K2)
+========================================================================================
+histories checked                         : 777
+max recursive-vs-bruteforce posterior error: 4.441e-16
+max predictive-vector error               : 4.441e-16
+
+----------------------------------------------------------------------------------------
+Dynamic-programming policy value check
+----------------------------------------------------------------------------------------
++---+-------------------+---------------+--------------+-------------+----------+
+| q | task              | policy        | enumerated J | recursive J | abs err  |
++---+-------------------+---------------+--------------+-------------+----------+
+| H | copy_hidden_bit   | trust_sensor  | 0.800000     | 0.800000    | 0.00e+00 |
+| H | copy_hidden_bit   | invert_sensor | 0.200000     | 0.200000    | 0.00e+00 |
+| H | invert_hidden_bit | trust_sensor  | 0.200000     | 0.200000    | 0.00e+00 |
+| H | invert_hidden_bit | invert_sensor | 0.800000     | 0.800000    | 0.00e+00 |
+| M | copy_hidden_bit   | trust_sensor  | 0.550000     | 0.550000    | 0.00e+00 |
+| M | copy_hidden_bit   | invert_sensor | 0.450000     | 0.450000    | 0.00e+00 |
+| M | invert_hidden_bit | trust_sensor  | 0.450000     | 0.450000    | 0.00e+00 |
+| M | invert_hidden_bit | invert_sensor | 0.550000     | 0.550000    | 0.00e+00 |
+| L | copy_hidden_bit   | trust_sensor  | 0.200000     | 0.200000    | 2.78e-17 |
+| L | copy_hidden_bit   | invert_sensor | 0.800000     | 0.800000    | 0.00e+00 |
+| L | invert_hidden_bit | trust_sensor  | 0.800000     | 0.800000    | 0.00e+00 |
+| L | invert_hidden_bit | invert_sensor | 0.200000     | 0.200000    | 2.78e-17 |
++---+-------------------+---------------+--------------+-------------+----------+
+
+----------------------------------------------------------------------------------------
+Counterfactual if recursion is deleted
+----------------------------------------------------------------------------------------
++---+----------------+-------------+------------+
+| q | best recursive | frozen p=.5 | lost value |
++---+----------------+-------------+------------+
+| H | 0.8000         | 0.5000      | 0.3000     |
+| M | 0.5500         | 0.5000      | 0.0500     |
+| L | 0.8000         | 0.5000      | 0.3000     |
++---+----------------+-------------+------------+
+
+========================================================================================
+3. FULL MODEL CLASS -> TASK-RELATIVE QUOTIENT
+========================================================================================
+number of full models                     : 21
+relevant quotient types                   : ['H', 'L', 'M']
+Full model = (relevant q, independent nuisance alphabet size K).
+Nuisance is present in the raw model but absent from declared tasks and experiment summary.
+compiled task-relative quotient count     : 3
+base quotient groups requiring experiment-interface refinement: 0
++----------+-------------+---------------------------+----------------------+
+| quotient | full models | nuisance K                | experiment signature |
++----------+-------------+---------------------------+----------------------+
+| H        | 7           | [1, 2, 4, 8, 16, 64, 256] | (0.58, 0.9)          |
+| L        | 7           | [1, 2, 4, 8, 16, 64, 256] | (0.2, 0.48)          |
+| M        | 7           | [1, 2, 4, 8, 16, 64, 256] | (0.82, 0.62)         |
++----------+-------------+---------------------------+----------------------+
+max raw-vs-quotient task-value error      : 7.105e-15
+max raw-vs-quotient experiment-law error  : 7.883e-15
+
+========================================================================================
+4. EXACT ADEQUATE-CONTROLLER CORRESPONDENCE (K2 -> K3)
+========================================================================================
+
+----------------------------------------------------------------------------------------
+Quotient H
+----------------------------------------------------------------------------------------
+theta_operational                         : 0.8
+J(copy_hidden_bit, trust_sensor) = 0.8
+J(copy_hidden_bit, invert_sensor) = 0.2
+J(invert_hidden_bit, trust_sensor) = 0.2
+J(invert_hidden_bit, invert_sensor) = 0.8
+G_epsilon(q)                              : ['g_plus']
+uniform fibre certificate intersection    : ['g_plus']
+  g_plus regrets: copy_hidden_bit=0.000000, invert_hidden_bit=0.000000
+  g_minus regrets: copy_hidden_bit=0.600000, invert_hidden_bit=0.600000
+  g_trust_both regrets: copy_hidden_bit=0.000000, invert_hidden_bit=0.600000
+  g_invert_both regrets: copy_hidden_bit=0.600000, invert_hidden_bit=0.000000
+
+----------------------------------------------------------------------------------------
+Quotient L
+----------------------------------------------------------------------------------------
+theta_operational                         : 0.2
+J(copy_hidden_bit, trust_sensor) = 0.2
+J(copy_hidden_bit, invert_sensor) = 0.8
+J(invert_hidden_bit, trust_sensor) = 0.8
+J(invert_hidden_bit, invert_sensor) = 0.2
+G_epsilon(q)                              : ['g_minus']
+uniform fibre certificate intersection    : ['g_minus']
+  g_plus regrets: copy_hidden_bit=0.600000, invert_hidden_bit=0.600000
+  g_minus regrets: copy_hidden_bit=0.000000, invert_hidden_bit=0.000000
+  g_trust_both regrets: copy_hidden_bit=0.600000, invert_hidden_bit=0.000000
+  g_invert_both regrets: copy_hidden_bit=0.000000, invert_hidden_bit=0.600000
+
+----------------------------------------------------------------------------------------
+Quotient M
+----------------------------------------------------------------------------------------
+theta_operational                         : 0.55
+J(copy_hidden_bit, trust_sensor) = 0.55
+J(copy_hidden_bit, invert_sensor) = 0.45
+J(invert_hidden_bit, trust_sensor) = 0.45
+J(invert_hidden_bit, invert_sensor) = 0.55
+G_epsilon(q)                              : ['g_invert_both', 'g_minus', 'g_plus', 'g_trust_both']
+uniform fibre certificate intersection    : ['g_invert_both', 'g_minus', 'g_plus', 'g_trust_both']
+  g_plus regrets: copy_hidden_bit=0.000000, invert_hidden_bit=0.000000
+  g_minus regrets: copy_hidden_bit=0.100000, invert_hidden_bit=0.100000
+  g_trust_both regrets: copy_hidden_bit=0.000000, invert_hidden_bit=0.100000
+  g_invert_both regrets: copy_hidden_bit=0.100000, invert_hidden_bit=0.000000
+
+========================================================================================
+5. OBSERVABLE EXPERIMENT INTERFACE AND IDENTIFIABILITY PREFLIGHT
+========================================================================================
+H: P(success|probe_A)=0.580000, P(success|probe_B)=0.900000
+L: P(success|probe_A)=0.200000, P(success|probe_B)=0.480000
+M: P(success|probe_A)=0.820000, P(success|probe_B)=0.620000
+experiment-equivalence class count K      : 3
++-------+-----------+------------------------------------+--------------------------------------------------------+
+| class | quotients | law                                | common adequate controllers                            |
++-------+-----------+------------------------------------+--------------------------------------------------------+
+| C[H]  | ['H']     | {'probe_A': 0.58, 'probe_B': 0.9}  | ['g_plus']                                             |
+| C[L]  | ['L']     | {'probe_A': 0.2, 'probe_B': 0.48}  | ['g_minus']                                            |
+| C[M]  | ['M']     | {'probe_A': 0.82, 'probe_B': 0.62} | ['g_invert_both', 'g_minus', 'g_plus', 'g_trust_both'] |
++-------+-----------+------------------------------------+--------------------------------------------------------+
+preflight learnable                       : True
+bad classes                               : []
+globally safe controllers                 : []
+
+========================================================================================
+6. SAFE SELECTOR AND CONTROLLER-INVALIDATING CONFUSIONS (K4)
+========================================================================================
+a(C[H]) = g_plus
+a(C[L]) = g_minus
+a(C[M]) = g_plus
+
+Harmful ordered confusions C_a:
+  C[H] <- estimated as C[L]
+  C[L] <- estimated as C[H]
+  C[L] <- estimated as C[M]
+harmful ordered pair count                : 3
+all ordered distinct pair count           : 6
+constraints removed by TRPC readiness     : 3
+
+========================================================================================
+7. HELLINGER GEOMETRY AND MAX-MIN FIXED ALLOCATION
+========================================================================================
++---------+---------+-----------------+------------------+
+| class 1 | class 2 | probe_A         | probe_B          |
++---------+---------+-----------------+------------------+
+| C[H]    | C[L]    | 0.0797572028339 | 0.114697845974   |
+| C[H]    | C[M]    | 0.03540787232   | 0.0580701372245  |
+| C[L]    | C[M]    | 0.215557546153  | 0.00995051670271 |
++---------+---------+-----------------+------------------+
+
+----------------------------------------------------------------------------------------
+TRPC readiness
+----------------------------------------------------------------------------------------
+LP status                                 : Optimization terminated successfully. (HiGHS Status 7: Optimal)
+kappa                                     : 0.0994828201434
+weight[probe_A]                           : 0.435453513822
+weight[probe_B]                           : 0.564546486178
+  pair_rate('C[H]', 'C[L]') = 0.0994828201434
+  pair_rate('C[L]', 'C[H]') = 0.0994828201434
+  pair_rate('C[L]', 'C[M]') = 0.0994828201434
+independent dense-grid kappa              : 0.0994825935122
+dense-grid weight probe_A                 : 0.43546
+LP-vs-grid |kappa|                        : 2.266e-07
+
+----------------------------------------------------------------------------------------
+Exact observable-class identification
+----------------------------------------------------------------------------------------
+LP status                                 : Optimization terminated successfully. (HiGHS Status 7: Optimal)
+kappa                                     : 0.0532928867824
+weight[probe_A]                           : 0.210801985688
+weight[probe_B]                           : 0.789198014312
+  pair_rate('C[H]', 'C[L]') = 0.107332289019
+  pair_rate('C[H]', 'C[M]') = 0.0532928867824
+  pair_rate('C[L]', 'C[H]') = 0.107332289019
+  pair_rate('C[L]', 'C[M]') = 0.0532928867824
+  pair_rate('C[M]', 'C[H]') = 0.0532928867824
+  pair_rate('C[M]', 'C[L]') = 0.0532928867824
+independent dense-grid kappa              : 0.05329270516
+dense-grid weight probe_A                 : 0.21081
+LP-vs-grid |kappa|                        : 1.816e-07
+
+========================================================================================
+8. FIXED-CONFIDENCE THEOREM BUDGETS
+========================================================================================
+TRPC scalar n                             : 38
+TRPC integer episode allocation           : {'probe_A': 17, 'probe_B': 22}
+TRPC total episodes N                     : 39
+TRPC theorem bound                        : 0.0456295391006
+all-pairs-ID scalar n                     : 70
+all-pairs-ID integer episode allocation   : {'probe_A': 15, 'probe_B': 56}
+all-pairs-ID total episodes N             : 71
+all-pairs-ID theorem bound                : 0.0479615853254
+scalar budget ratio n_rep / n_TRPC        : 1.842105
+episode ratio N_rep / N_TRPC              : 1.820513
+
+========================================================================================
+9. EXACT FINITE MLE ERROR ENUMERATION AT TRPC THEOREM BUDGET
+========================================================================================
++------------+------------------+------------------+--------------------+---------------------+-----------+
+| true class | controller error | class-ID error   | harmful wrong mass | harmless wrong mass | tie mass  |
++------------+------------------+------------------+--------------------+---------------------+-----------+
+| C[H]       | 0.00164742597484 | 0.0248128043808  | 0.00164742597484   | 0.0231653784059     | 0.000e+00 |
+| C[L]       | 0.00371424235003 | 0.00371424235003 | 0.00371424235003   | 0                   | 0.000e+00 |
+| C[M]       | 0                | 0.0267762684261  | 0                  | 0.0267762684261     | 0.000e+00 |
++------------+------------------+------------------+--------------------+---------------------+-----------+
+max exact controller error                : 0.00371424235003
+max exact class-ID error                  : 0.0267762684261
+theorem delta target                      : 0.05
+theorem union/Hellinger bound             : 0.0456295391006
+
+----------------------------------------------------------------------------------------
+Output-controller distributions
+----------------------------------------------------------------------------------------
+C[H]: {"g_minus": 0.001647425974838961, "g_plus": 0.9983525740251604}
+C[L]: {"g_minus": 0.9962857576499757, "g_plus": 0.003714242350026925}
+C[M]: {"g_minus": 0.0011804561425099442, "g_plus": 0.9988195438574895}
+
+========================================================================================
+10. EXACT CONTROLLER-ERROR CURVE AROUND THE THEOREM BUDGET
+========================================================================================
++------+----------+----------+--------------------+------------------+------------------+
+| n/n* | scalar n | episodes | max controller err | max class-ID err | theorem bound    |
++------+----------+----------+--------------------+------------------+------------------+
+| 0.25 | 10       | 11       | 0.0791049649009    | 0.258317539178   | 0.739573935916   |
+| 0.50 | 19       | 20       | 0.026915244565     | 0.109940239211   | 0.302091175312   |
+| 0.75 | 29       | 30       | 0.0108709069119    | 0.046836765048   | 0.111709379765   |
+| 1.00 | 38       | 39       | 0.00371424235003   | 0.0267762684261  | 0.0456295391006  |
+| 1.25 | 48       | 49       | 0.00113209952716   | 0.0155219417798  | 0.0168732089133  |
+| 1.50 | 57       | 58       | 0.000407717407643  | 0.00931708786274 | 0.00689214054792 |
+| 2.00 | 76       | 77       | 4.75247878583e-05  | 0.00308236500655 | 0.00104102741927 |
++------+----------+----------+--------------------+------------------+------------------+
+
+========================================================================================
+11. ALL-PAIRS REPRESENTATION-IDENTIFICATION BASELINE
+========================================================================================
++------------+-------------------+------------------+
+| true class | controller error  | class-ID error   |
++------------+-------------------+------------------+
+| C[H]       | 1.94252055459e-05 | 0.00264562955668 |
+| C[L]       | 0.00175252905523  | 0.00175252905523 |
+| C[M]       | 0                 | 0.00438118230807 |
++------------+-------------------+------------------+
+This baseline uses the SAME MLE and controller map but allocates against every distinct class pair.
+Its stronger target is included to quantify what TRPC-0 refuses to require.
+
+========================================================================================
+12. MONTE CARLO CROSS-CHECK OF THE EXACT ENUMERATION
+========================================================================================
++------------+------------------+-------------+-----------+--------------+-----------------+
+| true class | exact ctrl err   | MC ctrl err | abs diff  | MC tolerance | MC class-ID err |
++------------+------------------+-------------+-----------+--------------+-----------------+
+| C[H]       | 0.00164742597484 | 0.00173     | 8.257e-05 | 7.255e-04    | 0.02514         |
+| C[L]       | 0.00371424235003 | 0.00365     | 6.424e-05 | 1.088e-03    | 0.00365         |
+| C[M]       | 0                | 0           | 0.000e+00 | 2.500e-05    | 0.026505        |
++------------+------------------+-------------+-----------+--------------+-----------------+
+
+========================================================================================
+13. EXACT NUISANCE-INVARIANCE SCALING TEST
+========================================================================================
++---------------------------+-------------+-----------+-----------------+----------------------------------------------------------------+-----------+
+| nuisance sizes            | full models | quotients | kappa_TRPC      | weights                                                        | invariant |
++---------------------------+-------------+-----------+-----------------+----------------------------------------------------------------+-----------+
+| [1]                       | 3           | 3         | 0.0994828201434 | {"probe_A": 0.43545351382151104, "probe_B": 0.564546486178489} | True      |
+| [1, 2]                    | 6           | 3         | 0.0994828201434 | {"probe_A": 0.43545351382151104, "probe_B": 0.564546486178489} | True      |
+| [1, 2, 4, 8]              | 12          | 3         | 0.0994828201434 | {"probe_A": 0.43545351382151104, "probe_B": 0.564546486178489} | True      |
+| [1, 2, 4, 8, 16, 64, 256] | 21          | 3         | 0.0994828201434 | {"probe_A": 0.43545351382151104, "probe_B": 0.564546486178489} | True      |
++---------------------------+-------------+-----------+-----------------+----------------------------------------------------------------+-----------+
+
+========================================================================================
+14. DELIBERATE FAILURE-MODE / DELETION TESTS
+========================================================================================
+
+----------------------------------------------------------------------------------------
+Adversarial negative tests
+----------------------------------------------------------------------------------------
+[PASS] K2 rejects an unsafe H/L representation fibre
+       G(H) intersection G(L) = []
+[PASS] Identifiability preflight rejects indistinguishable incompatible models
+       learnable=False; rejected classes=['C[BAD_H,BAD_L]']
+[PASS] Indistinguishable compatible models collapse to a zero-experiment decision
+       classes=1; global_safe=['g_invert_both', 'g_minus', 'g_plus', 'g_trust_both']
+[PASS] Observable experiment interface forces quotient refinement when needed
+       unrefined_groups=1, refined_groups=2, flagged_base_groups=1
+[PASS] Controller-readiness separation is strictly easier than all-pairs ID
+       kappa_TRPC=0.0994828201434; kappa_rep=0.0532928867824
+[PASS] K3 permits class-identification errors that are controller-harmless
+       true=C[M]; class_id_error=0.0267762684261; controller_error=0; harmless_wrong_mass=0.0267762684261
+[PASS] K1 tolerance changes adequate-answer geometry and can remove acquisition
+       G_M(eps=.09)=['g_plus']; G_M(eps=.11)=['g_invert_both', 'g_minus', 'g_plus', 'g_trust_both']; global_safe(eps=.61)=['g_invert_both', 'g_minus', 'g_plus', 'g_trust_both']
+[PASS] K4 is operative: benchmark really removes harmless pair constraints
+       harmful_pairs=3; all_pairs=6
+
+========================================================================================
+15. FINAL VALIDATION SUMMARY
+========================================================================================
+[PASS] Exact recursive predictive state agrees with brute-force enumeration
+       posterior_err=4.441e-16, predictive_err=4.441e-16
+[PASS] Task-policy values are actually computed through the recursive state
+       max_abs_error=2.776e-17
+[PASS] Task-relative quotient removes nuisance while preserving experiment factorization
+       full_models=21, quotients=3, refinements=0
+[PASS] Benchmark adequate sets match the intended overlapping answer geometry
+       H=['g_plus']; L=['g_minus']; M=['g_invert_both', 'g_minus', 'g_plus', 'g_trust_both']
+[PASS] Exact quotient certificate is uniformly sound over every full-model fibre
+       all quotient certificates are subsets of every member's G_epsilon
+[PASS] Main benchmark passes exact decision-identifiability preflight
+       bad_classes=[]
+[PASS] Hellinger LP agrees with an independent dense-grid optimization
+       TRPC diff=2.266e-07; rep diff=1.816e-07
+[PASS] Readiness rate is at least the all-pairs representation-ID rate
+       kappa_TRPC=0.0994828201434; kappa_rep=0.0532928867824
+[PASS] TRPC theorem budget satisfies requested delta
+       bound=0.0456295391006, delta=0.05
+[PASS] Exact enumerated controller error is <= theorem bound
+       exact=0.00371424235003, bound=0.0456295391006
+[PASS] Exact enumerated controller error is <= requested delta
+       exact=0.00371424235003, delta=0.05
+[PASS] Monte Carlo agrees with exact controller error for C[H]
+       diff=8.257e-05, tolerance=7.255e-04
+[PASS] Monte Carlo agrees with exact controller error for C[L]
+       diff=6.424e-05, tolerance=1.088e-03
+[PASS] Monte Carlo agrees with exact controller error for C[M]
+       diff=0.000e+00, tolerance=2.500e-05
+[PASS] TRPC-0 quotient and acquisition are exactly invariant to nuisance-class scaling
+       tested 4 nuisance model-class scales
+[PASS] K2 rejects an unsafe H/L representation fibre
+       G(H) intersection G(L) = []
+[PASS] Identifiability preflight rejects indistinguishable incompatible models
+       learnable=False; rejected classes=['C[BAD_H,BAD_L]']
+[PASS] Indistinguishable compatible models collapse to a zero-experiment decision
+       classes=1; global_safe=['g_invert_both', 'g_minus', 'g_plus', 'g_trust_both']
+[PASS] Observable experiment interface forces quotient refinement when needed
+       unrefined_groups=1, refined_groups=2, flagged_base_groups=1
+[PASS] Controller-readiness separation is strictly easier than all-pairs ID
+       kappa_TRPC=0.0994828201434; kappa_rep=0.0532928867824
+[PASS] K3 permits class-identification errors that are controller-harmless
+       true=C[M]; class_id_error=0.0267762684261; controller_error=0; harmless_wrong_mass=0.0267762684261
+[PASS] K1 tolerance changes adequate-answer geometry and can remove acquisition
+       G_M(eps=.09)=['g_plus']; G_M(eps=.11)=['g_invert_both', 'g_minus', 'g_plus', 'g_trust_both']; global_safe(eps=.61)=['g_invert_both', 'g_minus', 'g_plus', 'g_trust_both']
+[PASS] K4 is operative: benchmark really removes harmless pair constraints
+       harmful_pairs=3; all_pairs=6
+
+mandatory checks                          : 23
+passed                                    : 23
+failed                                    : 0
+elapsed_seconds                           : 19.319
+
+========================================================================================
+16. INTERPRETATION GUARDRAILS
+========================================================================================
+If every mandatory check passes, the result supports only this claim:
+  The exact finite TRPC-0 reference mechanism is internally executable on this
+  benchmark and exhibits its intended recursion, readiness, invalidator, and
+  nuisance-invariance behavior under the encoded assumptions.
+
+A pass does NOT establish:
+  - publication novelty or superiority over established decision-learning methods;
+  - learned quotient/encoder discovery;
+  - continuous-action or nonlinear-state performance;
+  - robustness to misspecification;
+  - irreversible/single-life exploration;
+  - sample efficiency outside the exact finite resettable interface.
+
+FINAL VERDICT: PASS
+The exact finite TRPC-0 reference implementation survived this validation suite.
+The next scientific question is not more finite machinery; it is which single
+assumption/axis to relax while preserving the operative K1-K4 chain.
