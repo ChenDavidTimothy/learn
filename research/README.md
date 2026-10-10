@@ -1,9 +1,15 @@
 # Research program: consequential learning mechanisms
 
+**Latest research phase (2026-10-10):** Read `STANDING_RESEARCH_STANDARD.md` and
+`REPORT_PHASE3_2026-10-10.md` first for the governing standard, scientific
+audit, independently replicated Cycles 21-23, negative controls, strongest
+available conventional baseline, and next research decision. The Cycle 01
+orientation below is retained as historical context, not current status.
+
 Last verified: 2026-10-10. Workspace: /home/dtdav/dev/learn.
 Python: /home/dtdav/dev/learn/.venv/bin/python (3.12.3).
-Status: initial formalization and controlled sanity experiments only. No novel
-learning principle, theorem of superiority, or neural-network comparison yet.
+Cycle 01 historical status: initial formalization and controlled sanity experiments
+only. The current findings and limitations are documented in the Phase III report.
 
 ## Governing question
 

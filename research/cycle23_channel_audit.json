@@ -1,0 +1,22 @@
+{
+  "pre": 960,
+  "seed_start": 98111026,
+  "replications_per_nuisance_count": 1000,
+  "counts": {
+    "3": {
+      "failed": 0,
+      "passed": 1000,
+      "first_20_failures": []
+    },
+    "7": {
+      "failed": 0,
+      "passed": 1000,
+      "first_20_failures": []
+    },
+    "11": {
+      "failed": 0,
+      "passed": 1000,
+      "first_20_failures": []
+    }
+  }
+}
