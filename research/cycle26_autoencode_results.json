@@ -1,0 +1,127 @@
+{
+  "protocol": {
+    "external_benchmark": "POPGym 1.0.6",
+    "grammarsize": 2115,
+    "expression": "index = a*t+b*W+c",
+    "a_range": [
+      -1,
+      0,
+      1
+    ],
+    "b_range": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "c_range": [
+      -70,
+      70
+    ],
+    "operator_names_not_provided_to_model": true,
+    "researcher_furnished_expression_grammar": true,
+    "actions": "uniform random in observed training trajectories",
+    "training_labels": "reward from chosen action only; no correct action or hidden state",
+    "testing": "held-out independently seeded live environment episodes",
+    "train_episodes": 60,
+    "test_episodes": 30,
+    "trials": 3
+  },
+  "results": {
+    "AutoencodeEasy": {
+      "chosen_rules": [
+        [
+          -1,
+          1,
+          50
+        ],
+        [
+          -1,
+          1,
+          50
+        ],
+        [
+          -1,
+          1,
+          50
+        ]
+      ],
+      "return_": {
+        "mean": 1.0000000000000007,
+        "SE": 0.0
+      },
+      "action_accuracy": {
+        "mean": 1.0,
+        "SE": 0.0
+      },
+      "training_seconds": {
+        "mean": 0.0696468789925954,
+        "SE": 0.0013407126924454597
+      }
+    },
+    "AutoencodeMedium": {
+      "chosen_rules": [
+        [
+          -1,
+          2,
+          -2
+        ],
+        [
+          -1,
+          2,
+          -2
+        ],
+        [
+          -1,
+          2,
+          -2
+        ]
+      ],
+      "return_": {
+        "mean": 0.9999999999999988,
+        "SE": 7.850462293418875e-17
+      },
+      "action_accuracy": {
+        "mean": 1.0,
+        "SE": 0.0
+      },
+      "training_seconds": {
+        "mean": 0.15726562700001523,
+        "SE": 0.012313993875092813
+      }
+    },
+    "AutoencodeHard": {
+      "chosen_rules": [
+        [
+          -1,
+          2,
+          -2
+        ],
+        [
+          -1,
+          2,
+          -2
+        ],
+        [
+          -1,
+          2,
+          -2
+        ]
+      ],
+      "return_": {
+        "mean": 0.9999999999999972,
+        "SE": 0.0
+      },
+      "action_accuracy": {
+        "mean": 1.0,
+        "SE": 0.0
+      },
+      "training_seconds": {
+        "mean": 0.23236923000270812,
+        "SE": 0.00254033828709331
+      }
+    }
+  },
+  "seconds": 1.459861805982655
+}

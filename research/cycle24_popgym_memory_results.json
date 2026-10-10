@@ -1,0 +1,183 @@
+{
+  "protocol": {
+    "benchmark": "POPGym 1.0.6",
+    "trials": 8,
+    "training_episodes": 350,
+    "test_episodes": 100,
+    "tasks": [
+      "RepeatFirstEasy",
+      "RepeatPreviousEasy",
+      "RepeatPreviousMedium"
+    ],
+    "max_epochs": 50,
+    "training": "uniform randomized actions; only observed actions and signed rewards; same log",
+    "prior": "first, lag1..64, mode operators pre-specified; no hidden state",
+    "model_selection": "IPS for program, validation BCE for GRU; no test tuning",
+    "baseline_cost": "GRU training more costly; not compute matched"
+  },
+  "tasks": {
+    "RepeatFirstEasy": {
+      "program": {
+        "return": {
+          "mean": 1.0000000000000004,
+          "SE": 0.0
+        },
+        "action_accuracy": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "fit_seconds": {
+          "mean": 0.2266937694985245,
+          "SE": 0.0002667205276274155
+        }
+      },
+      "gru": {
+        "return": {
+          "mean": 0.9798039215686278,
+          "SE": 0.01573033029029927
+        },
+        "action_accuracy": {
+          "mean": 0.9899019607843137,
+          "SE": 0.007865165145149643
+        },
+        "fit_seconds": {
+          "mean": 3.390148908998526,
+          "SE": 0.11851545143386069
+        }
+      },
+      "table": {
+        "return": {
+          "mean": -0.48034313725490224,
+          "SE": 0.033533214970962594
+        },
+        "action_accuracy": {
+          "mean": 0.259828431372549,
+          "SE": 0.016766607485481293
+        },
+        "fit_seconds": {
+          "mean": 0.2266937694985245,
+          "SE": 0.0002667205276274155
+        }
+      },
+      "selected_programs": [
+        "first",
+        "first",
+        "first",
+        "first",
+        "first",
+        "first",
+        "first",
+        "first"
+      ]
+    },
+    "RepeatPreviousEasy": {
+      "program": {
+        "return": {
+          "mean": 1.0000000000000004,
+          "SE": 0.0
+        },
+        "action_accuracy": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "fit_seconds": {
+          "mean": 0.23130615500485874,
+          "SE": 0.0005323796852648263
+        }
+      },
+      "gru": {
+        "return": {
+          "mean": 1.0000000000000004,
+          "SE": 0.0
+        },
+        "action_accuracy": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "fit_seconds": {
+          "mean": 3.26888830187454,
+          "SE": 0.0018607843827363195
+        }
+      },
+      "table": {
+        "return": {
+          "mean": -0.4945312499999999,
+          "SE": 0.004782883707816869
+        },
+        "action_accuracy": {
+          "mean": 0.25273437499999996,
+          "SE": 0.002391441853908436
+        },
+        "fit_seconds": {
+          "mean": 0.23130615500485874,
+          "SE": 0.0005323796852648263
+        }
+      },
+      "selected_programs": [
+        "lag4",
+        "lag4",
+        "lag4",
+        "lag4",
+        "lag4",
+        "lag4",
+        "lag4",
+        "lag4"
+      ]
+    },
+    "RepeatPreviousMedium": {
+      "program": {
+        "return": {
+          "mean": 0.9999999999999984,
+          "SE": 0.0
+        },
+        "action_accuracy": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "fit_seconds": {
+          "mean": 0.4341873576231592,
+          "SE": 0.001811514865977103
+        }
+      },
+      "gru": {
+        "return": {
+          "mean": -0.4927430555555556,
+          "SE": 0.0034684255035946645
+        },
+        "action_accuracy": {
+          "mean": 0.2536284722222222,
+          "SE": 0.0017342127517973346
+        },
+        "fit_seconds": {
+          "mean": 1.82206074237547,
+          "SE": 0.11599830684378201
+        }
+      },
+      "table": {
+        "return": {
+          "mean": -0.5063194444444444,
+          "SE": 0.004510224397761806
+        },
+        "action_accuracy": {
+          "mean": 0.24684027777777778,
+          "SE": 0.002255112198880899
+        },
+        "fit_seconds": {
+          "mean": 0.4341873576231592,
+          "SE": 0.001811514865977103
+        }
+      },
+      "selected_programs": [
+        "lag32",
+        "lag32",
+        "lag32",
+        "lag32",
+        "lag32",
+        "lag32",
+        "lag32",
+        "lag32"
+      ]
+    }
+  },
+  "runtime_seconds": 84.58310363002238
+}

@@ -1,15 +1,15 @@
 # Research program: consequential learning mechanisms
 
-**Latest research phase (2026-10-10):** Read `STANDING_RESEARCH_STANDARD.md` and
-`REPORT_PHASE3_2026-10-10.md` first for the governing standard, scientific
-audit, independently replicated Cycles 21-23, negative controls, strongest
-available conventional baseline, and next research decision. The Cycle 01
-orientation below is retained as historical context, not current status.
+**Latest research phase (2026-10-10):** Read `STANDING_RESEARCH_STANDARD.md`,
+`REPORT_PHASE4_2026-10-10.md`, then `REPORT_PHASE3_2026-10-10.md` for the
+current research decision, independent external POPGym studies (Cycles 24-31),
+identifiability and active experimentation controls, and the prior HMM baseline
+audit (Cycles 21-23). The Cycle 01 orientation below is historical context.
 
 Last verified: 2026-10-10. Workspace: /home/dtdav/dev/learn.
 Python: /home/dtdav/dev/learn/.venv/bin/python (3.12.3).
 Cycle 01 historical status: initial formalization and controlled sanity experiments
-only. The current findings and limitations are documented in the Phase III report.
+only. The current findings and limitations are documented in Phase IV and III reports.
 
 ## Governing question
 
