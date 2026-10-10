@@ -1,0 +1,251 @@
+{
+  "protocol": {
+    "suite": "native POPGym Arcade 0.0.6 pixel renderers",
+    "tasks": [
+      "NoisyCartPoleEasy",
+      "NavigatorEasy",
+      "BattleShipEasy",
+      "CountRecallEasy",
+      "MineSweeperEasy",
+      "SkittlesEasy",
+      "TetrisEasy",
+      "BreakoutEasy"
+    ],
+    "train_actors": 4,
+    "train_steps": 16,
+    "test_actors": 4,
+    "test_steps": 16,
+    "selection": "random-action source/test histories, independent seeds",
+    "measurement": "conditional pixel color reconstruction; not task return",
+    "source_model": "simple discrete conditional source color LUT",
+    "not_general": "observed random-action support only; no rare control states guarantee",
+    "no_novel_algorithm": true
+  },
+  "tasks": {
+    "NoisyCartPoleEasy": {
+      "training_RGB_pixel_samples": 1048576,
+      "holdout_RGB_pixel_samples": 1048576,
+      "unique_source_colors": 9,
+      "per_missing_channel": {
+        "0": {
+          "source_distinct_survivor_pairs": 9,
+          "holdout_RMSE": 0.02108384742050893,
+          "holdout_channel_SD": 16.045015335083008,
+          "relative_RMSE": 0.0013140434571233056,
+          "within_1_intensity_accuracy": 0.9998588562011719
+        },
+        "1": {
+          "source_distinct_survivor_pairs": 9,
+          "holdout_RMSE": 0.0396540428194023,
+          "holdout_channel_SD": 30.85120391845703,
+          "relative_RMSE": 0.0012853321032207398,
+          "within_1_intensity_accuracy": 0.9996471405029297
+        },
+        "2": {
+          "source_distinct_survivor_pairs": 9,
+          "holdout_RMSE": 0.027500650707577304,
+          "holdout_channel_SD": 32.93408966064453,
+          "relative_RMSE": 0.0008350208246514838,
+          "within_1_intensity_accuracy": 0.9997482299804688
+        }
+      }
+    },
+    "NavigatorEasy": {
+      "training_RGB_pixel_samples": 1048576,
+      "holdout_RGB_pixel_samples": 1048576,
+      "unique_source_colors": 8,
+      "per_missing_channel": {
+        "0": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 7.7073659959291385,
+          "holdout_channel_SD": 53.63479995727539,
+          "relative_RMSE": 0.14370084352078688,
+          "within_1_intensity_accuracy": 0.6900053024291992
+        },
+        "1": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 4.31654565980293,
+          "holdout_channel_SD": 58.6470947265625,
+          "relative_RMSE": 0.07360203740574853,
+          "within_1_intensity_accuracy": 0.21864032745361328
+        },
+        "2": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 17.687100348198467,
+          "holdout_channel_SD": 50.09791946411133,
+          "relative_RMSE": 0.3530505964597788,
+          "within_1_intensity_accuracy": 0.8160562515258789
+        }
+      }
+    },
+    "BattleShipEasy": {
+      "training_RGB_pixel_samples": 1048576,
+      "holdout_RGB_pixel_samples": 1048576,
+      "unique_source_colors": 8,
+      "per_missing_channel": {
+        "0": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 1.4752794460751018,
+          "holdout_channel_SD": 60.63563537597656,
+          "relative_RMSE": 0.024330238100541083,
+          "within_1_intensity_accuracy": 0.9997158050537109
+        },
+        "1": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 0.7288759631647981,
+          "holdout_channel_SD": 56.287757873535156,
+          "relative_RMSE": 0.012949102801401404,
+          "within_1_intensity_accuracy": 0.9960536956787109
+        },
+        "2": {
+          "source_distinct_survivor_pairs": 8,
+          "holdout_RMSE": 0.04565966314207876,
+          "holdout_channel_SD": 59.02815628051758,
+          "relative_RMSE": 0.0007735234508272939,
+          "within_1_intensity_accuracy": 0.9997158050537109
+        }
+      }
+    },
+    "CountRecallEasy": {
+      "training_RGB_pixel_samples": 1048576,
+      "holdout_RGB_pixel_samples": 1048576,
+      "unique_source_colors": 7,
+      "per_missing_channel": {
+        "0": {
+          "source_distinct_survivor_pairs": 6,
+          "holdout_RMSE": 11.329322726038965,
+          "holdout_channel_SD": 50.15563201904297,
+          "relative_RMSE": 0.225883360850432,
+          "within_1_intensity_accuracy": 0.9919261932373047
+        },
+        "1": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 0.010246002036014766,
+          "holdout_channel_SD": 38.425716400146484,
+          "relative_RMSE": 0.00026664439848870863,
+          "within_1_intensity_accuracy": 1.0
+        },
+        "2": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 0.011387077789077956,
+          "holdout_channel_SD": 30.981060028076172,
+          "relative_RMSE": 0.00036754965061746014,
+          "within_1_intensity_accuracy": 1.0
+        }
+      }
+    },
+    "MineSweeperEasy": {
+      "training_RGB_pixel_samples": 1048576,
+      "holdout_RGB_pixel_samples": 1048576,
+      "unique_source_colors": 7,
+      "per_missing_channel": {
+        "0": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 0.006983292694393365,
+          "holdout_channel_SD": 108.83245086669922,
+          "relative_RMSE": 6.416553738137057e-05,
+          "within_1_intensity_accuracy": 1.0
+        },
+        "1": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 0.007545111750892721,
+          "holdout_channel_SD": 107.24473571777344,
+          "relative_RMSE": 7.03541455941346e-05,
+          "within_1_intensity_accuracy": 1.0
+        },
+        "2": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 0.00717340591013294,
+          "holdout_channel_SD": 111.7374496459961,
+          "relative_RMSE": 6.41987617657245e-05,
+          "within_1_intensity_accuracy": 1.0
+        }
+      }
+    },
+    "SkittlesEasy": {
+      "training_RGB_pixel_samples": 1048576,
+      "holdout_RGB_pixel_samples": 1048576,
+      "unique_source_colors": 11,
+      "per_missing_channel": {
+        "0": {
+          "source_distinct_survivor_pairs": 9,
+          "holdout_RMSE": 6.865492083047466,
+          "holdout_channel_SD": 44.045082092285156,
+          "relative_RMSE": 0.1558742033596984,
+          "within_1_intensity_accuracy": 0.9979438781738281
+        },
+        "1": {
+          "source_distinct_survivor_pairs": 7,
+          "holdout_RMSE": 9.884166681011026,
+          "holdout_channel_SD": 45.149452209472656,
+          "relative_RMSE": 0.2189210764984046,
+          "within_1_intensity_accuracy": 0.9714527130126953
+        },
+        "2": {
+          "source_distinct_survivor_pairs": 8,
+          "holdout_RMSE": 10.648347242056458,
+          "holdout_channel_SD": 19.717472076416016,
+          "relative_RMSE": 0.5400462696631837,
+          "within_1_intensity_accuracy": 0.9905195236206055
+        }
+      }
+    },
+    "TetrisEasy": {
+      "training_RGB_pixel_samples": 1048576,
+      "holdout_RGB_pixel_samples": 1048576,
+      "unique_source_colors": 11,
+      "per_missing_channel": {
+        "0": {
+          "source_distinct_survivor_pairs": 10,
+          "holdout_RMSE": 5.006336053318865,
+          "holdout_channel_SD": 73.28865814208984,
+          "relative_RMSE": 0.06830983374825517,
+          "within_1_intensity_accuracy": 0.999420166015625
+        },
+        "1": {
+          "source_distinct_survivor_pairs": 11,
+          "holdout_RMSE": 0.024162502197486828,
+          "holdout_channel_SD": 72.29442596435547,
+          "relative_RMSE": 0.00033422358467027696,
+          "within_1_intensity_accuracy": 1.0
+        },
+        "2": {
+          "source_distinct_survivor_pairs": 10,
+          "holdout_RMSE": 23.892515398793975,
+          "holdout_channel_SD": 67.02824401855469,
+          "relative_RMSE": 0.3564544431774175,
+          "within_1_intensity_accuracy": 0.964599609375
+        }
+      }
+    },
+    "BreakoutEasy": {
+      "training_RGB_pixel_samples": 1048576,
+      "holdout_RGB_pixel_samples": 1048576,
+      "unique_source_colors": 10,
+      "per_missing_channel": {
+        "0": {
+          "source_distinct_survivor_pairs": 10,
+          "holdout_RMSE": 0.007033123887777227,
+          "holdout_channel_SD": 79.41386413574219,
+          "relative_RMSE": 8.85629224105693e-05,
+          "within_1_intensity_accuracy": 1.0
+        },
+        "1": {
+          "source_distinct_survivor_pairs": 10,
+          "holdout_RMSE": 0.0032831580498828166,
+          "holdout_channel_SD": 72.4918212890625,
+          "relative_RMSE": 4.529004778057875e-05,
+          "within_1_intensity_accuracy": 1.0
+        },
+        "2": {
+          "source_distinct_survivor_pairs": 10,
+          "holdout_RMSE": 0.0017952613856625256,
+          "holdout_channel_SD": 61.48073196411133,
+          "relative_RMSE": 2.920039056643777e-05,
+          "within_1_intensity_accuracy": 1.0
+        }
+      }
+    }
+  },
+  "seconds": 55.15928599698236
+}

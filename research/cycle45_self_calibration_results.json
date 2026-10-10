@@ -1,0 +1,519 @@
+{
+  "protocol": {
+    "environment": "genuine action-dependent controlled two-state Markov model",
+    "source": "pre-shift collected sensor/action histories and randomized reward for convention orientation",
+    "source_len": 7000,
+    "post_probe_steps": 64,
+    "test_episodes_per_seed": 32,
+    "source_seeds": 256,
+    "sensor_noise": 0.12,
+    "binary_actions": 2,
+    "nuisance_rate_pre": 0.2,
+    "nuisance_rate_drift": 0.8,
+    "post_test_feedback": "terminal reward only, no reward during sensor-only probes",
+    "privileged_oracle": "knows true inversion",
+    "reward_calibration": "uses 3 EXTRA action reward readouts on diagnostic steps, not available to other methods",
+    "known_candidate_model_family": "normal vs globally inverted observations; no unknown transformation construction",
+    "possible_shift": "sensor inversion, nuisance-only, or action transition swap",
+    "no_general_novel_algorithm": true
+  },
+  "conditions": {
+    "asymmetric__sensor_invert0__nuisance_drift0": {
+      "no_adapt": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.88330078125,
+          "SE": 0.0035615731612621874
+        }
+      },
+      "unconditional": {
+        "polarity_correct": {
+          "mean": 0.5042724609375,
+          "SE": 0.005822513293251113
+        },
+        "decision_reward": {
+          "mean": 0.5052490234375,
+          "SE": 0.005488651724429341
+        }
+      },
+      "action_mean": {
+        "polarity_correct": {
+          "mean": 0.8759765625,
+          "SE": 0.003510408541420893
+        },
+        "decision_reward": {
+          "mean": 0.7900390625,
+          "SE": 0.004341123411289238
+        }
+      },
+      "pair_model": {
+        "polarity_correct": {
+          "mean": 0.8875732421875,
+          "SE": 0.0034061773449909774
+        },
+        "decision_reward": {
+          "mean": 0.7982177734375,
+          "SE": 0.00425019088677228
+        }
+      },
+      "reward_calibrate": {
+        "polarity_correct": {
+          "mean": 0.95947265625,
+          "SE": 0.0021860137934265915
+        },
+        "decision_reward": {
+          "mean": 0.852783203125,
+          "SE": 0.004090714556744905
+        }
+      },
+      "oracle": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.88330078125,
+          "SE": 0.0035615731612621874
+        }
+      }
+    },
+    "asymmetric__sensor_invert1__nuisance_drift0": {
+      "no_adapt": {
+        "polarity_correct": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.12890625,
+          "SE": 0.003805376461305097
+        }
+      },
+      "unconditional": {
+        "polarity_correct": {
+          "mean": 0.496826171875,
+          "SE": 0.006003586058976019
+        },
+        "decision_reward": {
+          "mean": 0.4931640625,
+          "SE": 0.005757319456036571
+        }
+      },
+      "action_mean": {
+        "polarity_correct": {
+          "mean": 0.8870849609375,
+          "SE": 0.0035590044869467023
+        },
+        "decision_reward": {
+          "mean": 0.7952880859375,
+          "SE": 0.0043196876662955665
+        }
+      },
+      "pair_model": {
+        "polarity_correct": {
+          "mean": 0.897216796875,
+          "SE": 0.0033908828633160354
+        },
+        "decision_reward": {
+          "mean": 0.802978515625,
+          "SE": 0.004324696816621666
+        }
+      },
+      "reward_calibrate": {
+        "polarity_correct": {
+          "mean": 0.962158203125,
+          "SE": 0.0021064559696428687
+        },
+        "decision_reward": {
+          "mean": 0.8447265625,
+          "SE": 0.004183179261188155
+        }
+      },
+      "oracle": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.87109375,
+          "SE": 0.003805376461305097
+        }
+      }
+    },
+    "asymmetric__sensor_invert0__nuisance_drift1": {
+      "no_adapt": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.8853759765625,
+          "SE": 0.003735501742103087
+        }
+      },
+      "unconditional": {
+        "polarity_correct": {
+          "mean": 0.50146484375,
+          "SE": 0.006676165414705668
+        },
+        "decision_reward": {
+          "mean": 0.4976806640625,
+          "SE": 0.005941255206702964
+        }
+      },
+      "action_mean": {
+        "polarity_correct": {
+          "mean": 0.87890625,
+          "SE": 0.003657031559252346
+        },
+        "decision_reward": {
+          "mean": 0.7911376953125,
+          "SE": 0.004459468128107216
+        }
+      },
+      "pair_model": {
+        "polarity_correct": {
+          "mean": 0.890625,
+          "SE": 0.0034723817875917705
+        },
+        "decision_reward": {
+          "mean": 0.8023681640625,
+          "SE": 0.0043760288321752685
+        }
+      },
+      "reward_calibrate": {
+        "polarity_correct": {
+          "mean": 0.9581298828125,
+          "SE": 0.002219953567155414
+        },
+        "decision_reward": {
+          "mean": 0.8525390625,
+          "SE": 0.004118305869518576
+        }
+      },
+      "oracle": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.8853759765625,
+          "SE": 0.003735501742103087
+        }
+      }
+    },
+    "asymmetric__sensor_invert1__nuisance_drift1": {
+      "no_adapt": {
+        "polarity_correct": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.1195068359375,
+          "SE": 0.0034617887456490307
+        }
+      },
+      "unconditional": {
+        "polarity_correct": {
+          "mean": 0.497802734375,
+          "SE": 0.006148083301282012
+        },
+        "decision_reward": {
+          "mean": 0.4979248046875,
+          "SE": 0.005860486891221483
+        }
+      },
+      "action_mean": {
+        "polarity_correct": {
+          "mean": 0.87841796875,
+          "SE": 0.0035970983492343935
+        },
+        "decision_reward": {
+          "mean": 0.7884521484375,
+          "SE": 0.004429226876651536
+        }
+      },
+      "pair_model": {
+        "polarity_correct": {
+          "mean": 0.8895263671875,
+          "SE": 0.003800820636124313
+        },
+        "decision_reward": {
+          "mean": 0.796630859375,
+          "SE": 0.004569831926444545
+        }
+      },
+      "reward_calibrate": {
+        "polarity_correct": {
+          "mean": 0.956298828125,
+          "SE": 0.0023314608853271857
+        },
+        "decision_reward": {
+          "mean": 0.8477783203125,
+          "SE": 0.004065286765100594
+        }
+      },
+      "oracle": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.8804931640625,
+          "SE": 0.0034617887456490307
+        }
+      }
+    },
+    "symmetric__sensor_invert0__nuisance_drift0": {
+      "no_adapt": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.874267578125,
+          "SE": 0.003709545208936694
+        }
+      },
+      "unconditional": {
+        "polarity_correct": {
+          "mean": 0.50341796875,
+          "SE": 0.005947983878106249
+        },
+        "decision_reward": {
+          "mean": 0.5,
+          "SE": 0.005863203406158215
+        }
+      },
+      "action_mean": {
+        "polarity_correct": {
+          "mean": 0.4976806640625,
+          "SE": 0.005591012628205074
+        },
+        "decision_reward": {
+          "mean": 0.4925537109375,
+          "SE": 0.00555998934579432
+        }
+      },
+      "pair_model": {
+        "polarity_correct": {
+          "mean": 0.5035400390625,
+          "SE": 0.005631170399836216
+        },
+        "decision_reward": {
+          "mean": 0.4981689453125,
+          "SE": 0.00569773088732054
+        }
+      },
+      "reward_calibrate": {
+        "polarity_correct": {
+          "mean": 0.9644775390625,
+          "SE": 0.0022360052356952377
+        },
+        "decision_reward": {
+          "mean": 0.8497314453125,
+          "SE": 0.0040889071028116205
+        }
+      },
+      "oracle": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.874267578125,
+          "SE": 0.003709545208936694
+        }
+      }
+    },
+    "symmetric__sensor_invert1__nuisance_drift0": {
+      "no_adapt": {
+        "polarity_correct": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.1248779296875,
+          "SE": 0.00351731835101613
+        }
+      },
+      "unconditional": {
+        "polarity_correct": {
+          "mean": 0.4854736328125,
+          "SE": 0.006886014054638903
+        },
+        "decision_reward": {
+          "mean": 0.486572265625,
+          "SE": 0.0064450622618813565
+        }
+      },
+      "action_mean": {
+        "polarity_correct": {
+          "mean": 0.492919921875,
+          "SE": 0.005761357679935567
+        },
+        "decision_reward": {
+          "mean": 0.4937744140625,
+          "SE": 0.0059251817329001675
+        }
+      },
+      "pair_model": {
+        "polarity_correct": {
+          "mean": 0.49072265625,
+          "SE": 0.0053919423242548255
+        },
+        "decision_reward": {
+          "mean": 0.4935302734375,
+          "SE": 0.005610294234010372
+        }
+      },
+      "reward_calibrate": {
+        "polarity_correct": {
+          "mean": 0.96337890625,
+          "SE": 0.0020915896305940774
+        },
+        "decision_reward": {
+          "mean": 0.8497314453125,
+          "SE": 0.003652162694388239
+        }
+      },
+      "oracle": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.8751220703125,
+          "SE": 0.00351731835101613
+        }
+      }
+    },
+    "action_swap__sensor_invert0__nuisance_drift0": {
+      "no_adapt": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.8790283203125,
+          "SE": 0.0037633681905344537
+        }
+      },
+      "unconditional": {
+        "polarity_correct": {
+          "mean": 0.5106201171875,
+          "SE": 0.005847150229576611
+        },
+        "decision_reward": {
+          "mean": 0.50537109375,
+          "SE": 0.0057918875651207045
+        }
+      },
+      "action_mean": {
+        "polarity_correct": {
+          "mean": 0.1158447265625,
+          "SE": 0.0036345196805809598
+        },
+        "decision_reward": {
+          "mean": 0.208984375,
+          "SE": 0.004377584255139538
+        }
+      },
+      "pair_model": {
+        "polarity_correct": {
+          "mean": 0.1063232421875,
+          "SE": 0.0034886256314046525
+        },
+        "decision_reward": {
+          "mean": 0.198486328125,
+          "SE": 0.00445777086453591
+        }
+      },
+      "reward_calibrate": {
+        "polarity_correct": {
+          "mean": 0.9595947265625,
+          "SE": 0.0022185843468293036
+        },
+        "decision_reward": {
+          "mean": 0.850341796875,
+          "SE": 0.004105316353428253
+        }
+      },
+      "oracle": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.8790283203125,
+          "SE": 0.0037633681905344537
+        }
+      }
+    },
+    "action_swap__sensor_invert1__nuisance_drift0": {
+      "no_adapt": {
+        "polarity_correct": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.1151123046875,
+          "SE": 0.003518115721705991
+        }
+      },
+      "unconditional": {
+        "polarity_correct": {
+          "mean": 0.4964599609375,
+          "SE": 0.005433781270207446
+        },
+        "decision_reward": {
+          "mean": 0.49609375,
+          "SE": 0.00552697904096263
+        }
+      },
+      "action_mean": {
+        "polarity_correct": {
+          "mean": 0.1187744140625,
+          "SE": 0.003687258861158632
+        },
+        "decision_reward": {
+          "mean": 0.200927734375,
+          "SE": 0.0041920821763331605
+        }
+      },
+      "pair_model": {
+        "polarity_correct": {
+          "mean": 0.101318359375,
+          "SE": 0.0034615608545125317
+        },
+        "decision_reward": {
+          "mean": 0.1864013671875,
+          "SE": 0.004255741862755828
+        }
+      },
+      "reward_calibrate": {
+        "polarity_correct": {
+          "mean": 0.9603271484375,
+          "SE": 0.002236632365525576
+        },
+        "decision_reward": {
+          "mean": 0.85498046875,
+          "SE": 0.004010066324798804
+        }
+      },
+      "oracle": {
+        "polarity_correct": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "decision_reward": {
+          "mean": 0.8848876953125,
+          "SE": 0.003518115721705991
+        }
+      }
+    }
+  },
+  "runtime_seconds": 38.93179369598511
+}

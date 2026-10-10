@@ -1,0 +1,927 @@
+{
+  "protocol": {
+    "source": "native action-dependent POPGym Arcade 0.0.6",
+    "task": "NoisyCartPoleEasy",
+    "training": "authors official PQN, no learning update modifications",
+    "source_train_steps": 65536,
+    "calibration_steps_per_domain": 512,
+    "calibration_rewards_used": false,
+    "eval_envs": 32,
+    "eval_steps": 512,
+    "training_seeds": 3,
+    "source_shift_candidate_family": "signed RGB channel permutation, per-channel affine transform, 48 structural choices + estimated scale/offset",
+    "selection": "unlabeled source-vs-target spatial mean template + skewness mismatch, fixed coefficient 0.25; no reward/test tuning",
+    "reference": "identity raw policy, ordinary per-channel moments, privileged exact shift inverse",
+    "no_shift_class_supplied_to_selector": true,
+    "candidate_transform_group_researcher_supplied": true,
+    "irrecoverable_negative_control": "channel erased cannot be reconstructed from RGB image alone",
+    "novelty": "established image standardization/group alignment, no new algorithm",
+    "external_shift": "artificial after native simulator render; NOT authors nonstationary benchmark"
+  },
+  "runs": [
+    {
+      "seed": 49111026,
+      "training_seconds": 26.567066281015286,
+      "cases": {
+        "identity": {
+          "selected_transform": {
+            "fit_objective": 0.008261359956789218,
+            "permutation": [
+              0,
+              1,
+              2
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "spatial_loss": 0.008226143567359134,
+            "skew_loss": 0.0001408655577203414,
+            "source_mean": [
+              52.730316162109375,
+              57.12058639526367,
+              57.331459045410156
+            ],
+            "source_sd": [
+              15.929471015930176,
+              31.354570388793945,
+              33.011268615722656
+            ],
+            "target_mean": [
+              52.793270111083984,
+              57.055538177490234,
+              57.32368087768555
+            ],
+            "target_sd": [
+              16.130752563476562,
+              31.128992080688477,
+              33.01213073730469
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 78,
+              "mean_completed_episode_return": 0.8520506024360657,
+              "mean_step_reward": 0.004976196214556694
+            },
+            "moments": {
+              "completed_episodes": 78,
+              "mean_completed_episode_return": 0.8512814044952393,
+              "mean_step_reward": 0.004976196214556694
+            },
+            "oracle_restore": {
+              "completed_episodes": 78,
+              "mean_completed_episode_return": 0.8520506024360657,
+              "mean_step_reward": 0.004976196214556694
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 78,
+              "mean_completed_episode_return": 0.8512814044952393,
+              "mean_step_reward": 0.004976196214556694
+            }
+          }
+        },
+        "invert_rgb": {
+          "selected_transform": {
+            "fit_objective": 0.0005895852786836914,
+            "permutation": [
+              0,
+              1,
+              2
+            ],
+            "signs": [
+              -1,
+              -1,
+              -1
+            ],
+            "spatial_loss": 0.00040753693281122237,
+            "skew_loss": 0.0007281933834898761,
+            "source_mean": [
+              52.730316162109375,
+              57.12058639526367,
+              57.331459045410156
+            ],
+            "source_sd": [
+              15.929471015930176,
+              31.354570388793945,
+              33.011268615722656
+            ],
+            "target_mean": [
+              202.28245544433594,
+              197.90562438964844,
+              197.6859588623047
+            ],
+            "target_sd": [
+              15.828672409057617,
+              31.28523063659668,
+              32.98792266845703
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 1427,
+              "mean_completed_episode_return": 0.051786962896585464,
+              "mean_step_reward": 0.004564513452351093
+            },
+            "moments": {
+              "completed_episodes": 1569,
+              "mean_completed_episode_return": 0.04671764746308327,
+              "mean_step_reward": 0.004521179012954235
+            },
+            "oracle_restore": {
+              "completed_episodes": 78,
+              "mean_completed_episode_return": 0.8520506024360657,
+              "mean_step_reward": 0.004976196214556694
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.8585058450698853,
+              "mean_step_reward": 0.004976501222699881
+            }
+          }
+        },
+        "brighten_48": {
+          "selected_transform": {
+            "fit_objective": 0.014702273239540299,
+            "permutation": [
+              0,
+              1,
+              2
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "spatial_loss": 0.007327284896452492,
+            "skew_loss": 0.02949995337235123,
+            "source_mean": [
+              52.730316162109375,
+              57.12058639526367,
+              57.331459045410156
+            ],
+            "source_sd": [
+              15.929471015930176,
+              31.354570388793945,
+              33.011268615722656
+            ],
+            "target_mean": [
+              100.68309783935547,
+              104.6827392578125,
+              104.36165618896484
+            ],
+            "target_sd": [
+              15.28882122039795,
+              29.032865524291992,
+              27.62715721130371
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 462,
+              "mean_completed_episode_return": 0.16501079499721527,
+              "mean_step_reward": 0.004859008826315403
+            },
+            "moments": {
+              "completed_episodes": 82,
+              "mean_completed_episode_return": 0.8199993968009949,
+              "mean_step_reward": 0.004974975250661373
+            },
+            "oracle_restore": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.843895435333252,
+              "mean_step_reward": 0.004976501222699881
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 82,
+              "mean_completed_episode_return": 0.8199993968009949,
+              "mean_step_reward": 0.004974975250661373
+            }
+          }
+        },
+        "permute_rgb": {
+          "selected_transform": {
+            "fit_objective": 0.0012124143407576035,
+            "permutation": [
+              1,
+              2,
+              0
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "spatial_loss": 0.0011693216276773381,
+            "skew_loss": 0.00017237085232106134,
+            "source_mean": [
+              52.730316162109375,
+              57.12058639526367,
+              57.331459045410156
+            ],
+            "source_sd": [
+              15.929471015930176,
+              31.354570388793945,
+              33.011268615722656
+            ],
+            "target_mean": [
+              57.321353912353516,
+              52.785064697265625,
+              57.054710388183594
+            ],
+            "target_sd": [
+              33.01366424560547,
+              16.078876495361328,
+              31.130470275878906
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 90,
+              "mean_completed_episode_return": 0.7512217164039612,
+              "mean_step_reward": 0.004972534254193306
+            },
+            "moments": {
+              "completed_episodes": 100,
+              "mean_completed_episode_return": 0.6999495029449463,
+              "mean_step_reward": 0.004969482310116291
+            },
+            "oracle_restore": {
+              "completed_episodes": 78,
+              "mean_completed_episode_return": 0.8520506024360657,
+              "mean_step_reward": 0.004976196214556694
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 78,
+              "mean_completed_episode_return": 0.8484609723091125,
+              "mean_step_reward": 0.004976196214556694
+            }
+          }
+        },
+        "erase_blue": {
+          "selected_transform": {
+            "fit_objective": 2.405817018192675,
+            "permutation": [
+              0,
+              2,
+              1
+            ],
+            "signs": [
+              1,
+              -1,
+              1
+            ],
+            "spatial_loss": 0.3046430633356763,
+            "skew_loss": 8.404695819427994,
+            "source_mean": [
+              52.730316162109375,
+              57.12058639526367,
+              57.331459045410156
+            ],
+            "source_sd": [
+              15.929471015930176,
+              31.354570388793945,
+              33.011268615722656
+            ],
+            "target_mean": [
+              52.72453689575195,
+              57.07427978515625,
+              0.0
+            ],
+            "target_sd": [
+              15.826335906982422,
+              31.222373962402344,
+              0.03162277862429619
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 1569,
+              "mean_completed_episode_return": 0.04671764746308327,
+              "mean_step_reward": 0.004521179012954235
+            },
+            "moments": {
+              "completed_episodes": 1569,
+              "mean_completed_episode_return": 0.04671764746308327,
+              "mean_step_reward": 0.004521179012954235
+            },
+            "oracle_restore": {
+              "completed_episodes": 1569,
+              "mean_completed_episode_return": 0.04671764746308327,
+              "mean_step_reward": 0.004521179012954235
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 296,
+              "mean_completed_episode_return": 0.2541046142578125,
+              "mean_step_reward": 0.004909667652100325
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 49132157,
+      "training_seconds": 23.423996922007063,
+      "cases": {
+        "identity": {
+          "selected_transform": {
+            "fit_objective": 0.0019584864970758347,
+            "permutation": [
+              0,
+              1,
+              2
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "spatial_loss": 0.0018972544193825347,
+            "skew_loss": 0.0002449283107731996,
+            "source_mean": [
+              52.71928787231445,
+              57.119178771972656,
+              57.32745361328125
+            ],
+            "source_sd": [
+              15.86620044708252,
+              31.356117248535156,
+              33.00840377807617
+            ],
+            "target_mean": [
+              52.770050048828125,
+              57.09156036376953,
+              57.33243179321289
+            ],
+            "target_sd": [
+              16.074260711669922,
+              31.247453689575195,
+              33.01921463012695
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.8643499612808228,
+              "mean_step_reward": 0.004976501222699881
+            },
+            "moments": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.8637006878852844,
+              "mean_step_reward": 0.004976501688361168
+            },
+            "oracle_restore": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.8643499612808228,
+              "mean_step_reward": 0.004976501222699881
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.8637006878852844,
+              "mean_step_reward": 0.004976501688361168
+            }
+          }
+        },
+        "invert_rgb": {
+          "selected_transform": {
+            "fit_objective": 0.0008247091470920278,
+            "permutation": [
+              0,
+              1,
+              2
+            ],
+            "signs": [
+              -1,
+              -1,
+              -1
+            ],
+            "spatial_loss": 0.0006782725282339429,
+            "skew_loss": 0.0005857464754323397,
+            "source_mean": [
+              52.71928787231445,
+              57.119178771972656,
+              57.32745361328125
+            ],
+            "source_sd": [
+              15.86620044708252,
+              31.356117248535156,
+              33.00840377807617
+            ],
+            "target_mean": [
+              202.3174285888672,
+              197.88168334960938,
+              197.68699645996094
+            ],
+            "target_sd": [
+              15.690611839294434,
+              31.37462615966797,
+              32.98318862915039
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 397,
+              "mean_completed_episode_return": 0.19294707477092743,
+              "mean_step_reward": 0.004878845065832138
+            },
+            "moments": {
+              "completed_episodes": 381,
+              "mean_completed_episode_return": 0.2026246190071106,
+              "mean_step_reward": 0.004883727990090847
+            },
+            "oracle_restore": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.8643499612808228,
+              "mean_step_reward": 0.004976501222699881
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.8631162643432617,
+              "mean_step_reward": 0.004976501222699881
+            }
+          }
+        },
+        "brighten_48": {
+          "selected_transform": {
+            "fit_objective": 0.015536186218217254,
+            "permutation": [
+              0,
+              1,
+              2
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "spatial_loss": 0.0066740932922605455,
+            "skew_loss": 0.03544837170382683,
+            "source_mean": [
+              52.71928787231445,
+              57.119178771972656,
+              57.32745361328125
+            ],
+            "source_sd": [
+              15.86620044708252,
+              31.356117248535156,
+              33.00840377807617
+            ],
+            "target_mean": [
+              100.71331787109375,
+              104.67312622070312,
+              104.36698913574219
+            ],
+            "target_sd": [
+              15.382461547851562,
+              29.003568649291992,
+              27.650617599487305
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 1446,
+              "mean_completed_episode_return": 0.050978560000658035,
+              "mean_step_reward": 0.004558715503662825
+            },
+            "moments": {
+              "completed_episodes": 79,
+              "mean_completed_episode_return": 0.8496829867362976,
+              "mean_step_reward": 0.00497589074075222
+            },
+            "oracle_restore": {
+              "completed_episodes": 81,
+              "mean_completed_episode_return": 0.8367895483970642,
+              "mean_step_reward": 0.00497528025880456
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 79,
+              "mean_completed_episode_return": 0.8496829867362976,
+              "mean_step_reward": 0.00497589074075222
+            }
+          }
+        },
+        "permute_rgb": {
+          "selected_transform": {
+            "fit_objective": 0.008007568636725821,
+            "permutation": [
+              1,
+              2,
+              0
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "spatial_loss": 0.007993857213594116,
+            "skew_loss": 5.4845692526820734e-05,
+            "source_mean": [
+              52.71928787231445,
+              57.119178771972656,
+              57.32745361328125
+            ],
+            "source_sd": [
+              15.86620044708252,
+              31.356117248535156,
+              33.00840377807617
+            ],
+            "target_mean": [
+              57.322086334228516,
+              52.73149871826172,
+              57.096553802490234
+            ],
+            "target_sd": [
+              33.009029388427734,
+              15.879328727722168,
+              31.282581329345703
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 354,
+              "mean_completed_episode_return": 0.21731631457805634,
+              "mean_step_reward": 0.0048919678665697575
+            },
+            "moments": {
+              "completed_episodes": 939,
+              "mean_completed_episode_return": 0.08080403506755829,
+              "mean_step_reward": 0.0047134398482739925
+            },
+            "oracle_restore": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.8643499612808228,
+              "mean_step_reward": 0.004976501222699881
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.8620123863220215,
+              "mean_step_reward": 0.004976501688361168
+            }
+          }
+        },
+        "erase_blue": {
+          "selected_transform": {
+            "fit_objective": 2.4068163093056896,
+            "permutation": [
+              0,
+              2,
+              1
+            ],
+            "signs": [
+              1,
+              -1,
+              1
+            ],
+            "spatial_loss": 0.3054570621640309,
+            "skew_loss": 8.405436988566635,
+            "source_mean": [
+              52.71928787231445,
+              57.119178771972656,
+              57.32745361328125
+            ],
+            "source_sd": [
+              15.86620044708252,
+              31.356117248535156,
+              33.00840377807617
+            ],
+            "target_mean": [
+              52.72899627685547,
+              57.081947326660156,
+              0.0
+            ],
+            "target_sd": [
+              15.85149097442627,
+              31.24173355102539,
+              0.03162277862429619
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 286,
+              "mean_completed_episode_return": 0.2641432285308838,
+              "mean_step_reward": 0.0049127195961773396
+            },
+            "moments": {
+              "completed_episodes": 244,
+              "mean_completed_episode_return": 0.30223348736763,
+              "mean_step_reward": 0.004925536923110485
+            },
+            "oracle_restore": {
+              "completed_episodes": 286,
+              "mean_completed_episode_return": 0.2641432285308838,
+              "mean_step_reward": 0.0049127195961773396
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 1243,
+              "mean_completed_episode_return": 0.05999596789479256,
+              "mean_step_reward": 0.004620666150003672
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 49153288,
+      "training_seconds": 23.311711003014352,
+      "cases": {
+        "identity": {
+          "selected_transform": {
+            "fit_objective": 0.0010279294509297117,
+            "permutation": [
+              0,
+              1,
+              2
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "spatial_loss": 0.0009475883127619913,
+            "skew_loss": 0.0003213645526708812,
+            "source_mean": [
+              52.76462173461914,
+              57.06662368774414,
+              57.319297790527344
+            ],
+            "source_sd": [
+              16.000999450683594,
+              31.176969528198242,
+              33.00707244873047
+            ],
+            "target_mean": [
+              52.70513916015625,
+              57.10077667236328,
+              57.31326675415039
+            ],
+            "target_sd": [
+              15.770052909851074,
+              31.310461044311523,
+              32.9886474609375
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 72,
+              "mean_completed_episode_return": 0.8752077221870422,
+              "mean_step_reward": 0.004978027194738388
+            },
+            "moments": {
+              "completed_episodes": 73,
+              "mean_completed_episode_return": 0.8791773319244385,
+              "mean_step_reward": 0.004977721720933914
+            },
+            "oracle_restore": {
+              "completed_episodes": 72,
+              "mean_completed_episode_return": 0.8752077221870422,
+              "mean_step_reward": 0.004978027194738388
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 73,
+              "mean_completed_episode_return": 0.8791773319244385,
+              "mean_step_reward": 0.004977721720933914
+            }
+          }
+        },
+        "invert_rgb": {
+          "selected_transform": {
+            "fit_objective": 0.0007796220827543746,
+            "permutation": [
+              0,
+              1,
+              2
+            ],
+            "signs": [
+              -1,
+              -1,
+              -1
+            ],
+            "spatial_loss": 0.0007086602379985178,
+            "skew_loss": 0.0002838473790234275,
+            "source_mean": [
+              52.76462173461914,
+              57.06662368774414,
+              57.319297790527344
+            ],
+            "source_sd": [
+              16.000999450683594,
+              31.176969528198242,
+              33.00707244873047
+            ],
+            "target_mean": [
+              202.24533081054688,
+              197.89956665039062,
+              197.66873168945312
+            ],
+            "target_sd": [
+              16.010005950927734,
+              31.28167152404785,
+              33.017337799072266
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 418,
+              "mean_completed_episode_return": 0.18312197923660278,
+              "mean_step_reward": 0.004872436635196209
+            },
+            "moments": {
+              "completed_episodes": 373,
+              "mean_completed_episode_return": 0.20611253380775452,
+              "mean_step_reward": 0.0048861694522202015
+            },
+            "oracle_restore": {
+              "completed_episodes": 72,
+              "mean_completed_episode_return": 0.8752077221870422,
+              "mean_step_reward": 0.004978027194738388
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 72,
+              "mean_completed_episode_return": 0.8749993443489075,
+              "mean_step_reward": 0.004978027194738388
+            }
+          }
+        },
+        "brighten_48": {
+          "selected_transform": {
+            "fit_objective": 0.016375957745052943,
+            "permutation": [
+              0,
+              1,
+              2
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "spatial_loss": 0.00849160660736742,
+            "skew_loss": 0.03153740455074209,
+            "source_mean": [
+              52.76462173461914,
+              57.06662368774414,
+              57.319297790527344
+            ],
+            "source_sd": [
+              16.000999450683594,
+              31.176969528198242,
+              33.00707244873047
+            ],
+            "target_mean": [
+              100.6640625,
+              104.68811798095703,
+              104.35810852050781
+            ],
+            "target_sd": [
+              15.224299430847168,
+              29.051576614379883,
+              27.61628532409668
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 1487,
+              "mean_completed_episode_return": 0.04953933507204056,
+              "mean_step_reward": 0.004546203650534153
+            },
+            "moments": {
+              "completed_episodes": 72,
+              "mean_completed_episode_return": 0.8828465938568115,
+              "mean_step_reward": 0.004978027194738388
+            },
+            "oracle_restore": {
+              "completed_episodes": 77,
+              "mean_completed_episode_return": 0.855388879776001,
+              "mean_step_reward": 0.004976501688361168
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 72,
+              "mean_completed_episode_return": 0.8828465938568115,
+              "mean_step_reward": 0.004978027194738388
+            }
+          }
+        },
+        "permute_rgb": {
+          "selected_transform": {
+            "fit_objective": 0.0013059958102349207,
+            "permutation": [
+              1,
+              2,
+              0
+            ],
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "spatial_loss": 0.000952751767436015,
+            "skew_loss": 0.0014129761711956235,
+            "source_mean": [
+              52.76462173461914,
+              57.06662368774414,
+              57.319297790527344
+            ],
+            "source_sd": [
+              16.000999450683594,
+              31.176969528198242,
+              33.00707244873047
+            ],
+            "target_mean": [
+              57.34120559692383,
+              52.79910659790039,
+              57.08891296386719
+            ],
+            "target_sd": [
+              33.03083801269531,
+              16.215076446533203,
+              31.22370719909668
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 82,
+              "mean_completed_episode_return": 0.8009139895439148,
+              "mean_step_reward": 0.004974975250661373
+            },
+            "moments": {
+              "completed_episodes": 117,
+              "mean_completed_episode_return": 0.5913243889808655,
+              "mean_step_reward": 0.004964293912053108
+            },
+            "oracle_restore": {
+              "completed_episodes": 72,
+              "mean_completed_episode_return": 0.8752077221870422,
+              "mean_step_reward": 0.004978027194738388
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 71,
+              "mean_completed_episode_return": 0.8797175884246826,
+              "mean_step_reward": 0.004978332668542862
+            }
+          }
+        },
+        "erase_blue": {
+          "selected_transform": {
+            "fit_objective": 2.430042064697674,
+            "permutation": [
+              0,
+              2,
+              1
+            ],
+            "signs": [
+              1,
+              -1,
+              1
+            ],
+            "spatial_loss": 0.31362995176574837,
+            "skew_loss": 8.465648451727702,
+            "source_mean": [
+              52.76462173461914,
+              57.06662368774414,
+              57.319297790527344
+            ],
+            "source_sd": [
+              16.000999450683594,
+              31.176969528198242,
+              33.00707244873047
+            ],
+            "target_mean": [
+              52.61988067626953,
+              57.183414459228516,
+              0.0
+            ],
+            "target_sd": [
+              15.484777450561523,
+              31.598224639892578,
+              0.03162277862429619
+            ]
+          },
+          "scores": {
+            "raw": {
+              "completed_episodes": 504,
+              "mean_completed_episode_return": 0.1522519588470459,
+              "mean_step_reward": 0.00484619103372097
+            },
+            "moments": {
+              "completed_episodes": 610,
+              "mean_completed_episode_return": 0.12559837102890015,
+              "mean_step_reward": 0.004813842941075563
+            },
+            "oracle_restore": {
+              "completed_episodes": 504,
+              "mean_completed_episode_return": 0.1522519588470459,
+              "mean_step_reward": 0.00484619103372097
+            },
+            "spatial_signed_align": {
+              "completed_episodes": 1340,
+              "mean_completed_episode_return": 0.055455222725868225,
+              "mean_step_reward": 0.004591063596308231
+            }
+          }
+        }
+      }
+    }
+  ],
+  "seconds": 284.0796426929883
+}

@@ -1,17 +1,19 @@
 # Research program: consequential learning mechanisms
 
 **Latest research phase (2026-10-10):** Read `STANDING_RESEARCH_STANDARD.md`,
-then `REPORT_PHASE6_2026-10-10.md` for Cycles 40-44, including conventional
-raw-history reward learners, feedback-driven adaptation, out-of-class failures,
-stronger early-stopping controls, and an independent pixel-POMDP benchmark
-harness (`ARCADE_BENCHMARK_PROTOCOL.md`). Phase V covers Cycles 32-39, Phase IV
-Cycles 24-31, Phase III Cycles 21-23, and earlier reports Cycles 01-20. No
-new general algorithm, field, or scientific breakthrough has been established.
+then `REPORT_PHASE7_2026-10-10.md` for Cycles 45-53: sensor/dynamics
+observational equivalence, costed reward calibration, native pixel-POMDP
+sensor adaptation, strong proactive masked-training controls, and an eight-task
+color-palette generality audit. **Stop extending the 7-11-color sprite
+restoration branch; pivot to richer partially observed sensing.** Phase VI
+covers Cycles 40-44, Phase V Cycles 32-39, Phase IV Cycles 24-31, Phase III
+Cycles 21-23, and prior reports Cycles 01-20. No general learning breakthrough
+has been established.
 
 Last verified: 2026-10-10. Workspace: /home/dtdav/dev/learn.
 Python: /home/dtdav/dev/learn/.venv/bin/python (3.12.3).
 Cycle 01 historical status: initial formalization and controlled sanity experiments
-only. Current findings and limits are in Phase VI, V, IV and III reports.
+only. Current findings and limits are in Phase VII, VI, V, IV and III reports.
 
 ## Governing question
 
