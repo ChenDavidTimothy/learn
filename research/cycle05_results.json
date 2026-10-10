@@ -1,0 +1,133 @@
+{
+  "config": {
+    "dimensions": 32,
+    "known_sparse_degree_ml": 4,
+    "flipped_noise": 0.1,
+    "repeats": 9,
+    "query_budget": 297,
+    "heldout_uniform": 4096,
+    "trials_per_mode": 48,
+    "enumerated_sparse_masks": 35960,
+    "oracle_queries_equal": true,
+    "active_is_classical_membership_query_learning": true
+  },
+  "modes": {
+    "sparse_parity4": {
+      "active_error": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "passive_error": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "active_excess_nats": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "passive_excess_nats": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "active_ms": {
+        "mean": 0.045652875,
+        "SE": 0.015422821344256899
+      },
+      "passive_ms": {
+        "mean": 14.514799104166666,
+        "SE": 0.11369371526411966
+      },
+      "active_exact": {
+        "mean": 1.0,
+        "SE": 0.0
+      },
+      "passive_exact": {
+        "mean": 1.0,
+        "SE": 0.0
+      }
+    },
+    "dense_parity12": {
+      "active_error": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "passive_error": {
+        "mean": 0.5010121663411459,
+        "SE": 0.0011718269677234805
+      },
+      "active_excess_nats": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "passive_excess_nats": {
+        "mean": 0.8806689963433824,
+        "SE": 0.0020598136110939295
+      },
+      "active_ms": {
+        "mean": 0.029789291666666665,
+        "SE": 0.0005249004143630698
+      },
+      "passive_ms": {
+        "mean": 14.280520583333333,
+        "SE": 0.021178950431631177
+      },
+      "active_exact": {
+        "mean": 1.0,
+        "SE": 0.0
+      }
+    },
+    "majority11": {
+      "active_error": {
+        "mean": 0.4999847412109375,
+        "SE": 0.0011029388296025498
+      },
+      "passive_error": {
+        "mean": 0.4989573160807292,
+        "SE": 0.0010947961351228156
+      },
+      "active_excess_nats": {
+        "mean": 0.8788630093454091,
+        "SE": 0.0019387234429609351
+      },
+      "passive_excess_nats": {
+        "mean": 0.8770570223474358,
+        "SE": 0.001924410380211646
+      },
+      "active_ms": {
+        "mean": 0.028601375,
+        "SE": 0.0005857135110644451
+      },
+      "passive_ms": {
+        "mean": 14.367788854166667,
+        "SE": 0.04385564052033187
+      }
+    },
+    "conjunction5": {
+      "active_error": {
+        "mean": 0.031244913736979168,
+        "SE": 0.0003777519852403654
+      },
+      "passive_error": {
+        "mean": 0.4985809326171875,
+        "SE": 0.0010683386046377776
+      },
+      "active_excess_nats": {
+        "mean": 0.05492167390371255,
+        "SE": 0.0006640047568861438
+      },
+      "passive_excess_nats": {
+        "mean": 0.8763954231501584,
+        "SE": 0.0018779038712217664
+      },
+      "active_ms": {
+        "mean": 0.027923187500000002,
+        "SE": 0.0005214095323298922
+      },
+      "passive_ms": {
+        "mean": 14.3096381875,
+        "SE": 0.030275516676044837
+      }
+    }
+  },
+  "total_seconds": 2.8019275570113678
+}

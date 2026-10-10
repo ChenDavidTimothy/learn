@@ -1,0 +1,12 @@
+POSTERIOR_VALIDATION: PASSED
+N=480, h2(epsilon)=0.468996, Fano fixed-budget bound for error <= 0.05: T >= 15.395917
+CONDITION: single
+  structured_active minus structured_random: delta=-0.031881, SE=0.003696, approx95pct=[-0.039125,-0.024636]
+  mixture_active minus mixture_random: delta=-0.034449, SE=0.004371, approx95pct=[-0.043017,-0.025881]
+  mixture_active minus independent_active: delta=0.002083, SE=0.002604, approx95pct=[-0.003021,0.007187]
+  structured_active minus mixture_active: delta=-0.003097, SE=0.002910, approx95pct=[-0.008801,0.002608]
+CONDITION: coupled
+  structured_active minus structured_random: delta=0.000008, SE=0.003022, approx95pct=[-0.005916,0.005931]
+  mixture_active minus mixture_random: delta=-0.019076, SE=0.004500, approx95pct=[-0.027895,-0.010257]
+  mixture_active minus independent_active: delta=-0.011330, SE=0.002792, approx95pct=[-0.016802,-0.005857]
+  structured_active minus mixture_active: delta=0.108467, SE=0.001387, approx95pct=[0.105748,0.111186]

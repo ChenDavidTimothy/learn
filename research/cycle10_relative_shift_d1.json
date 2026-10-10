@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "pre": 96,
+    "post": 192,
+    "replications": 160,
+    "noise": 0.05,
+    "alpha": 0.05,
+    "features": 11,
+    "max_degree": 1,
+    "threshold": 0.496189675053186,
+    "same_pre_post_input_distribution": true,
+    "no_known_rule_family_assumed": true
+  },
+  "conditions": {
+    "in_class": {
+      "tp": {
+        "mean": 1.25,
+        "SE": 0.052455431816390806
+      },
+      "fp": {
+        "mean": 0.00625,
+        "SE": 0.0062499999999999995
+      },
+      "fn": {
+        "mean": 0.75,
+        "SE": 0.052455431816390806
+      },
+      "alerts": {
+        "mean": 1.25625,
+        "SE": 0.052640105803405356
+      },
+      "max_score": {
+        "mean": 0.6977213541666667,
+        "SE": 0.013715258665304101
+      },
+      "any_false": 1,
+      "exact_localization": 60
+    },
+    "novel_parity4": {
+      "tp": {
+        "mean": 1.05625,
+        "SE": 0.055546792416833045
+      },
+      "fp": {
+        "mean": 0.00625,
+        "SE": 0.0062499999999999995
+      },
+      "fn": {
+        "mean": 0.94375,
+        "SE": 0.055546792416833045
+      },
+      "alerts": {
+        "mean": 1.0625,
+        "SE": 0.0565570758631374
+      },
+      "max_score": {
+        "mean": 0.6311848958333334,
+        "SE": 0.015359404350865429
+      },
+      "any_false": 1,
+      "exact_localization": 43
+    },
+    "dense_threshold": {
+      "tp": {
+        "mean": 1.74375,
+        "SE": 0.03682236276192864
+      },
+      "fp": {
+        "mean": 0.025,
+        "SE": 0.012381513913591215
+      },
+      "fn": {
+        "mean": 0.25625,
+        "SE": 0.03682236276192864
+      },
+      "alerts": {
+        "mean": 1.76875,
+        "SE": 0.039871920535256525
+      },
+      "max_score": {
+        "mean": 0.7192057291666667,
+        "SE": 0.00855285401884805
+      },
+      "any_false": 4,
+      "exact_localization": 117
+    },
+    "stable_in_class": {
+      "tp": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "fp": {
+        "mean": 0.0125,
+        "SE": 0.008810995846029105
+      },
+      "fn": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "alerts": {
+        "mean": 0.0125,
+        "SE": 0.008810995846029105
+      },
+      "max_score": {
+        "mean": 0.3193359375,
+        "SE": 0.004519095675931735
+      },
+      "any_false": 2,
+      "exact_localization": 158
+    },
+    "stable_dense_threshold": {
+      "tp": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "fp": {
+        "mean": 0.025,
+        "SE": 0.012381513913591215
+      },
+      "fn": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "alerts": {
+        "mean": 0.025,
+        "SE": 0.012381513913591215
+      },
+      "max_score": {
+        "mean": 0.32376302083333336,
+        "SE": 0.0048671076491352844
+      },
+      "any_false": 4,
+      "exact_localization": 156
+    }
+  },
+  "time_seconds": 0.5049789150070865
+}

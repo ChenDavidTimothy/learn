@@ -1,0 +1,78 @@
+{
+  "assumptions": "independent two-state Markov factors, separate noisy observations, stationary initial state",
+  "theory": "H_full is Kronecker product of H_i, H_task involves target only",
+  "cases": {
+    "0": {
+      "full_hankel_size": 2,
+      "full_hankel_rank_theoretical": 2,
+      "rank_numerical_threshold": 2,
+      "task_only_hankel_rank": 2,
+      "min_singular_value": 0.161172,
+      "max_singular_value": 0.5
+    },
+    "1": {
+      "full_hankel_size": 4,
+      "full_hankel_rank_theoretical": 4,
+      "rank_numerical_threshold": 4,
+      "task_only_hankel_rank": 2,
+      "min_singular_value": 0.048480537600000005,
+      "max_singular_value": 0.25
+    },
+    "2": {
+      "full_hankel_size": 8,
+      "full_hankel_rank_theoretical": 8,
+      "rank_numerical_threshold": 8,
+      "task_only_hankel_rank": 2,
+      "min_singular_value": 0.013273001584127997,
+      "max_singular_value": 0.12499999999999994
+    },
+    "3": {
+      "full_hankel_size": 16,
+      "full_hankel_rank_theoretical": 16,
+      "rank_numerical_threshold": 16,
+      "task_only_hankel_rank": 2,
+      "min_singular_value": 0.0032965888574467014,
+      "max_singular_value": 0.06249999999999999
+    },
+    "4": {
+      "full_hankel_size": 32,
+      "full_hankel_rank_theoretical": 32,
+      "rank_numerical_threshold": 32,
+      "task_only_hankel_rank": 2,
+      "min_singular_value": 0.0007401369439185031,
+      "max_singular_value": 0.031250000000000014
+    },
+    "5": {
+      "full_hankel_size": 64,
+      "full_hankel_rank_theoretical": 64,
+      "rank_numerical_threshold": 64,
+      "task_only_hankel_rank": 2,
+      "min_singular_value": 0.00018473818120205864,
+      "max_singular_value": 0.015625
+    },
+    "6": {
+      "full_hankel_size": 128,
+      "full_hankel_rank_theoretical": 128,
+      "rank_numerical_threshold": 128,
+      "task_only_hankel_rank": 2,
+      "min_singular_value": 5.2825513438366194e-05,
+      "max_singular_value": 0.007812499999999998
+    },
+    "7": {
+      "full_hankel_size": 256,
+      "full_hankel_rank_theoretical": 256,
+      "rank_numerical_threshold": 256,
+      "task_only_hankel_rank": 2,
+      "min_singular_value": 1.3730407452900212e-05,
+      "max_singular_value": 0.00390625
+    },
+    "8": {
+      "full_hankel_size": 512,
+      "full_hankel_rank_theoretical": 512,
+      "rank_numerical_threshold": 512,
+      "task_only_hankel_rank": 2,
+      "min_singular_value": 3.233071582119502e-06,
+      "max_singular_value": 0.0019531249999999991
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "config": {
+    "dims": [
+      32,
+      64,
+      96,
+      128
+    ],
+    "noise": 0.1,
+    "repeat_each_basis": 11,
+    "ransac_attempts": 1500,
+    "reps_per_dimension": 18,
+    "equal_queries": true,
+    "latent_parity_algebra_given_both": true,
+    "methods_do_not_have_equal_computation": true
+  },
+  "by_dimension": {
+    "32": {
+      "active_exact": {
+        "mean": 1,
+        "SE": 0.0
+      },
+      "passive_exact": {
+        "mean": 1,
+        "SE": 0.0
+      },
+      "active_seconds": {
+        "mean": 6.037144177955472e-05,
+        "SE": 1.083250266135823e-06
+      },
+      "passive_seconds": {
+        "mean": 0.006865611000749696,
+        "SE": 0.001730519430048525
+      },
+      "queries": {
+        "mean": 363,
+        "SE": 0.0
+      },
+      "passive_best_training_errors": {
+        "mean": 36.666666666666664,
+        "SE": 1.035323826074046
+      },
+      "idealized_success_per_ransac_draw": 0.008924463088405556
+    },
+    "64": {
+      "active_exact": {
+        "mean": 0.9444444444444444,
+        "SE": 0.05555555555555556
+      },
+      "passive_exact": {
+        "mean": 0.3333333333333333,
+        "SE": 0.1143323900950059
+      },
+      "active_seconds": {
+        "mean": 0.00011358072192201184,
+        "SE": 8.867387177418886e-07
+      },
+      "passive_seconds": {
+        "mean": 0.13536856405456396,
+        "SE": 0.009373107503645001
+      },
+      "queries": {
+        "mean": 715,
+        "SE": 0.0
+      },
+      "passive_best_training_errors": {
+        "mean": 213.88888888888889,
+        "SE": 26.05410269511579
+      },
+      "idealized_success_per_ransac_draw": 0.00030643784504321114
+    },
+    "96": {
+      "active_exact": {
+        "mean": 0.8888888888888888,
+        "SE": 0.0762215933966706
+      },
+      "passive_exact": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "active_seconds": {
+        "mean": 0.00016627816593326215,
+        "SE": 1.6509561419828864e-06
+      },
+      "passive_seconds": {
+        "mean": 0.306896504221691,
+        "SE": 0.000651303015274457
+      },
+      "queries": {
+        "mean": 1067,
+        "SE": 0.0
+      },
+      "passive_best_training_errors": {
+        "mean": 442,
+        "SE": 0.8043996665398437
+      },
+      "idealized_success_per_ransac_draw": 1.0522106704501792e-05
+    },
+    "128": {
+      "active_exact": {
+        "mean": 0.9444444444444444,
+        "SE": 0.05555555555555556
+      },
+      "passive_exact": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "active_seconds": {
+        "mean": 0.0002163124930423995,
+        "SE": 1.993061982306227e-06
+      },
+      "passive_seconds": {
+        "mean": 0.49803850099851843,
+        "SE": 0.0008426559521629446
+      },
+      "queries": {
+        "mean": 1419,
+        "SE": 0.0
+      },
+      "passive_best_training_errors": {
+        "mean": 593.3888888888889,
+        "SE": 1.2606121785201272
+      },
+      "idealized_success_per_ransac_draw": 3.61295875466392e-07
+    }
+  },
+  "total_seconds": 17.071815064002294
+}

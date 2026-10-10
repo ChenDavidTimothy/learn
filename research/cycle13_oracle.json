@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "privileged_ceiling": true,
+    "true_parameters_and_indices_revealed_to_oracle": true,
+    "conditions": [
+      "stationary",
+      "nuisance_shift",
+      "coupled_target",
+      "target_rate_shift"
+    ],
+    "samples_test": 3000,
+    "trials": 20
+  },
+  "cases": {
+    "nuisance3_stationary": {
+      "full_oracle": 0.6263432235932822,
+      "reduced_misspecified": 0.6263432235932822,
+      "paired_reduced_minus_full": 0.0,
+      "SE": 0.0
+    },
+    "nuisance3_nuisance_shift": {
+      "full_oracle": 0.6263432235932822,
+      "reduced_misspecified": 0.6263432235932822,
+      "paired_reduced_minus_full": 0.0,
+      "SE": 0.0
+    },
+    "nuisance3_coupled_target": {
+      "full_oracle": 0.6478727333662722,
+      "reduced_misspecified": 0.6608523932281263,
+      "paired_reduced_minus_full": 0.01297965986185417,
+      "SE": 0.0005095591910692732
+    },
+    "nuisance3_target_rate_shift": {
+      "full_oracle": 0.6867203459128594,
+      "reduced_misspecified": 0.6867203459128594,
+      "paired_reduced_minus_full": 0.0,
+      "SE": 0.0
+    },
+    "nuisance7_stationary": {
+      "full_oracle": 0.6259912523627409,
+      "reduced_misspecified": 0.6259912523627409,
+      "paired_reduced_minus_full": 0.0,
+      "SE": 0.0
+    },
+    "nuisance7_nuisance_shift": {
+      "full_oracle": 0.6259912523627409,
+      "reduced_misspecified": 0.6259912523627409,
+      "paired_reduced_minus_full": 0.0,
+      "SE": 0.0
+    },
+    "nuisance7_coupled_target": {
+      "full_oracle": 0.6469829113569684,
+      "reduced_misspecified": 0.6582695071143496,
+      "paired_reduced_minus_full": 0.011286595757381224,
+      "SE": 0.0006431651295222815
+    },
+    "nuisance7_target_rate_shift": {
+      "full_oracle": 0.6857954579344602,
+      "reduced_misspecified": 0.6857954579344602,
+      "paired_reduced_minus_full": 0.0,
+      "SE": 0.0
+    },
+    "nuisance11_stationary": {
+      "full_oracle": 0.6289266278558078,
+      "reduced_misspecified": 0.6289266278558078,
+      "paired_reduced_minus_full": 0.0,
+      "SE": 0.0
+    },
+    "nuisance11_nuisance_shift": {
+      "full_oracle": 0.6289266278558078,
+      "reduced_misspecified": 0.6289266278558078,
+      "paired_reduced_minus_full": 0.0,
+      "SE": 0.0
+    },
+    "nuisance11_coupled_target": {
+      "full_oracle": 0.6496437637708845,
+      "reduced_misspecified": 0.6612750358186709,
+      "paired_reduced_minus_full": 0.011631272047786296,
+      "SE": 0.0007088980697619401
+    },
+    "nuisance11_target_rate_shift": {
+      "full_oracle": 0.6866230612766119,
+      "reduced_misspecified": 0.6866230612766119,
+      "paired_reduced_minus_full": 0.0,
+      "SE": 0.0
+    }
+  }
+}

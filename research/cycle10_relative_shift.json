@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "pre": 96,
+    "post": 192,
+    "replications": 160,
+    "noise": 0.05,
+    "alpha": 0.05,
+    "features": 386,
+    "max_degree": 4,
+    "threshold": 0.5978209465636121,
+    "same_pre_post_input_distribution": true,
+    "no_known_rule_family_assumed": true
+  },
+  "conditions": {
+    "in_class": {
+      "tp": {
+        "mean": 1.64375,
+        "SE": 0.04284210718205562
+      },
+      "fp": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "fn": {
+        "mean": 0.35625,
+        "SE": 0.04284210718205562
+      },
+      "alerts": {
+        "mean": 1.64375,
+        "SE": 0.04284210718205562
+      },
+      "max_score": {
+        "mean": 0.9492838541666667,
+        "SE": 0.009465067996211626
+      },
+      "any_false": 0,
+      "exact_localization": 108
+    },
+    "novel_parity4": {
+      "tp": {
+        "mean": 2,
+        "SE": 0.0
+      },
+      "fp": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "fn": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "alerts": {
+        "mean": 2,
+        "SE": 0.0
+      },
+      "max_score": {
+        "mean": 0.98671875,
+        "SE": 0.006360096373574718
+      },
+      "any_false": 0,
+      "exact_localization": 160
+    },
+    "dense_threshold": {
+      "tp": {
+        "mean": 1.25,
+        "SE": 0.05393333877525608
+      },
+      "fp": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "fn": {
+        "mean": 0.75,
+        "SE": 0.05393333877525608
+      },
+      "alerts": {
+        "mean": 1.25,
+        "SE": 0.05393333877525608
+      },
+      "max_score": {
+        "mean": 0.71953125,
+        "SE": 0.008501435839478266
+      },
+      "any_false": 0,
+      "exact_localization": 62
+    },
+    "stable_in_class": {
+      "tp": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "fp": {
+        "mean": 0.00625,
+        "SE": 0.0062499999999999995
+      },
+      "fn": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "alerts": {
+        "mean": 0.00625,
+        "SE": 0.0062499999999999995
+      },
+      "max_score": {
+        "mean": 0.4515625,
+        "SE": 0.003248666776210074
+      },
+      "any_false": 1,
+      "exact_localization": 159
+    },
+    "stable_dense_threshold": {
+      "tp": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "fp": {
+        "mean": 0.00625,
+        "SE": 0.0062499999999999995
+      },
+      "fn": {
+        "mean": 0,
+        "SE": 0.0
+      },
+      "alerts": {
+        "mean": 0.00625,
+        "SE": 0.0062499999999999995
+      },
+      "max_score": {
+        "mean": 0.453515625,
+        "SE": 0.0032006366461635035
+      },
+      "any_false": 1,
+      "exact_localization": 159
+    }
+  },
+  "time_seconds": 0.7470717880059965
+}

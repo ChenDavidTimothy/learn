@@ -1,0 +1,11 @@
+{
+  "D": 10,
+  "r": 4,
+  "max_degree": 3,
+  "noise": 0.05,
+  "high_degree_energy": 0.25,
+  "pinsker_bound_nats": 0.405,
+  "tight_loss_floor_nats": 0.4946319372140727,
+  "verified_mixtures": 100,
+  "min_random_mixture_loss_nats": 0.621024253515915
+}
