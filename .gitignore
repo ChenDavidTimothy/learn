@@ -71,3 +71,6 @@ Thumbs.db
 # Logs and local databases
 *.log
 *.sqlite3
+
+# Local third-party research data, preserve upstream licensing
+research/local_datasets/

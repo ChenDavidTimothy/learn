@@ -1,15 +1,16 @@
 # Research program: consequential learning mechanisms
 
 **Latest research phase (2026-10-10):** Read `STANDING_RESEARCH_STANDARD.md`,
-`REPORT_PHASE4_2026-10-10.md`, then `REPORT_PHASE3_2026-10-10.md` for the
-current research decision, independent external POPGym studies (Cycles 24-31),
-identifiability and active experimentation controls, and the prior HMM baseline
-audit (Cycles 21-23). The Cycle 01 orientation below is historical context.
+then `REPORT_PHASE5_2026-10-10.md` for Cycles 32-39 on multi-step decision-value
+experiment planning, model misspecification, identifiability and a real randomized
+treatment-value benchmark. Read Phase IV for POPGym Cycles 24-31, Phase III for
+HMM controls Cycles 21-23, and prior reports for Cycles 01-20. All achieved
+results and unachieved objectives are documented. No general breakthrough.
 
 Last verified: 2026-10-10. Workspace: /home/dtdav/dev/learn.
 Python: /home/dtdav/dev/learn/.venv/bin/python (3.12.3).
 Cycle 01 historical status: initial formalization and controlled sanity experiments
-only. The current findings and limitations are documented in Phase IV and III reports.
+only. Current findings and limits are in Phase V, IV and III reports.
 
 ## Governing question
 

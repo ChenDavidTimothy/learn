@@ -1,0 +1,40 @@
+{
+  "simulated_RCT_estimator_audit": {
+    "trials": 120,
+    "n_per_trial": 12000,
+    "misspecified_nuisance_values": [
+      0.12,
+      0.16,
+      0.11
+    ],
+    "mean_dr_error": 0.0005106854535381463,
+    "SE_mean_dr_error": 0.0005742588247980741,
+    "mean_ips_error": 0.0007976021202047797,
+    "SE_mean_ips_error": 0.0006179902993530103
+  },
+  "real_Hillstrom_design_check": {
+    "arm_counts": [
+      21306,
+      21307,
+      21387
+    ],
+    "chi_squared_vs_equal_three_arm_randomization": 0.20253125000000002,
+    "p_sample_ratio": 0.9036929575604196,
+    "feature_names": [
+      "recency",
+      "history",
+      "mens",
+      "womens",
+      "newbie",
+      "zip_code_Rural",
+      "zip_code_Surburban",
+      "zip_code_Urban",
+      "channel_Multichannel",
+      "channel_Phone",
+      "channel_Web"
+    ],
+    "post_treatment_excluded": true
+  },
+  "runtime_seconds": 0.15811929598567076,
+  "not_novel": true
+}

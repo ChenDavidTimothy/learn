@@ -28,10 +28,13 @@ nvidia-nccl-cu13==2.30.7
 nvidia-nvjitlink==13.4.92
 nvidia-nvshmem-cu13==3.4.5
 nvidia-nvtx==13.0.85
+pandas==3.0.6
 popgym==1.0.6
+python-dateutil==2.9.0.post0
 scikit-learn==1.9.1
 scipy==1.18.1
 setuptools==84.0.0
+six==1.17.0
 sympy==1.14.0
 threadpoolctl==3.7.0
 torch==2.14.1

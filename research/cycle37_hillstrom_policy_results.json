@@ -1,0 +1,1023 @@
+{
+  "protocol": {
+    "dataset": "Hillstrom MineThatData 2008 randomized 3-arm",
+    "source_url": "https://raw.githubusercontent.com/AdityaDabrase/ab-testing-email-marketing/main/data/raw/hillstrom.csv",
+    "source_sha256": "0e5893329d8b93cefecc571777672028290ab69865718020c78c7284f291aece",
+    "n_total": 64000,
+    "features": [
+      "recency",
+      "history",
+      "mens",
+      "womens",
+      "newbie",
+      "zip_code_Rural",
+      "zip_code_Surburban",
+      "zip_code_Urban",
+      "channel_Multichannel",
+      "channel_Phone",
+      "channel_Web"
+    ],
+    "outcome": "visit, binary",
+    "arms": [
+      "No E-Mail",
+      "Mens E-Mail",
+      "Womens E-Mail"
+    ],
+    "known_randomization_propensity": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "train_val_test": "60/20/20, independent split by customer",
+    "selection": "validation DR value at cost 0.012; final test once",
+    "reported_secondary_costs": [
+      0.0,
+      0.006,
+      0.012,
+      0.025
+    ],
+    "cost_interpretation": "hypothetical probability-scale penalty per message, not measured dollar cost",
+    "bootstrap": "paired evaluation-customer resampling; training uncertainty not included",
+    "split_repetitions": "nonindependent reuses of same finite RCT; sensitivity only",
+    "counterfactual_observation": "only one realized arm per customer; no unit-level truth",
+    "strong_baselines": [
+      "S_logistic_interactions",
+      "T_logistic",
+      "S_boosted",
+      "T_boosted",
+      "T_random_forest",
+      "DR_pseudo_boosted",
+      "constant policies"
+    ],
+    "no_new_algorithm_claim": true
+  },
+  "arm_rates": {
+    "No E-Mail": {
+      "n": 21306,
+      "visit_rate": 0.10616727682343002
+    },
+    "Mens E-Mail": {
+      "n": 21307,
+      "visit_rate": 0.18275684047496127
+    },
+    "Womens E-Mail": {
+      "n": 21387,
+      "visit_rate": 0.151400383410483
+    }
+  },
+  "runs": [
+    {
+      "seed": 37011026,
+      "split_sizes": [
+        38400,
+        12800,
+        12800
+      ],
+      "val_choice": "S_logistic_interactions_cost0.012",
+      "validation_policy_values": {
+        "always_No E-Mail": 0.10523692014276122,
+        "always_Mens E-Mail": 0.1717277596910698,
+        "always_Womens E-Mail": 0.1354709954989454,
+        "S_logistic_interactions_cost0.012": 0.17421757525413042,
+        "T_logistic_cost0.012": 0.174211536498995,
+        "S_boosted_cost0.012": 0.17108101415344393,
+        "T_boosted_cost0.012": 0.1641757575783541,
+        "T_random_forest_cost0.012": 0.1686908660984062,
+        "DR_pseudo_boosted_cost0.012": 0.1629261601738093
+      },
+      "test_policy_values": {
+        "always_No E-Mail": 0.10877527425959815,
+        "always_Mens E-Mail": 0.18027312890643113,
+        "always_Womens E-Mail": 0.14090924263365667,
+        "S_logistic_interactions_cost0.012": 0.17801258258401892,
+        "T_logistic_cost0.012": 0.1784574136844769,
+        "S_boosted_cost0.012": 0.16975088225248236,
+        "T_boosted_cost0.012": 0.1653569977013447,
+        "T_random_forest_cost0.012": 0.1658452752663309,
+        "DR_pseudo_boosted_cost0.012": 0.16519952727935355
+      },
+      "test_selected_minus_mens": {
+        "mean": -0.0022605463224122237,
+        "SE": 0.004602131551829797,
+        "CI95": [
+          -0.011297465064342762,
+          0.007562115908618471
+        ]
+      },
+      "test_test_arm_counts": [
+        4261,
+        4261,
+        4278
+      ],
+      "test_send_fraction": 1.0,
+      "test_paired_vs_mens": {
+        "always_No E-Mail": {
+          "mean": -0.07149785464683299,
+          "SE": 0.0075868116179452615,
+          "CI95": [
+            -0.0856397143550546,
+            -0.05785965877078196
+          ]
+        },
+        "always_Mens E-Mail": {
+          "mean": 0.0,
+          "SE": 0.0,
+          "CI95": [
+            0.0,
+            0.0
+          ]
+        },
+        "always_Womens E-Mail": {
+          "mean": -0.03936388627277448,
+          "SE": 0.008077214325481748,
+          "CI95": [
+            -0.05429154807558575,
+            -0.02384976070318406
+          ]
+        },
+        "S_logistic_interactions_cost0.012": {
+          "mean": -0.0022605463224122237,
+          "SE": 0.004602131551829797,
+          "CI95": [
+            -0.011443708752286466,
+            0.006828264330579034
+          ]
+        },
+        "T_logistic_cost0.012": {
+          "mean": -0.0018157152219542571,
+          "SE": 0.004592697889150021,
+          "CI95": [
+            -0.0119955220239778,
+            0.007191717589899196
+          ]
+        },
+        "S_boosted_cost0.012": {
+          "mean": -0.010522246653948764,
+          "SE": 0.004185901660710415,
+          "CI95": [
+            -0.018753707772303722,
+            -0.002141631503887999
+          ]
+        },
+        "T_boosted_cost0.012": {
+          "mean": -0.014916131205086426,
+          "SE": 0.004854589861958354,
+          "CI95": [
+            -0.023373048293778825,
+            -0.006071053374358863
+          ]
+        },
+        "T_random_forest_cost0.012": {
+          "mean": -0.014427853640100234,
+          "SE": 0.004674844723979795,
+          "CI95": [
+            -0.024107985799861578,
+            -0.0056952078705712235
+          ]
+        },
+        "DR_pseudo_boosted_cost0.012": {
+          "mean": -0.015073601627077564,
+          "SE": 0.004805950825849574,
+          "CI95": [
+            -0.02476696895655198,
+            -0.0055537710500785575
+          ]
+        }
+      }
+    },
+    {
+      "seed": 37012737,
+      "split_sizes": [
+        38400,
+        12800,
+        12800
+      ],
+      "val_choice": "S_logistic_interactions_cost0.012",
+      "validation_policy_values": {
+        "always_No E-Mail": 0.10746674573450064,
+        "always_Mens E-Mail": 0.16683883605754826,
+        "always_Womens E-Mail": 0.1375611346657703,
+        "S_logistic_interactions_cost0.012": 0.17007243720628215,
+        "T_logistic_cost0.012": 0.1696987430599452,
+        "S_boosted_cost0.012": 0.16490017583040525,
+        "T_boosted_cost0.012": 0.16547122549351814,
+        "T_random_forest_cost0.012": 0.16518367165364203,
+        "DR_pseudo_boosted_cost0.012": 0.16594574049633667
+      },
+      "test_policy_values": {
+        "always_No E-Mail": 0.10034733483923253,
+        "always_Mens E-Mail": 0.1701945956981467,
+        "always_Womens E-Mail": 0.1475275304239972,
+        "S_logistic_interactions_cost0.012": 0.17245227271310115,
+        "T_logistic_cost0.012": 0.17336702239724042,
+        "S_boosted_cost0.012": 0.17481695801878286,
+        "T_boosted_cost0.012": 0.1755736343941653,
+        "T_random_forest_cost0.012": 0.1738290182764938,
+        "DR_pseudo_boosted_cost0.012": 0.1667465917453658
+      },
+      "test_selected_minus_mens": {
+        "mean": 0.0022576770149544067,
+        "SE": 0.002712612464410503,
+        "CI95": [
+          -0.002384020652892183,
+          0.007870591629743195
+        ]
+      },
+      "test_test_arm_counts": [
+        4261,
+        4261,
+        4278
+      ],
+      "test_send_fraction": 0.999296875,
+      "test_paired_vs_mens": {
+        "always_No E-Mail": {
+          "mean": -0.06984726085891418,
+          "SE": 0.007379533201007841,
+          "CI95": [
+            -0.08291139856922274,
+            -0.055633004794292416
+          ]
+        },
+        "always_Mens E-Mail": {
+          "mean": 0.0,
+          "SE": 0.0,
+          "CI95": [
+            0.0,
+            0.0
+          ]
+        },
+        "always_Womens E-Mail": {
+          "mean": -0.022667065274149554,
+          "SE": 0.008060387541093911,
+          "CI95": [
+            -0.03852992745020767,
+            -0.007560813959237452
+          ]
+        },
+        "S_logistic_interactions_cost0.012": {
+          "mean": 0.0022576770149544067,
+          "SE": 0.002712612464410503,
+          "CI95": [
+            -0.0030515506186632856,
+            0.007706994030684561
+          ]
+        },
+        "T_logistic_cost0.012": {
+          "mean": 0.0031724266990937155,
+          "SE": 0.002721174876839288,
+          "CI95": [
+            -0.0022168810081234906,
+            0.009010254518542643
+          ]
+        },
+        "S_boosted_cost0.012": {
+          "mean": 0.004622362320636121,
+          "SE": 0.002259951851004926,
+          "CI95": [
+            -0.0001263975647698032,
+            0.008745709873284685
+          ]
+        },
+        "T_boosted_cost0.012": {
+          "mean": 0.005379038696018596,
+          "SE": 0.0039560315415345946,
+          "CI95": [
+            -0.0022317641462670907,
+            0.012964078824605433
+          ]
+        },
+        "T_random_forest_cost0.012": {
+          "mean": 0.003634422578347105,
+          "SE": 0.004073362449781825,
+          "CI95": [
+            -0.004194026179790162,
+            0.011767636063790972
+          ]
+        },
+        "DR_pseudo_boosted_cost0.012": {
+          "mean": -0.0034480039527809035,
+          "SE": 0.004606026942675474,
+          "CI95": [
+            -0.012531215700943947,
+            0.00539471891903514
+          ]
+        }
+      }
+    },
+    {
+      "seed": 37014448,
+      "split_sizes": [
+        38400,
+        12800,
+        12800
+      ],
+      "val_choice": "always_Mens E-Mail",
+      "validation_policy_values": {
+        "always_No E-Mail": 0.1009806212060769,
+        "always_Mens E-Mail": 0.1736526328954335,
+        "always_Womens E-Mail": 0.13879067333960438,
+        "S_logistic_interactions_cost0.012": 0.16903942512916836,
+        "T_logistic_cost0.012": 0.16896910539036675,
+        "S_boosted_cost0.012": 0.17274122260907515,
+        "T_boosted_cost0.012": 0.16701575866782306,
+        "T_random_forest_cost0.012": 0.1671220155279623,
+        "DR_pseudo_boosted_cost0.012": 0.16746974393899974
+      },
+      "test_policy_values": {
+        "always_No E-Mail": 0.10888558552094262,
+        "always_Mens E-Mail": 0.1684499239394943,
+        "always_Womens E-Mail": 0.14263205517364635,
+        "S_logistic_interactions_cost0.012": 0.1636204382870802,
+        "T_logistic_cost0.012": 0.16330397307722425,
+        "S_boosted_cost0.012": 0.16409130293682217,
+        "T_boosted_cost0.012": 0.1618118660460773,
+        "T_random_forest_cost0.012": 0.161121820537183,
+        "DR_pseudo_boosted_cost0.012": 0.15994242674731884
+      },
+      "test_selected_minus_mens": {
+        "mean": 0.0,
+        "SE": 0.0,
+        "CI95": [
+          0.0,
+          0.0
+        ]
+      },
+      "test_test_arm_counts": [
+        4261,
+        4261,
+        4278
+      ],
+      "test_send_fraction": 1.0,
+      "test_paired_vs_mens": {
+        "always_No E-Mail": {
+          "mean": -0.059564338418551674,
+          "SE": 0.007498775085174431,
+          "CI95": [
+            -0.0744584276776313,
+            -0.04425510930108472
+          ]
+        },
+        "always_Mens E-Mail": {
+          "mean": 0.0,
+          "SE": 0.0,
+          "CI95": [
+            0.0,
+            0.0
+          ]
+        },
+        "always_Womens E-Mail": {
+          "mean": -0.02581786876584794,
+          "SE": 0.00798387473104087,
+          "CI95": [
+            -0.04130265980976319,
+            -0.010415839627870552
+          ]
+        },
+        "S_logistic_interactions_cost0.012": {
+          "mean": -0.004829485652414069,
+          "SE": 0.005263537603903227,
+          "CI95": [
+            -0.01536691838029995,
+            0.004755323093203359
+          ]
+        },
+        "T_logistic_cost0.012": {
+          "mean": -0.005145950862270047,
+          "SE": 0.0052555026324010296,
+          "CI95": [
+            -0.015949002269075255,
+            0.0050300447859981294
+          ]
+        },
+        "S_boosted_cost0.012": {
+          "mean": -0.004358621002672144,
+          "SE": 0.00476224551670753,
+          "CI95": [
+            -0.013908422488651435,
+            0.005271723833220132
+          ]
+        },
+        "T_boosted_cost0.012": {
+          "mean": -0.0066380578934169595,
+          "SE": 0.004754890353935238,
+          "CI95": [
+            -0.015984793358915058,
+            0.0030766585607704135
+          ]
+        },
+        "T_random_forest_cost0.012": {
+          "mean": -0.007328103402311283,
+          "SE": 0.004575226656157304,
+          "CI95": [
+            -0.016335488422065766,
+            0.0015656051257895882
+          ]
+        },
+        "DR_pseudo_boosted_cost0.012": {
+          "mean": -0.008507497192175443,
+          "SE": 0.005063604697401033,
+          "CI95": [
+            -0.017994192491903475,
+            0.0025242157070727634
+          ]
+        }
+      }
+    },
+    {
+      "seed": 37016159,
+      "split_sizes": [
+        38400,
+        12800,
+        12800
+      ],
+      "val_choice": "S_boosted_cost0.012",
+      "validation_policy_values": {
+        "always_No E-Mail": 0.11021110081020856,
+        "always_Mens E-Mail": 0.17492528385839873,
+        "always_Womens E-Mail": 0.14389097826287445,
+        "S_logistic_interactions_cost0.012": 0.1754395388863603,
+        "T_logistic_cost0.012": 0.17530733409865953,
+        "S_boosted_cost0.012": 0.1757265517970154,
+        "T_boosted_cost0.012": 0.1736571736620869,
+        "T_random_forest_cost0.012": 0.17455680949743843,
+        "DR_pseudo_boosted_cost0.012": 0.17213405318044328
+      },
+      "test_policy_values": {
+        "always_No E-Mail": 0.1118604859732783,
+        "always_Mens E-Mail": 0.16883571549812398,
+        "always_Womens E-Mail": 0.14494745197979458,
+        "S_logistic_interactions_cost0.012": 0.1709271971966787,
+        "T_logistic_cost0.012": 0.17108479635433946,
+        "S_boosted_cost0.012": 0.17264864174448602,
+        "T_boosted_cost0.012": 0.16652677595956114,
+        "T_random_forest_cost0.012": 0.17424200100247952,
+        "DR_pseudo_boosted_cost0.012": 0.1618333071968334
+      },
+      "test_selected_minus_mens": {
+        "mean": 0.003812926246362015,
+        "SE": 0.003411275184867407,
+        "CI95": [
+          -0.002958211185550824,
+          0.011161684708748247
+        ]
+      },
+      "test_test_arm_counts": [
+        4261,
+        4262,
+        4277
+      ],
+      "test_send_fraction": 1.0,
+      "test_paired_vs_mens": {
+        "always_No E-Mail": {
+          "mean": -0.05697522952484569,
+          "SE": 0.007521059513477388,
+          "CI95": [
+            -0.07182138776284822,
+            -0.04206344528438204
+          ]
+        },
+        "always_Mens E-Mail": {
+          "mean": 0.0,
+          "SE": 0.0,
+          "CI95": [
+            0.0,
+            0.0
+          ]
+        },
+        "always_Womens E-Mail": {
+          "mean": -0.023888263518329404,
+          "SE": 0.008028372288265532,
+          "CI95": [
+            -0.038665242298873276,
+            -0.00804210649313866
+          ]
+        },
+        "S_logistic_interactions_cost0.012": {
+          "mean": 0.002091481698554667,
+          "SE": 0.0037516705022371624,
+          "CI95": [
+            -0.005070018342753685,
+            0.009617688710678389
+          ]
+        },
+        "T_logistic_cost0.012": {
+          "mean": 0.0022490808562154675,
+          "SE": 0.003762562874500046,
+          "CI95": [
+            -0.004883777275517009,
+            0.01008590613456579
+          ]
+        },
+        "S_boosted_cost0.012": {
+          "mean": 0.003812926246362015,
+          "SE": 0.003411275184867407,
+          "CI95": [
+            -0.0029049854031555386,
+            0.010694995680810239
+          ]
+        },
+        "T_boosted_cost0.012": {
+          "mean": -0.0023089395385628374,
+          "SE": 0.004230993481113521,
+          "CI95": [
+            -0.010677329341413222,
+            0.0052425933205208315
+          ]
+        },
+        "T_random_forest_cost0.012": {
+          "mean": 0.005406285504355496,
+          "SE": 0.00419793649026576,
+          "CI95": [
+            -0.0029652850336002665,
+            0.01301373529257222
+          ]
+        },
+        "DR_pseudo_boosted_cost0.012": {
+          "mean": -0.007002408301290564,
+          "SE": 0.004800910230118574,
+          "CI95": [
+            -0.016604727649436008,
+            0.0026310543607717726
+          ]
+        }
+      }
+    },
+    {
+      "seed": 37017870,
+      "split_sizes": [
+        38400,
+        12800,
+        12800
+      ],
+      "val_choice": "always_Mens E-Mail",
+      "validation_policy_values": {
+        "always_No E-Mail": 0.10055967734152987,
+        "always_Mens E-Mail": 0.17650111376094546,
+        "always_Womens E-Mail": 0.14521219639963362,
+        "S_logistic_interactions_cost0.012": 0.17611824223220837,
+        "T_logistic_cost0.012": 0.1763585906319522,
+        "S_boosted_cost0.012": 0.17193464921843343,
+        "T_boosted_cost0.012": 0.17089592788052563,
+        "T_random_forest_cost0.012": 0.1660402500514776,
+        "DR_pseudo_boosted_cost0.012": 0.170428794468298
+      },
+      "test_policy_values": {
+        "always_No E-Mail": 0.10605385276552746,
+        "always_Mens E-Mail": 0.1738915486482091,
+        "always_Womens E-Mail": 0.1379962654667821,
+        "S_logistic_interactions_cost0.012": 0.17564404284094956,
+        "T_logistic_cost0.012": 0.17561133242963528,
+        "S_boosted_cost0.012": 0.17444761729073557,
+        "T_boosted_cost0.012": 0.16732745932443893,
+        "T_random_forest_cost0.012": 0.1670328302334822,
+        "DR_pseudo_boosted_cost0.012": 0.16716787327070087
+      },
+      "test_selected_minus_mens": {
+        "mean": 0.0,
+        "SE": 0.0,
+        "CI95": [
+          0.0,
+          0.0
+        ]
+      },
+      "test_test_arm_counts": [
+        4261,
+        4261,
+        4278
+      ],
+      "test_send_fraction": 1.0,
+      "test_paired_vs_mens": {
+        "always_No E-Mail": {
+          "mean": -0.06783769588268164,
+          "SE": 0.0074958017762669004,
+          "CI95": [
+            -0.08180732832878315,
+            -0.05318256312818161
+          ]
+        },
+        "always_Mens E-Mail": {
+          "mean": 0.0,
+          "SE": 0.0,
+          "CI95": [
+            0.0,
+            0.0
+          ]
+        },
+        "always_Womens E-Mail": {
+          "mean": -0.035895283181427026,
+          "SE": 0.00799058457862547,
+          "CI95": [
+            -0.05195394678995411,
+            -0.020096283323743386
+          ]
+        },
+        "S_logistic_interactions_cost0.012": {
+          "mean": 0.0017524941927404471,
+          "SE": 0.004093934911317133,
+          "CI95": [
+            -0.005864917638466067,
+            0.00958785455627147
+          ]
+        },
+        "T_logistic_cost0.012": {
+          "mean": 0.001719783781426182,
+          "SE": 0.004082037867616151,
+          "CI95": [
+            -0.006466036714322753,
+            0.009586631223227752
+          ]
+        },
+        "S_boosted_cost0.012": {
+          "mean": 0.0005560686425265006,
+          "SE": 0.0038169510330564047,
+          "CI95": [
+            -0.006664278316844984,
+            0.00823596075475624
+          ]
+        },
+        "T_boosted_cost0.012": {
+          "mean": -0.00656408932377015,
+          "SE": 0.004548165375689516,
+          "CI95": [
+            -0.01457057702299041,
+            0.001188329478091343
+          ]
+        },
+        "T_random_forest_cost0.012": {
+          "mean": -0.006858718414726925,
+          "SE": 0.004561640894365863,
+          "CI95": [
+            -0.015468475211808306,
+            0.00204090698603296
+          ]
+        },
+        "DR_pseudo_boosted_cost0.012": {
+          "mean": -0.006723675377508262,
+          "SE": 0.004771676506046982,
+          "CI95": [
+            -0.01618280416832025,
+            0.0027916380812994163
+          ]
+        }
+      }
+    },
+    {
+      "seed": 37019581,
+      "split_sizes": [
+        38400,
+        12800,
+        12800
+      ],
+      "val_choice": "S_logistic_interactions_cost0.012",
+      "validation_policy_values": {
+        "always_No E-Mail": 0.10849322624113629,
+        "always_Mens E-Mail": 0.17299580069809267,
+        "always_Womens E-Mail": 0.14925640805745308,
+        "S_logistic_interactions_cost0.012": 0.17332484381917904,
+        "T_logistic_cost0.012": 0.17332484381917904,
+        "S_boosted_cost0.012": 0.17171574246421797,
+        "T_boosted_cost0.012": 0.16646128836185994,
+        "T_random_forest_cost0.012": 0.17011964864875537,
+        "DR_pseudo_boosted_cost0.012": 0.16548531003029565
+      },
+      "test_policy_values": {
+        "always_No E-Mail": 0.10864898332493649,
+        "always_Mens E-Mail": 0.17111539827899544,
+        "always_Womens E-Mail": 0.13275357528161272,
+        "S_logistic_interactions_cost0.012": 0.16752791735297137,
+        "T_logistic_cost0.012": 0.16752791735297137,
+        "S_boosted_cost0.012": 0.1667998871154022,
+        "T_boosted_cost0.012": 0.1617009122606406,
+        "T_random_forest_cost0.012": 0.16234333737895298,
+        "DR_pseudo_boosted_cost0.012": 0.15660732366826668
+      },
+      "test_selected_minus_mens": {
+        "mean": -0.0035874809260240405,
+        "SE": 0.005014959328568103,
+        "CI95": [
+          -0.0129522786154159,
+          0.006367476542862481
+        ]
+      },
+      "test_test_arm_counts": [
+        4261,
+        4262,
+        4277
+      ],
+      "test_send_fraction": 1.0,
+      "test_paired_vs_mens": {
+        "always_No E-Mail": {
+          "mean": -0.06246641495405894,
+          "SE": 0.0074789674118675865,
+          "CI95": [
+            -0.07738872110341494,
+            -0.04747541546637452
+          ]
+        },
+        "always_Mens E-Mail": {
+          "mean": 0.0,
+          "SE": 0.0,
+          "CI95": [
+            0.0,
+            0.0
+          ]
+        },
+        "always_Womens E-Mail": {
+          "mean": -0.038361822997382694,
+          "SE": 0.007901819523679987,
+          "CI95": [
+            -0.054448979455646876,
+            -0.025215137965924977
+          ]
+        },
+        "S_logistic_interactions_cost0.012": {
+          "mean": -0.0035874809260240405,
+          "SE": 0.005014959328568103,
+          "CI95": [
+            -0.0134395888109334,
+            0.00579056705337105
+          ]
+        },
+        "T_logistic_cost0.012": {
+          "mean": -0.0035874809260240405,
+          "SE": 0.005014959328568103,
+          "CI95": [
+            -0.012906249159930073,
+            0.006426135039488907
+          ]
+        },
+        "S_boosted_cost0.012": {
+          "mean": -0.00431551116359324,
+          "SE": 0.004304216384299756,
+          "CI95": [
+            -0.012066317677649019,
+            0.0037482551291093276
+          ]
+        },
+        "T_boosted_cost0.012": {
+          "mean": -0.009414486018354819,
+          "SE": 0.0045338739942801425,
+          "CI95": [
+            -0.01828680108075828,
+            -0.0005410160672649405
+          ]
+        },
+        "T_random_forest_cost0.012": {
+          "mean": -0.008772060900042466,
+          "SE": 0.0045342002560113046,
+          "CI95": [
+            -0.01817018955741423,
+            -0.00029660782135078535
+          ]
+        },
+        "DR_pseudo_boosted_cost0.012": {
+          "mean": -0.014508074610728734,
+          "SE": 0.004887039328462229,
+          "CI95": [
+            -0.023783352028064413,
+            -0.00482876711304162
+          ]
+        }
+      }
+    },
+    {
+      "seed": 37021292,
+      "split_sizes": [
+        38400,
+        12800,
+        12800
+      ],
+      "val_choice": "S_logistic_interactions_cost0.012",
+      "validation_policy_values": {
+        "always_No E-Mail": 0.11104260081338328,
+        "always_Mens E-Mail": 0.17545722957531013,
+        "always_Womens E-Mail": 0.14265113026892468,
+        "S_logistic_interactions_cost0.012": 0.18175343877112848,
+        "T_logistic_cost0.012": 0.18155479096847899,
+        "S_boosted_cost0.012": 0.17460646801756766,
+        "T_boosted_cost0.012": 0.1679320735239945,
+        "T_random_forest_cost0.012": 0.17299850508935435,
+        "DR_pseudo_boosted_cost0.012": 0.16576036280190337
+      },
+      "test_policy_values": {
+        "always_No E-Mail": 0.10304677012141643,
+        "always_Mens E-Mail": 0.16741728877419207,
+        "always_Womens E-Mail": 0.13401496686807451,
+        "S_logistic_interactions_cost0.012": 0.1646567751701938,
+        "T_logistic_cost0.012": 0.1651524479219939,
+        "S_boosted_cost0.012": 0.16609478008056924,
+        "T_boosted_cost0.012": 0.16268392186086764,
+        "T_random_forest_cost0.012": 0.16109658504955818,
+        "DR_pseudo_boosted_cost0.012": 0.163796785114659
+      },
+      "test_selected_minus_mens": {
+        "mean": -0.002760513603998278,
+        "SE": 0.003958869880876616,
+        "CI95": [
+          -0.01036649089089622,
+          0.00483508772937786
+        ]
+      },
+      "test_test_arm_counts": [
+        4261,
+        4262,
+        4277
+      ],
+      "test_send_fraction": 0.999765625,
+      "test_paired_vs_mens": {
+        "always_No E-Mail": {
+          "mean": -0.06437051865277565,
+          "SE": 0.007387727286431446,
+          "CI95": [
+            -0.0791594478693746,
+            -0.04740785522017492
+          ]
+        },
+        "always_Mens E-Mail": {
+          "mean": 0.0,
+          "SE": 0.0,
+          "CI95": [
+            0.0,
+            0.0
+          ]
+        },
+        "always_Womens E-Mail": {
+          "mean": -0.03340232190611756,
+          "SE": 0.007853564256477812,
+          "CI95": [
+            -0.046949015148712026,
+            -0.01950514687391208
+          ]
+        },
+        "S_logistic_interactions_cost0.012": {
+          "mean": -0.002760513603998278,
+          "SE": 0.003958869880876616,
+          "CI95": [
+            -0.009742009638443311,
+            0.005070940672051253
+          ]
+        },
+        "T_logistic_cost0.012": {
+          "mean": -0.002264840852198163,
+          "SE": 0.003934699904000389,
+          "CI95": [
+            -0.009936059097654496,
+            0.005528548430562031
+          ]
+        },
+        "S_boosted_cost0.012": {
+          "mean": -0.0013225086936227964,
+          "SE": 0.0037790465143883374,
+          "CI95": [
+            -0.008052371798578581,
+            0.005932854056908986
+          ]
+        },
+        "T_boosted_cost0.012": {
+          "mean": -0.004733366913324425,
+          "SE": 0.004312786291197335,
+          "CI95": [
+            -0.012915466518940037,
+            0.0031479534236365206
+          ]
+        },
+        "T_random_forest_cost0.012": {
+          "mean": -0.006320703724633923,
+          "SE": 0.004245681965695548,
+          "CI95": [
+            -0.013993641451630056,
+            0.0019558534893017766
+          ]
+        },
+        "DR_pseudo_boosted_cost0.012": {
+          "mean": -0.0036205036595330616,
+          "SE": 0.004665827740048009,
+          "CI95": [
+            -0.012857296270202611,
+            0.0059882910131054895
+          ]
+        }
+      }
+    },
+    {
+      "seed": 37023003,
+      "split_sizes": [
+        38400,
+        12800,
+        12800
+      ],
+      "val_choice": "always_Mens E-Mail",
+      "validation_policy_values": {
+        "always_No E-Mail": 0.10900704000066205,
+        "always_Mens E-Mail": 0.16835923535894154,
+        "always_Womens E-Mail": 0.1351605662834239,
+        "S_logistic_interactions_cost0.012": 0.16676714208410323,
+        "T_logistic_cost0.012": 0.165861808444883,
+        "S_boosted_cost0.012": 0.16782502675940833,
+        "T_boosted_cost0.012": 0.1615663218129301,
+        "T_random_forest_cost0.012": 0.1589164950299371,
+        "DR_pseudo_boosted_cost0.012": 0.15946095531149687
+      },
+      "test_policy_values": {
+        "always_No E-Mail": 0.10966131617637068,
+        "always_Mens E-Mail": 0.17629626190420042,
+        "always_Womens E-Mail": 0.1407402145716885,
+        "S_logistic_interactions_cost0.012": 0.1786542094416653,
+        "T_logistic_cost0.012": 0.17907684781105182,
+        "S_boosted_cost0.012": 0.17694815514602147,
+        "T_boosted_cost0.012": 0.1738836386106822,
+        "T_random_forest_cost0.012": 0.17502867607965567,
+        "DR_pseudo_boosted_cost0.012": 0.1629785805478255
+      },
+      "test_selected_minus_mens": {
+        "mean": 0.0,
+        "SE": 0.0,
+        "CI95": [
+          0.0,
+          0.0
+        ]
+      },
+      "test_test_arm_counts": [
+        4261,
+        4261,
+        4278
+      ],
+      "test_send_fraction": 1.0,
+      "test_paired_vs_mens": {
+        "always_No E-Mail": {
+          "mean": -0.06663494572782973,
+          "SE": 0.007574873116593705,
+          "CI95": [
+            -0.081143071735246,
+            -0.05110109735931573
+          ]
+        },
+        "always_Mens E-Mail": {
+          "mean": 0.0,
+          "SE": 0.0,
+          "CI95": [
+            0.0,
+            0.0
+          ]
+        },
+        "always_Womens E-Mail": {
+          "mean": -0.0355560473325119,
+          "SE": 0.008043582596673435,
+          "CI95": [
+            -0.051374517048829185,
+            -0.020868853362209554
+          ]
+        },
+        "S_logistic_interactions_cost0.012": {
+          "mean": 0.002357947537464887,
+          "SE": 0.004890112284360592,
+          "CI95": [
+            -0.006577811072980975,
+            0.012409349647279034
+          ]
+        },
+        "T_logistic_cost0.012": {
+          "mean": 0.002780585906851388,
+          "SE": 0.004885086726621639,
+          "CI95": [
+            -0.005928221611539501,
+            0.011340991477629144
+          ]
+        },
+        "S_boosted_cost0.012": {
+          "mean": 0.0006518932418210535,
+          "SE": 0.004101687534219106,
+          "CI95": [
+            -0.007771882136851514,
+            0.009145987437071465
+          ]
+        },
+        "T_boosted_cost0.012": {
+          "mean": -0.002412623293518218,
+          "SE": 0.004749227740482345,
+          "CI95": [
+            -0.011534132253922639,
+            0.006278962128934
+          ]
+        },
+        "T_random_forest_cost0.012": {
+          "mean": -0.0012675858245447405,
+          "SE": 0.0045308122403171875,
+          "CI95": [
+            -0.010723783846691565,
+            0.006953332260560716
+          ]
+        },
+        "DR_pseudo_boosted_cost0.012": {
+          "mean": -0.013317681356374908,
+          "SE": 0.005222597953581607,
+          "CI95": [
+            -0.024673123173725577,
+            -0.0032107165109588344
+          ]
+        }
+      }
+    }
+  ],
+  "elapsed_seconds": 38.914420007989975
+}

@@ -1,0 +1,288 @@
+{
+  "protocol": {
+    "hidden_models": 64,
+    "sensor_polarity_states": 2,
+    "query_budget": 2,
+    "query_cost": 0.012,
+    "seeds_each": 800,
+    "seed_start": 34121026,
+    "true_polarity_known_to_oracle_only": true,
+    "reward_channel": "randomized action outcomes, generative means known per candidate",
+    "no_reward_observation_except_when_calibrating": true,
+    "reward_mean_model_supplied_to_all_methods": true,
+    "likelihood_model_supplied_to_all_methods": true,
+    "exact_bayesian_planning_over_two_steps": true,
+    "methods": [
+      "oracle_polarity",
+      "naive_normal",
+      "uncertain_probe_only",
+      "uncertain_with_reward",
+      "reward_only",
+      "no_probe"
+    ],
+    "interpretation": "gauge ambiguity, standard Bayes information design; NOT representation invention"
+  },
+  "results": {
+    "0": {
+      "oracle_polarity": {
+        "regret": {
+          "mean": 0.047794521443990906,
+          "SE": 0.004597685792072751
+        },
+        "net_cost": {
+          "mean": 0.05979452144399092,
+          "SE": 0.004597685792072752
+        },
+        "probes": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 0.0,
+          "SE": 0.0
+        }
+      },
+      "naive_normal": {
+        "regret": {
+          "mean": 0.047794521443990906,
+          "SE": 0.004597685792072751
+        },
+        "net_cost": {
+          "mean": 0.05979452144399092,
+          "SE": 0.004597685792072752
+        },
+        "probes": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 0.0,
+          "SE": 0.0
+        }
+      },
+      "uncertain_probe_only": {
+        "regret": {
+          "mean": 0.19193330617105406,
+          "SE": 0.007043078077147028
+        },
+        "net_cost": {
+          "mean": 0.19193330617105406,
+          "SE": 0.007043078077147028
+        },
+        "probes": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 0.0,
+          "SE": 0.0
+        }
+      },
+      "uncertain_with_reward": {
+        "regret": {
+          "mean": 0.10381477175391268,
+          "SE": 0.006079407365114012
+        },
+        "net_cost": {
+          "mean": 0.11581477175391271,
+          "SE": 0.006079407365114013
+        },
+        "probes": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 1.0,
+          "SE": 0.0
+        }
+      },
+      "reward_only": {
+        "regret": {
+          "mean": 0.10381477175391268,
+          "SE": 0.006079407365114012
+        },
+        "net_cost": {
+          "mean": 0.11581477175391271,
+          "SE": 0.006079407365114013
+        },
+        "probes": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 1.0,
+          "SE": 0.0
+        }
+      },
+      "no_probe": {
+        "regret": {
+          "mean": 0.1913236669110413,
+          "SE": 0.007038532990292802
+        },
+        "net_cost": {
+          "mean": 0.1913236669110413,
+          "SE": 0.007038532990292802
+        },
+        "probes": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 0.0,
+          "SE": 0.0
+        }
+      },
+      "paired_anchor_minus_oracle_polarity_net": {
+        "mean": 0.05602025030992179,
+        "SE": 0.007642331011673204
+      },
+      "paired_anchor_minus_naive_normal_net": {
+        "mean": 0.05602025030992179,
+        "SE": 0.007642331011673204
+      },
+      "paired_anchor_minus_uncertain_probe_only_net": {
+        "mean": -0.07611853441714135,
+        "SE": 0.009437156323168893
+      },
+      "paired_anchor_minus_reward_only_net": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "paired_anchor_minus_no_probe_net": {
+        "mean": -0.07550889515712862,
+        "SE": 0.00941469705216803
+      }
+    },
+    "1": {
+      "oracle_polarity": {
+        "regret": {
+          "mean": 0.0450742406403675,
+          "SE": 0.0044439888316049475
+        },
+        "net_cost": {
+          "mean": 0.05707424064036751,
+          "SE": 0.0044439888316049475
+        },
+        "probes": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 0.0,
+          "SE": 0.0
+        }
+      },
+      "naive_normal": {
+        "regret": {
+          "mean": 0.3451736043672347,
+          "SE": 0.004741519881439666
+        },
+        "net_cost": {
+          "mean": 0.3571736043672347,
+          "SE": 0.004741519881439666
+        },
+        "probes": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 0.0,
+          "SE": 0.0
+        }
+      },
+      "uncertain_probe_only": {
+        "regret": {
+          "mean": 0.20249894006571623,
+          "SE": 0.007051251604563985
+        },
+        "net_cost": {
+          "mean": 0.20249894006571623,
+          "SE": 0.007051251604563985
+        },
+        "probes": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 0.0,
+          "SE": 0.0
+        }
+      },
+      "uncertain_with_reward": {
+        "regret": {
+          "mean": 0.11482805201227561,
+          "SE": 0.006264817049644998
+        },
+        "net_cost": {
+          "mean": 0.12682805201227562,
+          "SE": 0.006264817049644998
+        },
+        "probes": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 1.0,
+          "SE": 0.0
+        }
+      },
+      "reward_only": {
+        "regret": {
+          "mean": 0.11482805201227561,
+          "SE": 0.006264817049644998
+        },
+        "net_cost": {
+          "mean": 0.12682805201227562,
+          "SE": 0.006264817049644998
+        },
+        "probes": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 1.0,
+          "SE": 0.0
+        }
+      },
+      "no_probe": {
+        "regret": {
+          "mean": 0.20076063767055463,
+          "SE": 0.007062726038502686
+        },
+        "net_cost": {
+          "mean": 0.20076063767055463,
+          "SE": 0.007062726038502686
+        },
+        "probes": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "calibration": {
+          "mean": 0.0,
+          "SE": 0.0
+        }
+      },
+      "paired_anchor_minus_oracle_polarity_net": {
+        "mean": 0.06975381137190811,
+        "SE": 0.007652600152479988
+      },
+      "paired_anchor_minus_naive_normal_net": {
+        "mean": -0.23034555235495907,
+        "SE": 0.007926695963897544
+      },
+      "paired_anchor_minus_uncertain_probe_only_net": {
+        "mean": -0.0756708880534406,
+        "SE": 0.009493909067664131
+      },
+      "paired_anchor_minus_reward_only_net": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "paired_anchor_minus_no_probe_net": {
+        "mean": -0.07393258565827902,
+        "SE": 0.009659460721110619
+      }
+    }
+  },
+  "runtime_seconds": 4.2325464700115845
+}

@@ -1,0 +1,552 @@
+{
+  "config": {
+    "source": "synthetic finite hypothesis Bayesian experimental design",
+    "hypotheses": 64,
+    "candidate_experiments": 8,
+    "budget": 2,
+    "seeds_each": 1000,
+    "probe_cost": 0.012,
+    "seed_start": 32291026,
+    "families": [
+      "nuisance",
+      "xor",
+      "random",
+      "blind"
+    ],
+    "prior": "uniform; FULL true candidate likelihood/reward tables known to ALL methods",
+    "true_index": "used in simulator and regret metric ONLY",
+    "policy": "Bayesian action maximizing expected reward under posterior",
+    "methods": [
+      "dp_optimal",
+      "evi_greedy",
+      "evi_lookahead",
+      "model_mi",
+      "policy_mi",
+      "random"
+    ],
+    "predeclared_failure": "greedy EVI can fail on XOR"
+  },
+  "results": {
+    "nuisance": {
+      "dp_optimal": {
+        "regret": {
+          "mean": 0.05630178251945797,
+          "SE": 0.0043875816981474485
+        },
+        "probe_count": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.06830178251945798,
+          "SE": 0.0043875816981474485
+        },
+        "correct_action": {
+          "mean": 0.856,
+          "SE": 0.011107987548939158
+        }
+      },
+      "evi_greedy": {
+        "regret": {
+          "mean": 0.05630178251945797,
+          "SE": 0.0043875816981474485
+        },
+        "probe_count": {
+          "mean": 1.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.06830178251945798,
+          "SE": 0.0043875816981474485
+        },
+        "correct_action": {
+          "mean": 0.856,
+          "SE": 0.011107987548939158
+        }
+      },
+      "evi_lookahead": {
+        "regret": {
+          "mean": 0.056551892115952025,
+          "SE": 0.00439302168862706
+        },
+        "probe_count": {
+          "mean": 1.417,
+          "SE": 0.015599819048769583
+        },
+        "net_cost": {
+          "mean": 0.07355589211595202,
+          "SE": 0.004399186856066823
+        },
+        "correct_action": {
+          "mean": 0.855,
+          "SE": 0.0111399775178902
+        }
+      },
+      "model_mi": {
+        "regret": {
+          "mean": 0.13746479147852703,
+          "SE": 0.005942514524183572
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.16146479147852705,
+          "SE": 0.005942514524183572
+        },
+        "correct_action": {
+          "mean": 0.645,
+          "SE": 0.015139491543780595
+        }
+      },
+      "policy_mi": {
+        "regret": {
+          "mean": 0.05743405675866885,
+          "SE": 0.004460538176041739
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.08143405675866884,
+          "SE": 0.00446053817604174
+        },
+        "correct_action": {
+          "mean": 0.855,
+          "SE": 0.0111399775178902
+        }
+      },
+      "random": {
+        "regret": {
+          "mean": 0.1505831183769755,
+          "SE": 0.006079874616901231
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.17458311837697557,
+          "SE": 0.006079874616901232
+        },
+        "correct_action": {
+          "mean": 0.613,
+          "SE": 0.015410011955494015
+        }
+      },
+      "paired_dp_minus_evi_greedy_net": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "paired_dp_minus_evi_lookahead_net": {
+        "mean": -0.005254109596494042,
+        "SE": 0.004007893007508401
+      },
+      "paired_dp_minus_model_mi_net": {
+        "mean": -0.09316300895906907,
+        "SE": 0.006948662563524172
+      },
+      "paired_dp_minus_policy_mi_net": {
+        "mean": -0.01313227423921087,
+        "SE": 0.004034924268285309
+      },
+      "paired_dp_minus_random_net": {
+        "mean": -0.10628133585751758,
+        "SE": 0.007121885375586803
+      }
+    },
+    "xor": {
+      "dp_optimal": {
+        "regret": {
+          "mean": 0.08266372275446603,
+          "SE": 0.005243475550483535
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.10666372275446605,
+          "SE": 0.0052434755504835355
+        },
+        "correct_action": {
+          "mean": 0.799,
+          "SE": 0.012679107214617274
+        }
+      },
+      "evi_greedy": {
+        "regret": {
+          "mean": 0.20760647028211127,
+          "SE": 0.006513352556851117
+        },
+        "probe_count": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.20760647028211127,
+          "SE": 0.006513352556851117
+        },
+        "correct_action": {
+          "mean": 0.491,
+          "SE": 0.015816736995005295
+        }
+      },
+      "evi_lookahead": {
+        "regret": {
+          "mean": 0.08081012877880953,
+          "SE": 0.0052065662593125065
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.10481012877880955,
+          "SE": 0.005206566259312507
+        },
+        "correct_action": {
+          "mean": 0.804,
+          "SE": 0.012559527926707347
+        }
+      },
+      "model_mi": {
+        "regret": {
+          "mean": 0.2018931670618968,
+          "SE": 0.00649713023470479
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.22589316706189683,
+          "SE": 0.0064971302347047915
+        },
+        "correct_action": {
+          "mean": 0.504,
+          "SE": 0.01581879370351084
+        }
+      },
+      "policy_mi": {
+        "regret": {
+          "mean": 0.15382420203463612,
+          "SE": 0.006252195087118998
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.17782420203463614,
+          "SE": 0.006252195087118998
+        },
+        "correct_action": {
+          "mean": 0.619,
+          "SE": 0.015364734787007391
+        }
+      },
+      "random": {
+        "regret": {
+          "mean": 0.1982069534681915,
+          "SE": 0.006479878628630793
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.22220695346819153,
+          "SE": 0.006479878628630794
+        },
+        "correct_action": {
+          "mean": 0.512,
+          "SE": 0.01581474331458169
+        }
+      },
+      "paired_dp_minus_evi_greedy_net": {
+        "mean": -0.10094274752764522,
+        "SE": 0.008449073333051102
+      },
+      "paired_dp_minus_evi_lookahead_net": {
+        "mean": 0.0018535939756565121,
+        "SE": 0.0022456573981026007
+      },
+      "paired_dp_minus_model_mi_net": {
+        "mean": -0.11922944430743078,
+        "SE": 0.008159791367178499
+      },
+      "paired_dp_minus_policy_mi_net": {
+        "mean": -0.07116047928017008,
+        "SE": 0.007441975946385892
+      },
+      "paired_dp_minus_random_net": {
+        "mean": -0.11554323071372546,
+        "SE": 0.008131833236153648
+      }
+    },
+    "random": {
+      "dp_optimal": {
+        "regret": {
+          "mean": 0.08498782475224928,
+          "SE": 0.0037878214136180762
+        },
+        "probe_count": {
+          "mean": 0.09,
+          "SE": 0.00927286287971444
+        },
+        "net_cost": {
+          "mean": 0.08606782475224929,
+          "SE": 0.0037883453978732424
+        },
+        "correct_action": {
+          "mean": 0.549,
+          "SE": 0.015743152379585443
+        }
+      },
+      "evi_greedy": {
+        "regret": {
+          "mean": 0.08539156196066923,
+          "SE": 0.003800250071575243
+        },
+        "probe_count": {
+          "mean": 0.086,
+          "SE": 0.008870325962594761
+        },
+        "net_cost": {
+          "mean": 0.08642356196066923,
+          "SE": 0.0038018466511977487
+        },
+        "correct_action": {
+          "mean": 0.548,
+          "SE": 0.01574623586588058
+        }
+      },
+      "evi_lookahead": {
+        "regret": {
+          "mean": 0.08636867715122716,
+          "SE": 0.0038079667707182543
+        },
+        "probe_count": {
+          "mean": 0.003,
+          "SE": 0.0017303161543469432
+        },
+        "net_cost": {
+          "mean": 0.08640467715122715,
+          "SE": 0.003807205969277881
+        },
+        "correct_action": {
+          "mean": 0.543,
+          "SE": 0.0157606915901365
+        }
+      },
+      "model_mi": {
+        "regret": {
+          "mean": 0.08356688691700603,
+          "SE": 0.003764537373572266
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.10756688691700603,
+          "SE": 0.0037645373735722665
+        },
+        "correct_action": {
+          "mean": 0.55,
+          "SE": 0.015740004693383918
+        }
+      },
+      "policy_mi": {
+        "regret": {
+          "mean": 0.07980003116645244,
+          "SE": 0.00373938553509344
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.10380003116645246,
+          "SE": 0.00373938553509344
+        },
+        "correct_action": {
+          "mean": 0.579,
+          "SE": 0.015620595475301287
+        }
+      },
+      "random": {
+        "regret": {
+          "mean": 0.08243997676362033,
+          "SE": 0.003746192382416597
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.10643997676362035,
+          "SE": 0.003746192382416597
+        },
+        "correct_action": {
+          "mean": 0.557,
+          "SE": 0.015716169953204184
+        }
+      },
+      "paired_dp_minus_evi_greedy_net": {
+        "mean": -0.0003557372084199477,
+        "SE": 0.0003926903324458033
+      },
+      "paired_dp_minus_evi_lookahead_net": {
+        "mean": -0.0003368523989778645,
+        "SE": 0.0016808370298322874
+      },
+      "paired_dp_minus_model_mi_net": {
+        "mean": -0.021499062164756735,
+        "SE": 0.0035204960159313033
+      },
+      "paired_dp_minus_policy_mi_net": {
+        "mean": -0.017732206414203176,
+        "SE": 0.0036929847322337184
+      },
+      "paired_dp_minus_random_net": {
+        "mean": -0.020372152011371058,
+        "SE": 0.0032259664947863
+      }
+    },
+    "blind": {
+      "dp_optimal": {
+        "regret": {
+          "mean": 0.18954546451595367,
+          "SE": 0.006274323123113354
+        },
+        "probe_count": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.18954546451595367,
+          "SE": 0.006274323123113354
+        },
+        "correct_action": {
+          "mean": 0.514,
+          "SE": 0.015813097547730935
+        }
+      },
+      "evi_greedy": {
+        "regret": {
+          "mean": 0.18954546451595367,
+          "SE": 0.006274323123113354
+        },
+        "probe_count": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.18954546451595367,
+          "SE": 0.006274323123113354
+        },
+        "correct_action": {
+          "mean": 0.514,
+          "SE": 0.015813097547730935
+        }
+      },
+      "evi_lookahead": {
+        "regret": {
+          "mean": 0.18954546451595367,
+          "SE": 0.006274323123113354
+        },
+        "probe_count": {
+          "mean": 0.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.18954546451595367,
+          "SE": 0.006274323123113354
+        },
+        "correct_action": {
+          "mean": 0.514,
+          "SE": 0.015813097547730935
+        }
+      },
+      "model_mi": {
+        "regret": {
+          "mean": 0.19308124202135205,
+          "SE": 0.0062661550504859885
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.21708124202135207,
+          "SE": 0.0062661550504859885
+        },
+        "correct_action": {
+          "mean": 0.504,
+          "SE": 0.01581879370351084
+        }
+      },
+      "policy_mi": {
+        "regret": {
+          "mean": 0.18919748855303165,
+          "SE": 0.006249391518162435
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.21319748855303167,
+          "SE": 0.006249391518162435
+        },
+        "correct_action": {
+          "mean": 0.513,
+          "SE": 0.01581395210189664
+        }
+      },
+      "random": {
+        "regret": {
+          "mean": 0.1988139849649761,
+          "SE": 0.006274751076285171
+        },
+        "probe_count": {
+          "mean": 2.0,
+          "SE": 0.0
+        },
+        "net_cost": {
+          "mean": 0.22281398496497612,
+          "SE": 0.006274751076285171
+        },
+        "correct_action": {
+          "mean": 0.49,
+          "SE": 0.015816135752773183
+        }
+      },
+      "paired_dp_minus_evi_greedy_net": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "paired_dp_minus_evi_lookahead_net": {
+        "mean": 0.0,
+        "SE": 0.0
+      },
+      "paired_dp_minus_model_mi_net": {
+        "mean": -0.027535777505398394,
+        "SE": 0.0062536427964549526
+      },
+      "paired_dp_minus_policy_mi_net": {
+        "mean": -0.023652024037077987,
+        "SE": 0.005913128988709005
+      },
+      "paired_dp_minus_random_net": {
+        "mean": -0.033268520449022454,
+        "SE": 0.0059982901740587655
+      }
+    }
+  },
+  "runtime_seconds": 8.659174346015789
+}

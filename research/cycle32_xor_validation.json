@@ -1,0 +1,7 @@
+{
+  "instances": 100,
+  "max_abs_immediate_value": 4.440892098500626e-16,
+  "minimum_positive_two_step_net_gain": 0.0725485638542096,
+  "theory": "uniform XOR: each individual sensor independent of optimal action; a jointly informative two-probe sequence exists.",
+  "not_novel": true
+}
