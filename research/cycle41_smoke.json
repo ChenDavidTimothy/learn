@@ -1,0 +1,239 @@
+{
+  "protocol": {
+    "base_observations": "POPGym RepeatFirstEasy 1.0.6 card sequences",
+    "reward": "experimenter overlay: fully scored +/-1/T, correct action given first/lag4/lag7 hidden rule",
+    "training_rule_types": [
+      "first",
+      "lag4"
+    ],
+    "heldout_rule_types": [
+      "first",
+      "lag4",
+      "lag7"
+    ],
+    "out_of_distribution_rule": "lag7",
+    "train_reward": "randomized chosen-action binary reward only",
+    "model_inputs": "current and past cards, prior CHOSEN actions and received rewards, timestep, NO hidden rule ID",
+    "online_test": "models update context with actual chosen actions and rewards within each episode; no gradient adaptation",
+    "train_episodes": 120,
+    "eval_episodes": 16,
+    "trials": 1,
+    "max_epochs": 12,
+    "Bayes_in_class_prior": "explicit true first and lag4 candidates, known deterministic reward likelihood .98/.02",
+    "Bayes_full_library_prior": "includes HELDOUT lag7 candidate (privileged)",
+    "novelty": "standard in-context/meta-learning and Bayesian model selection; no novel mechanism",
+    "device": "cuda"
+  },
+  "trials": [
+    {
+      "methods": {
+        "GRU": {
+          "epochs": 12,
+          "reward_bce": 0.5610951781272888,
+          "train_seconds": 1.014320898015285
+        },
+        "Transformer": {
+          "epochs": 12,
+          "reward_bce": 0.5874220728874207,
+          "train_seconds": 0.16030620399396867
+        },
+        "Transformer_no_feedback": {
+          "epochs": 12,
+          "reward_bce": 0.5920550227165222,
+          "train_seconds": 0.08730049800942652
+        }
+      },
+      "evaluation": {
+        "first": {
+          "GRU": {
+            "accuracy": 0.20220588147640228,
+            "return": -0.595588207244873,
+            "early_accuracy": 0.25,
+            "late_accuracy": 0.19331395626068115
+          },
+          "Transformer": {
+            "accuracy": 0.2389705926179886,
+            "return": -0.5220588445663452,
+            "early_accuracy": 0.2578125,
+            "late_accuracy": 0.23546510934829712
+          },
+          "Transformer_no_feedback": {
+            "accuracy": 0.2340686321258545,
+            "return": -0.531862735748291,
+            "early_accuracy": 0.2578125,
+            "late_accuracy": 0.22965116798877716
+          },
+          "Bayes_in_class": {
+            "accuracy": 0.991421568627451,
+            "return": 0.982843137254902,
+            "early_accuracy": 0.9453125,
+            "late_accuracy": 1.0
+          },
+          "Bayes_full_library": {
+            "accuracy": 0.9901960784313726,
+            "return": 0.9803921568627452,
+            "early_accuracy": 1.0,
+            "late_accuracy": 0.9883720930232558
+          },
+          "Oracle_rule": {
+            "return": 1.0,
+            "accuracy": 1.0
+          }
+        },
+        "lag4": {
+          "GRU": {
+            "accuracy": 0.24387255311012268,
+            "return": -0.5122548937797546,
+            "early_accuracy": 0.203125,
+            "late_accuracy": 0.2514534890651703
+          },
+          "Transformer": {
+            "accuracy": 0.23161764442920685,
+            "return": -0.5367647409439087,
+            "early_accuracy": 0.203125,
+            "late_accuracy": 0.2369185984134674
+          },
+          "Transformer_no_feedback": {
+            "accuracy": 0.24632352590560913,
+            "return": -0.5073529481887817,
+            "early_accuracy": 0.25,
+            "late_accuracy": 0.24563953280448914
+          },
+          "Bayes_in_class": {
+            "accuracy": 0.9889705882352942,
+            "return": 0.9779411764705883,
+            "early_accuracy": 0.9296875,
+            "late_accuracy": 1.0
+          },
+          "Bayes_full_library": {
+            "accuracy": 0.9803921568627451,
+            "return": 0.9607843137254901,
+            "early_accuracy": 0.875,
+            "late_accuracy": 1.0
+          },
+          "Oracle_rule": {
+            "return": 1.0,
+            "accuracy": 1.0
+          }
+        },
+        "lag7": {
+          "GRU": {
+            "accuracy": 0.25367647409439087,
+            "return": -0.49264705181121826,
+            "early_accuracy": 0.328125,
+            "late_accuracy": 0.23982557654380798
+          },
+          "Transformer": {
+            "accuracy": 0.2401960790157318,
+            "return": -0.5196078419685364,
+            "early_accuracy": 0.3203125,
+            "late_accuracy": 0.2252907007932663
+          },
+          "Transformer_no_feedback": {
+            "accuracy": 0.24387255311012268,
+            "return": -0.5122548937797546,
+            "early_accuracy": 0.296875,
+            "late_accuracy": 0.23401163518428802
+          },
+          "Bayes_in_class": {
+            "accuracy": 0.3443627450980392,
+            "return": -0.3112745098039216,
+            "early_accuracy": 0.9453125,
+            "late_accuracy": 0.23255813953488372
+          },
+          "Bayes_full_library": {
+            "accuracy": 0.991421568627451,
+            "return": 0.982843137254902,
+            "early_accuracy": 1.0,
+            "late_accuracy": 0.9898255813953488
+          },
+          "Oracle_rule": {
+            "return": 1.0,
+            "accuracy": 1.0
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "first": {
+      "GRU": {
+        "mean": -0.595588207244873,
+        "SE": null
+      },
+      "Transformer": {
+        "mean": -0.5220588445663452,
+        "SE": null
+      },
+      "Transformer_no_feedback": {
+        "mean": -0.531862735748291,
+        "SE": null
+      },
+      "Bayes_in_class": {
+        "mean": 0.982843137254902,
+        "SE": null
+      },
+      "Bayes_full_library": {
+        "mean": 0.9803921568627452,
+        "SE": null
+      },
+      "Oracle_rule": {
+        "mean": 1.0,
+        "SE": null
+      }
+    },
+    "lag4": {
+      "GRU": {
+        "mean": -0.5122548937797546,
+        "SE": null
+      },
+      "Transformer": {
+        "mean": -0.5367647409439087,
+        "SE": null
+      },
+      "Transformer_no_feedback": {
+        "mean": -0.5073529481887817,
+        "SE": null
+      },
+      "Bayes_in_class": {
+        "mean": 0.9779411764705883,
+        "SE": null
+      },
+      "Bayes_full_library": {
+        "mean": 0.9607843137254901,
+        "SE": null
+      },
+      "Oracle_rule": {
+        "mean": 1.0,
+        "SE": null
+      }
+    },
+    "lag7": {
+      "GRU": {
+        "mean": -0.49264705181121826,
+        "SE": null
+      },
+      "Transformer": {
+        "mean": -0.5196078419685364,
+        "SE": null
+      },
+      "Transformer_no_feedback": {
+        "mean": -0.5122548937797546,
+        "SE": null
+      },
+      "Bayes_in_class": {
+        "mean": -0.3112745098039216,
+        "SE": null
+      },
+      "Bayes_full_library": {
+        "mean": 0.982843137254902,
+        "SE": null
+      },
+      "Oracle_rule": {
+        "mean": 1.0,
+        "SE": null
+      }
+    }
+  },
+  "seconds": 1.5228149390022736
+}

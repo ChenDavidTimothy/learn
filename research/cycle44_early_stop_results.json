@@ -1,0 +1,239 @@
+{
+  "protocol": {
+    "environment": "native POPGym AutoencodeMedium",
+    "trials": 6,
+    "seeds": [
+      40111026,
+      40177817,
+      40244608,
+      40311399,
+      40378190,
+      40444981
+    ],
+    "training_episodes": 700,
+    "eval_episodes": 140,
+    "inputs": "observations only; randomized chosen-action signed reward labels",
+    "model_classes": [
+      "GRU",
+      "TCN",
+      "causal_transformer"
+    ],
+    "max_epochs": 140,
+    "early_stop_patience": 45,
+    "same_labeled_data_as_cycle40": true,
+    "intention": "falsify early-stop driven apparent learning failure",
+    "not_compute_matched_to_cycle40": true
+  },
+  "results": {
+    "GRU": [
+      {
+        "seed": 40111026,
+        "return": -0.408791208791209,
+        "fit_seconds": 3.517183860996738,
+        "epochs": 76,
+        "heldout_reward_bce": 0.5475524016789027,
+        "initial_val_bce": 0.5684253914015633,
+        "late_min_bce": 0.6004493032182966
+      },
+      {
+        "seed": 40177817,
+        "return": -0.4149725274725277,
+        "fit_seconds": 2.6770069699850865,
+        "epochs": 79,
+        "heldout_reward_bce": 0.5420789326940264,
+        "initial_val_bce": 0.5598760877336775,
+        "late_min_bce": 0.5652973685945784
+      },
+      {
+        "seed": 40244608,
+        "return": -0.41332417582417613,
+        "fit_seconds": 2.8404222509998363,
+        "epochs": 82,
+        "heldout_reward_bce": 0.5330511978694371,
+        "initial_val_bce": 0.5533995798655919,
+        "late_min_bce": 0.5712243676185608
+      },
+      {
+        "seed": 40311399,
+        "return": -0.41840659340659364,
+        "fit_seconds": 2.6847549290105235,
+        "epochs": 79,
+        "heldout_reward_bce": 0.5381340622901917,
+        "initial_val_bce": 0.5591614076069423,
+        "late_min_bce": 0.571361860207149
+      },
+      {
+        "seed": 40378190,
+        "return": -0.4192307692307695,
+        "fit_seconds": 2.897475147008663,
+        "epochs": 77,
+        "heldout_reward_bce": 0.5459749800818307,
+        "initial_val_bce": 0.567902546269553,
+        "late_min_bce": 0.596551239490509
+      },
+      {
+        "seed": 40444981,
+        "return": -0.40109890109890134,
+        "fit_seconds": 2.623105439997744,
+        "epochs": 77,
+        "heldout_reward_bce": 0.5407608883721488,
+        "initial_val_bce": 0.5579985107694353,
+        "late_min_bce": 0.5670768397194998
+      }
+    ],
+    "TCN": [
+      {
+        "seed": 40111026,
+        "return": -0.2884615384615385,
+        "fit_seconds": 5.084016063978197,
+        "epochs": 55,
+        "heldout_reward_bce": 0.5408555115972247,
+        "initial_val_bce": 0.5668178081512452,
+        "late_min_bce": 1.5233867815562656
+      },
+      {
+        "seed": 40177817,
+        "return": -0.26538461538461533,
+        "fit_seconds": 5.083656009985134,
+        "epochs": 56,
+        "heldout_reward_bce": 0.521399998664856,
+        "initial_val_bce": 0.559562201159341,
+        "late_min_bce": 1.4338649749755858
+      },
+      {
+        "seed": 40244608,
+        "return": -0.29326923076923084,
+        "fit_seconds": 5.272067832003813,
+        "epochs": 56,
+        "heldout_reward_bce": 0.5337368726730347,
+        "initial_val_bce": 0.5533981476511274,
+        "late_min_bce": 1.5998223951884678
+      },
+      {
+        "seed": 40311399,
+        "return": -0.25315934065934065,
+        "fit_seconds": 5.526962487027049,
+        "epochs": 58,
+        "heldout_reward_bce": 0.5258496335574558,
+        "initial_val_bce": 0.5578717640468053,
+        "late_min_bce": 1.5246640069144113
+      },
+      {
+        "seed": 40378190,
+        "return": -0.2853021978021978,
+        "fit_seconds": 5.435819682985311,
+        "epochs": 57,
+        "heldout_reward_bce": 0.5333367364747184,
+        "initial_val_bce": 0.5662101711545672,
+        "late_min_bce": 1.5607622929981777
+      },
+      {
+        "seed": 40444981,
+        "return": -0.24821428571428572,
+        "fit_seconds": 5.458725894015515,
+        "epochs": 58,
+        "heldout_reward_bce": 0.5251769168036324,
+        "initial_val_bce": 0.5592753444399152,
+        "late_min_bce": 1.600494452885219
+      }
+    ],
+    "causal_transformer": [
+      {
+        "seed": 40111026,
+        "return": 0.9998626373626357,
+        "fit_seconds": 15.878016915987246,
+        "epochs": 140,
+        "heldout_reward_bce": 5.263227763602377e-05,
+        "initial_val_bce": 0.5713510411126274,
+        "late_min_bce": 2.601921665440646e-05
+      },
+      {
+        "seed": 40177817,
+        "return": 0.9999999999999983,
+        "fit_seconds": 11.17624892501044,
+        "epochs": 101,
+        "heldout_reward_bce": 0.0001400425231882504,
+        "initial_val_bce": 0.5620913488524301,
+        "late_min_bce": 3.3737109125857906e-05
+      },
+      {
+        "seed": 40244608,
+        "return": 0.9999999999999983,
+        "fit_seconds": 13.101387565984624,
+        "epochs": 118,
+        "heldout_reward_bce": 8.684215842679675e-05,
+        "initial_val_bce": 0.5571693062782288,
+        "late_min_bce": 2.9697342740421717e-05
+      },
+      {
+        "seed": 40311399,
+        "return": 0.9999999999999983,
+        "fit_seconds": 12.503167530987412,
+        "epochs": 111,
+        "heldout_reward_bce": 0.00034432785801722537,
+        "initial_val_bce": 0.5601980039051601,
+        "late_min_bce": 4.9778665977230825e-05
+      },
+      {
+        "seed": 40378190,
+        "return": 0.9247252747252734,
+        "fit_seconds": 15.609356878994731,
+        "epochs": 140,
+        "heldout_reward_bce": 0.07027643365519387,
+        "initial_val_bce": 0.5685706189700536,
+        "late_min_bce": 0.07027643365519387
+      },
+      {
+        "seed": 40444981,
+        "return": 0.9999999999999983,
+        "fit_seconds": 14.852218112006085,
+        "epochs": 108,
+        "heldout_reward_bce": 0.00013454994935143208,
+        "initial_val_bce": 0.5640404241425651,
+        "late_min_bce": 4.6134188180855876e-05
+      }
+    ]
+  },
+  "summary": {
+    "GRU": {
+      "mean_return": -0.41263736263736295,
+      "SE_return": 0.0027725483790093943,
+      "mean_fit_seconds": 2.8733247663330985,
+      "epochs": [
+        76,
+        79,
+        82,
+        79,
+        77,
+        77
+      ]
+    },
+    "TCN": {
+      "mean_return": -0.27229853479853483,
+      "SE_return": 0.007883041114380837,
+      "mean_fit_seconds": 5.31020799499917,
+      "epochs": [
+        55,
+        56,
+        56,
+        58,
+        57,
+        58
+      ]
+    },
+    "causal_transformer": {
+      "mean_return": 0.987431318681317,
+      "SE_return": 0.012541228851453711,
+      "mean_fit_seconds": 13.85339932149509,
+      "epochs": [
+        140,
+        101,
+        118,
+        111,
+        140,
+        108
+      ]
+    }
+  },
+  "seconds": 136.21522553102113
+}

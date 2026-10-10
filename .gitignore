@@ -27,6 +27,7 @@ MANIFEST
 
 # Virtual environments
 .venv/
+.venv_arcade/
 venv/
 env/
 ENV/
@@ -74,3 +75,7 @@ Thumbs.db
 
 # Local third-party research data, preserve upstream licensing
 research/local_datasets/
+
+# Official POPGym Arcade training smoke checkpoints (not source artifacts)
+PQN*_model_Partial=*.pkl
+PPO*_model_Partial=*.pkl

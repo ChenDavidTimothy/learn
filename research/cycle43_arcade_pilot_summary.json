@@ -1,0 +1,147 @@
+{
+  "protocol": {
+    "source": "authors official popgym-arcade==0.0.6 training implementation",
+    "baseline_methods": [
+      "PQN",
+      "PQN_RNN"
+    ],
+    "tasks": [
+      "CountRecallEasy",
+      "NoisyCartPoleEasy"
+    ],
+    "seeds": [
+      43221026,
+      43221027,
+      43221028
+    ],
+    "env_steps_per_seed": 32768,
+    "partial_obs": true,
+    "pixel_size": 128,
+    "parallel_environments": 8,
+    "steps_per_update": 32,
+    "update_epochs": 2,
+    "minibatches": 4,
+    "eval_environments": 8,
+    "evaluation_steps": 256,
+    "test_interval_fraction_of_updates": 0.25,
+    "gpu": "JAX CUDA13 RTX3060Ti 8GiB",
+    "metric": "final fresh-rollout mean returned_episode_returns from official test function",
+    "caution": "short undertrained pilot; no test RNG pairing; no tuned learning-rate sweeps",
+    "diagnostic_patch": "one-line zeroing of invalid RNN action-churn logging only",
+    "not_novel": true
+  },
+  "tasks": {
+    "CountRecallEasy": {
+      "PQN": {
+        "seed_results": [
+          {
+            "seed": 43221026,
+            "heldout_test_final": 0.06623931974172592,
+            "wallclock_seconds": 26.774502039974323
+          },
+          {
+            "seed": 43221027,
+            "heldout_test_final": 0.0,
+            "wallclock_seconds": 26.564760799024953
+          },
+          {
+            "seed": 43221028,
+            "heldout_test_final": 0.0625,
+            "wallclock_seconds": 27.052846217993647
+          }
+        ],
+        "heldout_final": {
+          "mean": 0.04291310658057531,
+          "SE": 0.021483688892813366
+        },
+        "wallclock_seconds": {
+          "mean": 26.797369685664307,
+          "SE": 0.14136128768397366
+        }
+      },
+      "PQN_RNN": {
+        "seed_results": [
+          {
+            "seed": 43221026,
+            "heldout_test_final": 0.14423075318336487,
+            "wallclock_seconds": 38.86301401199307
+          },
+          {
+            "seed": 43221027,
+            "heldout_test_final": 0.2291666716337204,
+            "wallclock_seconds": 38.9495670380129
+          },
+          {
+            "seed": 43221028,
+            "heldout_test_final": 0.13221153616905212,
+            "wallclock_seconds": 38.4959207320062
+          }
+        ],
+        "heldout_final": {
+          "mean": 0.16853632032871246,
+          "SE": 0.030513084728445022
+        },
+        "wallclock_seconds": {
+          "mean": 38.76950059400406,
+          "SE": 0.13905312203899295
+        }
+      }
+    },
+    "NoisyCartPoleEasy": {
+      "PQN": {
+        "seed_results": [
+          {
+            "seed": 43221026,
+            "heldout_test_final": 0.7731244564056396,
+            "wallclock_seconds": 24.55521432700334
+          },
+          {
+            "seed": 43221027,
+            "heldout_test_final": 0.6449995636940002,
+            "wallclock_seconds": 24.47429874999216
+          },
+          {
+            "seed": 43221028,
+            "heldout_test_final": 0.7631244659423828,
+            "wallclock_seconds": 24.4467042159813
+          }
+        ],
+        "heldout_final": {
+          "mean": 0.7270828286806742,
+          "SE": 0.04114302997054184
+        },
+        "wallclock_seconds": {
+          "mean": 24.492072430992266,
+          "SE": 0.03256039952009278
+        }
+      },
+      "PQN_RNN": {
+        "seed_results": [
+          {
+            "seed": 43221026,
+            "heldout_test_final": 0.19074462354183197,
+            "wallclock_seconds": 37.33947662898572
+          },
+          {
+            "seed": 43221027,
+            "heldout_test_final": 0.19734036922454834,
+            "wallclock_seconds": 37.14745107397903
+          },
+          {
+            "seed": 43221028,
+            "heldout_test_final": 0.2896295189857483,
+            "wallclock_seconds": 37.140423681994434
+          }
+        ],
+        "heldout_final": {
+          "mean": 0.22590483725070953,
+          "SE": 0.0319191805552281
+        },
+        "wallclock_seconds": {
+          "mean": 37.209117128319726,
+          "SE": 0.06521131195312078
+        }
+      }
+    }
+  }
+}

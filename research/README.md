@@ -1,16 +1,17 @@
 # Research program: consequential learning mechanisms
 
 **Latest research phase (2026-10-10):** Read `STANDING_RESEARCH_STANDARD.md`,
-then `REPORT_PHASE5_2026-10-10.md` for Cycles 32-39 on multi-step decision-value
-experiment planning, model misspecification, identifiability and a real randomized
-treatment-value benchmark. Read Phase IV for POPGym Cycles 24-31, Phase III for
-HMM controls Cycles 21-23, and prior reports for Cycles 01-20. All achieved
-results and unachieved objectives are documented. No general breakthrough.
+then `REPORT_PHASE6_2026-10-10.md` for Cycles 40-44, including conventional
+raw-history reward learners, feedback-driven adaptation, out-of-class failures,
+stronger early-stopping controls, and an independent pixel-POMDP benchmark
+harness (`ARCADE_BENCHMARK_PROTOCOL.md`). Phase V covers Cycles 32-39, Phase IV
+Cycles 24-31, Phase III Cycles 21-23, and earlier reports Cycles 01-20. No
+new general algorithm, field, or scientific breakthrough has been established.
 
 Last verified: 2026-10-10. Workspace: /home/dtdav/dev/learn.
 Python: /home/dtdav/dev/learn/.venv/bin/python (3.12.3).
 Cycle 01 historical status: initial formalization and controlled sanity experiments
-only. Current findings and limits are in Phase V, IV and III reports.
+only. Current findings and limits are in Phase VI, V, IV and III reports.
 
 ## Governing question
 

@@ -1,0 +1,233 @@
+{
+  "protocol": {
+    "source": "POPGym card observation trajectories, synthetic hidden reward overlay from Cycle41",
+    "source_rules": [
+      "first",
+      "lag4"
+    ],
+    "unseen_target_rule": "lag7",
+    "source_episodes": 180,
+    "post_budgets": [
+      0,
+      4,
+      16,
+      64,
+      256
+    ],
+    "test_episodes": 24,
+    "trials": 1,
+    "max_training_epochs": 18,
+    "training_actions": "uniform random; same logged target actions and reward data for all methods and budgets",
+    "fine_tune_vs_scratch": "same model class and target examples, early stopping on 20% post logs",
+    "method_models": [
+      "GRU",
+      "causal Transformer"
+    ],
+    "evaluation": "unseen independent on-policy episode feedback, no target rule labels",
+    "privileged_comparator": "Bayes with true lag7 explicitly in supplied rule family",
+    "no_novel_algorithm": true
+  },
+  "trials": [
+    {
+      "frozen": {
+        "GRU": {
+          "return": -0.2549019455909729,
+          "source_fit_seconds": 1.096014088980155
+        },
+        "Transformer": {
+          "return": -0.29901963472366333,
+          "source_fit_seconds": 0.29468129298766144
+        }
+      },
+      "finetune": {
+        "0": {},
+        "4": {
+          "GRU": {
+            "return": -0.2679738402366638,
+            "update_seconds": 0.03297697001835331,
+            "epochs": 18,
+            "validation_bce": 0.6303053498268127
+          },
+          "Transformer": {
+            "return": -0.39052289724349976,
+            "update_seconds": 0.07395126001210883,
+            "epochs": 18,
+            "validation_bce": 0.5985197424888611
+          }
+        },
+        "16": {
+          "GRU": {
+            "return": -0.2630718946456909,
+            "update_seconds": 0.034655293013202026,
+            "epochs": 18,
+            "validation_bce": 0.5356298685073853
+          },
+          "Transformer": {
+            "return": -0.2957516312599182,
+            "update_seconds": 0.05155203602043912,
+            "epochs": 13,
+            "validation_bce": 0.5276607275009155
+          }
+        },
+        "64": {
+          "GRU": {
+            "return": -0.2042483687400818,
+            "update_seconds": 0.08042991100228392,
+            "epochs": 18,
+            "validation_bce": 0.5340264439582825
+          },
+          "Transformer": {
+            "return": -0.2140522599220276,
+            "update_seconds": 0.17501619801623747,
+            "epochs": 18,
+            "validation_bce": 0.4904686510562897
+          }
+        },
+        "256": {
+          "GRU": {
+            "return": -0.009803950786590576,
+            "update_seconds": 0.22337305001565255,
+            "epochs": 18,
+            "validation_bce": 0.455712229013443
+          },
+          "Transformer": {
+            "return": 0.9673202037811279,
+            "update_seconds": 0.46807169599924237,
+            "epochs": 18,
+            "validation_bce": 0.03976580128073692
+          }
+        }
+      },
+      "scratch": {
+        "0": {},
+        "4": {
+          "GRU": {
+            "return": -0.39215683937072754,
+            "update_seconds": 0.027310081000905484,
+            "epochs": 10,
+            "validation_bce": 0.612682044506073
+          },
+          "Transformer": {
+            "return": -0.49346405267715454,
+            "update_seconds": 0.08882143400842324,
+            "epochs": 15,
+            "validation_bce": 0.6168747544288635
+          }
+        },
+        "16": {
+          "GRU": {
+            "return": -0.5392156839370728,
+            "update_seconds": 0.03399400701164268,
+            "epochs": 14,
+            "validation_bce": 0.5461090803146362
+          },
+          "Transformer": {
+            "return": -0.44771242141723633,
+            "update_seconds": 0.08938416599994525,
+            "epochs": 15,
+            "validation_bce": 0.5881089568138123
+          }
+        },
+        "64": {
+          "GRU": {
+            "return": -0.4019607901573181,
+            "update_seconds": 0.08290904900059104,
+            "epochs": 17,
+            "validation_bce": 0.5931422114372253
+          },
+          "Transformer": {
+            "return": -0.4395424723625183,
+            "update_seconds": 0.16255802899831906,
+            "epochs": 14,
+            "validation_bce": 0.5494005680084229
+          }
+        },
+        "256": {
+          "GRU": {
+            "return": 0.017973899841308594,
+            "update_seconds": 0.23366073300712742,
+            "epochs": 18,
+            "validation_bce": 0.4463746249675751
+          },
+          "Transformer": {
+            "return": 0.9640523195266724,
+            "update_seconds": 0.5004524320247583,
+            "epochs": 18,
+            "validation_bce": 0.04273853078484535
+          }
+        }
+      },
+      "reference": {
+        "Bayes_in_class": -0.315359477124183,
+        "Bayes_explicit_lag7": 0.9901960784313726
+      }
+    }
+  ],
+  "summary": {
+    "finetune_GRU_4": {
+      "mean": -0.2679738402366638,
+      "SE": null
+    },
+    "finetune_Transformer_4": {
+      "mean": -0.39052289724349976,
+      "SE": null
+    },
+    "scratch_GRU_4": {
+      "mean": -0.39215683937072754,
+      "SE": null
+    },
+    "scratch_Transformer_4": {
+      "mean": -0.49346405267715454,
+      "SE": null
+    },
+    "finetune_GRU_16": {
+      "mean": -0.2630718946456909,
+      "SE": null
+    },
+    "finetune_Transformer_16": {
+      "mean": -0.2957516312599182,
+      "SE": null
+    },
+    "scratch_GRU_16": {
+      "mean": -0.5392156839370728,
+      "SE": null
+    },
+    "scratch_Transformer_16": {
+      "mean": -0.44771242141723633,
+      "SE": null
+    },
+    "finetune_GRU_64": {
+      "mean": -0.2042483687400818,
+      "SE": null
+    },
+    "finetune_Transformer_64": {
+      "mean": -0.2140522599220276,
+      "SE": null
+    },
+    "scratch_GRU_64": {
+      "mean": -0.4019607901573181,
+      "SE": null
+    },
+    "scratch_Transformer_64": {
+      "mean": -0.4395424723625183,
+      "SE": null
+    },
+    "finetune_GRU_256": {
+      "mean": -0.009803950786590576,
+      "SE": null
+    },
+    "finetune_Transformer_256": {
+      "mean": 0.9673202037811279,
+      "SE": null
+    },
+    "scratch_GRU_256": {
+      "mean": 0.017973899841308594,
+      "SE": null
+    },
+    "scratch_Transformer_256": {
+      "mean": 0.9640523195266724,
+      "SE": null
+    }
+  },
+  "seconds": 4.045114492997527
+}

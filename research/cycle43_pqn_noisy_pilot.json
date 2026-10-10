@@ -1,0 +1,36 @@
+{
+  "algorithm": "PQN",
+  "memory_type": "MLP",
+  "task": "NoisyCartPoleEasy",
+  "seed": 43211026,
+  "total_env_steps": 8192,
+  "wallclock_seconds": 125.87704919400858,
+  "partial_obs": true,
+  "obs_size": 128,
+  "source": "official popgym-arcade 0.0.6 published package training implementation",
+  "jax_platform": "cpu:0",
+  "train_metrics_keys": [
+    "discount",
+    "env_step",
+    "grad_steps",
+    "qvals",
+    "returned_episode",
+    "returned_episode_lengths",
+    "returned_episode_returns",
+    "td_loss",
+    "terminated",
+    "timestep",
+    "truncated",
+    "update_steps"
+  ],
+  "return_means": {
+    "early": {
+      "completed_episode_count_effective": 0.5625,
+      "weighted_mean_return": 3.2786108520295887
+    },
+    "late": {
+      "completed_episode_count_effective": 0.4765625,
+      "weighted_mean_return": 5.63286807888844
+    }
+  }
+}
