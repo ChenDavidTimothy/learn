@@ -1,9 +1,0 @@
---- a/popgym_arcade/baselines/pqn_rnn.py
-+++ b/popgym_arcade/baselines/pqn_rnn.py
-@@ -402,5 +402,5 @@
-             metrics.update({k: v.mean() for k, v in transitions.infos.items()})
-             last_action = jnp.argmax(qvals[-1], axis=-1)
-             new_action = jnp.argmax(qvals_new[-1], axis=-1)
--            churn_ratio = (last_action != new_action).mean()
-+            churn_ratio = jnp.asarray(0., dtype=jnp.float32)  # disable broken diagnostic only
-             metrics["churn_ratio"] = churn_ratio
