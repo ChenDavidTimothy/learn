@@ -1,3 +1,38 @@
+# ACTIVE: fresh study source/protocol preflight PASSED, acquisition next
+
+Latest verified ledger remains v16. No new ledger/release or ultimate completion.
+Fresh study protocol Gitcommit3cd0c458c2ca6407a762ccc254a24a31e177b7d2 was
+SSH-published/remoteverified BEFORE any fresh sampling. Earlier verified retention
+and posthoc progress is at6640ea2bfa5d6881bf6576757dd3a0af3ad0a8f6 (remoteverified).
+
+Fresh source cartesian_stream_v17_study.py is FINAL and independently preflighted:
+file SHA256 a213d5eb27ab1736fe0a855787f8d61293a5a15f52c7d773ba4d3634454a1754.
+Design FILE SHA25668ff9394... (different from its Gitcommit, no mismatch).
+Preflight confirms all eight replicate seed slots, validation-only reselect all
+4 local candidates, wrapper transparency, no evaluator features, failure records;
+uses fake RNG/predictors, ZERO fresh values/physics sampled so far.
+
+NEXT execute fixed200..207, unique research/cartesian_stream_v17_repNNN prefix:
+.venv/bin/python research/cartesian_stream_v17_acquire.py --replicate NNN --output-prefix PREFIX
+.venv/bin/python research/cartesian_stream_v17_study.py --replicate NNN --prefix PREFIX
+At most4 concurrent replicate processes (ownerPC12cores), internal threads1.
+Each study fits localONLY, witnesses8 first, then retained/frozen16 episodes;
+all exact settings/falsifiers and8corpus clustering frozen in study_design.md.
+Prepare independent actual acquisition/physics/RNG/witness/scores and ordinary
+fits/selection/decisions/library audits before reading outcomes. Do all8 unless
+real failure, preserve any failure before repair; never tune from test results.
+Current source/protocol guards PASS. Independent report may be finalized after
+its already-complete numerical JSON; no source changes are planned.
+
+A separate prospective prefix-learning note questions whether strong online local
+estimation can reduce the1024sec populationacquisition requirement. It does NOT
+change this fixed study. Be honest about stronger local/secondorder assumptions.
+
+Continue active Goal through meaningful verified ledger/push/remoteverification
+and immediately beyond. OwnerPC/.venv unchanged; no packages/services or blocker.
+
+---
+
 # ACTIVE: fresh fixed local-reuse study source preparation, no fresh sampling yet
 
 Latestledger v16(1f1af0c...), broadGoalACTIVE/unresolved. Progress7b6cbeabb1ea97113e08961e7b2f7b929980cac1

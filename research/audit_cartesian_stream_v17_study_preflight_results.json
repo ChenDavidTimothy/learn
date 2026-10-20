@@ -1,0 +1,34 @@
+{
+  "status": "PASS FRESH-STUDY SYNTHETIC PREFLIGHT; NO FRESH STUDY RNG DRAWS/PHYSICS",
+  "artifact_sha256": {
+    "cartesian_stream_v17_study.py": "a213d5eb27ab1736fe0a855787f8d61293a5a15f52c7d773ba4d3634454a1754",
+    "cartesian_stream_v17_study_design.md": "68ff9394753ed08eccc34162f70cb47b5dbad592d10d0e20db36cdac9ddd3321",
+    "cartesian_stream_v17_learn.py": "56dc34b38a269d482d843a4207259f316c7329064aa49660dddb37592fcce5f0",
+    "cartesian_stream_v17_local.py": "36d74c4e05a8be8b649d201b4f35880dea9a6b87748c73b34419d4ae9fbba0d2",
+    "cartesian_stream_v17_control.py": "220f12b194e31e32cea916cb0d65628d5ee0ab15ea3f3de1e6ccfd40b23814ca",
+    "cartesian_stream_v17_retention.py": "94e3e5d7ac4e415aa6caecbe1c8042d1ef6a14d63eb5e6fa4a4eb46b4ca0f598",
+    "cartesian_stream_v17_acquire.py": "54f5b71020a163aa76326d94fefc7db8f5723947b6efceed4139ec5a5910f6f2"
+  },
+  "synthetic_scale_max_error": 8.673617379884035e-19,
+  "validation_origins_per_candidate": 80,
+  "candidates": 4,
+  "selected_test_origins": {
+    "one_block": 960,
+    "six_block": 80
+  },
+  "mismatched_acquisition_replicate_rejected": true,
+  "opaque_non_npz_evaluator_hashed_without_feature_open": true,
+  "synthetic_validation_wrapper_max_score_error": 0.0,
+  "fake_rng_replicate_paths_checked": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "partial_failure_origin_and_two_prior_records_preserved": true,
+  "limitations": "Synthetic fake predictor/fake RNG exercise wrapper plumbing, not model performance. No actual200..207 corpus, fresh random values, fit, witness or control sampled. Inherited math previously independently audited; actual eight-corpus artifacts require independent replay."
+}
