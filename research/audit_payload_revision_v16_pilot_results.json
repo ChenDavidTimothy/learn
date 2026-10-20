@@ -1,0 +1,694 @@
+{
+  "status": "INDEPENDENTLY VERIFIED EXPLORATORY PAYLOAD INSTRUMENT; NO ADAPTIVE LEARNING TESTED",
+  "artifact_sha256": {
+    "payload_revision_v16_pilot.py": "751b7f7005b2bbf8df1dedacaaaa3ccc4be1a6e7ce606b58f6019300573f1767",
+    "payload_revision_v16_pilot_design.md": "ffcd1a0a4f7843d422a814a55360b6a093e504b1701ca30198066b044d61e4e4",
+    "payload_revision_v16_pilot_results.json": "e9dc722130d3aba5b325ae1207a74d580a17be2685ec58560d2fa880bdd6e290",
+    "continuous_history_v15_rep100.json": "8392cf49d8319d6190d1de952bc23ab9613ecb2c62f1d5c25bdd639dbf711617",
+    "audit_continuous_history_v15_pilot.py": "b9954166c99f18a063b0fb629ac9f45802420902f76b3ae596adc6f03ed5ac41",
+    "audit_payload_revision_v16_pilot.py": "8c0eb034be3e0e25e6a1612410143b22432d8d1577774f0a3aae8d0b096bf3f4"
+  },
+  "maximum_absolute_errors": {
+    "mechanics_RNG": 0.0,
+    "mechanics_RK32vs64": 6.178737521622679e-10,
+    "mechanics_physics": 4.198119629705843e-11,
+    "energy_work": 9.363287922781183e-12,
+    "stored_energy_work": 8.834571962879068e-12,
+    "cyclic_momentum": 9.298117831235686e-15,
+    "parent_unit_physics": 2.5817903370750628e-11,
+    "parent_stored_difference": 0.0,
+    "initial_state": 0.0,
+    "sensor_RNG": 0.0,
+    "goals": 0.0,
+    "mass_schedule": 0.0,
+    "issued_plan": 0.0,
+    "plan_cost": 8.326672684688674e-16,
+    "warm_cost": 5.995204332975845e-15,
+    "projected_gradient": 2.3425705819590803e-14,
+    "metrics": 0.0,
+    "jump_cartesian_energy": 3.469446951953614e-18,
+    "causal_PD_actions": 0.0,
+    "control_RK32vs64": 1.1648604303360344e-10,
+    "control_physics": 8.764333703226157e-11
+  },
+  "checked": {
+    "mechanical_mass_cases": 24,
+    "parent_unit_recoveries": 12,
+    "rest_cases": 2,
+    "episodes": 80,
+    "control_intervals": 15040,
+    "MPC_plans": 1440,
+    "full_complex_step_plan_gradients": 1440,
+    "causal_PD_actions": 12960,
+    "paired_identical_prefixes": 40,
+    "optimizer_failures": 0
+  },
+  "resources": {
+    "control_episodes": 80,
+    "control_intervals": 15040,
+    "control_simulated_seconds": 1504.0,
+    "scalar_sensor_readings": 30240,
+    "distinct_paired_sensor_streams": 4,
+    "distinct_scalar_noise_draws": 1512,
+    "mechanics_flow_calls": 38,
+    "mechanics_simulated_seconds": 12.8,
+    "planning_residual_calls": 9934
+  },
+  "summary": {
+    "frozen_mpc": {
+      "unchanged": {
+        "after_change_position_mse": 0.010744072798139472,
+        "after_change_velocity_rms": 0.09136481918691079,
+        "post_change_precision": 7,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      "loaded": {
+        "after_change_position_mse": 0.012480069969623982,
+        "after_change_velocity_rms": 0.0904313576224878,
+        "post_change_precision": 7,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          2,
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    "pd_w3_k2": {
+      "unchanged": {
+        "after_change_position_mse": 0.037322590548984375,
+        "after_change_velocity_rms": 0.08037752082049315,
+        "post_change_precision": 0,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "loaded": {
+        "after_change_position_mse": 0.04537810865412426,
+        "after_change_velocity_rms": 0.07629304352059821,
+        "post_change_precision": 0,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "pd_w3_k4": {
+      "unchanged": {
+        "after_change_position_mse": 0.024316235112024007,
+        "after_change_velocity_rms": 0.0773445276004523,
+        "post_change_precision": 4,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      "loaded": {
+        "after_change_position_mse": 0.03173964729035558,
+        "after_change_velocity_rms": 0.07535793970359067,
+        "post_change_precision": 0,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "pd_w3_k8": {
+      "unchanged": {
+        "after_change_position_mse": 0.02126582874323647,
+        "after_change_velocity_rms": 0.07658663692845157,
+        "post_change_precision": 4,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      "loaded": {
+        "after_change_position_mse": 0.02725397058627782,
+        "after_change_velocity_rms": 0.07153250514195097,
+        "post_change_precision": 4,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          2,
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    "pd_w5_k2": {
+      "unchanged": {
+        "after_change_position_mse": 0.03712142048358131,
+        "after_change_velocity_rms": 0.08009918733801288,
+        "post_change_precision": 0,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "loaded": {
+        "after_change_position_mse": 0.04519697184957808,
+        "after_change_velocity_rms": 0.07597548636132426,
+        "post_change_precision": 0,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "pd_w5_k4": {
+      "unchanged": {
+        "after_change_position_mse": 0.02390000323151129,
+        "after_change_velocity_rms": 0.08092257778005155,
+        "post_change_precision": 4,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      "loaded": {
+        "after_change_position_mse": 0.031399200754106335,
+        "after_change_velocity_rms": 0.07610924521073398,
+        "post_change_precision": 0,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "pd_w5_k8": {
+      "unchanged": {
+        "after_change_position_mse": 0.019215582969198952,
+        "after_change_velocity_rms": 0.12372286517970578,
+        "post_change_precision": 4,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      "loaded": {
+        "after_change_position_mse": 0.025308844436297433,
+        "after_change_velocity_rms": 0.0914785524754758,
+        "post_change_precision": 4,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          2,
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    "pd_w9_k2": {
+      "unchanged": {
+        "after_change_position_mse": 0.03683256275636573,
+        "after_change_velocity_rms": 0.09021929431209295,
+        "post_change_precision": 0,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "loaded": {
+        "after_change_position_mse": 0.044642786475498915,
+        "after_change_velocity_rms": 0.0745812714632502,
+        "post_change_precision": 0,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "pd_w9_k4": {
+      "unchanged": {
+        "after_change_position_mse": 0.0291761125713261,
+        "after_change_velocity_rms": 0.18031003484166086,
+        "post_change_precision": 4,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      "loaded": {
+        "after_change_position_mse": 0.033306720702795646,
+        "after_change_velocity_rms": 0.11186883887938022,
+        "post_change_precision": 0,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "pd_w9_k8": {
+      "unchanged": {
+        "after_change_position_mse": 0.027717706804287964,
+        "after_change_velocity_rms": 0.25233438656790474,
+        "post_change_precision": 0,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "loaded": {
+        "after_change_position_mse": 0.029063551862273607,
+        "after_change_velocity_rms": 0.17500668299411393,
+        "post_change_precision": 4,
+        "post_change_goal_windows": 8,
+        "per_task_post_change_precision": [
+          2,
+          0,
+          0,
+          2
+        ]
+      }
+    }
+  },
+  "loading_events": [
+    {
+      "method": "frozen_mpc",
+      "task": 0,
+      "energy_added": 1.4506718891944749e-06,
+      "momentum_jump": [
+        0.0014109301397000544,
+        0.0011344490128944655
+      ]
+    },
+    {
+      "method": "frozen_mpc",
+      "task": 1,
+      "energy_added": 2.4744235054979908e-05,
+      "momentum_jump": [
+        -0.0009675874112077057,
+        0.0024083145323913185
+      ]
+    },
+    {
+      "method": "frozen_mpc",
+      "task": 2,
+      "energy_added": 9.634406981765301e-07,
+      "momentum_jump": [
+        -0.001727878686052434,
+        -0.0005770073990490907
+      ]
+    },
+    {
+      "method": "frozen_mpc",
+      "task": 3,
+      "energy_added": 1.204796209220364e-05,
+      "momentum_jump": [
+        -0.004178886842278002,
+        0.0005564479907928686
+      ]
+    },
+    {
+      "method": "pd_w3_k2",
+      "task": 0,
+      "energy_added": 0.0001397199904247593,
+      "momentum_jump": [
+        -0.014261020608504427,
+        -0.009994992525378651
+      ]
+    },
+    {
+      "method": "pd_w3_k2",
+      "task": 1,
+      "energy_added": 2.49033581195763e-05,
+      "momentum_jump": [
+        -0.012151912504113915,
+        -0.0051090428510180775
+      ]
+    },
+    {
+      "method": "pd_w3_k2",
+      "task": 2,
+      "energy_added": 3.3372221078468367e-07,
+      "momentum_jump": [
+        -0.001535177160114063,
+        -0.0007211974275892351
+      ]
+    },
+    {
+      "method": "pd_w3_k2",
+      "task": 3,
+      "energy_added": 0.00020157618528665182,
+      "momentum_jump": [
+        -0.0218690775085828,
+        -0.01430354794179137
+      ]
+    },
+    {
+      "method": "pd_w3_k4",
+      "task": 0,
+      "energy_added": 2.036305874628446e-06,
+      "momentum_jump": [
+        -0.0017381506800469232,
+        -0.0009330823047654057
+      ]
+    },
+    {
+      "method": "pd_w3_k4",
+      "task": 1,
+      "energy_added": 0.0005937217418137548,
+      "momentum_jump": [
+        -0.06249330630554947,
+        -0.0295860751662285
+      ]
+    },
+    {
+      "method": "pd_w3_k4",
+      "task": 2,
+      "energy_added": 0.0005560053307719726,
+      "momentum_jump": [
+        -0.06406764217867018,
+        -0.03217766715514709
+      ]
+    },
+    {
+      "method": "pd_w3_k4",
+      "task": 3,
+      "energy_added": 7.075205452269841e-05,
+      "momentum_jump": [
+        -0.013133355683737108,
+        -0.008332865533148598
+      ]
+    },
+    {
+      "method": "pd_w3_k8",
+      "task": 0,
+      "energy_added": 3.889215423031513e-06,
+      "momentum_jump": [
+        0.0013936144286405398,
+        0.0027480471888282725
+      ]
+    },
+    {
+      "method": "pd_w3_k8",
+      "task": 1,
+      "energy_added": 0.0003140862758575795,
+      "momentum_jump": [
+        -0.03407734875333883,
+        -0.010160435203363592
+      ]
+    },
+    {
+      "method": "pd_w3_k8",
+      "task": 2,
+      "energy_added": 0.00024978440475428366,
+      "momentum_jump": [
+        -0.04017703390405557,
+        -0.0179154317730001
+      ]
+    },
+    {
+      "method": "pd_w3_k8",
+      "task": 3,
+      "energy_added": 5.896018253163615e-06,
+      "momentum_jump": [
+        -0.0024940397033088252,
+        0.0009201513159130723
+      ]
+    },
+    {
+      "method": "pd_w5_k2",
+      "task": 0,
+      "energy_added": 0.00014003382063963835,
+      "momentum_jump": [
+        -0.014196626390127774,
+        -0.010347754714541094
+      ]
+    },
+    {
+      "method": "pd_w5_k2",
+      "task": 1,
+      "energy_added": 2.5271857888193917e-05,
+      "momentum_jump": [
+        -0.013010183391075816,
+        -0.006636923094628686
+      ]
+    },
+    {
+      "method": "pd_w5_k2",
+      "task": 2,
+      "energy_added": 2.8761920950046944e-07,
+      "momentum_jump": [
+        -0.0010752056341682597,
+        -0.0006823047828493098
+      ]
+    },
+    {
+      "method": "pd_w5_k2",
+      "task": 3,
+      "energy_added": 0.0001994214649743474,
+      "momentum_jump": [
+        -0.021774692961798604,
+        -0.014176389896747037
+      ]
+    },
+    {
+      "method": "pd_w5_k4",
+      "task": 0,
+      "energy_added": 4.3977668911006935e-06,
+      "momentum_jump": [
+        -0.002102639965597242,
+        -0.0025729237086956794
+      ]
+    },
+    {
+      "method": "pd_w5_k4",
+      "task": 1,
+      "energy_added": 0.0006470437513952732,
+      "momentum_jump": [
+        -0.06521059943269802,
+        -0.03437826360331349
+      ]
+    },
+    {
+      "method": "pd_w5_k4",
+      "task": 2,
+      "energy_added": 0.0005039357075206708,
+      "momentum_jump": [
+        -0.06100869801495565,
+        -0.030035611770091328
+      ]
+    },
+    {
+      "method": "pd_w5_k4",
+      "task": 3,
+      "energy_added": 7.110201904451398e-05,
+      "momentum_jump": [
+        -0.012982890131111379,
+        -0.008888560367296806
+      ]
+    },
+    {
+      "method": "pd_w5_k8",
+      "task": 0,
+      "energy_added": 7.484056880572598e-07,
+      "momentum_jump": [
+        0.0007550844361420418,
+        -0.0003931231494059313
+      ]
+    },
+    {
+      "method": "pd_w5_k8",
+      "task": 1,
+      "energy_added": 0.006126189217044657,
+      "momentum_jump": [
+        -0.11425289453093918,
+        -0.09500440913601314
+      ]
+    },
+    {
+      "method": "pd_w5_k8",
+      "task": 2,
+      "energy_added": 0.00445784490685582,
+      "momentum_jump": [
+        -0.16302814195057921,
+        -0.09317315055232225
+      ]
+    },
+    {
+      "method": "pd_w5_k8",
+      "task": 3,
+      "energy_added": 5.997861367762724e-06,
+      "momentum_jump": [
+        -0.0037507855195934928,
+        -0.0026370696425422648
+      ]
+    },
+    {
+      "method": "pd_w9_k2",
+      "task": 0,
+      "energy_added": 0.00012759281907018542,
+      "momentum_jump": [
+        -0.013634121707129975,
+        -0.009430855280738887
+      ]
+    },
+    {
+      "method": "pd_w9_k2",
+      "task": 1,
+      "energy_added": 2.535088882485662e-05,
+      "momentum_jump": [
+        -0.012606863075343186,
+        -0.007036090664591421
+      ]
+    },
+    {
+      "method": "pd_w9_k2",
+      "task": 2,
+      "energy_added": 0.0013428330423742858,
+      "momentum_jump": [
+        0.04914694542747439,
+        0.037710755933012916
+      ]
+    },
+    {
+      "method": "pd_w9_k2",
+      "task": 3,
+      "energy_added": 0.0001825247961408764,
+      "momentum_jump": [
+        -0.02099555090652743,
+        -0.013037139532765819
+      ]
+    },
+    {
+      "method": "pd_w9_k4",
+      "task": 0,
+      "energy_added": 1.230030702314339e-05,
+      "momentum_jump": [
+        -0.002534276939477712,
+        -0.004872165008650386
+      ]
+    },
+    {
+      "method": "pd_w9_k4",
+      "task": 1,
+      "energy_added": 0.008323484582394548,
+      "momentum_jump": [
+        0.004273562725374491,
+        0.052606624484264064
+      ]
+    },
+    {
+      "method": "pd_w9_k4",
+      "task": 2,
+      "energy_added": 0.01784198763570788,
+      "momentum_jump": [
+        0.07817550913255844,
+        0.09601294650632186
+      ]
+    },
+    {
+      "method": "pd_w9_k4",
+      "task": 3,
+      "energy_added": 5.556905271633333e-05,
+      "momentum_jump": [
+        -0.011710488939621948,
+        -0.007074336690326532
+      ]
+    },
+    {
+      "method": "pd_w9_k8",
+      "task": 0,
+      "energy_added": 0.004205701224714521,
+      "momentum_jump": [
+        0.001831275328634023,
+        0.08375515137712958
+      ]
+    },
+    {
+      "method": "pd_w9_k8",
+      "task": 1,
+      "energy_added": 0.014482508528460863,
+      "momentum_jump": [
+        -0.10014687951591406,
+        0.02341913866089529
+      ]
+    },
+    {
+      "method": "pd_w9_k8",
+      "task": 2,
+      "energy_added": 0.005957648576193651,
+      "momentum_jump": [
+        -0.14137182118474223,
+        -0.05254345239145747
+      ]
+    },
+    {
+      "method": "pd_w9_k8",
+      "task": 3,
+      "energy_added": 0.0026564403517965593,
+      "momentum_jump": [
+        0.0012661965885202714,
+        0.06133103335799393
+      ]
+    }
+  ],
+  "seed_check": {
+    "new_role_states": 5,
+    "compared_v15_pilot_and_production_role_states": 682,
+    "collisions": 0
+  },
+  "limits": [
+    "One protocol-fixed acquired model and four fixed tasks, not eight new independent learned bodies; no population SE.",
+    "Current q/v are continuous at matched-velocity external attachment; generalized momentum and kinetic energy jump. Energy-work conservation is asserted only between changes.",
+    "First loaded command and all observations through the event are bit-identical. The first load-dependent observation arrives after the changed plant executes a command.",
+    "All nine fixed PD settings retained; no optimized baseline or post-outcome winner.",
+    "Frozen control success can reject necessity of adaptation in this limited instrument; no adaptation, detector or probe has been evaluated.",
+    "Rest-reference continuous torque feasibility is not a sampled-input endpoint or arbitrary moving-state recovery certificate."
+  ]
+}

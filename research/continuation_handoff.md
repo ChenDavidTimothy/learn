@@ -1,3 +1,104 @@
+# Active continuation: v15 published; payload premise rejected; Cartesian question open
+
+The general-learning Goal remains ACTIVE and unresolved. Latest verified ledger
+isv15, SSH-published and remotely verified at
+`e64e48c72bb9bcde3a85257d9d54ee843c6394ac`. Complete v14 and all earlier ledgers
+are verbatim suffixes. There is NOv16ledger: an audited negative instrument plus
+an information derivation alone does not warrant another learning milestone.
+Continue on the existing PC/project .venv without routine approval.
+
+## Verified work after v15 publication
+
+payload_revision_v16_pilot.py/design/results construct a physically motivated
+matched-velocity payload attachment m2:1->2 at the first6sec goal switch, without
+body reset/change announcement. Fixed parent v15rep100richH4 by protocol,4contexts,
+fresh Cartesian? NO: this instrument STILL uses noisy JOINT POSITIONS(SD.001).
+It compares frozenMPC and the entire9setting causal tanhPD bank, no online learning
+or active probes. Paired noise paths [20261020,16,620,0,1,task],4streams reused over
+80evaluations. Allsource/actualresults/independent reports preserved.
+
+FrozenMPC passes the SAME7/8postevent goal precision windows under unchanged and
+loaded conditions. Postevent positionMSE.0107440728->.0124800700; mean pergoal late
+velocityRMS.0079659600->.0068941482. No statistical noninferiority/universal robustness
+claim: one acquired fit/fourfixedcontexts. This does not establish a need for
+adaptation or probing at this specification. Do NOT increase load until a baseline
+fails or add a detector merely because it was previously proposed. Cost changes
+remain real; adaptive improvement has not been tested. The full PD bank remains,
+no winner selected. Change/goal clocks coinciding cannot later be disguised as an
+unknown-time change-detection experiment.
+
+Independent Lagrangian/Hamiltonian audits verify variablemass physics/torque-work,
+loading external momentum/energy exchange and unit-parent recovery; all80episodes,
+15040intervals,1440fullMPCcomplex-stepgradients,12960PDactions and metrics. Maxstate
+error8.77e-11,PG2.35e-14. All40paired conditions are bit-identical beforeloading AND
+firstloadedcommand; no anticipation.80episodes/1504simsec/30240sensorreads, only1512
+unique noise draws;38mechanicscalls/12.8simsec. Parent acquisition is reused.
+No adaptive learning was tested; this is explicitly an exploratory instrument.
+
+## More consequential candidate: genuinely noninvertible sensing
+
+Read cartesian_experience_v16_question.md, cartesian_branch_v16_theory_independent.md
+and after_payload_v16_direction_independent.md (plus artifact design critique).
+Remove joint encoders: only Cartesian endpoint positions/actions to ordinary
+learning/control. Opposite elbow configurations qA=(-phi/2,phi),qB=(phi/2,-phi)
+have identical stationary endpoint histories, yet distinct torque consequences.
+Atphi=pi/2 the leading endpoint acceleration maps have opposite radial rows and
+equal tangential rows. Allzero passivehistory distributions are EXACTLY identical;
+more passive lags/offline population data cannot identify the CURRENT branch.
+Actions can create evidence. This is different from another wrong Fourier basis
+under an invertible sensor rotation.
+
+Derivations are local where stated: finite rest-pulse endpoint shift=.5T²B*u+O(T4).
+The equalbranch meanB has zero radialrow only atleadingorder. Do NOT declare exact
+finite-time mean dynamics horizontally uncontrollable. Common nonzero actions can
+have higher-order effects, and goal-directed motions may themselves revealbranch.
+Vertical leading goals admit commonbranch-independent directions u~(3,1); not every
+task requiresclassifying the branch. Some probe directions are blind atleadingorder,
+not necessarilyexactlyblind for finite nonlinear flow. Keep noise/nonzeroactioncost.
+
+The promising learning question is whether experience can preserve useful
+correlations BETWEEN possible consequences, then reuse them through a small amount
+of new experience to make better decisions. Mean-only regression may erase an
+attainable direction. But do not mandate discretebelief/worldmodels: unlabeled
+conditional second moments can reveal a lowrank coefficient-variation direction;
+a learned CONTINUOUS Gaussian/local-Jacobian prior may reuse the SAME information.
+Compare same-data strong priors, ordinary history prediction/local updates, generic
+equalcost random excitation and task-directed actions. Do not give trueB/q/v,
+branchlabels or handpicked radial axes to ordinary fitting as discovered structure.
+A fromscratch estimator discarding population knowledge is only anablation.
+
+One candidate simplification, NOTafrozenprotocol: explicitly assumed localconstant
+CartesianB/rest plus3equal pulses gives p3-p0=T²B(2.5u0+1.5u1+.5u2),v3=TB(u0+u1+u2).
+After a firstobservation, expectedquadratic loss for deterministic remaining bounded
+commands needs only posteriorfirst/second coefficientmoments; convexquadratic
+planning avoids an optimizerconfound. Those conditional moments do NOT generally
+determine firstprobe value: sameprior moments can produce different posterior
+updates, so the full prior matters for observation-conditioned decisions. Discrete
+andGaussian priors can compete with samelearneddata. Full nonlinear mechanics, finite-noise inference, physical feasibility
+and actual useful/sustained decisions must still be verified. This is not yetan
+implemented Cartesianlearner/experiment and is NOTa milestone. Do not let an isolated
+rest-aliasing/covariance pilot become another release. Construct and audit a real
+learner/useful decisions, or reject/reframe if conventional approaches already suffice.
+
+Primary context: Klenske/Hennig2016already studies dual-control turn-off behavior;
+no novelty of mean-model stalling/information value. Payloadtheory report records
+full-vsabstract source access for adaptive/dualcontrol references. Root read only
+PETS/SAC/TD-MPC2primaryabstracts sofar, notfullpapers/implementations. Serious primary
+visualservoing/partial-observation/modernlearning review is needed before method
+comparison. Torque->CartesianACCELERATION is not a kinematic velocity-command
+Jacobian; do not mismatch a Broyden visualservo baseline. Underactuated gravity
+swingup remains a genuine alternate sequencing question, but requires strong
+energy/globaltrajectory/modernlearning comparisons, not a manufacturedshort-horizon
+MPCfailure. Scientificjudgment determinesnextsteps; no architectureisrequired.
+
+For each meaningful verified learning milestone: completeaudit, next sequential
+selfcontainedledgerincludingv15verbatim, executableactualexperiments/results,
+commit/pushSSH/verify and immediatelycontinue. Goal remains ACTIVE.
+
+---
+
+# Retained v15 and prior continuation history
+
 # Active continuation after verified v15 continuous-history milestone
 
 The general-learning Goal remains ACTIVE and unresolved. Latest independently
