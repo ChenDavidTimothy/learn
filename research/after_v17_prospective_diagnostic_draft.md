@@ -1,5 +1,10 @@
 # Unexecuted proposal after v17: diagnostics at actual ordinary prefixes
 
+> **Superseded as the default next step (2026-10-20).** The user requested a
+> mechanism-focused course correction. This unexecuted diagnostic is preserved
+> as an option only. Follow current AGENTS.md and research/campaign_goal.md;
+> do not run this protocol without a bounded, consequential decision it enables.
+
 2026-10-20. Saved only for continuation handoff at the user-requested pause.
 No diagnostic implementation, values or new physical forks have been produced.
 This proposal was drafted before the pause; it does not authorize starting v18.

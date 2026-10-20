@@ -2,6 +2,13 @@
 
 Research ledgers, reproducible learning/control experiments, mathematical derivations, negative findings, and citations live in [research](research/).
 
+**Research is paused.** The next campaign is governed by the revised
+[research instructions](AGENTS.md) and [campaign objective](research/campaign_goal.md):
+construct a concrete first-principles learning mechanism and evaluate it against
+strong relevant methods. Read the [current handoff](research/continuation_handoff.md)
+and [lessons from v17](research/research_process_lessons_v17.md) before resuming.
+The earlier exhaustive diagnostic proposal is optional, not the default agenda.
+
 **Current release:** [Living Research Ledger v17](research/first_principles_robot_learning_ledger_v17.md), self-contained with all prior ledgers preserved verbatim.
 
 V17 constructs learning from continuous moving Cartesian camera/action history without certified initial rest or exact position. Fresh replication corrects the exploratory pilot's apparent reliability: retaining new experience reaches 55/192 sustained precision windows, versus 19/192 with the acquired library frozen and 192/192 for a privileged reference. Retention improves relative cost but does not establish reliable control. All 310 failed windows, numerical corrections and independent audits remain. **No claim of novelty, general intelligence or competitive real robotics.**

@@ -1,3 +1,96 @@
+# PAUSED — research direction and campaign instructions revised after v17
+
+2026-10-20, Europe/Berlin. The user challenged the effectiveness of five hours of
+work through v17, then authorized changing the goal and instructions to prioritize
+an actual first-principles learning mechanism that can compete with strong modern
+methods. Configuration and handoff revision is authorized; experiments remain
+paused. No v18 work is launched by this change.
+
+**This opening supersedes the next-step agenda in every historical block below.**
+The previous all-11,520-prediction diagnostic followed by 448-start fork bank is
+NOT the adopted next campaign, a prerequisite, or an instruction to execute.
+Its design is preserved as an unexecuted option. Do not continue it automatically.
+The old mechanism's failure does not entitle it to another diagnostic campaign.
+
+## What changed and what to read first
+
+1. Read the rewritten AGENTS.md. The fixed ambition is our own understood learning
+   mechanism, first-principles derivation and credible competition with modern
+   methods, with a route toward unfamiliar nonlinear robotics. Architecture is
+   open; novelty and success cannot be promised or manufactured.
+2. Read research/campaign_goal.md, the revised operational objective. It requires
+   executable learning, an account of supplied versus acquired capability,
+   meaningful transfer, strong conventional/modern comparisons, actual results
+   and a continue/revise/reject decision. It does not require a predetermined
+   representation, prefix estimator, model, reward or neural architecture.
+3. Read research/research_process_lessons_v17.md for the failure mode: locally
+   defensible calculations and audits accumulated without judging opportunity
+   cost against mechanism construction. Correctness is not consequence.
+4. Read the latest verified scientific ledger v17 and its principal results/limits.
+   Reuse its evidence without inheriting its agenda. Do not reread or rerun every
+   historical artifact unless relevant to a selected decision.
+
+## When the user resumes a campaign
+
+Create one compact research/campaign_plan.md: target capability, consequential
+limitation, proposed learning operation, what experience changes, closest strong
+alternatives, falsifier, meaningful transfer test and resource/time budget.
+The first task is choosing and deriving a consequential mechanism proposal, not
+implementing an old diagnostic or expanding this governance documentation.
+
+Default long-campaign decision deadlines in AGENTS.md: focused plan within
+30 minutes, executable candidate or demonstrated obstacle within 90 minutes,
+first discriminating result by two hours where feasible, and hourly direction
+review thereafter. Necessary long training/theory needs a prospective bounded
+justification. Do not fill time allowances, silently extend them or force a weak
+candidate. After two serious failures without a defensible next mechanism, end
+the attempt honestly instead of drifting. No routine user approvals at checkpoints.
+
+Use an independent scientific critic to challenge the central premise, supplied
+intelligence, competitor strength and opportunity cost. Screen scientific value
+before expensive exhaustive replay. Necessary correctness checks remain mandatory
+for the actual claim; use validated unchanged components and narrow unsupported
+claims rather than starting numerical verification ladders.
+
+Only use a post-v17 diagnostic if it can choose between materially different next
+mechanism decisions within a bounded effort. Prefer the smallest adequate test.
+Do not run the full old prefix/fork protocol merely because it was already drafted.
+A local prefix learner is one possible rival, not the prescribed next framework.
+The user explicitly wants an actual learning mechanism and modern competitiveness,
+not another series of sensor changes, theorem variants or local regression studies.
+
+## Verified state retained
+
+- Latest scientific release: v17, cd97e105e7e64259d4556d52a80e0344a4d9bbbf,
+  SSH-pushed and remotely verified. Complete prior history is preserved verbatim.
+- Previous paused handoff: b46226f200167b42868bfbfac40bdd92438abf2c,
+  also SSH-pushed and remotely verified. Original instructions remain in Git.
+- No demonstrated breakthrough or competitive general-learning framework.
+  Fresh retained control passes 55/192 sustained windows versus frozen 19/192
+  and privileged reference 192/192. All 310 failed ordinary windows remain.
+  Retention improves relative cost; it does not establish reliable competence.
+- All final v17 claim-specific audits passed. Its single numerical replay
+  correction is preserved. The release and its source/data/audit hashes are
+  immutable; governance changes do not change those scientific findings.
+- No v18 ledger, new learning code, diagnostic results, fits or forks exist.
+  No experimental process is running. Research remains paused.
+
+The app's stored Goal is paused with its earlier broad wording. Available Goal
+operations expose creation, reading and status changes, not objective editing;
+do not falsely complete/delete it to replace the text. research/campaign_goal.md
+and the current AGENTS.md are the revised durable operational instructions.
+The app Goal can be replaced through a supported user action later if desired;
+its old wording is not a reason to ignore this authorized course correction.
+
+Use the existing owner PC, /home/dtdav/dev/learn and .venv/bin/python. Preserve
+unrelated work and all released history. This revision is committed/pushed over
+the existing SSH origin; stop after verification. It creates no scientific ledger
+and makes no new empirical or breakthrough claim.
+
+---
+
+# Historical handoffs — evidence and prior proposals, not current instructions
+
 # PAUSED AT USER REQUEST — continuation handoff after verified v17
 
 2026-10-20, Europe/Berlin. The user is switching AI and explicitly requested:
