@@ -1,0 +1,61 @@
+{
+  "status": "INDEPENDENTLY TESTED",
+  "clean_rows": 108,
+  "noisy_rows": 72,
+  "recorded_optimizer_objectives_checked": 432,
+  "maximum_absolute_errors": {
+    "trajectory": 5.115907697472721e-13,
+    "OLS_coefficient": 1.9098611581114255e-13,
+    "singular_values": 5.684341886080802e-14,
+    "recorded_objective": 9.947598300641403e-13,
+    "heldout_metric": 5.774933596555746e+61,
+    "summary": 4.820814132776971e+60,
+    "analytic_jacobian": 9.460403816774487e-05,
+    "structured_jacobian": 4.501061745543211e-10,
+    "derived_parameter_metric": 1.5873524716880638e-11
+  },
+  "maximum_errors_scaled_by_max_1_magnitude": {
+    "trajectory": 4.2810199829546036e-13,
+    "OLS_coefficient": 1.9098611581114255e-13,
+    "singular_values": 1.1944363917937527e-15,
+    "recorded_objective": 4.7556751463719273e-14,
+    "heldout_metric": 4.0662493177885064e-13,
+    "summary": 4.065852649237308e-13,
+    "analytic_jacobian": 4.127945930483006e-09,
+    "structured_jacobian": 2.958389089258162e-10,
+    "derived_parameter_metric": 5.96406433615492e-13
+  },
+  "independent_numerical_jacobian_fit": {
+    "theta": [
+      0.642973049852785,
+      0.4147664411753204,
+      0.20338923132537023,
+      1.1929199024660353
+    ],
+    "sse": 20.840340503121098,
+    "success": true,
+    "saved_sse": 20.84034050312097
+  },
+  "independent_structured_numerical_jacobian_fit": {
+    "theta": [
+      0.741708239947166,
+      0.05000000000000001,
+      0.0880591738680343,
+      1.220366558348933
+    ],
+    "sse": 112.40630600607724,
+    "success": true,
+    "saved_sse": 112.40630600607719
+  },
+  "audit_conclusions": [
+    "Lagged timing, regression indexing, sensitivity derivatives and heldout metrics verified.",
+    "OE least squares is Gaussian output-error likelihood under stated process0, exogenous open-loop commands, iid sensor error and known zero state.",
+    "Multistarts selected by training SSE; heldout data not used for fit selection.",
+    "Numerical fit convergence and three starts do not establish a global optimum.",
+    "All estimators get the same commands and noisy positions; OE and structured regression use identical four-parameter supplied family, starts, bounds and max_nfev.",
+    "OE versus structured regression controls supplied family/stability regularization but compares different observation-error objectives; no optimized modern-method or general-learning superiority follows.",
+    "Clean full regressor rank at c0 does not identify physical pole allocation; coefficient-to-parameter inverse remains nonunique.",
+    "Small velocity support gives near-collinear v/tanh(v) features; c near0 gives fragile nonlinear ratio.",
+    "Heldout clean replay uses known zero initialization; it is not unknown-state filtering or control."
+  ]
+}

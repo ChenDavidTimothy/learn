@@ -1,0 +1,40 @@
+{
+  "status": "INDEPENDENTLY TESTED; eliminated-recurrence audit",
+  "seed": 21661020,
+  "n": 8192,
+  "numpy": "2.5.3",
+  "canonical_rerun_json_equal_saved": true,
+  "eliminated_recurrence": "v[t+2]=f(v[t+1])+lambda*(v[t+1]-f(v[t]))+beta*u[t]+xi[t]",
+  "max_absolute_errors": {
+    "velocity": 9.547918011776346e-15,
+    "position": 7.815970093361102e-14,
+    "observation": 7.815970093361102e-14,
+    "command": 7.105427357601002e-15,
+    "force_gauge": 8.43769498715119e-15,
+    "sensor_difference_initialization": 1.9984014443252818e-14
+  },
+  "initial_compatible_state_error": 0.0,
+  "nonzero_velocity_two_zero_force_preparation_gap": 0.15231883119115297,
+  "same_physical_disconnect_coordinate_error": 0.0,
+  "added_velocity_noise_changes_transformed_innovation": 0.02387990074956268,
+  "scope": [
+    "Pilot uses lagged timing, unlike v8 motor-first model.",
+    "First measured displacement uses artificial previous observation zero; e[-1]=0 convention.",
+    "Alternative is causal, two-state, input-affine, with same additive actuator noise.",
+    "Ordinary commands preserve complete observations, including under observation feedback.",
+    "A coordinate relabeling alone is not a distinct physical intervention claim.",
+    "Zeroing q and zeroing m at nonzero v are different interventions/preparations.",
+    "Velocity-independent actuator restriction excludes the alternative.",
+    "No novelty, general learner, nonlinear-robot generality, or algorithm superiority follows."
+  ],
+  "expanded_artifact": {
+    "canonical_rerun_json_equal_saved": true,
+    "independently_reconstructed_trajectories": 48,
+    "maximum_saved_observable_equivalence_error": 3.979039320256561e-13,
+    "maximum_force_rms_discrepancy": 5.273559366969494e-16,
+    "maximum_force_max_discrepancy": 6.38378239159465e-16,
+    "independent_physical_removal_metric_error": 2.220446049250313e-16,
+    "removal_velocity_response_distance": 0.2733856697523759,
+    "physical_removal_scope": "Requires explicitly different physical drag locations/component boundaries; cannot follow from coordinate relabeling alone."
+  }
+}

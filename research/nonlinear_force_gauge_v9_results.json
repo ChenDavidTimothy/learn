@@ -1,0 +1,508 @@
+{
+  "meta": {
+    "version": 9,
+    "seed": 21861020,
+    "n": 8192,
+    "replicates": 16,
+    "python": "3.12.3",
+    "numpy": "2.5.3",
+    "rho": 0.65,
+    "lambda": 0.4,
+    "c": 0.2,
+    "beta": 1.2,
+    "probe_sd": 0.7,
+    "process_sd": 0.06,
+    "position_sensor_sd": 0.5,
+    "zero_branch_probability": 0.2,
+    "initial_states": "v=m=w=q=x=y=0; phi(0)=0",
+    "timing": "vnext=f(v)+m; mnext=lambda*m+beta*u+xi",
+    "observations": "issued commands and noisy integrated position only",
+    "warning": "calibrated total force is not the same as motor current"
+  },
+  "connected": {
+    "open_loop": [
+      {
+        "seed": 21861020,
+        "max_velocity_difference": 8.881784197001252e-16,
+        "max_position_observation_difference": 6.394884621840902e-14,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 4.440892098500626e-16,
+        "max_total_delivered_force_difference": 0.199997510445601,
+        "rms_total_delivered_force_difference": 0.1420537539376554
+      },
+      {
+        "seed": 21861021,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 3.410605131648481e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 6.661338147750939e-16,
+        "max_total_delivered_force_difference": 0.19999241686424596,
+        "rms_total_delivered_force_difference": 0.13980642627081744
+      },
+      {
+        "seed": 21861022,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 3.410605131648481e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 4.440892098500626e-16,
+        "max_total_delivered_force_difference": 0.19998982069382798,
+        "rms_total_delivered_force_difference": 0.1408709993099447
+      },
+      {
+        "seed": 21861023,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 2.2737367544323206e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 4.440892098500626e-16,
+        "max_total_delivered_force_difference": 0.19999017546039047,
+        "rms_total_delivered_force_difference": 0.14280165392605776
+      },
+      {
+        "seed": 21861024,
+        "max_velocity_difference": 1.1102230246251565e-15,
+        "max_position_observation_difference": 1.0336176359260207e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 4.440892098500626e-16,
+        "max_total_delivered_force_difference": 0.1999960304218913,
+        "rms_total_delivered_force_difference": 0.14054819921280756
+      },
+      {
+        "seed": 21861025,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 2.3447910280083306e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 6.661338147750939e-16,
+        "max_total_delivered_force_difference": 0.19999424511876696,
+        "rms_total_delivered_force_difference": 0.14243659591472893
+      },
+      {
+        "seed": 21861026,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 3.979039320256561e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19997893084739707,
+        "rms_total_delivered_force_difference": 0.14125386814152502
+      },
+      {
+        "seed": 21861027,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 8.526512829121202e-14,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 6.661338147750939e-16,
+        "max_total_delivered_force_difference": 0.19997920655242962,
+        "rms_total_delivered_force_difference": 0.14239309254826044
+      },
+      {
+        "seed": 21861028,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 1.1368683772161603e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19999982649137937,
+        "rms_total_delivered_force_difference": 0.14310502691735288
+      },
+      {
+        "seed": 21861029,
+        "max_velocity_difference": 8.881784197001252e-16,
+        "max_position_observation_difference": 1.1368683772161603e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 6.661338147750939e-16,
+        "max_total_delivered_force_difference": 0.1999979259513901,
+        "rms_total_delivered_force_difference": 0.14201927238195858
+      },
+      {
+        "seed": 21861030,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.2434497875801753e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 6.661338147750939e-16,
+        "max_total_delivered_force_difference": 0.19999668067066156,
+        "rms_total_delivered_force_difference": 0.14075289135398855
+      },
+      {
+        "seed": 21861031,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 2.2737367544323206e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 1.3322676295501878e-15,
+        "max_total_delivered_force_difference": 0.19999978984682576,
+        "rms_total_delivered_force_difference": 0.14172182973941225
+      },
+      {
+        "seed": 21861032,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.1368683772161603e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 4.440892098500626e-16,
+        "max_total_delivered_force_difference": 0.19999358893403096,
+        "rms_total_delivered_force_difference": 0.14202678815761607
+      },
+      {
+        "seed": 21861033,
+        "max_velocity_difference": 1.1102230246251565e-15,
+        "max_position_observation_difference": 9.947598300641403e-14,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19999920442247485,
+        "rms_total_delivered_force_difference": 0.14229168384095392
+      },
+      {
+        "seed": 21861034,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 1.1368683772161603e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 6.661338147750939e-16,
+        "max_total_delivered_force_difference": 0.19999772555414697,
+        "rms_total_delivered_force_difference": 0.14135408746118605
+      },
+      {
+        "seed": 21861035,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 2.2737367544323206e-13,
+        "max_command_difference": 0.0,
+        "max_force_gauge_error": 6.661338147750939e-16,
+        "max_total_delivered_force_difference": 0.1999891603886591,
+        "rms_total_delivered_force_difference": 0.14287511173896733
+      }
+    ],
+    "feedback": [
+      {
+        "seed": 21862020,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 1.8474111129762605e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19998413000119986,
+        "rms_total_delivered_force_difference": 0.13918959296749156
+      },
+      {
+        "seed": 21862021,
+        "max_velocity_difference": 1.5543122344752192e-15,
+        "max_position_observation_difference": 1.7053025658242404e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19998584511277873,
+        "rms_total_delivered_force_difference": 0.13960642058593445
+      },
+      {
+        "seed": 21862022,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.7053025658242404e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 1.3322676295501878e-15,
+        "max_total_delivered_force_difference": 0.19999076557949103,
+        "rms_total_delivered_force_difference": 0.13955457253758502
+      },
+      {
+        "seed": 21862023,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 1.7053025658242404e-13,
+        "max_command_difference": 4.996003610813204e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.1999949168612404,
+        "rms_total_delivered_force_difference": 0.13946502614112352
+      },
+      {
+        "seed": 21862024,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 8.526512829121202e-14,
+        "max_command_difference": 5.551115123125783e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19999353440084508,
+        "rms_total_delivered_force_difference": 0.13896900834120846
+      },
+      {
+        "seed": 21862025,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.7053025658242404e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19999281327256413,
+        "rms_total_delivered_force_difference": 0.13931889827701235
+      },
+      {
+        "seed": 21862026,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 2.8421709430404007e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.1999760286614949,
+        "rms_total_delivered_force_difference": 0.13963734244566792
+      },
+      {
+        "seed": 21862027,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.1368683772161603e-13,
+        "max_command_difference": 5.551115123125783e-16,
+        "max_force_gauge_error": 1.3322676295501878e-15,
+        "max_total_delivered_force_difference": 0.19998732092079224,
+        "rms_total_delivered_force_difference": 0.139908710941613
+      },
+      {
+        "seed": 21862028,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 2.2737367544323206e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19997482628787572,
+        "rms_total_delivered_force_difference": 0.1383809018238355
+      },
+      {
+        "seed": 21862029,
+        "max_velocity_difference": 1.1102230246251565e-15,
+        "max_position_observation_difference": 2.8421709430404007e-13,
+        "max_command_difference": 4.718447854656915e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19998573142310616,
+        "rms_total_delivered_force_difference": 0.13816066547794562
+      },
+      {
+        "seed": 21862030,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 2.1316282072803006e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 1.1102230246251565e-15,
+        "max_total_delivered_force_difference": 0.19998755127913603,
+        "rms_total_delivered_force_difference": 0.13881578916448617
+      },
+      {
+        "seed": 21862031,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 4.973799150320701e-14,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.1999806396915975,
+        "rms_total_delivered_force_difference": 0.13909615941766662
+      },
+      {
+        "seed": 21862032,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 5.684341886080802e-14,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 1.3322676295501878e-15,
+        "max_total_delivered_force_difference": 0.1999788285114426,
+        "rms_total_delivered_force_difference": 0.13832928827567303
+      },
+      {
+        "seed": 21862033,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 2.4868995751603507e-13,
+        "max_command_difference": 5.551115123125783e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.1999708047651121,
+        "rms_total_delivered_force_difference": 0.1398118546060729
+      },
+      {
+        "seed": 21862034,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 1.5631940186722204e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 7.771561172376096e-16,
+        "max_total_delivered_force_difference": 0.19998551585234625,
+        "rms_total_delivered_force_difference": 0.13797036531955376
+      },
+      {
+        "seed": 21862035,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 3.410605131648481e-13,
+        "max_command_difference": 4.996003610813204e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.1999870513640756,
+        "rms_total_delivered_force_difference": 0.13889076027138378
+      }
+    ],
+    "zero_atom": [
+      {
+        "seed": 21863020,
+        "max_velocity_difference": 8.881784197001252e-16,
+        "max_position_observation_difference": 8.526512829121202e-14,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.1999649601578002,
+        "rms_total_delivered_force_difference": 0.13336796455707864
+      },
+      {
+        "seed": 21863021,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.9895196601282805e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19995845798121792,
+        "rms_total_delivered_force_difference": 0.13202612308100345
+      },
+      {
+        "seed": 21863022,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.9895196601282805e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19995622910338096,
+        "rms_total_delivered_force_difference": 0.13250731549206807
+      },
+      {
+        "seed": 21863023,
+        "max_velocity_difference": 1.1102230246251565e-15,
+        "max_position_observation_difference": 2.8421709430404007e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19998560774409135,
+        "rms_total_delivered_force_difference": 0.1316253000955107
+      },
+      {
+        "seed": 21863024,
+        "max_velocity_difference": 1.1102230246251565e-15,
+        "max_position_observation_difference": 7.815970093361102e-14,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19999110539584886,
+        "rms_total_delivered_force_difference": 0.13194686103176032
+      },
+      {
+        "seed": 21863025,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 5.684341886080802e-14,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19996174400538097,
+        "rms_total_delivered_force_difference": 0.13361668873027355
+      },
+      {
+        "seed": 21863026,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.7053025658242404e-13,
+        "max_command_difference": 5.551115123125783e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19998268711328593,
+        "rms_total_delivered_force_difference": 0.13076315280033712
+      },
+      {
+        "seed": 21863027,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 1.4210854715202004e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 6.661338147750939e-16,
+        "max_total_delivered_force_difference": 0.19996908356622822,
+        "rms_total_delivered_force_difference": 0.13113883955368502
+      },
+      {
+        "seed": 21863028,
+        "max_velocity_difference": 1.7763568394002505e-15,
+        "max_position_observation_difference": 8.171241461241152e-14,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19996286230521632,
+        "rms_total_delivered_force_difference": 0.1313586222264998
+      },
+      {
+        "seed": 21863029,
+        "max_velocity_difference": 1.1102230246251565e-15,
+        "max_position_observation_difference": 1.6342482922482304e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19998884426565505,
+        "rms_total_delivered_force_difference": 0.13086697374745201
+      },
+      {
+        "seed": 21863030,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.7053025658242404e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.1999712020768878,
+        "rms_total_delivered_force_difference": 0.13181830264848868
+      },
+      {
+        "seed": 21863031,
+        "max_velocity_difference": 8.881784197001252e-16,
+        "max_position_observation_difference": 7.105427357601002e-14,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.1999433723378803,
+        "rms_total_delivered_force_difference": 0.1327214291668561
+      },
+      {
+        "seed": 21863032,
+        "max_velocity_difference": 8.881784197001252e-16,
+        "max_position_observation_difference": 9.947598300641403e-14,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19997853307232172,
+        "rms_total_delivered_force_difference": 0.1324633492448687
+      },
+      {
+        "seed": 21863033,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 9.237055564881302e-14,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19998030991673454,
+        "rms_total_delivered_force_difference": 0.13298186707484808
+      },
+      {
+        "seed": 21863034,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.5631940186722204e-13,
+        "max_command_difference": 4.440892098500626e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.19997378756244422,
+        "rms_total_delivered_force_difference": 0.13122539929797403
+      },
+      {
+        "seed": 21863035,
+        "max_velocity_difference": 1.3322676295501878e-15,
+        "max_position_observation_difference": 1.4210854715202004e-13,
+        "max_command_difference": 5.551115123125783e-16,
+        "max_force_gauge_error": 8.881784197001252e-16,
+        "max_total_delivered_force_difference": 0.1999970447529107,
+        "rms_total_delivered_force_difference": 0.13262443806473348
+      }
+    ]
+  },
+  "component_removal": {
+    "preparation_commands": [
+      1.3,
+      1.3,
+      1.3,
+      1.3,
+      1.3,
+      1.3,
+      1.3,
+      1.3
+    ],
+    "initial_common_velocity": 6.341128106515937,
+    "world_A_body_drag_response": [
+      3.9217345115303988,
+      2.3492842932612445,
+      1.3306452278647893,
+      0.6910380097058669,
+      0.3294450218623057,
+      0.15053486096537316,
+      0.06796606027493833,
+      0.030605619282537196,
+      0.013774439188239167,
+      0.006198671854527334,
+      0.0027894182126180014,
+      0.0012552396426106479
+    ],
+    "world_B_motor_drag_response": [
+      4.121733269235359,
+      2.6791266250029837,
+      1.7414323062519395,
+      1.1319309990637607,
+      0.7357551493914445,
+      0.4782408471044389,
+      0.3108565506178853,
+      0.20205675790162544,
+      0.13133689263605655,
+      0.08536898021343677,
+      0.0554898371387339,
+      0.03606839414017703
+    ],
+    "response_velocity_rmse_distance": 0.27338566975237594,
+    "two_world_minimax_expected_velocity_rmse_lower_bound": 0.13669283487618797,
+    "two_world_equal_prior_velocity_mse_lower_bound": 0.01868493110648879,
+    "additional_assumption": "different physical drag location and motor-removal semantics",
+    "same_physical_intervention_under_coordinate_change": "If only coordinates change, m=0 maps to q=-c*tanh(v), and outputs remain equal."
+  }
+}
