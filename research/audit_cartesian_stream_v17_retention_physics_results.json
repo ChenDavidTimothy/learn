@@ -1,0 +1,709 @@
+{
+  "status": "PASS \u2014 independent frozenlibrary physics/RNG/sustainedscore/pairedoutcome audit; ordinary fits/plans separately audited",
+  "artifact_sha256": {
+    "cartesian_stream_v17_rep0_retention_results.json": "a4de9a379db4abb6ed5ef4f17458f6c41653533e43c047bc1212d75a61aac387",
+    "cartesian_stream_v17_rep0_retention_arrays.npz": "c2e52c1662c1733099308e38ba3ad3bc66b4b560ccef3c2765e00ecefbe5b3a7",
+    "cartesian_stream_v17_rep0_control_results.json": "64cf94e83bd2ae089dd8bdb3a7b86a0a4e8fa878c9375259576cad8d6d3ab197",
+    "cartesian_stream_v17_rep0_control_arrays.npz": "b07322b808c9ba99759fcd6d946280e6496281721186c299d30418b6b722a98b",
+    "cartesian_stream_v17_retention.py": "94e3e5d7ac4e415aa6caecbe1c8042d1ef6a14d63eb5e6fa4a4eb46b4ca0f598",
+    "cartesian_stream_v17_retention_design.md": "9bde6783d37405920328d3d08c3813f686a136c01dfde6020444788644d5ab31",
+    "cartesian_stream_v17_rep0_fit.json": "fbadb62a3706cabe10ea9a02676eee4b0ac08b85e29649d73141c151832d04f8",
+    "cartesian_stream_v17_rep0_weights.npz": "8e68d652af03eca27c6c304acbb99790ca74a48c1fde5b885c9405ac51ada317",
+    "cartesian_stream_v17_rep0_ordinary.npz": "d3845e64f309dcd1a1ee4e678cbe12a63d7ed9d6b4b5260c0b09089b5504b193",
+    "audit_cartesian_stream_v17_control_physics.py": "c64d3a87f636335fe5cc0a44fd55a120a36bccfba421906b468e8567d35e8227",
+    "audit_cartesian_reuse_v16_pilot.py": "1f9e9c103fe26827dbd892255f02a567e1953b84d113ea9ef6ae725f4d5a2288",
+    "cartesian_stream_v17_learn.py": "56dc34b38a269d482d843a4207259f316c7329064aa49660dddb37592fcce5f0",
+    "cartesian_stream_v17_local.py": "36d74c4e05a8be8b649d201b4f35880dea9a6b87748c73b34419d4ae9fbba0d2",
+    "cartesian_stream_v17_acquire.py": "54f5b71020a163aa76326d94fefc7db8f5723947b6efceed4139ec5a5910f6f2",
+    "coupled_context_v14_pilot.py": "358486add84531d3b487e1ce2dccd1628411b8f5f8fe1d902e8c18f9979dbd30",
+    "cartesian_stream_v17_learning_design.md": "db31e06fa4e4e3019eddb2e12ccb9f5998caddff9dc1ca2bf1f24813e7b8663c",
+    "cartesian_stream_v17_planner_contract.md": "35d35de822a5d33767b616a2f15dd71a552989fceffb03696b412b150cccec91"
+  },
+  "audit_source_sha256": "74953f67e16827f376fd6e9dd9e48ca1dc9db2d71304049fde3fd92ee0deef97",
+  "maximum_reconstruction_errors": {
+    "fresh_initial_rng": 0.0,
+    "warmup_command_rng": 0.0,
+    "all_camera_noise_rng": 0.0,
+    "all_held_pairs": 0.0,
+    "parent_case_initial": 0.0,
+    "parent_case_warmup": 0.0,
+    "parent_case_noise": 0.0,
+    "paired_initial_warmup_states": 0.0,
+    "paired_initial_warmup_observations": 0.0,
+    "paired_initial_warmup_commands": 0.0,
+    "paired_FIRST_command_before_any_append": 0.0,
+    "paired_FIRST_actual_pair_states": 0.0,
+    "same_sensor_derived_goals": 0.0,
+    "paired_original_goals": 0.0,
+    "stored_paired_online_taskcost": 4.440892098500626e-16,
+    "stored_frozen_minus_online_taskcost": 1.7763568394002505e-15,
+    "decision_command_alignment": 0.0,
+    "decision_only_current_goal": 0.0,
+    "ALL1568local_Hamiltonian_intervals": 1.871391930308164e-12,
+    "all8_complete_Hamiltonian_states": 4.1203707112913435e-11,
+    "all8_complete_Hamiltonian_positions": 1.894617795983322e-11,
+    "score_score_task_cost": 1.7763568394002505e-15,
+    "score_score_combined_charged_cost": 1.7763568394002505e-15,
+    "score_score_physical_seconds": 0.0,
+    "score_score_precise_goals": 0.0,
+    "score_warmup_seconds": 0.0,
+    "score_warmup_integrated_motion_penalty": 8.673617379884035e-19,
+    "score_warmup_integrated_effort_penalty": 2.168404344971009e-19,
+    "score_warmup_integrated_squared_effort": 2.7755575615628914e-17,
+    "score_warmup_cost_without_unannounced_goal": 8.673617379884035e-19,
+    "score_phase_phase": 0.0,
+    "score_phase_goal": 0.0,
+    "score_phase_endpoint_start_index": 0.0,
+    "score_phase_endpoint_end_index": 0.0,
+    "score_phase_seconds": 0.0,
+    "score_phase_integrated_position_error": 8.881784197001252e-16,
+    "score_phase_integrated_motion_penalty": 1.1102230246251565e-16,
+    "score_phase_integrated_effort_penalty": 3.469446951953614e-18,
+    "score_phase_integrated_squared_effort": 4.440892098500626e-16,
+    "score_phase_cost": 1.7763568394002505e-15,
+    "score_phase_position_error_by_sample": 0.0,
+    "score_phase_cartesian_velocity_by_sample": 0.0,
+    "score_phase_squared_effort_by_interval": 0.0,
+    "score_phase_late_max_coordinate_position_error": 0.0,
+    "score_phase_late_max_coordinate_velocity": 0.0
+  },
+  "scope": {
+    "actual_physical_intervals": 1568,
+    "complete_Hamiltonian_trajectories": 8,
+    "RK4_substeps_per_interval": 256,
+    "Radau_intervals": 43,
+    "paired_cases": 8,
+    "warmup_and_first_actualpair_equality_checked": true
+  },
+  "resources": {
+    "episodes": 8,
+    "plant_intervals": 1568,
+    "physical_seconds": 156.8,
+    "decisions": 720,
+    "camera_read_opportunities": 1576,
+    "scalar_noise_opportunities": 3152,
+    "new_independent_noise_paths_relative_to_parent": 0,
+    "actual_local_rows_appended": 0,
+    "plant_rhs_evaluations": 41608,
+    "modeled_value_gradient_calls": 8943
+  },
+  "paired_cases": [
+    {
+      "case_index": 0,
+      "context_id": 0,
+      "noise_repeat": 0,
+      "frozen_task_cost": 0.014909876237769236,
+      "online_task_cost": 0.01367502491656167,
+      "frozen_minus_online_task_cost": 0.001234851321207566,
+      "frozen_combined_cost": 0.0214461476638556,
+      "online_combined_cost": 0.020211296342648035,
+      "frozen_precise_goals": 3,
+      "online_precise_goals": 3,
+      "frozen_precision_by_phase": [
+        true,
+        true,
+        true
+      ],
+      "online_precision_by_phase": [
+        true,
+        true,
+        true
+      ],
+      "frozen_phase_costs": [
+        0.011250079466323526,
+        0.001092282206837517,
+        0.002567514564608192
+      ],
+      "online_phase_costs": [
+        0.010521715019013264,
+        0.0011274836942096877,
+        0.0020258262033387184
+      ],
+      "frozen_integrated_effort": [
+        0.3542799005473533,
+        0.035879058246534805,
+        0.03142682731880782
+      ],
+      "online_integrated_effort": [
+        0.3417306216995925,
+        0.03436144058844139,
+        0.03185944544289791
+      ]
+    },
+    {
+      "case_index": 1,
+      "context_id": 0,
+      "noise_repeat": 1,
+      "frozen_task_cost": 0.013562346812608886,
+      "online_task_cost": 0.013093243430870156,
+      "frozen_minus_online_task_cost": 0.0004691033817387294,
+      "frozen_combined_cost": 0.02009861823869525,
+      "online_combined_cost": 0.01962951485695652,
+      "frozen_precise_goals": 3,
+      "online_precise_goals": 3,
+      "frozen_precision_by_phase": [
+        true,
+        true,
+        true
+      ],
+      "online_precision_by_phase": [
+        true,
+        true,
+        true
+      ],
+      "frozen_phase_costs": [
+        0.010045285443321896,
+        0.0008392247388855465,
+        0.0026778366304014427
+      ],
+      "online_phase_costs": [
+        0.00979670089841561,
+        0.0009503812285921117,
+        0.002346161303862436
+      ],
+      "frozen_integrated_effort": [
+        0.27816748076846337,
+        0.02576534212572796,
+        0.04056891558439119
+      ],
+      "online_integrated_effort": [
+        0.27341794899882865,
+        0.02972138562365402,
+        0.05005671435345789
+      ]
+    },
+    {
+      "case_index": 2,
+      "context_id": 1,
+      "noise_repeat": 0,
+      "frozen_task_cost": 0.010765442358929555,
+      "online_task_cost": 0.01062871836372123,
+      "frozen_minus_online_task_cost": 0.0001367239952083238,
+      "frozen_combined_cost": 0.015901507977684932,
+      "online_combined_cost": 0.015764783982476608,
+      "frozen_precise_goals": 3,
+      "online_precise_goals": 3,
+      "frozen_precision_by_phase": [
+        true,
+        true,
+        true
+      ],
+      "online_precision_by_phase": [
+        true,
+        true,
+        true
+      ],
+      "frozen_phase_costs": [
+        0.004210320979049118,
+        0.002284099236860673,
+        0.004271022143019764
+      ],
+      "online_phase_costs": [
+        0.004184686616264281,
+        0.002017120537360775,
+        0.004426911210096175
+      ],
+      "frozen_integrated_effort": [
+        0.10550376176849752,
+        0.04536760701546902,
+        0.08230342650991204
+      ],
+      "online_integrated_effort": [
+        0.10665810433689969,
+        0.04106720517155313,
+        0.07661929994852949
+      ]
+    },
+    {
+      "case_index": 3,
+      "context_id": 1,
+      "noise_repeat": 1,
+      "frozen_task_cost": 0.010979759259024884,
+      "online_task_cost": 0.010813628231863957,
+      "frozen_minus_online_task_cost": 0.0001661310271609262,
+      "frozen_combined_cost": 0.01611582487778026,
+      "online_combined_cost": 0.015949693850619333,
+      "frozen_precise_goals": 3,
+      "online_precise_goals": 3,
+      "frozen_precision_by_phase": [
+        true,
+        true,
+        true
+      ],
+      "online_precision_by_phase": [
+        true,
+        true,
+        true
+      ],
+      "frozen_phase_costs": [
+        0.004408720665171956,
+        0.0022688742482424177,
+        0.00430216434561051
+      ],
+      "online_phase_costs": [
+        0.004309889494814363,
+        0.0020494972872532927,
+        0.004454241449796302
+      ],
+      "frozen_integrated_effort": [
+        0.11882305317778277,
+        0.05080872524515724,
+        0.10085703795141708
+      ],
+      "online_integrated_effort": [
+        0.11658693477074718,
+        0.050894659425816904,
+        0.09575156772093857
+      ]
+    },
+    {
+      "case_index": 4,
+      "context_id": 2,
+      "noise_repeat": 0,
+      "frozen_task_cost": 14.22087704371923,
+      "online_task_cost": 3.1071160385927103,
+      "frozen_minus_online_task_cost": 11.11376100512652,
+      "frozen_combined_cost": 14.22358726438841,
+      "online_combined_cost": 3.10982625926189,
+      "frozen_precise_goals": 0,
+      "online_precise_goals": 2,
+      "frozen_precision_by_phase": [
+        false,
+        false,
+        false
+      ],
+      "online_precision_by_phase": [
+        false,
+        true,
+        true
+      ],
+      "frozen_phase_costs": [
+        3.739464712416809,
+        3.80691924566627,
+        6.674493085636152
+      ],
+      "online_phase_costs": [
+        3.0149719732047116,
+        0.08812498381881727,
+        0.004019081569181575
+      ],
+      "frozen_integrated_effort": [
+        2.7718056776843283,
+        2.2889406883689385,
+        2.479991710802178
+      ],
+      "online_integrated_effort": [
+        2.5716150835301677,
+        1.091979003763454,
+        0.09155587225515015
+      ]
+    },
+    {
+      "case_index": 5,
+      "context_id": 2,
+      "noise_repeat": 1,
+      "frozen_task_cost": 4.95367142485075,
+      "online_task_cost": 3.0765896623302247,
+      "frozen_minus_online_task_cost": 1.8770817625205254,
+      "frozen_combined_cost": 4.956381645519929,
+      "online_combined_cost": 3.0792998829994045,
+      "frozen_precise_goals": 1,
+      "online_precise_goals": 2,
+      "frozen_precision_by_phase": [
+        false,
+        false,
+        true
+      ],
+      "online_precision_by_phase": [
+        false,
+        true,
+        true
+      ],
+      "frozen_phase_costs": [
+        3.715324731858369,
+        1.2334883968030832,
+        0.004858296189298002
+      ],
+      "online_phase_costs": [
+        3.0095366428902506,
+        0.0631397428668822,
+        0.003913276573091756
+      ],
+      "frozen_integrated_effort": [
+        2.810845230516869,
+        1.8296355988886424,
+        0.18667723187342844
+      ],
+      "online_integrated_effort": [
+        2.589117686861202,
+        0.9589751817646017,
+        0.12606648827766642
+      ]
+    },
+    {
+      "case_index": 6,
+      "context_id": 3,
+      "noise_repeat": 0,
+      "frozen_task_cost": 0.053720913766769525,
+      "online_task_cost": 0.03403979372248248,
+      "frozen_minus_online_task_cost": 0.019681120044287043,
+      "frozen_combined_cost": 0.057018016721978995,
+      "online_combined_cost": 0.03733689667769195,
+      "frozen_precise_goals": 0,
+      "online_precise_goals": 3,
+      "frozen_precision_by_phase": [
+        false,
+        false,
+        false
+      ],
+      "online_precision_by_phase": [
+        true,
+        true,
+        true
+      ],
+      "frozen_phase_costs": [
+        0.01374165345411006,
+        0.011692795060831561,
+        0.028286465251827903
+      ],
+      "online_phase_costs": [
+        0.010747654604602551,
+        0.005902283622913228,
+        0.017389855494966706
+      ],
+      "frozen_integrated_effort": [
+        0.024897477147392835,
+        0.08404982495481751,
+        0.12954677586730934
+      ],
+      "online_integrated_effort": [
+        0.02363172932891096,
+        0.07382573671089847,
+        0.12920083231802343
+      ]
+    },
+    {
+      "case_index": 7,
+      "context_id": 3,
+      "noise_repeat": 1,
+      "frozen_task_cost": 0.054676680228460416,
+      "online_task_cost": 0.03549659360973411,
+      "frozen_minus_online_task_cost": 0.019180086618726305,
+      "frozen_combined_cost": 0.057973783183669886,
+      "online_combined_cost": 0.03879369656494358,
+      "frozen_precise_goals": 0,
+      "online_precise_goals": 3,
+      "frozen_precision_by_phase": [
+        false,
+        false,
+        false
+      ],
+      "online_precision_by_phase": [
+        true,
+        true,
+        true
+      ],
+      "frozen_phase_costs": [
+        0.013440363130351289,
+        0.012601827812064545,
+        0.02863448928604458
+      ],
+      "online_phase_costs": [
+        0.010780115482934782,
+        0.0067853388573254625,
+        0.017931139269473866
+      ],
+      "frozen_integrated_effort": [
+        0.052910214282565954,
+        0.07699262264034723,
+        0.17928866280636627
+      ],
+      "online_integrated_effort": [
+        0.0535228166842777,
+        0.07884290292308449,
+        0.1675208073490536
+      ]
+    }
+  ],
+  "summary": {
+    "frozen_precise_goals": 13,
+    "online_precise_goals": 22,
+    "frozen_phase_precision": [
+      4,
+      4,
+      5
+    ],
+    "online_phase_precision": [
+      6,
+      8,
+      8
+    ],
+    "mean_frozen_minus_online_taskcost": 1.6289638480044217,
+    "context_mean_frozen_minus_online_taskcost": [
+      0.0008519773514731478,
+      0.000151427511184625,
+      6.495421383823523,
+      0.019430603331506674
+    ]
+  },
+  "independent_Radau_checks": [
+    {
+      "episode": 0,
+      "interval": 0,
+      "error": 9.540979117872439e-18
+    },
+    {
+      "episode": 0,
+      "interval": 16,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "episode": 0,
+      "interval": 76,
+      "error": 6.938893903907228e-18
+    },
+    {
+      "episode": 0,
+      "interval": 136,
+      "error": 2.0816681711721685e-17
+    },
+    {
+      "episode": 0,
+      "interval": 194,
+      "error": 4.884981308350689e-15
+    },
+    {
+      "episode": 1,
+      "interval": 0,
+      "error": 9.540979117872439e-18
+    },
+    {
+      "episode": 1,
+      "interval": 16,
+      "error": 2.220446049250313e-15
+    },
+    {
+      "episode": 1,
+      "interval": 76,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 1,
+      "interval": 136,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "episode": 1,
+      "interval": 194,
+      "error": 8.43769498715119e-15
+    },
+    {
+      "episode": 2,
+      "interval": 0,
+      "error": 1.3877787807814457e-17
+    },
+    {
+      "episode": 2,
+      "interval": 16,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "episode": 2,
+      "interval": 76,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 2,
+      "interval": 136,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "episode": 2,
+      "interval": 194,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 3,
+      "interval": 0,
+      "error": 1.3877787807814457e-17
+    },
+    {
+      "episode": 3,
+      "interval": 16,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "episode": 3,
+      "interval": 76,
+      "error": 2.6645352591003757e-15
+    },
+    {
+      "episode": 3,
+      "interval": 136,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "episode": 3,
+      "interval": 194,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 4,
+      "interval": 0,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 4,
+      "interval": 16,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 4,
+      "interval": 41,
+      "error": 1.1732836924238654e-12
+    },
+    {
+      "episode": 4,
+      "interval": 76,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "episode": 4,
+      "interval": 136,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "episode": 4,
+      "interval": 194,
+      "error": 3.552713678800501e-14
+    },
+    {
+      "episode": 5,
+      "interval": 0,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 5,
+      "interval": 16,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 5,
+      "interval": 41,
+      "error": 1.7603696278456482e-12
+    },
+    {
+      "episode": 5,
+      "interval": 62,
+      "error": 9.325873406851315e-15
+    },
+    {
+      "episode": 5,
+      "interval": 76,
+      "error": 1.3322676295501878e-15
+    },
+    {
+      "episode": 5,
+      "interval": 136,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "episode": 5,
+      "interval": 194,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 6,
+      "interval": 0,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "episode": 6,
+      "interval": 16,
+      "error": 2.220446049250313e-15
+    },
+    {
+      "episode": 6,
+      "interval": 76,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 6,
+      "interval": 136,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "episode": 6,
+      "interval": 194,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "episode": 7,
+      "interval": 0,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "episode": 7,
+      "interval": 16,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "episode": 7,
+      "interval": 76,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "episode": 7,
+      "interval": 136,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "episode": 7,
+      "interval": 194,
+      "error": 1.9984014443252818e-15
+    }
+  ],
+  "maximum_Radau_error": 1.7603696278456482e-12,
+  "extreme_interval_indices": {
+    "Cartesian_speed": [
+      4,
+      194
+    ],
+    "joint_speed": [
+      4,
+      41
+    ],
+    "Jacobian_singularity": [
+      5,
+      62
+    ],
+    "joint_step": [
+      5,
+      41
+    ]
+  },
+  "late_precision_endpoint_indices": [
+    [
+      67,
+      76
+    ],
+    [
+      127,
+      136
+    ],
+    [
+      187,
+      196
+    ]
+  ],
+  "limitations": [
+    "Library-content/ordinaryfit/gradient/optimizer audit is separate; metadata rowcount checks alone are not that proof.",
+    "Same8knownpairedcases after originalpilot; exploratorycausalmechanism ablation, not freshpopulationconfirmation.",
+    "Freezinglibrary preservescurrenthistory/refitting/feedback, not no learning or no adaptation.",
+    "Afterfirstappend, policies mayvisitdifferenthistories; paired differences are totalclosedloopeffect, not identicalpostwarmexperience.",
+    "Zero new independentnoise paths relativetoparent; RNGoperations replayknownarrays, not zero physicalcameraopportunities.",
+    "Four preparations/two pairednoiserepeats each, not8independentbodies; no null/necessityclaimfrompointcounts alone.",
+    "Sampledtenendpointprecision, not continuous-time guarantee."
+  ],
+  "wall_seconds": 3.222510814666748
+}

@@ -1,3 +1,50 @@
+# ACTIVE: fresh fixed local-reuse study source preparation, no fresh sampling yet
+
+Latestledger v16(1f1af0c...), broadGoalACTIVE/unresolved. Progress7b6cbeabb1ea97113e08961e7b2f7b929980cac1
+SSHpublished/remoteverified (fullmovingcontrol). NOv17ledger yet; continueafterpublication.
+
+Newverifiedstate: retentionablationCOMPLETE and BOTHdecision+physicsauditsPASS.
+Read cartesian_stream_v17_retention_findings.md. Frozenacquiredlibrary13/24sustained
+versusretained22/24, mean18seccost2.41664544vs.78768159. Meanpairedcostdifference
+1.62896385 butstronglyconcentrated inoneofFOURphysicalpreparations. Frozenstill
+refitscurrentcontext/usesfeedback; notunlearned/noadaptation. Bothretainedfirst
+failuresandallfrozencasespreserved. All720decisions/2160localSVDfits andall1568
+intervals/8fullrollingHamiltoniantrajectories/43Radauchecks independentlyreplay.
+No newindependentnoisepaths: sameeightpairedpaths. Rootwall71.54sec,sim156.8sec.
+
+Posthocactionriskdiagnosticfullyauditedwithfinitescopelimits; read its_findings.md.
+No modelreselection; doesn'testablish drift-dominatedvalidation causedweakforks.
+No loss-onlymilestone ornewlosslearner. AllNNquerieschecked;384/11520localfits
+balancedsubset plusALLscore/RNG/statisticrows. Scope/source/provenanceexplicit.
+
+NEXT: frozen cartesian_stream_v17_study_design.md BEFOREANYfreshsampling.
+8freshcorpora200..207, sameimmutableacquire.py --replicate withuniqueprefix.
+LOCALONLYsame4k/ridgechoices,3wholetrajectorybootstraps, oldfeatures/h16/scales/
+val6blockselection; no newNNfits orarchitecture/optimizer. New650/660/670replicate
+seedentries.32newphysicalpreps/64pairednoisepaths total. Bothretainedandfrozen
+selectedlocalmechanisms,8privilegedwitnesses FIRST then16ordinaryepisodes perrep.
+CorpusmeansBEFORE8corpusSE/pairedmeans. Completefailures,nofiltering,nogoalresets.
+Resourcecounts/scientificfalsifiers fixedindesign. IndependentpredatareviewPASS;
+wording clarified sharedfeedback'sbenefitisNOTidentified, onlyappendenablement.
+
+DirectionagentcurrentlyWRITING research/cartesian_stream_v17_study.py SOURCEONLY,
+notexecuted. Proposedoutputs *_local_fit.json, *_local_test_forecasts.npz,
+*_study_results.json/*_study_arrays.npz. Expectsacqfilesfirst; fitLOCALONLY,
+replicate-specificbootstraps; referenceandordinarydriversreuseimmutablepilot/
+frozenwrapper. Rootmustreview+independentpreflight BEFOREsampling/fits/control.
+Freshreplication isneeded beforedecidingmeaningfulv17ledger; ifverifiedmilestone,
+completev16byte-identicalsuffix, executabledata/results/audits,commitSSHpush+
+remoteverify, IMMEDIATELYcontinueactiveGoal. No routineapprovals/Goalcompletion.
+
+Agents: directionimplementsstudysource; theoryavailable afterpredatareport;
+artifactavailable afterretentionaudit. Usefulnextassignment: artifactstudy-source
+preflight(dataflow/RNG/val/localreconstruction/retentionwrapper/provenance);
+theoryindependentfreshacq/physics/witness/RNG/scoreactualaudit. Do notrunfresh
+untilcode+frozenprotocolreviewpasses. Atmost4replicateprocesses, threadlimits1,
+ownerPC/project.venv unchanged. No packages/envs/services. No genuineblocker.
+
+---
+
 # Active continuation: audited local moving control; retention ablation next
 
 Goal remains ACTIVE, unresolved. Latest verifiedledger v16 at1f1af0c... .

@@ -1,0 +1,37 @@
+{
+  "status": "PASS RETENTION PREFLIGHT; NO ACTUAL PHYSICS OR CONTROL EXECUTED",
+  "artifact_sha256": {
+    "cartesian_stream_v17_retention.py": "94e3e5d7ac4e415aa6caecbe1c8042d1ef6a14d63eb5e6fa4a4eb46b4ca0f598",
+    "cartesian_stream_v17_retention_design.md": "9bde6783d37405920328d3d08c3813f686a136c01dfde6020444788644d5ab31",
+    "cartesian_stream_v17_control.py": "220f12b194e31e32cea916cb0d65628d5ee0ab15ea3f3de1e6ccfd40b23814ca",
+    "cartesian_stream_v17_learn.py": "56dc34b38a269d482d843a4207259f316c7329064aa49660dddb37592fcce5f0",
+    "cartesian_stream_v17_local.py": "36d74c4e05a8be8b649d201b4f35880dea9a6b87748c73b34419d4ae9fbba0d2",
+    "cartesian_stream_v17_rep0_fit.json": "fbadb62a3706cabe10ea9a02676eee4b0ac08b85e29649d73141c151832d04f8",
+    "cartesian_stream_v17_rep0_weights.npz": "8e68d652af03eca27c6c304acbb99790ca74a48c1fde5b885c9405ac51ada317",
+    "cartesian_stream_v17_rep0_ordinary.npz": "d3845e64f309dcd1a1ee4e678cbe12a63d7ed9d6b4b5260c0b09089b5504b193"
+  },
+  "exact_equalities": {
+    "local_coefficients": 0.0,
+    "mean_paths": 0.0,
+    "modeled_loss": 0.0,
+    "plan_gradient": 0.0
+  },
+  "initial_member_rows": [
+    2880,
+    2880,
+    2880
+  ],
+  "frozen_member_rows_after_notification": [
+    2880,
+    2880,
+    2880
+  ],
+  "online_member_rows_after_same_notification": [
+    2881,
+    2881,
+    2881
+  ],
+  "frozen_library_bytes_unchanged": true,
+  "captured_preparations": 2,
+  "limitations": "Canonical subclass/parent units imported as tested adapters; no physical flow or optimizer run. Actual720 decisions, coefficient provenance and paired physical trajectories require later independent artifact replay."
+}

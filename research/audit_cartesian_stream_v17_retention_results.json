@@ -1,0 +1,132 @@
+{
+  "status": "PASS INDEPENDENT FROZEN-LIBRARY ORDINARY DECISION REPLAY",
+  "artifact_sha256": {
+    "cartesian_stream_v17_retention.py": "94e3e5d7ac4e415aa6caecbe1c8042d1ef6a14d63eb5e6fa4a4eb46b4ca0f598",
+    "cartesian_stream_v17_retention_design.md": "9bde6783d37405920328d3d08c3813f686a136c01dfde6020444788644d5ab31",
+    "cartesian_stream_v17_rep0_retention_results.json": "a4de9a379db4abb6ed5ef4f17458f6c41653533e43c047bc1212d75a61aac387",
+    "cartesian_stream_v17_rep0_retention_arrays.npz": "c2e52c1662c1733099308e38ba3ad3bc66b4b560ccef3c2765e00ecefbe5b3a7",
+    "cartesian_stream_v17_rep0_control_results.json": "64cf94e83bd2ae089dd8bdb3a7b86a0a4e8fa878c9375259576cad8d6d3ab197",
+    "cartesian_stream_v17_rep0_control_arrays.npz": "b07322b808c9ba99759fcd6d946280e6496281721186c299d30418b6b722a98b",
+    "cartesian_stream_v17_rep0_fit.json": "fbadb62a3706cabe10ea9a02676eee4b0ac08b85e29649d73141c151832d04f8",
+    "cartesian_stream_v17_rep0_ordinary.npz": "d3845e64f309dcd1a1ee4e678cbe12a63d7ed9d6b4b5260c0b09089b5504b193",
+    "cartesian_stream_v17_rep0_weights.npz": "8e68d652af03eca27c6c304acbb99790ca74a48c1fde5b885c9405ac51ada317",
+    "audit_cartesian_stream_v17_control.py": "e9aeae63fd898cc8c245f632c2192e8f677c41273ea08e057bed45e2d2baf913",
+    "audit_cartesian_stream_v17_fit.py": "6ca1e0364589411520c10afd8857f33f4398713640bdf2d36b51664a5ef6fc08",
+    "audit_cartesian_stream_v17_precontrol.py": "9579c32030d5a1b3fc743eff25dae70afe5ec302c28f85c38c84e8868f59fe4c"
+  },
+  "maximum_absolute_errors": {
+    "query": 0.0,
+    "coefficient": 4.3398395987992444e-11,
+    "fit_diagnostic": 2.298994328242543e-13,
+    "fit_stationarity": 1.0054283794413976e-13,
+    "cost": 1.0537348771322286e-11,
+    "gradient": 1.946998118285137e-12,
+    "projected_gradient": 2.2398749521812533e-13
+  },
+  "counts": {
+    "episodes": 8,
+    "decisions": 720,
+    "member_fits": 2160,
+    "modeled_value_gradient_calls": 8943,
+    "optimizer_unsuccessful": 0,
+    "fallbacks": 0,
+    "actual_appended_rows": 0
+  },
+  "episodes": [
+    {
+      "case_index": 0,
+      "decisions": 90,
+      "optimizer_unsuccessful": 0,
+      "fallbacks": 0,
+      "max_projected_gradient": 2.28635458135798e-06,
+      "frozen_minus_online_recorded_task_cost": 0.001234851321207566,
+      "recorded_frozen_precision": 3,
+      "recorded_online_precision": 3
+    },
+    {
+      "case_index": 1,
+      "decisions": 90,
+      "optimizer_unsuccessful": 0,
+      "fallbacks": 0,
+      "max_projected_gradient": 2.437826982567648e-06,
+      "frozen_minus_online_recorded_task_cost": 0.00046910338173872766,
+      "recorded_frozen_precision": 3,
+      "recorded_online_precision": 3
+    },
+    {
+      "case_index": 2,
+      "decisions": 90,
+      "optimizer_unsuccessful": 0,
+      "fallbacks": 0,
+      "max_projected_gradient": 7.302405758087549e-06,
+      "frozen_minus_online_recorded_task_cost": 0.00013672399520832205,
+      "recorded_frozen_precision": 3,
+      "recorded_online_precision": 3
+    },
+    {
+      "case_index": 3,
+      "decisions": 90,
+      "optimizer_unsuccessful": 0,
+      "fallbacks": 0,
+      "max_projected_gradient": 6.223567248095363e-06,
+      "frozen_minus_online_recorded_task_cost": 0.0001661310271609262,
+      "recorded_frozen_precision": 3,
+      "recorded_online_precision": 3
+    },
+    {
+      "case_index": 4,
+      "decisions": 90,
+      "optimizer_unsuccessful": 0,
+      "fallbacks": 0,
+      "max_projected_gradient": 2.500034509150817e-05,
+      "frozen_minus_online_recorded_task_cost": 11.113761005126522,
+      "recorded_frozen_precision": 0,
+      "recorded_online_precision": 2
+    },
+    {
+      "case_index": 5,
+      "decisions": 90,
+      "optimizer_unsuccessful": 0,
+      "fallbacks": 0,
+      "max_projected_gradient": 3.1034266193386006e-05,
+      "frozen_minus_online_recorded_task_cost": 1.8770817625205263,
+      "recorded_frozen_precision": 1,
+      "recorded_online_precision": 2
+    },
+    {
+      "case_index": 6,
+      "decisions": 90,
+      "optimizer_unsuccessful": 0,
+      "fallbacks": 0,
+      "max_projected_gradient": 3.854418141352456e-06,
+      "frozen_minus_online_recorded_task_cost": 0.01968112004428703,
+      "recorded_frozen_precision": 0,
+      "recorded_online_precision": 3
+    },
+    {
+      "case_index": 7,
+      "decisions": 90,
+      "optimizer_unsuccessful": 0,
+      "fallbacks": 0,
+      "max_projected_gradient": 4.576433361186405e-06,
+      "frozen_minus_online_recorded_task_cost": 0.0191800866187263,
+      "recorded_frozen_precision": 0,
+      "recorded_online_precision": 3
+    }
+  ],
+  "selected_projected_gradient_quantiles": {
+    "0": 1.8457457784393227e-15,
+    "0.5": 5.781445221036963e-07,
+    "0.9": 3.2013717266967186e-06,
+    "0.99": 1.7325172981993646e-05,
+    "1": 3.1034266193386006e-05
+  },
+  "worst_projected_gradient": {
+    "value": 3.1034266193386006e-05,
+    "case_index": 5,
+    "renewal": 41,
+    "time_index": 98,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  "limitations": "No physical state array or canonical implementation imported. Same original libraries reconstructed at all720 decisions, no online additions. Every candidate/selected modeled cost and selected derivative verified; optimizer internal iterates not rerun. Recorded task-cost pairing checked only arithmetically; separate physics auditor verifies scores/streams. Single corpus/four preparations, not independent population evidence."
+}
