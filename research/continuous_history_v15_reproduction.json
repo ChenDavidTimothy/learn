@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "original_file": "research/continuous_history_v15_rep100.json",
+  "original_sha256": "8392cf49d8319d6190d1de952bc23ab9613ecb2c62f1d5c25bdd639dbf711617",
+  "reproduction_file": "/tmp/continuous_history_v15_reproduce100.json",
+  "numerical_and_metadata_payload_exact": true,
+  "excluded_nondeterministic_fields": [
+    "timing_seconds"
+  ],
+  "original_timing": {
+    "wall": 72.00813508033752
+  },
+  "reproduction_timing": {
+    "wall": 74.55467391014099
+  },
+  "independent_verification": false,
+  "note": "Same-source deterministic repeat complements independent audits; no fresh training evidence."
+}

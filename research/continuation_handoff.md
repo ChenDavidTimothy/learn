@@ -1,3 +1,79 @@
+# Active continuation after verified v15 continuous-history milestone
+
+The general-learning Goal remains ACTIVE and unresolved. Latest independently
+verified living ledger is v15 (complete v14 and earlier text preserved verbatim).
+Resolve its publication commit with Git log/SSH origin; this handoff cannot contain
+its own commit hash. V14 publication was93262d83e99c113b3d9542630d8d270fcc106ade.
+No new approval is needed between cycles. Continue on the existing PC/.venv.
+
+## What this cycle establishes
+
+The previously audited supplied-history instrument is now followed by an actual
+continuous two-joint learner/control experiment. Ordinary models receive noisy
+positions, issued commands and supplied feature menus only; no true v/a/M, exact
+current pose or rest resets at goal switches. Full exploratory pilot is separate.
+Fresh8acquired datasets100..107 each48fit/12val/12test trajectories96steps, exogenous
+held-two commands stratified amplitude.35/1. Six same-data/same-planner methods:
+current-only, one-delay, fixedrichH4, selectedrawH0/1/2/4, linearARX, causal polynomial
+compression+learned relation. Four new starts/three6sec goals each; no state/history
+reset. SD.001,dt.1,ideal torques±1, conservative horizontal point-mass arm only.
+
+Precision successes/96 clustered goals:0/45/79/76/16/69 respectively. Selectedraw
+H=[4,2,2,4,4,4,1,2], polynomialH2 throughout. All nonpose overall position MSE near
+.008, but late velocity differs sharply(linear.07458,selected.00936,fixedrich.00836).
+Selection adds no reliable benefit over fixedrich; same-model cases are exactly
+identical. Ordinary conventional filter/history methods suffice here. This is NOT
+novel state discovery, competitive real robotics or a general learning breakthrough.
+The current-only MODEL's policy retains MPC warm-start memory; failure is not a
+universal memoryless-policy impossibility theorem. See latest ledger for all limits.
+
+## Verification/publication resources
+
+All576acqtrajectories/55296intervals,192control episodes/36096intervals,240candidate
+fits and34560fullplans/complex-stepgradients audited independently. MaxPGdiscrepancy
+9.64e-14, fitstationarity2e-15. Failed high-speed posecontrol has globally sensitive
+replays(up to2.13e-7), independently locally verified to2.86e-11; normal control
+replays2.98e-11. Eight unsuccessful solverterminals allpose and retained. Noise seed
+paths now role-tagged;608fresh state words disjoint74pilot paths and27929earlier
+integerseed states. No failed cases silently dropped. Theory audit independently
+checks full15step chainrule and a continuous feasible goal-reference bound including
+moving warmup(required|u|<=.972894), not exact sampled endpoint reachability.
+
+Actual JSONs continuous_history_v15_rep100..107, aggregate_results, source/design,
+independent artifact/theory reports, pilot/PDbank and deterministicrep100reproduction
+record are preserved. Rep100 numerical/metadata payload repeats exactly after
+excluding walltiming. Same-source repetition is not another independent audit.
+The exploratory nine-settingPDbank is postpilot and not a matched fresh optimized
+competitor; alloutcomes remain. Literature2020 already learns position-historyforward
+models/physicalactions; no novelty/superiority to that GP method claimed.
+
+## Next consequential question; do not run another lag/kernel ladder
+
+Read experience_revision_v16_question.md and after_v15_direction_independent.md.
+V15 grants broad offline acquisition, fixed body, known encoder semantics/periodicity,
+actionaffinity, supplied menus and hand-coded planner. The important next uncertainty
+is whether ordinary ongoing experience can revise USEFUL behavior when old relations
+stop supporting decisions under a limited real-interaction budget and no new resets,
+calibration or hidden change labels. Robust conventional feedback and ordinary always-
+updating regression are serious alternatives. Do not assume active probing/change
+alarms/newarchitecture are required. At rest/zero torque some bodychanges are exactly
+unobservable until a useful action excites them; advance detection is not necessary.
+
+First derive an ordinary physically motivated change(e.g.payload/inertia), task
+feasibility and information distinction. Compare frozen knowledge, task-driven online
+updates and robust conventional feedback BEFORE adding probes. Count all actual
+tracking/time/effort/sensing/acquisition costs. Do not manufacture arbitrary actuator
+sign flips solely to defeatbaseline. If ordinary updating or robust feedback suffices,
+accept it. If purposeful evidence acquisition matters, compare equal-cost task updates
+and randomdither. Another genuinely different route challenges supplied encoder
+coordinates, with transported sensor noise/task metrics handled fairly. No architecture
+or exactnextchange mandated; scientificjudgment remainsopen. Publish only meaningful
+verified milestones, preserving complete v15 next, push SSH/verify and continue.
+
+---
+
+# Retained prior continuation history
+
 # Active continuation: v14 published; audited v15 history pilot preserved
 
 The general-learning Goal remains ACTIVE and unresolved. Latest verified living

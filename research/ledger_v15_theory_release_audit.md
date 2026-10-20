@@ -1,0 +1,11 @@
+# Independent final v15 scientific-prefix audit
+
+Date: 2026-10-20. Reviewed the new v15 scientific prefix against the actual production summary, independent artifact audit and prior derivations. No canonical source/ledger was edited.
+
+Confirmed: v15 ends with the exact complete v14 bytes; all eight input hashes match the completed artifact audit; all30 tabulated mean/SE cells and six precision counts match retained summaries. Selected raw histories and optimizer termination counts agree. Reported paired precision/late-velocity differences use the correct signs and eight acquired-data clusters. No reliable selection advantage is claimed; fixed-rich79/96 versus selected76/96 and polynomial69/96 remain visible.
+
+F55 correctly separates exact midpoint/half-separation, the ballistic surrogate identity, physical Coriolis/time-reversal asymptotics and local noiseless history reconstruction. F56 correctly distinguishes conditional prediction risk from physical parameter identification and recursive control. The moving-first-segment torque bound .972893174 and subsequent .42881 bound have the proper continuous-input scope; exact sampled-input feasibility and arbitrary failed recovery remain explicitly unproven.
+
+The current-position-only predictor's warm-start policy memory is now acknowledged, preventing its empirical failure from being misrepresented as an information-theoretic theorem. Supplied Fourier/action-affinity/history/planning priors, polynomial arithmetic, acquisition resets, mean-versus-instantaneous motion, local optimization, scalar-versus-local coverage, clustered tasks, failed trajectories, seed corrections, numerical sensitivity and exploratory PD comparison are stated. Existing position-history forward/control research is credited without a superiority/novelty claim.
+
+Minor wording improvement sent to coordinator: task sensor streams are shared ACROSS methods within each dataset/task; saying "shared within-method task sensor paths" could obscure the pairing. No substantive mathematical or numerical correction was required. The milestone establishes bounded conventional sustained coupled learning and a negative result about unearned benefits of history selection; it does not complete the general-learning objective.

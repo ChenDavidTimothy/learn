@@ -1,0 +1,487 @@
+{
+  "status": "INDEPENDENTLY VERIFIED CONTINUOUS-HISTORY EXPERIMENT",
+  "replicate": 107,
+  "artifact_sha256": {
+    "continuous_history_v15.py": "ce1b2ba86d91d9f95df1c426da1863dc4fcac1711b55599d848ac84d4b2ccc31",
+    "continuous_history_v15_rep107.json": "44d870d6de15d57c803e092098cd09aac7afa7ce9a11240a4657c3e63fa045c6"
+  },
+  "maximum_absolute_errors": {
+    "initial_states": 0.0,
+    "exogenous_commands": 0.0,
+    "sensor_RNG": 0.0,
+    "physics32vs64": 2.2914932173989655e-09,
+    "acquisition_physics": 1.4196865905091727e-10,
+    "fit_scaling": 8.881784197001252e-16,
+    "fit_stationarity": 1.6653345369377348e-15,
+    "stored_stationarity": 5.724587470723463e-16,
+    "validation_observation": 1.5585406229479126e-19,
+    "validation_true_diagnostic": 2.202285662861181e-19,
+    "forecast_one_step": 1.6432439176733427e-19,
+    "forecast_observation": 5.590417451878382e-20,
+    "forecast_recursive": 5.637851296924623e-17,
+    "control_sensor_RNG": 0.0,
+    "control_initial": 0.0,
+    "goals": 0.0,
+    "issued_plan": 0.0,
+    "selected_plan_cost": 9.094947017729282e-13,
+    "initial_plan_cost": 3.637978807091713e-12,
+    "projected_gradient": 9.50350909079134e-14,
+    "control_metrics": 0.0,
+    "maximum_PG": 0.0,
+    "control_physics": 2.503863782976623e-11,
+    "highspeed_Radau_local": 1.9028334463655483e-11
+  },
+  "independent_physics": "Hamiltonian RK4 at32/64 substeps",
+  "highspeed_convergence_diagnostic": {
+    "episodes": 4,
+    "coarse_RK32vs64_global": 1.3312052671743402e-05,
+    "adaptive_Hamiltonian_Radau_global_error": 1.2318018782764284e-07,
+    "scope": "Fast failed pose controllers checked by adaptive Radau locally and globally; coarse RK convergence is not asserted there."
+  },
+  "checked": {
+    "acquisition_trajectories": 72,
+    "acquisition_intervals": 6912,
+    "distinct_SeedSequence_paths": 76,
+    "candidate_fits": 30,
+    "controls": 24,
+    "control_intervals": 4512,
+    "plans": 4320,
+    "full_complex_step_plan_gradients": 4320,
+    "solver_failures": 1
+  },
+  "selected_candidate_ids": {
+    "pose": 0,
+    "one_delay": 3,
+    "rich_delay": 10,
+    "selected_delay": 7,
+    "linear_arx": 18,
+    "polynomial": 21
+  },
+  "forecasts": {
+    "pose": {
+      "one_step_true_position_mse": 0.004081608792731817,
+      "one_step_observation_mse": 0.004082777193681425,
+      "ten_step_recursive_true_position_mse": 0.12387363252451183,
+      "one_step_rows": 1056,
+      "recursive_rows": 960
+    },
+    "one_delay": {
+      "one_step_true_position_mse": 1.1089312203243e-05,
+      "one_step_observation_mse": 1.3021035616535404e-05,
+      "ten_step_recursive_true_position_mse": 0.0004858156178804127,
+      "one_step_rows": 1056,
+      "recursive_rows": 960
+    },
+    "rich_delay": {
+      "one_step_true_position_mse": 4.641813782899098e-06,
+      "one_step_observation_mse": 6.527786809631119e-06,
+      "ten_step_recursive_true_position_mse": 0.00011969582246486994,
+      "one_step_rows": 1056,
+      "recursive_rows": 960
+    },
+    "selected_delay": {
+      "one_step_true_position_mse": 5.773199443683242e-06,
+      "one_step_observation_mse": 7.740205570853008e-06,
+      "ten_step_recursive_true_position_mse": 0.00015128081401771654,
+      "one_step_rows": 1056,
+      "recursive_rows": 960
+    },
+    "linear_arx": {
+      "one_step_true_position_mse": 2.951622974492109e-05,
+      "one_step_observation_mse": 3.161866744658018e-05,
+      "ten_step_recursive_true_position_mse": 0.007426281433020504,
+      "one_step_rows": 1056,
+      "recursive_rows": 960
+    },
+    "polynomial": {
+      "one_step_true_position_mse": 5.999404112614742e-06,
+      "one_step_observation_mse": 7.96796635959793e-06,
+      "ten_step_recursive_true_position_mse": 0.00015685270157296847,
+      "one_step_rows": 1056,
+      "recursive_rows": 960
+    }
+  },
+  "control_metrics": {
+    "pose": [
+      {
+        "position_mse": 1.6953622616792352,
+        "velocity_rms": 0.8557397173556857,
+        "action_energy": 0.8695427876202638,
+        "late_position_rmse": 1.4796860621063166,
+        "late_velocity_rms": 1.1671120275853788,
+        "precision_success_by_goal": [
+          false,
+          false,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 280,
+        "maximum_projected_gradient": 0.00024049848966889442
+      },
+      {
+        "position_mse": 7.925748084268335,
+        "velocity_rms": 0.99898525552006,
+        "action_energy": 0.6351724842144088,
+        "late_position_rmse": 2.9286128129852522,
+        "late_velocity_rms": 0.5684650108099694,
+        "precision_success_by_goal": [
+          false,
+          false,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 210,
+        "maximum_projected_gradient": 0.001765314872480328
+      },
+      {
+        "position_mse": 317.8893342764905,
+        "velocity_rms": 2.672361488812647,
+        "action_energy": 0.9870632768795022,
+        "late_position_rmse": 16.59143300261106,
+        "late_velocity_rms": 3.2759705454076946,
+        "precision_success_by_goal": [
+          false,
+          false,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 347,
+        "maximum_projected_gradient": 0.004388663979669638
+      },
+      {
+        "position_mse": 112.40501257180131,
+        "velocity_rms": 2.2313268364196777,
+        "action_energy": 0.9187473960563545,
+        "late_position_rmse": 9.722687650939378,
+        "late_velocity_rms": 2.1885821841484745,
+        "precision_success_by_goal": [
+          false,
+          false,
+          false
+        ],
+        "solver_failures": 1,
+        "saturated_coordinates": 317,
+        "maximum_projected_gradient": 0.01502689606323937
+      }
+    ],
+    "one_delay": [
+      {
+        "position_mse": 0.008199477115235112,
+        "velocity_rms": 0.07959187256689713,
+        "action_energy": 0.10243743893098267,
+        "late_position_rmse": 0.0034260927019181655,
+        "late_velocity_rms": 0.014643433040003252,
+        "precision_success_by_goal": [
+          true,
+          false,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 13,
+        "maximum_projected_gradient": 2.94698672742566e-06
+      },
+      {
+        "position_mse": 0.008006133914191556,
+        "velocity_rms": 0.08503012388107761,
+        "action_energy": 0.1171583154618846,
+        "late_position_rmse": 0.002366916660585676,
+        "late_velocity_rms": 0.02081830714071734,
+        "precision_success_by_goal": [
+          false,
+          false,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 14,
+        "maximum_projected_gradient": 0.00013773664069804958
+      },
+      {
+        "position_mse": 0.0077752663895972315,
+        "velocity_rms": 0.08398175874167146,
+        "action_energy": 0.11407355578324434,
+        "late_position_rmse": 0.002702516091099517,
+        "late_velocity_rms": 0.018305311315601622,
+        "precision_success_by_goal": [
+          false,
+          false,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 13,
+        "maximum_projected_gradient": 3.478287357583376e-06
+      },
+      {
+        "position_mse": 0.007923051995467566,
+        "velocity_rms": 0.07967867553589611,
+        "action_energy": 0.08904003723804514,
+        "late_position_rmse": 0.0013721533909058228,
+        "late_velocity_rms": 0.011255307616807698,
+        "precision_success_by_goal": [
+          true,
+          true,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 11,
+        "maximum_projected_gradient": 6.222181892567846e-05
+      }
+    ],
+    "rich_delay": [
+      {
+        "position_mse": 0.008167669385420386,
+        "velocity_rms": 0.07894705820092011,
+        "action_energy": 0.06793559432696146,
+        "late_position_rmse": 0.0016301532693194553,
+        "late_velocity_rms": 0.005834538176714245,
+        "precision_success_by_goal": [
+          true,
+          true,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 12,
+        "maximum_projected_gradient": 0.00010925608330192293
+      },
+      {
+        "position_mse": 0.008061439572564406,
+        "velocity_rms": 0.08338034211232546,
+        "action_energy": 0.08332778262788099,
+        "late_position_rmse": 0.0025020225750700185,
+        "late_velocity_rms": 0.011806940200020379,
+        "precision_success_by_goal": [
+          true,
+          true,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 14,
+        "maximum_projected_gradient": 1.4316563233807145e-06
+      },
+      {
+        "position_mse": 0.007939661996188504,
+        "velocity_rms": 0.08288500722265238,
+        "action_energy": 0.0741077010039543,
+        "late_position_rmse": 0.00136618896384753,
+        "late_velocity_rms": 0.010231157877671681,
+        "precision_success_by_goal": [
+          false,
+          true,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 13,
+        "maximum_projected_gradient": 1.7979908623066976e-06
+      },
+      {
+        "position_mse": 0.007903024498027392,
+        "velocity_rms": 0.07960800498837042,
+        "action_energy": 0.058578341509213636,
+        "late_position_rmse": 0.0012096395214381717,
+        "late_velocity_rms": 0.004584109286415,
+        "precision_success_by_goal": [
+          true,
+          true,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 11,
+        "maximum_projected_gradient": 1.128362822844231e-06
+      }
+    ],
+    "selected_delay": [
+      {
+        "position_mse": 0.008156889786445366,
+        "velocity_rms": 0.07901987031500787,
+        "action_energy": 0.0736823227965295,
+        "late_position_rmse": 0.0012798394057580648,
+        "late_velocity_rms": 0.007983262073612692,
+        "precision_success_by_goal": [
+          true,
+          true,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 13,
+        "maximum_projected_gradient": 1.6299858512924814e-06
+      },
+      {
+        "position_mse": 0.008104076711750145,
+        "velocity_rms": 0.08326797526564422,
+        "action_energy": 0.0904284445071063,
+        "late_position_rmse": 0.0025865726334657673,
+        "late_velocity_rms": 0.011555613749017106,
+        "precision_success_by_goal": [
+          false,
+          true,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 14,
+        "maximum_projected_gradient": 1.077053255094107e-05
+      },
+      {
+        "position_mse": 0.007869024023296447,
+        "velocity_rms": 0.08250804690668694,
+        "action_energy": 0.08073488596049902,
+        "late_position_rmse": 0.0011532953234188942,
+        "late_velocity_rms": 0.01057312533198252,
+        "precision_success_by_goal": [
+          false,
+          true,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 13,
+        "maximum_projected_gradient": 4.018165136310259e-05
+      },
+      {
+        "position_mse": 0.007897096106662537,
+        "velocity_rms": 0.07964345006658352,
+        "action_energy": 0.06567026608707653,
+        "late_position_rmse": 0.0007714383736582309,
+        "late_velocity_rms": 0.0065352964401000566,
+        "precision_success_by_goal": [
+          true,
+          true,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 11,
+        "maximum_projected_gradient": 0.0001548862151338204
+      }
+    ],
+    "linear_arx": [
+      {
+        "position_mse": 0.007750926767511966,
+        "velocity_rms": 0.08398863047162729,
+        "action_energy": 0.14025713641662926,
+        "late_position_rmse": 0.0011255514599092748,
+        "late_velocity_rms": 0.021856231427637783,
+        "precision_success_by_goal": [
+          true,
+          false,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 13,
+        "maximum_projected_gradient": 8.818962945933428e-05
+      },
+      {
+        "position_mse": 0.007938778707175683,
+        "velocity_rms": 0.13525951405953274,
+        "action_energy": 0.36837739553174614,
+        "late_position_rmse": 0.008824947626359736,
+        "late_velocity_rms": 0.13457905733734904,
+        "precision_success_by_goal": [
+          false,
+          false,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 42,
+        "maximum_projected_gradient": 0.00036627058525473544
+      },
+      {
+        "position_mse": 0.007502184037933782,
+        "velocity_rms": 0.12014625057623413,
+        "action_energy": 0.2941985263374134,
+        "late_position_rmse": 0.0033443830933831426,
+        "late_velocity_rms": 0.09494814934036318,
+        "precision_success_by_goal": [
+          false,
+          false,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 25,
+        "maximum_projected_gradient": 0.0001619586941140616
+      },
+      {
+        "position_mse": 0.007623859560433297,
+        "velocity_rms": 0.08362929891437296,
+        "action_energy": 0.12939211674966689,
+        "late_position_rmse": 0.0008078991422329095,
+        "late_velocity_rms": 0.01627036045516226,
+        "precision_success_by_goal": [
+          true,
+          false,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 11,
+        "maximum_projected_gradient": 2.403891788904655e-05
+      }
+    ],
+    "polynomial": [
+      {
+        "position_mse": 0.008154015977633645,
+        "velocity_rms": 0.0791631181332668,
+        "action_energy": 0.07351714631949054,
+        "late_position_rmse": 0.0014174062363300087,
+        "late_velocity_rms": 0.00800417946763905,
+        "precision_success_by_goal": [
+          true,
+          true,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 12,
+        "maximum_projected_gradient": 0.00019095204283092748
+      },
+      {
+        "position_mse": 0.008100709613054393,
+        "velocity_rms": 0.08314856426722586,
+        "action_energy": 0.09023063478287019,
+        "late_position_rmse": 0.0024039768847737464,
+        "late_velocity_rms": 0.014054122793248797,
+        "precision_success_by_goal": [
+          false,
+          false,
+          false
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 14,
+        "maximum_projected_gradient": 1.5513333631589354e-05
+      },
+      {
+        "position_mse": 0.007868078550268304,
+        "velocity_rms": 0.0827503807866431,
+        "action_energy": 0.08100321166978082,
+        "late_position_rmse": 0.001290936895777508,
+        "late_velocity_rms": 0.012486611502282488,
+        "precision_success_by_goal": [
+          false,
+          false,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 13,
+        "maximum_projected_gradient": 0.00043701842370891253
+      },
+      {
+        "position_mse": 0.007905127799559273,
+        "velocity_rms": 0.07970041890987559,
+        "action_energy": 0.0653673862560665,
+        "late_position_rmse": 0.0006463523674553155,
+        "late_velocity_rms": 0.006655283370632479,
+        "precision_success_by_goal": [
+          true,
+          true,
+          true
+        ],
+        "solver_failures": 0,
+        "saturated_coordinates": 11,
+        "maximum_projected_gradient": 2.3737072094576206e-06
+      }
+    ]
+  },
+  "limitations": [
+    "One engineering replicate, known feature/history menus and periodic position semantics; selected lag is conventional model selection.",
+    "Validation selection uses observation risk only; truth diagnostics do not select candidates. Entire role-tagged trajectories are disjoint.",
+    "Holding random commands for two samples creates current/past-input dependence at alternate steps. Full command sequence is exogenous; an omitted-history model need not identify interventional dynamics.",
+    "No process noise, no global MPC solution or uniform feasibility certificate; forecast mean composition and motion penalties are approximations.",
+    "All controls share sensor streams, not physical trajectories. Goal switches do not reset history, warm plan or body state.",
+    "Exact optimizer internal iterates/failed proposal are not stored; all selected plans, costs, gradients, warm costs and issued actions are verified."
+  ],
+  "independent_helper_sha256": "b9954166c99f18a063b0fb629ac9f45802420902f76b3ae596adc6f03ed5ac41"
+}
