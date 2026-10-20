@@ -1,0 +1,217 @@
+{
+  "status": "INDEPENDENTLY VERIFIED BOUNDED DIAGNOSTIC",
+  "counts": {
+    "optimizer_attempts": 96,
+    "validation_candidates": 160,
+    "retained_virtual_episodes": 1024,
+    "physical_test_episodes": 256,
+    "MPC_plans": 5504
+  },
+  "selected_candidate_indices": [
+    8,
+    11,
+    13,
+    0,
+    0
+  ],
+  "failed_optimizer_records": [
+    {
+      "plant": 3,
+      "replicate": 7,
+      "start_index": 2,
+      "selected": false,
+      "status": 0,
+      "nfev": 160,
+      "projected_gradient_max": 6.279804715125792e-06
+    }
+  ],
+  "maximum_absolute_errors": {
+    "virtual_sensor_bank": 0.0,
+    "objective": 5.551115123125783e-17,
+    "policy_projected_gradient": 2.220446049250313e-16,
+    "validation_score": 5.551115123125783e-17,
+    "virtual_states": 1.5543122344752192e-15,
+    "virtual_observations": 1.5543122344752192e-15,
+    "virtual_actions": 1.3322676295501878e-15,
+    "test_states": 1.5987211554602254e-14,
+    "test_observations": 1.5987211554602254e-14,
+    "test_actions": 0.0,
+    "estimates": 8.881784197001252e-16,
+    "metrics": 1.1657341758564144e-14,
+    "MPC_warm": 4.547473508864641e-13,
+    "MPC_selected": 8.526512829121202e-14,
+    "MPC_projected_gradient": 1.6702195182460855e-12,
+    "summary": 0.0
+  },
+  "maximum_errors_scaled_by_max1_magnitude": {
+    "virtual_sensor_bank": 0.0,
+    "objective": 5.551115123125783e-17,
+    "policy_projected_gradient": 2.220446049250313e-16,
+    "validation_score": 5.551115123125783e-17,
+    "virtual_states": 1.5543122344752192e-15,
+    "virtual_observations": 1.5543122344752192e-15,
+    "virtual_actions": 1.3322676295501878e-15,
+    "test_states": 1.199040866595169e-14,
+    "test_observations": 1.199040866595169e-14,
+    "test_actions": 0.0,
+    "estimates": 3.469446951953614e-16,
+    "metrics": 1.1657341758564144e-14,
+    "MPC_warm": 1.1939129399614958e-14,
+    "MPC_selected": 8.326672684688674e-16,
+    "MPC_projected_gradient": 1.6702195182460855e-12,
+    "summary": 0.0
+  },
+  "derivative_fixture": {
+    "finite_difference_steps": [
+      {
+        "epsilon": 1e-06,
+        "coordinate_errors": [
+          1.784159486817316e-09,
+          3.775841861397566e-09,
+          2.003732291200322e-09,
+          0.3312212830537833,
+          1.0697012164939679e-08,
+          1.2851558039983502e-08
+        ],
+        "clip_active_set_changes": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "changes_relative_to_base": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "epsilon": 1e-07,
+        "coordinate_errors": [
+          1.1003880473481331e-08,
+          7.1544938862189156e-09,
+          1.198090160414722e-08,
+          4.727631619516615e-09,
+          1.0411525863673887e-08,
+          5.506297640067714e-09
+        ],
+        "clip_active_set_changes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "changes_relative_to_base": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "epsilon": 1e-08,
+        "coordinate_errors": [
+          5.133012681568516e-08,
+          8.203501078440922e-08,
+          1.2849573405304682e-07,
+          8.508002302676232e-08,
+          3.841767792778228e-08,
+          5.8862205776222254e-08
+        ],
+        "clip_active_set_changes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "changes_relative_to_base": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "minimum_distance_of_raw_action_to_clip_boundary": 4.701864550682444e-05,
+    "scope": "The coarse step crosses a genuine clip kink; two fixed smaller branch-preserving steps verify the unchanged exact a.e. derivative."
+  },
+  "late_window_failure_counts": {
+    "physical_CEM": {
+      "position_only": 6,
+      "velocity_only": 15,
+      "both": 29,
+      "neither": 14
+    },
+    "virtual_CEM": {
+      "position_only": 4,
+      "velocity_only": 10,
+      "both": 34,
+      "neither": 16
+    },
+    "gradient_selected": {
+      "position_only": 1,
+      "velocity_only": 27,
+      "both": 35,
+      "neither": 1
+    },
+    "nonlinear_MPC": {
+      "position_only": 3,
+      "velocity_only": 12,
+      "both": 24,
+      "neither": 25
+    }
+  },
+  "pooled_equal_task_mean_components": {
+    "physical_CEM": {
+      "normalized_position_cost": 0.3397972191773775,
+      "normalized_velocity_cost": 0.009869029774593377,
+      "normalized_effort_cost": 0.00017355212229603988,
+      "late_position_rmse": 0.19963601852193746,
+      "late_velocity_rms": 0.11070469900956896
+    },
+    "virtual_CEM": {
+      "normalized_position_cost": 0.3440956973129442,
+      "normalized_velocity_cost": 0.010878228332104688,
+      "normalized_effort_cost": 0.00018421240716230588,
+      "late_position_rmse": 0.20703291458536088,
+      "late_velocity_rms": 0.11701772704312817
+    },
+    "gradient_selected": {
+      "normalized_position_cost": 0.27058904946402396,
+      "normalized_velocity_cost": 0.013200771342516775,
+      "normalized_effort_cost": 0.0005489959405513188,
+      "late_position_rmse": 0.20048482234392173,
+      "late_velocity_rms": 0.16063358027129673
+    },
+    "nonlinear_MPC": {
+      "normalized_position_cost": 0.25271994474190546,
+      "normalized_velocity_cost": 0.013875512251694873,
+      "normalized_effort_cost": 0.0005388045512316186,
+      "late_position_rmse": 0.17671866370114053,
+      "late_velocity_rms": 0.09740632709831695
+    }
+  },
+  "scope": [
+    "Independent eliminated-state derivatives verify the actual issued clip derivative, including all smoothing/action-memory paths; no straight-through approximation.",
+    "Optimization/validation use predicted learned-model states, never hidden true plant states; starts and candidate list fixed before new tests.",
+    "All5 validation candidates checked, including unmodified originalwinners; selection is virtualonly and remains finite-bank optimistic.",
+    "Fresh physical tests use disjoint +40b streams paired acrossfourmethods; previous physical/model data are reused, not new independent learnedmodels.",
+    "Samefamily can demonstrate constructive attainable mean behavior; failedlocalsearch cannot prove incapacity or globaloptimality.",
+    "Large extra virtualcompute and supplied model vocabulary remain; no universal necessity or method supremacy follows.",
+    "Late multi-step stationarity and mean quadraticcost are different capabilities; all failuretypes and noise are retained.",
+    "Virtual call-count arithmetic verified from saved counters; complete optimizer paths were not rerun."
+  ]
+}

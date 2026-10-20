@@ -1,12 +1,67 @@
-# Active continuation after v12
+# Active continuation after v13
 
 The general-learning Goal is ACTIVE and unresolved. Latest verified living ledger:
-`first_principles_robot_learning_ledger_v12.md`, incorporating complete v11 and all
-preceding ledgers verbatim. See `git log -1`/SSH `origin/main` for the current release
-commit (a document cannot contain its own commit hash). Prior verified v11 commit:
-`90b7e9b8198a1854982588a2ed3553c51681129c`; preparatory pilot checkpoint:
-`6dc0c5037b5f23ee62ed04e07914ac595a7fc6bb`. Publish over existing SSH origin and verify
-its exact main commit. No release is a stopping condition.
+`first_principles_robot_learning_ledger_v13.md`, with complete v12 and all earlier
+history preserved verbatim. V12 SSH commit verified at
+`ace6041069d246656caa3bcffb3239db93a1bfa2`. Resolve current release commit via
+`git log -1`/SSH origin main (a document cannot contain its own commit hash).
+No release is a stopping condition. Continue on the owner's PC/existing .venv.
+
+## V13 verified bounded diagnostic, now CLOSED as an optimizer branch
+
+A single prescribed exact-gradient fit of the SAME six-coordinate direct controller
+on the32 existing v12 learned nonlinear models, using three fixed starts and
+separate16-episode virtual validation, improves mean tracking cost on all4plants.
+Fresh streams compare physicalCEM/virtualCEM/gradient/MPC. Means for gradient are
+.265958/.275643/.306701/.289054 vs physicalCEM.313822/.330627/.402863/.352047;
+MPC.266410/.271958/.266985/.263184. This constructively reveals a finite CEM search
+limitation in the SAMEfamily. No new plant TRAINING. Extra learnedmodel computation
+and supplied vocabulary remain; no universal architecture or optimality claim.
+
+CRITICAL NEGATIVE: stationkeeping gradient1/64 vsphysical14/64,virtual16/64,MPC25/64.
+62/64gradient trials violate velocity tolerance. Mean positioncost gains dominate
+while velocitycost/effort rise; pooledlatepositionRMS nearlyunchanged, latevelocity
+RMS.1107→.1606. Better average cost is not uniformly improved capability. Training
+process0/testprocess.03, finitecost/event distinction, class and optimizer remain
+separate possible causes. Do not add another scalaroptimizer to rescue this result.
+
+Source/results/design: gradient_reuse_v13.py, JSON, NPZ, timings. One of96fit
+attempts reachesmax160 (plant3rep7generic), retained and NOTselected. All32chosen
+outputs are optimized (8/11/13starts). AllfreshMPCsolvesconverged, notglobalguarantees.
+Optimizerrollouts6595168 virtualsteps;validation220160;replay88064;checks50912;
+freshtests22016plantsteps/256resets. No hiddenplantreward in selection.
+
+Audits: audit_gradient_reuse_v13.py/JSON/report independently reconstruct96fit
+endpoints,160validationcandidates/choices,1024retainedvirtualepisodes,256tests,
+5504MPCplans, hashes/budgets/pairedSEs. Main/NPZ and audit rerunsbyteidentical.
+Theory gradient_reuse_v13_theory_independent.md, independentPyTorchAD
+ audit_gradient_pathwise_v13.py/JSON: canonical16episodeJacobian1.1e-13agreement.
+One initialcoarseFDcheck crossedaclippingboundary; preserve correctionmd/checktable.
+Two smallerfixedstepswithunchangedmaskspass. IndependentADconfirmskink, and records
+an extremehighsensitivityfloatingpointstresslimit honestly. 37checkrolls counted.
+
+## Immediately continue beyond scalar gain tuning
+
+Nextquestiondraft: coupled_context_v14_question.md. Investigate how experience can
+learn a change in what an action means when articulated-body configuration couples
+actuators, with NEW desired displacements/poses. Do not turn this into merely
+identifying named masses or proving another abstractrankidentity.
+
+Start simplestrest-pulse2linkhorizontalarm, then escalate towardcontinuouscoupled
+motion. Draft initially uses semiimplicitEuler map dt²M^-1u; actualpilot should use
+continuousDOP853 and derive displacement=.5dt²M^-1u+O(dt4) atrest/nofriction. Avoid
+mistaking discretization artifact or suppliedcosinefamily for generallearning.
+Theoryagent is independently criticizing this direction and derivingmechanics.
+Compare strongjoint/context-awarekernelresponse, directinverse/retrievalalternative,
+and simpleconstantresponse; exactphysicalfamily may only be privilegeddiagnostic.
+Actualobservations/actions only to ordinarylearners, context/preparationnoiseexplicit,
+feasibleboundedtargets, sameacquisitionbudgets. Firstpilotphysicsvalidity is NOTa
+completedlearningmilestone. Donotpublishv14 until meaningfulauditedevidence.
+
+For publication: nextledgerincludesv13verbatim; executableexperiments/actualresults,
+independentaudit, SSHcommit/push/remoteverify, immediatelycontinue. GoalremainsACTIVE.
+
+## Retained v12 findings needed for continuation
 
 ## What v12 actually establishes
 
@@ -56,29 +111,3 @@ outcomes. All excluded source/data/compressedJSON/timing are retained as
 Corrected roles globally disjoint; virtualdomain+1e10; test streams shared only for
 intentional paired comparisons. Exact budgets/limitations are in ledger/design.
 
-## Immediately next: one bounded optimizer diagnostic, then change problem
-
-`gradient_reuse_v13_design.md` is prescribed after v12 outcomes, not yet a verified
-milestone. Implement/execute it using existing PC/.venv, no new environment:
-
-1. Optimize SAME6coordinate clipped direct family on each final learned nonlinear
-   model. Exact pathwise sensitivities through smoothing, true clip derivative and
-   lagged plant. Verify numerically and independently, never straight-through.
-2. Fixed16-episode training-noise bank, same two training goals/sensor.2/process0;
-   three fixed starts (physical winner, virtual winner, generic). Bounded TRF max160
-   each; keep failures. Separate16-episode virtual validation chooses among optimized
-   candidates and both original winners. No plant test in model/policy selection.
-3. NEW plant test streams with all four methods originaldirect, virtualdirect,
-   gradientselected and nonlinear MPC, same two newgoal amplitude schedules. Seed
-   namespaces and exact counts specified in design; no new plant TRAINING.
-4. Good transferred behavior constructively shows family capability and finite-search
-   limitation; local failure cannot prove incapacity. Extra modeled computation and
-   structural priors stay explicit. Audit independently, preserve code/results.
-5. This is ONE diagnostic. Do not escalate through endless optimizers. Then choose
-   a consequential coupled/unknown-function-vocabulary/context-learning question,
-   derive competing formulations and use strong applicable baselines. Return to
-   general-learning relevance, rather than polishing scalar scores indefinitely.
-
-Complete/audit any meaningful new milestone, next sequential ledger embedding v12
-verbatim, commit/push SSH/verify and immediately continue. Preserve honest negative
-findings. The ultimate objective remains much broader than these simulations.

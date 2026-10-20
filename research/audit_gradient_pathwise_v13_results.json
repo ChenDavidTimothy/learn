@@ -1,0 +1,420 @@
+{
+  "status": "independent autodiff audit completed; conditioning limits retained",
+  "correction": "Initial strict1e-8 scaled tolerance failed on one extreme saturated long-horizon stresscase; all errors are retained and strict-agreement flags distinguish it. Broad1e-6 stress tolerance is not machine-precision agreement.",
+  "torch": "2.14.1+cu130",
+  "dtype": "float64",
+  "cases": [
+    {
+      "theta": [
+        0.65,
+        0.2,
+        0.0,
+        1.2
+      ],
+      "coordinates": [
+        -2.5257286443082556,
+        -0.5108256237659907,
+        0.4054651081081642,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seed": 21252020,
+      "batch": 4,
+      "residual_max_error": 7.28583859910259e-17,
+      "autodiff_jacobian_max_error": 9.992007221626409e-16,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 1.0021366569903865,
+      "autodiff_jacobian_max_scaled_error": 8.2984739724425e-16,
+      "state_max_error": 1.6653345369377348e-15,
+      "command_max_error": 4.0245584642661925e-16,
+      "saturated_command_count": 0,
+      "minimum_distance_to_clip_kink": 0.4665694974112824
+    },
+    {
+      "theta": [
+        0.65,
+        0.2,
+        0.0,
+        1.2
+      ],
+      "coordinates": [
+        -2.5257286443082556,
+        -0.5108256237659907,
+        0.4054651081081642,
+        0.1,
+        0.2,
+        -0.05
+      ],
+      "seed": 21252021,
+      "batch": 4,
+      "residual_max_error": 2.0816681711721685e-17,
+      "autodiff_jacobian_max_error": 6.938893903907228e-17,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 0.12006179959178657,
+      "autodiff_jacobian_max_scaled_error": 6.351700803434348e-17,
+      "state_max_error": 4.440892098500626e-16,
+      "command_max_error": 1.3877787807814457e-16,
+      "saturated_command_count": 0,
+      "minimum_distance_to_clip_kink": 0.7241471445630606
+    },
+    {
+      "theta": [
+        0.65,
+        0.2,
+        0.0,
+        1.2
+      ],
+      "coordinates": [
+        -0.916290731874155,
+        1.0986122886681098,
+        2.1972245773362196,
+        1.3,
+        -0.5,
+        0.7
+      ],
+      "seed": 21252022,
+      "batch": 4,
+      "residual_max_error": 2.766814555243968e-13,
+      "autodiff_jacobian_max_error": 1.0231815394945443e-11,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 1498.60041294394,
+      "autodiff_jacobian_max_scaled_error": 3.934602715244266e-14,
+      "state_max_error": 7.0024541720670186e-12,
+      "command_max_error": 5.8624216592306766e-12,
+      "saturated_command_count": 271,
+      "minimum_distance_to_clip_kink": 0.0009147375558622439
+    },
+    {
+      "theta": [
+        0.65,
+        0.2,
+        0.2,
+        1.2
+      ],
+      "coordinates": [
+        -2.5257286443082556,
+        -0.5108256237659907,
+        0.4054651081081642,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seed": 21252120,
+      "batch": 4,
+      "residual_max_error": 2.7755575615628914e-17,
+      "autodiff_jacobian_max_error": 1.1102230246251565e-16,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 0.13207441003624085,
+      "autodiff_jacobian_max_scaled_error": 1.0330471158802653e-16,
+      "state_max_error": 6.661338147750939e-16,
+      "command_max_error": 1.3877787807814457e-16,
+      "saturated_command_count": 0,
+      "minimum_distance_to_clip_kink": 0.7399461851742043
+    },
+    {
+      "theta": [
+        0.65,
+        0.2,
+        0.2,
+        1.2
+      ],
+      "coordinates": [
+        -2.5257286443082556,
+        -0.5108256237659907,
+        0.4054651081081642,
+        0.1,
+        0.2,
+        -0.05
+      ],
+      "seed": 21252121,
+      "batch": 4,
+      "residual_max_error": 1.3877787807814457e-17,
+      "autodiff_jacobian_max_error": 3.469446951953614e-17,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 0.06595251231427299,
+      "autodiff_jacobian_max_scaled_error": 3.296637289453009e-17,
+      "state_max_error": 3.3306690738754696e-16,
+      "command_max_error": 1.3183898417423734e-16,
+      "saturated_command_count": 0,
+      "minimum_distance_to_clip_kink": 0.7793834390243282
+    },
+    {
+      "theta": [
+        0.65,
+        0.2,
+        0.2,
+        1.2
+      ],
+      "coordinates": [
+        -0.916290731874155,
+        1.0986122886681098,
+        2.1972245773362196,
+        1.3,
+        -0.5,
+        0.7
+      ],
+      "seed": 21252122,
+      "batch": 4,
+      "residual_max_error": 1.6937840019437544e-13,
+      "autodiff_jacobian_max_error": 1.0561507224338129e-10,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 766.6806744085548,
+      "autodiff_jacobian_max_scaled_error": 6.672642726283872e-12,
+      "state_max_error": 3.8400393975734914e-12,
+      "command_max_error": 2.178202063163326e-12,
+      "saturated_command_count": 270,
+      "minimum_distance_to_clip_kink": 0.00408781495987709
+    },
+    {
+      "theta": [
+        0.65,
+        0.7,
+        0.0,
+        1.2
+      ],
+      "coordinates": [
+        -2.5257286443082556,
+        -0.5108256237659907,
+        0.4054651081081642,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seed": 21252220,
+      "batch": 4,
+      "residual_max_error": 6.661338147750939e-16,
+      "autodiff_jacobian_max_error": 3.552713678800501e-14,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 45.60849636178411,
+      "autodiff_jacobian_max_scaled_error": 8.940794389779736e-15,
+      "state_max_error": 1.509903313490213e-14,
+      "command_max_error": 2.7755575615628914e-15,
+      "saturated_command_count": 209,
+      "minimum_distance_to_clip_kink": 0.0004341033098982372
+    },
+    {
+      "theta": [
+        0.65,
+        0.7,
+        0.0,
+        1.2
+      ],
+      "coordinates": [
+        -2.5257286443082556,
+        -0.5108256237659907,
+        0.4054651081081642,
+        0.1,
+        0.2,
+        -0.05
+      ],
+      "seed": 21252221,
+      "batch": 4,
+      "residual_max_error": 5.898059818321144e-16,
+      "autodiff_jacobian_max_error": 1.5987211554602254e-14,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 19.50305776402172,
+      "autodiff_jacobian_max_scaled_error": 1.2839863405883564e-14,
+      "state_max_error": 1.3322676295501878e-14,
+      "command_max_error": 2.609024107869118e-15,
+      "saturated_command_count": 187,
+      "minimum_distance_to_clip_kink": 0.010000748085148503
+    },
+    {
+      "theta": [
+        0.65,
+        0.7,
+        0.0,
+        1.2
+      ],
+      "coordinates": [
+        -0.916290731874155,
+        1.0986122886681098,
+        2.1972245773362196,
+        1.3,
+        -0.5,
+        0.7
+      ],
+      "seed": 21252222,
+      "batch": 4,
+      "residual_max_error": 3.020204303663676e-10,
+      "autodiff_jacobian_max_error": 1.83936208486557e-08,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 7123620.494859386,
+      "autodiff_jacobian_max_scaled_error": 7.39167735630605e-14,
+      "state_max_error": 6.847276745602926e-09,
+      "command_max_error": 1.0228131674949736e-09,
+      "saturated_command_count": 303,
+      "minimum_distance_to_clip_kink": 0.017018238767504412
+    },
+    {
+      "theta": [
+        0.65,
+        0.7,
+        0.2,
+        1.2
+      ],
+      "coordinates": [
+        -2.5257286443082556,
+        -0.5108256237659907,
+        0.4054651081081642,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seed": 21252320,
+      "batch": 4,
+      "residual_max_error": 9.818534874028728e-16,
+      "autodiff_jacobian_max_error": 1.2434497875801753e-14,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 11.762202088730849,
+      "autodiff_jacobian_max_scaled_error": 3.5304230664715862e-15,
+      "state_max_error": 2.220446049250313e-14,
+      "command_max_error": 3.9968028886505635e-15,
+      "saturated_command_count": 204,
+      "minimum_distance_to_clip_kink": 0.018429377145411596
+    },
+    {
+      "theta": [
+        0.65,
+        0.7,
+        0.2,
+        1.2
+      ],
+      "coordinates": [
+        -2.5257286443082556,
+        -0.5108256237659907,
+        0.4054651081081642,
+        0.1,
+        0.2,
+        -0.05
+      ],
+      "seed": 21252321,
+      "batch": 4,
+      "residual_max_error": 1.0824674490095276e-15,
+      "autodiff_jacobian_max_error": 9.947598300641403e-14,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 42.03099896840703,
+      "autodiff_jacobian_max_scaled_error": 8.85721101434292e-15,
+      "state_max_error": 2.4424906541753444e-14,
+      "command_max_error": 4.3298697960381105e-15,
+      "saturated_command_count": 81,
+      "minimum_distance_to_clip_kink": 0.018775646843839033
+    },
+    {
+      "theta": [
+        0.65,
+        0.7,
+        0.2,
+        1.2
+      ],
+      "coordinates": [
+        -0.916290731874155,
+        1.0986122886681098,
+        2.1972245773362196,
+        1.3,
+        -0.5,
+        0.7
+      ],
+      "seed": 21252322,
+      "batch": 4,
+      "residual_max_error": 3.259520674203653e-09,
+      "autodiff_jacobian_max_error": 0.17979766055941582,
+      "strict_scaled_1e8_agreement": false,
+      "maximum_absolute_autodiff_entry": 29455806.78956025,
+      "autodiff_jacobian_max_scaled_error": 1.98719731413549e-08,
+      "state_max_error": 1.240890794562688e-07,
+      "command_max_error": 1.156019666659347e-07,
+      "saturated_command_count": 289,
+      "minimum_distance_to_clip_kink": 0.001296368639352563
+    },
+    {
+      "theta": [
+        0.65,
+        0.7,
+        0.2,
+        1.2
+      ],
+      "coordinates": [
+        -2.5257286443082556,
+        -0.5108256237659907,
+        0.4054651081081642,
+        0.1,
+        0.2,
+        -0.05
+      ],
+      "seed": 75071013,
+      "batch": 16,
+      "residual_max_error": 9.783840404509192e-16,
+      "autodiff_jacobian_max_error": 1.1013412404281553e-13,
+      "strict_scaled_1e8_agreement": true,
+      "maximum_absolute_autodiff_entry": 28.31371124555466,
+      "autodiff_jacobian_max_scaled_error": 7.971086055395936e-15,
+      "state_max_error": 4.440892098500626e-14,
+      "command_max_error": 8.215650382226158e-15,
+      "saturated_command_count": 260,
+      "minimum_distance_to_clip_kink": 4.7018645508378754e-05
+    }
+  ],
+  "independent_kink_check": [
+    {
+      "epsilon": 1e-06,
+      "coordinate_max_errors": [
+        1.3283392163998542e-09,
+        4.402068043418694e-09,
+        2.524149778082574e-09,
+        0.33122128314051213,
+        1.1073431949171209e-08,
+        1.2245257252629926e-08
+      ],
+      "independent_raw_clip_active_set_changes": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "epsilon": 1e-07,
+      "coordinate_max_errors": [
+        9.883803997468021e-09,
+        8.25734947085266e-09,
+        1.4316234420164164e-08,
+        1.0498261815428123e-08,
+        5.824807303156376e-09,
+        4.032596478964479e-09
+      ],
+      "independent_raw_clip_active_set_changes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epsilon": 1e-08,
+      "coordinate_max_errors": [
+        1.306350752017238e-07,
+        5.293626692548514e-08,
+        1.330060142024081e-07,
+        3.5586708690971136e-08,
+        1.149243047393611e-07,
+        7.589494543935871e-08
+      ],
+      "independent_raw_clip_active_set_changes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "max_scaled_jacobian_error": 1.98719731413549e-08,
+  "scope": "independent PyTorch dynamics/controller/autodiff, canonical arrays only for final comparison; no optimizer or plant-performance claim"
+}
