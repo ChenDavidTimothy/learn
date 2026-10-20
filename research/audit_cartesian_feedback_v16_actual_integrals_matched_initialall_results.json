@@ -1,0 +1,1770 @@
+{
+  "input_sha256": "5b7c263e7c831b6a8d2f83a7ba7f784c79bfc3ac8c27556b2e84898662a422d2",
+  "source_sha256": "18dff96906de372929322e716c3ad377cd5a96b1bfac3239dcd64107d651d5f8",
+  "scope": "Independent gk21 finite-domain cubature using separately algebra-audited QP/filter, not independent controller implementation or rigorous integration certification.",
+  "prior": "matched",
+  "initial_all": true,
+  "checks": [
+    {
+      "value": 0.9992957999530802,
+      "estimated_error": 9.410735678530402e-12,
+      "points": 20622,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.9992957999530802,
+          "error": 9.410735678530402e-12,
+          "subdivisions": 5,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.039148569107055664,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 0,
+      "original_value": 0.9992958011108581,
+      "original_error": 1.0952760281973697e-05,
+      "original_selected": 20,
+      "difference": -1.1577779845950431e-09
+    },
+    {
+      "value": 0.8681997019022659,
+      "estimated_error": 4.481803888328602e-08,
+      "points": 12766,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.8681997019022659,
+          "error": 4.481803888328602e-08,
+          "subdivisions": 3,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.021013736724853516,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 1,
+      "original_value": 0.8681994129024639,
+      "original_error": 9.63435924004666e-06,
+      "original_selected": 20,
+      "difference": 2.889998019783846e-07
+    },
+    {
+      "value": 0.7907050772650435,
+      "estimated_error": 6.971425814123598e-09,
+      "points": 20622,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.7907050772650435,
+          "error": 6.971425814123598e-09,
+          "subdivisions": 5,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.033223628997802734,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 2,
+      "original_value": 0.7907044500288926,
+      "original_error": 8.562565859884906e-06,
+      "original_selected": 20,
+      "difference": 6.272361509074287e-07
+    },
+    {
+      "value": 0.5670367850371391,
+      "estimated_error": 4.677608467542511e-09,
+      "points": 36334,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.5670367850371391,
+          "error": 4.677608467542511e-09,
+          "subdivisions": 9,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.058281898498535156,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 3,
+      "original_value": 0.5670363640063676,
+      "original_error": 6.655842690671195e-06,
+      "original_selected": 20,
+      "difference": 4.2103077146915524e-07
+    },
+    {
+      "value": 0.5859689736497181,
+      "estimated_error": 1.9295442700281263e-09,
+      "points": 36334,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.5859689736497181,
+          "error": 1.9295442700281263e-09,
+          "subdivisions": 9,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.058089256286621094,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 4,
+      "original_value": 0.5859680985465431,
+      "original_error": 6.493656143181273e-06,
+      "original_selected": 20,
+      "difference": 8.751031750353633e-07
+    },
+    {
+      "value": 0.8681886653299494,
+      "estimated_error": 4.417017001956606e-08,
+      "points": 12766,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.8681886653299494,
+          "error": 4.417017001956606e-08,
+          "subdivisions": 3,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.0222933292388916,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 5,
+      "original_value": 0.8681883763509555,
+      "original_error": 9.635707286482102e-06,
+      "original_selected": 20,
+      "difference": 2.8897899395641247e-07
+    },
+    {
+      "value": 0.7907036326796699,
+      "estimated_error": 6.971383140511729e-09,
+      "points": 20622,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.7907036326796699,
+          "error": 6.971383140511729e-09,
+          "subdivisions": 5,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.03612041473388672,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 6,
+      "original_value": 0.7907030054464728,
+      "original_error": 8.562536756261336e-06,
+      "original_selected": 20,
+      "difference": 6.272331971590717e-07
+    },
+    {
+      "value": 0.5670443013033668,
+      "estimated_error": 4.679699109283641e-09,
+      "points": 36334,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.5670443013033668,
+          "error": 4.679699109283641e-09,
+          "subdivisions": 9,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.061367034912109375,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 7,
+      "original_value": 0.5670438798985219,
+      "original_error": 6.64963971746113e-06,
+      "original_selected": 20,
+      "difference": 4.2140484490804653e-07
+    },
+    {
+      "value": 0.5859800438582653,
+      "estimated_error": 1.9310396032462524e-09,
+      "points": 36334,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.5859800438582653,
+          "error": 1.9310396032462524e-09,
+          "subdivisions": 9,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.06008768081665039,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 8,
+      "original_value": 0.5859791683322477,
+      "original_error": 6.496494689156998e-06,
+      "original_selected": 20,
+      "difference": 8.755260175741242e-07
+    },
+    {
+      "value": 0.6951998880791622,
+      "estimated_error": 7.29267102636309e-08,
+      "points": 20622,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.6951998880791622,
+          "error": 7.29267102636309e-08,
+          "subdivisions": 5,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.03622627258300781,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 9,
+      "original_value": 0.6951989625178792,
+      "original_error": 7.898275562169093e-06,
+      "original_selected": 20,
+      "difference": 9.255612830605386e-07
+    },
+    {
+      "value": 0.5860806886507338,
+      "estimated_error": 1.9661724169827206e-09,
+      "points": 36334,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.5860806886507338,
+          "error": 1.9661724169827206e-09,
+          "subdivisions": 9,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.0603785514831543,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 10,
+      "original_value": 0.586079812440397,
+      "original_error": 6.5195519386957115e-06,
+      "original_selected": 20,
+      "difference": 8.762103368420426e-07
+    },
+    {
+      "value": 0.359688982430272,
+      "estimated_error": 2.4603319016058492e-08,
+      "points": 59902,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.359688982430272,
+          "error": 2.4603319016058492e-08,
+          "subdivisions": 15,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.10016155242919922,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 11,
+      "original_value": 0.3596890080623141,
+      "original_error": 4.432070372510783e-06,
+      "original_selected": 20,
+      "difference": -2.5632042099932306e-08
+    },
+    {
+      "value": 0.3757055550149323,
+      "estimated_error": 2.969611061566376e-08,
+      "points": 59902,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.3757055550149323,
+          "error": 2.969611061566376e-08,
+          "subdivisions": 15,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.09906482696533203,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 12,
+      "original_value": 0.37570558378166596,
+      "original_error": 4.636680704269192e-06,
+      "original_selected": 20,
+      "difference": -2.8766733661811372e-08
+    },
+    {
+      "value": 0.6951820534440114,
+      "estimated_error": 7.316555259667294e-08,
+      "points": 20622,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.6951820534440114,
+          "error": 7.316555259667294e-08,
+          "subdivisions": 5,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.033657073974609375,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 13,
+      "original_value": 0.695181127934612,
+      "original_error": 7.900399511949316e-06,
+      "original_selected": 20,
+      "difference": 9.25509399452018e-07
+    },
+    {
+      "value": 0.5860797202460752,
+      "estimated_error": 1.9661459173363137e-09,
+      "points": 36334,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.5860797202460752,
+          "error": 1.9661459173363137e-09,
+          "subdivisions": 9,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.06084847450256348,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 14,
+      "original_value": 0.5860788440460262,
+      "original_error": 6.519478527569809e-06,
+      "original_selected": 20,
+      "difference": 8.762000490714072e-07
+    },
+    {
+      "value": 0.35970586257983916,
+      "estimated_error": 2.458178147951512e-08,
+      "points": 59902,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.35970586257983916,
+          "error": 2.458178147951512e-08,
+          "subdivisions": 15,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.10400509834289551,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 15,
+      "original_value": 0.35970588816233834,
+      "original_error": 4.42881308982325e-06,
+      "original_selected": 20,
+      "difference": -2.5582499174614526e-08
+    },
+    {
+      "value": 0.3757281367270121,
+      "estimated_error": 2.9738544554853974e-08,
+      "points": 59902,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.3757281367270121,
+          "error": 2.9738544554853974e-08,
+          "subdivisions": 15,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.10382509231567383,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 16,
+      "original_value": 0.3757281654518668,
+      "original_error": 4.633642191024452e-06,
+      "original_selected": 20,
+      "difference": -2.8724854717054882e-08
+    },
+    {
+      "value": 0.550294237804872,
+      "estimated_error": 5.7778881386562804e-08,
+      "points": 32406,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.550294237804872,
+          "error": 5.7778881386562804e-08,
+          "subdivisions": 8,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.05321025848388672,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 17,
+      "original_value": 0.5502940423276174,
+      "original_error": 6.288248737163113e-06,
+      "original_selected": 20,
+      "difference": 1.9547725460533627e-07
+    },
+    {
+      "value": 0.55028454621087,
+      "estimated_error": 5.70247807325621e-08,
+      "points": 32406,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.55028454621087,
+          "error": 5.70247807325621e-08,
+          "subdivisions": 8,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.05583548545837402,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 18,
+      "original_value": 0.55028435101946,
+      "original_error": 6.2893418165557385e-06,
+      "original_selected": 20,
+      "difference": 1.9519140992407813e-07
+    },
+    {
+      "value": 0.3458415992816467,
+      "estimated_error": 2.9254521551739013e-08,
+      "points": 59902,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.3458415992816467,
+          "error": 2.9254521551739013e-08,
+          "subdivisions": 15,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.0984354019165039,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 19,
+      "original_value": 0.34584158053784314,
+      "original_error": 4.364025600718092e-06,
+      "original_selected": 20,
+      "difference": 1.8743803564813533e-08
+    },
+    {
+      "value": 0.34582057780573494,
+      "estimated_error": 2.9550334275374796e-08,
+      "points": 59902,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.34582057780573494,
+          "error": 2.9550334275374796e-08,
+          "subdivisions": 15,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.09871292114257812,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 20,
+      "original_value": 0.34582055920926497,
+      "original_error": 4.370182833436755e-06,
+      "original_selected": 20,
+      "difference": 1.859646997504072e-08
+    },
+    {
+      "value": 0.9982103727878426,
+      "estimated_error": 9.347307087698983e-12,
+      "points": 20622,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.9982103727878426,
+          "error": 9.347307087698983e-12,
+          "subdivisions": 5,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.034380435943603516,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 32,
+      "phase": 0,
+      "sequence": 0,
+      "repeat": 0,
+      "branch": 0,
+      "index": 21,
+      "original_value": 0.9982103732275739,
+      "original_error": 1.0978775758164513e-05,
+      "original_selected": 20,
+      "difference": -4.397312514115015e-10
+    },
+    {
+      "value": 0.0015028866482499153,
+      "estimated_error": 1.782698561813078e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0015028866482499153,
+          "error": 1.782698561813078e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008651018142700195,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 0,
+      "original_value": 0.0015027986109732501,
+      "original_error": 9.739720019704629e-07,
+      "original_selected": 21,
+      "difference": 8.803727666512919e-08
+    },
+    {
+      "value": 0.0010154742022931576,
+      "estimated_error": 1.1989215844072992e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0010154742022931576,
+          "error": 1.1989215844072992e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008642911911010742,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 1,
+      "original_value": 0.0010154170685889314,
+      "original_error": 9.155699456166104e-07,
+      "original_selected": 21,
+      "difference": 5.713370422621468e-08
+    },
+    {
+      "value": 0.0010508633413205278,
+      "estimated_error": 1.27779861715141e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0010508633413205278,
+          "error": 1.27779861715141e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.00822138786315918,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 2,
+      "original_value": 0.0010508042127740425,
+      "original_error": 9.494237137287737e-07,
+      "original_selected": 21,
+      "difference": 5.912854648525839e-08
+    },
+    {
+      "value": 0.0014356431034866085,
+      "estimated_error": 1.4869817837214722e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0014356431034866085,
+          "error": 1.4869817837214722e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008264541625976562,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 3,
+      "original_value": 0.0014355591016658154,
+      "original_error": 9.289050797677239e-07,
+      "original_selected": 21,
+      "difference": 8.400182079310384e-08
+    },
+    {
+      "value": 0.0019474029940423512,
+      "estimated_error": 2.0579294631039463e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0019474029940423512,
+          "error": 2.0579294631039463e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008333206176757812,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 4,
+      "original_value": 0.0019473145360176588,
+      "original_error": 9.798965730177401e-07,
+      "original_selected": 21,
+      "difference": 8.845802469247682e-08
+    },
+    {
+      "value": 0.002286826140150522,
+      "estimated_error": 2.7069959032366082e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.002286826140150522,
+          "error": 2.7069959032366082e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008500814437866211,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 5,
+      "original_value": 0.0022867534341000336,
+      "original_error": 1.007814521415052e-06,
+      "original_selected": 21,
+      "difference": 7.270605048830675e-08
+    },
+    {
+      "value": 0.0022493647051843014,
+      "estimated_error": 2.699333384470379e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0022493647051843014,
+          "error": 2.699333384470379e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.00910806655883789,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 6,
+      "original_value": 0.002249293210071545,
+      "original_error": 9.913382910088843e-07,
+      "original_selected": 21,
+      "difference": 7.149511275627435e-08
+    },
+    {
+      "value": 0.0018594501785431507,
+      "estimated_error": 1.996070577709163e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0018594501785431507,
+          "error": 1.996070577709163e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008352041244506836,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 7,
+      "original_value": 0.0018593529331894577,
+      "original_error": 9.951841797109934e-07,
+      "original_selected": 21,
+      "difference": 9.724535369299257e-08
+    },
+    {
+      "value": 0.0013481821737852215,
+      "estimated_error": 1.2666034787895787e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0013481821737852215,
+          "error": 1.2666034787895787e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008485794067382812,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 8,
+      "original_value": 0.0013481045386094783,
+      "original_error": 9.88704329946961e-07,
+      "original_selected": 21,
+      "difference": 7.763517574318514e-08
+    },
+    {
+      "value": 0.0008264661629464625,
+      "estimated_error": 8.087877892922588e-10,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0008264661629464625,
+          "error": 8.087877892922588e-10,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008498907089233398,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 9,
+      "original_value": 0.000826419782675064,
+      "original_error": 7.518819828423866e-07,
+      "original_selected": 21,
+      "difference": 4.6380271398536836e-08
+    },
+    {
+      "value": 0.000897729431005952,
+      "estimated_error": 7.730477779644131e-10,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.000897729431005952,
+          "error": 7.730477779644131e-10,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008494853973388672,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 10,
+      "original_value": 0.0008976792436158974,
+      "original_error": 8.106357277708627e-07,
+      "original_selected": 21,
+      "difference": 5.0187390054565184e-08
+    },
+    {
+      "value": 0.0016701886746328272,
+      "estimated_error": 7.206948893831851e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0016701886746328272,
+          "error": 7.206948893831851e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008564472198486328,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 11,
+      "original_value": 0.0016700887760403146,
+      "original_error": 9.403293739250225e-07,
+      "original_selected": 21,
+      "difference": 9.989859251261467e-08
+    },
+    {
+      "value": 0.002692924668807542,
+      "estimated_error": 3.940231095559728e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.002692924668807542,
+          "error": 3.940231095559728e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.00845956802368164,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 12,
+      "original_value": 0.0026928423796726744,
+      "original_error": 1.0155194685192928e-06,
+      "original_selected": 21,
+      "difference": 8.228913486773085e-08
+    },
+    {
+      "value": 0.0033690887410377157,
+      "estimated_error": 3.889798738679353e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0033690887410377157,
+          "error": 3.889798738679353e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.00912928581237793,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 13,
+      "original_value": 0.003369076659063762,
+      "original_error": 9.67073253661266e-07,
+      "original_selected": 21,
+      "difference": 1.2081973953855657e-08
+    },
+    {
+      "value": 0.0032947435195064606,
+      "estimated_error": 3.606920949894896e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0032947435195064606,
+          "error": 3.606920949894896e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008472204208374023,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 14,
+      "original_value": 0.00329473170051187,
+      "original_error": 9.463032698910804e-07,
+      "original_selected": 21,
+      "difference": 1.1818994590743342e-08
+    },
+    {
+      "value": 0.002518905991978325,
+      "estimated_error": 7.104801428680254e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.002518905991978325,
+          "error": 7.104801428680254e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008406400680541992,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 15,
+      "original_value": 0.0025188459143120887,
+      "original_error": 9.551213321057096e-07,
+      "original_selected": 21,
+      "difference": 6.007766623636682e-08
+    },
+    {
+      "value": 0.001495767620839934,
+      "estimated_error": 6.089974793299383e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.001495767620839934,
+          "error": 6.089974793299383e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008333683013916016,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 16,
+      "original_value": 0.0014956802101642867,
+      "original_error": 9.575893450220823e-07,
+      "original_selected": 21,
+      "difference": 8.741067564731198e-08
+    },
+    {
+      "value": 0.0016478184864641865,
+      "estimated_error": 1.9599688945627076e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0016478184864641865,
+          "error": 1.9599688945627076e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008246660232543945,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 17,
+      "original_value": 0.0016477209659734792,
+      "original_error": 9.340396847291993e-07,
+      "original_selected": 21,
+      "difference": 9.752049070729275e-08
+    },
+    {
+      "value": 0.0016469587092901674,
+      "estimated_error": 1.819733802040711e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0016469587092901674,
+          "error": 1.819733802040711e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008547306060791016,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 18,
+      "original_value": 0.0016468610902029132,
+      "original_error": 9.317705413601596e-07,
+      "original_selected": 21,
+      "difference": 9.761908725423527e-08
+    },
+    {
+      "value": 0.0020959133013341855,
+      "estimated_error": 5.859521146330696e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0020959133013341855,
+          "error": 5.859521146330696e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008600234985351562,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 19,
+      "original_value": 0.0020958333299917814,
+      "original_error": 9.902352378720006e-07,
+      "original_selected": 21,
+      "difference": 7.997134240413095e-08
+    },
+    {
+      "value": 0.002092761932745799,
+      "estimated_error": 8.587498010135996e-09,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.002092761932745799,
+          "error": 8.587498010135996e-09,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.009046554565429688,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 20,
+      "original_value": 0.00209265408022846,
+      "original_error": 9.790416389913256e-07,
+      "original_selected": 21,
+      "difference": 1.0785251733889945e-07
+    },
+    {
+      "value": 0.000752374013788212,
+      "estimated_error": 8.928320857924793e-10,
+      "points": 4910,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.000752374013788212,
+          "error": 8.928320857924793e-10,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.008402824401855469,
+      "rule": "gk21",
+      "atol": 1e-08,
+      "rtol": 1e-07,
+      "split": false,
+      "episode": 36,
+      "phase": 0,
+      "sequence": 1,
+      "repeat": 0,
+      "branch": 0,
+      "index": 21,
+      "original_value": 0.0007523316418119592,
+      "original_error": 6.760717613301287e-07,
+      "original_selected": 21,
+      "difference": 4.237197625276204e-08
+    }
+  ],
+  "wall_seconds": 1.781402826309204
+}

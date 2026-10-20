@@ -1,0 +1,299 @@
+{
+  "input_sha256": "ddeac579210bb633e73388bc53b48d398c13b98ca8ab24d63458da83ed83a8b7",
+  "source_sha256": "18dff96906de372929322e716c3ad377cd5a96b1bfac3239dcd64107d651d5f8",
+  "prior": "gaussian",
+  "sequence": 1,
+  "episode": 20,
+  "phase": 0,
+  "original_selected": 10,
+  "checks": [
+    {
+      "value": 0.0032990266901477307,
+      "estimated_error": 3.773023837861657e-12,
+      "points": 35352,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "estimate": 0.0008203063498010333,
+          "error": 1.025056023492638e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              0.0
+            ],
+            [
+              0.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0008233784769993395,
+          "error": 1.0752110844149892e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              0.0,
+              -7.0
+            ],
+            [
+              7.0,
+              0.0
+            ]
+          ],
+          "estimate": 0.0008259581996050113,
+          "error": 8.02548995837709e-13,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0008293836637423466,
+          "error": 8.702077341163209e-13,
+          "subdivisions": 2,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.06307792663574219,
+      "rule": "gk21",
+      "atol": 1e-10,
+      "rtol": 1e-09,
+      "split": true,
+      "index": 3,
+      "original_value": 0.0034018316882792774,
+      "original_record": {
+        "estimated_error": 9.990883251814944e-07,
+        "analytic_tail_upper_bound": 6.398905579725352e-10,
+        "integrand_points": 2491,
+        "subdivisions": 13,
+        "normal_truncation": 7.0,
+        "atol": 1e-06,
+        "rtol": 1e-05
+      },
+      "difference": -0.00010280499813154678
+    },
+    {
+      "value": 0.002771048674471484,
+      "estimated_error": 1.8331663684200027e-12,
+      "points": 35352,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "estimate": 0.0006777412058486107,
+          "error": 4.6377447830699e-13,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              0.0
+            ],
+            [
+              0.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.000685945715348018,
+          "error": 5.722531871753138e-13,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              0.0,
+              -7.0
+            ],
+            [
+              7.0,
+              0.0
+            ]
+          ],
+          "estimate": 0.0006989516023334619,
+          "error": 3.523065290698677e-13,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.000708410150941393,
+          "error": 4.4483217386783115e-13,
+          "subdivisions": 2,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.058672189712524414,
+      "rule": "gk21",
+      "atol": 1e-10,
+      "rtol": 1e-09,
+      "split": true,
+      "index": 10,
+      "original_value": 0.002771013613262586,
+      "original_record": {
+        "estimated_error": 9.81334324996359e-07,
+        "analytic_tail_upper_bound": 5.48000765899695e-10,
+        "integrand_points": 3619,
+        "subdivisions": 19,
+        "normal_truncation": 7.0,
+        "atol": 1e-06,
+        "rtol": 1e-05
+      },
+      "difference": 3.506120889798514e-08
+    },
+    {
+      "value": 0.0027726336454124948,
+      "estimated_error": 5.6477527306709804e-11,
+      "points": 19640,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "estimate": 0.0006766095497446109,
+          "error": 6.4283951600985925e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              0.0
+            ],
+            [
+              0.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0006826717011569917,
+          "error": 7.709160588736597e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              0.0,
+              -7.0
+            ],
+            [
+              7.0,
+              0.0
+            ]
+          ],
+          "estimate": 0.000702830027937411,
+          "error": 1.944825238976867e-11,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0007105223665734811,
+          "error": 2.289171916810594e-11,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.03256416320800781,
+      "rule": "gk21",
+      "atol": 1e-10,
+      "rtol": 1e-09,
+      "split": true,
+      "index": 9,
+      "original_value": 0.002772525447171036,
+      "original_record": {
+        "estimated_error": 1.0111197464090998e-06,
+        "analytic_tail_upper_bound": 1.9465987027795356e-10,
+        "integrand_points": 3619,
+        "subdivisions": 19,
+        "normal_truncation": 7.0,
+        "atol": 1e-06,
+        "rtol": 1e-05
+      },
+      "difference": 1.0819824145880466e-07
+    }
+  ]
+}

@@ -1,3 +1,118 @@
+# Active continuation: v16 independently verified; publish and continue
+
+The general-learning Goal remains ACTIVE and unresolved. The new self-contained
+living ledgerv16 is complete with the ENTIREv15 ledger as a byte-identical suffix.
+All eight fresh corpus replays, aggregate statistics and scoped independent
+numerical checks pass. Publication is the next mechanical step: commit the
+verified files, push existing SSH origin/main and verify remote SHA. Resolve the
+release commit with Git log; this precommit handoff cannot contain its own SHA.
+Then immediately continue research. V15 releasee64e48c and progress2023af5 precede
+this cycle. No routine approval is required.
+
+## New scientific state
+
+Read first_principles_robot_learning_ledger_v16.md NEW PREFIX and its code/audits.
+Payload change m2:1->2 did not require new adaptive learning at the tested v15
+precision: same7/8postevent goals for frozenMPC. Do not increase load until a
+favored method wins. The Cartesian question removes joint encoders instead.
+Opposite stationary elbows yield EXACTLY identical passive endpoint histories;
+small active responses differ. Equal leading mean response erases one direction,
+but higher-order finite-time means need not be exactly uncontrollable. Vertical
+common actions show classification/probing is not universally necessary.
+
+General coefficient covariances can have identical ALLsingle-action marginals yet
+different cross-action implications (skew cross-output block). Both auditors
+caught the proposed acquisition defect BEFORE data; use two continuous grouped
+pulses from openly supplied exactCartesianp0/rest. This general theorem does NOT
+establish grouping necessity in this arm's special rank-one radial variation.
+
+The learner actually acquires unknown response variation from unlabeled groups,
+then carries full8D [s,w,vec(B)] Gaussian/mixture uncertainty through6successive
+goals (5changes), no motion/controller/belief resets. Covariance cross terms and
+state uncertainty constants retained; lasttwo controls form exact boxQP. Allthis
+is conventional inference/control under a SUPPLIED localconstantB vocabulary.
+No evolving trueq/v/B or hiddenbranch labels enter ordinary decisions. Initial
+rest/Cartesianp0, grouping and knownnoise/timing remain strong supplied resources.
+
+Eight fresh corpora100..107,256fit/64val/64test groups each;17EM+5Gaussian candidates,
+validationselection;10methods withsameinformation andcommon16directiongrid+
+owncautiousfirstaction. GeneralGaussian is full marginal-likelihood refined,
+matchedGaussian fullmixturemoments, isotropicdiagnostic samegeneralmean/trace.
+Isotropy removes anisotropy/spectrum/marginalvariance structure too, NOTpurecoherence.
+Precision per384clustered endpointchecks: mixturedual383,Gaussian363,matched363,
+isotropicdual250; mixturetask236,Gaussiantask204,matchedtask216,isotask106;
+mixturerandom370,Gaussianrandom346. Endpointprecision isNOTstationkeeping.
+
+Mean phasecosts mixturedual.00842859025±.00801189893corpusSE, Gaussian.02477729904±
+.00948796629, isotropic.17734738930±.01030873262. PairedGaussian-minus-mixture
+.01634870879±.00195620965, iso-minus-Gauss.15257009026±.00932289612. Shared noise
+makes paired differences less variable; do not infer from marginalSE alone.
+Mixture first63/64/later320/320, Gaussian52/64/later311/320: ordinaryGaussian
+alreadyreusesstructure andcatchesup substantially. No universalmodenecessity.
+
+Retain the rare rep105/seqA/repeat0/branch1 FIRSTgoal failure: phasecost3.07187341,
+radialerror−.001752353m, firstcamera wrongly favors component0(.876). Terminal
+read reverses tocomponent1(.999999617); allfive latergoals precise withoutreset.
+Do NOTtune probes/model/noise to remove it.18/136EMcandidatesunfinished at150steps;
+rep107DEPLOYEDK3 isone. Sevenother deployedK2fits converge. All16GaussianMLftol
+successes areNOTglobal/strictgradient certificates. TinyK3 isnotdiscoveredphysics.
+
+## Reproducibility and audits
+
+Sources/data/results for originalGHpilot, likelihoodrefinement, FAILED adaptive
+Genz-Malik and repairedgk21 batch allremain frozen. Full900candidate independent
+gk21/Sobol auditcaught4falseGenzerrorflags; finaldirected/random choices unchanged.
+The separate persistentpilot64episodes/384phases passes fullphysical/filter audit,
+but itsGenzintegration hasknownfalseerrorflags, never blanketverified numerics.
+
+Freshproduction cartesian_feedback_v16_study_initial.py hash63f1a1aa... generated
+rep100..103. Current study.py hash9322307b... generated104..107, changingONLY
+acquisition/timinglabels. Oldfirst4rawresourcesmisleadinglysayreused/new0 because
+inheritedcontrolphasefields; theirseparateacqJSONalreadycounts768newintervals.
+Aggregate reconstructscombinedcostsfromactualarraysforall8. Neverrewriteoldraw.
+Allcoarse+strictscorevaluesarepreserved. Allactualfreshpriors/filters/QP/actions,
+11520physicalintervals, heldoutLL andstatisticalscores independentlyreconstruct.
+Maxphysics1.18e-14/continuation7.72e-14, MLfinite-differencegradient6.25e-9.
+
+Independent fresh numeric1440integrals (differentgk15/nineboxes/raw8Dmoments,
+ZEROcanonicalcontrollerimports) passmax1.76e-9:1184initial+256later, all64initial
+histories'top3,128laterselected/runnerhistories atfixedphases2/5/branch/repeat,
+32complete34candidateinitialmenuson100..103. FinalhashesbindALL8completeoutputs;
+107partialfixturesrecheckedagainstfinaltuples. Complete104..107initialmenus and
+ALLlater randomradiusaverages NOTindependentlyintegrated. Target2176initialsweeps
+curtailedafterbalancedpolicyrelevantcoverage, noanalytic/globalcertificateclaim.
+Allscopes/omissions/executablecheckers preserved in numericalindependentreport.
+
+Freshordinaryacq3072groups/6144intervals/614.4simsec/18432scalarreads; control640
+method episodes/3840clusteredgoals/11520intervals/1152simsec/15360reads. Only32paired
+noise paths/768distinctscalarcontroldraws, not640bodies.1984computeddesigns,
+67456maincandidate+5952strictreintegrationcalls/1.419billionhypotheticalrows;
+additionalnominalwitness11088flows andindependentnumeric71.24millionrows separate.
+PlanninglatencyisNOTphysicaldelayinsimulation; no real-time roboticsclaim.
+
+## Continue beyond this instrument
+
+Read after_cartesian_v16_question_independent.md and directionaudit. CurrentBayes
+withcorrectjointlaw is sufficient, not a defect. The next consequential question
+is WHEN experiences can substitute for one another in useful decisions, and how
+that interchangeability is acquired/revised without certified rest, fixedresponse
+vocabulary or suppliedpersistenceboundaries. Seriouslycompare retainedstructured
+estimation, episodicconditionalcompletion, genericcausalhistorylearning or direct
+decisionreuse; choose the smallest realfalsifier, not allarchitecturesbydefault.
+
+Unknownv0 canconfoundoneprobe; furtherpositionreads canseparateitunderconstantB,
+but anothercadence/ranktheoremalonewouldrepeatidentificationdrift. Camera/chirality
+isoptionalnotdefault: finiteODEnonlinearityleakageandpopulationpersistenceassumptions
+matter. Prefer a learningconstruction withfewer suppliedstructuralcertifications,
+actual movingexperience/newinterventions, fair strongconventional alternatives,
+support/authority checks andindependentfalsification. No arbitraryhardeningtoget
+abaselinefailure, no furthermixture/quadraturemenu milestone. The Goal isACTIVE;
+publishv16verifySSHremote andIMMEDIATELYcontinuefirstprinciplesinvestigation.
+
+---
+
+# Retained prior continuation history
+
 # Active continuation: v15 published; payload premise rejected; Cartesian question open
 
 The general-learning Goal remains ACTIVE and unresolved. Latest verified ledger

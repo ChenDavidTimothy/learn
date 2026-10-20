@@ -1,0 +1,7419 @@
+{
+  "replicate": 103,
+  "stage": "later",
+  "input_sha256": "974f815911d0e1970900ebc73e27012101aeb5a04f7257a1e71676005726d34d",
+  "source": "cartesian_feedback_v16_study_initial.py",
+  "source_sha256": "63f1a1aa7239e35a0971004c4ea5b8289f283482849857ae452d882667938eb6",
+  "audit_source_sha256": "87f82f98aa5a33ccf568a1044fec3fccbb085438b27b68578898d1cac5cb36bb",
+  "independent_helper_sha256": {
+    "audit_cartesian_feedback_v16_pilot.py": "348499d41be1a3d4eca88407e0fe90c7b8c0edd3d82cf08cbb4e3bc9fab8a265",
+    "audit_cartesian_reuse_v16_pilot.py": "1f9e9c103fe26827dbd892255f02a567e1953b84d113ea9ef6ae725f4d5a2288"
+  },
+  "rule": "gk15",
+  "partition_edges": [
+    -7,
+    -2,
+    2,
+    7
+  ],
+  "atol": 1e-10,
+  "rtol": 1e-09,
+  "scope": "Independent raw8D-moment QP/filter,9-box different-rule quadrature; empirical numerical check, not analytic certification. No new physical interactions.",
+  "checks": [
+    {
+      "value": 0.000168423756817635,
+      "estimated_error": 9.216176354811554e-12,
+      "points": 28942,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.707602993493456e-08,
+          "error": 2.2704362121233873e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.6491389583154287e-06,
+          "error": 2.039315274017096e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.687604682819604e-08,
+          "error": 2.269628821429795e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.6552914512661437e-06,
+          "error": 2.0355847601706695e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00015318404211155434,
+          "error": 3.7995726221351153e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.646892037632504e-06,
+          "error": 2.0404892831499124e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.716895889341172e-08,
+          "error": 2.2708045169899066e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.65302888799945e-06,
+          "error": 2.0371373641794303e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.696854825498168e-08,
+          "error": 2.2700048253058704e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.722478630624698e-08,
+          "error": 2.2743153343821003e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.655366309518066e-06,
+          "error": 2.0424674371508232e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.702414405089233e-08,
+          "error": 2.273505197885626e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.6615434526798618e-06,
+          "error": 2.0396883885794675e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0001534457685429189,
+          "error": 3.812429565834899e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.653116357067014e-06,
+          "error": 2.0436595478776496e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.731823063109413e-08,
+          "error": 2.274685691472139e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.659277834900144e-06,
+          "error": 2.040439317622272e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.711715956275431e-08,
+          "error": 2.2738832885010375e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.3760616779327393,
+      "episode": 3,
+      "phase": 2,
+      "index": 33,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 0.00016842375681757758,
+      "original_estimated_error": 1.5882018348783755e-15,
+      "analytic_tail_upper_bound": 1.2782533418640753e-12,
+      "difference": 5.740850503310746e-17
+    },
+    {
+      "value": 0.00016861879367648512,
+      "estimated_error": 9.226871809918932e-12,
+      "points": 28942,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.717499748079291e-08,
+          "error": 2.273143129920083e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.653576392427323e-06,
+          "error": 2.0416631957404115e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.698860524819658e-08,
+          "error": 2.2723901475805297e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.6593961031387326e-06,
+          "error": 2.0387356295448047e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00015336822070091596,
+          "error": 3.8077559768451286e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.651566907270776e-06,
+          "error": 2.0426419470465728e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.726565759080799e-08,
+          "error": 2.273502400974976e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.6573711325404437e-06,
+          "error": 2.0394570288848854e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 2.8544052385727053e-81,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.707883791484521e-08,
+          "error": 2.272757152007612e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.732006742264527e-08,
+          "error": 2.276926012070336e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.6596490392840806e-06,
+          "error": 2.0450268830343484e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.713301427087902e-08,
+          "error": 2.2761704399407812e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.665493543336562e-06,
+          "error": 2.0418929262363765e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00015362346082100378,
+          "error": 3.819131968139933e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.657636590779968e-06,
+          "error": 2.0460286337200406e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.741124794536555e-08,
+          "error": 2.2772872926753273e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.663465586393469e-06,
+          "error": 2.0427793738733585e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.722376604840813e-08,
+          "error": 2.276539467382446e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.4887173175811768,
+      "episode": 3,
+      "phase": 2,
+      "index": 15,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 0.00016861879367663187,
+      "original_estimated_error": 1.5813633092327826e-15,
+      "analytic_tail_upper_bound": 1.281379108957923e-12,
+      "difference": -1.4674676404591303e-16
+    },
+    {
+      "value": 4.860199846645173e-05,
+      "estimated_error": 2.6594983495210095e-12,
+      "points": 28942,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.515484540948683e-08,
+          "error": 6.562379215499715e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.0553916175968508e-06,
+          "error": 5.892214795103237e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.5154856410071966e-08,
+          "error": 6.562379717962306e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.0553911415948247e-06,
+          "error": 5.890845500641303e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 4.427977775587662e-05,
+          "error": 1.1028660352584846e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.0553916033065516e-06,
+          "error": 5.89059207912003e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.515483371938464e-08,
+          "error": 6.562378973561018e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.0553911273000097e-06,
+          "error": 5.8902657454645785e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.5154844728252378e-08,
+          "error": 6.56237954951977e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.515486395921708e-08,
+          "error": 6.562384441362127e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.0553923955849111e-06,
+          "error": 5.890271287699285e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.5154874946501603e-08,
+          "error": 6.562384958713969e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.0553919201503708e-06,
+          "error": 5.891939793331587e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 4.4279810409079715e-05,
+          "error": 1.0979003046052063e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.0553923813042683e-06,
+          "error": 5.891688999401229e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.515485228275309e-08,
+          "error": 6.562383782798147e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.055391905865676e-06,
+          "error": 5.891703117444062e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.5154863278309978e-08,
+          "error": 6.562384249896569e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.5275695323944092,
+      "episode": 3,
+      "phase": 5,
+      "index": 33,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 4.8601998466426235e-05,
+      "original_estimated_error": 5.765086658412256e-11,
+      "analytic_tail_upper_bound": 1.278051046748242e-12,
+      "difference": 2.5492303580565423e-17
+    },
+    {
+      "value": 4.879070678272441e-05,
+      "estimated_error": 2.6698255112676612e-12,
+      "points": 28942,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.5252517814952245e-08,
+          "error": 6.587860136810354e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.0594894853722871e-06,
+          "error": 5.916419093438475e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.525252619142855e-08,
+          "error": 6.587860541036975e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.0594890952587977e-06,
+          "error": 5.914336657606213e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 4.445170832449599e-05,
+          "error": 1.1033844194222042e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.0594894468406224e-06,
+          "error": 5.9144308585822694e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.5252507594571008e-08,
+          "error": 6.58785988641632e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.0594890567119652e-06,
+          "error": 5.914233104076816e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 5.98047822529548e-164,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.5252515977731258e-08,
+          "error": 6.587860339812625e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.525253401734889e-08,
+          "error": 6.587864505349692e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.0594901649360558e-06,
+          "error": 5.915398648925889e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.5252542383150557e-08,
+          "error": 6.5878649052088e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.0594897753029435e-06,
+          "error": 5.914825197455323e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 4.4451736846869726e-05,
+          "error": 1.1020049415643059e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.0594901264361442e-06,
+          "error": 5.914707320056282e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.5252523809288998e-08,
+          "error": 6.587864057579766e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.0594897367879937e-06,
+          "error": 5.914751795036897e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.525253218174942e-08,
+          "error": 6.587864320767182e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.5392565727233887,
+      "episode": 3,
+      "phase": 5,
+      "index": 7,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 4.879070678268346e-05,
+      "original_estimated_error": 5.7874700550648526e-11,
+      "analytic_tail_upper_bound": 1.2813662822913577e-12,
+      "difference": 4.0948960802061896e-17
+    },
+    {
+      "value": 0.0002796502905009615,
+      "estimated_error": 1.5302588652472405e-11,
+      "points": 130738,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.4465613588365387e-07,
+          "error": 3.775590378479138e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 6.072324336852445e-06,
+          "error": 3.38973182122647e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.4480687170981098e-07,
+          "error": 3.776195372767566e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 6.069442730227908e-06,
+          "error": 3.391542517912308e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00025478091819234965,
+          "error": 6.332037148846885e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 6.0757667062081495e-06,
+          "error": 3.388041116055638e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.4466952341366868e-07,
+          "error": 3.775643937974332e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 6.072885757793602e-06,
+          "error": 3.3896250456360495e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.4482024652266884e-07,
+          "error": 3.7762491867545945e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 6.741436012294118e-05,
+          "error": 3.754168888105394e-12,
+          "subdivisions": 11,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0030183474551218874,
+          "error": 1.3282919664505842e-11,
+          "subdivisions": 30,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 7.666357835122452e-05,
+          "error": 8.168940591788622e-12,
+          "subdivisions": 9,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 6.175097810080222e-06,
+          "error": 4.141858238210721e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0002604247774436118,
+          "error": 1.0860821451712764e-13,
+          "subdivisions": 3,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 6.245583768832814e-06,
+          "error": 6.323440643052101e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.4464459400036996e-07,
+          "error": 3.774995863304312e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 6.071839894898909e-06,
+          "error": 3.3888896490580977e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.4479532078249022e-07,
+          "error": 3.7756009552724306e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 6.758275747299194,
+      "episode": 6,
+      "phase": 2,
+      "index": 33,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 0.0002796502905010343,
+      "original_estimated_error": 2.6327586251844468e-15,
+      "analytic_tail_upper_bound": 4.201147170366711e-11,
+      "difference": -7.280417588240162e-17
+    },
+    {
+      "value": 0.00029113591078088694,
+      "estimated_error": 1.5930981576581455e-11,
+      "points": 168662,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.5055668669928164e-07,
+          "error": 3.9304971964174766e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 6.321177335099285e-06,
+          "error": 3.52948186712164e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.507689079536498e-07,
+          "error": 3.931348089611509e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 6.317563133909818e-06,
+          "error": 3.531735519940568e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0002652451213229315,
+          "error": 6.580397034564034e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 6.326464974328705e-06,
+          "error": 3.526564254597139e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.505966736658516e-07,
+          "error": 3.9306566546058925e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 6.322852950119569e-06,
+          "error": 3.528854075591972e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.5080879617927768e-07,
+          "error": 3.931509308428423e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00022509211698006206,
+          "error": 5.960843927080973e-12,
+          "subdivisions": 10,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.009811440210739621,
+          "error": 1.8639576847816146e-11,
+          "subdivisions": 41,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.00024206848455997514,
+          "error": 6.581557719229929e-12,
+          "subdivisions": 10,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.2644047291003804e-05,
+          "error": 1.857878167970614e-12,
+          "subdivisions": 3,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0011373098168545957,
+          "error": 9.188739458152256e-12,
+          "subdivisions": 7,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.253119306598537e-05,
+          "error": 5.265131982762208e-12,
+          "subdivisions": 3,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.5051362288088861e-07,
+          "error": 3.928493620825761e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 6.3193722245325805e-06,
+          "error": 3.526611751070178e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 9.084067704216351e-35,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.507259236455524e-07,
+          "error": 3.929346934475273e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 8.690396547317505,
+      "episode": 6,
+      "phase": 2,
+      "index": 26,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 0.00029113591078079544,
+      "original_estimated_error": 2.7501576434464806e-15,
+      "analytic_tail_upper_bound": 5.059236458322669e-11,
+      "difference": 9.150666335777657e-17
+    },
+    {
+      "value": 0.000362406423669758,
+      "estimated_error": 1.9830932167997642e-11,
+      "points": 28942,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.8764084756241458e-07,
+          "error": 4.893600778514145e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 7.87002432635846e-06,
+          "error": 4.392748851459999e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.8751715347004942e-07,
+          "error": 4.893104157273818e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 7.872249187241945e-06,
+          "error": 4.391768113689936e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00033017752707229783,
+          "error": 8.194240099825001e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 7.867059347101417e-06,
+          "error": 4.394423248690091e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.8762318374572488e-07,
+          "error": 4.893529844900925e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 7.869283069804146e-06,
+          "error": 4.3932325891100434e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.874994821760049e-07,
+          "error": 4.893033258281002e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.8760569493236934e-07,
+          "error": 4.892684040737502e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 7.868549161784945e-06,
+          "error": 4.391657074174259e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.874819861785949e-07,
+          "error": 4.892187315259183e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 7.87077505455332e-06,
+          "error": 4.3908254579866166e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00033011566574712303,
+          "error": 8.203853584963158e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 7.865584599642844e-06,
+          "error": 4.393395481985062e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.8758806562735582e-07,
+          "error": 4.892613094232052e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 7.867809353543283e-06,
+          "error": 4.392474237979207e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.874643494133817e-07,
+          "error": 4.892116557471681e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.3551709651947021,
+      "episode": 6,
+      "phase": 5,
+      "index": 33,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 0.00036240642366972334,
+      "original_estimated_error": 3.4172774526055277e-15,
+      "analytic_tail_upper_bound": 4.202620157732542e-11,
+      "difference": 3.4640259410911867e-17
+    },
+    {
+      "value": 0.00037357723451926213,
+      "estimated_error": 2.0442239524515216e-11,
+      "points": 28942,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.9343484504494746e-07,
+          "error": 5.044482123113225e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 8.112804197136885e-06,
+          "error": 4.528163267759491e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.9329627800292077e-07,
+          "error": 5.043925545916276e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.11513528622618e-06,
+          "error": 4.52702160141706e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00034035491523400714,
+          "error": 8.450285962505535e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.10932119119107e-06,
+          "error": 4.530300852724856e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.934073763660745e-07,
+          "error": 5.044371616976014e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 8.111651321290232e-06,
+          "error": 4.528707633748969e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.9326878999666747e-07,
+          "error": 5.043815445328142e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.9337705340787782e-07,
+          "error": 5.042974261424423e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 8.110378656383967e-06,
+          "error": 4.526894724541108e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.932384460196371e-07,
+          "error": 5.0424176240616655e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.11271087550256e-06,
+          "error": 4.525258993501688e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0003402531616336147,
+          "error": 8.443954899444578e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.106895087798228e-06,
+          "error": 4.528366633954307e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.933495982320248e-07,
+          "error": 5.042863744971029e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 8.109226347148862e-06,
+          "error": 4.527473020501317e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 1,
+          "weight": 2.851843570969989e-113,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.9321097152054145e-07,
+          "error": 5.042307514258739e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.3078997135162354,
+      "episode": 6,
+      "phase": 5,
+      "index": 18,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 0.0003735772345193213,
+      "original_estimated_error": 3.5254711300394603e-15,
+      "analytic_tail_upper_bound": 5.0369490060038015e-11,
+      "difference": -5.919743861770854e-17
+    },
+    {
+      "value": 0.00023021935503579643,
+      "estimated_error": 1.2596076345602744e-11,
+      "points": 14471,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.1987975183656223e-07,
+          "error": 3.11111688552647e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 5.009666888518799e-06,
+          "error": 2.7845944194630994e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.1894034480878667e-07,
+          "error": 3.1069685084741883e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 5.019455555905415e-06,
+          "error": 2.7789940462850882e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00020974502799889553,
+          "error": 5.209777447228066e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 4.9794480049415764e-06,
+          "error": 2.8008369211716694e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.1940141513627214e-07,
+          "error": 3.1089860869171134e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 4.9890982612801584e-06,
+          "error": 2.7957897112859573e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.1843681447334281e-07,
+          "error": 3.1053049392306336e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.8092825412750244,
+      "episode": 19,
+      "phase": 2,
+      "index": 33,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 0.00023021935503594312,
+      "original_estimated_error": 2.1669381332824242e-15,
+      "analytic_tail_upper_bound": 1.1564073891145063e-12,
+      "difference": -1.4669255393728875e-16
+    },
+    {
+      "value": 0.00023557463305772587,
+      "estimated_error": 1.2889314414495974e-11,
+      "points": 14471,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.2253347867865197e-07,
+          "error": 3.182962009280785e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 5.1239515259808445e-06,
+          "error": 2.850649617540063e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.217340855918962e-07,
+          "error": 3.179481901148641e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 5.13271751344856e-06,
+          "error": 2.8457395215917094e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00021462417363029,
+          "error": 5.329286342195712e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 5.098756534280004e-06,
+          "error": 2.864209767152552e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.2214465828911378e-07,
+          "error": 3.1812626280171316e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 5.1072940749960545e-06,
+          "error": 2.859769864963854e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.2132755617071938e-07,
+          "error": 3.178111324914978e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.7223565578460693,
+      "episode": 19,
+      "phase": 2,
+      "index": 15,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 0.00023557463305792314,
+      "original_estimated_error": 2.2220166157865696e-15,
+      "analytic_tail_upper_bound": 3.1491565573738805e-12,
+      "difference": -1.9727058528373753e-16
+    },
+    {
+      "value": 3.9440281406077994e-05,
+      "estimated_error": 4.136543561171998e-11,
+      "points": 6487,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.0413672088691405e-08,
+          "error": 5.325379647538875e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 8.564718054068666e-07,
+          "error": 9.806334746463663e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.0413676189200395e-08,
+          "error": 5.325379848212892e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.564454601525124e-07,
+          "error": 9.806557773838565e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.593284980105033e-05,
+          "error": 8.917670441877575e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.564456871796051e-07,
+          "error": 9.806555797181303e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.0412354602614657e-08,
+          "error": 5.325328044947819e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 8.564165879096623e-07,
+          "error": 9.806927980772058e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.041236149851025e-08,
+          "error": 5.32532888952559e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.3271181583404541,
+      "episode": 19,
+      "phase": 5,
+      "index": 33,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 3.94402814060703e-05,
+      "original_estimated_error": 4.678336108504403e-11,
+      "analytic_tail_upper_bound": 1.2429988193189122e-12,
+      "difference": 7.691059161069047e-18
+    },
+    {
+      "value": 4.158634901991164e-05,
+      "estimated_error": 4.3616200874067643e-11,
+      "points": 6487,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.1524142968091667e-08,
+          "error": 5.615131381711996e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 9.030624820961718e-07,
+          "error": 1.0340037119446046e-11,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.1524146822613386e-08,
+          "error": 5.61513259058683e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 9.030472976487988e-07,
+          "error": 1.0340165282518987e-11,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.788806590962441e-05,
+          "error": 9.410841822889236e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 9.030474889357535e-07,
+          "error": 1.0340164731312297e-11,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.1523386456329952e-08,
+          "error": 5.615102864567062e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 9.030307735478288e-07,
+          "error": 1.0340375969369551e-11,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.1523391811646752e-08,
+          "error": 5.615102459112852e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.33007192611694336,
+      "episode": 19,
+      "phase": 5,
+      "index": 7,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 4.158634902000193e-05,
+      "original_estimated_error": 4.932900168198737e-11,
+      "analytic_tail_upper_bound": 2.2232379628628558e-12,
+      "difference": -9.028693591373038e-17
+    },
+    {
+      "value": 0.009723932164752177,
+      "estimated_error": 5.6574731796776506e-12,
+      "points": 22455,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.578787055038157e-06,
+          "error": 4.649200100210233e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00036164323397812933,
+          "error": 1.9912158721925192e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.660753905804864e-06,
+          "error": 4.5834455357430685e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00020860777411452186,
+          "error": 1.1802973147879761e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.008780090583357924,
+          "error": 1.820311371254768e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.00020993586409660573,
+          "error": 1.1731607192400787e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.3240476485585457e-06,
+          "error": 4.5632433638050707e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00013975321278917937,
+          "error": 1.100933727056736e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.3379078064148234e-06,
+          "error": 4.568957012125634e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.1285731792449951,
+      "episode": 22,
+      "phase": 2,
+      "index": 29,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 29,
+      "original_value": 0.00972393216475179,
+      "original_estimated_error": 1.033177384137864e-13,
+      "analytic_tail_upper_bound": 2.3533708176727676e-10,
+      "difference": 3.86843335142828e-16
+    },
+    {
+      "value": 0.009972889835170676,
+      "estimated_error": 5.849714410920499e-12,
+      "points": 22455,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.896066877916834e-06,
+          "error": 4.715159243126465e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0003750814401087132,
+          "error": 2.523526167860732e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.984081659005167e-06,
+          "error": 4.645273946684974e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.0002138855669843828,
+          "error": 1.2109769038373878e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.009004672492562604,
+          "error": 1.8583871420896347e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0002153641091513951,
+          "error": 1.2030697789278982e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.3137201666991815e-06,
+          "error": 4.646500689659666e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00013936273207789228,
+          "error": 1.1383261120548862e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.3296255820680075e-06,
+          "error": 4.6532518429907736e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.1638283729553223,
+      "episode": 22,
+      "phase": 2,
+      "index": 28,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 29,
+      "original_value": 0.009972889835169259,
+      "original_estimated_error": 1.1373260450650587e-13,
+      "analytic_tail_upper_bound": 1.593468319598029e-10,
+      "difference": 1.4172690798730514e-15
+    },
+    {
+      "value": 0.0053807848422650585,
+      "estimated_error": 3.8612661247494095e-12,
+      "points": 22455,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.464678385141817e-06,
+          "error": 3.1036214920057637e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00010336889501700385,
+          "error": 6.993884170573211e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.46283689981679e-06,
+          "error": 3.103319491215761e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00011682096865850368,
+          "error": 6.520343476312509e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.004899407358316509,
+          "error": 1.1991039671616077e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.00011672997844386258,
+          "error": 6.525342594456852e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.17564550184843e-06,
+          "error": 3.122527406950704e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00013318146951380176,
+          "error": 5.336794841655706e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.1730115285711842e-06,
+          "error": 3.123096538625138e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.126044750213623,
+      "episode": 22,
+      "phase": 5,
+      "index": 19,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 19,
+      "original_value": 0.00538078484226489,
+      "original_estimated_error": 5.1263354082349016e-14,
+      "analytic_tail_upper_bound": 2.1863213786283875e-11,
+      "difference": 1.682681771697503e-16
+    },
+    {
+      "value": 0.005448065369278936,
+      "estimated_error": 3.896147897387197e-12,
+      "points": 22455,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.493773934165815e-06,
+          "error": 3.133807392449573e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00010457540617462233,
+          "error": 7.050056007255173e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.4912555212407315e-06,
+          "error": 3.133391339050226e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00011828707806769824,
+          "error": 6.601016664210083e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.004960228160401974,
+          "error": 1.2115882299171266e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.00011816318217242714,
+          "error": 6.607666783406448e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.2283647587986595e-06,
+          "error": 3.1512332462285654e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00013537336895171984,
+          "error": 5.329818280577655e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.224779296287905e-06,
+          "error": 3.1519574147850105e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.1263017654418945,
+      "episode": 22,
+      "phase": 5,
+      "index": 20,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 19,
+      "original_value": 0.005448065369279437,
+      "original_estimated_error": 5.234157243358921e-14,
+      "analytic_tail_upper_bound": 5.919256719811077e-11,
+      "difference": -5.0133508455729725e-16
+    },
+    {
+      "value": 0.00016636080251522913,
+      "estimated_error": 9.103274093671599e-12,
+      "points": 14471,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.621368200550122e-08,
+          "error": 2.2466803770787235e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.6121061857228333e-06,
+          "error": 2.016825098092847e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.597323966112472e-08,
+          "error": 2.2457168864715238e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.6175783508600518e-06,
+          "error": 2.0136480704837632e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00015156627711590117,
+          "error": 3.763166468435768e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.6074945817674236e-06,
+          "error": 2.0192006885294385e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.623327746587343e-08,
+          "error": 2.2467766567307597e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.612933023507703e-06,
+          "error": 2.0162489586920553e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.5993058337466e-08,
+          "error": 2.245809280548253e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.7284278869628906,
+      "episode": 35,
+      "phase": 2,
+      "index": 33,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 0.0001663608025153329,
+      "original_estimated_error": 1.568374259436986e-15,
+      "analytic_tail_upper_bound": 1.1576409122012515e-12,
+      "difference": -1.0375814790686277e-16
+    },
+    {
+      "value": 0.0001718836823880954,
+      "estimated_error": 9.40528836025529e-12,
+      "points": 14471,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.906139231720832e-08,
+          "error": 2.3211433951758107e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.7326600844654297e-06,
+          "error": 2.08312521827975e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.88722277918242e-08,
+          "error": 2.3203855471746057e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.7364291982609282e-06,
+          "error": 2.0814379792851976e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0001565978844086718,
+          "error": 3.890182447008339e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.728496032752958e-06,
+          "error": 2.085746246557883e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.905414276731687e-08,
+          "error": 2.321140152630291e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.732359741338448e-06,
+          "error": 2.0835479299942463e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.886515972947428e-08,
+          "error": 2.3203788670633293e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.7282359600067139,
+      "episode": 35,
+      "phase": 2,
+      "index": 15,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 0.00017188368238832597,
+      "original_estimated_error": 1.6201228303824953e-15,
+      "analytic_tail_upper_bound": 3.206564510787456e-12,
+      "difference": -2.3058269703335466e-16
+    },
+    {
+      "value": 3.974235003007115e-05,
+      "estimated_error": 4.1682278480870025e-11,
+      "points": 6487,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.0570014739979176e-08,
+          "error": 5.366166191526924e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 8.630315509549146e-07,
+          "error": 9.881440124834143e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.0570031533164308e-08,
+          "error": 5.366167595252424e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.630046130106444e-07,
+          "error": 9.881668908327317e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.620805547462258e-05,
+          "error": 9.011126975079931e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.630053758581831e-07,
+          "error": 9.881659922895934e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.0568679462539305e-08,
+          "error": 5.366114614862551e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 8.629755906641165e-07,
+          "error": 9.882042025175913e-12,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.0568699225036438e-08,
+          "error": 5.366115324974489e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.33348584175109863,
+      "episode": 35,
+      "phase": 5,
+      "index": 33,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 3.97423500299818e-05,
+      "original_estimated_error": 4.714167315677237e-11,
+      "analytic_tail_upper_bound": 1.2431179873606266e-12,
+      "difference": 8.935181153996163e-17
+    },
+    {
+      "value": 4.173499073248856e-05,
+      "estimated_error": 4.3772103281877614e-11,
+      "points": 6487,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.1601086096306055e-08,
+          "error": 5.635203426436572e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 9.062907913429052e-07,
+          "error": 1.0376987921471467e-11,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.160109469830035e-08,
+          "error": 5.635203188440167e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 9.062749529360807e-07,
+          "error": 1.0377126010817638e-11,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 3.802348896130288e-05,
+          "error": 9.448131601359159e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 9.062753457354933e-07,
+          "error": 1.0377121187176761e-11,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.1600301047520452e-08,
+          "error": 5.635172137601467e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 9.062578880571205e-07,
+          "error": 1.0377344886672307e-11,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.1600311271948237e-08,
+          "error": 5.635172688902611e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.3347659111022949,
+      "episode": 35,
+      "phase": 5,
+      "index": 7,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 4.173499073246588e-05,
+      "original_estimated_error": 4.9505307405867054e-11,
+      "analytic_tail_upper_bound": 2.201303268736531e-12,
+      "difference": 2.2680154195681146e-17
+    },
+    {
+      "value": 0.00958629774050476,
+      "estimated_error": 5.5703450528957585e-12,
+      "points": 22455,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.40197494397148e-06,
+          "error": 4.58906710944418e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00035391543253401897,
+          "error": 1.763309695510952e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.469093460310432e-06,
+          "error": 4.536039305977356e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00020579513140515378,
+          "error": 1.1631906815070421e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.008657714980480395,
+          "error": 1.8025053021356041e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0002069138534962349,
+          "error": 1.157185055805943e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.2947080684399307e-06,
+          "error": 4.5184973470646524e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0001384857463332786,
+          "error": 1.089459447907507e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.306819782955924e-06,
+          "error": 4.523755836370514e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.1343269348144531,
+      "episode": 38,
+      "phase": 2,
+      "index": 29,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 29,
+      "original_value": 0.009586297740507494,
+      "original_estimated_error": 1.0137087681290323e-13,
+      "analytic_tail_upper_bound": 2.3543606149696105e-10,
+      "difference": -2.733924198139448e-15
+    },
+    {
+      "value": 0.009821910004932606,
+      "estimated_error": 5.752520952516319e-12,
+      "points": 22455,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 8.707483879895084e-06,
+          "error": 4.650594708348486e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0003668386951536036,
+          "error": 2.282526538939849e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 8.779641634179196e-06,
+          "error": 4.5939277391391964e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00021080061403261731,
+          "error": 1.1921834912595652e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.008870218240690661,
+          "error": 1.836778342270695e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.00021203853497341095,
+          "error": 1.1855646100791213e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.2811865355966576e-06,
+          "error": 4.596308548421783e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00013795076566416707,
+          "error": 1.1253145726211392e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.2948423684769813e-06,
+          "error": 4.601897243271801e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.1343295574188232,
+      "episode": 38,
+      "phase": 2,
+      "index": 28,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 29,
+      "original_value": 0.009821910004931676,
+      "original_estimated_error": 1.1198531420778135e-13,
+      "analytic_tail_upper_bound": 1.5939680134196876e-10,
+      "difference": 9.298117831235686e-16
+    },
+    {
+      "value": 0.005118304715348072,
+      "estimated_error": 3.672216799266665e-12,
+      "points": 22455,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.3415714479951485e-06,
+          "error": 2.95186614886118e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 9.816167987576183e-05,
+          "error": 6.659416867907036e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.337722322433713e-06,
+          "error": 2.9508941804557275e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00011117899750202477,
+          "error": 6.199164249886711e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.004660385368634926,
+          "error": 1.1405484846502278e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.00011097810406314457,
+          "error": 6.210124169358216e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.0269831170844988e-06,
+          "error": 2.9693546124901006e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.00012687331436899533,
+          "error": 5.063691520989962e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.0209740157055656e-06,
+          "error": 2.970748438417478e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.1772799491882324,
+      "episode": 38,
+      "phase": 5,
+      "index": 19,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 19,
+      "original_value": 0.005118304715347967,
+      "original_estimated_error": 4.873132064553414e-14,
+      "analytic_tail_upper_bound": 2.2074066890517857e-11,
+      "difference": 1.0495077029659683e-16
+    },
+    {
+      "value": 0.005192753532411173,
+      "estimated_error": 3.712803660404932e-12,
+      "points": 22455,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.3743990931243233e-06,
+          "error": 2.986589793123605e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 9.953960188452998e-05,
+          "error": 6.724767337264357e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.3705794141820302e-06,
+          "error": 2.985578763998169e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00011278689822358709,
+          "error": 6.289328454531415e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.004727755835146843,
+          "error": 1.1546447391957981e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.00011258172120540937,
+          "error": 6.300494867044884e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.082271102740861e-06,
+          "error": 3.002560770269437e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0001291862821038596,
+          "error": 5.069096416628705e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.075944236896628e-06,
+          "error": 3.004292038828477e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.176408290863037,
+      "episode": 38,
+      "phase": 5,
+      "index": 20,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 19,
+      "original_value": 0.005192753532411467,
+      "original_estimated_error": 4.946141887601043e-14,
+      "analytic_tail_upper_bound": 5.960108232663778e-11,
+      "difference": -2.940356291780688e-16
+    },
+    {
+      "value": 0.2306217137804052,
+      "estimated_error": 1.3532622268429332e-10,
+      "points": 38423,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00034183797951242473,
+          "error": 6.266927826237586e-13,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0027542504437391207,
+          "error": 6.4227568008723175e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.8365661497222197e-05,
+          "error": 2.735909698909654e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.018611881737393022,
+          "error": 2.1936456150778275e-11,
+          "subdivisions": 5,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.19925895870414034,
+          "error": 9.47519250560358e-11,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0011440403697836761,
+          "error": 7.38281822672058e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.0004382063986960397,
+          "error": 9.182298366498277e-13,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.008010163532855271,
+          "error": 2.7702366396273746e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 4.400895278806639e-05,
+          "error": 2.4351622109443054e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.9852066040039062,
+      "episode": 67,
+      "phase": 2,
+      "index": 18,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 18,
+      "original_value": 0.23062171378040555,
+      "original_estimated_error": 7.25787727269962e-11,
+      "analytic_tail_upper_bound": 2.581624058345418e-10,
+      "difference": -3.608224830031759e-16
+    },
+    {
+      "value": 0.2317110813794324,
+      "estimated_error": 1.577404721851345e-10,
+      "points": 38423,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.0003404178636152671,
+          "error": 3.447616802814759e-13,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0028890289519956334,
+          "error": 6.441162520044643e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.9714369934090655e-05,
+          "error": 2.8448659081519225e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.018487536401309665,
+          "error": 1.64954718331261e-11,
+          "subdivisions": 5,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.20037993122199965,
+          "error": 1.229811218139698e-10,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0011526958024685688,
+          "error": 7.455648360351166e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.0004289754688592513,
+          "error": 1.095548109009031e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.007970044495738996,
+          "error": 2.397759694757803e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 4.2736803511273236e-05,
+          "error": 2.4451158277928806e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 2.0298824310302734,
+      "episode": 67,
+      "phase": 2,
+      "index": 17,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 18,
+      "original_value": 0.23171108137943228,
+      "original_estimated_error": 8.287322459355837e-11,
+      "analytic_tail_upper_bound": 2.1839350263054533e-10,
+      "difference": 1.1102230246251565e-16
+    },
+    {
+      "value": 5.554885246513518e-05,
+      "estimated_error": 3.039661372612271e-12,
+      "points": 14471,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.8749824738128028e-08,
+          "error": 7.500358668963179e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.2062926178227278e-06,
+          "error": 6.733186222036786e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.8753144219011412e-08,
+          "error": 7.500535323143721e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.2061676102136874e-06,
+          "error": 6.733648088936519e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 5.060888583256073e-05,
+          "error": 1.2566968746554642e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.206315819768904e-06,
+          "error": 6.733201105529859e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 2.8747141130772743e-08,
+          "error": 7.500305464472242e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.206189568988672e-06,
+          "error": 6.734285735916542e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.875090569255024e-08,
+          "error": 7.500401370553823e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.7407553195953369,
+      "episode": 67,
+      "phase": 5,
+      "index": 33,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 5.554885246529313e-05,
+      "original_estimated_error": 6.589102779671997e-11,
+      "analytic_tail_upper_bound": 1.2395299962281833e-12,
+      "difference": -1.579479277404039e-16
+    },
+    {
+      "value": 6.006634280588696e-05,
+      "estimated_error": 3.286859057827385e-12,
+      "points": 14471,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.108847320707634e-08,
+          "error": 8.110347930467306e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.30439729432376e-06,
+          "error": 7.280951219862887e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.109109854685817e-08,
+          "error": 8.110490231605399e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.3042807516025086e-06,
+          "error": 7.281503973129027e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 5.472463440959045e-05,
+          "error": 1.3587975484911398e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 1.304398528052192e-06,
+          "error": 7.280809391177791e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 3.108544537748314e-08,
+          "error": 8.110272472607769e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 1.3042783538641526e-06,
+          "error": 7.282172527697492e-15,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 3.1088451322470706e-08,
+          "error": 8.110345817625588e-13,
+          "subdivisions": 0,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.7618691921234131,
+      "episode": 67,
+      "phase": 5,
+      "index": 8,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 0,
+      "branch": 1,
+      "repeat": 1,
+      "original_selected": 33,
+      "original_value": 6.0066342805883036e-05,
+      "original_estimated_error": 7.124959510945801e-11,
+      "analytic_tail_upper_bound": 5.34482380189022e-13,
+      "difference": 3.923456611681919e-18
+    },
+    {
+      "value": 0.03083732116940656,
+      "estimated_error": 1.5741350677948644e-11,
+      "points": 22455,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.5301467968801718e-05,
+          "error": 1.917858390986299e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0011575787424790928,
+          "error": 8.52412942240323e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 6.341746603429761e-05,
+          "error": 3.3168426386072553e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00036950158335579607,
+          "error": 1.7050592784072393e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0273050309630472,
+          "error": 4.035446022482292e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.00149430336506499,
+          "error": 6.6422923024075585e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 5.618044691726902e-06,
+          "error": 4.835487071755805e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0004046961877235726,
+          "error": 3.537216892471339e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.187334904107867e-05,
+          "error": 1.0425887201825826e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.1382827758789062,
+      "episode": 70,
+      "phase": 2,
+      "index": 29,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 29,
+      "original_value": 0.030837321169408932,
+      "original_estimated_error": 9.086995796572834e-13,
+      "analytic_tail_upper_bound": 2.4488858794304614e-10,
+      "difference": -2.373101715136272e-15
+    },
+    {
+      "value": 0.031251686738412096,
+      "estimated_error": 1.5209962550901667e-11,
+      "points": 22455,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 1.619030964016773e-05,
+          "error": 1.1259465552859883e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0011699685603720454,
+          "error": 8.44149516155847e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 6.341216122529887e-05,
+          "error": 3.4176147596237576e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00039564541392138786,
+          "error": 5.604104919654755e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.027682335246125345,
+          "error": 3.580231597299921e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0014871239067769625,
+          "error": 6.6165928525389935e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 6.020623253223368e-06,
+          "error": 5.3818255856391333e-14,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0004093454475495431,
+          "error": 3.6012313319014247e-12,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 2.1645069548118587e-05,
+          "error": 1.0487700643730527e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 0.903653621673584,
+      "episode": 70,
+      "phase": 2,
+      "index": 28,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 29,
+      "original_value": 0.03125168673841361,
+      "original_estimated_error": 7.996106059977327e-13,
+      "analytic_tail_upper_bound": 1.7378062735507364e-10,
+      "difference": -1.5126788710517758e-15
+    },
+    {
+      "value": 0.1956061541093599,
+      "estimated_error": 7.115793037975991e-11,
+      "points": 30439,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00018159399179057569,
+          "error": 9.291995165274825e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.0038581035843509226,
+          "error": 9.616405150041284e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 4.861754688658383e-05,
+          "error": 7.587145250599322e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.008813753821110236,
+          "error": 9.769295860317386e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.17563162208216945,
+          "error": 3.082131425080625e-11,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.0021073681906645637,
+          "error": 9.974681058108223e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00025099452022666474,
+          "error": 1.916096980713642e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.004661065317806029,
+          "error": 8.33323552398557e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 5.3035054354868726e-05,
+          "error": 7.634747968424185e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.2710697650909424,
+      "episode": 70,
+      "phase": 5,
+      "index": 20,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 20,
+      "original_value": 0.1956061541093591,
+      "original_estimated_error": 3.012151292234912e-12,
+      "analytic_tail_upper_bound": 1.0737499704627782e-10,
+      "difference": 7.771561172376096e-16
+    },
+    {
+      "value": 0.19771521925592683,
+      "estimated_error": 7.217163335880863e-11,
+      "points": 30439,
+      "parts": [
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -7.0
+            ],
+            [
+              -2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00018052675649335583,
+          "error": 9.43040747139034e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              -2.0
+            ],
+            [
+              -2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.003891838134924283,
+          "error": 9.856379359023336e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -7.0,
+              2.0
+            ],
+            [
+              -2.0,
+              7.0
+            ]
+          ],
+          "estimate": 5.000630366168466e-05,
+          "error": 7.80709045813408e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -7.0
+            ],
+            [
+              2.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.008718001752721171,
+          "error": 9.057250599705448e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              -2.0
+            ],
+            [
+              2.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.1776647483593651,
+          "error": 3.1790344662274705e-11,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              -2.0,
+              2.0
+            ],
+            [
+              2.0,
+              7.0
+            ]
+          ],
+          "estimate": 0.002189173509084089,
+          "error": 1.0231522377410163e-11,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -7.0
+            ],
+            [
+              7.0,
+              -2.0
+            ]
+          ],
+          "estimate": 0.00024610569135976364,
+          "error": 2.657829092838926e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              7.0,
+              2.0
+            ]
+          ],
+          "estimate": 0.004719219938867438,
+          "error": 8.454529332301074e-12,
+          "subdivisions": 2,
+          "status": "converged"
+        },
+        {
+          "component": 0,
+          "weight": 1.0,
+          "bounds": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              7.0,
+              7.0
+            ]
+          ],
+          "estimate": 5.559880944994287e-05,
+          "error": 7.920743258575676e-13,
+          "subdivisions": 1,
+          "status": "converged"
+        }
+      ],
+      "wall_seconds": 1.3749363422393799,
+      "episode": 70,
+      "phase": 5,
+      "index": 19,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 1,
+      "branch": 0,
+      "repeat": 1,
+      "original_selected": 20,
+      "original_value": 0.19771521925592703,
+      "original_estimated_error": 3.003851644982482e-12,
+      "analytic_tail_upper_bound": 5.701022858561121e-11,
+      "difference": -1.942890293094024e-16
+    }
+  ],
+  "menus": [
+    {
+      "episode": 3,
+      "phase": 2,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 0,
+      "indices": [
+        33,
+        15
+      ],
+      "audited_best": 33,
+      "original_selected": 33,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 3,
+      "phase": 5,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 0,
+      "indices": [
+        33,
+        7
+      ],
+      "audited_best": 33,
+      "original_selected": 33,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 6,
+      "phase": 2,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 1,
+      "indices": [
+        33,
+        26
+      ],
+      "audited_best": 33,
+      "original_selected": 33,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 6,
+      "phase": 5,
+      "prior": "mixture",
+      "mode": "dual",
+      "sequence": 1,
+      "indices": [
+        33,
+        18
+      ],
+      "audited_best": 33,
+      "original_selected": 33,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 19,
+      "phase": 2,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 0,
+      "indices": [
+        33,
+        15
+      ],
+      "audited_best": 33,
+      "original_selected": 33,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 19,
+      "phase": 5,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 0,
+      "indices": [
+        33,
+        7
+      ],
+      "audited_best": 33,
+      "original_selected": 33,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 22,
+      "phase": 2,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 1,
+      "indices": [
+        29,
+        28
+      ],
+      "audited_best": 29,
+      "original_selected": 29,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 22,
+      "phase": 5,
+      "prior": "gaussian",
+      "mode": "dual",
+      "sequence": 1,
+      "indices": [
+        19,
+        20
+      ],
+      "audited_best": 19,
+      "original_selected": 19,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 35,
+      "phase": 2,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 0,
+      "indices": [
+        33,
+        15
+      ],
+      "audited_best": 33,
+      "original_selected": 33,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 35,
+      "phase": 5,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 0,
+      "indices": [
+        33,
+        7
+      ],
+      "audited_best": 33,
+      "original_selected": 33,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 38,
+      "phase": 2,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 1,
+      "indices": [
+        29,
+        28
+      ],
+      "audited_best": 29,
+      "original_selected": 29,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 38,
+      "phase": 5,
+      "prior": "matched",
+      "mode": "dual",
+      "sequence": 1,
+      "indices": [
+        19,
+        20
+      ],
+      "audited_best": 19,
+      "original_selected": 19,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 67,
+      "phase": 2,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 0,
+      "indices": [
+        18,
+        17
+      ],
+      "audited_best": 18,
+      "original_selected": 18,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 67,
+      "phase": 5,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 0,
+      "indices": [
+        33,
+        8
+      ],
+      "audited_best": 33,
+      "original_selected": 33,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 70,
+      "phase": 2,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 1,
+      "indices": [
+        29,
+        28
+      ],
+      "audited_best": 29,
+      "original_selected": 29,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    },
+    {
+      "episode": 70,
+      "phase": 5,
+      "prior": "isotropic",
+      "mode": "dual",
+      "sequence": 1,
+      "indices": [
+        20,
+        19
+      ],
+      "audited_best": 20,
+      "original_selected": 20,
+      "selected_in_checked_indices": true,
+      "complete_menu": false
+    }
+  ],
+  "wall_seconds_current_execution": 48.75085210800171
+}

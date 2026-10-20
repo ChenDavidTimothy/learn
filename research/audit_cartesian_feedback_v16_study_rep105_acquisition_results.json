@@ -1,0 +1,52 @@
+{
+  "status": "INDEPENDENT FRESH ACQUISITION/FITS RECONSTRUCTED",
+  "replicate": 105,
+  "artifact_sha256": {
+    "cartesian_feedback_v16_rep105_acquisition_results.json": "c07fc822aa60884661f024437ea07343a41c72c30aeb037b8d2918f6c1a9eede",
+    "cartesian_feedback_v16_rep105_acquisition_data.npz": "fa8d7157d6bc2dc20bc28f01b138b734cb370a9634b3b288962a20b454af15d9",
+    "cartesian_feedback_v16_study.py": "9322307bfa672eacc0c1f3683e280076425a2b0d2ed99dddd422fabfa69552e6",
+    "cartesian_reuse_v16_gk21.py": "ef51328cc51c6936c41859027ce26e09fb0a1e6ebcad2ad3df8a2c6d05f7b6af"
+  },
+  "audit_source_sha256": "99b193724944ed084ec03b1d30c5413bd15f42e560b75e004f8636037daabdc8",
+  "errors": {
+    "acquisition_commands": 0.0,
+    "acquisition_paths": 0.0,
+    "acquisition_initial_states": 0.0,
+    "acquisition_camera": 0.0,
+    "acquisition_Hamiltonian_physics": 3.3306690738754696e-15,
+    "acquisition_exposures": 0.0,
+    "EM_init_paths": 0.0,
+    "EM_matrices": 2.304822999121825e-13,
+    "EM_weights": 9.048317650695026e-15,
+    "EM_history": 1.1652900866465643e-12,
+    "EM_validation": 5.684341886080802e-14,
+    "Gaussian_moment_mean": 2.220446049250313e-16,
+    "Gaussian_raw_covariance": 8.881784197001252e-16,
+    "Gaussian_projected_covariance": 8.881784197001252e-16,
+    "Gaussian_moment_validation": 6.217248937900877e-15,
+    "Gaussian_ML_training": 8.881784197001252e-16,
+    "Gaussian_ML_validation": 1.7763568394002505e-15
+  },
+  "Gaussian_ML_endpoint_checks": [
+    {
+      "start": "moment",
+      "max_coordinate_FD_error": 3.0201317709415245e-09,
+      "reported_success": true,
+      "reported_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "training_nll": -7.109463570740192
+    },
+    {
+      "start": "mixture_moments",
+      "max_coordinate_FD_error": 2.9244257768397373e-09,
+      "reported_success": true,
+      "reported_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "training_nll": -7.1094635710799
+    }
+  ],
+  "resources": {
+    "new_groups": 384,
+    "new_intervals": 768,
+    "scalar_camera_reads": 2304
+  },
+  "unique_acquisition_paths": 384
+}

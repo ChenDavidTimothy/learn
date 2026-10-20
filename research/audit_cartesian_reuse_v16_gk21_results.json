@@ -1,0 +1,211 @@
+{
+  "status": "INDEPENDENT COMPLETE-MENU NUMERICAL COMPARISON PASSED; CONSTRUCTION PILOT ONLY",
+  "artifact_sha256": {
+    "cartesian_reuse_v16_gk21.py": "ef51328cc51c6936c41859027ce26e09fb0a1e6ebcad2ad3df8a2c6d05f7b6af",
+    "cartesian_reuse_v16_gk21_design.md": "5a061d227fc7b8964198add9d3372328ba41dfcc85f9174f6788f4710e32aa2d",
+    "cartesian_reuse_v16_gk21_results.json": "0c6d445230d033a4ac99eb03d5f13fe42135eea4bd1e19bb8453493e48f00520",
+    "cartesian_reuse_v16_gk21_data.npz": "014c0350acbb828e1300afb709773a81ee6416f6a8bf3377b748d1087624c6b4",
+    "cartesian_reuse_v16_adaptive_results.json": "1916f17ac31ac3cd45ba175c7ce7cfc4ed80d5390fde7e2cbb5d6ff59524ec2c",
+    "audit_cartesian_reuse_v16_adaptive_results.json": "695915cb88b99a0734c05f4d35f1756c76406e169b4c21ab101638088ca6b457",
+    "audit_cartesian_reuse_v16_adaptive.py": "9c114c0681602cd0cf1c9943c9c22b29e900fe971e699f7c4e0368afe9959b68"
+  },
+  "audit_source_sha256": "19cb587af95a049ef24d7d5ba57c82328464a674a4fd45b927050f3388333051",
+  "candidate_integrals_checked": 900,
+  "maximum_score_difference_from_independent_implementation": 9.96022014865261e-12,
+  "menus": [
+    {
+      "prior": "mixture",
+      "goal_index": 0,
+      "maximum_score_difference": 9.923544624923508e-12,
+      "selected": 38,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "mixture",
+      "goal_index": 1,
+      "maximum_score_difference": 9.923575849946076e-12,
+      "selected": 46,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "mixture",
+      "goal_index": 2,
+      "maximum_score_difference": 4.584149899955481e-13,
+      "selected": 49,
+      "random_radius": 0.0
+    },
+    {
+      "prior": "mixture",
+      "goal_index": 3,
+      "maximum_score_difference": 4.58422362570321e-13,
+      "selected": 49,
+      "random_radius": 0.0
+    },
+    {
+      "prior": "mixture",
+      "goal_index": 4,
+      "maximum_score_difference": 9.96022014865261e-12,
+      "selected": 46,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "mixture",
+      "goal_index": 5,
+      "maximum_score_difference": 9.88635909249247e-12,
+      "selected": 46,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "gaussian",
+      "goal_index": 0,
+      "maximum_score_difference": 4.440892098500626e-16,
+      "selected": 38,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "gaussian",
+      "goal_index": 1,
+      "maximum_score_difference": 5.551115123125783e-16,
+      "selected": 46,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "gaussian",
+      "goal_index": 2,
+      "maximum_score_difference": 7.395475724869538e-12,
+      "selected": 35,
+      "random_radius": 0.025
+    },
+    {
+      "prior": "gaussian",
+      "goal_index": 3,
+      "maximum_score_difference": 7.395408504334844e-12,
+      "selected": 43,
+      "random_radius": 0.025
+    },
+    {
+      "prior": "gaussian",
+      "goal_index": 4,
+      "maximum_score_difference": 4.440892098500626e-16,
+      "selected": 46,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "gaussian",
+      "goal_index": 5,
+      "maximum_score_difference": 4.440892098500626e-16,
+      "selected": 46,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "matched",
+      "goal_index": 0,
+      "maximum_score_difference": 8.604228440844963e-15,
+      "selected": 38,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "matched",
+      "goal_index": 1,
+      "maximum_score_difference": 8.215650382226158e-15,
+      "selected": 46,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "matched",
+      "goal_index": 2,
+      "maximum_score_difference": 4.7146577007023405e-12,
+      "selected": 49,
+      "random_radius": 0.0
+    },
+    {
+      "prior": "matched",
+      "goal_index": 3,
+      "maximum_score_difference": 4.7147231865135586e-12,
+      "selected": 49,
+      "random_radius": 0.0
+    },
+    {
+      "prior": "matched",
+      "goal_index": 4,
+      "maximum_score_difference": 4.440892098500626e-16,
+      "selected": 46,
+      "random_radius": 0.1
+    },
+    {
+      "prior": "matched",
+      "goal_index": 5,
+      "maximum_score_difference": 8.881784197001252e-16,
+      "selected": 46,
+      "random_radius": 0.1
+    }
+  ],
+  "exactly_unchanged_sections": [
+    "mixture_candidates",
+    "selected_mixture",
+    "gaussian_candidates",
+    "selected_gaussian",
+    "gaussian_gradient_checks",
+    "priors",
+    "forecasts",
+    "feasibility_witnesses",
+    "candidate_leading_feasibility_evaluator_only",
+    "controls",
+    "resources"
+  ],
+  "maximum_saved_estimated_integration_error": 8.417182074013779e-08,
+  "maximum_analytic_truncation_upper_bound": 3.9105931429535515e-09,
+  "outcomes": {
+    "mixture_dual": {
+      "episodes": 192,
+      "mean_cost": 0.0009479486733056113,
+      "precision_successes": 192
+    },
+    "mixture_task": {
+      "episodes": 192,
+      "mean_cost": 0.6666076592153652,
+      "precision_successes": 64
+    },
+    "gaussian_dual": {
+      "episodes": 192,
+      "mean_cost": 0.03612808271859578,
+      "precision_successes": 168
+    },
+    "gaussian_task": {
+      "episodes": 192,
+      "mean_cost": 0.6671830723397215,
+      "precision_successes": 64
+    },
+    "matched_dual": {
+      "episodes": 192,
+      "mean_cost": 0.03618171152828122,
+      "precision_successes": 165
+    },
+    "matched_task": {
+      "episodes": 192,
+      "mean_cost": 0.6666071553816554,
+      "precision_successes": 64
+    },
+    "mixture_random": {
+      "episodes": 192,
+      "mean_cost": 0.1788503211661583,
+      "precision_successes": 148
+    },
+    "gaussian_random": {
+      "episodes": 192,
+      "mean_cost": 0.2038531250011976,
+      "precision_successes": 125
+    },
+    "point_task": {
+      "episodes": 192,
+      "mean_cost": 591.4146279114964,
+      "precision_successes": 64
+    }
+  },
+  "limitations": [
+    "Independent code implements likelihood/posterior/response/QP separately; both numerical integrations use SciPy adaptive gk21, with independent tighter tolerance.",
+    "Four earlier Genz-Malik failures were additionally checked with independent scrambled Sobol; no rigorous cubature error theorem is claimed.",
+    "Same physical outcomes, acquired fit and noise cohort as the exploratory adaptive batch; not a fresh confirmatory test or sustained feedback.",
+    "All900 finite-menu integrals checked; no globally optimal continuous first-action claim."
+  ]
+}

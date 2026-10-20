@@ -1,0 +1,67 @@
+{
+  "scope": "Independent full8D sigma trajectories/Torch quadratic gradients, precision-matrix conditioning, exact old-batch reduction and known-B analytic integration fixture; no actual controller performance audited.",
+  "qp_checks": [
+    {
+      "steps": 2,
+      "goal": [
+        0.001,
+        -0.001
+      ],
+      "direct_cost_error": 2.6645352591003757e-15,
+      "projected_gradient": 2.7144952952085077e-14,
+      "full_moment_matched_action_error": 1.1102230246251565e-16
+    },
+    {
+      "steps": 2,
+      "goal": [
+        0.005,
+        0.004
+      ],
+      "direct_cost_error": 1.0658141036401503e-14,
+      "projected_gradient": 8.298917109073045e-15,
+      "full_moment_matched_action_error": 6.106226635438361e-16
+    },
+    {
+      "steps": 3,
+      "goal": [
+        0.001,
+        -0.001
+      ],
+      "direct_cost_error": 1.7763568394002505e-15,
+      "projected_gradient": 3.558264793923627e-14,
+      "full_moment_matched_action_error": 1.8884199759483522e-13
+    },
+    {
+      "steps": 3,
+      "goal": [
+        0.005,
+        0.004
+      ],
+      "direct_cost_error": 3.552713678800501e-15,
+      "projected_gradient": 8.999745393367675e-14,
+      "full_moment_matched_action_error": 4.4413864946912796e-13
+    }
+  ],
+  "max_direct_cost_error": 1.0658141036401503e-14,
+  "max_projected_gradient": 8.999745393367675e-14,
+  "transition_moment_errors": [
+    5.551115123125783e-17,
+    2.220446049250313e-16,
+    5.551115123125783e-17
+  ],
+  "conditioning_errors": [
+    2.220446049250313e-16,
+    3.3306690738754696e-16
+  ],
+  "initial_batch_reduction_error": 4.996003610813204e-16,
+  "analytic_integration_error": 1.1335724026118044e-13,
+  "integration_record": {
+    "estimated_error": 1.1974155509973406e-09,
+    "analytic_tail_upper_bound": 1.077438343844176e-12,
+    "integrand_points": 54003,
+    "subdivisions": 287,
+    "normal_truncation": 7.0,
+    "atol": 1e-09,
+    "rtol": 1e-08
+  }
+}

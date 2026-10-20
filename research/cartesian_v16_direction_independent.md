@@ -1,0 +1,67 @@
+# Independent direction audit: Cartesian reuse construction
+
+2026-10-20. Read AGENTS.md, the new verified v15 ledger prefix, the active continuation handoff, Cartesian question/branch/design notes, the primary-literature review, the pilot/refinement code audit, and the persistent-belief derivation/design. The feedback results were still partial when inspected (first 5, later 16 completed episodes; no final resource record). This is a direction audit, not an independent mechanics replay, completed outcome analysis, or release recommendation. No canonical experiment source was edited.
+
+## Judgment
+
+The direction addresses a real uncertainty left by v15: a longer passive record can still omit a distinction, while an action can create experience that makes a later decision possible. The repaired grouped acquisition also exposes a different issue: learning single-action marginals does not in general learn how evidence from one action bears on another. That nonidentifiability theorem concerns a general Gaussian coefficient family. This particular arm has approximately rank-one radial-response variation, so the theorem does NOT establish that grouping is necessary to learn its special response family; single-action second moments can already identify its leading variation direction up to sign under those additional restrictions. These are consequential distinctions for a learning system. They do not require that intelligence fundamentally contain physical states, discrete modes, predictions, or a Bayesian architecture.
+
+The actual construction is much narrower. It acquires a distribution over four local coefficients at one Cartesian preparation, then selects among persistent alternatives. The articulated body supplies genuine nonlinear observations and motion, but the millimeter-scale tasks keep the experiment close to its supplied constant-response approximation. Six uninterrupted goals check that evidence is retained and used after motion; they do not by themselves demonstrate transfer to new configurations or discovery of dynamics. After one useful observation, the remaining task may largely be ordinary control with a calibrated local map.
+
+There is substantial drift risk if the next steps become more mixture components, quadrature schemes, covariance repairs, or controller menus without changing the scientific question. The Gaussian likelihood and integration corrections were necessary to assess the existing comparison honestly. During this audit the coordinator also reported a further integration failure: adaptive Genz-Malik convergence can miss a narrow posterior region. That report is not independently numerically reproduced here; it is an unresolved blocker to precise action-value/ranking claims until the separate numerical audit and repair finish. They are not separate discoveries about learning. Finish the frozen pilot and audits, preserve failures, and then close this instrument's answer rather than refining its winner indefinitely.
+
+## What a completed narrow result could establish
+
+**TESTED, if the completed audited records support it:** unlabeled grouped experience can preserve alternative local responses; an ordinary Gaussian or mixture update can use new Cartesian evidence for subsequent bounded physical decisions; retaining joint state/response correlations can support repeated goals without goal resets. Compare total task cost and precision, not branch classification alone. Separate first-goal acquisition cost from subsequent-goal behavior: otherwise a persistent initial calibration advantage may look like repeated intelligent exploration.
+
+**OPEN:** how much acquired experience is needed; whether the benefit generalizes beyond this preparation; whether the supplied persistent-coefficient vocabulary is adequate when motion/configuration changes; whether simpler episodic or direct decision mechanisms achieve the same result. One acquired corpus and four paired feedback noise paths cannot establish population-level robustness. A corrected rerun on the same records is not fresh confirmation.
+
+A mixture advantage over the matched Gaussian would isolate some consequences of distributional shape in this contract. It would not establish that explicit discrete physical identification is necessary. A Gaussian catching up after initial evidence would be a useful negative result for claims of persistent multimode superiority. Neither outcome proves general robotics capability, new dual-control theory, or superiority to full modern robot-learning methods. The existing literature note already identifies the classical dual-control and learned-adaptation precedents.
+
+## Most decisive missing comparator
+
+The strongest simple diagnostic for *useful structure acquired from population experience* is a Gaussian with the SAME learned mean and an isotropic trace-matched coefficient covariance:
+
+    Gamma_isotropic = trace(Gamma_learned)/4 * I4.
+
+Use the identical augmented Gaussian update, state/coefficient correlations, memory, sensor/action schedule and continuation solver. This retains learned response mean and total coefficient variation without an arbitrary broad-prior scale. A common fixed uniform first-action direction menu avoids granting only the structured prior extra learned-eigenvector candidates. The structured Gaussian remains the strong primary comparator; this isotropic version is a diagnostic, not a claim to be the globally strongest online method.
+
+Current Gaussian-versus-mixture comparisons test prior shape/fitting, and dual-versus-task/random comparisons test interaction choice; all primary methods already receive learned population structure. They therefore cannot alone quantify its value. Full-versus-trace-matched isotropic Gaussian tests useful learned anisotropy/coupling beyond mean and total variation. It does NOT isolate cross-action coherence alone: marginal action variances and eigenvalue structure also change. Deleting only the cross-output covariance blocks would isolate a narrower dependence, but can be almost irrelevant in this arm because its dominant coefficient variation lies within one radial output row. A useful or null ablation must be interpreted accordingly.
+
+An ordinary from-scratch local estimator is a further finite-interaction reference only if its initial regularization/scale is justified independently of test outcomes. It is a weaker primary causal comparison because an arbitrary initial scale can manufacture a handicap. Charge offline preparation and online interaction separately; distinguish finite interaction savings from a universal sample lower bound. The isotropic comparison requires no such arbitrary scale, though it still uses population variance information and is therefore not literally learning from nothing.
+
+A serious alternative formulation for the *next* question is episodic conditional response completion: retain whole acquired action/observation groups, weight compatible episodes after new evidence, and use their possible continuations directly. This challenges whether fitting a persistent coefficient distribution provides a practical simplification beyond remembering useful relationships in experience. It should not receive true branch labels, fitted true physics, or additional calibration. Implementing a large neural model is unnecessary to ask that narrow question. This alternative need not delay publication of an explicitly limited completed construction; it is required before claiming the chosen representation is fundamentally superior.
+
+## A counterexample that matters more than a harder goal
+
+**PROVEN UNDER ASSUMPTIONS, exact constant-response surrogate:** remove supplied initial rest while retaining known initial Cartesian position. The first observation has mean
+
+    p1 = p0 + T*v0 + .5*T^2*B*u0.
+
+For two response maps BA, BB, choose initial velocities satisfying
+
+    vB - vA = .5*T*(BA-BB)*u0.
+
+Then that first observation has exactly the same distribution under both cases with the same sensor noise. A response difference that one probe distinguishes at known rest can instead be explained by initial motion. No inference rule can remove this ambiguity from that observation alone. Suitable further observations/actions may resolve it; the statement is not an impossibility of continuous control, and is not asserted as an exact finite-time identity for the nonlinear arm.
+
+This exposes a supplied assumption doing scientific work, rather than merely making the existing controller fail through a smaller deadline or larger disturbance. Unknown motion, sensor bias and a changed local response are competing explanations for residuals. A posterior concentrated within a correct prepared-family model is not evidence that the learner can recognize when that family has become inadequate.
+
+There is also a simpler counterexample to universal probing or full-model requirements: a goal can admit one common successful action across alternatives. The existing vertical-direction construction already supplies this. Preserve that case and its later knowledge consequences; do not select only goals that reward identification. Distinguishing worlds is useful only when it changes available decisions enough to repay the interaction.
+
+## Best next first-principles question
+
+**Which relationships acquired in experience remain useful when the preparation that made them interpretable is no longer supplied, and what additional experience distinguishes a changed circumstance from an inadequate learned relation?**
+
+Begin with the smallest ambiguity above. Specify the family of possible goals and the available observations before choosing internal objects. Derive which decision-relevant distinctions are unobservable, which common behaviors succeed without resolving them, and which additional action/observation separates genuinely competing explanations. Then compare a retained ordinary estimator, an episodic response mechanism, and the existing acquired-prior approach on that same information contract. A known-motion diagnostic can separate estimator errors from approximation failure, but must not silently become ordinary input.
+
+This is not an instruction automatically to enlarge the physical benchmark or add a detector. First establish that the proposed missing preparation changes attainable decisions at a feasible budget; the rejected payload premise is a reminder that an apparent change need not require new learning. If ordinary retained estimation is sufficient, accept that answer. If a new mechanism is warranted, its purpose should be to acquire or revise a useful relation from experience, rather than preserve a preferred mixture architecture.
+
+The active general-learning Goal remains unresolved. A completed, audited, carefully limited Cartesian result may be meaningful progress within the lineage. A partial run, an aliasing theorem, or another optimizer correction is not that milestone, and no release number supplies a stopping condition.
+
+## Optional alternative raised during this audit: camera rotation and chirality
+
+The coordinator proposed a sharper coherence instrument: observe endpoint-relative displacement through an unknown uniformly rotated camera, with one hidden elbow family per acquired population. In the constant-B surrogate, BA and BB differ by an output reflection, so every single-action response has the same rotationally symmetric marginal law in both populations. Two grouped noncollinear responses retain their orientation/chirality. Their cross-output antisymmetric coefficient covariance can distinguish the populations even though individual-action marginals cannot. A learned Gaussian is a sufficient serious candidate: uniform rotations of a fixed map span a two-dimensional linear coefficient subspace, and one nonzero two-dimensional response can identify those coordinates in the noiseless model. No discrete-model foundation is implied.
+
+This is a legitimate candidate for testing *when grouping changes useful knowledge*, with two crucial restrictions. First, the nonlinear arm's finite-pulse displacement is not exactly its leading B map; reflected leading accelerations do not automatically give identical finite-displacement norms. More single-pulse data might exploit curvature leakage. Bound or measure this and keep the exact impossibility theorem confined to the stated surrogate unless an exact plant symmetry is established. Second, mixing both elbow chiralities equally within the same population cancels the antisymmetric covariance; one probe generally leaves chirality unresolved. The population persistence assumption must be stated and learned from grouped data, not supplied as a hidden physical label. Relative displacement coordinates and camera-frame goals must prevent p0 from revealing camera orientation.
+
+The decisive comparison would be grouped versus deliberately unpaired versions of the same physical records, preserving the available single-action marginals and total acquisition budget, followed by identical new-context observations and decisions. This would directly enact the information distinction rather than compare another mixture menu. It is still a special calibration instrument. It is worth doing only if the general coherence uncertainty remains consequential after the current result, not merely to engineer a setting where a general covariance theorem becomes necessary. Preserve it as an alternative; finish the existing numerical investigation first.

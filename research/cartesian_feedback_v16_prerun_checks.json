@@ -1,0 +1,114 @@
+{
+  "status": "PRE-RUN CHECK; root sigma-point direct dynamics and SciPy least-squares box solve, independent of QP moment formula; not independent-agent audit",
+  "pretest_correction": "Initial action-distance 1e-6 assertion failed by 4.51e-6 on trial3 although objective agreed; changed acceptance to objective/KKT and retained action differences.",
+  "records": [
+    {
+      "trial": 0,
+      "components": 1,
+      "steps": 2,
+      "cost_error": 2.220446049250313e-14,
+      "scipy_optimum_objective_error": 2.220446049250313e-14,
+      "scipy_action_difference": 9.02180474771086e-09,
+      "projected_gradient": 7.105427357601002e-15
+    },
+    {
+      "trial": 1,
+      "components": 2,
+      "steps": 3,
+      "cost_error": 1.0658141036401503e-14,
+      "scipy_optimum_objective_error": 2.4868995751603507e-14,
+      "scipy_action_difference": 8.789387556974726e-07,
+      "projected_gradient": 7.105427357601002e-15
+    },
+    {
+      "trial": 2,
+      "components": 3,
+      "steps": 2,
+      "cost_error": 1.0658141036401503e-14,
+      "scipy_optimum_objective_error": 1.0658141036401503e-14,
+      "scipy_action_difference": 4.267007941427536e-09,
+      "projected_gradient": 1.7763568394002505e-15
+    },
+    {
+      "trial": 3,
+      "components": 1,
+      "steps": 3,
+      "cost_error": 2.4868995751603507e-14,
+      "scipy_optimum_objective_error": 3.730349362740526e-13,
+      "scipy_action_difference": 4.511165575888515e-06,
+      "projected_gradient": 1.7763568394002505e-15
+    },
+    {
+      "trial": 4,
+      "components": 2,
+      "steps": 2,
+      "cost_error": 7.105427357601002e-15,
+      "scipy_optimum_objective_error": 5.329070518200751e-15,
+      "scipy_action_difference": 6.034236360585865e-09,
+      "projected_gradient": 7.105427357601002e-15
+    },
+    {
+      "trial": 5,
+      "components": 3,
+      "steps": 3,
+      "cost_error": 1.4210854715202004e-14,
+      "scipy_optimum_objective_error": 2.8421709430404007e-13,
+      "scipy_action_difference": 3.021581797102435e-06,
+      "projected_gradient": 1.4210854715202004e-14
+    },
+    {
+      "trial": 6,
+      "components": 1,
+      "steps": 2,
+      "cost_error": 2.4868995751603507e-14,
+      "scipy_optimum_objective_error": 2.4868995751603507e-14,
+      "scipy_action_difference": 2.8581315994480327e-08,
+      "projected_gradient": 1.4210854715202004e-14
+    },
+    {
+      "trial": 7,
+      "components": 2,
+      "steps": 3,
+      "cost_error": 0.0,
+      "scipy_optimum_objective_error": 1.5276668818842154e-13,
+      "scipy_action_difference": 3.071337967730514e-06,
+      "projected_gradient": 1.4210854715202004e-14
+    },
+    {
+      "trial": 8,
+      "components": 3,
+      "steps": 2,
+      "cost_error": 7.105427357601002e-15,
+      "scipy_optimum_objective_error": 7.105427357601002e-15,
+      "scipy_action_difference": 4.715293572266077e-08,
+      "projected_gradient": 1.0658141036401503e-14
+    },
+    {
+      "trial": 9,
+      "components": 1,
+      "steps": 3,
+      "cost_error": 2.1316282072803006e-14,
+      "scipy_optimum_objective_error": 1.1368683772161603e-13,
+      "scipy_action_difference": 2.9745302479039504e-06,
+      "projected_gradient": 8.526512829121202e-14
+    },
+    {
+      "trial": 10,
+      "components": 2,
+      "steps": 2,
+      "cost_error": 1.2434497875801753e-14,
+      "scipy_optimum_objective_error": 1.0658141036401503e-14,
+      "scipy_action_difference": 2.4804580278647848e-08,
+      "projected_gradient": 1.4210854715202004e-14
+    },
+    {
+      "trial": 11,
+      "components": 3,
+      "steps": 3,
+      "cost_error": 1.7763568394002505e-14,
+      "scipy_optimum_objective_error": 2.842170943040401e-14,
+      "scipy_action_difference": 9.959351236410105e-07,
+      "projected_gradient": 7.105427357601002e-15
+    }
+  ]
+}
