@@ -1,0 +1,175 @@
+{
+  "seed": 21361020,
+  "numpy": "2.5.3",
+  "rank_tolerance": 1e-10,
+  "checks": [
+    {
+      "dimension": 3,
+      "context_dimension": 0,
+      "constraints_rank": 1,
+      "actual_nullity": 5,
+      "predicted_nullity": 5
+    },
+    {
+      "dimension": 3,
+      "context_dimension": 1,
+      "constraints_rank": 4,
+      "actual_nullity": 2,
+      "predicted_nullity": 2
+    },
+    {
+      "dimension": 3,
+      "context_dimension": 2,
+      "constraints_rank": 6,
+      "actual_nullity": 0,
+      "predicted_nullity": 0
+    },
+    {
+      "dimension": 3,
+      "context_dimension": 3,
+      "constraints_rank": 6,
+      "actual_nullity": 0,
+      "predicted_nullity": 0
+    },
+    {
+      "dimension": 6,
+      "context_dimension": 0,
+      "constraints_rank": 1,
+      "actual_nullity": 20,
+      "predicted_nullity": 20
+    },
+    {
+      "dimension": 6,
+      "context_dimension": 1,
+      "constraints_rank": 7,
+      "actual_nullity": 14,
+      "predicted_nullity": 14
+    },
+    {
+      "dimension": 6,
+      "context_dimension": 2,
+      "constraints_rank": 12,
+      "actual_nullity": 9,
+      "predicted_nullity": 9
+    },
+    {
+      "dimension": 6,
+      "context_dimension": 3,
+      "constraints_rank": 16,
+      "actual_nullity": 5,
+      "predicted_nullity": 5
+    },
+    {
+      "dimension": 6,
+      "context_dimension": 4,
+      "constraints_rank": 19,
+      "actual_nullity": 2,
+      "predicted_nullity": 2
+    },
+    {
+      "dimension": 6,
+      "context_dimension": 5,
+      "constraints_rank": 21,
+      "actual_nullity": 0,
+      "predicted_nullity": 0
+    },
+    {
+      "dimension": 6,
+      "context_dimension": 6,
+      "constraints_rank": 21,
+      "actual_nullity": 0,
+      "predicted_nullity": 0
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 0,
+      "constraints_rank": 1,
+      "actual_nullity": 77,
+      "predicted_nullity": 77
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 1,
+      "constraints_rank": 13,
+      "actual_nullity": 65,
+      "predicted_nullity": 65
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 2,
+      "constraints_rank": 24,
+      "actual_nullity": 54,
+      "predicted_nullity": 54
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 3,
+      "constraints_rank": 34,
+      "actual_nullity": 44,
+      "predicted_nullity": 44
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 4,
+      "constraints_rank": 43,
+      "actual_nullity": 35,
+      "predicted_nullity": 35
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 5,
+      "constraints_rank": 51,
+      "actual_nullity": 27,
+      "predicted_nullity": 27
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 6,
+      "constraints_rank": 58,
+      "actual_nullity": 20,
+      "predicted_nullity": 20
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 7,
+      "constraints_rank": 64,
+      "actual_nullity": 14,
+      "predicted_nullity": 14
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 8,
+      "constraints_rank": 69,
+      "actual_nullity": 9,
+      "predicted_nullity": 9
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 9,
+      "constraints_rank": 73,
+      "actual_nullity": 5,
+      "predicted_nullity": 5
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 10,
+      "constraints_rank": 76,
+      "actual_nullity": 2,
+      "predicted_nullity": 2
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 11,
+      "constraints_rank": 78,
+      "actual_nullity": 0,
+      "predicted_nullity": 0
+    },
+    {
+      "dimension": 12,
+      "context_dimension": 12,
+      "constraints_rank": 78,
+      "actual_nullity": 0,
+      "predicted_nullity": 0
+    }
+  ]
+}
