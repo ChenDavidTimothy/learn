@@ -1,15 +1,18 @@
 # First-principles robot learning
 
-Research history, reproducible car simulations, corrections, competing explanations, and open mathematical questions are kept in versioned ledgers under [research](research/).
+Research ledgers, reproducible one-dimensional car experiments, mathematical derivations, negative findings, and citations live in [research](research/).
 
-**Current:** [Living Research Ledger v2](research/first_principles_robot_learning_ledger_v2.md) (self-contained, including the complete original v1 history).
+**Current release:** [Living Research Ledger v3](research/first_principles_robot_learning_ledger_v3.md), self-contained with full prior v2 and v1 preserved verbatim.
 
-**Run v2 on this machine:**
+V3 investigates **action-response fingerprints**: what randomized motor perturbations change in future measured positions, without requiring that a guessed hidden velocity be exactly observed. The benchmarks test unbiased open-loop impulse response, sensor noise, identifiability cancellation, nonlinear response sensitivity to action amplitude, and perturbations under feedback control. **No claim of universal learning or robotic-humanoid performance.**
+
+**Run on the existing PC and project-local environment:**
+
 ~~~bash
 cd /home/dtdav/dev/learn
-.venv/bin/python research/car_learning_benchmark_v2.py > research/car_learning_benchmark_v2_results.json
+.venv/bin/python research/car_learning_benchmark_v3.py > research/car_learning_benchmark_v3_results.json
 ~~~
 
-Python 3.12.3, NumPy 2.5.3 used for recorded results. The existing local `.venv` is not committed. The v1 benchmark, results, and ledger are preserved unchanged. v2 results and the ledger are committed in the same research revision. New research releases increment the ledger filename rather than overwriting earlier versions.
+Python 3.12.3 and NumPy 2.5.3 for committed results. The local `.venv` is ignored by Git.
 
-**Scope:** Synthetic 1D semi-implicit car, output-only observations, generated algebraic features, noisy measurement identification, and action excitation. No claim of a general intelligent learner or validated real-robot transfer.
+Previous releases: [v2](research/first_principles_robot_learning_ledger_v2.md) and [v1](research/first_principles_robot_learning_ledger_v1.md), with corresponding unchanged Python and JSON experiments.

@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "version": 3,
+    "seed": 20261020,
+    "replicates": 48,
+    "steps_per_main_run": 4400,
+    "burn": 400,
+    "process_noise_sd": 0.06,
+    "motor_noise_sd": 0.7,
+    "rho": 0.75,
+    "beta": 1.2,
+    "observation": "only noisy position, motor actions; no direct velocity sensor",
+    "policies": "independent Gaussian motor actions except feedback test"
+  },
+  "main": {
+    "linear_exact": {
+      "replicates": 48,
+      "steps_per_run": 4400,
+      "burn": 400,
+      "sensor_sd": 0.0,
+      "gamma": 0.0,
+      "nonlinear": 0.0,
+      "weak_footprint_fraction": 0.0,
+      "arx": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.7498819592757027,
+          1.2002675679037658,
+          0.00022795496772751167
+        ],
+        "median_l2_error": 0.0019465001419205975,
+        "mean_l2_error": 0.0020052098079670535
+      },
+      "iv": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.7497488589491468,
+          1.2002678874381387,
+          0.0003862219165670505
+        ],
+        "median_l2_error": 0.002193927513019463,
+        "mean_l2_error": 0.0026024944351241124
+      },
+      "footprint": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.7487605680271825,
+          1.201958825978677,
+          0.0019973540330431075
+        ],
+        "median_l2_error": 0.01353583035423636,
+        "mean_l2_error": 0.014441179485570306
+      },
+      "mean_h": [
+        1.201958825978677,
+        0.9019839374543404,
+        0.6753727024152462,
+        0.5069278125368778
+      ],
+      "mean_minimum_moment_singular_value": 1121.5592645313739
+    },
+    "linear_sensor_1_2": {
+      "replicates": 48,
+      "steps_per_run": 4400,
+      "burn": 400,
+      "sensor_sd": 1.2,
+      "gamma": 0.0,
+      "nonlinear": 0.0,
+      "weak_footprint_fraction": 0.0,
+      "arx": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          -0.19506088675556874,
+          1.204612776330674,
+          1.1398713579211428
+        ],
+        "median_l2_error": 1.4788623782061379,
+        "mean_l2_error": 1.4813864883457217
+      },
+      "iv": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.7426388206508251,
+          1.2128483817985256,
+          0.007674366128456271
+        ],
+        "median_l2_error": 0.09928809134840613,
+        "mean_l2_error": 0.1086715074098709
+      },
+      "footprint": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.743305809161436,
+          1.205287891157205,
+          0.005728713357380892
+        ],
+        "median_l2_error": 0.08895404830492026,
+        "mean_l2_error": 0.09960055327174461
+      },
+      "mean_h": [
+        1.205287891157205,
+        0.9019598445450029,
+        0.6693213550482232,
+        0.508932872295743
+      ],
+      "mean_minimum_moment_singular_value": 1130.1379088129522
+    },
+    "linear_sensor_2_4": {
+      "replicates": 48,
+      "steps_per_run": 4400,
+      "burn": 400,
+      "sensor_sd": 2.4,
+      "gamma": 0.0,
+      "nonlinear": 0.0,
+      "weak_footprint_fraction": 0.0,
+      "arx": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          -0.4057144371695774,
+          1.1954669754781717,
+          1.3820347832900144
+        ],
+        "median_l2_error": 1.8176409413945347,
+        "mean_l2_error": 1.8037886818990827
+      },
+      "iv": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.7848044812170692,
+          1.207088286068861,
+          -0.05327364736482995
+        ],
+        "median_l2_error": 0.2732143075156685,
+        "mean_l2_error": 0.30589155960357484
+      },
+      "footprint": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.7850203202393414,
+          1.198103049874091,
+          -0.053644341036127106
+        ],
+        "median_l2_error": 0.2404580473799668,
+        "mean_l2_error": 0.2971148766029503
+      },
+      "mean_h": [
+        1.198103049874091,
+        0.8935754649694186,
+        0.6886742893380701,
+        0.5103975741092643
+      ],
+      "mean_minimum_moment_singular_value": 1114.823331848194
+    },
+    "delayed_sensor_1_2": {
+      "replicates": 48,
+      "steps_per_run": 4400,
+      "burn": 400,
+      "sensor_sd": 1.2,
+      "gamma": 0.34,
+      "nonlinear": 0.0,
+      "weak_footprint_fraction": 0.0,
+      "arx": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          -0.03526645311435456,
+          1.194304490514044,
+          1.2742082140153423
+        ],
+        "median_l2_error": 1.2238204594947755,
+        "mean_l2_error": 1.2216033913778244
+      },
+      "iv": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.7518529317541821,
+          1.197769168052227,
+          0.3365153696007181
+        ],
+        "median_l2_error": 0.10918136265450368,
+        "mean_l2_error": 0.11452636125610853
+      },
+      "footprint": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.7515135527502683,
+          1.195240180282448,
+          0.33680818992801953
+        ],
+        "median_l2_error": 0.08370067355408109,
+        "mean_l2_error": 0.10573737194363438
+      },
+      "mean_h": [
+        1.195240180282448,
+        1.2358984177219978,
+        0.927396495183899,
+        0.6956887776442606
+      ],
+      "mean_minimum_moment_singular_value": 1416.1570573027739
+    },
+    "cancelled_sensor_1_2": {
+      "replicates": 48,
+      "steps_per_run": 4400,
+      "burn": 400,
+      "sensor_sd": 1.2,
+      "gamma": -0.8999999999999999,
+      "nonlinear": 0.0,
+      "weak_footprint_fraction": 0.9375,
+      "arx": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          -0.4955332716680016,
+          1.2017958971541791,
+          0.6016458365892292
+        ],
+        "median_l2_error": 1.9521078318164096,
+        "mean_l2_error": 1.9512857373970085
+      },
+      "iv": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          -0.20708261251486862,
+          1.1763312134315627,
+          0.27968033987905305
+        ],
+        "median_l2_error": 2.7690226917577654,
+        "mean_l2_error": 4.257933121796536
+      },
+      "footprint": {
+        "n_estimable": 3,
+        "mean_parameters": [
+          -0.6299280799922795,
+          1.201222954496032,
+          0.7792684583895616
+        ],
+        "median_l2_error": 1.7888424239266656,
+        "mean_l2_error": 2.1745432754437206
+      },
+      "mean_h": [
+        1.201222954496032,
+        0.006357085917439858,
+        -0.0058096672318854944,
+        0.0018804498661301784
+      ],
+      "mean_minimum_moment_singular_value": 36.67536749753045
+    },
+    "nonlinear_sensor_1_2": {
+      "replicates": 48,
+      "steps_per_run": 4400,
+      "burn": 400,
+      "sensor_sd": 1.2,
+      "gamma": 0.0,
+      "nonlinear": 0.12,
+      "weak_footprint_fraction": 0.0,
+      "arx": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          -0.394118180366745,
+          1.1958029095820863,
+          1.1357511398457663
+        ],
+        "median_l2_error": 1.6115757141286031,
+        "mean_l2_error": 1.612580491469146
+      },
+      "iv": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.5587651381618399,
+          1.1982520120708913,
+          -0.00555640398131874
+        ],
+        "median_l2_error": 0.20925846533671397,
+        "mean_l2_error": 0.2258759917311269
+      },
+      "footprint": {
+        "n_estimable": 48,
+        "mean_parameters": [
+          0.5583130779477192,
+          1.1975643928781972,
+          -0.004959656868201581
+        ],
+        "median_l2_error": 0.20466631235736416,
+        "mean_l2_error": 0.2246759004609434
+      },
+      "mean_h": [
+        1.1975643928781972,
+        0.6638828749675414,
+        0.36901030538943885,
+        0.21255411347612033
+      ],
+      "mean_minimum_moment_singular_value": 866.8087404698596
+    }
+  },
+  "amplitude_dependence": {
+    "linear": {
+      "replicates": 48,
+      "per_amplitude_steps": 5200,
+      "amplitudes": [
+        0.35,
+        1.25
+      ],
+      "mean_first_echo_ratio_small_large": [
+        0.7371919978528215,
+        0.7504399254223412
+      ],
+      "mean_ols_rho_small_large": [
+        -0.3678059095703395,
+        0.2408751499463487
+      ],
+      "mean_steins_identity_prediction_small_large": [
+        0.75,
+        0.75
+      ],
+      "mean_echo_minus_stein_per_amplitude": [
+        -0.012808002147178338,
+        0.0004399254223410795
+      ],
+      "mean_large_minus_small": 0.013247927569519417,
+      "mean_ols_large_minus_small": 0.6086810595166882,
+      "std_large_minus_small": 0.07642801001838762,
+      "fraction_abs_change_over_0_06": 0.5208333333333334,
+      "fraction_one_sided_change_below_minus_0_12": 0.041666666666666664,
+      "fraction_change_below_minus_0_06": 0.1875
+    },
+    "drag": {
+      "replicates": 48,
+      "per_amplitude_steps": 5200,
+      "amplitudes": [
+        0.35,
+        1.25
+      ],
+      "mean_first_echo_ratio_small_large": [
+        0.6303685434478411,
+        0.42729733964963335
+      ],
+      "mean_ols_rho_small_large": [
+        -0.42864229720750835,
+        -0.2888010335425731
+      ],
+      "mean_steins_identity_prediction_small_large": [
+        0.6427418593468347,
+        0.42625513360024425
+      ],
+      "mean_echo_minus_stein_per_amplitude": [
+        -0.012373315898993457,
+        0.0010422060493893853
+      ],
+      "mean_large_minus_small": -0.20307120379820764,
+      "mean_ols_large_minus_small": 0.13984126366493538,
+      "std_large_minus_small": 0.07239828629672707,
+      "fraction_abs_change_over_0_06": 0.9583333333333334,
+      "fraction_one_sided_change_below_minus_0_12": 0.8958333333333334,
+      "fraction_change_below_minus_0_06": 0.9583333333333334
+    }
+  },
+  "amplitude_independent_confirmation": {
+    "linear": {
+      "replicates": 64,
+      "per_amplitude_steps": 5200,
+      "amplitudes": [
+        0.35,
+        1.25
+      ],
+      "mean_first_echo_ratio_small_large": [
+        0.7571992049363402,
+        0.7498114408135358
+      ],
+      "mean_ols_rho_small_large": [
+        -0.3700194783896498,
+        0.24138664580271996
+      ],
+      "mean_steins_identity_prediction_small_large": [
+        0.75,
+        0.75
+      ],
+      "mean_echo_minus_stein_per_amplitude": [
+        0.007199204936340438,
+        -0.00018855918646423428
+      ],
+      "mean_large_minus_small": -0.0073877641228046725,
+      "mean_ols_large_minus_small": 0.6114061241923696,
+      "std_large_minus_small": 0.07844174161902238,
+      "fraction_abs_change_over_0_06": 0.421875,
+      "fraction_one_sided_change_below_minus_0_12": 0.15625,
+      "fraction_change_below_minus_0_06": 0.234375
+    },
+    "drag": {
+      "replicates": 64,
+      "per_amplitude_steps": 5200,
+      "amplitudes": [
+        0.35,
+        1.25
+      ],
+      "mean_first_echo_ratio_small_large": [
+        0.6498982605612568,
+        0.4268905561599965
+      ],
+      "mean_ols_rho_small_large": [
+        -0.4298382777867415,
+        -0.2874661967375382
+      ],
+      "mean_steins_identity_prediction_small_large": [
+        0.6428726672557837,
+        0.42693967612853556
+      ],
+      "mean_echo_minus_stein_per_amplitude": [
+        0.007025593305473031,
+        -4.911996853904782e-05
+      ],
+      "mean_large_minus_small": -0.2230077044012603,
+      "mean_ols_large_minus_small": 0.1423720810492032,
+      "std_large_minus_small": 0.07337771921574658,
+      "fraction_abs_change_over_0_06": 0.984375,
+      "fraction_one_sided_change_below_minus_0_12": 0.96875,
+      "fraction_change_below_minus_0_06": 0.984375
+    }
+  },
+  "feedback_instrument": {
+    "open_loop": {
+      "replicates": 48,
+      "steps_per_run": 5200,
+      "feedback_gain": 0.0,
+      "true_immediate_motor_gain": 1.2,
+      "mean_h0_correlated_action": 1.2057518308670332,
+      "mean_beta_exogenous_probe": 1.205272316564589,
+      "sd_h0": 0.03446857511190421,
+      "sd_probe_beta": 0.039606401185497755,
+      "mean_h1_from_action_regression": 0.889553047742571
+    },
+    "feedback": {
+      "replicates": 48,
+      "steps_per_run": 5200,
+      "feedback_gain": 0.35,
+      "true_immediate_motor_gain": 1.2,
+      "mean_h0_correlated_action": 1.7489055618104905,
+      "mean_beta_exogenous_probe": 1.2084738300403697,
+      "sd_h0": 0.028834568332076087,
+      "sd_probe_beta": 0.04131022052270934,
+      "mean_h1_from_action_regression": 1.1435095865037026
+    }
+  }
+}
