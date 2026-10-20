@@ -1,0 +1,2963 @@
+{
+  "scope": "Independent saved known-KF mean/variance decomposition; endpoint centering is not a whole-path stopping controller; no canonical edits",
+  "v10": [
+    {
+      "true_theta": [
+        0.65,
+        0.2,
+        0.0,
+        1.2
+      ],
+      "sensor_sd": 0.2,
+      "posterior_covariance69": [
+        [
+          0.012406306992787018,
+          0.002575526596579657,
+          0.00017036504248292198
+        ],
+        [
+          0.002575526596579656,
+          0.00164864982970984,
+          0.00019698783571908663
+        ],
+        [
+          0.000170365042482922,
+          0.00019698783571908663,
+          0.0009364043296471233
+        ]
+      ],
+      "terminal_variance": 0.05484863661972498,
+      "last_action_terminal_sensitivity": 4.280685909649446,
+      "episodes": [
+        {
+          "seed": 21961020,
+          "task": 0,
+          "posterior_mean": [
+            0.8474072190884774,
+            0.0920447245320503,
+            0.019485876595120744
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.002441981636756576,
+          "discarded_future_action_plan": [
+            -0.022477580133667806,
+            -0.0006887202912163174,
+            0.00018883286010393585,
+            1.640739532470666e-05,
+            -2.6194136811392833e-07,
+            -5.230570187719181e-10,
+            4.493218124813183e-08
+          ],
+          "conditional_terminal_error_mean": 0.09822730468112173,
+          "conditional_terminal_error_mean_squared": 0.009648603384917919,
+          "conditional_terminal_mse": 0.0644972400046429,
+          "conditional_endpoint_success_probability": 0.7610028982948231,
+          "actual_terminal_error_squared": 0.00475229662706322,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.020504645785661753,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961020,
+          "task": 1,
+          "posterior_mean": [
+            2.971912367300952,
+            -0.07678712312327635,
+            0.006384686346009585
+          ],
+          "saved_estimate_error": 1.3322676295501878e-15,
+          "last_action": 0.06892155224375655,
+          "discarded_future_action_plan": [
+            -0.03306645252243509,
+            -0.0016205752707319702,
+            0.0002471882012767074,
+            2.637819694186202e-05,
+            -4.155977188501359e-07,
+            -9.107520032928052e-08,
+            4.4332631886369715e-08
+          ],
+          "conditional_terminal_error_mean": 0.14721840429218647,
+          "conditional_terminal_error_mean_squared": 0.021673258562337667,
+          "conditional_terminal_mse": 0.07652189518206265,
+          "conditional_endpoint_success_probability": 0.7148219360314814,
+          "actual_terminal_error_squared": 0.04564839927934759,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": 0.03453024033733301,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961120,
+          "task": 0,
+          "posterior_mean": [
+            1.045210515669022,
+            0.03758205753200543,
+            -0.08472817790453703
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.055908684320110036,
+          "discarded_future_action_plan": [
+            -0.01137619400513555,
+            -0.0008438568232334399,
+            7.29540570442747e-05,
+            1.0667748985962472e-05,
+            -6.989433599862846e-08,
+            -5.858900250084863e-08,
+            9.383048864357803e-09
+          ],
+          "conditional_terminal_error_mean": 0.051917358570858996,
+          "conditional_terminal_error_mean_squared": 0.002695412120975146,
+          "conditional_terminal_mse": 0.05754404874070013,
+          "conditional_endpoint_success_probability": 0.7888006610957288,
+          "actual_terminal_error_squared": 0.0007911215261684419,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": 0.043780404024228524,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961120,
+          "task": 1,
+          "posterior_mean": [
+            2.7992330514005603,
+            0.0014703385124924216,
+            0.06914408774203877
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.03667816036393893,
+          "discarded_future_action_plan": [
+            -0.04676718046815436,
+            -0.001733505248062621,
+            0.00037653590263297227,
+            3.496862994849865e-05,
+            -6.052640665886991e-07,
+            -5.371065924593665e-08,
+            8.043984907547848e-08
+          ],
+          "conditional_terminal_error_mean": 0.2057244046829183,
+          "conditional_terminal_error_mean_squared": 0.04232253068214114,
+          "conditional_terminal_mse": 0.09717116730186612,
+          "conditional_endpoint_success_probability": 0.6409491894938836,
+          "actual_terminal_error_squared": 0.14099260263370084,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.011380587468780595,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961220,
+          "task": 0,
+          "posterior_mean": [
+            1.1489947760109205,
+            0.05154967581812844,
+            -0.08438537570852953
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.02313635315874746,
+          "discarded_future_action_plan": [
+            0.035391285888740805,
+            0.00127411820684827,
+            -0.0002859080616260512,
+            -2.6108320567693218e-05,
+            4.912209964646284e-07,
+            4.1184125784335843e-08,
+            -6.04624005951684e-08
+          ],
+          "conditional_terminal_error_mean": -0.15551925649791887,
+          "conditional_terminal_error_mean_squared": 0.02418623914166548,
+          "conditional_terminal_mse": 0.07903487576139046,
+          "conditional_endpoint_success_probability": 0.7054690566929716,
+          "actual_terminal_error_squared": 0.20633685097416307,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.01319409943235485,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961220,
+          "task": 1,
+          "posterior_mean": [
+            3.08993853708918,
+            0.03650223405189393,
+            -0.002124311794084454
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.08403675369943796,
+          "discarded_future_action_plan": [
+            0.047222078911910666,
+            0.0021785016707087635,
+            -0.0003602179998650413,
+            -3.7253331842595426e-05,
+            5.730575654423934e-07,
+            1.0746936023876672e-07,
+            -6.886704682281146e-08
+          ],
+          "conditional_terminal_error_mean": -0.20963232853711222,
+          "conditional_terminal_error_mean_squared": 0.04394571316789175,
+          "conditional_terminal_mse": 0.09879434978761673,
+          "conditional_endpoint_success_probability": 0.6354251674147817,
+          "actual_terminal_error_squared": 0.3572235168091834,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.03506508584953503,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961320,
+          "task": 0,
+          "posterior_mean": [
+            1.0081706522151777,
+            0.17357466191281454,
+            -0.053912359667594355
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.06633170274364703,
+          "discarded_future_action_plan": [
+            0.03280922589205397,
+            0.001596932198386896,
+            -0.00024438164182967557,
+            -2.580142069439117e-05,
+            4.657453719902393e-07,
+            9.817677412198608e-08,
+            -4.167333350624203e-08
+          ],
+          "conditional_terminal_error_mean": -0.14603163458385016,
+          "conditional_terminal_error_mean_squared": 0.02132523829923114,
+          "conditional_terminal_mse": 0.07617387491895612,
+          "conditional_endpoint_success_probability": 0.7161252661608348,
+          "actual_terminal_error_squared": 0.04296312937256531,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": -0.032217629049366335,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961320,
+          "task": 1,
+          "posterior_mean": [
+            2.8701138251333926,
+            -0.032313210172096186,
+            0.09426007470401568
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.01751307780110985,
+          "discarded_future_action_plan": [
+            -0.016543718751469788,
+            -0.0003399570188761243,
+            0.000145138180619952,
+            1.0942343286661104e-05,
+            -2.6882213641509e-07,
+            9.65046688453383e-09,
+            3.4813214303897075e-08
+          ],
+          "conditional_terminal_error_mean": 0.07156158494608666,
+          "conditional_terminal_error_mean_squared": 0.005121060439995977,
+          "conditional_terminal_mse": 0.05996969705972095,
+          "conditional_endpoint_success_probability": 0.779011257691038,
+          "actual_terminal_error_squared": 0.13271070670471793,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.03423039517886322,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961420,
+          "task": 0,
+          "posterior_mean": [
+            1.0371875661362209,
+            -0.005006229223729081,
+            -0.042942482860739484
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.037550813661076786,
+          "discarded_future_action_plan": [
+            -0.007757039304580605,
+            -0.000572599842045161,
+            4.943586444421039e-05,
+            7.160339216916773e-06,
+            -6.435451029250559e-08,
+            -4.2484432962530215e-08,
+            5.652119008842029e-09
+          ],
+          "conditional_terminal_error_mean": 0.03539061057795756,
+          "conditional_terminal_error_mean_squared": 0.0012524953170806414,
+          "conditional_terminal_mse": 0.05610113193680562,
+          "conditional_endpoint_success_probability": 0.7946709953340532,
+          "actual_terminal_error_squared": 0.010535223808723031,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": 0.029283304358845415,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961420,
+          "task": 1,
+          "posterior_mean": [
+            2.997567242912291,
+            0.0017756694997959708,
+            0.051125867893081
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.0688214184519794,
+          "discarded_future_action_plan": [
+            0.024847370623975296,
+            0.001367504606923659,
+            -0.00017974377207769567,
+            -2.0727869716138314e-05,
+            2.621127306080058e-07,
+            8.059605193214675e-08,
+            -3.0844654545448426e-08
+          ],
+          "conditional_terminal_error_mean": -0.1112870041711993,
+          "conditional_terminal_error_mean_squared": 0.01238479729740053,
+          "conditional_terminal_mse": 0.06723343391712551,
+          "conditional_endpoint_success_probability": 0.750285190948932,
+          "actual_terminal_error_squared": 0.014320184305901233,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": -0.04282394829881116,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961520,
+          "task": 0,
+          "posterior_mean": [
+            0.8601716914853681,
+            0.05303670264142577,
+            0.06112124743639382
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.03205573048799903,
+          "discarded_future_action_plan": [
+            -0.009346255204393625,
+            1.3942718864944205e-05,
+            9.236353569350854e-05,
+            5.419397431682369e-06,
+            -1.419655259736468e-07,
+            3.601602854564918e-08,
+            2.7031485884564747e-08
+          ],
+          "conditional_terminal_error_mean": 0.03950659906794729,
+          "conditional_terminal_error_mean_squared": 0.0015607713699155336,
+          "conditional_terminal_mse": 0.05640940798964051,
+          "conditional_endpoint_success_probability": 0.7934138579872267,
+          "actual_terminal_error_squared": 0.039675619231577926,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": -0.04128476525060383,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961520,
+          "task": 1,
+          "posterior_mean": [
+            2.899449601679985,
+            0.016691532671686285,
+            0.010426961383639157
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.03875479565257567,
+          "discarded_future_action_plan": [
+            -0.030220378625209612,
+            -0.0012551343904676775,
+            0.00023740898819452216,
+            2.3299876789494973e-05,
+            -3.6434489761331567e-07,
+            -4.8901880638734706e-08,
+            4.882637213176075e-08
+          ],
+          "conditional_terminal_error_mean": 0.13353555962745922,
+          "conditional_terminal_error_mean_squared": 0.01783174568501872,
+          "conditional_terminal_mse": 0.07268038230474369,
+          "conditional_endpoint_success_probability": 0.7293174864552376,
+          "actual_terminal_error_squared": 0.09905036383970138,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.007559897814720818,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961620,
+          "task": 0,
+          "posterior_mean": [
+            1.0057898382143964,
+            0.018112406100328632,
+            -0.04470594571056056
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.042627612668988867,
+          "discarded_future_action_plan": [
+            -0.013882688498886792,
+            -0.0008003482124851862,
+            9.905017098335994e-05,
+            1.1818867155440452e-05,
+            -1.313282578621429e-07,
+            -4.745985403613162e-08,
+            1.6783637169477644e-08
+          ],
+          "conditional_terminal_error_mean": 0.06233805889748001,
+          "conditional_terminal_error_mean_squared": 0.0038860335871056867,
+          "conditional_terminal_mse": 0.058734670206830666,
+          "conditional_endpoint_success_probability": 0.7839831962824713,
+          "actual_terminal_error_squared": 0.14320541737113412,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.028064979433749936,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961620,
+          "task": 1,
+          "posterior_mean": [
+            2.951999907110717,
+            -0.04167326252245414,
+            -0.05282108964512649
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.13481944838777124,
+          "discarded_future_action_plan": [
+            -0.05903632264229717,
+            -0.002992424779293127,
+            0.0004381862709552998,
+            4.788576699458428e-05,
+            -6.77686962839025e-07,
+            -1.6519520609352196e-07,
+            7.908141094243726e-08
+          ],
+          "conditional_terminal_error_mean": 0.2632746161372097,
+          "conditional_terminal_error_mean_squared": 0.06931352350219512,
+          "conditional_terminal_mse": 0.1241621601219201,
+          "conditional_endpoint_success_probability": 0.5542205649815852,
+          "actual_terminal_error_squared": 0.020633729631840375,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": 0.07331654401823065,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961720,
+          "task": 0,
+          "posterior_mean": [
+            0.9914838727657023,
+            0.04263143159145047,
+            -0.10336534038723033
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.11229113499072693,
+          "discarded_future_action_plan": [
+            -0.04073563976885747,
+            -0.00223355232266944,
+            0.00029570731294815923,
+            3.409031526764044e-05,
+            -4.066043421658419e-07,
+            -1.269075855177594e-07,
+            5.200895936340404e-08
+          ],
+          "conditional_terminal_error_mean": 0.1824069654502496,
+          "conditional_terminal_error_mean_squared": 0.03327230104476855,
+          "conditional_terminal_mse": 0.08812093766449353,
+          "conditional_endpoint_success_probability": 0.6724972862288681,
+          "actual_terminal_error_squared": 0.0013506157577713354,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.0696795140261822,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961720,
+          "task": 1,
+          "posterior_mean": [
+            3.176049135510209,
+            0.05425665070573989,
+            -0.023470051922006012
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.1251633520043014,
+          "discarded_future_action_plan": [
+            0.07733252305675398,
+            0.003454462163979525,
+            -0.0005951208009185382,
+            -6.047877234702005e-05,
+            9.509305321274739e-07,
+            1.6235034782619706e-07,
+            -1.1592285171912834e-07
+          ],
+          "conditional_terminal_error_mean": -0.3427976996164883,
+          "conditional_terminal_error_mean_squared": 0.11751026286235615,
+          "conditional_terminal_mse": 0.17235889948208113,
+          "conditional_endpoint_success_probability": 0.42447185746539146,
+          "actual_terminal_error_squared": 0.014599138058613882,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.0450832651089373,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961820,
+          "task": 0,
+          "posterior_mean": [
+            1.02540613066981,
+            -0.13810082453814743,
+            0.055039669669119114
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.015524800013720396,
+          "discarded_future_action_plan": [
+            -0.007166055866959336,
+            -0.0003659252289255587,
+            5.117186083570886e-05,
+            5.390798941245881e-06,
+            -1.527469755814024e-07,
+            -3.278450790480327e-08,
+            5.9663187731452375e-09
+          ],
+          "conditional_terminal_error_mean": 0.03197956612558195,
+          "conditional_terminal_error_mean_squared": 0.0010226926495804684,
+          "conditional_terminal_mse": 0.05587132926930545,
+          "conditional_endpoint_success_probability": 0.7956091663684165,
+          "actual_terminal_error_squared": 0.12573495567711532,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.008054136012539142,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961820,
+          "task": 1,
+          "posterior_mean": [
+            3.049635817961637,
+            0.01588134462084321,
+            0.02989612313130258
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.08504813036936743,
+          "discarded_future_action_plan": [
+            0.040032231398951235,
+            0.001970544748507552,
+            -0.00029996903373325537,
+            -3.22283780066521e-05,
+            4.60927971997944e-07,
+            1.0406098868428593e-07,
+            -5.550803603159378e-08
+          ],
+          "conditional_terminal_error_mean": -0.17826361471805718,
+          "conditional_terminal_error_mean_squared": 0.03177791633234794,
+          "conditional_terminal_mse": 0.08662655295207292,
+          "conditional_endpoint_success_probability": 0.6778299376514196,
+          "actual_terminal_error_squared": 0.15777435558939987,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.04340442688805885,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961920,
+          "task": 0,
+          "posterior_mean": [
+            1.067513353196442,
+            0.03911364471853908,
+            -0.031444494640492315
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.03180145909975527,
+          "discarded_future_action_plan": [
+            0.024487815422602997,
+            0.0010247196335056567,
+            -0.0001912763451201953,
+            -1.874513821903009e-05,
+            3.2221965510554825e-07,
+            4.543026799242827e-08,
+            -3.79520126746924e-08
+          ],
+          "conditional_terminal_error_mean": -0.1082431401495485,
+          "conditional_terminal_error_mean_squared": 0.0117165773894348,
+          "conditional_terminal_mse": 0.06656521400915978,
+          "conditional_endpoint_success_probability": 0.7528911579568136,
+          "actual_terminal_error_squared": 0.010098326678926744,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.006515058173784796,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21961920,
+          "task": 1,
+          "posterior_mean": [
+            2.9396084379678844,
+            -0.05053872366087766,
+            0.03947001938285511
+          ],
+          "saved_estimate_error": 1.7763568394002505e-15,
+          "last_action": 0.02511681946596291,
+          "discarded_future_action_plan": [
+            -0.02132979910244224,
+            -0.0008704724082936929,
+            0.00016737757788507277,
+            1.616712481099492e-05,
+            -2.924464178507046e-07,
+            -3.854434864181594e-08,
+            3.320191447236922e-08
+          ],
+          "conditional_terminal_error_mean": 0.09418681742490298,
+          "conditional_terminal_error_mean_squared": 0.008871156576632008,
+          "conditional_terminal_mse": 0.06371979319635698,
+          "conditional_endpoint_success_probability": 0.7640708634675211,
+          "actual_terminal_error_squared": 0.02096624459380352,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": 0.003114079855334448,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21962020,
+          "task": 0,
+          "posterior_mean": [
+            1.0231349430491212,
+            -0.041300835291488494,
+            -0.02432271062390949
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.04956561176282018,
+          "discarded_future_action_plan": [
+            -0.015992893078657172,
+            -0.0009309604040293256,
+            0.0001128140397352724,
+            1.3455490819405163e-05,
+            -1.8317762606900713e-07,
+            -6.151688174629118e-08,
+            1.7433372377684597e-08
+          ],
+          "conditional_terminal_error_mean": 0.0718582529270737,
+          "conditional_terminal_error_mean_squared": 0.005163608513731297,
+          "conditional_terminal_mse": 0.06001224513345628,
+          "conditional_endpoint_success_probability": 0.7788404253106206,
+          "actual_terminal_error_squared": 0.17647806360604643,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.0327789905428208,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21962020,
+          "task": 1,
+          "posterior_mean": [
+            2.9513830513103554,
+            -0.052093500774016845,
+            -0.0005887449593032976
+          ],
+          "saved_estimate_error": 1.7763568394002505e-15,
+          "last_action": 0.07271832280813098,
+          "discarded_future_action_plan": [
+            -0.036850043256372186,
+            -0.0017664223816528026,
+            0.00027774657385580174,
+            2.9314628739382475e-05,
+            -4.5071451573068017e-07,
+            -9.377657967249772e-08,
+            5.134994517658249e-08
+          ],
+          "conditional_terminal_error_mean": 0.16388507052777523,
+          "conditional_terminal_error_mean_squared": 0.026858316341893864,
+          "conditional_terminal_mse": 0.08170695296161884,
+          "conditional_endpoint_success_probability": 0.6956357030109057,
+          "actual_terminal_error_squared": 0.1703506184607097,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.03443355396808401,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21962120,
+          "task": 0,
+          "posterior_mean": [
+            1.0742989295521244,
+            0.0676945567388442,
+            -0.0830361108353486
+          ],
+          "saved_estimate_error": 2.220446049250313e-16,
+          "last_action": 0.011404654020585247,
+          "discarded_future_action_plan": [
+            0.010992311865036753,
+            0.00023155609976786975,
+            -9.551994861963829e-05,
+            -7.146876849820197e-06,
+            2.0246246341760018e-07,
+            -1.4387612938935762e-09,
+            -2.1743677505255092e-08
+          ],
+          "conditional_terminal_error_mean": -0.04757721005932947,
+          "conditional_terminal_error_mean_squared": 0.002263590917029561,
+          "conditional_terminal_mse": 0.05711222753675454,
+          "conditional_endpoint_success_probability": 0.790553789266132,
+          "actual_terminal_error_squared": 0.025033563559281918,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.022519043411332595,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21962120,
+          "task": 1,
+          "posterior_mean": [
+            2.89148831929373,
+            0.14623686500764838,
+            -0.027788886998996946
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.00429353522530792,
+          "discarded_future_action_plan": [
+            -0.010435709836586708,
+            -0.00026264871406522463,
+            9.173660553029828e-05,
+            7.679808430118412e-06,
+            -7.426951225137097e-08,
+            1.6047169898578924e-08,
+            2.5143856719583513e-08
+          ],
+          "conditional_terminal_error_mean": 0.045342218899197206,
+          "conditional_terminal_error_mean_squared": 0.0020559168147027164,
+          "conditional_terminal_mse": 0.0569045534344277,
+          "conditional_endpoint_success_probability": 0.7913980346758689,
+          "actual_terminal_error_squared": 0.07693953825135284,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.014885814092810808,
+          "endpoint_centering_feasible": true
+        }
+      ],
+      "summary": {
+        "mean_squared_conditional_terminal_bias": 0.021569156750014574,
+        "mean_predicted_terminal_mse": 0.07641779336973954,
+        "mean_realized_terminal_squared_error": 0.08492352426453371,
+        "mean_conditional_endpoint_success_probability": 0.7204706227611254,
+        "actual_endpoint_successes": 14,
+        "actual_whole_stop_successes": 8,
+        "all_endpoint_centering_actions_feasible": true,
+        "endpoint_centering_action_range": [
+          -0.0450832651089373,
+          0.07331654401823065
+        ]
+      }
+    },
+    {
+      "true_theta": [
+        0.65,
+        0.7,
+        0.0,
+        1.2
+      ],
+      "sensor_sd": 0.2,
+      "posterior_covariance69": [
+        [
+          0.01799889127459828,
+          0.005351643694846679,
+          0.0015163771118938292
+        ],
+        [
+          0.00535164369484668,
+          0.0034330687229924125,
+          0.0013265963290721874
+        ],
+        [
+          0.0015163771118938297,
+          0.001326596329072187,
+          0.0015597786390931356
+        ]
+      ],
+      "terminal_variance": 0.34342253433016245,
+      "last_action_terminal_sensitivity": 11.287722402004542,
+      "episodes": [
+        {
+          "seed": 21981020,
+          "task": 0,
+          "posterior_mean": [
+            0.6340776068377691,
+            0.08607873231242083,
+            0.05894751150055025
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.0665025089954864,
+          "discarded_future_action_plan": [
+            -0.13715814135141102,
+            0.026155997127423877,
+            0.011816355453623632,
+            0.0014114712251949255,
+            0.00011206775947277603,
+            4.251598329079006e-05,
+            2.454152890318433e-05
+          ],
+          "conditional_terminal_error_mean": 1.100944942595235,
+          "conditional_terminal_error_mean_squared": 1.212079766626025,
+          "conditional_terminal_mse": 1.5555023009561875,
+          "conditional_endpoint_success_probability": 0.07744177693338339,
+          "actual_terminal_error_squared": 1.9109705931199965,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.03103221974657784,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981020,
+          "task": 1,
+          "posterior_mean": [
+            3.0562960323371375,
+            -0.054626298224954614,
+            -0.14322853830356844
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.254839107093142,
+          "discarded_future_action_plan": [
+            -0.14417973388582722,
+            0.004211140564844574,
+            0.007413445929718759,
+            0.0009738374914386588,
+            2.4873715888601706e-05,
+            1.2334357164150271e-05,
+            1.2890866202212896e-05
+          ],
+          "conditional_terminal_error_mean": 1.479423938330589,
+          "conditional_terminal_error_mean_squared": 2.1886951893055904,
+          "conditional_terminal_mse": 2.5321177236357526,
+          "conditional_endpoint_success_probability": 0.0208818934307336,
+          "actual_terminal_error_squared": 0.2746862589748082,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.12377423097004883,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981120,
+          "task": 0,
+          "posterior_mean": [
+            0.8997523311406384,
+            -0.04031055787394272,
+            -0.0032049773695824093
+          ],
+          "saved_estimate_error": 2.220446049250313e-16,
+          "last_action": 0.10035327549695186,
+          "discarded_future_action_plan": [
+            -0.10052701882561768,
+            0.010555470886775237,
+            0.00671346054547538,
+            0.0008213956270644153,
+            4.460045509642443e-05,
+            1.8737999331135415e-05,
+            1.2938781144615306e-05
+          ],
+          "conditional_terminal_error_mean": 0.9274449663402071,
+          "conditional_terminal_error_mean_squared": 0.860154165589788,
+          "conditional_terminal_mse": 1.2035766999199504,
+          "conditional_endpoint_success_probability": 0.124049635656716,
+          "actual_terminal_error_squared": 1.5784586827868599,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.018189227400277744,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981120,
+          "task": 1,
+          "posterior_mean": [
+            3.088072485256997,
+            0.16145501067188114,
+            -0.21121454719932556
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.18916512485048892,
+          "discarded_future_action_plan": [
+            -0.045688142993252884,
+            -0.003436329485322457,
+            0.001718172375493337,
+            0.00030667857333921845,
+            2.064737597093557e-06,
+            -8.311471200112844e-07,
+            2.584580843052611e-06
+          ],
+          "conditional_terminal_error_mean": 0.5291479864347446,
+          "conditional_terminal_error_mean_squared": 0.2799975915479446,
+          "conditional_terminal_mse": 0.6234201258781071,
+          "conditional_endpoint_success_probability": 0.26933756090716976,
+          "actual_terminal_error_squared": 0.6335300334327016,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.14228693564725556,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981220,
+          "task": 0,
+          "posterior_mean": [
+            1.3849629157539964,
+            -0.006665608574158724,
+            -0.054573514409286455
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.14650076173329385,
+          "discarded_future_action_plan": [
+            0.208554202359768,
+            -0.03107547670739834,
+            -0.015964286338772157,
+            -0.0019213232418117448,
+            -0.00013125535643407105,
+            -5.1927629290495065e-05,
+            -3.211168992340249e-05
+          ],
+          "conditional_terminal_error_mean": -1.7962288167437697,
+          "conditional_terminal_error_mean_squared": 3.226437962100723,
+          "conditional_terminal_mse": 3.569860496430885,
+          "conditional_endpoint_success_probability": 0.0051632679820312055,
+          "actual_terminal_error_squared": 0.6265009012385114,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.012630438766887159,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981220,
+          "task": 1,
+          "posterior_mean": [
+            2.740110266229626,
+            0.09291177687944718,
+            -0.01879959560851587
+          ],
+          "saved_estimate_error": 1.7763568394002505e-15,
+          "last_action": 0.12883346665774775,
+          "discarded_future_action_plan": [
+            -0.13806422625714873,
+            0.020381480799182672,
+            0.010697385857791413,
+            0.0013118698749211798,
+            9.181922717772201e-05,
+            3.492458280441201e-05,
+            2.1644664012444694e-05
+          ],
+          "conditional_terminal_error_mean": 1.1893195305461237,
+          "conditional_terminal_error_mean_squared": 1.4144809457384522,
+          "conditional_terminal_mse": 1.7579034800686146,
+          "conditional_endpoint_success_probability": 0.05904331853913597,
+          "actual_terminal_error_squared": 2.3575398392704363,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.023469471319333232,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981320,
+          "task": 0,
+          "posterior_mean": [
+            1.3280281808683145,
+            -0.06578247670693028,
+            0.023365352117504075
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.20099799974657212,
+          "discarded_future_action_plan": [
+            0.2086542977127671,
+            -0.027664339124716202,
+            -0.0153875461281455,
+            -0.0018867995906166873,
+            -0.0001227477358480965,
+            -4.792083130956858e-05,
+            -3.066953654502686e-05
+          ],
+          "conditional_terminal_error_mean": -1.842304911100006,
+          "conditional_terminal_error_mean_squared": 3.394087385463201,
+          "conditional_terminal_mse": 3.7375099197933634,
+          "conditional_endpoint_success_probability": 0.004118211729737864,
+          "actual_terminal_error_squared": 4.605507577558557,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.03778483366332061,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981320,
+          "task": 1,
+          "posterior_mean": [
+            2.791577026779877,
+            -0.26725430584771337,
+            0.23837043509118608
+          ],
+          "saved_estimate_error": 4.996003610813204e-16,
+          "last_action": -0.07919415099848313,
+          "discarded_future_action_plan": [
+            -0.08201733958014414,
+            0.016751050454548503,
+            0.0066876879360005005,
+            0.0007081562716838404,
+            5.079160810852852e-05,
+            2.401417780948277e-05,
+            1.350355974741443e-05
+          ],
+          "conditional_terminal_error_mean": 0.6518137373214765,
+          "conditional_terminal_error_mean_squared": 0.4248611481609908,
+          "conditional_terminal_mse": 0.7682836824911532,
+          "conditional_endpoint_success_probability": 0.22197198179155792,
+          "actual_terminal_error_squared": 0.16079582666257305,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.13693952372360646,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981420,
+          "task": 0,
+          "posterior_mean": [
+            0.7303231448737111,
+            -0.23273546334117154,
+            0.24698217890710597
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.08111365219382664,
+          "discarded_future_action_plan": [
+            -0.09268523666527059,
+            0.020427398890499163,
+            0.007993225286232022,
+            0.0008625482966255207,
+            6.717722285818556e-05,
+            2.9762381680481678e-05,
+            1.6419100280161856e-05
+          ],
+          "conditional_terminal_error_mean": 0.7142499835771854,
+          "conditional_terminal_error_mean_squared": 0.5101530390400096,
+          "conditional_terminal_mse": 0.8535755733701721,
+          "conditional_endpoint_success_probability": 0.19806980114051076,
+          "actual_terminal_error_squared": 0.07066382953084835,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.1443903663208807,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981420,
+          "task": 1,
+          "posterior_mean": [
+            2.8240638438295744,
+            -0.035131140306433536,
+            0.139422864747602
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.10354423541384362,
+          "discarded_future_action_plan": [
+            -0.003894145140547573,
+            0.009968460602908295,
+            0.0021396130569058666,
+            0.00019534360677948687,
+            3.397424712336263e-05,
+            1.3166501544774381e-05,
+            5.289191647887432e-06
+          ],
+          "conditional_terminal_error_mean": -0.09379657537464414,
+          "conditional_terminal_error_mean_squared": 0.008797797552011299,
+          "conditional_terminal_mse": 0.3522203318821738,
+          "conditional_endpoint_success_probability": 0.3867342624920471,
+          "actual_terminal_error_squared": 0.01957252946069599,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.09523462502176071,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981520,
+          "task": 0,
+          "posterior_mean": [
+            0.9149603696309222,
+            -0.16686691536276246,
+            0.1803607323561208
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.13325875769420756,
+          "discarded_future_action_plan": [
+            0.012567530991224606,
+            0.004906019941992005,
+            0.00010045033466597937,
+            -6.999988857458168e-05,
+            5.9080795838461406e-06,
+            4.398934300268233e-06,
+            6.771080739016099e-07
+          ],
+          "conditional_terminal_error_mean": -0.19635629291954615,
+          "conditional_terminal_error_mean_squared": 0.03855579376910661,
+          "conditional_terminal_mse": 0.38197832809926907,
+          "conditional_endpoint_success_probability": 0.371690765536303,
+          "actual_terminal_error_squared": 0.049376061253709726,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.11586319409630441,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981520,
+          "task": 1,
+          "posterior_mean": [
+            2.7354859026535263,
+            0.10596306173350417,
+            -0.019808874127448493
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.12366369080568931,
+          "discarded_future_action_plan": [
+            -0.1335160281421409,
+            0.02034437839634404,
+            0.010504451370885503,
+            0.0012885252298382105,
+            9.209732883779353e-05,
+            3.47658398164743e-05,
+            2.1349985050455435e-05
+          ],
+          "conditional_terminal_error_mean": 1.1410349272292466,
+          "conditional_terminal_error_mean_squared": 1.301960705157052,
+          "conditional_terminal_mse": 1.6453832394872145,
+          "conditional_endpoint_success_probability": 0.06865501964499748,
+          "actual_terminal_error_squared": 0.5385896047607377,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.022577316903845776,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981620,
+          "task": 0,
+          "posterior_mean": [
+            0.8446551959995888,
+            0.028904730009947255,
+            -0.12700296283184634
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.29885688589431775,
+          "discarded_future_action_plan": [
+            -0.21901696134362708,
+            0.01894370788275484,
+            0.014023790079749809,
+            0.0017706456506562118,
+            8.999822509533403e-05,
+            3.6478546760042215e-05,
+            2.6721919688586864e-05
+          ],
+          "conditional_terminal_error_mean": 2.0728358110577103,
+          "conditional_terminal_error_mean_squared": 4.296648299603276,
+          "conditional_terminal_mse": 4.640070833933438,
+          "conditional_endpoint_success_probability": 0.0012166301475730612,
+          "actual_terminal_error_squared": 3.3180936551244424,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.11522056518806051,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981620,
+          "task": 1,
+          "posterior_mean": [
+            3.149800244763042,
+            -0.045004325184408445,
+            -0.11726928548044338
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.14242377186404517,
+          "discarded_future_action_plan": [
+            -0.045789722195766366,
+            -0.0057114398769023845,
+            0.0008692094095072333,
+            0.00016292221218860634,
+            -1.9201714752596198e-05,
+            -5.731159904119476e-06,
+            2.758873133958581e-07
+          ],
+          "conditional_terminal_error_mean": 0.5669218052006628,
+          "conditional_terminal_error_mean_squared": 0.3214003332119783,
+          "conditional_terminal_mse": 0.6648228675421408,
+          "conditional_endpoint_success_probability": 0.2548559890112314,
+          "actual_terminal_error_squared": 1.0257993528011662,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.09219913087712779,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981720,
+          "task": 0,
+          "posterior_mean": [
+            1.101555348259537,
+            -0.1069146309554984,
+            0.10259327155098612
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.1627579979962613,
+          "discarded_future_action_plan": [
+            0.10378316910224702,
+            -0.010010080279448256,
+            -0.007032003998426578,
+            -0.0009043532944064001,
+            -5.2274841001526335e-05,
+            -1.9508682950961307e-05,
+            -1.3711556800940291e-05
+          ],
+          "conditional_terminal_error_mean": -0.9655803921553994,
+          "conditional_terminal_error_mean_squared": 0.9323454937149749,
+          "conditional_terminal_mse": 1.2757680280451373,
+          "conditional_endpoint_success_probability": 0.11262732003299375,
+          "actual_terminal_error_squared": 0.7625766707012427,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.07721546268515854,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981720,
+          "task": 1,
+          "posterior_mean": [
+            2.5724730115413807,
+            -0.14972892157914564,
+            0.015403304028413126
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.36052268031572887,
+          "discarded_future_action_plan": [
+            -0.3839796755283328,
+            0.04272910499654035,
+            0.026141243308917796,
+            0.003184946692222892,
+            0.00017929689977175034,
+            7.482540844404298e-05,
+            5.069900665392876e-05
+          ],
+          "conditional_terminal_error_mean": 3.5094719903830276,
+          "conditional_terminal_error_mean_squared": 12.31639365128301,
+          "conditional_terminal_mse": 12.659816185613172,
+          "conditional_endpoint_success_probability": 2.162615947431945e-08,
+          "actual_terminal_error_squared": 11.503148828668447,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.049612129418428796,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981820,
+          "task": 0,
+          "posterior_mean": [
+            0.6544430313812812,
+            -0.01053084626426136,
+            0.23078741458030366
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.17268107893253276,
+          "discarded_future_action_plan": [
+            -0.012245462039862895,
+            0.019494439650983374,
+            0.004508378706029284,
+            0.00044021993012715487,
+            7.055371417507352e-05,
+            2.6507688814452852e-05,
+            1.1016117526947712e-05
+          ],
+          "conditional_terminal_error_mean": -0.1356991754628747,
+          "conditional_terminal_error_mean_squared": 0.018414266221304054,
+          "conditional_terminal_mse": 0.3618368005514665,
+          "conditional_endpoint_success_probability": 0.3818076599085304,
+          "actual_terminal_error_squared": 0.004582913018374984,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.16065924045794586,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981820,
+          "task": 1,
+          "posterior_mean": [
+            3.0488460597094487,
+            0.00516595297579526,
+            -0.04101299574992282
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.036238307223205264,
+          "discarded_future_action_plan": [
+            -0.0043752534319503175,
+            -0.0024787783616176317,
+            -0.000291936813743812,
+            -1.6181741729058666e-05,
+            -8.185477009644604e-06,
+            -3.0389648232013148e-06,
+            -9.271201648368056e-07
+          ],
+          "conditional_terminal_error_mean": 0.08032867613547179,
+          "conditional_terminal_error_mean_squared": 0.006452696209677515,
+          "conditional_terminal_mse": 0.34987523053984,
+          "conditional_endpoint_success_probability": 0.38794525722181117,
+          "actual_terminal_error_squared": 0.454075257458619,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.02912184268991673,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981920,
+          "task": 0,
+          "posterior_mean": [
+            1.0756106929406808,
+            0.07015563542938502,
+            -0.15471279843487878
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.1679094277032567,
+          "discarded_future_action_plan": [
+            -0.058194768772726856,
+            -0.0016696738549295763,
+            0.002482076659836187,
+            0.00037496517291009824,
+            3.771532247960587e-06,
+            1.3222958178040924e-06,
+            3.956603941826983e-06
+          ],
+          "conditional_terminal_error_mean": 0.6406767633972144,
+          "conditional_terminal_error_mean_squared": 0.4104667151571302,
+          "conditional_terminal_mse": 0.7538892494872926,
+          "conditional_endpoint_success_probability": 0.22628043414807603,
+          "actual_terminal_error_squared": 0.5547302894655047,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.11115069989440847,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981920,
+          "task": 1,
+          "posterior_mean": [
+            2.919296954271992,
+            0.15036896217304999,
+            0.16151054978368576
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.34360628233825474,
+          "discarded_future_action_plan": [
+            0.21048778900645995,
+            -0.006600316414519031,
+            -0.010781040066910988,
+            -0.0013954873252866157,
+            -3.3461174315709765e-05,
+            -1.7969876216879713e-05,
+            -1.866712243463925e-05
+          ],
+          "conditional_terminal_error_mean": -2.1555418920643445,
+          "conditional_terminal_error_mean_squared": 4.646360848444334,
+          "conditional_terminal_mse": 4.989783382774497,
+          "conditional_endpoint_success_probability": 0.0007579375098451524,
+          "actual_terminal_error_squared": 7.178572424064099,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.15264287844717833,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982020,
+          "task": 0,
+          "posterior_mean": [
+            0.9584434728223098,
+            0.06993226447351765,
+            -0.06181578702544531
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.08131123236788593,
+          "discarded_future_action_plan": [
+            -0.04509517847691165,
+            0.00408581096189916,
+            0.0030463741729159955,
+            0.0003995352852284229,
+            2.3254891606709153e-05,
+            8.338044987940196e-06,
+            5.949530595717563e-06
+          ],
+          "conditional_terminal_error_mean": 0.4225242694508067,
+          "conditional_terminal_error_mean_squared": 0.17852675827493789,
+          "conditional_terminal_mse": 0.5219492926051004,
+          "conditional_endpoint_success_probability": 0.30839264950453227,
+          "actual_terminal_error_squared": 0.07825446955443346,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.04387903352361135,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982020,
+          "task": 1,
+          "posterior_mean": [
+            3.167063990659685,
+            -0.10592005107711283,
+            -0.03872326133895197
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.04069796770903925,
+          "discarded_future_action_plan": [
+            0.0055499182704286465,
+            -0.008822784434062802,
+            -0.002250489876676736,
+            -0.00025373146100074494,
+            -3.895210378472091e-05,
+            -1.300077303652639e-05,
+            -5.5937369079223465e-06
+          ],
+          "conditional_terminal_error_mean": 0.0643341398836208,
+          "conditional_terminal_error_mean_squared": 0.004138881554565288,
+          "conditional_terminal_mse": 0.3475614158847277,
+          "conditional_endpoint_success_probability": 0.3891437998870203,
+          "actual_terminal_error_squared": 0.06093882571943007,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.03499848843479736,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982120,
+          "task": 0,
+          "posterior_mean": [
+            1.4162488014034298,
+            -0.23971089755359123,
+            -0.15471021435101703
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.1845026845168332,
+          "discarded_future_action_plan": [
+            -0.029446337378258813,
+            -0.02001059736690328,
+            -0.0031613327561172385,
+            -0.00030659841359852966,
+            -8.44656170031543e-05,
+            -2.737826911826648e-05,
+            -9.47704820727366e-06
+          ],
+          "conditional_terminal_error_mean": 0.5935527163370002,
+          "conditional_terminal_error_mean_squared": 0.35230482707103145,
+          "conditional_terminal_mse": 0.6957273614011938,
+          "conditional_endpoint_success_probability": 0.24455475465100968,
+          "actual_terminal_error_squared": 3.6161818316154517,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.13191876234032807,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982120,
+          "task": 1,
+          "posterior_mean": [
+            2.936651217018388,
+            0.10585628735202243,
+            -0.1653523995304631
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.2484114992576696,
+          "discarded_future_action_plan": [
+            -0.14205498345556886,
+            0.009788548364712159,
+            0.008753072930019493,
+            0.001144241249418042,
+            5.4913865043663167e-05,
+            2.111895483633002e-05,
+            1.651048732964664e-05
+          ],
+          "conditional_terminal_error_mean": 1.3762244759899964,
+          "conditional_terminal_error_mean_squared": 1.8939938083139403,
+          "conditional_terminal_mse": 2.237416342644103,
+          "conditional_endpoint_success_probability": 0.031026710613513753,
+          "actual_terminal_error_squared": 0.18184326966004877,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.12648925250347956,
+          "endpoint_centering_feasible": true
+        }
+      ],
+      "summary": {
+        "mean_squared_conditional_terminal_bias": 1.6765711695462937,
+        "mean_predicted_terminal_mse": 2.0199937038764566,
+        "mean_realized_terminal_squared_error": 1.7318745635792372,
+        "mean_conditional_endpoint_success_probability": 0.1727402775019425,
+        "actual_endpoint_successes": 6,
+        "actual_whole_stop_successes": 0,
+        "all_endpoint_centering_actions_feasible": true,
+        "endpoint_centering_action_range": [
+          -0.16065924045794586,
+          0.14228693564725556
+        ]
+      }
+    }
+  ],
+  "v11": [
+    {
+      "true_theta": [
+        0.65,
+        0.7,
+        0.0,
+        1.2
+      ],
+      "sensor_sd": 0.2,
+      "posterior_covariance69": [
+        [
+          0.01799889127459828,
+          0.005351643694846679,
+          0.0015163771118938292
+        ],
+        [
+          0.00535164369484668,
+          0.0034330687229924125,
+          0.0013265963290721874
+        ],
+        [
+          0.0015163771118938297,
+          0.001326596329072187,
+          0.0015597786390931356
+        ]
+      ],
+      "terminal_variance": 0.34342253433016245,
+      "last_action_terminal_sensitivity": 11.287722402004542,
+      "episodes": [
+        {
+          "seed": 21981020,
+          "task": 0,
+          "posterior_mean": [
+            0.6340776068377691,
+            0.08607873231242083,
+            0.05894751150055025
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.0665025089954864,
+          "discarded_future_action_plan": [
+            -0.13715814135141102,
+            0.026155997127423877,
+            0.011816355453623632,
+            0.0014114712251949255,
+            0.00011206775947277603,
+            4.251598329079006e-05,
+            2.454152890318433e-05
+          ],
+          "conditional_terminal_error_mean": 1.100944942595235,
+          "conditional_terminal_error_mean_squared": 1.212079766626025,
+          "conditional_terminal_mse": 1.5555023009561875,
+          "conditional_endpoint_success_probability": 0.07744177693338339,
+          "actual_terminal_error_squared": 1.9109705931199965,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.03103221974657784,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981020,
+          "task": 1,
+          "posterior_mean": [
+            3.0562960323371375,
+            -0.054626298224954614,
+            -0.14322853830356844
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.254839107093142,
+          "discarded_future_action_plan": [
+            -0.14417973388582722,
+            0.004211140564844574,
+            0.007413445929718759,
+            0.0009738374914386588,
+            2.4873715888601706e-05,
+            1.2334357164150271e-05,
+            1.2890866202212896e-05
+          ],
+          "conditional_terminal_error_mean": 1.479423938330589,
+          "conditional_terminal_error_mean_squared": 2.1886951893055904,
+          "conditional_terminal_mse": 2.5321177236357526,
+          "conditional_endpoint_success_probability": 0.0208818934307336,
+          "actual_terminal_error_squared": 0.2746862589748082,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.12377423097004883,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981120,
+          "task": 0,
+          "posterior_mean": [
+            0.8997523311406384,
+            -0.04031055787394272,
+            -0.0032049773695824093
+          ],
+          "saved_estimate_error": 2.220446049250313e-16,
+          "last_action": 0.10035327549695186,
+          "discarded_future_action_plan": [
+            -0.10052701882561768,
+            0.010555470886775237,
+            0.00671346054547538,
+            0.0008213956270644153,
+            4.460045509642443e-05,
+            1.8737999331135415e-05,
+            1.2938781144615306e-05
+          ],
+          "conditional_terminal_error_mean": 0.9274449663402071,
+          "conditional_terminal_error_mean_squared": 0.860154165589788,
+          "conditional_terminal_mse": 1.2035766999199504,
+          "conditional_endpoint_success_probability": 0.124049635656716,
+          "actual_terminal_error_squared": 1.5784586827868599,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.018189227400277744,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981120,
+          "task": 1,
+          "posterior_mean": [
+            3.088072485256997,
+            0.16145501067188114,
+            -0.21121454719932556
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.18916512485048892,
+          "discarded_future_action_plan": [
+            -0.045688142993252884,
+            -0.003436329485322457,
+            0.001718172375493337,
+            0.00030667857333921845,
+            2.064737597093557e-06,
+            -8.311471200112844e-07,
+            2.584580843052611e-06
+          ],
+          "conditional_terminal_error_mean": 0.5291479864347446,
+          "conditional_terminal_error_mean_squared": 0.2799975915479446,
+          "conditional_terminal_mse": 0.6234201258781071,
+          "conditional_endpoint_success_probability": 0.26933756090716976,
+          "actual_terminal_error_squared": 0.6335300334327016,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.14228693564725556,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981220,
+          "task": 0,
+          "posterior_mean": [
+            1.3849629157539964,
+            -0.006665608574158724,
+            -0.054573514409286455
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.14650076173329385,
+          "discarded_future_action_plan": [
+            0.208554202359768,
+            -0.03107547670739834,
+            -0.015964286338772157,
+            -0.0019213232418117448,
+            -0.00013125535643407105,
+            -5.1927629290495065e-05,
+            -3.211168992340249e-05
+          ],
+          "conditional_terminal_error_mean": -1.7962288167437697,
+          "conditional_terminal_error_mean_squared": 3.226437962100723,
+          "conditional_terminal_mse": 3.569860496430885,
+          "conditional_endpoint_success_probability": 0.0051632679820312055,
+          "actual_terminal_error_squared": 0.6265009012385114,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.012630438766887159,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981220,
+          "task": 1,
+          "posterior_mean": [
+            2.740110266229626,
+            0.09291177687944718,
+            -0.01879959560851587
+          ],
+          "saved_estimate_error": 1.7763568394002505e-15,
+          "last_action": 0.12883346665774775,
+          "discarded_future_action_plan": [
+            -0.13806422625714873,
+            0.020381480799182672,
+            0.010697385857791413,
+            0.0013118698749211798,
+            9.181922717772201e-05,
+            3.492458280441201e-05,
+            2.1644664012444694e-05
+          ],
+          "conditional_terminal_error_mean": 1.1893195305461237,
+          "conditional_terminal_error_mean_squared": 1.4144809457384522,
+          "conditional_terminal_mse": 1.7579034800686146,
+          "conditional_endpoint_success_probability": 0.05904331853913597,
+          "actual_terminal_error_squared": 2.3575398392704363,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.023469471319333232,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981320,
+          "task": 0,
+          "posterior_mean": [
+            1.3280281808683145,
+            -0.06578247670693028,
+            0.023365352117504075
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.20099799974657212,
+          "discarded_future_action_plan": [
+            0.2086542977127671,
+            -0.027664339124716202,
+            -0.0153875461281455,
+            -0.0018867995906166873,
+            -0.0001227477358480965,
+            -4.792083130956858e-05,
+            -3.066953654502686e-05
+          ],
+          "conditional_terminal_error_mean": -1.842304911100006,
+          "conditional_terminal_error_mean_squared": 3.394087385463201,
+          "conditional_terminal_mse": 3.7375099197933634,
+          "conditional_endpoint_success_probability": 0.004118211729737864,
+          "actual_terminal_error_squared": 4.605507577558557,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.03778483366332061,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981320,
+          "task": 1,
+          "posterior_mean": [
+            2.791577026779877,
+            -0.26725430584771337,
+            0.23837043509118608
+          ],
+          "saved_estimate_error": 4.996003610813204e-16,
+          "last_action": -0.07919415099848313,
+          "discarded_future_action_plan": [
+            -0.08201733958014414,
+            0.016751050454548503,
+            0.0066876879360005005,
+            0.0007081562716838404,
+            5.079160810852852e-05,
+            2.401417780948277e-05,
+            1.350355974741443e-05
+          ],
+          "conditional_terminal_error_mean": 0.6518137373214765,
+          "conditional_terminal_error_mean_squared": 0.4248611481609908,
+          "conditional_terminal_mse": 0.7682836824911532,
+          "conditional_endpoint_success_probability": 0.22197198179155792,
+          "actual_terminal_error_squared": 0.16079582666257305,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.13693952372360646,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981420,
+          "task": 0,
+          "posterior_mean": [
+            0.7303231448737111,
+            -0.23273546334117154,
+            0.24698217890710597
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.08111365219382664,
+          "discarded_future_action_plan": [
+            -0.09268523666527059,
+            0.020427398890499163,
+            0.007993225286232022,
+            0.0008625482966255207,
+            6.717722285818556e-05,
+            2.9762381680481678e-05,
+            1.6419100280161856e-05
+          ],
+          "conditional_terminal_error_mean": 0.7142499835771854,
+          "conditional_terminal_error_mean_squared": 0.5101530390400096,
+          "conditional_terminal_mse": 0.8535755733701721,
+          "conditional_endpoint_success_probability": 0.19806980114051076,
+          "actual_terminal_error_squared": 0.07066382953084835,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.1443903663208807,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981420,
+          "task": 1,
+          "posterior_mean": [
+            2.8240638438295744,
+            -0.035131140306433536,
+            0.139422864747602
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.10354423541384362,
+          "discarded_future_action_plan": [
+            -0.003894145140547573,
+            0.009968460602908295,
+            0.0021396130569058666,
+            0.00019534360677948687,
+            3.397424712336263e-05,
+            1.3166501544774381e-05,
+            5.289191647887432e-06
+          ],
+          "conditional_terminal_error_mean": -0.09379657537464414,
+          "conditional_terminal_error_mean_squared": 0.008797797552011299,
+          "conditional_terminal_mse": 0.3522203318821738,
+          "conditional_endpoint_success_probability": 0.3867342624920471,
+          "actual_terminal_error_squared": 0.01957252946069599,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.09523462502176071,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981520,
+          "task": 0,
+          "posterior_mean": [
+            0.9149603696309222,
+            -0.16686691536276246,
+            0.1803607323561208
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.13325875769420756,
+          "discarded_future_action_plan": [
+            0.012567530991224606,
+            0.004906019941992005,
+            0.00010045033466597937,
+            -6.999988857458168e-05,
+            5.9080795838461406e-06,
+            4.398934300268233e-06,
+            6.771080739016099e-07
+          ],
+          "conditional_terminal_error_mean": -0.19635629291954615,
+          "conditional_terminal_error_mean_squared": 0.03855579376910661,
+          "conditional_terminal_mse": 0.38197832809926907,
+          "conditional_endpoint_success_probability": 0.371690765536303,
+          "actual_terminal_error_squared": 0.049376061253709726,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.11586319409630441,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981520,
+          "task": 1,
+          "posterior_mean": [
+            2.7354859026535263,
+            0.10596306173350417,
+            -0.019808874127448493
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.12366369080568931,
+          "discarded_future_action_plan": [
+            -0.1335160281421409,
+            0.02034437839634404,
+            0.010504451370885503,
+            0.0012885252298382105,
+            9.209732883779353e-05,
+            3.47658398164743e-05,
+            2.1349985050455435e-05
+          ],
+          "conditional_terminal_error_mean": 1.1410349272292466,
+          "conditional_terminal_error_mean_squared": 1.301960705157052,
+          "conditional_terminal_mse": 1.6453832394872145,
+          "conditional_endpoint_success_probability": 0.06865501964499748,
+          "actual_terminal_error_squared": 0.5385896047607377,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.022577316903845776,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981620,
+          "task": 0,
+          "posterior_mean": [
+            0.8446551959995888,
+            0.028904730009947255,
+            -0.12700296283184634
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.29885688589431775,
+          "discarded_future_action_plan": [
+            -0.21901696134362708,
+            0.01894370788275484,
+            0.014023790079749809,
+            0.0017706456506562118,
+            8.999822509533403e-05,
+            3.6478546760042215e-05,
+            2.6721919688586864e-05
+          ],
+          "conditional_terminal_error_mean": 2.0728358110577103,
+          "conditional_terminal_error_mean_squared": 4.296648299603276,
+          "conditional_terminal_mse": 4.640070833933438,
+          "conditional_endpoint_success_probability": 0.0012166301475730612,
+          "actual_terminal_error_squared": 3.3180936551244424,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.11522056518806051,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981620,
+          "task": 1,
+          "posterior_mean": [
+            3.149800244763042,
+            -0.045004325184408445,
+            -0.11726928548044338
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.14242377186404517,
+          "discarded_future_action_plan": [
+            -0.045789722195766366,
+            -0.0057114398769023845,
+            0.0008692094095072333,
+            0.00016292221218860634,
+            -1.9201714752596198e-05,
+            -5.731159904119476e-06,
+            2.758873133958581e-07
+          ],
+          "conditional_terminal_error_mean": 0.5669218052006628,
+          "conditional_terminal_error_mean_squared": 0.3214003332119783,
+          "conditional_terminal_mse": 0.6648228675421408,
+          "conditional_endpoint_success_probability": 0.2548559890112314,
+          "actual_terminal_error_squared": 1.0257993528011662,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.09219913087712779,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981720,
+          "task": 0,
+          "posterior_mean": [
+            1.101555348259537,
+            -0.1069146309554984,
+            0.10259327155098612
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.1627579979962613,
+          "discarded_future_action_plan": [
+            0.10378316910224702,
+            -0.010010080279448256,
+            -0.007032003998426578,
+            -0.0009043532944064001,
+            -5.2274841001526335e-05,
+            -1.9508682950961307e-05,
+            -1.3711556800940291e-05
+          ],
+          "conditional_terminal_error_mean": -0.9655803921553994,
+          "conditional_terminal_error_mean_squared": 0.9323454937149749,
+          "conditional_terminal_mse": 1.2757680280451373,
+          "conditional_endpoint_success_probability": 0.11262732003299375,
+          "actual_terminal_error_squared": 0.7625766707012427,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.07721546268515854,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981720,
+          "task": 1,
+          "posterior_mean": [
+            2.5724730115413807,
+            -0.14972892157914564,
+            0.015403304028413126
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.36052268031572887,
+          "discarded_future_action_plan": [
+            -0.3839796755283328,
+            0.04272910499654035,
+            0.026141243308917796,
+            0.003184946692222892,
+            0.00017929689977175034,
+            7.482540844404298e-05,
+            5.069900665392876e-05
+          ],
+          "conditional_terminal_error_mean": 3.5094719903830276,
+          "conditional_terminal_error_mean_squared": 12.31639365128301,
+          "conditional_terminal_mse": 12.659816185613172,
+          "conditional_endpoint_success_probability": 2.162615947431945e-08,
+          "actual_terminal_error_squared": 11.503148828668447,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.049612129418428796,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981820,
+          "task": 0,
+          "posterior_mean": [
+            0.6544430313812812,
+            -0.01053084626426136,
+            0.23078741458030366
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.17268107893253276,
+          "discarded_future_action_plan": [
+            -0.012245462039862895,
+            0.019494439650983374,
+            0.004508378706029284,
+            0.00044021993012715487,
+            7.055371417507352e-05,
+            2.6507688814452852e-05,
+            1.1016117526947712e-05
+          ],
+          "conditional_terminal_error_mean": -0.1356991754628747,
+          "conditional_terminal_error_mean_squared": 0.018414266221304054,
+          "conditional_terminal_mse": 0.3618368005514665,
+          "conditional_endpoint_success_probability": 0.3818076599085304,
+          "actual_terminal_error_squared": 0.004582913018374984,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.16065924045794586,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981820,
+          "task": 1,
+          "posterior_mean": [
+            3.0488460597094487,
+            0.00516595297579526,
+            -0.04101299574992282
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.036238307223205264,
+          "discarded_future_action_plan": [
+            -0.0043752534319503175,
+            -0.0024787783616176317,
+            -0.000291936813743812,
+            -1.6181741729058666e-05,
+            -8.185477009644604e-06,
+            -3.0389648232013148e-06,
+            -9.271201648368056e-07
+          ],
+          "conditional_terminal_error_mean": 0.08032867613547179,
+          "conditional_terminal_error_mean_squared": 0.006452696209677515,
+          "conditional_terminal_mse": 0.34987523053984,
+          "conditional_endpoint_success_probability": 0.38794525722181117,
+          "actual_terminal_error_squared": 0.454075257458619,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.02912184268991673,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981920,
+          "task": 0,
+          "posterior_mean": [
+            1.0756106929406808,
+            0.07015563542938502,
+            -0.15471279843487878
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.1679094277032567,
+          "discarded_future_action_plan": [
+            -0.058194768772726856,
+            -0.0016696738549295763,
+            0.002482076659836187,
+            0.00037496517291009824,
+            3.771532247960587e-06,
+            1.3222958178040924e-06,
+            3.956603941826983e-06
+          ],
+          "conditional_terminal_error_mean": 0.6406767633972144,
+          "conditional_terminal_error_mean_squared": 0.4104667151571302,
+          "conditional_terminal_mse": 0.7538892494872926,
+          "conditional_endpoint_success_probability": 0.22628043414807603,
+          "actual_terminal_error_squared": 0.5547302894655047,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.11115069989440847,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981920,
+          "task": 1,
+          "posterior_mean": [
+            2.919296954271992,
+            0.15036896217304999,
+            0.16151054978368576
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.34360628233825474,
+          "discarded_future_action_plan": [
+            0.21048778900645995,
+            -0.006600316414519031,
+            -0.010781040066910988,
+            -0.0013954873252866157,
+            -3.3461174315709765e-05,
+            -1.7969876216879713e-05,
+            -1.866712243463925e-05
+          ],
+          "conditional_terminal_error_mean": -2.1555418920643445,
+          "conditional_terminal_error_mean_squared": 4.646360848444334,
+          "conditional_terminal_mse": 4.989783382774497,
+          "conditional_endpoint_success_probability": 0.0007579375098451524,
+          "actual_terminal_error_squared": 7.178572424064099,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.15264287844717833,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982020,
+          "task": 0,
+          "posterior_mean": [
+            0.9584434728223098,
+            0.06993226447351765,
+            -0.06181578702544531
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.08131123236788593,
+          "discarded_future_action_plan": [
+            -0.04509517847691165,
+            0.00408581096189916,
+            0.0030463741729159955,
+            0.0003995352852284229,
+            2.3254891606709153e-05,
+            8.338044987940196e-06,
+            5.949530595717563e-06
+          ],
+          "conditional_terminal_error_mean": 0.4225242694508067,
+          "conditional_terminal_error_mean_squared": 0.17852675827493789,
+          "conditional_terminal_mse": 0.5219492926051004,
+          "conditional_endpoint_success_probability": 0.30839264950453227,
+          "actual_terminal_error_squared": 0.07825446955443346,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.04387903352361135,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982020,
+          "task": 1,
+          "posterior_mean": [
+            3.167063990659685,
+            -0.10592005107711283,
+            -0.03872326133895197
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.04069796770903925,
+          "discarded_future_action_plan": [
+            0.0055499182704286465,
+            -0.008822784434062802,
+            -0.002250489876676736,
+            -0.00025373146100074494,
+            -3.895210378472091e-05,
+            -1.300077303652639e-05,
+            -5.5937369079223465e-06
+          ],
+          "conditional_terminal_error_mean": 0.0643341398836208,
+          "conditional_terminal_error_mean_squared": 0.004138881554565288,
+          "conditional_terminal_mse": 0.3475614158847277,
+          "conditional_endpoint_success_probability": 0.3891437998870203,
+          "actual_terminal_error_squared": 0.06093882571943007,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.03499848843479736,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982120,
+          "task": 0,
+          "posterior_mean": [
+            1.4162488014034298,
+            -0.23971089755359123,
+            -0.15471021435101703
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.1845026845168332,
+          "discarded_future_action_plan": [
+            -0.029446337378258813,
+            -0.02001059736690328,
+            -0.0031613327561172385,
+            -0.00030659841359852966,
+            -8.44656170031543e-05,
+            -2.737826911826648e-05,
+            -9.47704820727366e-06
+          ],
+          "conditional_terminal_error_mean": 0.5935527163370002,
+          "conditional_terminal_error_mean_squared": 0.35230482707103145,
+          "conditional_terminal_mse": 0.6957273614011938,
+          "conditional_endpoint_success_probability": 0.24455475465100968,
+          "actual_terminal_error_squared": 3.6161818316154517,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.13191876234032807,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982120,
+          "task": 1,
+          "posterior_mean": [
+            2.936651217018388,
+            0.10585628735202243,
+            -0.1653523995304631
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.2484114992576696,
+          "discarded_future_action_plan": [
+            -0.14205498345556886,
+            0.009788548364712159,
+            0.008753072930019493,
+            0.001144241249418042,
+            5.4913865043663167e-05,
+            2.111895483633002e-05,
+            1.651048732964664e-05
+          ],
+          "conditional_terminal_error_mean": 1.3762244759899964,
+          "conditional_terminal_error_mean_squared": 1.8939938083139403,
+          "conditional_terminal_mse": 2.237416342644103,
+          "conditional_endpoint_success_probability": 0.031026710613513753,
+          "actual_terminal_error_squared": 0.18184326966004877,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.12648925250347956,
+          "endpoint_centering_feasible": true
+        }
+      ],
+      "summary": {
+        "mean_squared_conditional_terminal_bias": 1.6765711695462937,
+        "mean_predicted_terminal_mse": 2.0199937038764566,
+        "mean_realized_terminal_squared_error": 1.7318745635792372,
+        "mean_conditional_endpoint_success_probability": 0.1727402775019425,
+        "actual_endpoint_successes": 6,
+        "actual_whole_stop_successes": 0,
+        "all_endpoint_centering_actions_feasible": true,
+        "endpoint_centering_action_range": [
+          -0.16065924045794586,
+          0.14228693564725556
+        ]
+      }
+    },
+    {
+      "true_theta": [
+        0.65,
+        0.7,
+        0.0,
+        1.2
+      ],
+      "sensor_sd": 0.02,
+      "posterior_covariance69": [
+        [
+          0.0003458761492536244,
+          0.00025822803273831216,
+          0.00013403527928171767
+        ],
+        [
+          0.00025822803273831216,
+          0.00037451878232431265,
+          0.00025726719771055
+        ],
+        [
+          0.00013403527928171756,
+          0.0002572671977105499,
+          0.0011138581690326268
+        ]
+      ],
+      "terminal_variance": 0.19302707211777295,
+      "last_action_terminal_sensitivity": 11.287722402004542,
+      "episodes": [
+        {
+          "seed": 21981020,
+          "task": 0,
+          "posterior_mean": [
+            0.8974578315326525,
+            0.12145537172943462,
+            -0.07912836343633253
+          ],
+          "saved_estimate_error": 3.3306690738754696e-16,
+          "last_action": 0.1114945451745932,
+          "discarded_future_action_plan": [
+            -0.07063387203080988,
+            0.008379411770450889,
+            0.005196614454946041,
+            0.0006689502853121126,
+            4.429957797354627e-05,
+            1.5807537711279707e-05,
+            1.0414025974362278e-05
+          ],
+          "conditional_terminal_error_mean": 0.6344355046884371,
+          "conditional_terminal_error_mean_squared": 0.4025084096092719,
+          "conditional_terminal_mse": 0.5955354817270448,
+          "conditional_endpoint_success_probability": 0.20655087058545057,
+          "actual_terminal_error_squared": 1.0679009778937243,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.05528874190503634,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981020,
+          "task": 1,
+          "posterior_mean": [
+            2.8449337322712966,
+            -0.1330406564654386,
+            0.03236832617262858
+          ],
+          "saved_estimate_error": 9.71445146547012e-16,
+          "last_action": 0.14377487605584666,
+          "discarded_future_action_plan": [
+            -0.16501326420337728,
+            0.01716100810606234,
+            0.010859652242866212,
+            0.0013122927882337843,
+            6.83740372176783e-05,
+            2.9930999366597685e-05,
+            2.0785631135454596e-05
+          ],
+          "conditional_terminal_error_mean": 1.526461474015508,
+          "conditional_terminal_error_mean_squared": 2.3300846316535977,
+          "conditional_terminal_mse": 2.5231117037713706,
+          "conditional_endpoint_success_probability": 0.0026067362357570234,
+          "actual_terminal_error_squared": 1.5149048670045153,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.008542858501585232,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981120,
+          "task": 0,
+          "posterior_mean": [
+            1.064445672269525,
+            0.06448089477753592,
+            -0.11288861870984963
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.1065038216007513,
+          "discarded_future_action_plan": [
+            -0.02700992772590653,
+            -0.0025436372609414478,
+            0.0008529673057183453,
+            0.00015642356026074303,
+            -2.585152877812537e-06,
+            -1.454936501897986e-06,
+            1.0916099104396182e-06
+          ],
+          "conditional_terminal_error_mean": 0.32066075877108546,
+          "conditional_terminal_error_mean_squared": 0.10282332221564826,
+          "conditional_terminal_mse": 0.2958503943334212,
+          "conditional_endpoint_success_probability": 0.4023720335872163,
+          "actual_terminal_error_squared": 0.2533778999762164,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.07809589772107291,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981120,
+          "task": 1,
+          "posterior_mean": [
+            3.0808316708132546,
+            0.08758469328418152,
+            -0.1427129373580973
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.1304526055101677,
+          "discarded_future_action_plan": [
+            -0.03049564944164331,
+            -0.0033897289573463787,
+            0.0008857971987873381,
+            0.0001741296318504212,
+            -3.843290796536883e-06,
+            -2.1990528230606026e-06,
+            1.0442772623896159e-06
+          ],
+          "conditional_terminal_error_mean": 0.36871825038479633,
+          "conditional_terminal_error_mean_squared": 0.13595314816682535,
+          "conditional_terminal_mse": 0.3289802202845983,
+          "conditional_endpoint_success_probability": 0.37385912776139696,
+          "actual_terminal_error_squared": 0.4103867027422182,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.09778718043563567,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981220,
+          "task": 0,
+          "posterior_mean": [
+            1.1514137711787022,
+            -0.07508861656795966,
+            -0.020579554625830977
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.004247327703100359,
+          "discarded_future_action_plan": [
+            0.03400750907605885,
+            -0.009511932684633535,
+            -0.0036468646651774605,
+            -0.0004334061398441107,
+            -4.2079217510664734e-05,
+            -1.5064139962665473e-05,
+            -7.954172076382034e-06
+          ],
+          "conditional_terminal_error_mean": -0.23015323589939052,
+          "conditional_terminal_error_mean_squared": 0.0529705119949605,
+          "conditional_terminal_mse": 0.24599758411273345,
+          "conditional_endpoint_success_probability": 0.4493793179409019,
+          "actual_terminal_error_squared": 0.13547134511660183,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.01614236896932299,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981220,
+          "task": 1,
+          "posterior_mean": [
+            3.022196851961457,
+            0.13966929130499306,
+            -0.07266709163400865
+          ],
+          "saved_estimate_error": 5.273559366969494e-16,
+          "last_action": 0.006523942054845735,
+          "discarded_future_action_plan": [
+            0.03541649188133914,
+            -0.003663363059715475,
+            -0.0021162094677588646,
+            -0.00022662317360660667,
+            -7.556105616316118e-06,
+            -5.390110183443003e-06,
+            -3.841025309210873e-06
+          ],
+          "conditional_terminal_error_mean": -0.3309081091110455,
+          "conditional_terminal_error_mean_squared": 0.1095001766754476,
+          "conditional_terminal_mse": 0.30252724879322057,
+          "conditional_endpoint_success_probability": 0.3964576261851947,
+          "actual_terminal_error_squared": 0.01380380448136584,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.035839697468203605,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981320,
+          "task": 0,
+          "posterior_mean": [
+            1.0395343032881905,
+            -0.08696003664567575,
+            0.05432770937874644
+          ],
+          "saved_estimate_error": 2.220446049250313e-16,
+          "last_action": -0.054067377201693745,
+          "discarded_future_action_plan": [
+            0.024520285463355815,
+            -0.0028878929674019268,
+            -0.0018846001684270476,
+            -0.0002538641390025207,
+            -1.814420526671616e-05,
+            -5.865702200294768e-06,
+            -3.85012963860177e-06
+          ],
+          "conditional_terminal_error_mean": -0.2193132246063214,
+          "conditional_terminal_error_mean_squared": 0.048098290487222785,
+          "conditional_terminal_mse": 0.24112536260499573,
+          "conditional_endpoint_success_probability": 0.45425502440545124,
+          "actual_terminal_error_squared": 0.5237539131873569,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.03463801698218884,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981320,
+          "task": 1,
+          "posterior_mean": [
+            2.952232787941341,
+            -0.02567494632031489,
+            0.09440734554782432
+          ],
+          "saved_estimate_error": 6.38378239159465e-16,
+          "last_action": -0.1144016142024243,
+          "discarded_future_action_plan": [
+            0.04594208844918542,
+            0.0005115361996369946,
+            -0.002067146868045177,
+            -0.00029659429546233316,
+            -3.993595558454431e-06,
+            -1.84989417002453e-06,
+            -3.380037437658259e-06
+          ],
+          "conditional_terminal_error_mean": -0.4955685813959212,
+          "conditional_terminal_error_mean_squared": 0.24558821886676577,
+          "conditional_terminal_mse": 0.4386152909845387,
+          "conditional_endpoint_success_probability": 0.2930252082447641,
+          "actual_terminal_error_squared": 0.46061528438271054,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.07049828598911573,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981420,
+          "task": 0,
+          "posterior_mean": [
+            0.8862713482106281,
+            -0.11848517494262843,
+            0.18832639509784868
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": -0.16542048349574504,
+          "discarded_future_action_plan": [
+            0.03334675071131349,
+            0.005208057765399945,
+            -0.0007064562246006925,
+            -0.0001733048875068882,
+            8.161119073108892e-06,
+            4.20044390068679e-06,
+            -4.856262011248128e-07
+          ],
+          "conditional_terminal_error_mean": -0.4230914833452777,
+          "conditional_terminal_error_mean_squared": 0.1790064032793074,
+          "conditional_terminal_mse": 0.3720334753970803,
+          "conditional_endpoint_success_probability": 0.33977450849425817,
+          "actual_terminal_error_squared": 0.9495777043254168,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.12793803413376015,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981420,
+          "task": 1,
+          "posterior_mean": [
+            2.8158879191120256,
+            -0.0652326073686565,
+            0.16156596980682383
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.11406886311402795,
+          "discarded_future_action_plan": [
+            -0.007261077874459905,
+            0.010736039602819538,
+            0.0023941507109833064,
+            0.00021650948062286996,
+            3.513338902575032e-05,
+            1.4085428967837547e-05,
+            5.780112615421122e-06
+          ],
+          "conditional_terminal_error_mean": -0.06761176552903425,
+          "conditional_terminal_error_mean_squared": 0.0045713508379531045,
+          "conditional_terminal_mse": 0.19759842295572605,
+          "conditional_endpoint_success_probability": 0.5002009673005798,
+          "actual_terminal_error_squared": 0.031457862807924154,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.10807901298119447,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981520,
+          "task": 0,
+          "posterior_mean": [
+            0.932069348628327,
+            -0.03608628871487666,
+            0.08820410280759035
+          ],
+          "saved_estimate_error": 3.885780586188048e-16,
+          "last_action": -0.08278813232325262,
+          "discarded_future_action_plan": [
+            0.018476867223351918,
+            0.0029982116846431106,
+            -0.00031254630437819585,
+            -7.936350835016915e-05,
+            6.801639499392896e-06,
+            2.745448943160536e-06,
+            -4.8299518001833596e-08
+          ],
+          "conditional_terminal_error_mean": -0.23676753721176058,
+          "conditional_terminal_error_mean_squared": 0.05605886667732243,
+          "conditional_terminal_mse": 0.24908593879509539,
+          "conditional_endpoint_success_probability": 0.44631559900085715,
+          "actual_terminal_error_squared": 3.1371986344914398e-06,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": -0.06181246258409302,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981520,
+          "task": 1,
+          "posterior_mean": [
+            2.8420075668208225,
+            -0.03426798548473225,
+            -0.00858958590584806
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.14214750187175998,
+          "discarded_future_action_plan": [
+            -0.14229805253366118,
+            0.015699024286476588,
+            0.009700210437901704,
+            0.0011881808621492023,
+            6.730253532263927e-05,
+            2.774063462981417e-05,
+            1.8834216224287857e-05
+          ],
+          "conditional_terminal_error_mean": 1.3018469185379713,
+          "conditional_terminal_error_mean_squared": 1.6948053993068113,
+          "conditional_terminal_mse": 1.8878324714245842,
+          "conditional_endpoint_success_probability": 0.011161711514950545,
+          "actual_terminal_error_squared": 2.680194644590315,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.026814499147775422,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981620,
+          "task": 0,
+          "posterior_mean": [
+            0.7938742718203202,
+            -0.1033902561826935,
+            -0.0013951076785100186
+          ],
+          "saved_estimate_error": 4.440892098500626e-16,
+          "last_action": 0.2128324339353093,
+          "discarded_future_action_plan": [
+            -0.21522651579693425,
+            0.022225268101211608,
+            0.014265042853393983,
+            0.0017431487316146566,
+            9.306088154010268e-05,
+            3.946444150493553e-05,
+            2.7413500390770604e-05
+          ],
+          "conditional_terminal_error_mean": 1.9912144660672695,
+          "conditional_terminal_error_mean_squared": 3.964935049875561,
+          "conditional_terminal_mse": 4.157962121993334,
+          "conditional_endpoint_success_probability": 5.9119292019016445e-05,
+          "actual_terminal_error_squared": 4.54555574974712,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.036427097663604247,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981620,
+          "task": 1,
+          "posterior_mean": [
+            3.0575590920823807,
+            -0.04985359371786704,
+            -0.060830772688657705
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.10687424150011057,
+          "discarded_future_action_plan": [
+            -0.0557237582603628,
+            -0.0001736538155672648,
+            0.002444620542134093,
+            0.00032831612680067455,
+            1.3134589080398804e-06,
+            2.1050903314708493e-06,
+            3.887566014286501e-06
+          ],
+          "conditional_terminal_error_mean": 0.5971737070192491,
+          "conditional_terminal_error_mean_squared": 0.356616436355112,
+          "conditional_terminal_mse": 0.5496435084728849,
+          "conditional_endpoint_success_probability": 0.22882146958438615,
+          "actual_terminal_error_squared": 1.1837462865161705,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.05396952912755972,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981720,
+          "task": 0,
+          "posterior_mean": [
+            0.9377454526203244,
+            -0.10184315677319429,
+            0.1559612631938953
+          ],
+          "saved_estimate_error": 2.498001805406602e-16,
+          "last_action": -0.15462733718380373,
+          "discarded_future_action_plan": [
+            0.047408537076187564,
+            0.0016312353876582148,
+            -0.0020516181261739444,
+            -0.00032234546337554223,
+            -4.932363342387145e-06,
+            -1.1210590978914396e-06,
+            -3.3275588982559627e-06
+          ],
+          "conditional_terminal_error_mean": -0.5244202725910243,
+          "conditional_terminal_error_mean_squared": 0.27501662230444424,
+          "conditional_terminal_mse": 0.46804369442221716,
+          "conditional_endpoint_success_probability": 0.2744486956967264,
+          "actual_terminal_error_squared": 0.14207038987729267,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.10816798480835069,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981720,
+          "task": 1,
+          "posterior_mean": [
+            2.8499279112435527,
+            -0.07146420413619527,
+            0.0067707169141346946
+          ],
+          "saved_estimate_error": 9.992007221626409e-16,
+          "last_action": 0.1385033807456125,
+          "discarded_future_action_plan": [
+            -0.146154449255871,
+            0.015649861740976892,
+            0.009797899996163296,
+            0.0011936028900181846,
+            6.511953468901608e-05,
+            2.7530836030217795e-05,
+            1.889873246835651e-05
+          ],
+          "conditional_terminal_error_mean": 1.3445979357835824,
+          "conditional_terminal_error_mean_squared": 1.8079436089134708,
+          "conditional_terminal_mse": 2.000970681031244,
+          "conditional_endpoint_success_probability": 0.008621873675622727,
+          "actual_terminal_error_squared": 2.491270951714918,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.019382987109355057,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981820,
+          "task": 0,
+          "posterior_mean": [
+            0.8455230276815672,
+            -0.05118646238664557,
+            0.15257003462411364
+          ],
+          "saved_estimate_error": 2.498001805406602e-16,
+          "last_action": -0.128027407073904,
+          "discarded_future_action_plan": [
+            0.013715313245193792,
+            0.008028458638463845,
+            0.0009013115170519607,
+            3.8373965173041465e-05,
+            2.436818496937712e-05,
+            9.55324902159613e-06,
+            2.8484949211763015e-06
+          ],
+          "conditional_terminal_error_mean": -0.25438783103070617,
+          "conditional_terminal_error_mean_squared": 0.06471316857650711,
+          "conditional_terminal_mse": 0.25774024069428003,
+          "conditional_endpoint_success_probability": 0.4378399771993075,
+          "actual_terminal_error_squared": 0.0638291991725138,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": -0.10549072323540613,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981820,
+          "task": 1,
+          "posterior_mean": [
+            3.06762533686389,
+            -0.10035723894572432,
+            0.015998288399371757
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": 0.004859940124874789,
+          "discarded_future_action_plan": [
+            -0.0041397998423819,
+            -0.0029591146935494116,
+            -0.0006003962906288673,
+            -7.863969017089768e-05,
+            -1.6627056901300063e-05,
+            -4.647879359528604e-06,
+            -1.774054789996379e-06
+          ],
+          "conditional_terminal_error_mean": 0.08724830104319192,
+          "conditional_terminal_error_mean_squared": 0.007612266034923445,
+          "conditional_terminal_mse": 0.20063933815269638,
+          "conditional_endpoint_success_probability": 0.49684687927675175,
+          "actual_terminal_error_squared": 0.15768155098903114,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.002869546651633626,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981920,
+          "task": 0,
+          "posterior_mean": [
+            1.1018214345503168,
+            0.1082031281909315,
+            -0.15985406220487627
+          ],
+          "saved_estimate_error": 3.0531133177191805e-16,
+          "last_action": 0.13124108562657966,
+          "discarded_future_action_plan": [
+            -0.01945949050106108,
+            -0.005178235277652011,
+            5.145835990143874e-05,
+            8.006048782639266e-05,
+            -9.976975560628139e-06,
+            -4.9488731850157275e-06,
+            -6.1483368458612e-07
+          ],
+          "conditional_terminal_error_mean": 0.2750661284601208,
+          "conditional_terminal_error_mean_squared": 0.07566137502603967,
+          "conditional_terminal_mse": 0.2686884471438126,
+          "conditional_endpoint_success_probability": 0.42734560962864115,
+          "actual_terminal_error_squared": 0.09724241179246595,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.10687247354844484,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21981920,
+          "task": 1,
+          "posterior_mean": [
+            3.0274466339818646,
+            0.04067264314802489,
+            0.009771788831893058
+          ],
+          "saved_estimate_error": 8.881784197001252e-16,
+          "last_action": -0.06542837416956787,
+          "discarded_future_action_plan": [
+            0.056637665424500085,
+            -0.0044581789097803935,
+            -0.0034457435720005375,
+            -0.0004259052069493247,
+            -1.863520980555765e-05,
+            -8.409313786668051e-06,
+            -6.416833435857485e-06
+          ],
+          "conditional_terminal_error_mean": -0.5433622728533942,
+          "conditional_terminal_error_mean_squared": 0.29524255956040646,
+          "conditional_terminal_mse": 0.4882696316781794,
+          "conditional_endpoint_success_probability": 0.2623622565312751,
+          "actual_terminal_error_squared": 0.8940047522566991,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": -0.017290915300372023,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982020,
+          "task": 0,
+          "posterior_mean": [
+            1.0901970859522867,
+            0.11751158056144557,
+            -0.10572740849107659
+          ],
+          "saved_estimate_error": 3.3306690738754696e-16,
+          "last_action": 0.037344018411836905,
+          "discarded_future_action_plan": [
+            0.03411480911797461,
+            -0.007192042381590508,
+            -0.002815328377962625,
+            -0.00029566073768255284,
+            -2.1531232530194428e-05,
+            -1.0230366079638447e-05,
+            -5.69869079608042e-06
+          ],
+          "conditional_terminal_error_mean": -0.2682238062072366,
+          "conditional_terminal_error_mean_squared": 0.07194401021629723,
+          "conditional_terminal_mse": 0.2649710823340702,
+          "conditional_endpoint_success_probability": 0.43088067207134895,
+          "actual_terminal_error_squared": 0.4826129321120509,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.06110645663051632,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982020,
+          "task": 1,
+          "posterior_mean": [
+            3.007177325844577,
+            0.06650029839712827,
+            -0.01420828525269641
+          ],
+          "saved_estimate_error": 7.632783294297951e-16,
+          "last_action": -0.03024194307087738,
+          "discarded_future_action_plan": [
+            0.03536766056243916,
+            -0.002456919369420725,
+            -0.002007360511576079,
+            -0.00023958168821882513,
+            -7.85404783485506e-06,
+            -4.442603944850525e-06,
+            -3.6113578216152657e-06
+          ],
+          "conditional_terminal_error_mean": -0.3448891159816512,
+          "conditional_terminal_error_mean_squared": 0.11894850232260483,
+          "conditional_terminal_mse": 0.31197557444037777,
+          "conditional_endpoint_success_probability": 0.38823494939570474,
+          "actual_terminal_error_squared": 0.002395123054868543,
+          "actual_endpoint_success": true,
+          "actual_whole_stop_success": true,
+          "endpoint_centering_last_action": 0.0003124153460521209,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982120,
+          "task": 0,
+          "posterior_mean": [
+            1.1401532563528103,
+            -0.14294384791093803,
+            -0.01808290158964722
+          ],
+          "saved_estimate_error": 2.3592239273284576e-16,
+          "last_action": 0.05003918025520937,
+          "discarded_future_action_plan": [
+            -0.017116631584880016,
+            -0.0060608937981267525,
+            -0.0007120653369186569,
+            -7.50746815073884e-05,
+            -2.929426858292394e-05,
+            -8.519933160231032e-06,
+            -2.6310248133612024e-06
+          ],
+          "conditional_terminal_error_mean": 0.268991401304036,
+          "conditional_terminal_error_mean_squared": 0.07235637397550893,
+          "conditional_terminal_mse": 0.2653834460932819,
+          "conditional_endpoint_success_probability": 0.4304871087341617,
+          "actual_terminal_error_squared": 1.5275868429375123,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.026208739381125962,
+          "endpoint_centering_feasible": true
+        },
+        {
+          "seed": 21982120,
+          "task": 1,
+          "posterior_mean": [
+            2.877316841776769,
+            -0.006666066815983071,
+            -0.05944241556319688
+          ],
+          "saved_estimate_error": 5.828670879282072e-16,
+          "last_action": 0.18719678951684712,
+          "discarded_future_action_plan": [
+            -0.151054655889436,
+            0.014052934978494885,
+            0.009822473444273429,
+            0.0012267176380031007,
+            6.393518306576385e-05,
+            2.6234526597861386e-05,
+            1.8797633539366543e-05
+          ],
+          "conditional_terminal_error_mean": 1.4168483157063871,
+          "conditional_terminal_error_mean_squared": 2.007459149720026,
+          "conditional_terminal_mse": 2.200486221837799,
+          "conditional_endpoint_success_probability": 0.005463542013239675,
+          "actual_terminal_error_squared": 1.2668262223685527,
+          "actual_endpoint_success": false,
+          "actual_whole_stop_success": false,
+          "endpoint_centering_last_action": 0.06167560240342426,
+          "endpoint_centering_feasible": true
+        }
+      ],
+      "summary": {
+        "mean_squared_conditional_terminal_bias": 0.6033507438605015,
+        "mean_predicted_terminal_mse": 0.7963778159782745,
+        "mean_realized_terminal_squared_error": 0.8706779398435914,
+        "mean_conditional_endpoint_success_probability": 0.30280712018149847,
+        "actual_endpoint_successes": 5,
+        "actual_whole_stop_successes": 3,
+        "all_endpoint_centering_actions_feasible": true,
+        "endpoint_centering_action_range": [
+          -0.12793803413376015,
+          0.10687247354844484
+        ]
+      }
+    }
+  ]
+}

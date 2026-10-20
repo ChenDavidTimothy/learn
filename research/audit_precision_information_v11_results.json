@@ -1,0 +1,34 @@
+{
+  "status": "INDEPENDENTLY TESTED",
+  "batch_conditioned_information_cases": 10,
+  "nested_training_prefixes_checked": 12,
+  "physical_episodes_replayed": 144,
+  "plans_independently_checked": 10080,
+  "v10_episodes_reproduced_exactly": 48,
+  "maximum_absolute_errors": {
+    "information_covariance": 2.14812976434553e-15,
+    "information_scalar": 2.1826984664130578e-13,
+    "long_training": 2.1600499167107046e-12,
+    "fit_objective": 3.268496584496461e-11,
+    "replay": 2.353672812205332e-14,
+    "observations": 2.353672812205332e-14,
+    "estimates": 8.881784197001252e-16,
+    "metrics": 2.220446049250313e-14,
+    "summary": 0.0,
+    "MPC_warm_cost": 9.094947017729282e-13,
+    "MPC_selected_cost": 8.526512829121202e-14,
+    "MPC_projected_gradient": 2.6750268666830834e-12,
+    "MPC_action": 0.0,
+    "paired_standard_sensor_noise": 2.220446049250313e-14
+  },
+  "scope": [
+    "Batch Gaussian conditioning independently verifies posterior at last action69, terminal propagation17, and final innovation69 propagated16.",
+    "Probability bound concerns true terminal position under the forced-coast protocol, conditional on information available before final action innovation; whole success is a subset.",
+    "Known parameters, zero initial state, calibrated sensor/noise laws, linearity and observation-adaptive controls are required for the covariance bound.",
+    "Future coast observations cannot affect forcedzero physical commands; the bound is not a claim about posterior uncertainty after observing those future measurements.",
+    "All short data retained literally; long data continue original velocity/motor history without reset.",
+    "Sensor intervention changes both actual measurement precision and filterR while preserving paired standardnormal streams and motor innovations.",
+    "Extra training and better sensing costs are not equated; no universal efficiency or architectural conclusion follows.",
+    "MC SE uses twelve fitted-model seed clusters, averaging two tasks within seed."
+  ]
+}

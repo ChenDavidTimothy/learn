@@ -1,0 +1,29 @@
+{
+  "status": "INDEPENDENTLY TESTED",
+  "episodes_replayed": 192,
+  "variable_horizon_plans_checked": 13440,
+  "identical_policy_prefixes_checked": 96,
+  "maximum_absolute_errors": {
+    "replay": 1.5987211554602254e-14,
+    "observations": 1.5987211554602254e-14,
+    "estimates": 8.951173136040325e-16,
+    "metrics": 1.509903313490213e-14,
+    "endpoint": 7.105427357601002e-15,
+    "warm_cost": 4.547473508864641e-13,
+    "selected_cost": 5.684341886080802e-14,
+    "projected_gradient": 2.94408941670099e-12,
+    "action": 0.0,
+    "paired_endpoint_innovation": 3.1086244689504383e-15,
+    "summary": 8.881784197001252e-16
+  },
+  "scope": [
+    "Both added variants have16 predicted coast transitions; only the announced remaining-action horizon differs.",
+    "Commands, physical/filter states and observations match exactly until deadline-aware horizon first shrinks at action63.",
+    "Original12 versus fixed16 is a separate coast-length comparison; fixed16 versus aware16 isolates deadline metadata.",
+    "Endpoint conditional means/variances are applied only to the exact known-parameter Kalman filter.",
+    "Known-parameter residual endpoint innovations are identical across paired policies; control changes conditional means, not the information variance.",
+    "Mean-centering last action is a counterfactual with earlier history fixed; feasibility is not whole-stop success or global policy optimality.",
+    "Announced cutoff is supplied task metadata, not improved physical sensing, additional training or autonomous discovery.",
+    "Twelve fit/noise seed clusters determine MC SE after averaging the two tasks."
+  ]
+}
