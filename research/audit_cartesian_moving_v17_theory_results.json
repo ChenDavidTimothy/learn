@@ -1,0 +1,265 @@
+{
+  "status": "PASS: independent polar kinetic/EL derivation agrees with joint mechanics; no learner or milestone",
+  "audit_source_sha256": "2697ffe404e109f24facd4c9398f38ccab74c90a3b22f14142fe9d52c10f1de1",
+  "implementation_source_sha256": "358486add84531d3b487e1ce2dccd1628411b8f5f8fe1d902e8c18f9979dbd30",
+  "random_configs": 128,
+  "maximum_acceleration_or_difference_error": 4.440892098500626e-16,
+  "maximum_kinetic_error": 1.1102230246251565e-16,
+  "maximum_matched_velocity_error": 2.3592239273284576e-16,
+  "minimum_tangent_difference_sampled": 2.2457966566302723e-05,
+  "zero_command_path_checks": [
+    {
+      "r": 1.4142135623730951,
+      "theta": 0.4,
+      "cartesian_velocity_radial_tangential": [
+        0.1,
+        0.0
+      ],
+      "zero_command_acceleration_difference": [
+        -0.0013768017528243558,
+        0.003256442373729312
+      ],
+      "shortpath_checks": [
+        {
+          "h": 0.02,
+          "actual_future_separation": [
+            -2.757500217054343e-07,
+            6.522101339001551e-07
+          ],
+          "actual_past_separation": [
+            -2.7497118404440357e-07,
+            6.503680090030883e-07
+          ],
+          "leading_separation": [
+            -2.753603505648712e-07,
+            6.512884747458624e-07
+          ],
+          "leading_error": 1.0006493863883322e-09
+        },
+        {
+          "h": 0.01,
+          "actual_future_separation": [
+            -6.888878067989879e-08,
+            1.629372885503244e-07
+          ],
+          "actual_past_separation": [
+            -6.879142611104783e-08,
+            1.6270702307696894e-07
+          ],
+          "leading_separation": [
+            -6.88400876412178e-08,
+            1.628221186864656e-07
+          ],
+          "leading_error": 1.2504043169009418e-10
+        },
+        {
+          "h": 0.005,
+          "actual_future_separation": [
+            -1.7216107650597223e-08,
+            4.071992365517474e-08
+          ],
+          "actual_past_separation": [
+            -1.7203938273979702e-08,
+            4.069114045712752e-08
+          ],
+          "leading_separation": [
+            -1.721002191030445e-08,
+            4.07055296716164e-08
+          ],
+          "leading_error": 1.5627635700540867e-11
+        }
+      ]
+    },
+    {
+      "r": 1.4142135623730951,
+      "theta": 0.4,
+      "cartesian_velocity_radial_tangential": [
+        0.0,
+        0.1
+      ],
+      "zero_command_acceleration_difference": [
+        -0.0013768017528243551,
+        0.0032564423737293105
+      ],
+      "shortpath_checks": [
+        {
+          "h": 0.02,
+          "actual_future_separation": [
+            -2.762812045808971e-07,
+            6.50898567822189e-07
+          ],
+          "actual_past_separation": [
+            -2.744390834585886e-07,
+            6.516774040399298e-07
+          ],
+          "leading_separation": [
+            -2.75360350564871e-07,
+            6.512884747458621e-07
+          ],
+          "leading_error": 9.999997639797556e-10
+        },
+        {
+          "h": 0.01,
+          "actual_future_separation": [
+            -6.895520732186355e-08,
+            1.6277341052806094e-07
+          ],
+          "actual_past_separation": [
+            -6.872494218157499e-08,
+            1.628707653189565e-07
+          ],
+          "leading_separation": [
+            -6.884008764121776e-08,
+            1.6282211868646552e-07
+          ],
+          "leading_error": 1.2500010226858565e-10
+        },
+        {
+          "h": 0.005,
+          "actual_future_separation": [
+            -1.722441256291063e-08,
+            4.0699443148994874e-08
+          ],
+          "actual_past_separation": [
+            -1.7195629364863407e-08,
+            4.071161219254549e-08
+          ],
+          "leading_separation": [
+            -1.721002191030444e-08,
+            4.070552967161638e-08
+          ],
+          "leading_error": 1.5624872481212914e-11
+        }
+      ]
+    },
+    {
+      "r": 1.4142135623730951,
+      "theta": 0.4,
+      "cartesian_velocity_radial_tangential": [
+        0.1,
+        0.1
+      ],
+      "zero_command_acceleration_difference": [
+        -0.009266488253107332,
+        0.0037592812418099117
+      ],
+      "shortpath_checks": [
+        {
+          "h": 0.02,
+          "actual_future_separation": [
+            -1.8532973831142385e-06,
+            7.518604563383491e-07
+          ],
+          "actual_past_separation": [
+            -1.8532973813378817e-06,
+            7.518604552281261e-07
+          ],
+          "leading_separation": [
+            -1.8532976506214664e-06,
+            7.518562483619823e-07
+          ],
+          "leading_error": 4.216470706648465e-12
+        },
+        {
+          "h": 0.01,
+          "actual_future_separation": [
+            -4.6332439596064035e-07,
+            1.8796432510459482e-07
+          ],
+          "actual_past_separation": [
+            -4.6332439551655114e-07,
+            1.879643247715279e-07
+          ],
+          "leading_separation": [
+            -4.633244126553666e-07,
+            1.8796406209049559e-07
+          ],
+          "leading_error": 2.635434125177175e-13
+        },
+        {
+          "h": 0.005,
+          "actual_future_separation": [
+            -1.1583110226531801e-07,
+            4.6991031954490836e-08
+          ],
+          "actual_past_separation": [
+            -1.1583110226531801e-07,
+            4.6991031954490836e-08
+          ],
+          "leading_separation": [
+            -1.1583110316384165e-07,
+            4.6991015522623896e-08
+          ],
+          "leading_error": 1.6456415036850613e-14
+        }
+      ]
+    },
+    {
+      "r": 1.4142135623730951,
+      "theta": 0.4,
+      "cartesian_velocity_radial_tangential": [
+        0.0,
+        0.0
+      ],
+      "zero_command_acceleration_difference": [
+        0.0,
+        0.0
+      ],
+      "shortpath_checks": [
+        {
+          "h": 0.02,
+          "actual_future_separation": [
+            0.0,
+            -1.1102230246251565e-16
+          ],
+          "actual_past_separation": [
+            0.0,
+            -1.1102230246251565e-16
+          ],
+          "leading_separation": [
+            0.0,
+            0.0
+          ],
+          "leading_error": 1.1102230246251565e-16
+        },
+        {
+          "h": 0.01,
+          "actual_future_separation": [
+            0.0,
+            -1.1102230246251565e-16
+          ],
+          "actual_past_separation": [
+            0.0,
+            -1.1102230246251565e-16
+          ],
+          "leading_separation": [
+            0.0,
+            0.0
+          ],
+          "leading_error": 1.1102230246251565e-16
+        },
+        {
+          "h": 0.005,
+          "actual_future_separation": [
+            0.0,
+            -1.1102230246251565e-16
+          ],
+          "actual_past_separation": [
+            0.0,
+            -1.1102230246251565e-16
+          ],
+          "leading_separation": [
+            0.0,
+            0.0
+          ],
+          "leading_error": 1.1102230246251565e-16
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Nonsingular interior0<r<2 only; no finite-noise identifiability or unknown-model learning guarantee.",
+    "Mechanics functions imported as implementation under test; polar kinetic/EL/difference formulas independently constructed.",
+    "Short paths are a small mechanics falsification instrument, no learning/control comparison."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "status": "INDEPENDENT MOVING INSTRUMENT PHYSICS/INFORMATION AUDIT PASSED; NO LEARNER CLAIM",
+  "artifact_sha256": {
+    "cartesian_moving_v17_instrument.py": "b49e28ff5a5b0bf7123c95dbdafe8164cc85431889ba45a094dd337aa0b5ce17",
+    "cartesian_moving_v17_instrument_results.json": "044d32bbc81249175b0f1be58381891bed6864a9d312f9d43410777f2fc335f5",
+    "cartesian_moving_v17_question.md": "b2e0984ca135da3289d9db59f8ae0d4dc71b37f3ac2665d7c1f209f1fba4bcf7",
+    "audit_cartesian_reuse_v16_pilot.py": "1f9e9c103fe26827dbd892255f02a567e1953b84d113ea9ef6ae725f4d5a2288"
+  },
+  "audit_source_sha256": "5902407dafdc86775537de0533c7175d2f298bf2b129f0dc92380bb0d79fe527",
+  "reconstruction_errors": {
+    "matched_polar_preparations": 2.7755575615628914e-17,
+    "matched_current_positions": 0.0,
+    "matched_current_velocities": 2.7755575615628914e-17,
+    "stored_common_velocity": 3.469446951953614e-18,
+    "independent_Hamiltonian_cartesian_acceleration": 4.336808689942018e-18,
+    "analytic_acceleration_formula": 5.2048732688068764e-18,
+    "local_radial_acceleration": 5.2048732688068764e-18,
+    "local_tangent_acceleration": 1.734723475976807e-18,
+    "rest_acceleration": 0.0,
+    "stored_initial_state": 2.7755575615628914e-17,
+    "Cartesian_mean_conversion": 0.0,
+    "times": 0.0,
+    "squared_Mahalanobis": 4.547473508864641e-13,
+    "Gaussian_KL": 2.2737367544323206e-13,
+    "known_pair_Bayes_error": 1.1102230246251565e-16,
+    "Taylor_leading_term": 2.6469779601696886e-22,
+    "all_passive_Hamiltonian_states": 9.325873406851315e-15,
+    "all_Taylor_Hamiltonian_separations": 1.0103029524088925e-14,
+    "Taylor_remainder_norm": 2.6022585083035405e-22,
+    "Radau_passive_state": 9.547918011776346e-15,
+    "Radau_Taylor_separation": 8.881784197001252e-16,
+    "rotation_equivariance_positions": 1.7763568394002505e-15,
+    "rotation_invariant_information": 4.4224179873708636e-10,
+    "summary_min_known_pair_error": 0.0,
+    "summary_mean_known_pair_error": 0.0,
+    "summary_max_known_pair_error": 0.0,
+    "resources_paired_contexts": 0.0,
+    "resources_passive_episodes": 0.0,
+    "resources_passive_intervals": 0.0,
+    "resources_passive_simulated_seconds": 0.0,
+    "resources_taylor_flows": 0.0,
+    "resources_taylor_simulated_seconds": 0.0,
+    "resources_total_plant_flows": 0.0,
+    "resources_sampled_sensor_readings": 0.0,
+    "resources_hypothetical_scalar_sensor_opportunities": 0.0
+  },
+  "summary": [
+    {
+      "speed": 0.0,
+      "pairs": 6,
+      "mean_error_at_.1_.5_1_seconds": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "minimum_error_at_1_second": 0.5,
+      "maximum_error_at_1_second": 0.5
+    },
+    {
+      "speed": 0.03,
+      "pairs": 24,
+      "mean_error_at_.1_.5_1_seconds": [
+        0.49776328353243193,
+        0.4303740060999601,
+        0.19706566304555637
+      ],
+      "minimum_error_at_1_second": 0.05827604583357979,
+      "maximum_error_at_1_second": 0.3813805255914939
+    },
+    {
+      "speed": 0.1,
+      "pairs": 24,
+      "mean_error_at_.1_.5_1_seconds": [
+        0.47513699184546737,
+        0.05442300846198304,
+        1.788442833081061e-05
+      ],
+      "minimum_error_at_1_second": 1.2164740080476526e-75,
+      "maximum_error_at_1_second": 0.00021460665438512755
+    }
+  ],
+  "maximum_energy_drift": 4.85722573273506e-17,
+  "maximum_cyclic_momentum_drift": 1.1102230246251565e-16,
+  "Radau_interval_checks": 390,
+  "common_torque_tangential_discrepancy_error": 8.630249292984615e-16,
+  "passive_global_mass_scale_counterexample_rhs_error": 3.469446951953614e-18,
+  "Taylor_remainders_below_2e_minus14_meters": 38,
+  "minimum_saved_Taylor_remainder_norm": 0.0,
+  "resources": {
+    "paired_contexts": 54,
+    "passive_episodes": 108,
+    "passive_intervals": 1080,
+    "passive_simulated_seconds": 108.0,
+    "taylor_flows": 324,
+    "taylor_simulated_seconds": 1.89,
+    "total_plant_flows": 1404,
+    "sampled_sensor_readings": 0,
+    "hypothetical_scalar_sensor_opportunities": 2160
+  },
+  "reported_DOP853_rhs_evaluations": 40104,
+  "independent_qv_DOP853_rhs_evaluations": 40104,
+  "limitations": [
+    "Known fixed-pair Gaussian means with iid noise, equal priors and known timing; no sensor realizations or learned classifier.",
+    "Matched current Cartesian velocity and physical derivatives are evaluator preparations, not ordinary inputs or learned estimates.",
+    "These are forward passive observation windows, not pre-existing causal histories; no task cost of waiting/moving is evaluated.",
+    "Different passive paths establish a distinction for these specified alternatives, not general nonlinear observability, learnability or reliable finite-window diagnosis.",
+    "Passive motion cannot identify common scaling of all masses: zero-torque dynamics unchanged while known-torque response scales inversely.",
+    "Approximation starts at equal p/V; generic moving separation has quadratic leading term and generally cubic remainder, unlike the resting quartic position expansion."
+  ],
+  "wall_seconds": 1.6054656505584717
+}

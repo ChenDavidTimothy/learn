@@ -1,13 +1,67 @@
-# Active continuation: v16 independently verified; publish and continue
+# Active continuation: v16 SSH-published; moving Cartesian question underway
 
-The general-learning Goal remains ACTIVE and unresolved. The new self-contained
-living ledgerv16 is complete with the ENTIREv15 ledger as a byte-identical suffix.
-All eight fresh corpus replays, aggregate statistics and scoped independent
-numerical checks pass. Publication is the next mechanical step: commit the
-verified files, push existing SSH origin/main and verify remote SHA. Resolve the
-release commit with Git log; this precommit handoff cannot contain its own SHA.
-Then immediately continue research. V15 releasee64e48c and progress2023af5 precede
-this cycle. No routine approval is required.
+The general-learning Goal remains ACTIVE and unresolved. Latest verified living
+ledger is v16, published at `1f1af0cef125d35a9e143bc7fbdef614a60d22a1`.
+`git push origin main` succeeded over existing SSH and `git ls-remote origin
+refs/heads/main` returned exactly that SHA. The full v15 is a byte-identical suffix;
+final builder reproduces v16 exactly and every final audit hash matches. The
+publication is NOT a stopping condition. Owner PC/project .venv remain unchanged.
+
+## Current investigation after publication: no v17 ledger yet
+
+Immediately continued from the verified v16. Read cartesian_moving_v17_question.md,
+the new root instrument source/results, and independent theory. The question is
+what conditional relationships can actually be acquired without certified rest,
+constant-response propagation or supplied persistence boundaries. No next learning
+architecture has been selected. Ordinary retained estimation, generic causal
+history relations, episodic completion and direct decision reuse remain alternatives.
+
+A first-principles framing correction is independently derived: match current
+Cartesian p AND Cartesian V in the two elbow preparations. Away from singular
+poses, every NONZERO V gives different passive Cartesian acceleration. In the
+radial/tangential frame, with s=sin(phi/2),c=cos(phi/2),D=2-cos(phi)^2 and branchB
+minusA, delta=[-2s*vr*vt/D,(s*vt^2+c^2*vr^2/s)/D]. Tangential difference is strictly
+positive. Common torques affect the branch difference only radially, so cannot
+cancel the full moving difference. At REST, passive histories still coincide.
+This is a known-body/global-two-branch diagnostic, not a universal state foundation.
+
+Root passive-information instrument executes54paired contexts/108episodes,
+1080zero-torque intervals/108simsec, plus324short Taylor flows. Matches p/V and
+analytic delta to4.34e-18. No sensor noises were drawn or learner trained. For the
+specified two-known-mean Gaussian test, grid-mean Bayes errors at .1/.5/1sec are
+speed.03: .497763/.430374/.197066; speed.1: .475137/.054423/.0000178844. These are
+ORACLE conditional information diagnostics, not achieved classification or task
+performance. Waiting can supply evidence and must be charged as time/motion.
+The independent polar/geodesic theory and128random mechanical checks pass;
+independent complete artifact replay PASSES: all1080passive/324Taylor flows,
+390Radauchecks, fullnoise-law/count reconstruction; maxstate9.6e-15. Some
+Taylorremainders reach roundoff, so no universal measuredcubicrate claim.
+Audit source/results/report and independenttheory are preserved; no learner claim.
+
+A crucial independent counterexample: multiplying BOTH point masses by k scales
+M and Coriolis h together. Allzero-torque trajectories stay identical for matched
+q/v, but torque-response gain scales1/k. Passive evidence can expose configuration
+without learning absolute action consequences. Do not replace the false premise
+of mandatory branch probes by the false premise that passive motion learns all
+useful interventions. Past nonzero inputs or acquired prior structure still matter.
+
+The next substantive step must learn a less supplied relationship and test actual
+charged decisions, with feasible goals and adequate moving-history/action support.
+A new derivative/cadence theorem alone is not a milestone. Do not reintroduce exact
+rest/q/v as ordinary inputs, ban waiting without charging it, select only histories
+that force a favored method to win, or start another mixture/quadrature ladder.
+Primary Hermann/Krener1977 printedpp732–733(sectionIIIdefinitions/Theorem3.1)
+were visuallyread from authorscan; DallaLibera2020 sectionsII–IV revisited.
+cartesian_moving_v17_literature.md distinguishes localrank/globalaliases and
+finite noisy inference. Local(q,v)->(p,Jv) hasdetJ² nonzeroevenatrest; this
+doesnotremoveanotherelbow quietalias or imply forallinputs indistinguishability.
+Temporary PDF/PNGs removed; no new dependencies.
+
+Next work: freeze/audit moving acquisition contract before sampling; ordinary
+inputs onlynoisyCartesian/action/timing with independenttrain/val/test trajectories.
+Independent prospective auditors are challenging whether the proposed broad
+random-torque histories support a consequential learned relationship and fair
+conventional comparison. Do not count acquisition alone as a milestone.
 
 ## New scientific state
 
