@@ -9,7 +9,11 @@ strong relevant methods. Read the [current handoff](research/continuation_handof
 and [lessons from v17](research/research_process_lessons_v17.md) before resuming.
 The [first mechanism screen](research/error_transport_screen_findings.md) rejected
 a learned error-transport variant against stronger existing adaptation methods.
-The [campaign plan](research/campaign_plan.md) records the retirement decision.
+The [second screen](research/implicit_relation_findings.md) also rejected learned
+implicit relation conditioning on fresh bodies: conventional adapters remained
+stronger. Both candidates are retired, with reproducible results and independent
+checks. The [campaign plan](research/campaign_plan.md) records the decisions;
+the broad objective remains active and unresolved.
 No v18 result is claimed; the earlier exhaustive
 diagnostic proposal remains optional, not the default agenda.
 

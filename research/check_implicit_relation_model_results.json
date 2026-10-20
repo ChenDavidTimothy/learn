@@ -1,0 +1,61 @@
+{
+  "status": "PASS TINY RELATION/NESTING/DIFFERENTIABILITY CHECKS; NO LEARNING CLAIM",
+  "seed": 64187,
+  "source_sha256": "0aa7671292d001b9af8b49dd023de1140660e0a616e9a5fb954a6b5fbaffa7a4",
+  "plan_sha256": "dd353a51dc2cb1a9887bbb137c5b6505cd62bee6ccad8eddf7ec9cd79dfe3ecf",
+  "independent_augmented_lstsq_coefficient_max_error": 1.6653345369377348e-16,
+  "independent_query_relation_solve_max_error": 2.220446049250313e-16,
+  "diagnostic_min_singular_max_error": 2.220446049250313e-16,
+  "query_equation_residual_max": 2.7755575615628914e-17,
+  "ridge_initialization": 1.0000999995475133,
+  "A_zero_exact_nesting": {
+    "coefficient_error": 0.0,
+    "prediction_error": 0.0
+  },
+  "zero_support_base_prediction_max_error": 0.0,
+  "all_parameter_gradient_norms": {
+    "raw_ridge": 0.043730527082008315,
+    "base.0.weight": 0.39003494469311584,
+    "base.0.bias": 0.11464879372384051,
+    "base.2.weight": 0.36779004208570026,
+    "base.2.bias": 0.17406266193506387,
+    "base.4.weight": 0.41859911018488316,
+    "base.4.bias": 0.38148689221919463,
+    "vectors.0.weight": 0.4434429374022721,
+    "vectors.0.bias": 0.19309206030863665,
+    "vectors.2.weight": 0.5291755621491274,
+    "vectors.2.bias": 0.437187720320179,
+    "vectors.4.weight": 0.6364755575383941,
+    "vectors.4.bias": 0.8028137336067329,
+    "matrices.0.weight": 8.912953480821871e-05,
+    "matrices.0.bias": 4.528504029848756e-05,
+    "matrices.2.weight": 9.13827093592331e-05,
+    "matrices.2.bias": 8.094096938013909e-05,
+    "matrices.4.weight": 0.02274091975315633,
+    "matrices.4.bias": 0.043920318238241024
+  },
+  "central_directional_gradient_checks": {
+    "raw_ridge": {
+      "analytic": -0.057853079680013984,
+      "finite_difference": -0.057853079660219464,
+      "error": 1.9794520189631015e-11
+    },
+    "vectors.4.weight": {
+      "analytic": -0.13964446208360862,
+      "finite_difference": -0.13964446210490422,
+      "error": 2.1295604168969362e-11
+    },
+    "matrices.4.weight": {
+      "analytic": -0.004932009764733417,
+      "finite_difference": -0.004932009578517693,
+      "error": 1.86215723396721e-10
+    }
+  },
+  "input_support_label_query_gradient_norms": [
+    0.4191088263047075,
+    1.0690522543879362,
+    0.7405026550810876
+  ],
+  "singular_relation_raises_without_fallback": true,
+  "limitations": "Small author-independent algebra reference and unit fixtures import the candidate as tested adapter. No data sampling, physical integration, optimizer/network training, heldout result reading, OOD invertibility or capability claim. Conditioning-failure threshold1e-4 must be handled by screen diagnostics; solve_ex only catches numerical singularity."
+}

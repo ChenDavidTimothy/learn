@@ -1,3 +1,53 @@
+# Decision: close the two-candidate attempt; ultimate objective unresolved
+
+2026-10-20. The second frozen screen is complete and independently checked.
+Implicit relation conditioning fails its continuation gate on fresh bodies:
+OOD MSE at 16/64 support is .710211/.578818 versus CoDA .609899/.306228,
+ALPaCA .636735/.464097 and nested explicit .707521/.564881. Query conditioning
+is healthy. No numerical rescue, hyperparameter search, control rollout or timing
+benchmark is warranted. Read implicit_relation_findings.md and independent
+check_implicit_relation_results.md for actual evidence and finite scope.
+
+Both serious formulations in this attempt are now retired. This is the point to
+end the attempt under AGENTS.md, not declare the ultimate Goal achieved or paused.
+No third architecture is selected and no v18 ledger is justified. The scientific
+objective remains active: find an actual learning mechanism with defensible
+competitive capability. Two defeated inductive biases are negative evidence,
+not a breakthrough, a universal impossibility, or grounds to lower the standard.
+
+The next investigation starts with a fresh direction decision: identify a real,
+consequential limitation of the strongest applicable learning account, derive
+what experience must change to overcome it, and check serious existing answers
+before selecting another executable candidate. Do not infer a lack of task
+boundary handling from these stationary experiments or run old v17 diagnostics
+by default. This is a handoff of the decision, not an unexecuted experiment menu.
+
+Full earlier plans and decisions follow unchanged.
+
+---
+
+# Current second attempt: implicit relation meta-conditioning
+
+2026-10-20. Joint error transport is retired. The second independently framed
+candidate learns feature relations, conditions their coefficients on observed
+transitions by ridge regression, then solves a small relation for each query.
+Read implicit_relation_plan.md for the frozen proposal, assumptions, budgets and
+failure criteria. Original train/validation and two frozen ALPaCA/CoDA fits are
+reused. Sixteen fresh held-out bodies have been collected from the declared RNG
+before fitting; no test score has been inspected. Candidate and matched explicit
+fits each receive two learning rates and 2,000 steps, selected on validation only.
+
+Independent tiny formula/nesting/gradient checks pass. The direction critic
+supports exactly one bounded screen, with explicit capacity and stability
+caveats. This remains related to established implicit identification and learned
+feature adaptation; no novel general principle is claimed. A failure ends this
+attempt without rescue tuning; a success earns confirmation and decision tests.
+No v18 is warranted by selecting or screening another candidate.
+
+The complete prior branch decision and original proposal follow unchanged.
+
+---
+
 # Branch decision: retire joint error transport after the frozen screen
 
 2026-10-20. The one-seed exploratory screen is complete and independently checked.

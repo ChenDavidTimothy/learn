@@ -1,3 +1,74 @@
+# ACTIVE ultimate Goal; second candidate rejected and two-candidate attempt closed
+
+2026-10-20. The implicit-relation screen is complete, independently checked, and
+rejected under the frozen rules. No process remains running. Both post-v17
+candidates are retired; no v18 or breakthrough is claimed. Do not repeat fits,
+tune against test outcomes, benchmark timing, or add control rollouts to rescue
+these branches. The ultimate Goal is ACTIVE and unachieved, not blocked or paused.
+
+Current evidence: implicit OOD 16/64 scaled MSE .710211/.578818, nested explicit
+.707521/.564881, ALPaCA .636735/.464097, CoDA .609899/.306228. Correct support
+helps; learned implicit structure gives no advantage here. ID performance is near
+parity, but OOD accuracy and efficiency-parity gates fail. No saved conditioning
+failure (minimum singular .668801, maximum condition 1.497226 including wrong
+support) gives any rationale for a numerical repair. One training seed and eight
+fresh bodies per split do not establish inferential rankings or general impossibility.
+
+Read implicit_relation_findings.md, implicit_relation_plan.md, direction audit,
+and independent check_implicit_relation_results.md. Source, all four new fits,
+validation histories, frozen selection, raw forecasts, per-body errors, fresh data
+and evaluator archive remain reproducible. Existing original ALPaCA/CoDA fits are
+reused exactly. New data adds 12,288 intervals / 614.4 simulated seconds; total
+unique acquisition in both attempts is 55,296 intervals / 2,764.8 seconds. All
+costs and supplied assumptions are disclosed. No dependencies or services changed.
+
+Independent verification covers relation algebra/nesting/gradients and decisive
+result arithmetic, provenance and recorded validation selection. It does NOT
+independently rerun neural forwards, SVDs, optimizers, physical trajectories, or
+confirm training-seed generality. Verification is adequate for this rejection;
+no full replay ladder is needed. Latest verified scientific ledger remains v17.
+
+Next available scientific action is a new direction decision, not a third model
+head. Begin from a concrete capability limitation of the strongest existing
+account that matters for acquiring and using knowledge in unfamiliar physical
+systems. Derive what experience would need to change, then challenge that account
+with primary research and a serious competitor. Current stationary prediction
+screens do not themselves justify an unknown-boundary, active-exploration or
+structure-discovery mechanism. Do not choose one merely to keep running. Preserve
+intellectual freedom and the original ambition; no promise of novelty or success.
+
+Publication: commit and push this verified negative checkpoint over the existing
+SSH remote, then verify remote HEAD. The exact commit will be available in Git
+history; use current remote state as authority. Earlier snapshots follow intact.
+
+---
+
+# ACTIVE: second mechanism screen, implicit learned relations
+
+2026-10-20. Read campaign_plan.md and implicit_relation_plan.md. The first
+candidate remains retired. The broad objective is active and unresolved; no v18.
+The pending second candidate is now executable and independently fixture-checked.
+It learns an affine-in-output implicit relation, infers a rank-8 context by ridge
+from ordinary measured support labels, and solves for disjoint query predictions.
+The nested A=0 explicit model, frozen ALPaCA and CoDA are competitors. The extra
+matrix network adds capacity; successful inference alone does not prove stable
+query inversion. The predeclared conditioning threshold is checked explicitly.
+
+Fresh test data: implicit_relation_holdout*.npz and report, 16 physical bodies,
+128 trajectories, 12,288 intervals / 614.4 simulated seconds. Seed roles and source
+hashes are preserved. Original training and validation remain unchanged. Physics
+and original baselines are reused, not independently replayed wholesale.
+
+Training was launched for implicit/explicit LR .001; inspect live tool sessions
+and actual fit reports before restarting anything. Two LR .003 fits remain.
+Driver implicit_relation_screen.py saves failures and validation selections; score
+only after all four fits finish. Test values have not yet been inspected at this
+snapshot. Check current reports for a newer state. No test-informed tuning allowed.
+
+The complete prior handoff follows unchanged.
+
+---
+
 # ACTIVE Goal: first post-v17 candidate rejected quickly; no v18 ledger
 
 2026-10-20. The user resumed the revised Goal through the new attachment. The

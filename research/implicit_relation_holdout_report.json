@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE FRESH HOLDOUT; NO PREDICTION SCORES INSPECTED",
+  "seed_roles": [
+    20261020,
+    18,
+    30,
+    1,
+    "split",
+    "parameter0/initial1/action2"
+  ],
+  "ordinary_sha256": "dc8f8c2861e4e3a6e7a920e13063c1f5400e07b9e153e32655e4775323b8558c",
+  "evaluator_sha256": "d24974cfc2afd867909b14e66b9fc3fe38843f332b17dc32aeab190785a08100",
+  "source_sha256": "29deb718eb70d0d3af00829540267e826c08740a90eb64212d0959201fcc3198",
+  "physics_source_sha256": "168e71018edbd00a44d06538d7593dca90ec28476cbf88f452ec225e0f3bb4b8",
+  "plan_sha256": "dd353a51dc2cb1a9887bbb137c5b6505cd62bee6ccad8eddf7ec9cd79dfe3ecf",
+  "physical_bodies": 16,
+  "trajectories": 128,
+  "physical_intervals": 12288,
+  "simulated_seconds": 614.4,
+  "dt": 0.05,
+  "wall_seconds": 0.3252599239349365,
+  "scope": "Reuses validated unchanged acquisition instrument. No new full physics replay. True parameters evaluator-only."
+}
