@@ -1,0 +1,56 @@
+{
+  "status": "PASS PRE-FIT SOURCE-UNIT CHECKS; NO FIT/CONTROL CLAIM",
+  "artifact_sha256": {
+    "cartesian_stream_v17_learn.py": "56dc34b38a269d482d843a4207259f316c7329064aa49660dddb37592fcce5f0",
+    "cartesian_stream_v17_local.py": "36d74c4e05a8be8b649d201b4f35880dea9a6b87748c73b34419d4ae9fbba0d2",
+    "cartesian_stream_v17_learning_design.md": "db31e06fa4e4e3019eddb2e12ccb9f5998caddff9dc1ca2bf1f24813e7b8663c",
+    "cartesian_stream_v17_forks.py": "547eae9d75d690d6adc85ad81f8896f292554223a0413ab3af2d4c53c5d9609e"
+  },
+  "fixture_seed": 816274,
+  "source_imports": [
+    "__future__",
+    "argparse",
+    "hashlib",
+    "json",
+    "platform",
+    "time",
+    "pathlib",
+    "numpy",
+    "torch",
+    "threadpoolctl",
+    "cartesian_stream_v17_local"
+  ],
+  "feature_max_error": 0.0,
+  "candidate_input_max_error": 0.0,
+  "target_correction_max_error": 2.220446049250313e-16,
+  "tensor_context_max_error": 0.0,
+  "completed_append_max_error": 0.0,
+  "row_count": 48,
+  "rows_origins_match": true,
+  "future_prefix_invariance": true,
+  "production_forecast_origins_per_trajectory": [
+    16,
+    40,
+    64,
+    88,
+    112,
+    136,
+    160,
+    184,
+    208,
+    232
+  ],
+  "rollout_checks": {
+    "nonlinear": {
+      "three_member_three_block_path_max_error": 0.0,
+      "plan_autograd_vs_reference_central_difference_max_error": 3.1673706542573905e-10,
+      "max_absolute_plan_derivative": 7.237799777773396e-07
+    },
+    "local": {
+      "three_member_three_block_path_max_error": 0.0,
+      "plan_autograd_vs_reference_central_difference_max_error": 2.61587393673296e-10,
+      "max_absolute_plan_derivative": 0.0029216636492168904
+    }
+  },
+  "limitations": "Adapter unit tests import audited source; independent NumPy references do not. No actual fits, bootstrap artifacts, heldout forks or controls reproduced. Static selection/dataflow review complements these checks. Future runtime failure preservation requires separate review."
+}

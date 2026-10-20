@@ -1,3 +1,51 @@
+# Active continuation: audited moving-history pilot; weak action effects
+
+The general-learning Goal remains ACTIVE, unresolved. Latest verified ledger is
+v16 at `1f1af0cef125d35a9e143bc7fbdef614a60d22a1`; audited moving instrument
+progress is SSH-published/remoteverified at
+`7f1775cc1a1865a1680c0a4ff87399e30252c81b`. No v17ledger/release exists.
+Do not stop at a release or manufacture a breakthrough. OwnerPC/.venv unchanged.
+
+## Exact current continuation
+
+1. Read cartesian_stream_v17_acquisition_design.md, learning_design.md,
+   planner_contract.md and predictive_negative.md plus independentreports.
+2. Immutable first exploratory corpus:40continuous movingtrajectories(24/8/8),
+   10,240intervals/1,024sec,20,560scalarnoises. NOtruep/rest/q/v/B ordinaryinputs.
+   Independentallinterval+40fullHamiltonian replays and54Radauspots PASS. Corpus
+   crosses chirality182samplebrackets/39trajectories; fixedelbowperepisode false.
+3. Ordinary-only _learn.py hash56dc34b... fits12NNs/fourlocalcandidates from2,880
+   causalrenewalrows, h16. SelectedNNwidth128/decay.01,index3; localk512/ridge.001,
+   index2. ALLcandidate80valorigins and selected80sixblock/960oneblocktestorigins
+   independentlyreconstruct viaNumPyNN/augmentedSVDlocal. Sources/weights/RNG/
+   scales/dataflow PASS; notindependentAdamintermediatereplay/globaloptimum.
+4. Frozenforks:32heldoutprefixes×5commands×2intervals,320privilegedflows/32sec.
+   ALL independentlyHamiltonian/Radau/reconstructedpredictions PASS. Meancontrast
+   MSE/zero-contrast baseline .96969966NN/.95637421local: weakactioneffects,
+   NOTsuccessfulgeneralmechanism, NOTproofmodelclassincapacity. No testrescue.
+5. Frozenchargeddecisionpilot source is beingimplemented by directionagent in
+   cartesian_stream_v17_control.py; NOTYETRUN. Contract was draftedbeforefirstfit
+   scoresread (batchedscoretoolreturnedaftercontracttextwaschosen; filetiming
+   nuanceexplicitlyrecorded). Sameplanner/.2secclock; 8exactstatewitnesses first,
+   then16ordinaryepisodes, three6secgoals, no goalmemory/bodyresets. Rootmust
+   reviewsource +independentprefitplanner/dataflow checks BEFOREexecution. Preserve
+   failures, don'tchangegoals/modelsfromnegativeforks. Auditactualwitness/control.
+6. Theoryauditor may produce a prospective rootchallenged orthogonalcommand-moment
+   alternative afterforkreport; it is NOTaselectednewlearner or rescueprotocol.
+   RootderivedG=E[(Y-dhat(h))u^T|h]Cov(u)^-1 underaffine/randomizedconditionalmean.
+   Finitedurationnonlinearity, finitewindowpolicyshift andvariance are unresolved.
+7. Commit/pushverifiedprogress overexistingSSH andverifyremote; this is engineering
+   continuation, not a v17milestone. Usefuldecisions +freshreps/independentaudit
+   stillneeded for anynewledger. Immediatelycontinueresearch.
+
+Canonicalrawcorpus/fit/forks andindependentaudits preserved. Neveroverwriteoutputs;
+newoutputprefixforreproduction. Localmoduleimplementationfixture is explicitly
+notindependentaudit; actualfit/forkaudit supplies independent augmentedSVD.
+Fitfailurecheckpointsourceguard was repairedBEFOREfit, no failuresobserved.
+No newpackages/environments/services. No Goalcompletion or autonomyblocker.
+
+---
+
 # Active continuation: v16 SSH-published; moving Cartesian question underway
 
 The general-learning Goal remains ACTIVE and unresolved. Latest verified living

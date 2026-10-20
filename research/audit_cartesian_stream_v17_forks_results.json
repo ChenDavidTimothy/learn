@@ -1,0 +1,108 @@
+{
+  "status": "PASS \u2014 independent heldoutfork physics/NumPy-SVDforecast/contrast artifact replay; not control or a release",
+  "artifact_sha256": {
+    "cartesian_stream_v17_rep0_forks.json": "30d0ba10580fb47e784642f5ade2a5f0e7c02dbb4eae49c7bd97fc5ea1cf8f2b",
+    "cartesian_stream_v17_rep0_fit.json": "fbadb62a3706cabe10ea9a02676eee4b0ac08b85e29649d73141c151832d04f8",
+    "cartesian_stream_v17_rep0_weights.npz": "8e68d652af03eca27c6c304acbb99790ca74a48c1fde5b885c9405ac51ada317",
+    "cartesian_stream_v17_rep0_ordinary.npz": "d3845e64f309dcd1a1ee4e678cbe12a63d7ed9d6b4b5260c0b09089b5504b193",
+    "cartesian_stream_v17_rep0_evaluator.npz": "55a514a8743c0aca2cb5866d6a6acb6aea9e5c31dad71e1e9e40377f304dbec6",
+    "cartesian_stream_v17_forks.py": "547eae9d75d690d6adc85ad81f8896f292554223a0413ab3af2d4c53c5d9609e",
+    "cartesian_stream_v17_learn.py": "56dc34b38a269d482d843a4207259f316c7329064aa49660dddb37592fcce5f0",
+    "cartesian_stream_v17_local.py": "36d74c4e05a8be8b649d201b4f35880dea9a6b87748c73b34419d4ae9fbba0d2",
+    "cartesian_stream_v17_learning_design.md": "db31e06fa4e4e3019eddb2e12ccb9f5998caddff9dc1ca2bf1f24813e7b8663c",
+    "cartesian_stream_v17_rep0_acquisition.json": "44d6606a3f7d5d3a14f49a8188b512a1a41b84a718c2c34dfec48ae43a2bf1a0",
+    "cartesian_stream_v17_acquire.py": "54f5b71020a163aa76326d94fefc7db8f5723947b6efceed4139ec5a5910f6f2",
+    "coupled_context_v14_pilot.py": "358486add84531d3b487e1ce2dccd1628411b8f5f8fe1d902e8c18f9979dbd30",
+    "audit_cartesian_reuse_v16_pilot.py": "1f9e9c103fe26827dbd892255f02a567e1953b84d113ea9ef6ae725f4d5a2288"
+  },
+  "audit_source_sha256": "03eaf3bee47a37a4224512825b64b71c728ee0cf1af8e57419dbd3ce96f05c2a",
+  "maximum_reconstruction_errors": {
+    "training_context_mean": 0.0,
+    "training_context_std": 0.0,
+    "training_target_mean": 1.2197274440461925e-18,
+    "training_target_std": 3.469446951953614e-18,
+    "training_origins": 0.0,
+    "bootstrap_ids": 0.0,
+    "bootstrap_rows": 0.0,
+    "command_bank": 0.0,
+    "NumPy_independent_nonlinear_forecasts": 4.440892098500626e-16,
+    "NumPy_independent_local_forecasts": 2.375877272697835e-14,
+    "all_Hamiltonian_fork_states": 6.286082765427636e-13,
+    "all_Hamiltonian_fork_cartesian_positions": 1.4432899320127035e-13,
+    "summary_nonlinear_ensemble_mean_absolute_coordinate_mse": 0.0,
+    "summary_nonlinear_member_absolute_coordinate_mse": 0.0,
+    "summary_nonlinear_ensemble_mean_contrast_coordinate_mse": 0.0,
+    "summary_nonlinear_contrast_coordinate_mse_by_future_sample": 0.0,
+    "summary_nonlinear_zero_contrast_coordinate_mse": 0.0,
+    "summary_nonlinear_contrast_mse_over_zero_contrast": 0.0,
+    "summary_nonlinear_mean_true_contrast_norm_by_future_sample": 0.0,
+    "summary_nonlinear_mean_predicted_contrast_norm_by_future_sample": 0.0,
+    "summary_local_ensemble_mean_absolute_coordinate_mse": 0.0,
+    "summary_local_member_absolute_coordinate_mse": 0.0,
+    "summary_local_ensemble_mean_contrast_coordinate_mse": 0.0,
+    "summary_local_contrast_coordinate_mse_by_future_sample": 0.0,
+    "summary_local_zero_contrast_coordinate_mse": 0.0,
+    "summary_local_contrast_mse_over_zero_contrast": 0.0,
+    "summary_local_mean_true_contrast_norm_by_future_sample": 0.0,
+    "summary_local_mean_predicted_contrast_norm_by_future_sample": 0.0
+  },
+  "summary": {
+    "nonlinear": {
+      "ensemble_mean_absolute_coordinate_mse": 2.6205466908532295e-05,
+      "member_absolute_coordinate_mse": 2.814587419035493e-05,
+      "ensemble_mean_contrast_coordinate_mse": 1.1528399264565029e-05,
+      "contrast_coordinate_mse_by_future_sample": [
+        1.366032030471578e-06,
+        2.1690766498658477e-05
+      ],
+      "zero_contrast_coordinate_mse": 1.1888628726830752e-05,
+      "contrast_mse_over_zero_contrast": 0.9696996625478982,
+      "mean_true_contrast_norm_by_future_sample": [
+        0.0015116908194544637,
+        0.006056438866947964
+      ],
+      "mean_predicted_contrast_norm_by_future_sample": [
+        0.0003400372518213613,
+        0.0009998685969728942
+      ]
+    },
+    "local": {
+      "ensemble_mean_absolute_coordinate_mse": 1.8642639307689285e-05,
+      "member_absolute_coordinate_mse": 1.9675225944526066e-05,
+      "ensemble_mean_contrast_coordinate_mse": 1.1369977869823536e-05,
+      "contrast_coordinate_mse_by_future_sample": [
+        1.3598489295588842e-06,
+        2.138010681008819e-05
+      ],
+      "zero_contrast_coordinate_mse": 1.1888628726830752e-05,
+      "contrast_mse_over_zero_contrast": 0.9563742069060746,
+      "mean_true_contrast_norm_by_future_sample": [
+        0.0015116908194544637,
+        0.006056438866947964
+      ],
+      "mean_predicted_contrast_norm_by_future_sample": [
+        0.0006355868819257787,
+        0.002517324072305763
+      ]
+    }
+  },
+  "resources": {
+    "contexts": 32,
+    "counterfactual_preparations": 160,
+    "plant_flows": 320,
+    "privileged_physical_seconds": 32.0,
+    "plant_rhs_evaluations": 8824,
+    "ordinary_new_experience": 0,
+    "sensor_draws": 0
+  },
+  "independent_Radau_interval_checks": 66,
+  "maximum_Radau_state_error": 3.4061642395499803e-13,
+  "limitations": [
+    "Frozen fit weights/selectedhyperparameters reused; this is independent forecast reconstruction, not independent training optimization.",
+    "All320fork flows checked with independent Hamiltonian code;66Radau intervals are a separate adaptive solver check.",
+    "32contexts derive from8fixedtest trajectories, not32independentbodies.",
+    "Fork truth/state used solely for evaluator replay; no ordinary fitting/modelselection/update.",
+    "Conditional action contrasts and absolute prediction scores do not establish useful sustained control or universal learning."
+  ],
+  "wall_seconds": 0.6190450191497803
+}

@@ -1,0 +1,9 @@
+{
+  "status": "NUMERICAL FIXTURES PASSED; NO ACQUIRED DATA OR FITTED RESEARCH RESULTS",
+  "local_source_sha256": "36d74c4e05a8be8b649d201b4f35880dea9a6b87748c73b34419d4ae9fbba0d2",
+  "independent_augmented_lstsq_coefficient_max_difference": 3.5860203695392556e-14,
+  "independent_weight_max_difference": 2.6020852139652106e-18,
+  "normal_equation_max_residual": 9.71445146547012e-16,
+  "constant_intercept_and_append_max_difference": 0.0,
+  "training_inputs_copied": true
+}

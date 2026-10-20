@@ -1,0 +1,817 @@
+{
+  "status": "PASS \u2014 independent complete moving-acquisition RNG/camera/Hamiltonian/coverage audit; no learner or control result",
+  "artifact_sha256": {
+    "cartesian_stream_v17_rep0_acquisition.json": "44d6606a3f7d5d3a14f49a8188b512a1a41b84a718c2c34dfec48ae43a2bf1a0",
+    "cartesian_stream_v17_rep0_ordinary.npz": "d3845e64f309dcd1a1ee4e678cbe12a63d7ed9d6b4b5260c0b09089b5504b193",
+    "cartesian_stream_v17_rep0_evaluator.npz": "55a514a8743c0aca2cb5866d6a6acb6aea9e5c31dad71e1e9e40377f304dbec6",
+    "cartesian_stream_v17_acquire.py": "54f5b71020a163aa76326d94fefc7db8f5723947b6efceed4139ec5a5910f6f2",
+    "cartesian_stream_v17_acquisition_design.md": "2dd9199b742a176960d07b3c7e122fe64f718222c3dd99fae04c20ef3278fe8e",
+    "coupled_context_v14_pilot.py": "358486add84531d3b487e1ce2dccd1628411b8f5f8fe1d902e8c18f9979dbd30",
+    "audit_cartesian_reuse_v16_pilot.py": "1f9e9c103fe26827dbd892255f02a567e1953b84d113ea9ef6ae725f4d5a2288"
+  },
+  "audit_source_sha256": "bf86f391df8226b0446f9cc75710d36961392bce99ffccf37345b2591a2795e5",
+  "maximum_reconstruction_errors": {
+    "initial_state_rng": 0.0,
+    "initial_cartesian_velocity": 2.7755575615628914e-17,
+    "all_command_rng": 0.0,
+    "all_sensor_noise_rng": 0.0,
+    "all_seed_paths": 0.0,
+    "held_two_command_commitment": 0.0,
+    "all_noisy_camera_readings": 0.0,
+    "all_local_Hamiltonian_RK4_intervals": 1.3450573987938697e-11,
+    "complete_Hamiltonian_trajectory_states": 2.4654127628309652e-09,
+    "complete_Hamiltonian_trajectory_positions": 2.7223218124206028e-09,
+    "coverage_maximum_energy_work_residual": 0.0,
+    "coverage_minimum_mass_eigenvalue": 0.0,
+    "coverage_joint_coordinate_step_abs_0": 0.0,
+    "coverage_joint_coordinate_step_abs_0.01": 0.0,
+    "coverage_joint_coordinate_step_abs_0.1": 0.0,
+    "coverage_joint_coordinate_step_abs_0.5": 0.0,
+    "coverage_joint_coordinate_step_abs_0.9": 0.0,
+    "coverage_joint_coordinate_step_abs_0.99": 0.0,
+    "coverage_joint_coordinate_step_abs_1": 0.0,
+    "coverage_distal_phase_step_abs_0": 0.0,
+    "coverage_distal_phase_step_abs_0.01": 0.0,
+    "coverage_distal_phase_step_abs_0.1": 0.0,
+    "coverage_distal_phase_step_abs_0.5": 0.0,
+    "coverage_distal_phase_step_abs_0.9": 0.0,
+    "coverage_distal_phase_step_abs_0.99": 0.0,
+    "coverage_distal_phase_step_abs_1": 0.0,
+    "coverage_camera_true_step_norm_0": 0.0,
+    "coverage_camera_true_step_norm_0.01": 0.0,
+    "coverage_camera_true_step_norm_0.1": 0.0,
+    "coverage_camera_true_step_norm_0.5": 0.0,
+    "coverage_camera_true_step_norm_0.9": 0.0,
+    "coverage_camera_true_step_norm_0.99": 0.0,
+    "coverage_camera_true_step_norm_1": 0.0,
+    "coverage_cartesian_speed_0": 0.0,
+    "coverage_cartesian_speed_0.01": 0.0,
+    "coverage_cartesian_speed_0.1": 0.0,
+    "coverage_cartesian_speed_0.5": 0.0,
+    "coverage_cartesian_speed_0.9": 0.0,
+    "coverage_cartesian_speed_0.99": 0.0,
+    "coverage_cartesian_speed_1": 0.0,
+    "coverage_joint_speed_norm_0": 0.0,
+    "coverage_joint_speed_norm_0.01": 0.0,
+    "coverage_joint_speed_norm_0.1": 0.0,
+    "coverage_joint_speed_norm_0.5": 0.0,
+    "coverage_joint_speed_norm_0.9": 0.0,
+    "coverage_joint_speed_norm_0.99": 0.0,
+    "coverage_joint_speed_norm_1": 0.0,
+    "coverage_absolute_jacobian_determinant_0": 0.0,
+    "coverage_absolute_jacobian_determinant_0.01": 0.0,
+    "coverage_absolute_jacobian_determinant_0.1": 0.0,
+    "coverage_absolute_jacobian_determinant_0.5": 0.0,
+    "coverage_absolute_jacobian_determinant_0.9": 0.0,
+    "coverage_absolute_jacobian_determinant_0.99": 0.0,
+    "coverage_absolute_jacobian_determinant_1": 0.0,
+    "coverage_sampled_near_singular_abs_det_below_point01": 0.0
+  },
+  "resources": {
+    "trajectories": 40,
+    "physical_intervals": 10240,
+    "physical_seconds": 1024.0,
+    "passive_prefix_intervals": 320,
+    "passive_prefix_seconds": 32.0,
+    "intervention_intervals": 9920,
+    "intervention_seconds": 992.0,
+    "scalar_noise_draws": 20560,
+    "cartesian_camera_reads": 10280,
+    "plant_rhs_evaluations": 285728
+  },
+  "initial_preparations_evaluator_only": [
+    {
+      "split": 0,
+      "index": 0,
+      "theta": 1.6977710579803702,
+      "phi": 2.358701351874254,
+      "sign": -1.0,
+      "speed": 0.05312356421573998,
+      "direction": 2.941062987635042
+    },
+    {
+      "split": 0,
+      "index": 1,
+      "theta": -2.066357981444903,
+      "phi": 1.217095513627147,
+      "sign": 1.0,
+      "speed": 0.07113579159088217,
+      "direction": 1.452220089886854
+    },
+    {
+      "split": 0,
+      "index": 2,
+      "theta": 1.3597452211478291,
+      "phi": 1.695872464378413,
+      "sign": -1.0,
+      "speed": 0.11653426498827577,
+      "direction": 3.1055953534692904
+    },
+    {
+      "split": 0,
+      "index": 3,
+      "theta": -0.8115633166586571,
+      "phi": 1.3619181366395305,
+      "sign": -1.0,
+      "speed": 0.08952110903274728,
+      "direction": -2.0634067515642713
+    },
+    {
+      "split": 0,
+      "index": 4,
+      "theta": 0.3234395842143787,
+      "phi": 1.505440750246804,
+      "sign": 1.0,
+      "speed": 0.05001325068984808,
+      "direction": -1.7826750650704655
+    },
+    {
+      "split": 0,
+      "index": 5,
+      "theta": 2.1303572791397745,
+      "phi": 2.5025916207928915,
+      "sign": -1.0,
+      "speed": 0.09992268426083648,
+      "direction": 2.992862702990738
+    },
+    {
+      "split": 0,
+      "index": 6,
+      "theta": -1.699794163846898,
+      "phi": 2.019922363241406,
+      "sign": 1.0,
+      "speed": 0.08270706907412567,
+      "direction": 0.06153359524357649
+    },
+    {
+      "split": 0,
+      "index": 7,
+      "theta": -1.1696798932800958,
+      "phi": 1.4653964413127647,
+      "sign": 1.0,
+      "speed": 0.054219065111010115,
+      "direction": -1.6426678573351592
+    },
+    {
+      "split": 0,
+      "index": 8,
+      "theta": -1.3088003867895432,
+      "phi": 1.8404063856283783,
+      "sign": -1.0,
+      "speed": 0.04750472531044414,
+      "direction": -0.8861891750090867
+    },
+    {
+      "split": 0,
+      "index": 9,
+      "theta": 2.1342267437908493,
+      "phi": 0.9318467834877601,
+      "sign": 1.0,
+      "speed": 0.06382775919903352,
+      "direction": 1.4763553619980927
+    },
+    {
+      "split": 0,
+      "index": 10,
+      "theta": -2.2276764140473904,
+      "phi": 0.537830049259284,
+      "sign": -1.0,
+      "speed": 0.06932514773374612,
+      "direction": -2.2623059467138473
+    },
+    {
+      "split": 0,
+      "index": 11,
+      "theta": -1.386556304150201,
+      "phi": 2.6139122732276605,
+      "sign": -1.0,
+      "speed": 0.046097609944610624,
+      "direction": -0.12111135522947869
+    },
+    {
+      "split": 0,
+      "index": 12,
+      "theta": -3.0281082391115204,
+      "phi": 1.681162835561235,
+      "sign": 1.0,
+      "speed": 0.03325271375904141,
+      "direction": -2.0905201274773253
+    },
+    {
+      "split": 0,
+      "index": 13,
+      "theta": -2.189191238224357,
+      "phi": 0.5496491409373302,
+      "sign": 1.0,
+      "speed": 0.080534226246463,
+      "direction": -0.9681236682851408
+    },
+    {
+      "split": 0,
+      "index": 14,
+      "theta": -1.8583707021300033,
+      "phi": 1.6350192000253032,
+      "sign": -1.0,
+      "speed": 0.03136534376056428,
+      "direction": 0.6060269630987052
+    },
+    {
+      "split": 0,
+      "index": 15,
+      "theta": 0.7781554420794738,
+      "phi": 0.9259709467840828,
+      "sign": 1.0,
+      "speed": 0.08326720093315763,
+      "direction": -2.9852737458589864
+    },
+    {
+      "split": 0,
+      "index": 16,
+      "theta": 2.222796313168775,
+      "phi": 2.176159987662738,
+      "sign": 1.0,
+      "speed": 0.07788615554462573,
+      "direction": 2.721544134476031
+    },
+    {
+      "split": 0,
+      "index": 17,
+      "theta": -2.9880650550050927,
+      "phi": 1.9672974460063872,
+      "sign": -1.0,
+      "speed": 0.05349091403400476,
+      "direction": 0.16108856446892972
+    },
+    {
+      "split": 0,
+      "index": 18,
+      "theta": 2.725913415483329,
+      "phi": 1.9271254070628805,
+      "sign": 1.0,
+      "speed": 0.02046161557659441,
+      "direction": 1.4016160723544973
+    },
+    {
+      "split": 0,
+      "index": 19,
+      "theta": -1.2425424996710634,
+      "phi": 1.9032120581508534,
+      "sign": -1.0,
+      "speed": 0.06998081280219735,
+      "direction": -0.388485732666378
+    },
+    {
+      "split": 0,
+      "index": 20,
+      "theta": 2.0017015625525136,
+      "phi": 0.9195667333940347,
+      "sign": -1.0,
+      "speed": 0.04763786432343162,
+      "direction": 0.20630983914997092
+    },
+    {
+      "split": 0,
+      "index": 21,
+      "theta": 1.8083190521665404,
+      "phi": 2.5527415611446003,
+      "sign": 1.0,
+      "speed": 0.11497872828896635,
+      "direction": -0.5184831889212131
+    },
+    {
+      "split": 0,
+      "index": 22,
+      "theta": 1.9862263799911224,
+      "phi": 1.8742547993929572,
+      "sign": -1.0,
+      "speed": 0.06775638029389833,
+      "direction": 0.311485080847854
+    },
+    {
+      "split": 0,
+      "index": 23,
+      "theta": 2.4072236193355696,
+      "phi": 2.090936227147469,
+      "sign": -1.0,
+      "speed": 0.028356824527538196,
+      "direction": 2.681385413175801
+    },
+    {
+      "split": 1,
+      "index": 0,
+      "theta": -2.0669818033902434,
+      "phi": 0.7387769871859187,
+      "sign": -1.0,
+      "speed": 0.08385508690289795,
+      "direction": -1.2691415464346751
+    },
+    {
+      "split": 1,
+      "index": 1,
+      "theta": -1.2272352801430566,
+      "phi": 2.584658582304772,
+      "sign": -1.0,
+      "speed": 0.05944156436977026,
+      "direction": 2.904402210726327
+    },
+    {
+      "split": 1,
+      "index": 2,
+      "theta": -1.0941248710431708,
+      "phi": 1.3932882256221186,
+      "sign": 1.0,
+      "speed": 0.06202376805625495,
+      "direction": 1.4190828510209377
+    },
+    {
+      "split": 1,
+      "index": 3,
+      "theta": 3.133825414333148,
+      "phi": 0.5646387424229462,
+      "sign": -1.0,
+      "speed": 0.11121079924359459,
+      "direction": 1.9653053772476277
+    },
+    {
+      "split": 1,
+      "index": 4,
+      "theta": -0.002501042482829341,
+      "phi": 2.465699428912029,
+      "sign": 1.0,
+      "speed": 0.09795875762123347,
+      "direction": -1.0658014232757371
+    },
+    {
+      "split": 1,
+      "index": 5,
+      "theta": 0.26831683811314955,
+      "phi": 0.977923053257411,
+      "sign": -1.0,
+      "speed": 0.06736096160492501,
+      "direction": -2.1934580478990573
+    },
+    {
+      "split": 1,
+      "index": 6,
+      "theta": -2.952725451276293,
+      "phi": 0.6315310039880495,
+      "sign": -1.0,
+      "speed": 0.05049468161623742,
+      "direction": -2.715994763819655
+    },
+    {
+      "split": 1,
+      "index": 7,
+      "theta": 1.2980085867348183,
+      "phi": 0.5777161662741994,
+      "sign": -1.0,
+      "speed": 0.08520013318402746,
+      "direction": 0.18469913722124565
+    },
+    {
+      "split": 2,
+      "index": 0,
+      "theta": 1.2418886417504131,
+      "phi": 2.1416789514719614,
+      "sign": 1.0,
+      "speed": 0.11108028558337027,
+      "direction": 0.053390160595137015
+    },
+    {
+      "split": 2,
+      "index": 1,
+      "theta": 1.786386605656567,
+      "phi": 1.859116002120568,
+      "sign": 1.0,
+      "speed": 0.08965637886936899,
+      "direction": -0.4748843410162191
+    },
+    {
+      "split": 2,
+      "index": 2,
+      "theta": 1.3100399551017619,
+      "phi": 0.8264715424234651,
+      "sign": -1.0,
+      "speed": 0.07257505382015379,
+      "direction": -0.7658765927410927
+    },
+    {
+      "split": 2,
+      "index": 3,
+      "theta": 0.3917979706914978,
+      "phi": 0.6478862186163795,
+      "sign": -1.0,
+      "speed": 0.038635080160533734,
+      "direction": -2.125329687753003
+    },
+    {
+      "split": 2,
+      "index": 4,
+      "theta": -1.2931709112223573,
+      "phi": 1.8487561145498694,
+      "sign": -1.0,
+      "speed": 0.054586486462986444,
+      "direction": 0.6628306051101691
+    },
+    {
+      "split": 2,
+      "index": 5,
+      "theta": 0.19903429643588888,
+      "phi": 2.678788798150155,
+      "sign": -1.0,
+      "speed": 0.08944072572491352,
+      "direction": 1.0332908535447975
+    },
+    {
+      "split": 2,
+      "index": 6,
+      "theta": 1.1122553065507752,
+      "phi": 1.2506847195441448,
+      "sign": -1.0,
+      "speed": 0.11430070648469795,
+      "direction": -1.6165844615445553
+    },
+    {
+      "split": 2,
+      "index": 7,
+      "theta": -1.0307279079810456,
+      "phi": 0.4449500973124391,
+      "sign": 1.0,
+      "speed": 0.11914893597959267,
+      "direction": -1.2974303608302926
+    }
+  ],
+  "coverage_reconstructed": {
+    "maximum_energy_work_residual": 7.051664807633529e-12,
+    "minimum_mass_eigenvalue": 0.17157291370107564,
+    "joint_coordinate_step_abs": {
+      "0": 2.270711121354907e-07,
+      "0.01": 0.0003842141467143234,
+      "0.1": 0.003924224183752318,
+      "0.5": 0.028079855990772673,
+      "0.9": 0.10148219869670747,
+      "0.99": 0.21356647358583944,
+      "1": 0.4244148183624006
+    },
+    "distal_phase_step_abs": {
+      "0": 4.08772494076004e-07,
+      "0.01": 0.0004660318184304413,
+      "0.1": 0.0051115227666525655,
+      "0.5": 0.03639168334493337,
+      "0.9": 0.10499373768475849,
+      "0.99": 0.16818931214036473,
+      "1": 0.23908400183664114
+    },
+    "camera_true_step_norm": {
+      "0": 0.000138892394760794,
+      "0.01": 0.0023551083162639814,
+      "0.1": 0.007970401995159087,
+      "0.5": 0.03452054959759569,
+      "0.9": 0.09370194557746267,
+      "0.99": 0.14791756921675236,
+      "1": 0.18875136491122768
+    },
+    "cartesian_speed": {
+      "0": 0.0006402795308115621,
+      "0.01": 0.023492200038096687,
+      "0.1": 0.07952971581482327,
+      "0.5": 0.34543550030517445,
+      "0.9": 0.9332429309359331,
+      "0.99": 1.4767615133473961,
+      "1": 1.905881961791912
+    },
+    "joint_speed_norm": {
+      "0": 0.001387098779231459,
+      "0.01": 0.03025313981971561,
+      "0.1": 0.11287133226328787,
+      "0.5": 0.5288371174138606,
+      "0.9": 1.4152321984806655,
+      "0.99": 2.6773278935965923,
+      "1": 4.681226048162684
+    },
+    "absolute_jacobian_determinant": {
+      "0": 0.0002495652993762073,
+      "0.01": 0.016995325714372223,
+      "0.1": 0.19651317157135828,
+      "0.5": 0.7640566655994085,
+      "0.9": 0.9914882639767141,
+      "0.99": 0.9998917295469452,
+      "1": 0.9999999653710457
+    },
+    "sampled_near_singular_abs_det_below_point01": 67
+  },
+  "additional_support": {
+    "sample_bracketed_jacobian_sign_changes": 182,
+    "trajectories_with_bracketed_sign_change": 39
+  },
+  "independent_adaptive_Radau_checks": [
+    {
+      "trajectory": 0,
+      "interval": 0,
+      "maximum_state_difference": 4.440892098500626e-16
+    },
+    {
+      "trajectory": 0,
+      "interval": 127,
+      "maximum_state_difference": 1.915134717478395e-15
+    },
+    {
+      "trajectory": 1,
+      "interval": 0,
+      "maximum_state_difference": 8.881784197001252e-16
+    },
+    {
+      "trajectory": 2,
+      "interval": 0,
+      "maximum_state_difference": 4.440892098500626e-16
+    },
+    {
+      "trajectory": 3,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 4,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 4,
+      "interval": 127,
+      "maximum_state_difference": 8.326672684688674e-16
+    },
+    {
+      "trajectory": 5,
+      "interval": 0,
+      "maximum_state_difference": 4.440892098500626e-16
+    },
+    {
+      "trajectory": 6,
+      "interval": 0,
+      "maximum_state_difference": 1.3877787807814457e-17
+    },
+    {
+      "trajectory": 7,
+      "interval": 0,
+      "maximum_state_difference": 3.469446951953614e-18
+    },
+    {
+      "trajectory": 8,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 8,
+      "interval": 127,
+      "maximum_state_difference": 1.7763568394002505e-15
+    },
+    {
+      "trajectory": 9,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 10,
+      "interval": 0,
+      "maximum_state_difference": 0.0
+    },
+    {
+      "trajectory": 11,
+      "interval": 0,
+      "maximum_state_difference": 4.440892098500626e-16
+    },
+    {
+      "trajectory": 12,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 12,
+      "interval": 127,
+      "maximum_state_difference": 2.6290081223123707e-13
+    },
+    {
+      "trajectory": 13,
+      "interval": 0,
+      "maximum_state_difference": 1.249000902703301e-16
+    },
+    {
+      "trajectory": 14,
+      "interval": 0,
+      "maximum_state_difference": 6.938893903907228e-18
+    },
+    {
+      "trajectory": 15,
+      "interval": 0,
+      "maximum_state_difference": 1.2212453270876722e-15
+    },
+    {
+      "trajectory": 16,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 16,
+      "interval": 127,
+      "maximum_state_difference": 2.1005419625907962e-13
+    },
+    {
+      "trajectory": 17,
+      "interval": 0,
+      "maximum_state_difference": 4.440892098500626e-16
+    },
+    {
+      "trajectory": 18,
+      "interval": 0,
+      "maximum_state_difference": 1.734723475976807e-18
+    },
+    {
+      "trajectory": 19,
+      "interval": 0,
+      "maximum_state_difference": 1.3877787807814457e-17
+    },
+    {
+      "trajectory": 20,
+      "interval": 0,
+      "maximum_state_difference": 1.0408340855860843e-17
+    },
+    {
+      "trajectory": 20,
+      "interval": 127,
+      "maximum_state_difference": 3.1086244689504383e-15
+    },
+    {
+      "trajectory": 21,
+      "interval": 0,
+      "maximum_state_difference": 6.661338147750939e-16
+    },
+    {
+      "trajectory": 22,
+      "interval": 0,
+      "maximum_state_difference": 4.440892098500626e-16
+    },
+    {
+      "trajectory": 23,
+      "interval": 0,
+      "maximum_state_difference": 1.734723475976807e-18
+    },
+    {
+      "trajectory": 24,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 24,
+      "interval": 127,
+      "maximum_state_difference": 1.7763568394002505e-15
+    },
+    {
+      "trajectory": 24,
+      "interval": 166,
+      "maximum_state_difference": 1.3239409568654992e-14
+    },
+    {
+      "trajectory": 25,
+      "interval": 0,
+      "maximum_state_difference": 2.7755575615628914e-17
+    },
+    {
+      "trajectory": 26,
+      "interval": 0,
+      "maximum_state_difference": 1.3877787807814457e-17
+    },
+    {
+      "trajectory": 27,
+      "interval": 0,
+      "maximum_state_difference": 4.440892098500626e-16
+    },
+    {
+      "trajectory": 28,
+      "interval": 0,
+      "maximum_state_difference": 2.7755575615628914e-17
+    },
+    {
+      "trajectory": 28,
+      "interval": 127,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 29,
+      "interval": 0,
+      "maximum_state_difference": 1.1102230246251565e-16
+    },
+    {
+      "trajectory": 30,
+      "interval": 0,
+      "maximum_state_difference": 4.440892098500626e-16
+    },
+    {
+      "trajectory": 31,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 31,
+      "interval": 253,
+      "maximum_state_difference": 9.734435479913373e-13
+    },
+    {
+      "trajectory": 31,
+      "interval": 254,
+      "maximum_state_difference": 4.263256414560601e-13
+    },
+    {
+      "trajectory": 32,
+      "interval": 0,
+      "maximum_state_difference": 2.7755575615628914e-17
+    },
+    {
+      "trajectory": 32,
+      "interval": 127,
+      "maximum_state_difference": 3.774758283725532e-14
+    },
+    {
+      "trajectory": 32,
+      "interval": 182,
+      "maximum_state_difference": 2.1316282072803006e-14
+    },
+    {
+      "trajectory": 33,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 34,
+      "interval": 0,
+      "maximum_state_difference": 1.734723475976807e-18
+    },
+    {
+      "trajectory": 35,
+      "interval": 0,
+      "maximum_state_difference": 1.3322676295501878e-15
+    },
+    {
+      "trajectory": 36,
+      "interval": 0,
+      "maximum_state_difference": 5.551115123125783e-17
+    },
+    {
+      "trajectory": 36,
+      "interval": 127,
+      "maximum_state_difference": 4.440892098500626e-16
+    },
+    {
+      "trajectory": 37,
+      "interval": 0,
+      "maximum_state_difference": 4.440892098500626e-16
+    },
+    {
+      "trajectory": 38,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    },
+    {
+      "trajectory": 39,
+      "interval": 0,
+      "maximum_state_difference": 2.220446049250313e-16
+    }
+  ],
+  "maximum_Radau_difference": 9.734435479913373e-13,
+  "extreme_interval_indices": {
+    "cartesian_speed": [
+      32,
+      182
+    ],
+    "joint_speed": [
+      31,
+      254
+    ],
+    "near_singular": [
+      24,
+      166
+    ],
+    "qstep": [
+      31,
+      253
+    ],
+    "distal_phase": [
+      31,
+      253
+    ]
+  },
+  "audit_work": {
+    "local_Hamiltonian_intervals": 10240,
+    "complete_Hamiltonian_replayed_trajectories": 40,
+    "RK4_substeps_per_interval": 128,
+    "adaptive_Radau_intervals": 54
+  },
+  "limitations": [
+    "No canonical mechanics/learner implementation imported; physics helper is previously independently derived Hamiltonian code reused here, not a fresh independent derivation claim.",
+    "Stored RHS counter sums independently reconstruct; audit does not observe historical walltime or recreate original DOP853 evaluation counts with another solver.",
+    "Quantiles/sign changes describe sampled states; they are not uniform continuous-time support/aliasing guarantees or hidden-state filters.",
+    "Single exploratory corpus; overlapping rows not independent learned bodies.",
+    "Ordinary-file schema separation verified; later learner source still requires dataflow audit.",
+    "No learned predictor, heldoutfork forecast, taskcontrol, or milestone claim."
+  ],
+  "wall_seconds": 2.8508639335632324
+}
