@@ -1,0 +1,66 @@
+{
+  "status": "PASS PRE-CONTROL SOURCE/NUMERICAL UNIT CHECK; NO PHYSICAL EPISODE EXECUTED",
+  "artifact_sha256": {
+    "cartesian_stream_v17_control.py": "220f12b194e31e32cea916cb0d65628d5ee0ab15ea3f3de1e6ccfd40b23814ca",
+    "cartesian_stream_v17_planner_contract.md": "35d35de822a5d33767b616a2f15dd71a552989fceffb03696b412b150cccec91",
+    "cartesian_stream_v17_learn.py": "56dc34b38a269d482d843a4207259f316c7329064aa49660dddb37592fcce5f0",
+    "cartesian_stream_v17_local.py": "36d74c4e05a8be8b649d201b4f35880dea9a6b87748c73b34419d4ae9fbba0d2",
+    "cartesian_stream_v17_rep0_ordinary.npz": "d3845e64f309dcd1a1ee4e678cbe12a63d7ed9d6b4b5260c0b09089b5504b193",
+    "cartesian_stream_v17_rep0_fit.json": "fbadb62a3706cabe10ea9a02676eee4b0ac08b85e29649d73141c151832d04f8",
+    "cartesian_stream_v17_rep0_weights.npz": "8e68d652af03eca27c6c304acbb99790ca74a48c1fde5b885c9405ac51ada317"
+  },
+  "selected_actual_model_loss_gradient_checks": {
+    "nonlinear": {
+      "cost": 0.6023771200937212,
+      "torch_vs_numpy_cost_error": 2.220446049250313e-16,
+      "torch_vs_numpy_gradient_error": 5.499073418846478e-16,
+      "numpy_derivative_vs_scalar_finite_difference_error": 3.1357227092687623e-09,
+      "max_absolute_gradient": 0.20324817554050698
+    },
+    "local": {
+      "cost": 0.48117202932006886,
+      "torch_vs_numpy_cost_error": 1.304512053934559e-14,
+      "torch_vs_numpy_gradient_error": 7.979727989493313e-16,
+      "numpy_derivative_vs_scalar_finite_difference_error": 1.7704192625811466e-09,
+      "max_absolute_gradient": 0.10084419413517567
+    }
+  },
+  "mock_optimizer_branch_checks": {
+    "failed_equal_finite": {
+      "fallback": false,
+      "reported_unsuccessful": true,
+      "gradient_calls": 4
+    },
+    "worse_final": {
+      "fallback": true,
+      "reported_unsuccessful": true,
+      "gradient_calls": 4
+    },
+    "infeasible_final": {
+      "fallback": true,
+      "reported_unsuccessful": true,
+      "gradient_calls": 4
+    },
+    "exception": {
+      "fallback": true,
+      "reported_unsuccessful": true,
+      "gradient_calls": 3
+    }
+  },
+  "paired_case_rng_max_error": 0.0,
+  "scoring_fixture_max_error": 7.105427357601002e-15,
+  "expected_counts": {
+    "ordinary_episodes": 16,
+    "ordinary_phases": 48,
+    "ordinary_decisions": 1440,
+    "ordinary_intervals": 3136,
+    "ordinary_seconds": 313.6,
+    "ordinary_camera_opportunities": 3152,
+    "ordinary_scalar_noise_opportunities": 6304,
+    "distinct_scalar_noise_rng_draws": 3152,
+    "witness_episodes": 8,
+    "witness_intervals": 1568,
+    "witness_seconds": 156.8
+  },
+  "limitations": "Canonical control units imported as adapters for loss/scoring/mock optimizer checks; independent audit-fit NumPy equations are the reference. Physical flow replaced by a raising guard. No real L-BFGS convergence, physical feasibility, witness trajectory, closed-loop result or actual append stream certified."
+}

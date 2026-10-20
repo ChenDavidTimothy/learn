@@ -1,3 +1,56 @@
+# Active continuation: audited local moving control; retention ablation next
+
+Goal remains ACTIVE, unresolved. Latest verifiedledger v16 at1f1af0c... .
+Movinginstrument7f1775cc... and movingcorpus/fit/forknegative progress
+`e583757f4d16e2fac6372d8363cba05df89e3ffc` are SSH-pushed/remoteverified.
+NOv17ledger yet. Do not stop at publication or claim generalintelligence.
+
+Currentfacts: read cartesian_stream_v17_control_pilot_findings.md and independent
+ordinarycontrol/physicsreports. Frozenfirstpilot COMPLETED, BOTHfullauditsPASS.
+Exactstatewitness24/24sustainedgoals; local22/24(6/8first,all16later), NN0/24.
+Localfirstcontext2bothnoise repeats fail thenrecover. Mean18sec taskcost:
+reference.01558579, local.78768159, NN29.15144107. Notindependentcorpusstats.
+All4704physicalintervals/24fullrollingtrajectories,124Radauchecks,720witness
+commands and1440ordinarydecisions/2160localSVDfits independentlyreconstruct.
+Alloptimizerssuccessflags butNNmaxPG.147447(two>.01); doNOTcallallplansconverged
+orattributeNNfailure solelyrepresentation. Weakofflineforkcontrastresultsremain.
+
+NextminimaltestisfrozenACQUIREDlibrary, notnoadaptation/noexperience. Source and
+protocol cartesian_stream_v17_retention.py/retention_design.md written BEFORE
+ablationoutcomes. Onlydisableappend; retain currentcontextrefitting/feedback/
+planner/history/goals/pairedseeds. ThinPredictor tag usesexistinglocalmath,
+explicitno-op assertsactualrowcountsconstant, savesallactualcoef/querypairs.
+Eightadditionalepisodesonly, no rerunofoldNN/local/witnesses. Sourcecompiled;
+independentpreflight equality/gradient/no-op fixture RUNNING, NOablationexecution
+YET. AfterPASS runroot .venv/bin/python research/cartesian_stream_v17_retention.py
+then independentaudit physics/plans/pairedscores beforeinterpretation/publication.
+
+ExploratoryPOSTHOCordinaryvalidationaction-riskdiagnostic also completed;
+NOnewmodel/candidatechoice. _action_risk_posthoc_design.md/_action_risk.py,
+_rep0_action_risk_posthoc.json/_arrays.npz. 960validationrows,8commonvirtualV,
+all8existingcandidates, twopredeclarereddriftbaselines, same-rowordinaryMSE,
+trajectoryclusters/pairedSE. Source-mathauditPASS; finiteartifactauditRUNNING
+(theoryagent). TestrowsaremaskedaftercombinedNPZdecompression; wordingclarified
+whileinvocationrunningBEFOREscoresread, noformula/model/datachanges. Descriptive
+only: NNselectedmemberactionscore~+1.56e-7±5.88e-7SE(commonNNdrift), localselected
+~-1.77e-6±1.11e-6. LocalactionrankdiffersfromoneblockMSEbutnotnewselection.
+No universalvariance/postselection/policytransfer/distributionclaim. Independent
+auxiliary-action identityavoidsanotherquadratureladder. No loss-onlymilestone.
+
+Directionaudit _aftercontrol_direction_independent.md endorsesboundedconventional
+localsufficiencyasusefulbutpartialv15interfaceextension. Afterretentionablation,
+freeze bothlocalvariants for independently acquired corpora AND freshcontrol
+contexts, clusterpairedcost/precision/failures bycorpus. No moreNNoptimizer or
+architecturemenu needed; unchangedNNpilotisalimitedreference, notsolecompetitor.
+If frozenmatches/improves, acceptit; don'ttuneappenduntilitwins. Newledgeronlyfor
+meaningfulverifiedscientificmilestone/freshreplication, completehistoricalsuffix.
+
+ExistingownerPC/.venv unchanged; no packages/services/newenvs. Alloutputsrefuse
+overwrite; source/provenancehashguards. Commit/pushverifiedprogressoverexistingSSH,
+verifyremote, continueGoal. No autonomyblocker/Goalcompletioncondition.
+
+---
+
 # Active continuation: audited moving-history pilot; weak action effects
 
 The general-learning Goal remains ACTIVE, unresolved. Latest verified ledger is
