@@ -1,0 +1,17 @@
+{
+  "status": "UNRELEASED PILOT; independent artifact audit pending",
+  "seed": 21661020,
+  "n": 8192,
+  "numpy": "2.5.3",
+  "rho": 0.65,
+  "lambda": 0.4,
+  "c": 0.2,
+  "beta": 1.2,
+  "original_passive": "rho*v-c*tanh(v)",
+  "original_actuator": "lambda*m+beta*u+xi",
+  "alternative_passive": "rho*v",
+  "alternative_actuator": "lambda*mp+lambda*c*tanh(v)+beta*u-c*tanh(vnext)+xi",
+  "max_velocity_difference": 1.3322676295501878e-15,
+  "max_command_difference": 5.551115123125783e-16,
+  "max_force_gauge_error": 8.881784197001252e-16
+}
