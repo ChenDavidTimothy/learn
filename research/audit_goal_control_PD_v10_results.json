@@ -1,0 +1,24 @@
+{
+  "status": "INDEPENDENTLY TESTED",
+  "pilot_final_training_and_fits_identical": true,
+  "recorded_virtual_objectives_checked": 288,
+  "physical_test_episodes_replayed": 192,
+  "unsuccessful_Powell_records": 38,
+  "maximum_absolute_errors": {
+    "virtual_objective": 1.2702955132226634e-08,
+    "replay": 7.105427357601002e-14,
+    "observation": 7.105427357601002e-14,
+    "metrics": 7.105427357601002e-14,
+    "estimates": 0.0,
+    "commands": 0.0,
+    "summaries": 0.0
+  },
+  "scope": [
+    "Both gain objectives use only fitted nonlinear model and supplied virtual sensor/process-noise model; no extra physical interaction.",
+    "Only after gain selection does canonical source evaluate true plant on fixed test tasks.",
+    "Exploratory repair after weak coarse-grid baseline; not preregistered superiority evidence.",
+    "Coarse candidate retained, all optimization failures saved; no global gain-optimality guarantee.",
+    "More offline computation, supplied stopping objective, supplied timing and gain family must be disclosed.",
+    "Mean/MC SE use twelve fitted-model seed clusters, each averaging two tasks."
+  ]
+}

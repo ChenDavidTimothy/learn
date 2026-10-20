@@ -1,0 +1,39 @@
+{
+  "structural": {
+    "independent_plan_cost_max_error": 2.9103830456733704e-10,
+    "independent_action_gradient_max_error": 0.00036106782499700785,
+    "independent_action_gradient_max_scaled_error": 7.432792762537756e-10,
+    "immediate_x_v_action_effect": 0.0,
+    "linear_similarity_identity_error": 0.0,
+    "independent_swapped_filter_max_error": 3.552713678800501e-15,
+    "linear_plan_cost_gradient_swap_error": 4.547473508864641e-13,
+    "independent_bounded_linear_LS_optimum_swap_error": 2.2409157862668394e-14,
+    "paired_canonical_swapped_MPC_action_error": 0.010663421670913442,
+    "paired_canonical_swapped_MPC_state_error": 0.007806357460745816,
+    "paired_canonical_primary_cost_difference": 1.6434406430981818e-05,
+    "finite_solver_scope": "Exact costs/gradients/unique convex optima are invariant; truncated L-BFGS-B implemented closed-loop actions differ under numerical optimization."
+  },
+  "final_artifact": {
+    "status": "INDEPENDENTLY TESTED",
+    "episodes_replayed": 672,
+    "optimizer_records_checked": 33600,
+    "optimizer_max_projected_gradient": 2.0,
+    "optimizer_fallback_count": 0,
+    "maximum_absolute_errors": {
+      "plant_replay": 1.4210854715202004e-13,
+      "observations": 1.4210854715202004e-13,
+      "estimates": 1.7319479184152442e-14,
+      "metrics": 1.9895196601282805e-13,
+      "summary": 0.0,
+      "training": 6.252776074688882e-13,
+      "prediction": 4.643160855799522e-14,
+      "pd_tuning": 1.574562702444382e-11,
+      "fit_objective": 4.4929038267582655e-10,
+      "MPC_initial_cost": 0.0,
+      "MPC_selected_cost": 0.0,
+      "MPC_projected_gradient": 0.0,
+      "MPC_action": 0.0
+    },
+    "optimizer_scope": "Pilot records verify improvement/failure accounting; full pilot plans are absent, so every selected cost/projected gradient is not independently reconstructed."
+  }
+}
