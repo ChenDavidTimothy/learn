@@ -1,0 +1,1815 @@
+{
+  "status": "PASS \u2014 independent fresh acquired/control complete physics/RNG/witness/score audit; fitting/ordinary decisions separate",
+  "replicate": 203,
+  "audit_source_sha256": "c90a092ca681b97b1f6d7fc6aa6552af669e005b85587dd356a422ea015371a2",
+  "artifact_sha256": {
+    "cartesian_stream_v17_rep203_acquisition.json": "42307dc2dd84416a0f360193e3f6b91bea175176031c78dc95cf0889eae81988",
+    "cartesian_stream_v17_rep203_ordinary.npz": "3ba34aa143e77a728102004410dd481ea8ce279c057db1fd506616ec622cc3b8",
+    "cartesian_stream_v17_rep203_evaluator.npz": "4551ab246232b02fa57912b8b2e67d9628501a6333446743b0722cd4882c221f",
+    "cartesian_stream_v17_rep203_study_results.json": "17e2ec69001c801579f0a5b9d075e02fc7dab2c14ac2773237a952625e78e456",
+    "cartesian_stream_v17_rep203_study_arrays.npz": "af6eb8310a75024af9522cd8cb7b440291c58751e8707f62a28bb73fe57043a4",
+    "cartesian_stream_v17_rep203_local_fit.json": "683ff9baae42069a21dfa14ba1f64152db8d0732a1f04eaf830c91fcd57ffeb7",
+    "cartesian_stream_v17_rep203_local_test_forecasts.npz": "836d6d1ba1db8ea61ec4acbd9bb401ace69375b6d4dbfc6aa2ba10aa4117d8db",
+    "cartesian_stream_v17_study.py": "a213d5eb27ab1736fe0a855787f8d61293a5a15f52c7d773ba4d3634454a1754",
+    "cartesian_stream_v17_acquire.py": "54f5b71020a163aa76326d94fefc7db8f5723947b6efceed4139ec5a5910f6f2",
+    "cartesian_stream_v17_learn.py": "56dc34b38a269d482d843a4207259f316c7329064aa49660dddb37592fcce5f0",
+    "cartesian_stream_v17_local.py": "36d74c4e05a8be8b649d201b4f35880dea9a6b87748c73b34419d4ae9fbba0d2",
+    "cartesian_stream_v17_control.py": "220f12b194e31e32cea916cb0d65628d5ee0ab15ea3f3de1e6ccfd40b23814ca",
+    "cartesian_stream_v17_retention.py": "94e3e5d7ac4e415aa6caecbe1c8042d1ef6a14d63eb5e6fa4a4eb46b4ca0f598",
+    "coupled_context_v14_pilot.py": "358486add84531d3b487e1ce2dccd1628411b8f5f8fe1d902e8c18f9979dbd30",
+    "cartesian_stream_v17_acquisition_design.md": "2dd9199b742a176960d07b3c7e122fe64f718222c3dd99fae04c20ef3278fe8e",
+    "cartesian_stream_v17_learning_design.md": "db31e06fa4e4e3019eddb2e12ccb9f5998caddff9dc1ca2bf1f24813e7b8663c",
+    "cartesian_stream_v17_planner_contract.md": "35d35de822a5d33767b616a2f15dd71a552989fceffb03696b412b150cccec91",
+    "cartesian_stream_v17_study_design.md": "68ff9394753ed08eccc34162f70cb47b5dbad592d10d0e20db36cdac9ddd3321",
+    "audit_cartesian_stream_v17_control_physics.py": "c64d3a87f636335fe5cc0a44fd55a120a36bccfba421906b468e8567d35e8227",
+    "audit_cartesian_reuse_v16_pilot.py": "1f9e9c103fe26827dbd892255f02a567e1953b84d113ea9ef6ae725f4d5a2288"
+  },
+  "maximum_reconstruction_errors": {
+    "acq_initial_RNG": 0.0,
+    "acq_initial_CartesianV": 3.469446951953614e-17,
+    "acq_ALLcommand_RNG": 0.0,
+    "acq_ALLnoise_RNG": 0.0,
+    "acq_ALLseedpaths": 0.0,
+    "acq_ALLcamera": 0.0,
+    "acq_heldpairs": 0.0,
+    "acquisition_ALLlocal_Hamiltonian": 1.0913936421275139e-11,
+    "acquisition_ALLcomplete_Hamiltonian_states": 1.0583933729435557e-10,
+    "acquisition_ALLcomplete_Hamiltonian_positions": 7.368083920766821e-11,
+    "acq_coverage_maximum_energy_work_residual": 4.440892098500626e-16,
+    "acq_coverage_minimum_mass_eigenvalue": 0.0,
+    "acq_coverage_joint_coordinate_step_abs_0": 0.0,
+    "acq_coverage_joint_coordinate_step_abs_0.01": 0.0,
+    "acq_coverage_joint_coordinate_step_abs_0.1": 0.0,
+    "acq_coverage_joint_coordinate_step_abs_0.5": 0.0,
+    "acq_coverage_joint_coordinate_step_abs_0.9": 0.0,
+    "acq_coverage_joint_coordinate_step_abs_0.99": 0.0,
+    "acq_coverage_joint_coordinate_step_abs_1": 0.0,
+    "acq_coverage_distal_phase_step_abs_0": 0.0,
+    "acq_coverage_distal_phase_step_abs_0.01": 0.0,
+    "acq_coverage_distal_phase_step_abs_0.1": 0.0,
+    "acq_coverage_distal_phase_step_abs_0.5": 0.0,
+    "acq_coverage_distal_phase_step_abs_0.9": 0.0,
+    "acq_coverage_distal_phase_step_abs_0.99": 0.0,
+    "acq_coverage_distal_phase_step_abs_1": 0.0,
+    "acq_coverage_camera_true_step_norm_0": 0.0,
+    "acq_coverage_camera_true_step_norm_0.01": 0.0,
+    "acq_coverage_camera_true_step_norm_0.1": 0.0,
+    "acq_coverage_camera_true_step_norm_0.5": 0.0,
+    "acq_coverage_camera_true_step_norm_0.9": 0.0,
+    "acq_coverage_camera_true_step_norm_0.99": 0.0,
+    "acq_coverage_camera_true_step_norm_1": 0.0,
+    "acq_coverage_cartesian_speed_0": 0.0,
+    "acq_coverage_cartesian_speed_0.01": 0.0,
+    "acq_coverage_cartesian_speed_0.1": 0.0,
+    "acq_coverage_cartesian_speed_0.5": 0.0,
+    "acq_coverage_cartesian_speed_0.9": 0.0,
+    "acq_coverage_cartesian_speed_0.99": 0.0,
+    "acq_coverage_cartesian_speed_1": 0.0,
+    "acq_coverage_joint_speed_norm_0": 0.0,
+    "acq_coverage_joint_speed_norm_0.01": 0.0,
+    "acq_coverage_joint_speed_norm_0.1": 0.0,
+    "acq_coverage_joint_speed_norm_0.5": 0.0,
+    "acq_coverage_joint_speed_norm_0.9": 0.0,
+    "acq_coverage_joint_speed_norm_0.99": 0.0,
+    "acq_coverage_joint_speed_norm_1": 0.0,
+    "acq_coverage_absolute_jacobian_determinant_0": 0.0,
+    "acq_coverage_absolute_jacobian_determinant_0.01": 0.0,
+    "acq_coverage_absolute_jacobian_determinant_0.1": 0.0,
+    "acq_coverage_absolute_jacobian_determinant_0.5": 0.0,
+    "acq_coverage_absolute_jacobian_determinant_0.9": 0.0,
+    "acq_coverage_absolute_jacobian_determinant_0.99": 0.0,
+    "acq_coverage_absolute_jacobian_determinant_1": 0.0,
+    "acq_coverage_sampled_near_singular_abs_det_below_point01": 0.0,
+    "control_initial_RNG": 0.0,
+    "control_warmup_RNG": 0.0,
+    "control_noise_RNG": 0.0,
+    "control_actual_initial": 0.0,
+    "control_actual_warm": 0.0,
+    "control_ALLcamera": 0.0,
+    "control_ALLheldpairs": 0.0,
+    "control_sensor_goals": 0.0,
+    "control_decision_command": 0.0,
+    "reference_IKtarget": 2.220446049250313e-16,
+    "reference_target_endpoint": 5.412337245047638e-16,
+    "reference_nearest_distance": 1.1102230246251565e-16,
+    "reference_original_goal": 0.0,
+    "reference_clipped_goal": 0.0,
+    "reference_original_radius": 0.0,
+    "reference_clipped_radius": 0.0,
+    "reference_winding": 0.0,
+    "reference_computedtorque": 1.3877787807814457e-17,
+    "reference_boundedtorque": 1.3877787807814457e-17,
+    "ordinary_only_current_goal": 0.0,
+    "paired_ALLwarmstates": 0.0,
+    "paired_ALLwarmobservations": 0.0,
+    "paired_ALLgoals": 0.0,
+    "paired_FIRSTaction_beforeappend": 0.0,
+    "paired_FIRSTstates_beforeappend": 0.0,
+    "paired_saved_retained_cost": 3.552713678800501e-15,
+    "paired_saved_difference": 1.4210854715202004e-14,
+    "control_ALLlocal_Hamiltonian": 8.457234912384592e-12,
+    "control_ALLcomplete_Hamiltonian_states": 2.2143664679674657e-10,
+    "control_ALLcomplete_Hamiltonian_positions": 1.032192109562402e-10,
+    "score_score_task_cost": 7.105427357601002e-15,
+    "score_score_combined_charged_cost": 7.105427357601002e-15,
+    "score_score_physical_seconds": 0.0,
+    "score_score_precise_goals": 0.0,
+    "score_warmup_seconds": 0.0,
+    "score_warmup_integrated_motion_penalty": 1.734723475976807e-18,
+    "score_warmup_integrated_effort_penalty": 2.168404344971009e-19,
+    "score_warmup_integrated_squared_effort": 0.0,
+    "score_warmup_cost_without_unannounced_goal": 1.734723475976807e-18,
+    "score_phase_phase": 0.0,
+    "score_phase_goal": 0.0,
+    "score_phase_endpoint_start_index": 0.0,
+    "score_phase_endpoint_end_index": 0.0,
+    "score_phase_seconds": 0.0,
+    "score_phase_integrated_position_error": 7.105427357601002e-15,
+    "score_phase_integrated_motion_penalty": 4.440892098500626e-16,
+    "score_phase_integrated_effort_penalty": 6.938893903907228e-18,
+    "score_phase_integrated_squared_effort": 4.440892098500626e-16,
+    "score_phase_cost": 7.105427357601002e-15,
+    "score_phase_position_error_by_sample": 0.0,
+    "score_phase_cartesian_velocity_by_sample": 0.0,
+    "score_phase_squared_effort_by_interval": 0.0,
+    "score_phase_late_max_coordinate_position_error": 0.0,
+    "score_phase_late_max_coordinate_velocity": 0.0
+  },
+  "acquisition": {
+    "resources": {
+      "trajectories": 40,
+      "physical_intervals": 10240,
+      "physical_seconds": 1024.0,
+      "passive_prefix_intervals": 320,
+      "passive_prefix_seconds": 32.0,
+      "intervention_intervals": 9920,
+      "intervention_seconds": 992.0,
+      "scalar_noise_draws": 20560,
+      "cartesian_camera_reads": 10280,
+      "plant_rhs_evaluations": 293432
+    },
+    "initial_preparations_evaluator_only": [
+      {
+        "split": 0,
+        "index": 0,
+        "theta": -0.5227773314627613,
+        "phi": 1.5004381493126226,
+        "sign": -1.0,
+        "speed": 0.09830473360636732,
+        "direction": -1.406225169992097
+      },
+      {
+        "split": 0,
+        "index": 1,
+        "theta": 1.2518594171473145,
+        "phi": 2.2970986858887064,
+        "sign": -1.0,
+        "speed": 0.1148040088452752,
+        "direction": -2.3939513667133876
+      },
+      {
+        "split": 0,
+        "index": 2,
+        "theta": 1.104867582565915,
+        "phi": 2.4259859561585664,
+        "sign": -1.0,
+        "speed": 0.06503078547445024,
+        "direction": 2.3267963624653394
+      },
+      {
+        "split": 0,
+        "index": 3,
+        "theta": -1.0192854481923495,
+        "phi": 1.5439117879622155,
+        "sign": 1.0,
+        "speed": 0.08361625112966986,
+        "direction": -2.9007654768097444
+      },
+      {
+        "split": 0,
+        "index": 4,
+        "theta": 2.7247282798669987,
+        "phi": 2.136392543846572,
+        "sign": 1.0,
+        "speed": 0.09954272893928158,
+        "direction": 1.4428500106584279
+      },
+      {
+        "split": 0,
+        "index": 5,
+        "theta": -0.3291032820583246,
+        "phi": 1.1739023194746432,
+        "sign": 1.0,
+        "speed": 0.06671200312484234,
+        "direction": 2.2460366323151364
+      },
+      {
+        "split": 0,
+        "index": 6,
+        "theta": 1.3591525886802671,
+        "phi": 0.5753900230796073,
+        "sign": -1.0,
+        "speed": 0.052678208056466946,
+        "direction": -1.0763698513675717
+      },
+      {
+        "split": 0,
+        "index": 7,
+        "theta": 1.2774977345670306,
+        "phi": 1.7016889593374387,
+        "sign": 1.0,
+        "speed": 0.04645567313717202,
+        "direction": -1.4237338694136312
+      },
+      {
+        "split": 0,
+        "index": 8,
+        "theta": -1.9401461320252287,
+        "phi": 1.1489160205675901,
+        "sign": -1.0,
+        "speed": 0.1007337058409357,
+        "direction": -0.6691975653847955
+      },
+      {
+        "split": 0,
+        "index": 9,
+        "theta": 3.1256684418639153,
+        "phi": 1.175009089186041,
+        "sign": 1.0,
+        "speed": 0.09496664631067568,
+        "direction": -1.8426123920046933
+      },
+      {
+        "split": 0,
+        "index": 10,
+        "theta": -0.8274122010858664,
+        "phi": 1.393818590895827,
+        "sign": -1.0,
+        "speed": 0.044411651827640564,
+        "direction": 3.0834229758986664
+      },
+      {
+        "split": 0,
+        "index": 11,
+        "theta": 0.6780299805234202,
+        "phi": 0.7709209752097739,
+        "sign": 1.0,
+        "speed": 0.11060100478442755,
+        "direction": -0.803322917398098
+      },
+      {
+        "split": 0,
+        "index": 12,
+        "theta": -1.8898427691931114,
+        "phi": 1.260326989630566,
+        "sign": -1.0,
+        "speed": 0.059340056695188784,
+        "direction": 1.347447850083074
+      },
+      {
+        "split": 0,
+        "index": 13,
+        "theta": -3.135896273704262,
+        "phi": 2.6251604152654275,
+        "sign": 1.0,
+        "speed": 0.07530191685646317,
+        "direction": 0.20713704856661863
+      },
+      {
+        "split": 0,
+        "index": 14,
+        "theta": 1.3072648751510423,
+        "phi": 0.8079866806115094,
+        "sign": -1.0,
+        "speed": 0.07545265194065716,
+        "direction": -0.352822803548567
+      },
+      {
+        "split": 0,
+        "index": 15,
+        "theta": 2.4280217328475624,
+        "phi": 0.47854585228700547,
+        "sign": 1.0,
+        "speed": 0.062498390823425176,
+        "direction": -1.8555905322486432
+      },
+      {
+        "split": 0,
+        "index": 16,
+        "theta": -0.5579161681877833,
+        "phi": 1.731240305960521,
+        "sign": 1.0,
+        "speed": 0.027620790404255618,
+        "direction": 0.32210375814355174
+      },
+      {
+        "split": 0,
+        "index": 17,
+        "theta": 2.288597852619744,
+        "phi": 1.0301013005839232,
+        "sign": -1.0,
+        "speed": 0.11902024115369178,
+        "direction": 1.8439054875330232
+      },
+      {
+        "split": 0,
+        "index": 18,
+        "theta": -1.3747789165047888,
+        "phi": 2.0217886317872353,
+        "sign": -1.0,
+        "speed": 0.06546748458932583,
+        "direction": -0.847222657413309
+      },
+      {
+        "split": 0,
+        "index": 19,
+        "theta": -2.11759059636338,
+        "phi": 1.5427853714912403,
+        "sign": -1.0,
+        "speed": 0.10056282859914069,
+        "direction": -0.026617749063243767
+      },
+      {
+        "split": 0,
+        "index": 20,
+        "theta": 2.7549807132624338,
+        "phi": 2.663123401127496,
+        "sign": 1.0,
+        "speed": 0.1109892366742226,
+        "direction": 2.421551714669273
+      },
+      {
+        "split": 0,
+        "index": 21,
+        "theta": -3.1089966081234945,
+        "phi": 1.7502034231805066,
+        "sign": 1.0,
+        "speed": 0.06696079201795692,
+        "direction": -0.9598745807486768
+      },
+      {
+        "split": 0,
+        "index": 22,
+        "theta": 0.9901113217563156,
+        "phi": 1.1636409027874157,
+        "sign": -1.0,
+        "speed": 0.08688134965906213,
+        "direction": -3.080885725156097
+      },
+      {
+        "split": 0,
+        "index": 23,
+        "theta": 1.751182629069632,
+        "phi": 0.8958431798596864,
+        "sign": 1.0,
+        "speed": 0.048855922872556745,
+        "direction": -1.6926087301677277
+      },
+      {
+        "split": 1,
+        "index": 0,
+        "theta": 0.7028270576838609,
+        "phi": 2.577755240213344,
+        "sign": 1.0,
+        "speed": 0.04721578436631907,
+        "direction": -0.7562815164467165
+      },
+      {
+        "split": 1,
+        "index": 1,
+        "theta": -2.067536055071759,
+        "phi": 1.9136051200808883,
+        "sign": 1.0,
+        "speed": 0.040767059961525604,
+        "direction": -0.03382744540008931
+      },
+      {
+        "split": 1,
+        "index": 2,
+        "theta": 1.7410590043428247,
+        "phi": 2.5094737612414826,
+        "sign": 1.0,
+        "speed": 0.10275344394938304,
+        "direction": 0.540478307790154
+      },
+      {
+        "split": 1,
+        "index": 3,
+        "theta": 0.8454537963981115,
+        "phi": 0.863661217711894,
+        "sign": 1.0,
+        "speed": 0.11534477630949677,
+        "direction": -0.9579604973420306
+      },
+      {
+        "split": 1,
+        "index": 4,
+        "theta": 2.572539215547904,
+        "phi": 2.054070338906837,
+        "sign": 1.0,
+        "speed": 0.046902608208706786,
+        "direction": -1.5667652551779678
+      },
+      {
+        "split": 1,
+        "index": 5,
+        "theta": -2.8335980843796618,
+        "phi": 1.759890372947849,
+        "sign": 1.0,
+        "speed": 0.05221961549233378,
+        "direction": -3.0986469219896184
+      },
+      {
+        "split": 1,
+        "index": 6,
+        "theta": 3.112405842096803,
+        "phi": 2.7089572772146027,
+        "sign": 1.0,
+        "speed": 0.05309248001765576,
+        "direction": 0.5230384108858863
+      },
+      {
+        "split": 1,
+        "index": 7,
+        "theta": -1.7636251671752619,
+        "phi": 0.48308552386320724,
+        "sign": 1.0,
+        "speed": 0.09770708184253662,
+        "direction": 0.001714180814303301
+      },
+      {
+        "split": 2,
+        "index": 0,
+        "theta": 2.1057347578083094,
+        "phi": 1.5281807605945503,
+        "sign": -1.0,
+        "speed": 0.08769925237081942,
+        "direction": 1.0839567752623678
+      },
+      {
+        "split": 2,
+        "index": 1,
+        "theta": -2.410275504081144,
+        "phi": 0.9097305137342191,
+        "sign": -1.0,
+        "speed": 0.036731620875747925,
+        "direction": 0.48132053223142623
+      },
+      {
+        "split": 2,
+        "index": 2,
+        "theta": -0.8417699383057036,
+        "phi": 0.47216015068147543,
+        "sign": -1.0,
+        "speed": 0.04969029131639252,
+        "direction": -0.9444818075605892
+      },
+      {
+        "split": 2,
+        "index": 3,
+        "theta": 2.180367789082143,
+        "phi": 0.7573956916926313,
+        "sign": -1.0,
+        "speed": 0.021290187617224624,
+        "direction": -1.9668960087555323
+      },
+      {
+        "split": 2,
+        "index": 4,
+        "theta": 1.9224184420532167,
+        "phi": 0.9601886327883059,
+        "sign": -1.0,
+        "speed": 0.06609686429388577,
+        "direction": 0.6113421016568656
+      },
+      {
+        "split": 2,
+        "index": 5,
+        "theta": 0.44426341760901744,
+        "phi": 1.7282466828894818,
+        "sign": 1.0,
+        "speed": 0.06631374284600781,
+        "direction": 2.234533092474681
+      },
+      {
+        "split": 2,
+        "index": 6,
+        "theta": 2.2362599376144363,
+        "phi": 1.255851287614194,
+        "sign": -1.0,
+        "speed": 0.11504512667258279,
+        "direction": 2.371103398188657
+      },
+      {
+        "split": 2,
+        "index": 7,
+        "theta": 3.118128847034849,
+        "phi": 0.8391562875011279,
+        "sign": 1.0,
+        "speed": 0.07265051655556035,
+        "direction": 1.626957466724762
+      }
+    ],
+    "physics": {
+      "coverage": {
+        "maximum_energy_work_residual": 1.2392892267953926e-11,
+        "minimum_mass_eigenvalue": 0.17157287779610275,
+        "joint_coordinate_step_abs": {
+          "0": 1.1721048567059356e-05,
+          "0.01": 0.00048681766702455604,
+          "0.1": 0.004623362022950778,
+          "0.5": 0.031699221399311805,
+          "0.9": 0.11891367948265154,
+          "0.99": 0.24293831598417212,
+          "1": 0.44156839086858923
+        },
+        "distal_phase_step_abs": {
+          "0": 2.8122997721702347e-06,
+          "0.01": 0.0005529981612540769,
+          "0.1": 0.006217384827362516,
+          "0.5": 0.03842941823381313,
+          "0.9": 0.11272012537734342,
+          "0.99": 0.18837363107304939,
+          "1": 0.2805297527334183
+        },
+        "camera_true_step_norm": {
+          "0": 0.0002151085814865973,
+          "0.01": 0.0032106265147095786,
+          "0.1": 0.010508064708541069,
+          "0.5": 0.03790610394275719,
+          "0.9": 0.10635345416434355,
+          "0.99": 0.1725477140161654,
+          "1": 0.22133195703041433
+        },
+        "cartesian_speed": {
+          "0": 0.0015269263713664457,
+          "0.01": 0.032061447457043035,
+          "0.1": 0.1033450386295561,
+          "0.5": 0.37911287727671344,
+          "0.9": 1.066251012394122,
+          "0.99": 1.7277186305809378,
+          "1": 2.2263032221922563
+        },
+        "joint_speed_norm": {
+          "0": 0.00841587927461634,
+          "0.01": 0.03769142867260896,
+          "0.1": 0.13057058352942577,
+          "0.5": 0.5825983098956056,
+          "0.9": 1.639333371552587,
+          "0.99": 3.1543208362570425,
+          "1": 4.970228075679755
+        },
+        "absolute_jacobian_determinant": {
+          "0": 0.0001107938428473037,
+          "0.01": 0.02052131126822525,
+          "0.1": 0.19952297636241073,
+          "0.5": 0.7588316171163794,
+          "0.9": 0.9907132272582119,
+          "0.99": 0.9999223553484035,
+          "1": 0.999999993489888
+        },
+        "sampled_near_singular_abs_det_below_point01": 44
+      },
+      "additional_support": {
+        "sample_bracketed_jacobian_sign_changes": 220,
+        "trajectories_with_bracketed_sign_change": 40
+      },
+      "Radau_checks": [
+        {
+          "trajectory": 0,
+          "interval": 0,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 0,
+          "interval": 127,
+          "maximum_state_difference": 3.0375701953744283e-13
+        },
+        {
+          "trajectory": 1,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 2,
+          "interval": 0,
+          "maximum_state_difference": 6.938893903907228e-18
+        },
+        {
+          "trajectory": 3,
+          "interval": 0,
+          "maximum_state_difference": 2.0816681711721685e-17
+        },
+        {
+          "trajectory": 4,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 4,
+          "interval": 127,
+          "maximum_state_difference": 2.4424906541753444e-15
+        },
+        {
+          "trajectory": 5,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 5,
+          "interval": 206,
+          "maximum_state_difference": 4.263256414560601e-14
+        },
+        {
+          "trajectory": 6,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 7,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 8,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 8,
+          "interval": 127,
+          "maximum_state_difference": 1.7763568394002505e-15
+        },
+        {
+          "trajectory": 9,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 10,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 11,
+          "interval": 0,
+          "maximum_state_difference": 3.8163916471489756e-17
+        },
+        {
+          "trajectory": 12,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 12,
+          "interval": 127,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 13,
+          "interval": 0,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 14,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 14,
+          "interval": 241,
+          "maximum_state_difference": 1.120881165661558e-12
+        },
+        {
+          "trajectory": 14,
+          "interval": 242,
+          "maximum_state_difference": 7.904787935331115e-13
+        },
+        {
+          "trajectory": 15,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 16,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 16,
+          "interval": 127,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 17,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 18,
+          "interval": 0,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 19,
+          "interval": 0,
+          "maximum_state_difference": 2.7755575615628914e-17
+        },
+        {
+          "trajectory": 20,
+          "interval": 0,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 20,
+          "interval": 127,
+          "maximum_state_difference": 5.551115123125783e-17
+        },
+        {
+          "trajectory": 21,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 22,
+          "interval": 0,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 23,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 24,
+          "interval": 0,
+          "maximum_state_difference": 5.551115123125783e-16
+        },
+        {
+          "trajectory": 24,
+          "interval": 127,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 25,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 25,
+          "interval": 221,
+          "maximum_state_difference": 3.9968028886505635e-14
+        },
+        {
+          "trajectory": 26,
+          "interval": 0,
+          "maximum_state_difference": 5.551115123125783e-16
+        },
+        {
+          "trajectory": 27,
+          "interval": 0,
+          "maximum_state_difference": 3.3306690738754696e-16
+        },
+        {
+          "trajectory": 28,
+          "interval": 0,
+          "maximum_state_difference": 6.938893903907228e-18
+        },
+        {
+          "trajectory": 28,
+          "interval": 127,
+          "maximum_state_difference": 3.552713678800501e-15
+        },
+        {
+          "trajectory": 29,
+          "interval": 0,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 30,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 31,
+          "interval": 0,
+          "maximum_state_difference": 1.6653345369377348e-16
+        },
+        {
+          "trajectory": 32,
+          "interval": 0,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 32,
+          "interval": 127,
+          "maximum_state_difference": 1.9984014443252818e-15
+        },
+        {
+          "trajectory": 33,
+          "interval": 0,
+          "maximum_state_difference": 1.1102230246251565e-16
+        },
+        {
+          "trajectory": 34,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 35,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 36,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 36,
+          "interval": 127,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 37,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 38,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 39,
+          "interval": 0,
+          "maximum_state_difference": 4.440892098500626e-16
+        }
+      ],
+      "maximum_Radau_difference": 1.120881165661558e-12,
+      "extreme_interval_indices": {
+        "Cartesian_speed": [
+          5,
+          206
+        ],
+        "joint_speed": [
+          14,
+          242
+        ],
+        "Jacobian_singularity": [
+          25,
+          221
+        ],
+        "joint_step": [
+          14,
+          241
+        ],
+        "distal_phase": [
+          14,
+          241
+        ]
+      },
+      "scope": {
+        "local_intervals": 10240,
+        "complete_trajectories": 40,
+        "local_RK4_substeps": 256,
+        "rolling_RK4_substeps": 512,
+        "Radau_intervals": 54
+      }
+    }
+  },
+  "control": {
+    "resources": {
+      "acquisition_trajectories": 40,
+      "acquisition_intervals": 10240,
+      "acquisition_simulated_seconds": 1024.0,
+      "acquisition_independent_scalar_camera_draws": 20560,
+      "local_candidate_families": 4,
+      "bootstrap_libraries_per_candidate": 3,
+      "neural_fits": 0,
+      "ordinary_episodes": 16,
+      "sustained_goal_windows": 48,
+      "ordinary_decisions": 1440,
+      "ordinary_intervals": 3136,
+      "ordinary_simulated_seconds": 313.6,
+      "ordinary_camera_read_opportunities": 3152,
+      "ordinary_scalar_noise_opportunities": 6304,
+      "fresh_initial_preparations": 4,
+      "fresh_paired_noise_paths": 8,
+      "distinct_scalar_control_noise_draws": 3152,
+      "retained_actual_row_events": 720,
+      "retained_member_append_copies": 2160,
+      "frozen_real_pair_notifications": 720,
+      "frozen_actual_append_copies": 0,
+      "reference_episodes": 8,
+      "privileged_reference_intervals": 1568,
+      "privileged_reference_seconds": 156.8,
+      "new_training_experience_from_reference": 0,
+      "ordinary_plant_rhs_evaluations": 91856,
+      "reference_plant_rhs_evaluations": 40768,
+      "modeled_value_gradient_calls": 15130,
+      "unsuccessful_optimizer_terminations": 0,
+      "fallback_decisions": 0
+    },
+    "summaries": {
+      "reference": {
+        "episodes": 8,
+        "mean_task_cost": 0.04149260175137697,
+        "mean_combined_charged_cost": 0.050055761444825576,
+        "task_costs": [
+          0.04316085745984298,
+          0.04310244242772433,
+          0.019217130871246078,
+          0.019185378307949606,
+          0.07740209791198197,
+          0.0774690073869613,
+          0.026232316525164008,
+          0.0261715831201455
+        ],
+        "total_precise_goals": 24,
+        "phase_precision_counts": [
+          8,
+          8,
+          8
+        ],
+        "phase_mean_costs": [
+          0.020756399687465902,
+          0.004189808155673379,
+          0.01654639390823769
+        ]
+      },
+      "retained": {
+        "episodes": 8,
+        "mean_task_cost": 33.82335521302406,
+        "mean_combined_charged_cost": 33.83191837271751,
+        "task_costs": [
+          0.359968587463869,
+          0.3440289575800237,
+          45.89014434391586,
+          31.026506302786267,
+          83.8097985956666,
+          78.58976992142708,
+          24.35339803380089,
+          6.213226961551888
+        ],
+        "total_precise_goals": 2,
+        "phase_precision_counts": [
+          0,
+          0,
+          2
+        ],
+        "phase_mean_costs": [
+          6.111280976314535,
+          12.767059685088547,
+          14.945014551620979
+        ]
+      },
+      "frozen": {
+        "episodes": 8,
+        "mean_task_cost": 42.404271173611036,
+        "mean_combined_charged_cost": 42.41283433330449,
+        "task_costs": [
+          0.3991860516036794,
+          0.36436479700300406,
+          45.607378710980775,
+          40.6718095385011,
+          82.03868262372711,
+          59.10509858924307,
+          62.302614777201704,
+          48.745034300627864
+        ],
+        "total_precise_goals": 0,
+        "phase_precision_counts": [
+          0,
+          0,
+          0
+        ],
+        "phase_mean_costs": [
+          6.640770511405782,
+          18.297705473083077,
+          17.46579518912218
+        ]
+      }
+    },
+    "paired_cases": [
+      {
+        "case_index": 0,
+        "context_id": 0,
+        "noise_repeat": 0,
+        "retained_task_cost": 0.359968587463869,
+        "frozen_task_cost": 0.3991860516036794,
+        "frozen_minus_retained_task_cost": 0.03921746413981042,
+        "retained_precise_goals": 1,
+        "frozen_precise_goals": 0
+      },
+      {
+        "case_index": 1,
+        "context_id": 0,
+        "noise_repeat": 1,
+        "retained_task_cost": 0.3440289575800237,
+        "frozen_task_cost": 0.36436479700300406,
+        "frozen_minus_retained_task_cost": 0.02033583942298034,
+        "retained_precise_goals": 1,
+        "frozen_precise_goals": 0
+      },
+      {
+        "case_index": 2,
+        "context_id": 1,
+        "noise_repeat": 0,
+        "retained_task_cost": 45.89014434391586,
+        "frozen_task_cost": 45.607378710980775,
+        "frozen_minus_retained_task_cost": -0.2827656329350816,
+        "retained_precise_goals": 0,
+        "frozen_precise_goals": 0
+      },
+      {
+        "case_index": 3,
+        "context_id": 1,
+        "noise_repeat": 1,
+        "retained_task_cost": 31.026506302786267,
+        "frozen_task_cost": 40.6718095385011,
+        "frozen_minus_retained_task_cost": 9.645303235714834,
+        "retained_precise_goals": 0,
+        "frozen_precise_goals": 0
+      },
+      {
+        "case_index": 4,
+        "context_id": 2,
+        "noise_repeat": 0,
+        "retained_task_cost": 83.8097985956666,
+        "frozen_task_cost": 82.03868262372711,
+        "frozen_minus_retained_task_cost": -1.7711159719394942,
+        "retained_precise_goals": 0,
+        "frozen_precise_goals": 0
+      },
+      {
+        "case_index": 5,
+        "context_id": 2,
+        "noise_repeat": 1,
+        "retained_task_cost": 78.58976992142708,
+        "frozen_task_cost": 59.10509858924307,
+        "frozen_minus_retained_task_cost": -19.484671332184007,
+        "retained_precise_goals": 0,
+        "frozen_precise_goals": 0
+      },
+      {
+        "case_index": 6,
+        "context_id": 3,
+        "noise_repeat": 0,
+        "retained_task_cost": 24.35339803380089,
+        "frozen_task_cost": 62.302614777201704,
+        "frozen_minus_retained_task_cost": 37.94921674340081,
+        "retained_precise_goals": 0,
+        "frozen_precise_goals": 0
+      },
+      {
+        "case_index": 7,
+        "context_id": 3,
+        "noise_repeat": 1,
+        "retained_task_cost": 6.213226961551888,
+        "frozen_task_cost": 48.745034300627864,
+        "frozen_minus_retained_task_cost": 42.531807339075975,
+        "retained_precise_goals": 0,
+        "frozen_precise_goals": 0
+      }
+    ],
+    "mean_frozen_minus_retained_taskcost": 8.580915960586978,
+    "reference_saturated_decisions": 4,
+    "reference_clipped_goals": 0,
+    "physics": {
+      "coverage": {
+        "maximum_energy_work_residual": 2.8908875293609526e-11,
+        "minimum_mass_eigenvalue": 0.1715742811505916,
+        "joint_coordinate_step_abs": {
+          "0": 2.3106406121797818e-08,
+          "0.01": 4.189642711183162e-07,
+          "0.1": 5.940374676052241e-05,
+          "0.5": 0.008764514700018489,
+          "0.9": 0.11862482939063995,
+          "0.99": 0.2935236798323416,
+          "1": 0.65193590954072
+        },
+        "distal_phase_step_abs": {
+          "0": 1.7070197966262413e-06,
+          "0.01": 6.996264604824609e-05,
+          "0.1": 0.00032355264426944255,
+          "0.5": 0.006112310468419091,
+          "0.9": 0.12726533164609122,
+          "0.99": 0.22981142298122428,
+          "1": 0.3502481140185605
+        },
+        "camera_true_step_norm": {
+          "0": 4.079561477385001e-05,
+          "0.01": 9.610707156651859e-05,
+          "0.1": 0.0004741438578075857,
+          "0.5": 0.010835216085867154,
+          "0.9": 0.1187380205236643,
+          "0.99": 0.1908661074864128,
+          "1": 0.2538241689617074
+        },
+        "cartesian_speed": {
+          "0": 0.0004141474333575946,
+          "0.01": 0.0009331310801541448,
+          "0.1": 0.004588107271690713,
+          "0.5": 0.10702754489277749,
+          "0.9": 1.1868965032293661,
+          "0.99": 1.9126105074183326,
+          "1": 2.549295587013098
+        },
+        "joint_speed_norm": {
+          "0": 0.0003767417173893738,
+          "0.01": 0.0006995648911932521,
+          "0.1": 0.00417805756340068,
+          "0.5": 0.18128248854180903,
+          "0.9": 1.710375245795445,
+          "0.99": 3.7601550529099503,
+          "1": 6.92921490946281
+        },
+        "absolute_jacobian_determinant": {
+          "0": 0.00010234559223154261,
+          "0.01": 0.02400024776975276,
+          "0.1": 0.2898272996484577,
+          "0.5": 0.8108387593870883,
+          "0.9": 0.9908083149118057,
+          "0.99": 0.9993149441583469,
+          "1": 0.9999999374977172
+        },
+        "sampled_near_singular_abs_det_below_point01": 25
+      },
+      "additional_support": {
+        "sample_bracketed_jacobian_sign_changes": 67,
+        "trajectories_with_bracketed_sign_change": 15
+      },
+      "Radau_checks": [
+        {
+          "trajectory": 0,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 0,
+          "interval": 16,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 0,
+          "interval": 76,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 0,
+          "interval": 136,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 0,
+          "interval": 194,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 1,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 1,
+          "interval": 16,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 1,
+          "interval": 76,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 1,
+          "interval": 136,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 1,
+          "interval": 194,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 2,
+          "interval": 0,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 2,
+          "interval": 16,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 2,
+          "interval": 76,
+          "maximum_state_difference": 2.042810365310288e-14
+        },
+        {
+          "trajectory": 2,
+          "interval": 136,
+          "maximum_state_difference": 3.1086244689504383e-15
+        },
+        {
+          "trajectory": 2,
+          "interval": 194,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 3,
+          "interval": 0,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 3,
+          "interval": 16,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 3,
+          "interval": 76,
+          "maximum_state_difference": 1.554312234475219e-14
+        },
+        {
+          "trajectory": 3,
+          "interval": 136,
+          "maximum_state_difference": 2.6645352591003757e-15
+        },
+        {
+          "trajectory": 3,
+          "interval": 194,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 4,
+          "interval": 0,
+          "maximum_state_difference": 3.3306690738754696e-16
+        },
+        {
+          "trajectory": 4,
+          "interval": 16,
+          "maximum_state_difference": 5.051514762044462e-15
+        },
+        {
+          "trajectory": 4,
+          "interval": 76,
+          "maximum_state_difference": 1.1102230246251565e-16
+        },
+        {
+          "trajectory": 4,
+          "interval": 136,
+          "maximum_state_difference": 3.3306690738754696e-16
+        },
+        {
+          "trajectory": 4,
+          "interval": 194,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 5,
+          "interval": 0,
+          "maximum_state_difference": 3.3306690738754696e-16
+        },
+        {
+          "trajectory": 5,
+          "interval": 16,
+          "maximum_state_difference": 5.384581669432009e-15
+        },
+        {
+          "trajectory": 5,
+          "interval": 76,
+          "maximum_state_difference": 7.806255641895632e-18
+        },
+        {
+          "trajectory": 5,
+          "interval": 136,
+          "maximum_state_difference": 1.1102230246251565e-16
+        },
+        {
+          "trajectory": 5,
+          "interval": 194,
+          "maximum_state_difference": 2.371692252312041e-19
+        },
+        {
+          "trajectory": 6,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 6,
+          "interval": 16,
+          "maximum_state_difference": 6.661338147750939e-16
+        },
+        {
+          "trajectory": 6,
+          "interval": 76,
+          "maximum_state_difference": 6.661338147750939e-16
+        },
+        {
+          "trajectory": 6,
+          "interval": 136,
+          "maximum_state_difference": 1.1102230246251565e-15
+        },
+        {
+          "trajectory": 6,
+          "interval": 194,
+          "maximum_state_difference": 2.829090043829363e-19
+        },
+        {
+          "trajectory": 7,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 7,
+          "interval": 16,
+          "maximum_state_difference": 1.1102230246251565e-16
+        },
+        {
+          "trajectory": 7,
+          "interval": 76,
+          "maximum_state_difference": 5.204170427930421e-18
+        },
+        {
+          "trajectory": 7,
+          "interval": 136,
+          "maximum_state_difference": 1.1102230246251565e-15
+        },
+        {
+          "trajectory": 7,
+          "interval": 194,
+          "maximum_state_difference": 5.551115123125783e-17
+        },
+        {
+          "trajectory": 8,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 8,
+          "interval": 16,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 8,
+          "interval": 76,
+          "maximum_state_difference": 3.469446951953614e-17
+        },
+        {
+          "trajectory": 8,
+          "interval": 136,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 8,
+          "interval": 194,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 9,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 9,
+          "interval": 16,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 9,
+          "interval": 76,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 9,
+          "interval": 136,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 9,
+          "interval": 194,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 10,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 10,
+          "interval": 16,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 10,
+          "interval": 76,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 10,
+          "interval": 136,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 10,
+          "interval": 194,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 11,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 11,
+          "interval": 16,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 11,
+          "interval": 76,
+          "maximum_state_difference": 6.661338147750939e-16
+        },
+        {
+          "trajectory": 11,
+          "interval": 136,
+          "maximum_state_difference": 6.661338147750939e-16
+        },
+        {
+          "trajectory": 11,
+          "interval": 194,
+          "maximum_state_difference": 4.163336342344337e-17
+        },
+        {
+          "trajectory": 12,
+          "interval": 0,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 12,
+          "interval": 16,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 12,
+          "interval": 76,
+          "maximum_state_difference": 2.042810365310288e-14
+        },
+        {
+          "trajectory": 12,
+          "interval": 136,
+          "maximum_state_difference": 3.388400671155978e-13
+        },
+        {
+          "trajectory": 12,
+          "interval": 194,
+          "maximum_state_difference": 2.050359881877739e-12
+        },
+        {
+          "trajectory": 13,
+          "interval": 0,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 13,
+          "interval": 16,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 13,
+          "interval": 76,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 13,
+          "interval": 136,
+          "maximum_state_difference": 7.549516567451064e-15
+        },
+        {
+          "trajectory": 13,
+          "interval": 194,
+          "maximum_state_difference": 1.6431300764452317e-14
+        },
+        {
+          "trajectory": 14,
+          "interval": 0,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 14,
+          "interval": 16,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 14,
+          "interval": 76,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 14,
+          "interval": 136,
+          "maximum_state_difference": 4.510281037539698e-16
+        },
+        {
+          "trajectory": 14,
+          "interval": 194,
+          "maximum_state_difference": 3.552713678800501e-15
+        },
+        {
+          "trajectory": 15,
+          "interval": 0,
+          "maximum_state_difference": 1.3877787807814457e-17
+        },
+        {
+          "trajectory": 15,
+          "interval": 16,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 15,
+          "interval": 76,
+          "maximum_state_difference": 1.4144241333724494e-13
+        },
+        {
+          "trajectory": 15,
+          "interval": 136,
+          "maximum_state_difference": 5.773159728050814e-15
+        },
+        {
+          "trajectory": 15,
+          "interval": 194,
+          "maximum_state_difference": 1.865174681370263e-13
+        },
+        {
+          "trajectory": 16,
+          "interval": 0,
+          "maximum_state_difference": 3.3306690738754696e-16
+        },
+        {
+          "trajectory": 16,
+          "interval": 16,
+          "maximum_state_difference": 3.1086244689504383e-15
+        },
+        {
+          "trajectory": 16,
+          "interval": 76,
+          "maximum_state_difference": 6.31406038564819e-12
+        },
+        {
+          "trajectory": 16,
+          "interval": 136,
+          "maximum_state_difference": 3.019806626980426e-14
+        },
+        {
+          "trajectory": 16,
+          "interval": 194,
+          "maximum_state_difference": 2.1742607714259066e-12
+        },
+        {
+          "trajectory": 17,
+          "interval": 0,
+          "maximum_state_difference": 3.3306690738754696e-16
+        },
+        {
+          "trajectory": 17,
+          "interval": 16,
+          "maximum_state_difference": 3.1086244689504383e-15
+        },
+        {
+          "trajectory": 17,
+          "interval": 76,
+          "maximum_state_difference": 1.2212453270876722e-14
+        },
+        {
+          "trajectory": 17,
+          "interval": 136,
+          "maximum_state_difference": 7.771561172376096e-15
+        },
+        {
+          "trajectory": 17,
+          "interval": 194,
+          "maximum_state_difference": 1.8118839761882555e-13
+        },
+        {
+          "trajectory": 18,
+          "interval": 0,
+          "maximum_state_difference": 3.3306690738754696e-16
+        },
+        {
+          "trajectory": 18,
+          "interval": 16,
+          "maximum_state_difference": 3.1086244689504383e-15
+        },
+        {
+          "trajectory": 18,
+          "interval": 76,
+          "maximum_state_difference": 7.993605777301127e-15
+        },
+        {
+          "trajectory": 18,
+          "interval": 90,
+          "maximum_state_difference": 1.7763568394002505e-15
+        },
+        {
+          "trajectory": 18,
+          "interval": 136,
+          "maximum_state_difference": 1.459943277382081e-14
+        },
+        {
+          "trajectory": 18,
+          "interval": 194,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 19,
+          "interval": 0,
+          "maximum_state_difference": 3.3306690738754696e-16
+        },
+        {
+          "trajectory": 19,
+          "interval": 16,
+          "maximum_state_difference": 3.1086244689504383e-15
+        },
+        {
+          "trajectory": 19,
+          "interval": 76,
+          "maximum_state_difference": 1.2878587085651816e-14
+        },
+        {
+          "trajectory": 19,
+          "interval": 136,
+          "maximum_state_difference": 4.996003610813204e-16
+        },
+        {
+          "trajectory": 19,
+          "interval": 194,
+          "maximum_state_difference": 3.552713678800501e-15
+        },
+        {
+          "trajectory": 20,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 20,
+          "interval": 16,
+          "maximum_state_difference": 1.3877787807814457e-16
+        },
+        {
+          "trajectory": 20,
+          "interval": 76,
+          "maximum_state_difference": 8.881784197001252e-16
+        },
+        {
+          "trajectory": 20,
+          "interval": 136,
+          "maximum_state_difference": 3.9968028886505635e-15
+        },
+        {
+          "trajectory": 20,
+          "interval": 194,
+          "maximum_state_difference": 4.6629367034256575e-15
+        },
+        {
+          "trajectory": 21,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 21,
+          "interval": 16,
+          "maximum_state_difference": 1.3877787807814457e-16
+        },
+        {
+          "trajectory": 21,
+          "interval": 76,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 21,
+          "interval": 136,
+          "maximum_state_difference": 3.9968028886505635e-14
+        },
+        {
+          "trajectory": 21,
+          "interval": 194,
+          "maximum_state_difference": 3.552713678800501e-15
+        },
+        {
+          "trajectory": 22,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 22,
+          "interval": 16,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 22,
+          "interval": 76,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 22,
+          "interval": 136,
+          "maximum_state_difference": 1.3322676295501878e-15
+        },
+        {
+          "trajectory": 22,
+          "interval": 194,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 23,
+          "interval": 0,
+          "maximum_state_difference": 2.220446049250313e-16
+        },
+        {
+          "trajectory": 23,
+          "interval": 16,
+          "maximum_state_difference": 4.440892098500626e-16
+        },
+        {
+          "trajectory": 23,
+          "interval": 76,
+          "maximum_state_difference": 1.1102230246251565e-16
+        },
+        {
+          "trajectory": 23,
+          "interval": 136,
+          "maximum_state_difference": 2.581490576858414e-12
+        },
+        {
+          "trajectory": 23,
+          "interval": 146,
+          "maximum_state_difference": 1.3562484468820912e-12
+        },
+        {
+          "trajectory": 23,
+          "interval": 150,
+          "maximum_state_difference": 1.0169642905566434e-13
+        },
+        {
+          "trajectory": 23,
+          "interval": 194,
+          "maximum_state_difference": 4.063416270128073e-14
+        }
+      ],
+      "maximum_Radau_difference": 6.31406038564819e-12,
+      "extreme_interval_indices": {
+        "Cartesian_speed": [
+          23,
+          150
+        ],
+        "joint_speed": [
+          23,
+          146
+        ],
+        "Jacobian_singularity": [
+          18,
+          90
+        ],
+        "joint_step": [
+          23,
+          146
+        ],
+        "distal_phase": [
+          23,
+          146
+        ]
+      },
+      "scope": {
+        "local_intervals": 4704,
+        "complete_trajectories": 24,
+        "local_RK4_substeps": 256,
+        "rolling_RK4_substeps": 512,
+        "Radau_intervals": 123
+      }
+    }
+  },
+  "late_precision_endpoint_indices": [
+    [
+      67,
+      76
+    ],
+    [
+      127,
+      136
+    ],
+    [
+      187,
+      196
+    ]
+  ],
+  "limitations": [
+    "Previously independently derived Hamiltonian, Christoffel/IK and scoring helpers reused; no canonical plant/learner/controller imported.",
+    "Local fits/selection/gradients/optimizer plans and append content are separately audited; recorded ordinary actions are physical inputs here.",
+    "Fixed one-body acquisition/preparation/task law; neither all-purpose learning nor optimality certificate.",
+    "Sampled final10endpoint precision and support diagnostics do not certify continuous-time conditions.",
+    "Paired controls share noise and warmup; later histories differ, so append comparison is total closed-loop effect.",
+    "Historical RHS/modeled counters reconstructed from arrays/records, not independently observed timing."
+  ],
+  "wall_seconds": 18.10374116897583
+}

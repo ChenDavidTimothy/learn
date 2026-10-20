@@ -1,3 +1,69 @@
+# ACTIVE: v17 verified and ready for SSH publication
+
+V17 ledger and release manifest generated; build_ledger_v17.py --check PASSES all
+scientific source/data/audit gates, exact reconstruction and byte-identical full
+v16 suffix. Final independent aggregate/report and optimizer diagnostic/report
+are complete. README points to v17. Commit/push and verify origin/main next;
+record the actual commit after remote verification, then immediately continue.
+
+Read first_principles_robot_learning_ledger_v17.md before the next investigation.
+The fresh result is negative for reliability (55/192 retained vs19/192 frozen,
+192/192 privileged reference), despite positive retention cost effect. Full
+reports/310failures/numerical exception remain. Broad Goal ACTIVE/unresolved.
+Next: fixed all-decision prequential consequences, then prescribed zero/symmetric
+axis action forks at actual saved prefixes; no model selection or rescue tuning.
+See independent prefix diagnostic critique and v17 direction reassessment.
+
+---
+
+# ACTIVE: fresh negative replication audited; v17 publication gates finishing
+
+Latest published ledger remains v16. The broad general-learning Goal is ACTIVE.
+All fixed fresh corpora 200--207 are complete and raw data remain unmodified.
+Retained local control passes 55/192 sustained precision windows, frozen library
+19/192, privileged nominal reference 192/192. Mean 18 sec costs are 22.82666885
+and 33.70509936; paired frozen-minus-retained corpus difference is
+10.87843051 +/- 2.62552145 descriptive SE. All eight cost differences favor
+retention, but one corpus precision difference is negative. The pilot's 22/24
+is exploratory and does not extrapolate to reliable control. Preserve all 310
+failed ordinary windows. No breakthrough or general architecture is established.
+
+Both independent fresh physics/scoring and ordinary fit/decision audits PASS.
+Final numerical auditor SHA 507d3bd427a661a57df07314f10f083bc55d35435225253a250d962b083989d7.
+Exactly one original coefficient check failed at rep206/frozen episode7/renewal88/
+member1 (2.14559e-10 vs atol 2e-10). Original source/failure/inputs are preserved.
+80-digit optimum, third solver, exact source replay, condition/residual accounting
+and unchanged downstream criteria diagnose normal-equation roundoff. All eight
+corpora are fully replayed/rebound under the final auditor; no study changes.
+Read audit_cartesian_stream_v17_study_roundoff_report.md for limits.
+
+Strict scientific aggregate completed with publication_eligible=True:
+cartesian_stream_v17_study_aggregate_results.json. Independent aggregate arithmetic/
+resource/failure/hash review is running. Optimizer diagnostic covers all 11,520
+selected plans; costs/gradients replay and convex modeled-gap bounds PASS, report
+finishing. Maximum absolute bound 1.66648e-4; maximum bound/objective 2.27143% at
+a near-zero .000383878 objective. This narrows incomplete modeled optimization,
+not physical prediction error or closed-loop suboptimality.
+
+Root drafted ledger_v17_prefix.md and build_ledger_v17.py; neither the ledger nor
+release manifest has been generated yet. Independent ledger/build review found
+two F61 qualifications, both corrected, and optimizer hash-gate issue, corrected.
+NEXT finish independent aggregate/report gates, run builder, verify exact full-v16
+suffix and manifest reconstruction, update README, commit/push via existing SSH,
+verify remote commit, then IMMEDIATELY continue. Never stop just for publishing.
+
+Prospective next investigation: all 11,520 stored prequential pair predictions
+first, then fixed saved-prefix action forks at renewals [0,15,30,60], all corpora/
+variants/cases. Agent critique cartesian_stream_v17_prefix_diagnostic_independent.md
+recommends reusing actual issued outcomes, five zero/symmetric-axis forks only,
+coherent member contrasts and explicit conditional-mean/individual-world limits.
+No diagnostic implementation or new fork physics has run. A strong local prefix
+learner is a possible lower-data rival, not a prescribed answer. Do not tune the
+original study or select models from test/fork outcomes. Existing PC/.venv,
+no packages/environments/services. No genuine blocker or approval required.
+
+---
+
 # ACTIVE: fresh study source/protocol preflight PASSED, acquisition next
 
 Latest verified ledger remains v16. No new ledger/release or ultimate completion.

@@ -1,0 +1,154 @@
+{
+  "status": "PASS ALL EIGHT INDEPENDENT FIT/FORECAST/ORDINARY-DECISION AUDITS; PHYSICAL SCORES SEPARATE",
+  "replicates": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "artifact_sha256": {
+    "audit_cartesian_stream_v17_study_rep200_results.json": "3ce227f468e467cc8b35c601f694f70a2b799768add449386f6b209498e5b710",
+    "audit_cartesian_stream_v17_study_rep201_results.json": "367918aa91bb18451d3f1b8c51da9638d18db997db9a4dff38c2513ac1fe5a77",
+    "audit_cartesian_stream_v17_study_rep202_results.json": "7d8e1b5eba465da536c9f2765cab05cbec4f2a82f469906a7e75bc8946672eed",
+    "audit_cartesian_stream_v17_study_rep203_results.json": "ce6bd6aeee0eca268dbeeefe2e37b8002ef308f78769bd14bbad99c5ce5e6d51",
+    "audit_cartesian_stream_v17_study_rep204_results.json": "a7177ac44db9cb7979140a3af6d1c2515f4c7060c13bc7e51501b918ee093214",
+    "audit_cartesian_stream_v17_study_rep205_results.json": "9dc7a4b6be55a21e456bd6a5855499f2d34eaf8d1a031be36b874c89f25393ab",
+    "audit_cartesian_stream_v17_study_rep206_results.json": "36e3479724686b7fe1cf948a30a6139bfdd9e30f4c414a3ae2b18a063d6b3960",
+    "audit_cartesian_stream_v17_study_rep207_results.json": "a480765b9e9bd24eefc3d1479b2cecdb281ec41cca94c022a2a8db6ff532fb44",
+    "audit_cartesian_stream_v17_study.py": "507d3bd427a661a57df07314f10f083bc55d35435225253a250d962b083989d7"
+  },
+  "total_decisions": 11520,
+  "total_control_member_fits": 34560,
+  "total_offline_member_fits": 30720,
+  "maximum_absolute_errors": {
+    "offline_score": 2.8208546609675977e-11,
+    "raw_test_prediction": 2.0659030042224913e-12,
+    "control_query": 0.0,
+    "control_coefficient": 3.120722716701274e-10,
+    "control_fit_diagnostic": 1.7587042933087105e-12,
+    "local_stationarity": 4.464707683421443e-13,
+    "plan_cost": 6.36168806522619e-09,
+    "selected_gradient": 8.08144662300947e-11,
+    "selected_projected_gradient": 1.9595033928787586e-11
+  },
+  "total_optimizer_unsuccessful": 0,
+  "total_fallbacks": 0,
+  "secondary_coefficient_roundoff_certificates": [
+    {
+      "original_rtol": 2e-08,
+      "original_atol": 2e-10,
+      "original_criterion_passed": false,
+      "exact_source_normal_replay": true,
+      "max_coefficient_difference": 2.1455866250352784e-10,
+      "third_pivoted_qr_vs_svd_max": 6.534217611431359e-13,
+      "condition_augmented": 1637.7081105049358,
+      "condition_normal": 2682087.8554205513,
+      "normal_inverse_residual_upper": 1.0463296921169929e-07,
+      "inverse_infinity_norm_upper": 11738.73887787506,
+      "source_normal_residual_infinity": 1.2878587085651816e-13,
+      "reference_normal_residual_infinity": 1.2378986724570495e-12,
+      "source_backward_error": 1.1335438004754274e-18,
+      "residual_evaluation_gamma70": 1.5543122344752435e-14,
+      "coordinate_difference_upper_bound": 8.224392126736214e-07,
+      "weighted_augmented_prediction_difference_norm": 2.2554132007038686e-11,
+      "qualification": "Condition/residual floating-point certificate; original coordinate mismatch retained. Downstream criteria unchanged.",
+      "replicate": 206,
+      "episode": 7,
+      "variant": "frozen",
+      "renewal": 88,
+      "member": 1
+    }
+  ],
+  "projected_gradient_quantiles": {
+    "0": 0.0,
+    "0.5": 5.643283387084252e-07,
+    "0.9": 3.3392530541791213e-06,
+    "0.99": 2.2245134155848822e-05,
+    "1": 0.0001664943066135606
+  },
+  "recorded_score_arithmetic": {
+    "retained": {
+      "mean_task_cost": {
+        "per_corpus": [
+          25.957540076642434,
+          4.393150250975173,
+          36.034506817018034,
+          33.82335521302406,
+          32.44844851778879,
+          7.002558795901531,
+          42.8662708393088,
+          0.08752030751086065
+        ],
+        "mean": 22.826668852271208,
+        "descriptive_corpus_se": 5.834941982535539
+      },
+      "mean_combined_charged_cost": {
+        "per_corpus": [
+          25.963185693296975,
+          4.399033366725452,
+          36.04021058598811,
+          33.83191837271751,
+          32.4590783773299,
+          7.007887648662071,
+          42.871319188980024,
+          0.09219003772197477
+        ],
+        "mean": 22.833102908927753,
+        "descriptive_corpus_se": 5.835222551420066
+      },
+      "precise_goals": 55,
+      "goal_windows": 192
+    },
+    "frozen": {
+      "mean_task_cost": {
+        "per_corpus": [
+          31.285091473081174,
+          23.411875016887386,
+          47.099126985576866,
+          42.404271173611036,
+          55.584234546839454,
+          14.279107326091394,
+          55.45132040242093,
+          0.1257679371033496
+        ],
+        "mean": 33.70509935770145,
+        "descriptive_corpus_se": 7.100575710169914
+      },
+      "mean_combined_charged_cost": {
+        "per_corpus": [
+          31.290737089735714,
+          23.417758132637665,
+          47.10483075454695,
+          42.41283433330449,
+          55.594864406380566,
+          14.284436178851935,
+          55.456368752092175,
+          0.13043766731446374
+        ],
+        "mean": 33.711533414357994,
+        "descriptive_corpus_se": 7.100974849400878
+      },
+      "precise_goals": 19,
+      "goal_windows": 192
+    }
+  },
+  "recorded_paired_frozen_minus_retained_task_cost": {
+    "per_corpus": [
+      5.327551396438741,
+      19.018724765912214,
+      11.064620168558836,
+      8.580915960586982,
+      23.135786029050657,
+      7.2765485301898645,
+      12.585049563112145,
+      0.038247629592488966
+    ],
+    "mean": 10.878430505430241,
+    "descriptive_corpus_se": 2.6255214474935897
+  },
+  "limitations": "Independent decisions/fitting verified. True physics/RNG/scoring must have separate audit before interpreting recorded-score summaries. Descriptive SE clusters eight acquired corpora; goals/windows/noise repeats are not independent bodies. No universal superiority or global optimizer claim."
+}

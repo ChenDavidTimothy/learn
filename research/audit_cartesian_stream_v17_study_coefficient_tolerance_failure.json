@@ -1,0 +1,14 @@
+{
+  "status": "PRESET ABSOLUTE COEFFICIENT REPLAY ASSERTION FAILED; CANONICAL STUDY UNCHANGED",
+  "replicate": 206,
+  "episode_index": 7,
+  "variant": "frozen",
+  "renewal": 88,
+  "member": 1,
+  "original_rtol": 2e-08,
+  "original_atol": 2e-10,
+  "observed_max_absolute_coefficient_difference": 2.1455866250352784e-10,
+  "original_auditor_sha256": "b5ee98183d55d304b3141c7949cea74c3ecfb9e2e95b4f2b3972c19f767ffce6",
+  "preserved_source": "research/audit_cartesian_stream_v17_study_coefficient_tolerance_pilot.py",
+  "assertion": "((206, 7, 88, 1, 'coefficient'), 2.1455866250352784e-10)"
+}

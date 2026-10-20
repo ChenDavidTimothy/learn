@@ -1,0 +1,96 @@
+{
+  "status": "EXPLORATORY MOVING ACQUISITION; NO LEARNER OR RELEASE",
+  "replicate": 205,
+  "source_sha256": "54f5b71020a163aa76326d94fefc7db8f5723947b6efceed4139ec5a5910f6f2",
+  "plant_source_sha256": "358486add84531d3b487e1ce2dccd1628411b8f5f8fe1d902e8c18f9979dbd30",
+  "design_sha256": "2dd9199b742a176960d07b3c7e122fe64f718222c3dd99fae04c20ef3278fe8e",
+  "artifacts": {
+    "cartesian_stream_v17_rep205_ordinary.npz": "58a3a1f2c5763815d0192bd2a8b47058091661194793f6a8dfe21ba54b182ef6",
+    "cartesian_stream_v17_rep205_evaluator.npz": "eac05d86e1f87af2d44191af4c553db3831aa7b951d5d53cc3c207da4916c1b6"
+  },
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "dt": 0.1,
+  "sensor_sd": 0.0002,
+  "counts": [
+    24,
+    8,
+    8
+  ],
+  "steps": 256,
+  "decision_interval": 0.2,
+  "resources": {
+    "trajectories": 40,
+    "physical_intervals": 10240,
+    "physical_seconds": 1024.0,
+    "passive_prefix_intervals": 320,
+    "passive_prefix_seconds": 32.0,
+    "intervention_intervals": 9920,
+    "intervention_seconds": 992.0,
+    "scalar_noise_draws": 20560,
+    "cartesian_camera_reads": 10280,
+    "plant_rhs_evaluations": 291440
+  },
+  "coverage_evaluator_only": {
+    "maximum_energy_work_residual": 1.3807927023989919e-11,
+    "minimum_mass_eigenvalue": 0.17157294331721917,
+    "joint_coordinate_step_abs": {
+      "0": 1.8977012098408963e-06,
+      "0.01": 0.0003866683276382865,
+      "0.1": 0.004552575748887455,
+      "0.5": 0.03300345802930038,
+      "0.9": 0.11805306531144412,
+      "0.99": 0.26058052657936415,
+      "1": 0.528520051868945
+    },
+    "distal_phase_step_abs": {
+      "0": 2.4907410051677736e-06,
+      "0.01": 0.00038246263072308387,
+      "0.1": 0.004878542576073521,
+      "0.5": 0.03602972907141244,
+      "0.9": 0.10517994743693698,
+      "0.99": 0.18142623339972866,
+      "1": 0.30569368550899156
+    },
+    "camera_true_step_norm": {
+      "0": 9.711606312285571e-05,
+      "0.01": 0.0022463014898500004,
+      "0.1": 0.008337848827025396,
+      "0.5": 0.037638369602479196,
+      "0.9": 0.10824496999875205,
+      "0.99": 0.16729583509691126,
+      "1": 0.25281720355308923
+    },
+    "cartesian_speed": {
+      "0": 0.001785581680748388,
+      "0.01": 0.02214971817613721,
+      "0.1": 0.08295740239318355,
+      "0.5": 0.37733455014122763,
+      "0.9": 1.083849553894106,
+      "0.99": 1.671834581428396,
+      "1": 2.53114646917793
+    },
+    "joint_speed_norm": {
+      "0": 0.001756679443923018,
+      "0.01": 0.03111892188911783,
+      "0.1": 0.1282478843197085,
+      "0.5": 0.5786174396489863,
+      "0.9": 1.6711925345405312,
+      "0.99": 3.289191025193467,
+      "1": 6.044204079255049
+    },
+    "absolute_jacobian_determinant": {
+      "0": 0.0002721907509095492,
+      "0.01": 0.017886962397513292,
+      "0.1": 0.15063454169691762,
+      "0.5": 0.7242487906710875,
+      "0.9": 0.9864929594922724,
+      "0.99": 0.99985508640938,
+      "1": 0.9999999991670575
+    },
+    "sampled_near_singular_abs_det_below_point01": 59
+  },
+  "wall_seconds": 4.225501537322998,
+  "limitations": "Ordinary data contain only noisy Cartesian positions, commanded torques, dt/noise scale and trajectory/split IDs. Evaluator data and coverage are not learner inputs. Initial support is not a later trajectory envelope. Renewed actions only at even t>=8."
+}
