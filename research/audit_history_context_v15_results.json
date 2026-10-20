@@ -1,0 +1,18 @@
+{
+  "scope": "Independent Hamiltonian RK4, causal feature/RNG/box check; not global nonlinear pose-only optimality",
+  "errors": {
+    "past_physics": 1.7763568394002505e-15,
+    "past_RNG": 0.0,
+    "slope": 3.469446951953614e-18,
+    "learned_box_optimality": 2.9830728908613896e-30,
+    "physics64vs128": 3.1086244689504383e-15,
+    "endpoint_state": 2.914335439641036e-15
+  },
+  "history_seeds": 1536,
+  "minimum_history_seed": 50020261020,
+  "maximum_history_seed": 50027371035,
+  "preceding_production_role_maximum": 43029161021,
+  "freshness": "Numerically disjoint declared role namespaces throughv14; distinct seeds are not a mathematical proof of independent pseudorandom streams.",
+  "frozen_source_changes": "Seed correction and metadata-only renaming of ballistic reference; no action/physics change",
+  "pilot_only": true
+}

@@ -1,0 +1,136 @@
+{
+  "status": "INDEPENDENTLY VERIFIED PRELIMINARY HISTORY PILOT; NOT LEARNED SUMMARY SELECTION",
+  "artifact_sha256": {
+    "history_context_v15_pilot.py": "4a1e4b2fe5606e51a5594ee8f159e64196e20b3b5e0ea7e16545b88834ff0141",
+    "history_context_v15_pilot_results.json": "29ff2f2689479e44e1d5c6f4b2bf9a1697a9cc22fc4d124953ea42c480952d81",
+    "history_context_v15_question.md": "64c2176b947baf4d9ce35dad8ab9e442c986c551c30e6849f35761d238f13573",
+    "coupled_learning_v14_results.json": "cf1858aa45ea894c1bfc1ed8b0a8f898549da0e8aa497b191b9493521dec723a"
+  },
+  "parent_models": "Eight canonical information-corrected broad v14 calibrated inverse fits, in replicate order; certified parent hash checked.",
+  "maximum_absolute_errors": {
+    "physics32vs64": 3.654368474492742e-14,
+    "past_states": 1.1102230246251565e-15,
+    "past_forward": 2.220446049250313e-15,
+    "back_forward_error": 2.220446049250313e-16,
+    "oracle_endpoint": 6.661381008050844e-16,
+    "zero_endpoint": 1.1102230246251565e-15,
+    "RNG": 0.0,
+    "slope": 3.469446951953614e-18,
+    "command": 3.9968028886505635e-15,
+    "bounded_objective": 2.9830728908613896e-30,
+    "final_state": 1.7763568394002505e-15,
+    "endpoint_error": 7.552145757719342e-18,
+    "endpoint_velocity": 1.1449174941446927e-15,
+    "summary": 0.0
+  },
+  "independent_oracle_replay": {
+    "successes": 12,
+    "residual_calls": 132,
+    "canonical_recorded_calls": 132,
+    "exact_call_match": true
+  },
+  "stream_audit": {
+    "fresh_sensor_seeds": 1536,
+    "earlier_v12_v13_v14_role_seeds": 24881,
+    "earlier_maximum_seed": 43029161021,
+    "fresh_minimum_seed": 50020261020,
+    "fresh_maximum_seed": 50027371035,
+    "excluded_pilot_collisions": [
+      22561020,
+      22661020,
+      22661021,
+      23561020,
+      23661020,
+      23661021,
+      24561020,
+      24661020,
+      24661021,
+      25561020,
+      25661020,
+      25661021,
+      26561020,
+      26661020,
+      26661021,
+      27561020,
+      27661020,
+      27661021,
+      28561020,
+      28661020,
+      28661021,
+      29561020,
+      29661020,
+      29661021
+    ],
+    "excluded_v14_acquisition_collisions": 8,
+    "excluded_v12_heldout_collisions": 16
+  },
+  "canonical_computation": {
+    "worlds": 12,
+    "backward_integrations": 48,
+    "return_checks": 12,
+    "zero_reference_integrations": 12,
+    "privileged_oracle_residual_calls": 132,
+    "evaluation_history_samples": 1536,
+    "future_pulse_integrations": 4608,
+    "total_ODE_calls": 4812,
+    "total_absolute_simulated_duration": 958.8,
+    "scalar_past_coordinate_sensor_reads": 12288,
+    "new_learned_model_training_samples": 0
+  },
+  "summary": {
+    "pose_only_zero": {
+      "endpoint_mse": {
+        "mean": 1.666670962168972e-05,
+        "mc_se": 0.0,
+        "median": 1.666670962168972e-05,
+        "q10": 1.666670962168972e-05,
+        "q90": 1.666670962168972e-05
+      },
+      "trials": 1536
+    },
+    "learned_relation_history": {
+      "endpoint_mse": {
+        "mean": 2.201255135105224e-08,
+        "mc_se": 3.7142017613816342e-09,
+        "median": 1.7418713639292575e-08,
+        "q10": 1.2598355526973335e-08,
+        "q90": 3.7137527289932757e-08
+      },
+      "trials": 1536
+    },
+    "oracle_state": {
+      "endpoint_mse": {
+        "mean": 1.4727225405055367e-30,
+        "mc_se": 0.0,
+        "median": 1.4727225405055367e-30,
+        "q10": 1.4727225405055367e-30,
+        "q90": 1.4727225405055367e-30
+      },
+      "trials": 1536
+    }
+  },
+  "final_velocity_diagnostic": {
+    "pose_only_zero": {
+      "mean": 0.020177647811705408,
+      "maximum": 0.022436290972444817
+    },
+    "learned_relation_history": {
+      "mean": 0.0203071862802357,
+      "maximum": 0.0253374287986471
+    },
+    "oracle_state": {
+      "mean": 0.020177582616941307,
+      "maximum": 0.02236067977500243
+    }
+  },
+  "limitations": [
+    "Exact current pose and identical return goal are supplied. No history selection/compression is learned; anchored slope and cancellation arithmetic are supplied.",
+    "Past trajectories are genuine zero-torque continuous histories. Backward integration is an environment construction, not controller access to future noise or true velocity.",
+    "No true velocity or mechanics enters the ordinary history action. Privileged commands merely witness individual bounded endpoint feasibility.",
+    "Zero torque is a diagnostic, not a globally optimal nonlinear pose-only policy or finite-T error lower bound.",
+    "Summary MCSE uses eight acquired-parent-model clusters, each averaging twelve fixed worlds and sixteen fresh measurement draws; it is not population uncertainty over arbitrary worlds.",
+    "Position return ends moving. No continuous feedback, stationkeeping, process noise, model retraining or autonomous summary revision is demonstrated.",
+    "Source does not retain per-oracle nfev or bounded-solver status records. Independent endpoint and box-optimality checks validate saved commands, not every internal iteration.",
+    "Excluded seed-collision run remains preserved; its earlier random streams are not counted as fresh independent evidence."
+  ]
+}

@@ -1,3 +1,95 @@
+# Active continuation: v14 published; audited v15 history pilot preserved
+
+The general-learning Goal remains ACTIVE and unresolved. Latest verified living
+ledger is v14, published over SSH and verified at
+`93262d83e99c113b3d9542630d8d270fcc106ade`. Complete v13 and all earlier ledgers
+remain verbatim. There is NO v15 ledger yet; a supplied-history pilot is not a
+new general-learning milestone. Continue on the existing PC/.venv immediately.
+
+## Work completed after v14 publication
+
+`history_context_v15_question.md`, `_pilot.py` and actual JSON construct12 moving
+worlds at two poses with opposite velocities but identical current pose/return
+goal. Legitimate zero-torque prehistories are checked backward/forward. Ordinary
+history control uses ONLY four noisy past positions, openly supplied exact current
+pose, and the learned v14 broad-data inverse relation. Anchored least-squares slope
+and cancellation arithmetic are SUPPLIED, not autonomously learned. True-state
+oracle commands only witness individual feasible endpoints; they are privileged.
+
+Eight parent acquired-data fits x12 worlds x16 fresh histories =1536 rows, each
+with3 future pulse methods. Endpoint MSE: pose-only zero diagnostic1.66667096e-5;
+learned relation plus supplied history2.20125514e-8 +/-3.71420e-9 SE across8parent
+fits; oracle1.47272e-30. This is position RETURN ending in motion, not stopping.
+Zero is not certified globally optimal among nonlinear pose-only policies.
+No new model training, continuous feedback or learned history selection occurs.
+
+Independent theory report `history_context_v15_theory_independent.md` and
+`audit_history_context_v15.py`/JSON derive actual nonrest Coriolis-aware expansion,
+information access, history-slope curvature/noise bias and Hamiltonian verification.
+Separate artifact audit `audit_history_context_v15_pilot.py`/JSON/report checks
+all48 backward states,12 forward returns,12 bounded endpoint witnesses, all1536
+RNG/slope/actions and4608 future pulses, independent box optima and summaries.
+State discrepancies <3e-15; canonical source/result reproduction is byte-identical.
+Raw generated metadata retains pre-audit status; completed reports certify it.
+
+## Important corrections to preserve
+
+First attempted seedbase collided with earlier roles. It was caught before outcomes
+were reviewed; FULL source/results are retained as history_context_v15_seed_collision_pilot*.
+Audit finds24 exact earlier role matches:8v14 acquisition+16v12 heldout. Exclude it
+from fresh-stream claims. Canonical namespace50,020,261,020..50,027,371,035 is disjoint
+from earlier production max43,029,161,021;1536 unique role seeds. Do not keep choosing
+small version-offset bases: use disjoint documented ranges or version/experiment/
+role-tagged SeedSequence paths in future, without changing released streams.
+
+Initial risk display omitted physical Coriolis at nonzero velocity. The exact
+ballistic-surrogate identity is T²||v||²+.25T4||M^-1u||², not an exact nonlinear
+finite-T floor. Actual paired midpoint=.5T²M^-1(u-h)+O(T4), half-separation=Tv+O(T3).
+Stored field was renamed ballistic_surrogate_risk_reference_not_nonlinear_certificate;
+the old name/correction is recorded. No numerical method changed. Do not declare
+zero torque globally optimal from a grid/local solver. Velocity need not be a
+named internal variable: retained history is the relevant information distinction.
+
+Per canonical pilot:4812 ODE calls/958.8 absolute simulated seconds =48 backward,
+12 forward,12 zero references,132 oracle residuals,4608 future pulses.12288 scalar
+past sensor readings. Excluded collision run adds the same development resources,
+not independent evidence. Reproduction repeats seeded cases, not new learned fits.
+Parent acquisition belongs to v14 and is reused. No new v15 training data yet.
+
+## Exact next scientific work: acquire/revise useful history from experience
+
+Read latest v14 and both v15 audits, then leave supplied-slope demonstrations.
+The unresolved question is whether a learning mechanism can detect that its current
+summary loses distinctions needed for future decisions, revise the summary through
+experience, and use it in sustained coupled control. Another filter or aliasing-only
+ledger would drift. No new release solely for this pilot.
+
+A defensible next experiment uses continuous two-joint trajectories without rest
+resets at goal changes. Ordinary learners receive measured positions/actions only,
+not true velocity/acceleration or future goal/noise. Compare current-position
+summaries with learned/selected causal history or compression, plus strong applicable
+conventional delay/derivative-free/observer alternatives. Treat physical state as
+one candidate, not a mandatory foundation. Generic conditional prediction, direct
+history feedback and relation learning are legitimate competing formulations.
+
+Derive actual information/task feasibility first. Goals must be feasible under
+bounds at the encountered motion; use privileged diagnostics only as witnesses.
+Separate heldout consequence prediction from actual sustained goal/precision results.
+Choose history/regularization with TRAINING/validation only, retain negative cases,
+count all acquisition/tuning/reset/sensor/test resources, and audit independently.
+Do not simply add true-velocity features or handpick a slope and call it discovered.
+No architectural or numerical choice is fixed by this handoff; scientific judgment
+and evidence determine the route. Study Romeres et al.2018 as a serious existing
+position-history inverse-dynamics baseline, without claiming modern superiority.
+
+For each meaningful verified milestone: next sequential ledger including v14
+verbatim, executable actual experiments/results, independent audit, commit/push SSH,
+verify remote, and continue. Keep the broader Goal ACTIVE across releases.
+
+---
+
+# Retained v14 handoff details
+
 # Active continuation after v14
 
 The general-learning Goal is ACTIVE and unresolved. Latest independently verified
