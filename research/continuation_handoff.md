@@ -1,132 +1,84 @@
-# Active continuation after v11
+# Active continuation after v12
 
-The persistent Goal is **ACTIVE**. The latest verified living ledger is v11:
-`first_principles_robot_learning_ledger_v11.md`. It preserves the complete v10
-and earlier history verbatim. Commit `90b7e9b8198a1854982588a2ed3553c51681129c`
-was pushed and verified on the existing SSH origin/main. V10 was published at
-`450272cc1f34282b7dd2521db3972280982c2c7e`; v9 at
-`426524a38a041b7e566fece00831b073cfdddab6`.
+The general-learning Goal is ACTIVE and unresolved. Latest verified living ledger:
+`first_principles_robot_learning_ledger_v12.md`, incorporating complete v11 and all
+preceding ledgers verbatim. See `git log -1`/SSH `origin/main` for the current release
+commit (a document cannot contain its own commit hash). Prior verified v11 commit:
+`90b7e9b8198a1854982588a2ed3553c51681129c`; preparatory pilot checkpoint:
+`6dc0c5037b5f23ee62ed04e07914ac595a7fc6bb`. Publish over existing SSH origin and verify
+its exact main commit. No release is a stopping condition.
 
-Read the new v11 section and independent audits before extending. The ultimate
-general-learning objective remains unresolved; no release is a stopping condition.
+## What v12 actually establishes
 
-## Verified v11 findings and correction
+- With the declared lagged timing, fresh iid zero-mean position noise and exogenous
+  fixed goals/horizon/normalization, observation-only quadratic position/displacement/
+  command fitness differs from hidden position/velocity cost by expectation offset
+  1.6R/D. Biased/colored sensors or motor-first feedback can break policy ranking.
+- Direct CEM improves a supplied six-parameter dynamic stationary controller.
+  Shadow segmented raw-position OE followed by EKF/MPC gets lower mean tracking cost
+  at both data checkpoints on all four supplied scalar plants from EXACTLY the
+  same complete environment experience. This is a comparison of specified mechanisms,
+  not equal priors/capacity/compute or universal model necessity.
+- Feedback training OE is valid joint/sequential likelihood at zero process noise,
+  known zero resets and all episodes retained. Do not claim full-command exogeneity
+  or concatenate separate reset episodes. Do not fit only elites.
+- Identical CEM inside the learned nonlinear model gives no consistent benefit to
+  the SAME controller family. Capacity versus finite search remains OPEN. Learned
+  linear and nonlinear MPC remain close; station keeping is unreliable.
+- MPC uses remaining86-t; the direct class lacks a clock. Prescribed first70-step
+  scores retain the MPC advantage before any horizon shortening, but class/compute
+  differences remain. Feedback continues through86; this is not v10/v11 forcedcoast.
 
-In the slow linear motor case, extending the same training trajectory from 512
-to 8192 commands barely changes this controller's performance. Reducing position
-sensor SD from .2 to .02 helps, but cannot reveal the latest hidden motor
-innovation. Known-parameter conditioning gives a real information floor. Even
-exact positions leave xi68 unobserved at action 69; future xi69 also matters during
-the sixteen forced-zero transitions.
+## Reproducibility and independent evidence
 
-Crucial correction: that floor did not explain most original endpoint error. The
-executor encoded a cutoff at step 70, but its fixed-eight-action planner was never
-passed remaining availability. It optimized future commands that would not execute.
-For the retained histories at SD .2, mean squared conditional endpoint bias was
-1.676571, versus conditional variance .343423. Using N=min(8,70-t), with the same
-sixteen predicted zero commands for both comparators, reduces bias squared to
-.001556 and late position RMSE from .652 to .331. At SD .02 the corresponding bias
-falls from .603351 to .000664; strict whole-stop counts improve from 3/24 to 6/24.
+`shared_experience_v12.py`, NPZ, JSON, design, timing:32 training fits, four plants,
+eight seeds each, all384 episodes/33024 training steps per seed. Checkpoints2/8 CEM
+generations8256/33024 steps. Final direct means.314099/.331481/.401574/.357066;
+nonlinear MPC means.267673/.274189/.266358/.274551. Main test384 episodes/22016plans.
+`model_reuse_v12.py`, NPZ, JSON, design, timing:33024 VIRTUAL steps per seed, no new
+plant training,64 extra test episodes; same-family costs.321943/.311855/.393994/.406712.
 
-Passing the existing task constraint into planning was the needed repair; more
-physical model complexity was not. This was an externally diagnosed correction,
-not autonomous discovery. Stopping remains imperfect; no optimal policy or general
-learning theorem is established. All prior numbers, failed pilots and corrected
-interpretations remain preserved. Independent audits reconstructed all 336 new
-control episodes and 23,520 plans, including nested data and conditional diagnostics.
+`audit_shared_experience_v12.py`/JSON/report independently reconstruct ALL24576
+corrected physical+virtual training episodes,448 tests,22016 plans,384 fit records,
+CEM draws/selections, seed domains, fits/Jacobians/EKF/metrics and clustered SEs.
+No main implementation imported; eliminated dynamics independently implemented.
+Audit passes: states<4e-13, tests<2.1e-14, CEMcoordinates/actions exact, summaries
+exact. Main/reuse reexecution yielded byte-identical NPZ+JSON, independent audit
+reexecution identical too. Raw metadata says auditpending because it records
+pre-audit generation; the separate completed audit certifies it. Do NOT edit that
+metadata casually: reuse JSON hashes the exact shared JSON bytes; audits verify it.
 
-Sources: `precision_information_v11.py`, `deadline_control_v11.py`, their actual
-JSON results, and `audit_precision_information_v11`, `audit_precision_cutoff_v11`,
-`audit_deadline_control_v11` sources/results/reports. Theory: `v11_theory_independent.md`.
+Independent theory/design: `audit_observation_loss_v12.md` and
+`v12_comparison_design_independent.md`; older PD pilot and audit preserved.
+First large run reused some adjacent-replicate noise seeds; caught before viewing
+outcomes. All excluded source/data/compressedJSON/timing are retained as
+`shared_experience_v12_seed_overlap_pilot*`. Never infer independent SEs from it.
+Corrected roles globally disjoint; virtualdomain+1e10; test streams shared only for
+intentional paired comparisons. Exact budgets/limitations are in ledger/design.
 
-## V12 already begun: genuinely competing use of experience
+## Immediately next: one bounded optimizer diagnostic, then change problem
 
-The next direction questions whether fitting physical/predictive dynamics is
-needed for the present goal family. Direct improvement of behavior from experience
-is a serious alternative. Conventional policy search is established, not novelty.
-Do not continue accumulating isolated scalar covariance formulas.
+`gradient_reuse_v13_design.md` is prescribed after v12 outcomes, not yet a verified
+milestone. Implement/execute it using existing PC/.venv, no new environment:
 
-`direct_experience_v12_pilot.py` and its actual JSON are an **UNRELEASED PILOT**.
-Eight independent seeds train a supplied PD/smoothing family using CEM: four
-generations, twelve candidates, two actual 86-step episodes each, totaling 8256
-physical training steps per seed. Candidate fitness and all selection/elite updates
-read only observations, issued commands and supplied goals. Hidden states and true
-cost are logged for the evaluator and never used to select gains. Noise streams
-are fresh per candidate and for held-out evaluation.
+1. Optimize SAME6coordinate clipped direct family on each final learned nonlinear
+   model. Exact pathwise sensitivities through smoothing, true clip derivative and
+   lagged plant. Verify numerically and independently, never straight-through.
+2. Fixed16-episode training-noise bank, same two training goals/sensor.2/process0;
+   three fixed starts (physical winner, virtual winner, generic). Bounded TRF max160
+   each; keep failures. Separate16-episode virtual validation chooses among optimized
+   candidates and both original winners. No plant test in model/policy selection.
+3. NEW plant test streams with all four methods originaldirect, virtualdirect,
+   gradientselected and nonlinear MPC, same two newgoal amplitude schedules. Seed
+   namespaces and exact counts specified in design; no new plant TRAINING.
+4. Good transferred behavior constructively shows family capability and finite-search
+   limitation; local failure cannot prove incapacity. Extra modeled computation and
+   structural priors stay explicit. Audit independently, preserve code/results.
+5. This is ONE diagnostic. Do not escalate through endless optimizers. Then choose
+   a consequential coupled/unknown-function-vocabulary/context-learning question,
+   derive competing formulations and use strong applicable baselines. Return to
+   general-learning relevance, rather than polishing scalar scores indefinitely.
 
-Training has zero motor process noise; testing has motor SD .03. Sensor SD is .2.
-Feedback continues throughout all 86 test steps, with no forced cutoff. This changes
-the task relative to v10/v11, so results cannot be presented as an improvement over
-the earlier coast stopping counts. The fixed PD comparator is only descriptive and
-weak, not a matched-data competing learner. The pilot's fresh true-cost mean is
-.678067 +/- .185905 (SE across eight training seeds), with 3/16 stationary successes.
-One plant, eight seeds and a restricted PD family do not establish generality or a
-competitive advantage. No v12 ledger should be created solely from this pilot.
-
-The independent theoretical audit is `audit_observation_loss_v12.md`; independent
-artifact audit files are `audit_direct_experience_v12_pilot.py`, its
-JSON, and the corresponding report. The independent artifact audit passed all 800 episodes and 384 candidate choices.
-It does not complete the missing learning-method comparison. Preserve the pilot and its limitations when extending it.
-
-## Observation-only fitness: useful identity and counterexamples
-
-For the declared lagged dynamics, v[t+1] and x[t+1] depend on issued commands only
-through u[t-1] and earlier. With fresh, independent, **zero-mean** iid sensor errors,
-variance R, the expected observed stage loss
-
-    (o[t+1]-g[t])^2 + .3*(o[t+1]-o[t])^2 + .03*u[t]^2
-
-exceeds the true position/velocity stage loss by the policy-independent constant
-1.6R. For a fixed exogenous goal schedule, divide by the same fixed normalizer.
-Knowing R is unnecessary merely to rank expectations. Finite fitness remains noisy;
-selecting a lucky winner makes its training score optimistic. Only fresh evaluation
-of the frozen selected policy supports the fixed-policy expectation identity.
-Biased or colored sensors, future-noise reuse, data-dependent normalization and
-adaptive termination can invalidate the argument. See the independent proof.
-
-A bounded MOTOR-FIRST one-step counterexample is executed: u=-k*tanh(e0/SD) gives
-expected loss gap 1.6R+.6*beta*k*E[e0*tanh(e0/SD)], which depends on k. Quadrature
-and one million Monte Carlo draws are retained. Do not generalize the lagged result.
-
-## Exact next work for a meaningful V12 comparison
-
-1. Read the pilot, actual results and both audits. Keep its preliminary status and
-   negative findings. Do not mistake beating a fixed poor PD gain for progress
-   against a strong learning method.
-2. Strengthen the direct controller to a causal dynamic feedback class with goal
-   error, multiple observation-difference lags and past-command lags, or compact
-   learned filter memory. Bound outputs. Use serious conventional random search,
-   ARS, CEM or another appropriate policy optimizer, with training-only tuning,
-   fresh evaluation and every physical interaction counted.
-3. Fit a **shadow OE/filter/MPC learner to the SAME collected experience**, including
-   every failed candidate episode, rather than only elites. For training process
-   noise zero and known zero resets, the joint/sequential closed-loop likelihood
-   factors into theta-independent actual policy terms and Gaussian observation
-   residuals. Sum raw-position SSE over all reset segments, restarting simulated
-   states and sensitivities at each boundary. Do not assert exogeneity conditional
-   on the entire future input sequence. Nonzero process noise requires a separate
-   latent-state argument. The theory audit derives these distinctions explicitly.
-4. Compare checkpoint interaction budgets and identical observations, commands,
-   goals and task metadata. Model-based virtual planning/fitting is legitimate but
-   report its compute separately. Both model and controller vocabularies are
-   supplied inductive biases; neither is a universal foundation. Optionally compare
-   separate budget-matched acquisition policies, explicitly separating acquisition
-   from the use of the same experience.
-5. Keep executor, planner and score consistent about future action availability.
-   Freeze fresh evaluation goals/noise/metrics before inspecting outcomes. Treat
-   continuous station keeping and forced shutdown as different tasks, not hidden
-   implementation details. Count validation/retesting/reset episodes honestly.
-6. Only after a meaningful audited comparison or another consequential finding,
-   build v12 embedding complete v11, retain executable sources/results/audits,
-   commit and push over existing SSH, verify, and immediately continue. Accept a
-   result favoring simple established methods. Escalate coupling or unknown
-   function vocabulary only to resolve a specific remaining uncertainty.
-
-Primary literature investigated: [Rubinstein's CEM](https://doi.org/10.1023/A:1010091220143),
-[CE tutorial](https://people.smp.uq.edu.au/DirkKroese/ps/aortut.pdf),
-[Mania, Guy and Recht's random-search policies and evaluation variability](https://proceedings.neurips.cc/paper_files/paper/2018/file/7634ea65a4e6d9041cfd3f7de18e334a-Paper.pdf),
-and [Peters and Schaal's policy gradients](https://people.csail.mit.edu/rplatt/IROS2006-Peters.pdf).
-The pilot does not implement ARS or compare contemporary robotics methods.
-
-Use the owner's PC, canonical repository and existing `.venv`. No external blocker
-or routine approval is needed. Keep the Goal active; do not manufacture success.
+Complete/audit any meaningful new milestone, next sequential ledger embedding v12
+verbatim, commit/push SSH/verify and immediately continue. Preserve honest negative
+findings. The ultimate objective remains much broader than these simulations.

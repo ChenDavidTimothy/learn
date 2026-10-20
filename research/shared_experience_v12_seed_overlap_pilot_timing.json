@@ -1,0 +1,3138 @@
+[
+  {
+    "plant": 0,
+    "replicate": 0,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10866450099274516
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03518231800990179
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.05113253102172166
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11256652200245298
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12102903198683634
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12090397701831535
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12082586999167688
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.08145199698628858
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.13630546600325033
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11621467699296772
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11245814399444498
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.1170284370018635
+  },
+  {
+    "plant": 0,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11890815699007362
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11223167800926603
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03289553601644002
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.054455136007163674
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12323950900463387
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11565166400396265
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11567115297657438
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11499921898939647
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.06735096697229892
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.12847056100144982
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11472345000947826
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11301222202018835
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11620161699829623
+  },
+  {
+    "plant": 0,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11347733100410551
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10956051599350758
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03112061001593247
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.0505876450042706
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11408953802310862
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11356018501101062
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11434085198561661
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11773420899407938
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.07230822197743692
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.11965417000465095
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11635820200899616
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11582082998938859
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.1188198039890267
+  },
+  {
+    "plant": 0,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1153294240066316
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10571649199118838
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03483260699431412
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.04464135100715794
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11915011800010689
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11468783899908885
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11954389201127924
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11941741697955877
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.06884942800388671
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.12930699199205264
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11048552099964581
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.1126358020119369
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11657671697321348
+  },
+  {
+    "plant": 0,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11614276701584458
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "stage": "physical_training_simulation",
+    "seconds": 0.1067103699897416
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.034569718001876026
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.04587751597864553
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11907936001080088
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12898344901623204
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.1174877209996339
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1139501370198559
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.06889639899600297
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.11387405201094225
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11475259897997603
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11755397100932896
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11517994801397435
+  },
+  {
+    "plant": 0,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1141024410026148
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10877628199523315
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03744871000526473
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.053904444008367136
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11340829700930044
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11372818500967696
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11611531200469472
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1158330510079395
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.07224276001215912
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.12518906500190496
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11446290599997155
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11393682099878788
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11751093601924367
+  },
+  {
+    "plant": 0,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11671580001711845
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10447815200313926
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03233293298399076
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.048194659990258515
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11334935401100665
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11508485398371704
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12254864900023676
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1209079020190984
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.07087244099238887
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.10796624698559754
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11730357800843194
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11268273499445058
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11609847901854664
+  },
+  {
+    "plant": 0,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11543377800262533
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10630012600449845
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.034266937989741564
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.04365365899866447
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.1146654549811501
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.14290743099991232
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11747990600997582
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11437043498153798
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.06914313798188232
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.09896141901845112
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11465760300052352
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11928732402157038
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11465357200358994
+  },
+  {
+    "plant": 0,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11324674199568108
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10367175602004863
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03817840700503439
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.04198448601528071
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11473483999725431
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.1172083429992199
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11862822901457548
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12440208898624405
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.07890146801946685
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.09311757699470036
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11593090402311645
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11980449600378051
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.1205788659863174
+  },
+  {
+    "plant": 1,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12361160400905646
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11185708400444128
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.07854027400026098
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.03942898698733188
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11112592901918106
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11470401598489843
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12146443498204462
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12820475400076248
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.16258958302205428
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.09971727101947181
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.10957903799135238
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11464065100881271
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11180097301257774
+  },
+  {
+    "plant": 1,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12238997902022675
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11230640701251104
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.036336066987132654
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.03974162199301645
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11424895699019544
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12506580600165762
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11873196400119923
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12247396100428887
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.12489238497801125
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.09085274499375373
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.10781393002253026
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11720853499718942
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11130364399286918
+  },
+  {
+    "plant": 1,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11977299401769415
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10461915298947133
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03763038001488894
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.0403313240094576
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11372410898911767
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12040466698817909
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.1158368099713698
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12206142299692146
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.13307323699700646
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.09761900501325727
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11356354600866325
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12103750300593674
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11490498800412752
+  },
+  {
+    "plant": 1,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11874055699445307
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10358661497593857
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03186196798924357
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.03959678902174346
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.10900392400799319
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.1554351180093363
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12535515299532562
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12256311398232356
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.15323779100435786
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.0941503299982287
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11073758901329711
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11531542698503472
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11521965198335238
+  },
+  {
+    "plant": 1,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12376153498189524
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11196207100874744
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03247804497368634
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.03802491002716124
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.120719520986313
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.1169569049961865
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.1241049749951344
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.15581207000650465
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.15314654898247682
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.09807838598499075
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.10975952900480479
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11767589798546396
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11984295799629763
+  },
+  {
+    "plant": 1,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12768445402616635
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "stage": "physical_training_simulation",
+    "seconds": 0.1104104459809605
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03331256299861707
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.03909907001070678
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11310973300714977
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11640353797702119
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11550697599886917
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11683623099816032
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.12571748299524188
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.09663123698555864
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.1103885849879589
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11789145300281234
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11441878299228847
+  },
+  {
+    "plant": 1,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11823446600465104
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10385603402392007
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03346241998951882
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.039426698989700526
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11450913699809462
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11328085500281304
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.1117297500022687
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11740837298566476
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.12325612199492753
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.09507456500432454
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11268912800005637
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11913737998111174
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11652543200762011
+  },
+  {
+    "plant": 1,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.11633356800302863
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11145523897721432
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.0450649970152881
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.048468860011780635
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.1276248730137013
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12365281998063438
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12415704398881644
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12140872899908572
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.0850653660017997
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.09983035200275481
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11962319299345836
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12677535999682732
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.1329243690124713
+  },
+  {
+    "plant": 2,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1295562430168502
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11271623501670547
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03916887298692018
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.04345011099940166
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.1195242140092887
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12017433400615118
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12436875799903646
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12975002900930122
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.08165177699993365
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.10550910598249175
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12178522397880442
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12071110898978077
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12330944300629199
+  },
+  {
+    "plant": 2,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12284680499578826
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10373431700281799
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.0421010669961106
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.049137088004499674
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11750432499684393
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11692213898641057
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12791359401308
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12605318598798476
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.09094357400317676
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.12275666100322269
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11941479900269769
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11925394900026731
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12795580498641357
+  },
+  {
+    "plant": 2,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1319620200083591
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11406275801709853
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.04189845797372982
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.04743311399943195
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12243093500728719
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.1191411150211934
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12337698199553415
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12446905000251718
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.08314337901538238
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.11232269401079975
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.1232197209901642
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12253394597792067
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12780677500995807
+  },
+  {
+    "plant": 2,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1227980509866029
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10483757400652394
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.04246720302035101
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.045597768999869004
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11581664200639352
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11586503099533729
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12652670399984345
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12433345199679025
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.09959278299356811
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.11838862602598965
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11614842899143696
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11625501498929225
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12449454498710111
+  },
+  {
+    "plant": 2,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12615972498315386
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10863563700695522
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.041163162008160725
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.043179339001653716
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12065092599368654
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12377071697846986
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12484589501400478
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12592011500964873
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.08994389401050285
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.11219814300420694
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12378152200835757
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12321771000279114
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.14786385299521498
+  },
+  {
+    "plant": 2,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.13135416901786812
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11123833598685451
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.06170859499252401
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.06693990898202173
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11961560198687948
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.11879932999727316
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12783201900310814
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12999032699735835
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.17924222702276893
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.22408549100509845
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12052575798588805
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12061590701341629
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12907001201529056
+  },
+  {
+    "plant": 2,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12911492100101896
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10815337000531144
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.04216804599855095
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.05283627798780799
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12049261599895544
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12019231400336139
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12464078201446682
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12542669600225054
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.0899375879962463
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.11041438899701461
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11782223402406089
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.1174435869907029
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12394334198324941
+  },
+  {
+    "plant": 2,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1287664969859179
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "stage": "physical_training_simulation",
+    "seconds": 0.1064227610186208
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.04824578500119969
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.061623621004400775
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12040227898978628
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.13130791601724923
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12501131198951043
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12743686902103946
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.10464911398594268
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.16206176701234654
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12304576300084591
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12721647598664276
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.11957942901062779
+  },
+  {
+    "plant": 3,
+    "replicate": 0,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12527280100039206
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11109183300868608
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03165241700480692
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.07342869098647498
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.1214377950236667
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12624043397954665
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12650393199874088
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1238293850037735
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.06606513101723976
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.15947359998244792
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11897162100649439
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12166978500317782
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12121352000394836
+  },
+  {
+    "plant": 3,
+    "replicate": 1,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12141111798700877
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "stage": "physical_training_simulation",
+    "seconds": 0.1062807250127662
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03020424401620403
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.058563482016325
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11696471401955932
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12106552597833797
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12019426299957559
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1235701680125203
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.06637380499159917
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.1246289910050109
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11843178200069815
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12618791099521331
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12289618499926291
+  },
+  {
+    "plant": 3,
+    "replicate": 2,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1289941699942574
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11101590699399821
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.030904926999937743
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.05061670101713389
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11931899201590568
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12492847899557091
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.13877181202406064
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.13874481900711544
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.06816782100941055
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.22061645801295526
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11915306199807674
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.1216172710119281
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12525932901189663
+  },
+  {
+    "plant": 3,
+    "replicate": 3,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.13113442601752467
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10978148999856785
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.07171571301296353
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.04701637598918751
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12638645598781295
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.1251404850045219
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.1244275429926347
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12914540598285384
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.1356720409821719
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.12957747100153938
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11729683098383248
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.125235243991483
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12278951599728316
+  },
+  {
+    "plant": 3,
+    "replicate": 4,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.13037232900387608
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "stage": "physical_training_simulation",
+    "seconds": 0.1100632740126457
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.031406943016918376
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.06041554201510735
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.13970339400111698
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.1221022020035889
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12428967902087606
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.1280446500168182
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.06565355099155568
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.1389723519969266
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.1252100850106217
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12843060202430934
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.13129279599525034
+  },
+  {
+    "plant": 3,
+    "replicate": 5,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.13205377699341625
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "stage": "physical_training_simulation",
+    "seconds": 0.11919225202291273
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.03256856699590571
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.06510837402311154
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12301316400407813
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12616633498691954
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12312444901908748
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12592470398521982
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.06207509498926811
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.17041445500217378
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.12004270302713849
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12695240398170426
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12975217300117947
+  },
+  {
+    "plant": 3,
+    "replicate": 6,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12665459400159307
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "stage": "physical_training_simulation",
+    "seconds": 0.10618204498314299
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "fit_linear",
+    "seconds": 0.030017726006917655
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "fit_nonlinear",
+    "seconds": 0.05165751400636509
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11777363100554794
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.12282664197846316
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12548637599684298
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 2,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12565629798336886
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "fit_linear",
+    "seconds": 0.13077520500519313
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "fit_nonlinear",
+    "seconds": 0.12001010900712572
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 0,
+    "seconds": 0.11962597101228312
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 0,
+    "seconds": 0.1226305550080724
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_linear",
+    "task": 1,
+    "seconds": 0.12347194098401815
+  },
+  {
+    "plant": 3,
+    "replicate": 7,
+    "generations": 8,
+    "stage": "test_control_nonlinear",
+    "task": 1,
+    "seconds": 0.12571861600736156
+  }
+]
