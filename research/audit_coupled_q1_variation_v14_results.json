@@ -1,0 +1,514 @@
+{
+  "scope": "Prescribed q1 invariance diagnostic; actual retained commands, same q2/goal across4q1; no new learner or physical experiments",
+  "definition": "Pooled EuclideanRMS=sqrt(mean_seed,context,goal,q1 ||u-mean_q1u||^2); alternative=mean_seed sqrt(mean_context,goal,q1,component (u-mean_q1u)^2). Nonlinear pooling can change crossmodel order; neither denotes exact invariance.",
+  "conditions": [
+    {
+      "condition": 0,
+      "models": {
+        "constant_forward": {
+          "RMS_within_q1_orbit_command_variation": 0.0,
+          "mean_seed_componentwise_RMS_q1_variation": 0.0,
+          "max_q1_pair_command_distance": 0.0,
+          "per_seed": [
+            {
+              "seed": 22461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 23461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 24461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 25461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 26461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 27461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 28461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 29461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            }
+          ]
+        },
+        "context_forward": {
+          "RMS_within_q1_orbit_command_variation": 0.01576065985767289,
+          "mean_seed_componentwise_RMS_q1_variation": 0.010710947846377283,
+          "max_q1_pair_command_distance": 0.1547622767549783,
+          "per_seed": [
+            {
+              "seed": 22461020,
+              "mean_squared_within_q1_orbit_variation": 0.000260080672361385,
+              "maximum_q1_pair_command_distance": 0.10188112189081035
+            },
+            {
+              "seed": 23461020,
+              "mean_squared_within_q1_orbit_variation": 0.00041850718565795525,
+              "maximum_q1_pair_command_distance": 0.11765387290916922
+            },
+            {
+              "seed": 24461020,
+              "mean_squared_within_q1_orbit_variation": 0.0002580727071703382,
+              "maximum_q1_pair_command_distance": 0.12293794023584523
+            },
+            {
+              "seed": 25461020,
+              "mean_squared_within_q1_orbit_variation": 0.0004690801060741829,
+              "maximum_q1_pair_command_distance": 0.1547622767549783
+            },
+            {
+              "seed": 26461020,
+              "mean_squared_within_q1_orbit_variation": 0.00023501600671221412,
+              "maximum_q1_pair_command_distance": 0.11261839380588924
+            },
+            {
+              "seed": 27461020,
+              "mean_squared_within_q1_orbit_variation": 5.5468304271100006e-05,
+              "maximum_q1_pair_command_distance": 0.044445238948370484
+            },
+            {
+              "seed": 28461020,
+              "mean_squared_within_q1_orbit_variation": 0.00015944678227905302,
+              "maximum_q1_pair_command_distance": 0.07226048487905243
+            },
+            {
+              "seed": 29461020,
+              "mean_squared_within_q1_orbit_variation": 0.0001315154286678653,
+              "maximum_q1_pair_command_distance": 0.08391524984226137
+            }
+          ]
+        },
+        "naive_inverse": {
+          "RMS_within_q1_orbit_command_variation": 0.0038890949204633783,
+          "mean_seed_componentwise_RMS_q1_variation": 0.00243470290499712,
+          "max_q1_pair_command_distance": 0.037495283072512015,
+          "per_seed": [
+            {
+              "seed": 22461020,
+              "mean_squared_within_q1_orbit_variation": 5.182779819735665e-06,
+              "maximum_q1_pair_command_distance": 0.01163874567734959
+            },
+            {
+              "seed": 23461020,
+              "mean_squared_within_q1_orbit_variation": 3.301915583168806e-06,
+              "maximum_q1_pair_command_distance": 0.008157524756602388
+            },
+            {
+              "seed": 24461020,
+              "mean_squared_within_q1_orbit_variation": 4.894763558277792e-05,
+              "maximum_q1_pair_command_distance": 0.037495283072512015
+            },
+            {
+              "seed": 25461020,
+              "mean_squared_within_q1_orbit_variation": 5.140675548283341e-06,
+              "maximum_q1_pair_command_distance": 0.011485114518138523
+            },
+            {
+              "seed": 26461020,
+              "mean_squared_within_q1_orbit_variation": 5.718435597556745e-06,
+              "maximum_q1_pair_command_distance": 0.012438698872489457
+            },
+            {
+              "seed": 27461020,
+              "mean_squared_within_q1_orbit_variation": 2.50680442750467e-05,
+              "maximum_q1_pair_command_distance": 0.033978643550669034
+            },
+            {
+              "seed": 28461020,
+              "mean_squared_within_q1_orbit_variation": 3.5361932392090785e-06,
+              "maximum_q1_pair_command_distance": 0.007739223392095458
+            },
+            {
+              "seed": 29461020,
+              "mean_squared_within_q1_orbit_variation": 2.4104794757214146e-05,
+              "maximum_q1_pair_command_distance": 0.025701406850862307
+            }
+          ]
+        },
+        "corrected_inverse": {
+          "RMS_within_q1_orbit_command_variation": 0.004081402381608817,
+          "mean_seed_componentwise_RMS_q1_variation": 0.002227421632749985,
+          "max_q1_pair_command_distance": 0.05955024953477407,
+          "per_seed": [
+            {
+              "seed": 22461020,
+              "mean_squared_within_q1_orbit_variation": 8.089360807875161e-06,
+              "maximum_q1_pair_command_distance": 0.01502929221237396
+            },
+            {
+              "seed": 23461020,
+              "mean_squared_within_q1_orbit_variation": 4.9624335834618715e-06,
+              "maximum_q1_pair_command_distance": 0.010336975315915107
+            },
+            {
+              "seed": 24461020,
+              "mean_squared_within_q1_orbit_variation": 9.824283162042983e-05,
+              "maximum_q1_pair_command_distance": 0.05955024953477407
+            },
+            {
+              "seed": 25461020,
+              "mean_squared_within_q1_orbit_variation": 4.03476051741693e-06,
+              "maximum_q1_pair_command_distance": 0.00996468829775666
+            },
+            {
+              "seed": 26461020,
+              "mean_squared_within_q1_orbit_variation": 4.762026881337835e-06,
+              "maximum_q1_pair_command_distance": 0.011974348614010128
+            },
+            {
+              "seed": 27461020,
+              "mean_squared_within_q1_orbit_variation": 1.6627590152037572e-06,
+              "maximum_q1_pair_command_distance": 0.00640801953763092
+            },
+            {
+              "seed": 28461020,
+              "mean_squared_within_q1_orbit_variation": 3.945795125733339e-06,
+              "maximum_q1_pair_command_distance": 0.00875543162246386
+            },
+            {
+              "seed": 29461020,
+              "mean_squared_within_q1_orbit_variation": 7.562795653358301e-06,
+              "maximum_q1_pair_command_distance": 0.013832927345081536
+            }
+          ]
+        },
+        "oracle_endpoint": {
+          "RMS_within_q1_orbit_command_variation": 2.819302595678951e-13,
+          "mean_seed_componentwise_RMS_q1_variation": 1.9935479836214215e-13,
+          "max_q1_pair_command_distance": 1.993256160406553e-12,
+          "per_seed": [
+            {
+              "seed": 22461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 23461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 24461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 25461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 26461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 27461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 28461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 29461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            }
+          ]
+        }
+      },
+      "naive_minus_corrected_task_MSE": {
+        "per_seed": [
+          1.8570366534155794e-06,
+          4.496559431123141e-06,
+          4.5346620145335e-06,
+          2.088982776311206e-06,
+          3.060509338718675e-06,
+          1.0824040431145058e-05,
+          2.092486596815498e-06,
+          6.709856605081617e-06
+        ],
+        "mean": 4.4580167308930334e-06,
+        "clustered_mc_se": 1.0817527078955887e-06
+      }
+    },
+    {
+      "condition": 1,
+      "models": {
+        "constant_forward": {
+          "RMS_within_q1_orbit_command_variation": 0.0,
+          "mean_seed_componentwise_RMS_q1_variation": 0.0,
+          "max_q1_pair_command_distance": 0.0,
+          "per_seed": [
+            {
+              "seed": 1022461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 1023461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 1024461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 1025461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 1026461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 1027461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 1028461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            },
+            {
+              "seed": 1029461020,
+              "mean_squared_within_q1_orbit_variation": 0.0,
+              "maximum_q1_pair_command_distance": 0.0
+            }
+          ]
+        },
+        "context_forward": {
+          "RMS_within_q1_orbit_command_variation": 0.22783029163648347,
+          "mean_seed_componentwise_RMS_q1_variation": 0.11503723352507683,
+          "max_q1_pair_command_distance": 2.219646739669244,
+          "per_seed": [
+            {
+              "seed": 1022461020,
+              "mean_squared_within_q1_orbit_variation": 1.8651425019396557e-05,
+              "maximum_q1_pair_command_distance": 0.018917754216369324
+            },
+            {
+              "seed": 1023461020,
+              "mean_squared_within_q1_orbit_variation": 0.12562101598662667,
+              "maximum_q1_pair_command_distance": 2.080600516412342
+            },
+            {
+              "seed": 1024461020,
+              "mean_squared_within_q1_orbit_variation": 0.16295111047757418,
+              "maximum_q1_pair_command_distance": 2.219646739669244
+            },
+            {
+              "seed": 1025461020,
+              "mean_squared_within_q1_orbit_variation": 0.0013728037042787865,
+              "maximum_q1_pair_command_distance": 0.21802059204764937
+            },
+            {
+              "seed": 1026461020,
+              "mean_squared_within_q1_orbit_variation": 8.767662630698858e-05,
+              "maximum_q1_pair_command_distance": 0.053074345608326016
+            },
+            {
+              "seed": 1027461020,
+              "mean_squared_within_q1_orbit_variation": 3.173442030475047e-05,
+              "maximum_q1_pair_command_distance": 0.029846656336809687
+            },
+            {
+              "seed": 1028461020,
+              "mean_squared_within_q1_orbit_variation": 0.03466697287026301,
+              "maximum_q1_pair_command_distance": 0.9277911292756187
+            },
+            {
+              "seed": 1029461020,
+              "mean_squared_within_q1_orbit_variation": 0.09050316878694718,
+              "maximum_q1_pair_command_distance": 2.165397593549051
+            }
+          ]
+        },
+        "naive_inverse": {
+          "RMS_within_q1_orbit_command_variation": 0.0254142351455998,
+          "mean_seed_componentwise_RMS_q1_variation": 0.00941318390038235,
+          "max_q1_pair_command_distance": 0.4527873681841056,
+          "per_seed": [
+            {
+              "seed": 1022461020,
+              "mean_squared_within_q1_orbit_variation": 8.302251154217094e-06,
+              "maximum_q1_pair_command_distance": 0.012503416504678089
+            },
+            {
+              "seed": 1023461020,
+              "mean_squared_within_q1_orbit_variation": 0.004871698013612842,
+              "maximum_q1_pair_command_distance": 0.4527873681841056
+            },
+            {
+              "seed": 1024461020,
+              "mean_squared_within_q1_orbit_variation": 7.244384817273199e-06,
+              "maximum_q1_pair_command_distance": 0.009648490263317731
+            },
+            {
+              "seed": 1025461020,
+              "mean_squared_within_q1_orbit_variation": 4.6989406970210665e-05,
+              "maximum_q1_pair_command_distance": 0.02660820198533833
+            },
+            {
+              "seed": 1026461020,
+              "mean_squared_within_q1_orbit_variation": 1.465639545797385e-06,
+              "maximum_q1_pair_command_distance": 0.00517704502047781
+            },
+            {
+              "seed": 1027461020,
+              "mean_squared_within_q1_orbit_variation": 0.0001807027901259837,
+              "maximum_q1_pair_command_distance": 0.07099827742837253
+            },
+            {
+              "seed": 1028461020,
+              "mean_squared_within_q1_orbit_variation": 1.1068779033432198e-05,
+              "maximum_q1_pair_command_distance": 0.010356080964975943
+            },
+            {
+              "seed": 1029461020,
+              "mean_squared_within_q1_orbit_variation": 3.959551902696599e-05,
+              "maximum_q1_pair_command_distance": 0.023073124586376382
+            }
+          ]
+        },
+        "corrected_inverse": {
+          "RMS_within_q1_orbit_command_variation": 0.022897436640907622,
+          "mean_seed_componentwise_RMS_q1_variation": 0.009201726444232164,
+          "max_q1_pair_command_distance": 0.38873735641343055,
+          "per_seed": [
+            {
+              "seed": 1022461020,
+              "mean_squared_within_q1_orbit_variation": 1.2796477975664494e-05,
+              "maximum_q1_pair_command_distance": 0.014882978375628235
+            },
+            {
+              "seed": 1023461020,
+              "mean_squared_within_q1_orbit_variation": 0.0038360993407758224,
+              "maximum_q1_pair_command_distance": 0.38873735641343055
+            },
+            {
+              "seed": 1024461020,
+              "mean_squared_within_q1_orbit_variation": 8.191041082390385e-06,
+              "maximum_q1_pair_command_distance": 0.009897782213238015
+            },
+            {
+              "seed": 1025461020,
+              "mean_squared_within_q1_orbit_variation": 4.315089418748477e-05,
+              "maximum_q1_pair_command_distance": 0.025562817277087174
+            },
+            {
+              "seed": 1026461020,
+              "mean_squared_within_q1_orbit_variation": 1.5716790262570047e-06,
+              "maximum_q1_pair_command_distance": 0.00665344146289436
+            },
+            {
+              "seed": 1027461020,
+              "mean_squared_within_q1_orbit_variation": 0.00019402665680242113,
+              "maximum_q1_pair_command_distance": 0.07472605174045967
+            },
+            {
+              "seed": 1028461020,
+              "mean_squared_within_q1_orbit_variation": 4.036111148139693e-05,
+              "maximum_q1_pair_command_distance": 0.021081248007611523
+            },
+            {
+              "seed": 1029461020,
+              "mean_squared_within_q1_orbit_variation": 5.8143636463593955e-05,
+              "maximum_q1_pair_command_distance": 0.028886258354862
+            }
+          ]
+        },
+        "oracle_endpoint": {
+          "RMS_within_q1_orbit_command_variation": 2.819302595678951e-13,
+          "mean_seed_componentwise_RMS_q1_variation": 1.9935479836214215e-13,
+          "max_q1_pair_command_distance": 1.993256160406553e-12,
+          "per_seed": [
+            {
+              "seed": 1022461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 1023461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 1024461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 1025461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 1026461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 1027461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 1028461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            },
+            {
+              "seed": 1029461020,
+              "mean_squared_within_q1_orbit_variation": 7.948467126002071e-26,
+              "maximum_q1_pair_command_distance": 1.993256160406553e-12
+            }
+          ]
+        }
+      },
+      "naive_minus_corrected_task_MSE": {
+        "per_seed": [
+          0.00010755426395455516,
+          0.0028600632083541637,
+          -0.0015369059244227812,
+          -0.0017774036156388625,
+          -0.001690086270212827,
+          -0.0001239693696991197,
+          0.001393371119134491,
+          -0.001578357069142768
+        ],
+        "mean": -0.0002932167072091436,
+        "clustered_mc_se": 0.0006025158374997859
+      }
+    }
+  ]
+}

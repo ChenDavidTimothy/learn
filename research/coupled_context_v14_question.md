@@ -13,7 +13,8 @@ parameters. Consider a horizontal two-link articulated body, rest at a supplied
 pose q=(q1,q2), no gravity. A short bounded torque command produces a measured joint
 position displacement. Its direction depends on configuration through joint inertia.
 A controller calibrated separately at each joint or using a constant command matrix
-can predict the wrong coupled effect even at rest. Can a simple general learner
+can predict the wrong coupled effect even at rest. This states a family limitation,
+not a learned-method comparison. Can a simple general learner
 acquire this context-dependent map from noisy position/action episodes and use it
 for NEW desired displacements and held-out poses?
 
@@ -33,8 +34,10 @@ formula remains here as design history, not the executed physical ground truth. 
     M(q2)=[[3+2*cos(q2),1+cos(q2)],[1+cos(q2),1]].
 
 It is SPD (det=2-cos(q2)^2>=1). At q2=0, inverse=[[1,-2],[-2,5]];
-at q2=pi, inverse=[[1,0],[0,1]]. Thus the SAME joint2 torque changes joint1 near
-one pose but not the other; independent scalar models cannot represent both.
+at q2=pi, inverse=[[1,0],[0,1]]. Thus the SAME joint2 torque has a nonzero joint1 LEADING response at
+one pose and zero leading coefficient at the other; independent scalar models
+cannot represent both leading responses. At finite pulse duration, coupling can
+return even at the second pose (joint1 motion starts at higher order).
 This derives a context requirement within this instrument; it is not a universal
 proof that state/world-model variables are mandatory. A direct context-to-action
 map, episodic retrieval, or a learned consequence map are all legitimate candidates.
@@ -68,3 +71,31 @@ failure. If a simple context-aware established method succeeds, accept it and mo
 toward continuous articulated control; do not manufacture novelty. This first test
 can expose a missing dependency in the present vocabulary, not complete robotics
 or the general-learning objective.
+
+
+## Independent pre-learning criticisms, retained before any method comparison
+
+The mechanics pilot is NOT a learning comparison and has q1 fixed. Its noisy
+initial observation would correlate context error with observed displacement if
+used as both context and response baseline. Do not treat that conditional regression
+noise as independent. A future dataset should use an independent context read and
+baseline read, explicitly count all readings, or fit the joint measurement model.
+Known preparation pose is also a possible supplied fact, but then claim that fact
+openly rather than pretending to infer noiseless context from a noisy sensor.
+
+Direct inverse regression has noisy displacement regressors; naive least squares
+suffers EIV shrinkage and is an unfair sole direct baseline. Use calibrated EIV
+correction/replicated observations or another serious inverse/episodic method. No
+victory over that known error would establish model necessity.
+
+Horizontal global rotation makes q1 irrelevant to the leading response; handing
+learners q2 alone supplies this relevance fact. Give both encoders to generic
+learners and test new q1 as well as held-out q2, labeling any q2-only diagnostic as
+privileged. Use the SAME small desired displacements across poses with a common
+feasible set. Targets generated from unknown context-specific random torques can
+encode the very relation being tested. Pulse displacement is not reach-and-stop.
+
+Future mechanics audits should check the cyclic momentum M11*v1+M12*v2 when tau1=0,
+energy change equals constant torque work, generic-pose fourth-order remainder,
+solver refinement, and the special-pose higher-order correction. These checks must
+precede learning claims. Do not publish v14 just because this instrument works.

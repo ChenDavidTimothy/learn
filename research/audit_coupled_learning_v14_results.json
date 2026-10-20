@@ -1,0 +1,342 @@
+{
+  "status": "INDEPENDENTLY VERIFIED COMPACT REST-CONTEXT LEARNING TEST AFTER AVAILABLE-INFORMATION CORRECTION",
+  "counts": {
+    "acquisition_pulses": 10240,
+    "predictive_pulses": 2048,
+    "task_pulses": 12800,
+    "oracle_witnesses": 160,
+    "candidates": 832,
+    "bounded_decisions": 10240
+  },
+  "exact_parent_raw_array_reuse": {
+    "unchanged_arrays": 160,
+    "changed_response_arrays": 32,
+    "new_acquisition_pulses": 0,
+    "new_predictive_pulses": 0,
+    "new_task_pulses": 12800,
+    "new_oracle_solver_rollouts": 0,
+    "reused_original_oracle_rollouts": 1456
+  },
+  "artifact_sha256": {
+    "coupled_learning_v14.py": "900c86206561094c02b29bd18541ea8386545704b7fe1bd1b1b531d85cf9e674",
+    "coupled_learning_v14_design.md": "565dab7c6fd25363a9ae6eb4cefd1fe5e2868bf1503e2974c164259d5272b78b",
+    "coupled_learning_v14_information_correction.md": "9d3d878f5231b205a3f2350b84f5c3a157bbf3742eddee4bee1b451eed39d90b",
+    "coupled_learning_v14_results.json": "cf1858aa45ea894c1bfc1ed8b0a8f898549da0e8aa497b191b9493521dec723a",
+    "coupled_learning_v14_data.npz": "f7b52c715f546e89a9a6cbac36d1054cc01b4a593219245b1fb163bef51904a3"
+  },
+  "globally_disjoint_acquisition_measurement_prediction_role_seeds": 48,
+  "independent_physics": "Hamiltonian(q,p), vectorized RK4 at32/64 steps over.1",
+  "maximum_absolute_errors": {
+    "physics32vs64": 1.440225716464738e-11,
+    "physics64vsDOP": 9.433565040239955e-13,
+    "measurement_RNG": 0.0,
+    "response": 1.9539925233402755e-12,
+    "spectrum": 1.4983980994384659e-09,
+    "scale": 4.547473508864641e-13,
+    "regularized_stationarity": 2.8659577992674387e-13,
+    "validation": 2.740863092043355e-16,
+    "unregularized_residual": 2.6243313078211372e-12,
+    "map_condition": 1.7394086171407253e-11,
+    "inverse_singular_values": 4.440892098500626e-15,
+    "bounded_cost": 1.0603497246908233e-16,
+    "bounded_optimum_gap": 1.4020997904373722e-12,
+    "task_score": 9.066081219089028e-13,
+    "predictive_score": 3.410605131648481e-13,
+    "predictions": 1.7319479184152442e-14,
+    "summary": 0.0,
+    "oracle_witness": 4.4286101811285714e-13
+  },
+  "maximum_errors_scaled_by_max1_magnitude": {
+    "physics32vs64": 1.440225716464738e-11,
+    "physics64vsDOP": 9.433565040239955e-13,
+    "measurement_RNG": 0.0,
+    "response": 1.9539925233402755e-12,
+    "spectrum": 1.4983980994384659e-09,
+    "scale": 2.8673684948569057e-16,
+    "regularized_stationarity": 2.8659577992674387e-13,
+    "validation": 2.740863092043355e-16,
+    "unregularized_residual": 2.6243313078211372e-12,
+    "map_condition": 1.768313588735695e-13,
+    "inverse_singular_values": 1.1934897514720433e-15,
+    "bounded_cost": 1.0603497246908233e-16,
+    "bounded_optimum_gap": 1.4020997904373722e-12,
+    "task_score": 8.54409831864627e-13,
+    "predictive_score": 5.773159728050814e-15,
+    "predictions": 5.422966900568531e-15,
+    "summary": 0.0,
+    "oracle_witness": 4.4286101811285714e-13
+  },
+  "bounded_solver_failure_count": 0,
+  "candidate_regularization_diagnostics": {
+    "constant_forward": {
+      "negative_validation_scores": 0,
+      "candidates_with_negative_Gram_eigenvalues": 0,
+      "maximum_floored_eigenvalues": 0
+    },
+    "context_forward": {
+      "negative_validation_scores": 0,
+      "candidates_with_negative_Gram_eigenvalues": 192,
+      "maximum_floored_eigenvalues": 42
+    },
+    "naive_inverse": {
+      "negative_validation_scores": 16,
+      "candidates_with_negative_Gram_eigenvalues": 192,
+      "maximum_floored_eigenvalues": 45
+    },
+    "corrected_inverse": {
+      "negative_validation_scores": 31,
+      "candidates_with_negative_Gram_eigenvalues": 192,
+      "maximum_floored_eigenvalues": 45
+    }
+  },
+  "secondary_diagnostics": {
+    "partition": {
+      "condition0:constant_forward": {
+        "inside_mse": {
+          "mean": 0.0179135242963012,
+          "mc_se": 0.000971987973972379,
+          "median": 0.017419581352515093,
+          "q10": 0.015096948878029495,
+          "q90": 0.021409335147529372
+        },
+        "outside_mse": {
+          "mean": 0.0036236617189096317,
+          "mc_se": 9.484277904229814e-05,
+          "median": 0.003534671018721059,
+          "q10": 0.0033813687181821848,
+          "q90": 0.003935075280519934
+        }
+      },
+      "condition0:context_forward": {
+        "inside_mse": {
+          "mean": 5.723725508724398e-05,
+          "mc_se": 9.078662235114968e-06,
+          "median": 4.948960612436327e-05,
+          "q10": 2.9724195216525906e-05,
+          "q90": 8.912720573526291e-05
+        },
+        "outside_mse": {
+          "mean": 1.657841373361276e-05,
+          "mc_se": 1.089741785550719e-06,
+          "median": 1.6084227368106975e-05,
+          "q10": 1.4064192948790733e-05,
+          "q90": 1.9513560142857144e-05
+        }
+      },
+      "condition0:naive_inverse": {
+        "inside_mse": {
+          "mean": 1.6896812101210544e-05,
+          "mc_se": 3.0586011921984733e-06,
+          "median": 1.4841518510426638e-05,
+          "q10": 7.416983055688132e-06,
+          "q90": 2.941258962117203e-05
+        },
+        "outside_mse": {
+          "mean": 4.2395903535367115e-06,
+          "mc_se": 6.435351543620168e-07,
+          "median": 3.656951924263663e-06,
+          "q10": 2.6744088780543003e-06,
+          "q90": 6.503894029491832e-06
+        }
+      },
+      "condition0:corrected_inverse": {
+        "inside_mse": {
+          "mean": 8.587567111973926e-06,
+          "mc_se": 1.8070697491288984e-06,
+          "median": 8.953677291958687e-06,
+          "q10": 3.2154458545805207e-06,
+          "q90": 1.3393184865393501e-05
+        },
+        "outside_mse": {
+          "mean": 2.092310577649828e-06,
+          "mc_se": 5.519689909447097e-07,
+          "median": 1.5775014574310002e-06,
+          "q10": 1.3162389623780281e-06,
+          "q90": 3.1012606355397682e-06
+        }
+      },
+      "condition0:oracle_endpoint": {
+        "inside_mse": {
+          "mean": 1.44386513635936e-26,
+          "mc_se": 0.0,
+          "median": 1.44386513635936e-26,
+          "q10": 1.44386513635936e-26,
+          "q90": 1.44386513635936e-26
+        },
+        "outside_mse": {
+          "mean": 6.695494729438496e-27,
+          "mc_se": 0.0,
+          "median": 6.695494729438496e-27,
+          "q10": 6.695494729438496e-27,
+          "q90": 6.695494729438496e-27
+        }
+      },
+      "condition1:constant_forward": {
+        "inside_mse": {
+          "mean": 9.845150222341717e-05,
+          "mc_se": 2.6382006268260362e-06,
+          "median": 0.00010003293502308556,
+          "q10": 9.067156555300384e-05,
+          "q90": 0.00010665064063493034
+        },
+        "outside_mse": {
+          "mean": 0.031122052616383004,
+          "mc_se": 0.00020708765878090966,
+          "median": 0.031150142323986163,
+          "q10": 0.030498319663106437,
+          "q90": 0.03178774245826376
+        }
+      },
+      "condition1:context_forward": {
+        "inside_mse": {
+          "mean": 2.44037255774535e-05,
+          "mc_se": 5.211569460750571e-06,
+          "median": 2.434866293135743e-05,
+          "q10": 7.309809893834783e-06,
+          "q90": 4.0345887835083935e-05
+        },
+        "outside_mse": {
+          "mean": 0.08768035597481694,
+          "mc_se": 0.033423136927066215,
+          "median": 0.058608361134234926,
+          "q10": 0.03067104783587684,
+          "q90": 0.17184457699836664
+        }
+      },
+      "condition1:naive_inverse": {
+        "inside_mse": {
+          "mean": 1.4619234993578185e-05,
+          "mc_se": 3.4722299275900925e-06,
+          "median": 1.1894312933880216e-05,
+          "q10": 6.165385753067058e-06,
+          "q90": 2.991340618726563e-05
+        },
+        "outside_mse": {
+          "mean": 0.02317265861199731,
+          "mc_se": 0.0046390517408907,
+          "median": 0.02289385907991138,
+          "q10": 0.010592458695349546,
+          "q90": 0.03298512872687299
+        }
+      },
+      "condition1:corrected_inverse": {
+        "inside_mse": {
+          "mean": 9.954024450936847e-06,
+          "mc_se": 3.392947789243675e-06,
+          "median": 5.902494226669581e-06,
+          "q10": 3.4327460028914132e-06,
+          "q90": 2.323301744639999e-05
+        },
+        "outside_mse": {
+          "mean": 0.023644604469857524,
+          "mc_se": 0.004194745263274012,
+          "median": 0.024132209104653947,
+          "q10": 0.010534027733570471,
+          "q90": 0.033332391583180986
+        }
+      },
+      "condition1:oracle_endpoint": {
+        "inside_mse": {
+          "mean": 1.44386513635936e-26,
+          "mc_se": 0.0,
+          "median": 1.44386513635936e-26,
+          "q10": 1.44386513635936e-26,
+          "q90": 1.44386513635936e-26
+        },
+        "outside_mse": {
+          "mean": 6.695494729438496e-27,
+          "mc_se": 0.0,
+          "median": 6.695494729438496e-27,
+          "q10": 6.695494729438496e-27,
+          "q90": 6.695494729438496e-27
+        }
+      }
+    },
+    "q1_command_RMS": {
+      "condition0:constant_forward": {
+        "mean": 0.0,
+        "mc_se": 0.0,
+        "median": 0.0,
+        "q10": 0.0,
+        "q90": 0.0
+      },
+      "condition0:context_forward": {
+        "mean": 0.015147567710217646,
+        "mc_se": 0.0016453220098914833,
+        "median": 0.015697436654692185,
+        "q10": 0.010261923739644878,
+        "q90": 0.020817690887354173
+      },
+      "condition0:naive_inverse": {
+        "mean": 0.0034431898685961006,
+        "mc_se": 0.0006834265379239713,
+        "median": 0.002333948508134495,
+        "q10": 0.0018614690202543157,
+        "q90": 0.0056036374680401655
+      },
+      "condition0:corrected_inverse": {
+        "mean": 0.003150049882158252,
+        "mc_se": 0.0009808910774332334,
+        "median": 0.0022049294585029435,
+        "q10": 0.0017773258312918537,
+        "q90": 0.004964451774304187
+      },
+      "condition0:oracle_endpoint": {
+        "mean": 2.819302595678951e-13,
+        "mc_se": 0.0,
+        "median": 2.819302595678951e-13,
+        "q10": 2.819302595678951e-13,
+        "q90": 2.819302595678951e-13
+      },
+      "condition1:constant_forward": {
+        "mean": 0.0,
+        "mc_se": 0.0,
+        "median": 0.0,
+        "q10": 0.0,
+        "q90": 0.0
+      },
+      "condition1:context_forward": {
+        "mean": 0.16268721582904455,
+        "mc_se": 0.0602844585432372,
+        "median": 0.11162102764578338,
+        "q10": 0.005238950701771966,
+        "q90": 0.369202996191508
+      },
+      "condition1:naive_inverse": {
+        "mean": 0.01331225233703279,
+        "mc_se": 0.00818244886284056,
+        "median": 0.004809737252192903,
+        "q10": 0.0022472684444746344,
+        "q90": 0.03034906671302369
+      },
+      "condition1:corrected_inverse": {
+        "mean": 0.01301320633468028,
+        "mc_se": 0.007120885434665469,
+        "median": 0.006460986784408617,
+        "q10": 0.002379499513397588,
+        "q90": 0.0283314172875843
+      },
+      "condition1:oracle_endpoint": {
+        "mean": 2.819302595678951e-13,
+        "mc_se": 0.0,
+        "median": 2.819302595678951e-13,
+        "q10": 2.819302595678951e-13,
+        "q90": 2.819302595678951e-13
+      }
+    }
+  },
+  "q1_diagnostic_definition": "For each seed, root mean squared Euclidean command deviation from its mean over four q1 values, averaging 4*8*5 task entries; then mean/MCSE across eight seeds. Not root after pooling seeds.",
+  "scope": [
+    "No canonical implementation imported; all rest mechanics, measurement RNG, data, fits/validation, boxoptimality and heldout scores independently checked.",
+    "Exact BOTHencoder preparation context and zero velocity are supplied facts; this is not inference from noisy current context or continuousfeedback.",
+    "Exact q reveals initial measurement noise o0-q; all methods now use (o1-q)/FACTOR with variance .0004 I, halving the archived two-reading response covariance. Raw acquisition and predictive observations are reused exactly.",
+    "Forward/inverse feature layouts and knownnoiseGram correction validated; indefiniteGrams are projectedPSD thenridged.",
+    "Unregularized G*W-rhs field is not a solverfailure or stationarity test for the projected/ridged estimator.",
+    "Inverse corrected validation is unbiased only for fixed candidate on independent noise; selected minimum may be negative/optimistic.",
+    "All methods share complete physical fit/validation data; common bounded displacementmetric removes commandclipping versus outputmetric confound.",
+    "Naiveinverse is a descriptive bias baseline; calibratedinverse remains a serious same-data competing parameterization.",
+    "Leading affinity and periodic topology supplied; finitepulse response neednot be exactlyaffine; no arbitraryfunction discovery or modelnecessity claim.",
+    "Inside/outside andq1invariance summaries are posthoc diagnostics, not new primarymetrics or new trainingdata.",
+    "Oracle is privileged continuousendpoint feasibility witness; its1456rollouts are separate compute, not fair learnerdata."
+  ]
+}

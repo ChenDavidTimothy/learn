@@ -1,0 +1,356 @@
+{
+  "status": "independent mechanics/convergence check; no learning experiment",
+  "geometry": "unit endpoint masses on unit massless links, horizontal, relative elbow angle",
+  "equations": "M(q)qdd+h(q,v)=constant torque; no gravity/friction/actuator lag",
+  "method": "DOP853 rtol2e-13 atol1e-15",
+  "cases": [
+    {
+      "q2": 0.0,
+      "inertia": [
+        [
+          5.0,
+          2.0
+        ],
+        [
+          2.0,
+          1.0
+        ]
+      ],
+      "initial_acceleration": [
+        -2.0000000000000004,
+        5.000000000000001
+      ],
+      "fourth_time_derivative": [
+        -0.0,
+        -0.0
+      ],
+      "pulses": [
+        {
+          "duration": 0.4,
+          "displacement": [
+            -0.15419343339958727,
+            0.38645566685418464
+          ],
+          "quadratic_remainder_norm": 0.014736525236631106,
+          "quartic_coefficient_error_norm": 0.5756455170559025,
+          "energy_minus_work": 5.995204332975845e-15,
+          "unforced_cyclic_momentum": -9.2785519781375e-16,
+          "nfev": 230,
+          "quadratic_remainder_halving_ratio": 56.94625177570261
+        },
+        {
+          "duration": 0.2,
+          "displacement": [
+            -0.03989820865292787,
+            0.09976208115754413
+          ],
+          "quadratic_remainder_norm": 0.00025877954697834516,
+          "quartic_coefficient_error_norm": 0.16173721686146572,
+          "energy_minus_work": -4.163336342344337e-16,
+          "unforced_cyclic_momentum": 6.707713952292398e-16,
+          "nfev": 122,
+          "quadratic_remainder_halving_ratio": 63.481168939576456
+        },
+        {
+          "duration": 0.1,
+          "displacement": [
+            -0.009998396697744605,
+            0.024996252055307613
+          ],
+          "quadratic_remainder_norm": 4.0764773444020914e-06,
+          "quartic_coefficient_error_norm": 0.04076477344402091,
+          "energy_minus_work": 9.020562075079397e-17,
+          "unforced_cyclic_momentum": -4.2902662116516147e-16,
+          "nfev": 86,
+          "quadratic_remainder_halving_ratio": 63.96720114894602
+        },
+        {
+          "duration": 0.05,
+          "displacement": [
+            -0.002499974935740612,
+            0.006249941408258541
+          ],
+          "quadratic_remainder_norm": 6.372761776633179e-08,
+          "quartic_coefficient_error_norm": 0.010196418842613084,
+          "energy_minus_work": -3.469446951953614e-18,
+          "unforced_cyclic_momentum": -9.311674269382395e-17,
+          "nfev": 62,
+          "quadratic_remainder_halving_ratio": 63.997949023384
+        },
+        {
+          "duration": 0.025,
+          "displacement": [
+            -0.0006249996083586007,
+            0.0015624990844746135
+          ],
+          "quadratic_remainder_norm": 9.957759387421395e-10,
+          "quartic_coefficient_error_norm": 0.002549186403179877,
+          "energy_minus_work": -6.505213034913027e-19,
+          "unforced_cyclic_momentum": 1.8397346131149765e-16,
+          "nfev": 50
+        }
+      ]
+    },
+    {
+      "q2": 0.7,
+      "inertia": [
+        [
+          4.529684374568977,
+          1.7648421872844886
+        ],
+        [
+          1.7648421872844886,
+          1.0
+        ]
+      ],
+      "initial_acceleration": [
+        -1.2472238142797492,
+        3.201153204426775
+      ],
+      "fourth_time_derivative": [
+        8.79754788376061,
+        -20.102605745473596
+      ],
+      "pulses": [
+        {
+          "duration": 0.4,
+          "displacement": [
+            -0.09120439178067608,
+            0.23667444771025192
+          ],
+          "quadratic_remainder_norm": 0.021226314420879803,
+          "quartic_coefficient_error_norm": 0.08520173491253748,
+          "energy_minus_work": -1.7819079545233762e-14,
+          "unforced_cyclic_momentum": 3.570535737845052e-15,
+          "nfev": 146,
+          "quadratic_remainder_halving_ratio": 14.860223891147523
+        },
+        {
+          "duration": 0.2,
+          "displacement": [
+            -0.024370766313335457,
+            0.06271494414809553
+          ],
+          "quadratic_remainder_norm": 0.0014283980225576994,
+          "quartic_coefficient_error_norm": 0.021570297763827052,
+          "energy_minus_work": -2.257916076331412e-14,
+          "unforced_cyclic_momentum": 5.108689601557274e-15,
+          "nfev": 98,
+          "quadratic_remainder_halving_ratio": 15.715092598720611
+        },
+        {
+          "duration": 0.1,
+          "displacement": [
+            -0.00619966170891717,
+            0.015922504573314678
+          ],
+          "quadratic_remainder_norm": 9.089338886071771e-05,
+          "quartic_coefficient_error_norm": 0.005376285433975174,
+          "energy_minus_work": -1.471739397018723e-14,
+          "unforced_cyclic_momentum": 5.502077860015019e-15,
+          "nfev": 50,
+          "quadratic_remainder_halving_ratio": 15.929342923236687
+        },
+        {
+          "duration": 0.05,
+          "displacement": [
+            -0.0015567418455747495,
+            0.003996214245493568
+          ],
+          "quadratic_remainder_norm": 5.706035038528071e-06,
+          "quartic_coefficient_error_norm": 0.001342335891987269,
+          "energy_minus_work": -4.336808689942018e-17,
+          "unforced_cyclic_momentum": -6.30461590187402e-17,
+          "nfev": 38,
+          "quadratic_remainder_halving_ratio": 15.982383460093102
+        },
+        {
+          "duration": 0.025,
+          "displacement": [
+            -0.00038961430121386975,
+            0.0010000333072662793
+          ],
+          "quadratic_remainder_norm": 3.5702028128505636e-07,
+          "quartic_coefficient_error_norm": 0.000335463121441049,
+          "energy_minus_work": 9.194034422677078e-17,
+          "unforced_cyclic_momentum": 7.857131941647957e-17,
+          "nfev": 38
+        }
+      ]
+    },
+    {
+      "q2": 1.5707963267948966,
+      "inertia": [
+        [
+          3.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "initial_acceleration": [
+        -0.49999999999999994,
+        1.4999999999999998
+      ],
+      "fourth_time_derivative": [
+        1.7499999999999998,
+        -2.999999999999999
+      ],
+      "pulses": [
+        {
+          "duration": 0.4,
+          "displacement": [
+            -0.038196884240558115,
+            0.11699502383579907
+          ],
+          "quadratic_remainder_norm": 0.0035044412092890736,
+          "quartic_coefficient_error_norm": 0.008012385730981706,
+          "energy_minus_work": 1.0269562977782698e-15,
+          "unforced_cyclic_momentum": -3.1923116277300085e-16,
+          "nfev": 98,
+          "quadratic_remainder_halving_ratio": 15.352905883031584
+        },
+        {
+          "duration": 0.2,
+          "displacement": [
+            -0.00988438898353472,
+            0.029803184524712867
+          ],
+          "quadratic_remainder_norm": 0.00022825914755084052,
+          "quartic_coefficient_error_norm": 0.0020968349469471315,
+          "energy_minus_work": 3.157196726277789e-16,
+          "unforced_cyclic_momentum": -8.863691298208686e-17,
+          "nfev": 62,
+          "quadratic_remainder_halving_ratio": 15.830017934907731
+        },
+        {
+          "duration": 0.1,
+          "displacement": [
+            -0.00249272508621573,
+            0.007487550327809789
+          ],
+          "quadratic_remainder_norm": 1.4419386540775323e-05,
+          "quartic_coefficient_error_norm": 0.0005304288365727307,
+          "energy_minus_work": -1.726049858596923e-16,
+          "unforced_cyclic_momentum": -9.003055026135284e-17,
+          "nfev": 38,
+          "quadratic_remainder_halving_ratio": 15.956961171965412
+        },
+        {
+          "duration": 0.05,
+          "displacement": [
+            -0.0006245445336203193,
+            0.0018742195386318716
+          ],
+          "quadratic_remainder_norm": 9.036423906394261e-07,
+          "quartic_coefficient_error_norm": 0.00013300198891053915,
+          "energy_minus_work": -1.9125326322644298e-16,
+          "unforced_cyclic_momentum": 1.6979051221781366e-17,
+          "nfev": 38,
+          "quadratic_remainder_halving_ratio": 15.989205810001625
+        },
+        {
+          "duration": 0.025,
+          "displacement": [
+            -0.00015622152103711429,
+            0.00046870118420616613
+          ],
+          "quadratic_remainder_norm": 5.6515777042170316e-08,
+          "quartic_coefficient_error_norm": 3.327507770970296e-05,
+          "energy_minus_work": 6.375108774214766e-17,
+          "unforced_cyclic_momentum": 8.08411163687098e-18,
+          "nfev": 26
+        }
+      ]
+    },
+    {
+      "q2": 3.141592653589793,
+      "inertia": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "initial_acceleration": [
+        0.0,
+        1.0
+      ],
+      "fourth_time_derivative": [
+        3.6739403974420594e-16,
+        -0.0
+      ],
+      "pulses": [
+        {
+          "duration": 0.4,
+          "displacement": [
+            -8.498037687409976e-05,
+            0.08000009055479218
+          ],
+          "quadratic_remainder_norm": 8.498042512152086e-05,
+          "quartic_coefficient_error_norm": 0.0033195478563094235,
+          "energy_minus_work": 1.096345236817342e-15,
+          "unforced_cyclic_momentum": 1.1410523649775672e-15,
+          "nfev": 134,
+          "quadratic_remainder_halving_ratio": 63.751888189719914
+        },
+        {
+          "duration": 0.2,
+          "displacement": [
+            -1.3329867921685334e-06,
+            0.020000000088859604
+          ],
+          "quadratic_remainder_norm": 1.332986795130314e-06,
+          "quartic_coefficient_error_norm": 0.0008331167469564614,
+          "energy_minus_work": 6.661338147750939e-16,
+          "unforced_cyclic_momentum": 1.2598820272844295e-15,
+          "nfev": 62,
+          "quadratic_remainder_halving_ratio": 63.984405626393375
+        },
+        {
+          "duration": 0.1,
+          "displacement": [
+            -2.0832994884756317e-08,
+            0.005000000000086491
+          ],
+          "quadratic_remainder_norm": 2.0832994884935852e-08,
+          "quartic_coefficient_error_norm": 0.00020832994884937382,
+          "energy_minus_work": 3.2699537522162814e-16,
+          "unforced_cyclic_momentum": 3.6303422774986837e-16,
+          "nfev": 38,
+          "quadratic_remainder_halving_ratio": 63.99902593070811
+        },
+        {
+          "duration": 0.05,
+          "displacement": [
+            -3.2552049944456485e-10,
+            0.0012499999999997513
+          ],
+          "quadratic_remainder_norm": 3.2552049944466e-10,
+          "quartic_coefficient_error_norm": 5.208327991116091e-05,
+          "energy_minus_work": 3.3458479042902667e-16,
+          "unforced_cyclic_momentum": 1.700124346347862e-17,
+          "nfev": 26,
+          "quadratic_remainder_halving_ratio": 63.99991258859434
+        },
+        {
+          "duration": 0.025,
+          "displacement": [
+            -5.08626474271523e-12,
+            0.0003124999999997158
+          ],
+          "quadratic_remainder_norm": 5.086264750659554e-12,
+          "quartic_coefficient_error_norm": 1.3020837761703765e-05,
+          "energy_minus_work": 2.8427780962569926e-16,
+          "unforced_cyclic_momentum": -9.24446773064052e-19,
+          "nfev": 26
+        }
+      ]
+    }
+  ]
+}

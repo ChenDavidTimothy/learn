@@ -1,0 +1,332 @@
+{
+  "status": "INDEPENDENTLY VERIFIED COMPACT REST-CONTEXT LEARNING TEST",
+  "counts": {
+    "acquisition_pulses": 10240,
+    "predictive_pulses": 2048,
+    "task_pulses": 12800,
+    "oracle_witnesses": 160,
+    "candidates": 832,
+    "bounded_decisions": 10240
+  },
+  "artifact_sha256": {
+    "coupled_learning_v14_two_reading_pilot.py": "bd0c4f88595b513476487345aa94431706db00cb6bc2d5ed987aed80b94aaf0f",
+    "coupled_learning_v14_two_reading_pilot_design.md": "cbd3ffbc02cc5f6e76bcfc9e99d55cc050b60feb9074c95540c8df44d2bb9354",
+    "coupled_learning_v14_two_reading_pilot_results.json": "1e94732c06ac87a8efb8a2c341d8aed52cd72e91ee199d39ca7225680a9d13d0",
+    "coupled_learning_v14_two_reading_pilot_data.npz": "7fbc88abf3fbd2c1d953b2b8e18892556c9d85158531bead5e17f5d881c7571e"
+  },
+  "globally_disjoint_acquisition_measurement_prediction_role_seeds": 48,
+  "independent_physics": "Hamiltonian(q,p), vectorized RK4 at32/64 steps over.1",
+  "maximum_absolute_errors": {
+    "physics32vs64": 1.440225716464738e-11,
+    "physics64vsDOP": 9.433565040239955e-13,
+    "measurement_RNG": 0.0,
+    "response": 1.1546319456101628e-12,
+    "spectrum": 1.5257676715656022e-09,
+    "scale": 2.2737367544323206e-13,
+    "regularized_stationarity": 3.7969170082850887e-13,
+    "validation": 1.8735013540549517e-16,
+    "unregularized_residual": 3.1864571745088277e-12,
+    "map_condition": 2.8194335754960775e-10,
+    "inverse_singular_values": 4.440892098500626e-15,
+    "bounded_cost": 2.3765711620882257e-16,
+    "bounded_optimum_gap": 1.962997039223202e-12,
+    "task_score": 8.830713937868495e-13,
+    "predictive_score": 9.986251825466752e-10,
+    "predictions": 3.694822225952521e-12,
+    "summary": 0.0,
+    "oracle_witness": 4.4286101811285714e-13
+  },
+  "maximum_errors_scaled_by_max1_magnitude": {
+    "physics32vs64": 1.440225716464738e-11,
+    "physics64vsDOP": 9.433565040239955e-13,
+    "measurement_RNG": 0.0,
+    "response": 1.1546319456101628e-12,
+    "spectrum": 1.5257676715656022e-09,
+    "scale": 3.0104200957875704e-16,
+    "regularized_stationarity": 3.7969170082850887e-13,
+    "validation": 1.8735013540549517e-16,
+    "unregularized_residual": 3.1864571745088277e-12,
+    "map_condition": 1.5051359223258615e-13,
+    "inverse_singular_values": 1.7763568394002505e-15,
+    "bounded_cost": 2.3765711620882257e-16,
+    "bounded_optimum_gap": 1.962997039223202e-12,
+    "task_score": 8.560054336460432e-13,
+    "predictive_score": 9.552282410573012e-14,
+    "predictions": 4.807693314436902e-14,
+    "summary": 0.0,
+    "oracle_witness": 4.4286101811285714e-13
+  },
+  "bounded_solver_failure_count": 0,
+  "candidate_regularization_diagnostics": {
+    "constant_forward": {
+      "negative_validation_scores": 0,
+      "candidates_with_negative_Gram_eigenvalues": 0,
+      "maximum_floored_eigenvalues": 0
+    },
+    "context_forward": {
+      "negative_validation_scores": 0,
+      "candidates_with_negative_Gram_eigenvalues": 192,
+      "maximum_floored_eigenvalues": 42
+    },
+    "naive_inverse": {
+      "negative_validation_scores": 13,
+      "candidates_with_negative_Gram_eigenvalues": 192,
+      "maximum_floored_eigenvalues": 44
+    },
+    "corrected_inverse": {
+      "negative_validation_scores": 31,
+      "candidates_with_negative_Gram_eigenvalues": 204,
+      "maximum_floored_eigenvalues": 44
+    }
+  },
+  "secondary_diagnostics": {
+    "partition": {
+      "condition0:constant_forward": {
+        "inside_mse": {
+          "mean": 0.017896042638592784,
+          "mc_se": 0.0009638235367941321,
+          "median": 0.017441939698542096,
+          "q10": 0.015077534883711026,
+          "q90": 0.02136251583026171
+        },
+        "outside_mse": {
+          "mean": 0.0036326275068433657,
+          "mc_se": 9.699101988227667e-05,
+          "median": 0.0035379354235595085,
+          "q10": 0.003391972020053802,
+          "q90": 0.003941865541160716
+        }
+      },
+      "condition0:context_forward": {
+        "inside_mse": {
+          "mean": 0.00012666405361403,
+          "mc_se": 2.8040342269789604e-05,
+          "median": 9.546906444921658e-05,
+          "q10": 6.313097912225865e-05,
+          "q90": 0.00024313410566539526
+        },
+        "outside_mse": {
+          "mean": 3.646163175092418e-05,
+          "mc_se": 3.883379497787681e-06,
+          "median": 3.516426831221817e-05,
+          "q10": 2.5826357101122164e-05,
+          "q90": 4.732575881588131e-05
+        }
+      },
+      "condition0:naive_inverse": {
+        "inside_mse": {
+          "mean": 3.1725051921135365e-05,
+          "mc_se": 4.5192312230522375e-06,
+          "median": 2.615507279153587e-05,
+          "q10": 2.010910371007363e-05,
+          "q90": 4.806359022358638e-05
+        },
+        "outside_mse": {
+          "mean": 9.633084708998209e-06,
+          "mc_se": 4.64795450712134e-07,
+          "median": 9.048015605530674e-06,
+          "q10": 8.630389674374176e-06,
+          "q90": 1.1643407638311881e-05
+        }
+      },
+      "condition0:corrected_inverse": {
+        "inside_mse": {
+          "mean": 1.549144336924394e-05,
+          "mc_se": 3.462953930620608e-06,
+          "median": 1.592972704151379e-05,
+          "q10": 3.7366393471423816e-06,
+          "q90": 2.5120785297429508e-05
+        },
+        "outside_mse": {
+          "mean": 5.771289415881955e-06,
+          "mc_se": 8.511527477523603e-07,
+          "median": 5.8845921968309525e-06,
+          "q10": 2.7795812977714855e-06,
+          "q90": 8.110483806824957e-06
+        }
+      },
+      "condition0:oracle_endpoint": {
+        "inside_mse": {
+          "mean": 1.44386513635936e-26,
+          "mc_se": 0.0,
+          "median": 1.44386513635936e-26,
+          "q10": 1.44386513635936e-26,
+          "q90": 1.44386513635936e-26
+        },
+        "outside_mse": {
+          "mean": 6.695494729438496e-27,
+          "mc_se": 0.0,
+          "median": 6.695494729438496e-27,
+          "q10": 6.695494729438496e-27,
+          "q90": 6.695494729438496e-27
+        }
+      },
+      "condition1:constant_forward": {
+        "inside_mse": {
+          "mean": 0.00010039145032911384,
+          "mc_se": 3.3708276705099102e-06,
+          "median": 0.00010039264346860607,
+          "q10": 9.024109236833963e-05,
+          "q90": 0.00011037127768755899
+        },
+        "outside_mse": {
+          "mean": 0.03134357030614501,
+          "mc_se": 0.00029667850955482524,
+          "median": 0.031167441791818077,
+          "q10": 0.030610102591813584,
+          "q90": 0.03227804271736188
+        }
+      },
+      "condition1:context_forward": {
+        "inside_mse": {
+          "mean": 2.016210358696941e-05,
+          "mc_se": 3.0293482933597524e-06,
+          "median": 2.134126733074595e-05,
+          "q10": 9.279873891339157e-06,
+          "q90": 2.9411034957142453e-05
+        },
+        "outside_mse": {
+          "mean": 0.0728378991533475,
+          "mc_se": 0.03395828151446167,
+          "median": 0.02976754756954371,
+          "q10": 0.027341669086997165,
+          "q90": 0.15945360881910234
+        }
+      },
+      "condition1:naive_inverse": {
+        "inside_mse": {
+          "mean": 3.4401360330763326e-05,
+          "mc_se": 3.4409358287153705e-06,
+          "median": 3.254492736823469e-05,
+          "q10": 2.4723347879053936e-05,
+          "q90": 4.565856864440819e-05
+        },
+        "outside_mse": {
+          "mean": 0.03698878792369122,
+          "mc_se": 0.017083840669680436,
+          "median": 0.021453161994315448,
+          "q10": 0.016766301294625485,
+          "q90": 0.0640279764141455
+        }
+      },
+      "condition1:corrected_inverse": {
+        "inside_mse": {
+          "mean": 2.2869623269378888e-05,
+          "mc_se": 4.1349660062306496e-06,
+          "median": 2.493721215835215e-05,
+          "q10": 7.69888637056093e-06,
+          "q90": 3.446334954266331e-05
+        },
+        "outside_mse": {
+          "mean": 0.040763175823100836,
+          "mc_se": 0.016459173756897642,
+          "median": 0.02627692203852334,
+          "q10": 0.01969778866170898,
+          "q90": 0.06737724284212655
+        }
+      },
+      "condition1:oracle_endpoint": {
+        "inside_mse": {
+          "mean": 1.44386513635936e-26,
+          "mc_se": 0.0,
+          "median": 1.44386513635936e-26,
+          "q10": 1.44386513635936e-26,
+          "q90": 1.44386513635936e-26
+        },
+        "outside_mse": {
+          "mean": 6.695494729438496e-27,
+          "mc_se": 0.0,
+          "median": 6.695494729438496e-27,
+          "q10": 6.695494729438496e-27,
+          "q90": 6.695494729438496e-27
+        }
+      }
+    },
+    "q1_command_RMS": {
+      "condition0:constant_forward": {
+        "mean": 0.0,
+        "mc_se": 0.0,
+        "median": 0.0,
+        "q10": 0.0,
+        "q90": 0.0
+      },
+      "condition0:context_forward": {
+        "mean": 0.021000856626251944,
+        "mc_se": 0.0032608489899842432,
+        "median": 0.019368460353787198,
+        "q10": 0.01352268244067708,
+        "q90": 0.029209148562985898
+      },
+      "condition0:naive_inverse": {
+        "mean": 0.004238928935489349,
+        "mc_se": 0.0007795834922160267,
+        "median": 0.00384101632060307,
+        "q10": 0.002198211208647049,
+        "q90": 0.0070697155580389005
+      },
+      "condition0:corrected_inverse": {
+        "mean": 0.004102508506096038,
+        "mc_se": 0.0012384968361536758,
+        "median": 0.002993622539042196,
+        "q10": 0.0010672434777858311,
+        "q90": 0.00915950526950694
+      },
+      "condition0:oracle_endpoint": {
+        "mean": 2.819302595678951e-13,
+        "mc_se": 0.0,
+        "median": 2.819302595678951e-13,
+        "q10": 2.819302595678951e-13,
+        "q90": 2.819302595678951e-13
+      },
+      "condition1:constant_forward": {
+        "mean": 0.0,
+        "mc_se": 0.0,
+        "median": 0.0,
+        "q10": 0.0,
+        "q90": 0.0
+      },
+      "condition1:context_forward": {
+        "mean": 0.08266208590657091,
+        "mc_se": 0.04851896585981722,
+        "median": 0.010750155207761047,
+        "q10": 0.006270100891346834,
+        "q90": 0.28846615567099276
+      },
+      "condition1:naive_inverse": {
+        "mean": 0.018325199145978292,
+        "mc_se": 0.013927199282642501,
+        "median": 0.004515697225032363,
+        "q10": 0.0035594599105834147,
+        "q90": 0.039271471315343094
+      },
+      "condition1:corrected_inverse": {
+        "mean": 0.019826140056307992,
+        "mc_se": 0.014984045348506673,
+        "median": 0.004581120984936789,
+        "q10": 0.0031395928479924524,
+        "q90": 0.043576043111532584
+      },
+      "condition1:oracle_endpoint": {
+        "mean": 2.819302595678951e-13,
+        "mc_se": 0.0,
+        "median": 2.819302595678951e-13,
+        "q10": 2.819302595678951e-13,
+        "q90": 2.819302595678951e-13
+      }
+    }
+  },
+  "q1_diagnostic_definition": "For each seed, root mean squared Euclidean command deviation from its mean over four q1 values, averaging 4*8*5 task entries; then mean/MCSE across eight seeds. Not root after pooling seeds.",
+  "scope": [
+    "No canonical implementation imported; all rest mechanics, measurement RNG, data, fits/validation, boxoptimality and heldout scores independently checked.",
+    "Exact BOTHencoder preparation context and zero velocity are supplied facts; this is not inference from noisy current context or continuousfeedback.",
+    "Exact q also reveals initial measurement noise o0-q; using (o1-q)/FACTOR could halve response covariance. Specified methods all use differenced response, not all available information efficiently.",
+    "Forward/inverse feature layouts and knownnoiseGram correction validated; indefiniteGrams are projectedPSD thenridged.",
+    "Unregularized G*W-rhs field is not a solverfailure or stationarity test for the projected/ridged estimator.",
+    "Inverse corrected validation is unbiased only for fixed candidate on independent noise; selected minimum may be negative/optimistic.",
+    "All methods share complete physical fit/validation data; common bounded displacementmetric removes commandclipping versus outputmetric confound.",
+    "Naiveinverse is a descriptive bias baseline; calibratedinverse remains a serious same-data competing parameterization.",
+    "Leading affinity and periodic topology supplied; finitepulse response neednot be exactlyaffine; no arbitraryfunction discovery or modelnecessity claim.",
+    "Inside/outside andq1invariance summaries are posthoc diagnostics, not new primarymetrics or new trainingdata.",
+    "Oracle is privileged continuousendpoint feasibility witness; its1456rollouts are separate compute, not fair learnerdata."
+  ]
+}

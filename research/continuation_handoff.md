@@ -1,113 +1,97 @@
-# Active continuation after v13
+# Active continuation after v14
 
-The general-learning Goal is ACTIVE and unresolved. Latest verified living ledger:
-`first_principles_robot_learning_ledger_v13.md`, with complete v12 and all earlier
-history preserved verbatim. V12 SSH commit verified at
+The general-learning Goal is ACTIVE and unresolved. Latest independently verified
+ledger: first_principles_robot_learning_ledger_v14.md, including complete v13 and
+all earlier history verbatim. V13 SSH publication verified at
+`aeb569a16688c7290af88169d654c0f809b6c2a6`; v12 at
 `ace6041069d246656caa3bcffb3239db93a1bfa2`. Resolve current release commit via
-`git log -1`/SSH origin main (a document cannot contain its own commit hash).
-No release is a stopping condition. Continue on the owner's PC/existing .venv.
+`git log -1` and SSH origin/main (a document cannot contain its own hash).
+Continue on the existing PC/.venv; a release is never a stopping condition.
 
-## V13 verified bounded diagnostic, now CLOSED as an optimizer branch
+## V14 findings and exact evidence
 
-A single prescribed exact-gradient fit of the SAME six-coordinate direct controller
-on the32 existing v12 learned nonlinear models, using three fixed starts and
-separate16-episode virtual validation, improves mean tracking cost on all4plants.
-Fresh streams compare physicalCEM/virtualCEM/gradient/MPC. Means for gradient are
-.265958/.275643/.306701/.289054 vs physicalCEM.313822/.330627/.402863/.352047;
-MPC.266410/.271958/.266985/.263184. This constructively reveals a finite CEM search
-limitation in the SAMEfamily. No new plant TRAINING. Extra learnedmodel computation
-and supplied vocabulary remain; no universal architecture or optimality claim.
+Generic periodic RBF relations learn coupled joint displacement from SAME noisy
+rest-pulse data without true inertia/mass formula. Both encoder contexts supplied.
+Broad acquisition supports new goals/poses; narrow acquisition extrapolates badly.
+Inverse versus forward parameterization changes function/noise/conditioning: equal
+features are not equal physical-function classes. No universal model necessity.
 
-CRITICAL NEGATIVE: stationkeeping gradient1/64 vsphysical14/64,virtual16/64,MPC25/64.
-62/64gradient trials violate velocity tolerance. Mean positioncost gains dominate
-while velocitycost/effort rise; pooledlatepositionRMS nearlyunchanged, latevelocity
-RMS.1107→.1606. Better average cost is not uniformly improved capability. Training
-process0/testprocess.03, finitecost/event distinction, class and optimizer remain
-separate possible causes. Do not add another scalaroptimizer to rescue this result.
+Canonical broad task MSE: constant .00898236, context forward3.18255e-5,
+naive inverse8.98605e-6, calibrated inverse4.52803e-6. Eight acquired-data clusters
+per condition. Broad naive-minus-calibrated paired difference4.45802e-6+/-1.08175e-6.
+Narrow means .0194882/.0548094/.0144884/.0147816; inverse correction difference
+-.000293217+/-.000602516 is unresolved. Zero-command analytic score .0145;
+narrow inverse aggregate transfer is near that uninformed reference. Do not carry
+over the archived comparison's stronger narrow harm claim to canonical results.
 
-Source/results/design: gradient_reuse_v13.py, JSON, NPZ, timings. One of96fit
-attempts reachesmax160 (plant3rep7generic), retained and NOTselected. All32chosen
-outputs are optimized (8/11/13starts). AllfreshMPCsolvesconverged, notglobalguarantees.
-Optimizerrollouts6595168 virtualsteps;validation220160;replay88064;checks50912;
-freshtests22016plantsteps/256resets. No hiddenplantreward in selection.
+Known preparation pose/rest, ideal calibrated torque, angle topology, sensor law,
+short duration and torque-affine finite basis remain supplied. No continuous
+control/stopping, unknown-state inference or discovery of an observation language.
+End rest calibration here; no more kernel/optimizer variants merely to improve it.
 
-Audits: audit_gradient_reuse_v13.py/JSON/report independently reconstruct96fit
-endpoints,160validationcandidates/choices,1024retainedvirtualepisodes,256tests,
-5504MPCplans, hashes/budgets/pairedSEs. Main/NPZ and audit rerunsbyteidentical.
-Theory gradient_reuse_v13_theory_independent.md, independentPyTorchAD
- audit_gradient_pathwise_v13.py/JSON: canonical16episodeJacobian1.1e-13agreement.
-One initialcoarseFDcheck crossedaclippingboundary; preserve correctionmd/checktable.
-Two smallerfixedstepswithunchangedmaskspass. IndependentADconfirmskink, and records
-an extremehighsensitivityfloatingpointstresslimit honestly. 37checkrolls counted.
+Source/design/results/NPZ/timing: coupled_learning_v14*. Independent theory:
+coupled_learning_v14_theory_independent.md, v14_design_independent.md, literature
+note. Artifact audit coupled_learning_v14: independent Hamiltonian RK4 at32/64steps,
+all10240 acquisition+2048 predictive+12800 canonical task pulses,832 candidates,
+PSD/ridge stationarity, validation/selection,10240 bounded decisions checked;
+zero solver failures, box-optimum gap1.403e-12. Main/NPZ/audit reruns byte-identical.
+Q1 symmetry is only approximate; both pooling definitions/results retained.
 
-## Immediately continue beyond scalar gain tuning
+## Preserved information-use correction and development budget
 
-Nextquestiondraft: coupled_context_v14_question.md. Investigate how experience can
-learn a change in what an action means when articulated-body configuration couples
-actuators, with NEW desired displacements/poses. Do not turn this into merely
-identifying named masses or proving another abstractrankidentity.
+Original coupled_learning_v14_two_reading_pilot* and corresponding audits retain
+full first comparison. It used(o1-o0)/F although q0 was known exactly. Audit caught
+avoidable initial sensor noise. Canonical ALL-method repair uses(o1-q0)/F,
+variance .0004I versus original .0008I. No grid/goal/condition change; exact raw
+records reused,160 nonresponse arrays bitwise identical and32 response arrays
+recomputed. No new acquisition/predictive/oracle search. This is exploratory after
+original outcomes, not a new blind benchmark. Both comparisons remain reproducible.
 
-Start simplestrest-pulse2linkhorizontalarm, then escalate towardcontinuouscoupled
-motion. Draft initially uses semiimplicitEuler map dt²M^-1u; actualpilot should use
-continuousDOP853 and derive displacement=.5dt²M^-1u+O(dt4) atrest/nofriction. Avoid
-mistaking discretization artifact or suppliedcosinefamily for generallearning.
-Theoryagent is independently criticizing this direction and derivingmechanics.
-Compare strongjoint/context-awarekernelresponse, directinverse/retrievalalternative,
-and simpleconstantresponse; exactphysicalfamily may only be privilegeddiagnostic.
-Actualobservations/actions only to ordinarylearners, context/preparationnoiseexplicit,
-feasibleboundedtargets, sameacquisitionbudgets. Firstpilotphysicsvalidity is NOTa
-completedlearningmilestone. Donotpublishv14 until meaningfulauditedevidence.
+Total unique acquisition10240rest episodes, predictive2048. Each comparison tests
+12800episodes; development total25600. Original oracle feasibility1456 simulator
+rollouts once;160 task witnesses max residual3.24e-13 reused. All832 fits per
+comparison=1664 preserved. 49152 acquired/predictive coordinate sensor readings,
+102400 task readings. Preparation/reset capability and computation are separate
+resources, not ignored hardware costs. No actual hardware experiment.
 
-For publication: nextledgerincludesv13verbatim; executableexperiments/actualresults,
-independentaudit, SSHcommit/push/remoteverify, immediatelycontinue. GoalremainsACTIVE.
+Original source is archived byte-for-byte; reproduce it with --output-prefix to
+avoid overwriting current canonical results. Archived generated metadata names
+refer to filenames at generation; archived audit resolves frozen paths. Canonical
+main loads archived raw NPZ/oracle results; those files MUST remain present.
+Dormant legacy experience() in canonical source still computes the old two-reading
+statistic, but main never calls it. Do not reuse that helper with the repaired
+covariance without explicitly changing the data model. See information_correction.
 
-## Retained v12 findings needed for continuation
+Mechanics pilot/audits are separate: coupled_context_v14_pilot, independent
+Hamiltonian/Radau and short-pulse checks.179 unique episodes/21.025 seconds plus24
+tighter reintegrations. Leading continuous displacement .5T²M^-1u+O(T4); special
+poses0/pi hide quartic order. Finite coupling atpi is not exactly zero. Shared
+noisy context and displacement have -R covariance; pilot trains no learner.
 
-## What v12 actually establishes
+## Immediately next: relevant history in continuous coupled motion
 
-- With the declared lagged timing, fresh iid zero-mean position noise and exogenous
-  fixed goals/horizon/normalization, observation-only quadratic position/displacement/
-  command fitness differs from hidden position/velocity cost by expectation offset
-  1.6R/D. Biased/colored sensors or motor-first feedback can break policy ranking.
-- Direct CEM improves a supplied six-parameter dynamic stationary controller.
-  Shadow segmented raw-position OE followed by EKF/MPC gets lower mean tracking cost
-  at both data checkpoints on all four supplied scalar plants from EXACTLY the
-  same complete environment experience. This is a comparison of specified mechanisms,
-  not equal priors/capacity/compute or universal model necessity.
-- Feedback training OE is valid joint/sequential likelihood at zero process noise,
-  known zero resets and all episodes retained. Do not claim full-command exogeneity
-  or concatenate separate reset episodes. Do not fit only elites.
-- Identical CEM inside the learned nonlinear model gives no consistent benefit to
-  the SAME controller family. Capacity versus finite search remains OPEN. Learned
-  linear and nonlinear MPC remain close; station keeping is unreliable.
-- MPC uses remaining86-t; the direct class lacks a clock. Prescribed first70-step
-  scores retain the MPC advantage before any horizon shortening, but class/compute
-  differences remain. Feedback continues through86; this is not v10/v11 forcedcoast.
+Remove rest preparation. Question whether current positions/commands suffice for
+the desired consequence, and how experience can reveal/revise an inadequate summary.
+The same pose with different motion generally needs different actions. Derive the
+simplest decisive aliasing/feasibility example before adopting a state architecture.
+A history-based learner may act without naming velocity; a supplied physical state
+is one competitor, not a mandatory foundation. Compare strong conventional
+history/derivative-free methods, not only a deliberately under-informed baseline.
 
-## Reproducibility and independent evidence
+A promising first pilot: same two-link current pose, equal-prior opposite initial
+velocities, same goal and bounded torque opportunities. Current-pose-only input is
+identical, but a past-position history differs. Verify actual bounded commands can
+meet both tasks separately; do not confuse infeasibility with missing information.
+Avoid asserting a global finite-time lower bound from a grid/local optimizer.
+Then construct actual learning/decisions in continuous coupled motion or an
+experience-based summary-revision mechanism. No new release solely for a pilot.
 
-`shared_experience_v12.py`, NPZ, JSON, design, timing:32 training fits, four plants,
-eight seeds each, all384 episodes/33024 training steps per seed. Checkpoints2/8 CEM
-generations8256/33024 steps. Final direct means.314099/.331481/.401574/.357066;
-nonlinear MPC means.267673/.274189/.266358/.274551. Main test384 episodes/22016plans.
-`model_reuse_v12.py`, NPZ, JSON, design, timing:33024 VIRTUAL steps per seed, no new
-plant training,64 extra test episodes; same-family costs.321943/.311855/.393994/.406712.
+Primary relevant baseline read: Romeres et al.2018, derivative-free inverse dynamics
+using learned position-history features on iCub-arm data, arXiv1809.05074. This is
+far stronger than rest calibration; do not claim reproduction or superiority.
+Full literature links and limits are in coupled_learning_v14_literature.md.
 
-`audit_shared_experience_v12.py`/JSON/report independently reconstruct ALL24576
-corrected physical+virtual training episodes,448 tests,22016 plans,384 fit records,
-CEM draws/selections, seed domains, fits/Jacobians/EKF/metrics and clustered SEs.
-No main implementation imported; eliminated dynamics independently implemented.
-Audit passes: states<4e-13, tests<2.1e-14, CEMcoordinates/actions exact, summaries
-exact. Main/reuse reexecution yielded byte-identical NPZ+JSON, independent audit
-reexecution identical too. Raw metadata says auditpending because it records
-pre-audit generation; the separate completed audit certifies it. Do NOT edit that
-metadata casually: reuse JSON hashes the exact shared JSON bytes; audits verify it.
-
-Independent theory/design: `audit_observation_loss_v12.md` and
-`v12_comparison_design_independent.md`; older PD pilot and audit preserved.
-First large run reused some adjacent-replicate noise seeds; caught before viewing
-outcomes. All excluded source/data/compressedJSON/timing are retained as
-`shared_experience_v12_seed_overlap_pilot*`. Never infer independent SEs from it.
-Corrected roles globally disjoint; virtualdomain+1e10; test streams shared only for
-intentional paired comparisons. Exact budgets/limitations are in ledger/design.
-
+For each meaningful verified milestone: independent audit, next sequential ledger
+with complete v14 verbatim, executable actual artifacts, commit/push SSH/verify,
+and immediately continue. Do not mark the broader Goal complete or blocked merely
+because an execution cycle ends. Preserve precise continuation if interrupted.

@@ -1,0 +1,66 @@
+{
+  "status": "UNRELEASED MECHANICS PILOT INDEPENDENTLY VERIFIED; NO LEARNER COMPARISON",
+  "independent_representation": "Hamiltonian(q,p), Cartesian point-mass kinetic energy, cyclic p1",
+  "independent_solver": "Radau rtol2e-12 atol1e-14 max_step=duration/40",
+  "rest_pulses_checked": 153,
+  "general_energy_cases_checked": 24,
+  "coupling_examples_checked": 2,
+  "complete_unique_episode_count": 179,
+  "complete_unique_integration_time": 21.025,
+  "canonical_tighter_numerical_reintegrations": 24,
+  "canonical_total_solver_calls": 203,
+  "maximum_absolute_errors": {
+    "rest_state": 2.65898414397725e-14,
+    "energy_state": 2.6139090891774686e-12,
+    "tighter_state": 5.617728504603292e-14,
+    "coupling_state": 4.440892098500626e-16,
+    "measurement_RNG": 0.0,
+    "energy_work": 1.6592283103022964e-12,
+    "cyclic_momentum": 8.264500195309665e-13,
+    "stored_scalar": 8.881784197001252e-16,
+    "mass_kinematics": 8.881784197001252e-16
+  },
+  "exact_global_minimum_mass_eigenvalue": 0.1715728752538097,
+  "globally_feasible_leading_target_maximum_torque": 0.5,
+  "generic_quartic_groups": 42,
+  "symmetry_groups": 9,
+  "generic_coarse_middle_ratio_range": [
+    15.936266584653781,
+    16.06386848954217
+  ],
+  "generic_middle_fine_ratio_range": [
+    15.984052726937131,
+    16.015955729131253
+  ],
+  "theoretical_context_displacement_noise_covariance": [
+    [
+      -1e-10,
+      -0.0
+    ],
+    [
+      -0.0,
+      -1e-10
+    ]
+  ],
+  "empirical_context_displacement_noise_covariance": [
+    [
+      -9.590681119064878e-11,
+      7.21519806948265e-12
+    ],
+    [
+      2.800608567972049e-12,
+      -1.0202382968629995e-10
+    ]
+  ],
+  "scope": [
+    "Joint-angle coordinates are measured at pulse endpoints; these are not Cartesian end-effector observations.",
+    "Shared noisy initial reading enters both context and displacement, giving covariance -R I; no unbiased noisy-context conditional response claim is valid.",
+    "Independent context reading removes shared-noise correlation but leaves noisy-context errors-in-variables; joint likelihood or warranted preparation facts still matter.",
+    "Naive inverse regression with measured response as regressor has errors-in-variables; no learner/inverse fitted in this pilot.",
+    "Rest and constant torque yield even-time expansion with generic quartic remainder; sin(q2)=0 removes quartic term and may give sixth order or exact quadratic special cases.",
+    "Symmetry/roundoff error ratios are not evidence against the expansion; the summary field includes all poses despite its generic label.",
+    "Global torque feasibility is for leading acceleration targets, not exact finite-pulse endpoint control.",
+    "The2 coupling illustrations are extra prescribed episodes beyond153rest+24energy cases; tighter24runs are numerical reintegrations, not independent learning data.",
+    "No trained mechanism, noisy response identification result, continuous-feedback controller or general robotics comparison is established."
+  ]
+}

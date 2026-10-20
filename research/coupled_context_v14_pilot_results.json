@@ -1,0 +1,7895 @@
+{
+  "meta": {
+    "status": "UNRELEASED MECHANICS AND MEASUREMENT PILOT; NO LEARNING CLAIM",
+    "seed": 22361020,
+    "python": "3.12.3",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "masses_and_lengths_evaluator_only": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "horizontal_no_gravity_or_friction": true,
+    "sensor_sd": 1e-05,
+    "continuous_solver": "DOP853 rtol1e-11 atol1e-13; comparisonrtol1e-13",
+    "known_preparation_vs_sensor": "Rest preparation supplied; ordinary contextual learner should read noisy initial positions, not hidden q0.",
+    "warning": "No learner trained, no continuous feedback control, no general robotics result; linearized target feasibility not exact endpoint guarantee."
+  },
+  "rest_pulses": [
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.403,
+        -3.141592653589793,
+        0.060000000000000005,
+        1.4695761589768223e-20
+      ],
+      "observed_initial_position": [
+        0.4000003965774279,
+        -3.1416015395621795
+      ],
+      "observed_final_position": [
+        0.40300470416757433,
+        -3.1416045101977814
+      ],
+      "displacement_evaluator_only": [
+        0.0030000000000000027,
+        0.0
+      ],
+      "leading_response_evaluator_only": [
+        0.0030000000000000005,
+        0.0
+      ],
+      "leading_error_norm": 2.168404344971009e-18,
+      "energy_minus_command_work": -1.0842021724855044e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40075000000000005,
+        -3.141592653589793,
+        0.03,
+        1.836970198721027e-21
+      ],
+      "observed_initial_position": [
+        0.3999725664720773,
+        -3.1416173081076897
+      ],
+      "observed_final_position": [
+        0.40076183512858155,
+        -3.141590331981381
+      ],
+      "displacement_evaluator_only": [
+        0.0007500000000000284,
+        0.0
+      ],
+      "leading_response_evaluator_only": [
+        0.0007500000000000001,
+        0.0
+      ],
+      "leading_error_norm": 2.8297676701871666e-17,
+      "energy_minus_command_work": -1.702197410802242e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40018750000000003,
+        -3.141592653589793,
+        0.015,
+        2.2962127484012844e-22
+      ],
+      "observed_initial_position": [
+        0.3999870310524482,
+        -3.14158939375828
+      ],
+      "observed_final_position": [
+        0.40018610466553695,
+        -3.141580591107169
+      ],
+      "displacement_evaluator_only": [
+        0.0001875000000000071,
+        0.0
+      ],
+      "leading_response_evaluator_only": [
+        0.00018750000000000003,
+        0.0
+      ],
+      "leading_error_norm": 7.074419175467916e-18,
+      "energy_minus_command_work": -4.255493527005605e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.168404344971009e-18,
+        2.8297676701871666e-17,
+        7.074419175467916e-18
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3999999955000263,
+        -3.1385926535897863,
+        -2.699973673861914e-07,
+        0.060000000000675055
+      ],
+      "observed_initial_position": [
+        0.3999937302286679,
+        -3.1416015611212464
+      ],
+      "observed_final_position": [
+        0.3999903590845315,
+        -3.138585997353294
+      ],
+      "displacement_evaluator_only": [
+        -4.4999737269790785e-09,
+        0.003000000000006775
+      ],
+      "leading_response_evaluator_only": [
+        0.0,
+        0.0030000000000000005
+      ],
+      "leading_error_norm": 4.499973726984178e-09,
+      "energy_minus_command_work": -1.1058862159352145e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.39999999992968754,
+        -3.140842653589793,
+        -8.437494856161512e-09,
+        0.030000000000001335
+      ],
+      "observed_initial_position": [
+        0.4000136836859057,
+        -3.1416050357820002
+      ],
+      "observed_final_position": [
+        0.3999979154290894,
+        -3.1408271787201762
+      ],
+      "displacement_evaluator_only": [
+        -7.031247806210672e-11,
+        0.0007500000000000284
+      ],
+      "leading_response_evaluator_only": [
+        0.0,
+        0.0007500000000000001
+      ],
+      "leading_error_norm": 7.031247806211241e-11,
+      "energy_minus_command_work": -1.2576745200831851e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39999999999890135,
+        -3.141405153589793,
+        -2.636718659397776e-10,
+        0.015
+      ],
+      "observed_initial_position": [
+        0.4000017439517181,
+        -3.141579818573164
+      ],
+      "observed_final_position": [
+        0.40000411155899923,
+        -3.1414086839948614
+      ],
+      "displacement_evaluator_only": [
+        -1.098676705169055e-12,
+        0.0001875000000000071
+      ],
+      "leading_response_evaluator_only": [
+        0.0,
+        0.00018750000000000003
+      ],
+      "leading_error_norm": 1.098676705191831e-12,
+      "energy_minus_command_work": -4.296151108473811e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        4.499973726984178e-09,
+        7.031247806211241e-11,
+        1.098676705191831e-12
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40299999550003035,
+        -3.1445926580897763,
+        0.059999730003037724,
+        -0.06000026999831234
+      ],
+      "observed_initial_position": [
+        0.39999127505149695,
+        -3.1415778827127294
+      ],
+      "observed_final_position": [
+        0.4029967981190342,
+        -3.144584235406712
+      ],
+      "displacement_evaluator_only": [
+        0.002999995500030328,
+        -0.0030000044999831665
+      ],
+      "leading_response_evaluator_only": [
+        0.0030000000000000005,
+        -0.0030000000000000005
+      ],
+      "leading_error_norm": 6.363927682497781e-09,
+      "energy_minus_command_work": 7.37257477290143e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4007499999296876,
+        -3.142342653660106,
+        0.029999991562505938,
+        -0.0300000084374967
+      ],
+      "observed_initial_position": [
+        0.3999976816578292,
+        -3.1415824698806327
+      ],
+      "observed_final_position": [
+        0.4007456976095957,
+        -3.1423399162233467
+      ],
+      "displacement_evaluator_only": [
+        0.0007499999296875504,
+        -0.000750000070312673
+      ],
+      "leading_response_evaluator_only": [
+        0.0007500000000000001,
+        -0.0007500000000000001
+      ],
+      "leading_error_norm": 9.943697783655161e-11,
+      "energy_minus_command_work": -1.2598429244281562e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4001874999989014,
+        -3.141780153590892,
+        0.01499999973632813,
+        -0.015000000263671869
+      ],
+      "observed_initial_position": [
+        0.39999664286510994,
+        -3.141594030526583
+      ],
+      "observed_final_position": [
+        0.40018022321896285,
+        -3.1417729509435954
+      ],
+      "displacement_evaluator_only": [
+        0.0001874999989013859,
+        -0.0001875000010986838
+      ],
+      "leading_response_evaluator_only": [
+        0.00018750000000000003,
+        -0.00018750000000000003
+      ],
+      "leading_error_norm": 1.5537242455827842e-12,
+      "energy_minus_command_work": -4.1931519020876884e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        6.363927682497781e-09,
+        9.943697783655161e-11,
+        1.5537242455827842e-12
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.748893571891069
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4026168879511318,
+        -2.7490918640703574,
+        0.05233988350890237,
+        -0.003947877611161612
+      ],
+      "observed_initial_position": [
+        0.39999711194044935,
+        -2.7489039335467274
+      ],
+      "observed_final_position": [
+        0.4026097960987205,
+        -2.749086597107495
+      ],
+      "displacement_evaluator_only": [
+        0.0026168879511317966,
+        -0.00019829217928846177
+      ],
+      "leading_response_evaluator_only": [
+        0.0026167812573081512,
+        -0.00019919061262199935
+      ],
+      "leading_error_norm": 9.047463881196347e-07,
+      "energy_minus_command_work": 8.023096076392733e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.748893571891069
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4006542020046992,
+        -2.7489433133858254,
+        0.02616834750941228,
+        -0.0019874135385770193
+      ],
+      "observed_initial_position": [
+        0.39998909768618524,
+        -2.7489021603025465
+      ],
+      "observed_final_position": [
+        0.40065646554421613,
+        -2.748942790581175
+      ],
+      "displacement_evaluator_only": [
+        0.0006542020046991781,
+        -4.9741494756450066e-05
+      ],
+      "leading_response_evaluator_only": [
+        0.0006541953143270378,
+        -4.979765315549984e-05
+      ],
+      "leading_error_norm": 5.6555520183347295e-08,
+      "energy_minus_command_work": -9.215718466126788e-19,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.748893571891069
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4001635492470739,
+        -2.748906017794359,
+        0.013083973236112142,
+        -0.0009953914659436077
+      ],
+      "observed_initial_position": [
+        0.4000039920651628,
+        -2.748889842490312
+      ],
+      "observed_final_position": [
+        0.400159142893086,
+        -2.748915829794211
+      ],
+      "displacement_evaluator_only": [
+        0.00016354924707390195,
+        -1.2445903290192462e-05
+      ],
+      "leading_response_evaluator_only": [
+        0.00016354882858175945,
+        -1.244941328887496e-05
+      ],
+      "leading_error_norm": 3.534858755943109e-09,
+      "energy_minus_command_work": -5.4752209710517974e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        9.047463881196347e-07,
+        5.6555520183347295e-08,
+        3.534858755943109e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.748893571891069
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3997994880604972,
+        -2.745878264724529,
+        -0.004036697281717759,
+        0.06030905422831057
+      ],
+      "observed_initial_position": [
+        0.3999961126332801,
+        -2.7488862683530875
+      ],
+      "observed_final_position": [
+        0.39980258872971236,
+        -2.74586795860671
+      ],
+      "displacement_evaluator_only": [
+        -0.0002005119395028232,
+        0.003015307166540193
+      ],
+      "leading_response_evaluator_only": [
+        -0.00019919061262199935,
+        0.00301516248255215
+      ],
+      "leading_error_norm": 1.3292246545951895e-06,
+      "energy_minus_command_work": 1.454999315475547e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.748893571891069
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.399950119839046,
+        -2.7481397722679612,
+        -0.0019985077550476456,
+        0.03015234555916299
+      ],
+      "observed_initial_position": [
+        0.39999782944972595,
+        -2.748900522713662
+      ],
+      "observed_final_position": [
+        0.3999369087492216,
+        -2.7481442205779594
+      ],
+      "displacement_evaluator_only": [
+        -4.988016095403003e-05,
+        0.0007537996231077315
+      ],
+      "leading_response_evaluator_only": [
+        -4.979765315549984e-05,
+        0.0007537906206380375
+      ],
+      "leading_error_norm": 8.299747754534151e-08,
+      "energy_minus_command_work": -1.588356182691264e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.748893571891069
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39998754543115234,
+        -2.7487051236738833,
+        -0.0009967779839723473,
+        0.015075902353727832
+      ],
+      "observed_initial_position": [
+        0.39999955325723846,
+        -2.7488829260763734
+      ],
+      "observed_final_position": [
+        0.3999780409715986,
+        -2.7487100248501037
+      ],
+      "displacement_evaluator_only": [
+        -1.2454568847686254e-05,
+        0.00018844821718566607
+      ],
+      "leading_response_evaluator_only": [
+        -1.244941328887496e-05,
+        0.0001884476551595094
+      ],
+      "leading_error_norm": 5.186102588409483e-09,
+      "energy_minus_command_work": 1.7023329360738026e-16,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.3292246545951895e-06,
+        8.299747754534151e-08,
+        5.186102588409483e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.748893571891069
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4028171625516182,
+        -2.7521064296659272,
+        0.05636704842687047,
+        -0.06422730550095554
+      ],
+      "observed_initial_position": [
+        0.4000120321058532,
+        -2.748907223178484
+      ],
+      "observed_final_position": [
+        0.4028122797996031,
+        -2.7521091975283527
+      ],
+      "displacement_evaluator_only": [
+        0.0028171625516181797,
+        -0.0032128577748582465
+      ],
+      "leading_response_evaluator_only": [
+        0.002815971869930151,
+        -0.0032143530951741495
+      ],
+      "leading_error_norm": 1.9114669051174296e-06,
+      "energy_minus_command_work": 1.4051260155412137e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.748893571891069
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4007040674227807,
+        -2.7496970665752776,
+        0.028165674625490716,
+        -0.032136045543882386
+      ],
+      "observed_initial_position": [
+        0.39999107296140873,
+        -2.7488991437784893
+      ],
+      "observed_final_position": [
+        0.4007204413707366,
+        -2.7496885416013157
+      ],
+      "displacement_evaluator_only": [
+        0.0007040674227806742,
+        -0.0008034946842085944
+      ],
+      "leading_response_evaluator_only": [
+        0.0007039929674825377,
+        -0.0008035882737935374
+      ],
+      "leading_error_norm": 1.1959348573562778e-07,
+      "energy_minus_command_work": 1.1600963245594897e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.748893571891069
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40017600289590854,
+        -2.7490944631081073,
+        0.014080603980238455,
+        -0.01607082930525256
+      ],
+      "observed_initial_position": [
+        0.39999494697058274,
+        -2.7489057890587345
+      ],
+      "observed_final_position": [
+        0.40016107881152796,
+        -2.7490959970913575
+      ],
+      "displacement_evaluator_only": [
+        0.00017600289590852247,
+        -0.0002008912170383681
+      ],
+      "leading_response_evaluator_only": [
+        0.00017599824187063443,
+        -0.00020089706844838434
+      ],
+      "leading_error_norm": 7.476567918604468e-09,
+      "energy_minus_command_work": 1.852088361148363e-16,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.9114669051174296e-06,
+        1.1959348573562778e-07,
+        7.476567918604468e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4020002600170305,
+        -2.356779271999444,
+        0.0400103940251931,
+        -0.011675543434907652
+      ],
+      "observed_initial_position": [
+        0.4000031696693212,
+        -2.3561967124809646
+      ],
+      "observed_final_position": [
+        0.4019789037840836,
+        -2.356764099007964
+      ],
+      "displacement_evaluator_only": [
+        0.002000260017030464,
+        -0.0005847818070989774
+      ],
+      "leading_response_evaluator_only": [
+        0.002,
+        -0.0005857864376269052
+      ],
+      "leading_error_norm": 1.0377337586181931e-06,
+      "energy_minus_command_work": 2.2551405187698492e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40050001626665377,
+        -2.356340874012573,
+        0.020001301124586826,
+        -0.005852841238868433
+      ],
+      "observed_initial_position": [
+        0.39999961606583406,
+        -2.3561907616420736
+      ],
+      "observed_final_position": [
+        0.40050999741948506,
+        -2.356340388574473
+      ],
+      "displacement_evaluator_only": [
+        0.0005000162666537467,
+        -0.00014638382022802432
+      ],
+      "leading_response_evaluator_only": [
+        0.0005,
+        -0.0001464466094067263
+      ],
+      "leading_error_norm": 6.486204580633804e-08,
+      "energy_minus_command_work": 2.2388774861825667e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40012500101690923,
+        -2.3562310979203764,
+        0.010000162698988967,
+        -0.002928304296831169
+      ],
+      "observed_initial_position": [
+        0.39999671597944797,
+        -2.3561854922630605
+      ],
+      "observed_final_position": [
+        0.4001052142894742,
+        -2.356242906349901
+      ],
+      "displacement_evaluator_only": [
+        0.00012500101690920973,
+        -3.660772803160128e-05
+      ],
+      "leading_response_evaluator_only": [
+        0.000125,
+        -3.661165235168158e-05
+      ],
+      "leading_error_norm": 4.053935425413383e-09,
+      "energy_minus_command_work": 1.6154612370034016e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.0377337586181931e-06,
+        6.486204580633804e-08,
+        4.053935425413383e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.39941266005980075,
+        -2.3530221604736625,
+        -0.011777866105741046,
+        0.06346177050823815
+      ],
+      "observed_initial_position": [
+        0.39999647939303073,
+        -2.3562013466890392
+      ],
+      "observed_final_position": [
+        0.39942319654532166,
+        -2.3530151592728714
+      ],
+      "displacement_evaluator_only": [
+        -0.0005873399401992718,
+        0.0031723297186823096
+      ],
+      "leading_response_evaluator_only": [
+        -0.000585786437626905,
+        0.0031715728752538105
+      ],
+      "leading_error_norm": 1.7280573536814643e-06,
+      "energy_minus_command_work": 1.9212062496443139e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.39985345629025526,
+        -2.3554015497627763,
+        -0.005865632317848282,
+        0.03171950683813696
+      ],
+      "observed_initial_position": [
+        0.4000100862861255,
+        -2.3561994113082605
+      ],
+      "observed_final_position": [
+        0.39985058661209405,
+        -2.3553971663565534
+      ],
+      "displacement_evaluator_only": [
+        -0.00014654370974476194,
+        0.0007929404295685671
+      ],
+      "leading_response_evaluator_only": [
+        -0.00014644660940672625,
+        0.0007928932188134526
+      ],
+      "leading_error_norm": 1.0796912079445301e-07,
+      "energy_minus_command_work": 7.882149793969617e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39996338227877715,
+        -2.3559962639384047,
+        -0.002929903204860955,
+        0.015858336292416654
+      ],
+      "observed_initial_position": [
+        0.40001390445281815,
+        -2.356194506128773
+      ],
+      "observed_final_position": [
+        0.39997465678454225,
+        -2.356004639249409
+      ],
+      "displacement_evaluator_only": [
+        -3.6617721222875765e-05,
+        0.00019822625394017024
+      ],
+      "leading_response_evaluator_only": [
+        -3.6611652351681563e-05,
+        0.00019822330470336316
+      ],
+      "leading_error_norm": 6.747532535383478e-09,
+      "energy_minus_command_work": -5.140473550296898e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.7280573536814643e-06,
+        1.0796912079445301e-07,
+        6.747532535383478e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4025865105242776,
+        -2.3599493426641884,
+        0.0517447508922461,
+        -0.07504697099594623
+      ],
+      "observed_initial_position": [
+        0.39998568985670857,
+        -2.3561771739078057
+      ],
+      "observed_final_position": [
+        0.40259121168995476,
+        -2.3599448641877316
+      ],
+      "displacement_evaluator_only": [
+        0.002586510524277552,
+        -0.003754852471843595
+      ],
+      "leading_response_evaluator_only": [
+        0.0025857864376269053,
+        -0.0037573593128807153
+      ],
+      "leading_error_norm": 2.6093204983358564e-06,
+      "energy_minus_command_work": 4.8138576458356397e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40064649172713135,
+        -2.3571336732060235,
+        0.025861475632441858,
+        -0.037561049793826226
+      ],
+      "observed_initial_position": [
+        0.3999914731497034,
+        -2.3561814806036256
+      ],
+      "observed_final_position": [
+        0.40063430790221494,
+        -2.3571260576325734
+      ],
+      "displacement_evaluator_only": [
+        0.0006464917271313264,
+        -0.0009391830136786794
+      ],
+      "leading_response_evaluator_only": [
+        0.0006464466094067263,
+        -0.0009393398282201788
+      ],
+      "leading_error_norm": 1.631760077301949e-07,
+      "energy_minus_command_work": -1.227316859253591e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40016161447005466,
+        -2.356429315346348,
+        0.012929383078087905,
+        -0.018785228133243966
+      ],
+      "observed_initial_position": [
+        0.3999904936832224,
+        -2.356182350660519
+      ],
+      "observed_final_position": [
+        0.40015009458082706,
+        -2.3564227497400982
+      ],
+      "displacement_evaluator_only": [
+        0.00016161447005463847,
+        -0.00023482515400319315
+      ],
+      "leading_response_evaluator_only": [
+        0.00016161165235168158,
+        -0.0002348349570550447
+      ],
+      "leading_error_norm": 1.019996448805639e-08,
+      "energy_minus_command_work": -1.1478990501190278e-16,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.6093204983358564e-06,
+        1.631760077301949e-07,
+        1.019996448805639e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.9634954084936207
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4016187185208986,
+        -1.9644936145322787,
+        0.032378484117101244,
+        -0.019945545913677393
+      ],
+      "observed_initial_position": [
+        0.39999967171137246,
+        -1.9634866362707104
+      ],
+      "observed_final_position": [
+        0.40161275514818806,
+        -1.9645026933237604
+      ],
+      "displacement_evaluator_only": [
+        0.0016187185208985655,
+        -0.0009982060386579672
+      ],
+      "leading_response_evaluator_only": [
+        0.0016185128603389077,
+        -0.0009991348036173752
+      ],
+      "leading_error_norm": 9.512626428189307e-07,
+      "energy_minus_command_work": 2.2551405187698492e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.9634954084936207
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4004046410677161,
+        -1.96374513414568,
+        0.016186156829412865,
+        -0.009986704142437845
+      ],
+      "observed_initial_position": [
+        0.40000567273293336,
+        -1.9634888307311633
+      ],
+      "observed_final_position": [
+        0.4004003231261223,
+        -1.9637636098936895
+      ],
+      "displacement_evaluator_only": [
+        0.00040464106771609387,
+        -0.0002497256520592739
+      ],
+      "leading_response_evaluator_only": [
+        0.0004046282150847269,
+        -0.0002497837009043438
+      ],
+      "leading_error_norm": 5.94546764098925e-08,
+      "energy_minus_command_work": -7.426784881525705e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.9634954084936207
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4001011578570424,
+        -1.9635578507907776,
+        0.008092692825579638,
+        -0.004995093527470325
+      ],
+      "observed_initial_position": [
+        0.39999607886588323,
+        -1.963483742782821
+      ],
+      "observed_final_position": [
+        0.40008605285275367,
+        -1.9635492554509646
+      ],
+      "displacement_evaluator_only": [
+        0.00010115785704239988,
+        -6.244229715690608e-05
+      ],
+      "leading_response_evaluator_only": [
+        0.00010115705377118173,
+        -6.244592522608595e-05
+      ],
+      "leading_error_norm": 3.7159293082379436e-09,
+      "energy_minus_command_work": 1.2176945649727822e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        9.512626428189307e-07,
+        5.94546764098925e-08,
+        3.7159293082379436e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.9634954084936207
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3989991180054116,
+        -1.9598766799300826,
+        -0.020052595981024924,
+        0.07241357422124887
+      ],
+      "observed_initial_position": [
+        0.399994141845293,
+        -1.963471468558666
+      ],
+      "observed_final_position": [
+        0.398984151948148,
+        -1.9598844244292393
+      ],
+      "displacement_evaluator_only": [
+        -0.0010008819945884206,
+        0.003618728563538065
+      ],
+      "leading_response_evaluator_only": [
+        -0.0009991348036173754,
+        0.003616782467573659
+      ],
+      "leading_error_norm": 2.6153328262345786e-06,
+      "energy_minus_command_work": 7.068998164605489e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.9634954084936207
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.3997501071283054,
+        -1.9625910914354352,
+        -0.010000082079842161,
+        0.036177542505700135
+      ],
+      "observed_initial_position": [
+        0.4000006191248349,
+        -1.9635117697847726
+      ],
+      "observed_final_position": [
+        0.39975211872046884,
+        -1.9625992172162166
+      ],
+      "displacement_evaluator_only": [
+        -0.0002498928716946347,
+        0.0009043170581854998
+      ],
+      "leading_response_evaluator_only": [
+        -0.00024978370090434385,
+        0.0009041956168934147
+      ],
+      "leading_error_norm": 1.632980369631622e-07,
+      "energy_minus_command_work": -1.1275702593849246e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.9634954084936207
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39993754725204494,
+        -1.9632693520022766,
+        -0.004996765666591003,
+        0.018085126356095695
+      ],
+      "observed_initial_position": [
+        0.4000149577060486,
+        -1.9634815230244795
+      ],
+      "observed_final_position": [
+        0.39993671347863424,
+        -1.9632602313343896
+      ],
+      "displacement_evaluator_only": [
+        -6.245274795507738e-05,
+        0.00022605649134410655
+      ],
+      "leading_response_evaluator_only": [
+        -6.244592522608596e-05,
+        0.00022604890422335368
+      ],
+      "leading_error_norm": 1.0203628384499895e-08,
+      "energy_minus_command_work": -2.0057740190981832e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.6153328262345786e-06,
+        1.632980369631622e-07,
+        1.0203628384499895e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.9634954084936207
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.402617043268243,
+        -1.9681069868174725,
+        0.05232888738817879,
+        -0.09214495181178962
+      ],
+      "observed_initial_position": [
+        0.40001699571213445,
+        -1.9635066693394652
+      ],
+      "observed_final_position": [
+        0.40262139791196033,
+        -1.9681185084416621
+      ],
+      "displacement_evaluator_only": [
+        0.002617043268242969,
+        -0.004611578323851839
+      ],
+      "leading_response_evaluator_only": [
+        0.002617647663956283,
+        -0.004615917271191034
+      ],
+      "leading_error_norm": 4.3808398955651735e-06,
+      "energy_minus_command_work": 1.5005358067199381e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.9634954084936207
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40065437388333,
+        -1.9646491162414448,
+        0.026173437469344318,
+        -0.04613745226730276
+      ],
+      "observed_initial_position": [
+        0.40000037156721047,
+        -1.9634872809970345
+      ],
+      "observed_final_position": [
+        0.4006571051980915,
+        -1.9646481614876117
+      ],
+      "displacement_evaluator_only": [
+        0.0006543738833299506,
+        -0.0011537077478240843
+      ],
+      "leading_response_evaluator_only": [
+        0.0006544119159890708,
+        -0.0011539793177977585
+      ],
+      "leading_error_norm": 2.7422022857760655e-07,
+      "energy_minus_command_work": -1.5178830414797062e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.9634954084936207
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4001636005979209,
+        -1.9637838863439048,
+        0.013087857455188706,
+        -0.02307686985071197
+      ],
+      "observed_initial_position": [
+        0.39998566250711437,
+        -1.96350104513217
+      ],
+      "observed_final_position": [
+        0.4001519805661972,
+        -1.9637728334075772
+      ],
+      "displacement_evaluator_only": [
+        0.00016360059792086545,
+        -0.0002884778502840746
+      ],
+      "leading_response_evaluator_only": [
+        0.0001636029789972677,
+        -0.0002884948294494396
+      ],
+      "leading_error_norm": 1.714530785161064e-08,
+      "energy_minus_command_work": 7.789992609308349e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        4.3808398955651735e-06,
+        2.7422022857760655e-07,
+        1.714530785161064e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4015000003371386,
+        -1.5722952022442345,
+        0.030000020221090103,
+        -0.029955026947029773
+      ],
+      "observed_initial_position": [
+        0.40001852022832746,
+        -1.5707961203917893
+      ],
+      "observed_final_position": [
+        0.40149997507091617,
+        -1.5722852869381279
+      ],
+      "displacement_evaluator_only": [
+        0.0015000003371385962,
+        -0.0014988754493379108
+      ],
+      "leading_response_evaluator_only": [
+        0.0015000000000000002,
+        -0.0015
+      ],
+      "leading_error_norm": 1.124550712626015e-06,
+      "energy_minus_command_work": -9.64939933512099e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4003750000052721,
+        -1.5711712564894253,
+        0.015000000632586538,
+        -0.014994375843335798
+      ],
+      "observed_initial_position": [
+        0.39999899946442935,
+        -1.5707992203728012
+      ],
+      "observed_final_position": [
+        0.4003806318264534,
+        -1.5711634197552078
+      ],
+      "displacement_evaluator_only": [
+        0.0003750000052720748,
+        -0.00037492969452879166
+      ],
+      "leading_response_evaluator_only": [
+        0.00037500000000000006,
+        -0.000375
+      ],
+      "leading_error_norm": 7.030547140602213e-08,
+      "energy_minus_command_work": -2.962582436316641e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40009375000008246,
+        -1.5708900724004753,
+        0.007500000019773624,
+        -0.007499296901363952
+      ],
+      "observed_initial_position": [
+        0.3999898517684003,
+        -1.570789734532412
+      ],
+      "observed_final_position": [
+        0.40010305764921716,
+        -1.5708726858029827
+      ],
+      "displacement_evaluator_only": [
+        9.375000008243761e-05,
+        -9.374560557873224e-05
+      ],
+      "leading_response_evaluator_only": [
+        9.375000000000002e-05,
+        -9.375e-05
+      ],
+      "leading_error_norm": 4.394421268536772e-09,
+      "energy_minus_command_work": -2.740998617314916e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.124550712626015e-06,
+        7.030547140602213e-08,
+        4.394421268536772e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.39849737135110613,
+        -1.5662918158572143,
+        -0.030105219162024334,
+        0.09018065676583967
+      ],
+      "observed_initial_position": [
+        0.39999705096996374,
+        -1.5708069191831715
+      ],
+      "observed_final_position": [
+        0.398518925608813,
+        -1.5662963057449464
+      ],
+      "displacement_evaluator_only": [
+        -0.001502628648893889,
+        0.004504510937682227
+      ],
+      "leading_response_evaluator_only": [
+        -0.0015000000000000002,
+        0.0045000000000000005
+      ],
+      "leading_error_norm": 5.220953340173687e-06,
+      "energy_minus_command_work": 5.117434254131581e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.39962483588061964,
+        -1.5696710453742906,
+        -0.015013131827422779,
+        0.04502252047664945
+      ],
+      "observed_initial_position": [
+        0.4000083581737917,
+        -1.5708113624580136
+      ],
+      "observed_final_position": [
+        0.3996279238653343,
+        -1.569663921080057
+      ],
+      "displacement_evaluator_only": [
+        -0.00037516411938037786,
+        0.0011252814206059725
+      ],
+      "leading_response_evaluator_only": [
+        -0.00037500000000000006,
+        0.0011250000000000001
+      ],
+      "leading_error_norm": 3.257801842982941e-07,
+      "energy_minus_command_work": 1.3660947373317356e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39990623974520556,
+        -1.570515059214107,
+        -0.007501640838190285,
+        0.022502813139526984
+      ],
+      "observed_initial_position": [
+        0.3999995006174917,
+        -1.5708056631508545
+      ],
+      "observed_final_position": [
+        0.3999122938159857,
+        -1.5705182637291437
+      ],
+      "displacement_evaluator_only": [
+        -9.37602547944616e-05,
+        0.00028126758078950154
+      ],
+      "leading_response_evaluator_only": [
+        -9.375000000000002e-05,
+        0.00028125000000000003
+      ],
+      "leading_error_norm": 2.0353008842562466e-08,
+      "energy_minus_command_work": 3.9979955110402976e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        5.220953340173687e-06,
+        3.257801842982941e-07,
+        2.0353008842562466e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4029970128644309,
+        -1.576787353405659,
+        0.059880771157006144,
+        -0.11964159486696967
+      ],
+      "observed_initial_position": [
+        0.4000221717441479,
+        -1.5708103395271351
+      ],
+      "observed_final_position": [
+        0.4029983978285477,
+        -1.5767896654981932
+      ],
+      "displacement_evaluator_only": [
+        0.0029970128644308813,
+        -0.00599102661076234
+      ],
+      "leading_response_evaluator_only": [
+        0.0030000000000000005,
+        -0.006
+      ],
+      "leading_error_norm": 9.457520463570326e-06,
+      "energy_minus_command_work": 7.389922007661198e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40074981270142324,
+        -1.5722957647117346,
+        0.029985024165215493,
+        -0.05995505000659945
+      ],
+      "observed_initial_position": [
+        0.39999427273780247,
+        -1.5708037191154274
+      ],
+      "observed_final_position": [
+        0.4007676213739434,
+        -1.572272297428977
+      ],
+      "displacement_evaluator_only": [
+        0.0007498127014232137,
+        -0.0014994379168380423
+      ],
+      "leading_response_evaluator_only": [
+        0.0007500000000000001,
+        -0.0015
+      ],
+      "leading_error_norm": 5.924679213448229e-07,
+      "energy_minus_command_work": -8.890457814381136e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40018748828439893,
+        -1.571171291645164,
+        0.014998125755685137,
+        -0.029994376564016045
+      ],
+      "observed_initial_position": [
+        0.4000000232680854,
+        -1.5708074334343909
+      ],
+      "observed_final_position": [
+        0.4001924241188235,
+        -1.5711626199264412
+      ],
+      "displacement_evaluator_only": [
+        0.00018748828439890675,
+        -0.00037496485026733417
+      ],
+      "leading_response_evaluator_only": [
+        0.00018750000000000003,
+        -0.000375
+      ],
+      "leading_error_norm": 3.705076268387433e-08,
+      "energy_minus_command_work": -1.0966704974690877e-16,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        9.457520463570326e-06,
+        5.924679213448229e-07,
+        3.705076268387433e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.1780972450961724
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4016180533198332,
+        -1.180333136707854,
+        0.032351896535136836,
+        -0.044677885950598885
+      ],
+      "observed_initial_position": [
+        0.39999178772801197,
+        -1.1781048058245052
+      ],
+      "observed_final_position": [
+        0.4016137592443923,
+        -1.1803215752477865
+      ],
+      "displacement_evaluator_only": [
+        0.0016180533198331681,
+        -0.002235891611681584
+      ],
+      "leading_response_evaluator_only": [
+        0.0016185128603389079,
+        -0.002237890917060441
+      ],
+      "leading_error_norm": 2.0514383915537817e-06,
+      "energy_minus_command_work": -7.914675859144182e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.1780972450961724
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4004045994446617,
+        -1.1786565927754133,
+        0.016182827625342136,
+        -0.022368906415832737
+      ],
+      "observed_initial_position": [
+        0.3999952232700777,
+        -1.1781042671747484
+      ],
+      "observed_final_position": [
+        0.40040357456991593,
+        -1.1786643322500174
+      ],
+      "displacement_evaluator_only": [
+        0.00040459944466170183,
+        -0.0005593476792409291
+      ],
+      "leading_response_evaluator_only": [
+        0.00040462821508472697,
+        -0.0005594727292651102
+      ],
+      "leading_error_norm": 1.283169738917639e-07,
+      "energy_minus_command_work": 3.06287113727155e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.1780972450961724
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40010115525485107,
+        -1.1782371054614003,
+        0.00809227649497842,
+        -0.011188203890149198
+      ],
+      "observed_initial_position": [
+        0.3999941420981649,
+        -1.178096398526438
+      ],
+      "observed_final_position": [
+        0.40009550963493146,
+        -1.1782414408418076
+      ],
+      "displacement_evaluator_only": [
+        0.00010115525485104859,
+        -0.00013986036522783962
+      ],
+      "leading_response_evaluator_only": [
+        0.00010115705377118174,
+        -0.00013986818231627755
+      ],
+      "leading_error_norm": 8.021407937003814e-09,
+      "energy_minus_command_work": 9.80525339741578e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.0514383915537817e-06,
+        1.283169738917639e-07,
+        8.021407937003814e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.1780972450961724
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.397756919912909,
+        -1.171992116796805,
+        -0.04496566403805957,
+        0.12231995025016462
+      ],
+      "observed_initial_position": [
+        0.39999501794742726,
+        -1.1780999594295996
+      ],
+      "observed_final_position": [
+        0.3977422916389453,
+        -1.1719791450371402
+      ],
+      "displacement_evaluator_only": [
+        -0.0022430800870910095,
+        0.0061051282993673794
+      ],
+      "leading_response_evaluator_only": [
+        -0.002237890917060441,
+        0.00609429469445979
+      ],
+      "leading_error_norm": 1.2012263770825861e-05,
+      "energy_minus_command_work": 4.666406150377611e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.1780972450961724
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.39944020359961563,
+        -1.1765729959874445,
+        -0.022404811531569056,
+        0.06099700390376612
+      ],
+      "observed_initial_position": [
+        0.39999694064799696,
+        -1.1780824301202661
+      ],
+      "observed_final_position": [
+        0.3994434692120142,
+        -1.176579027626261
+      ],
+      "displacement_evaluator_only": [
+        -0.0005597964003843936,
+        0.0015242491087279486
+      ],
+      "leading_response_evaluator_only": [
+        -0.0005594727292651102,
+        0.0015235736736149475
+      ],
+      "leading_error_norm": 7.489830340755055e-07,
+      "energy_minus_command_work": 2.1033522146218786e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.1780972450961724
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.3998601115983942,
+        -1.177716309489016,
+        -0.011192689942270878,
+        0.030478224364107645
+      ],
+      "observed_initial_position": [
+        0.3999838973971179,
+        -1.1780967708204326
+      ],
+      "observed_final_position": [
+        0.399887394292813,
+        -1.1777273458095043
+      ],
+      "displacement_evaluator_only": [
+        -0.0001398884016058366,
+        0.0003809356071564629
+      ],
+      "leading_response_evaluator_only": [
+        -0.00013986818231627755,
+        0.0003808934184037369
+      ],
+      "leading_error_norm": 4.6783656621199915e-08,
+      "energy_minus_command_work": -5.664956351236761e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.2012263770825861e-05,
+        7.489830340755055e-07,
+        4.6783656621199915e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.1780972450961724
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40384805054712913,
+        -1.186408390077394,
+        0.07679474726362129,
+        -0.1658039289524804
+      ],
+      "observed_initial_position": [
+        0.39999136875807617,
+        -1.1780967846195758
+      ],
+      "observed_final_position": [
+        0.40384437311522825,
+        -1.186410034344424
+      ],
+      "displacement_evaluator_only": [
+        0.0038480505471291115,
+        -0.008311144981221652
+      ],
+      "leading_response_evaluator_only": [
+        0.003856403777399349,
+        -0.008332185611520231
+      ],
+      "leading_error_norm": 2.2638122256695364e-05,
+      "energy_minus_command_work": 6.401129626354418e-16,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.1780972450961724
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40096357698433704,
+        -1.1801789721282574,
+        0.03852214616079865,
+        -0.08321636439572631
+      ],
+      "observed_initial_position": [
+        0.3999899733043347,
+        -1.1780896072838012
+      ],
+      "observed_final_position": [
+        0.4009728787270745,
+        -1.1801848636910912
+      ],
+      "displacement_evaluator_only": [
+        0.0009635769843370223,
+        -0.002081727032084979
+      ],
+      "leading_response_evaluator_only": [
+        0.0009641009443498372,
+        -0.0020830464028800577
+      ],
+      "leading_error_norm": 1.4196032508893692e-06,
+      "energy_minus_command_work": -3.404394821604484e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -1.1780972450961724
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4002409924590463,
+        -1.178617924168258,
+        0.01927677534877628,
+        -0.041647725289854894
+      ],
+      "observed_initial_position": [
+        0.40000115893336163,
+        -1.1781076253100933
+      ],
+      "observed_final_position": [
+        0.4002291676717387,
+        -1.1786045491813744
+      ],
+      "displacement_evaluator_only": [
+        0.0002409924590462964,
+        -0.0005206790720855281
+      ],
+      "leading_response_evaluator_only": [
+        0.0002410252360874593,
+        -0.0005207616007200144
+      ],
+      "leading_error_norm": 8.879926766349144e-08,
+      "energy_minus_command_work": 9.86623976961809e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.2638122256695364e-05,
+        1.4196032508893692e-06,
+        8.879926766349144e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40199848545030564,
+        -0.7888080450959621,
+        0.03993947554737296,
+        -0.06811111851972838
+      ],
+      "observed_initial_position": [
+        0.3999974033489441,
+        -0.7854054335236009
+      ],
+      "observed_final_position": [
+        0.4020002871387278,
+        -0.7888234700751007
+      ],
+      "displacement_evaluator_only": [
+        0.0019984854503056204,
+        -0.0034098816985138614
+      ],
+      "leading_response_evaluator_only": [
+        0.0020000000000000005,
+        -0.0034142135623730953
+      ],
+      "leading_error_norm": 4.5889982863021175e-06,
+      "energy_minus_command_work": -3.230922474006803e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4004999052057328,
+        -0.7862514457608867,
+        0.019992418258279403,
+        -0.034120457261947505
+      ],
+      "observed_initial_position": [
+        0.399998838210984,
+        -0.7853959131193646
+      ],
+      "observed_final_position": [
+        0.4004988249319344,
+        -0.7862565194477562
+      ],
+      "displacement_evaluator_only": [
+        0.0004999052057327869,
+        -0.0008532823634384012
+      ],
+      "leading_response_evaluator_only": [
+        0.0005000000000000001,
+        -0.0008535533905932738
+      ],
+      "leading_error_norm": 2.871265779666214e-07,
+      "energy_minus_command_work": -8.944667923005412e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40012499407324914,
+        -0.7856115348014333,
+        0.009999051776105104,
+        -0.01706835694485573
+      ],
+      "observed_initial_position": [
+        0.40000522900093777,
+        -0.785386223246564
+      ],
+      "observed_final_position": [
+        0.4001185893320328,
+        -0.7856120325377401
+      ],
+      "displacement_evaluator_only": [
+        0.00012499407324911838,
+        -0.00021337140398502985
+      ],
+      "leading_response_evaluator_only": [
+        0.00012500000000000003,
+        -0.00021338834764831846
+      ],
+      "leading_error_norm": 1.7950323162851324e-08,
+      "energy_minus_command_work": -2.3351004289906552e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        4.5889982863021175e-06,
+        2.871265779666214e-07,
+        1.7950323162851324e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3965744155675998,
+        -0.7765439940671653,
+        -0.06873989601477112,
+        0.1776002018825517
+      ],
+      "observed_initial_position": [
+        0.40000447160025643,
+        -0.785374439826171
+      ],
+      "observed_final_position": [
+        0.3965690643165398,
+        -0.7765507744044894
+      ],
+      "displacement_evaluator_only": [
+        -0.0034255844324002083,
+        0.008854169330282935
+      ],
+      "leading_response_evaluator_only": [
+        -0.0034142135623730953,
+        0.00882842712474619
+      ],
+      "leading_error_norm": 2.8141745345118308e-05,
+      "energy_minus_command_work": -1.2793585635328952e-15,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.3991457377799222,
+        -0.7831894523440135,
+        -0.03419886662599866,
+        0.08841267450980476
+      ],
+      "observed_initial_position": [
+        0.4000022033722426,
+        -0.7853883880394026
+      ],
+      "observed_final_position": [
+        0.399148284777929,
+        -0.7831845424461417
+      ],
+      "displacement_evaluator_only": [
+        -0.0008542622200778394,
+        0.0022087110534347865
+      ],
+      "leading_response_evaluator_only": [
+        -0.0008535533905932738,
+        0.0022071067811865477
+      ],
+      "leading_error_norm": 1.753889587362518e-06,
+      "energy_minus_command_work": -1.3444106938820255e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39978656737938145,
+        -0.7848462865071683,
+        -0.017078152256862173,
+        0.04415816874145629
+      ],
+      "observed_initial_position": [
+        0.4000047500481531,
+        -0.785402697197421
+      ],
+      "observed_final_position": [
+        0.3997997359322385,
+        -0.784841950418889
+      ],
+      "displacement_evaluator_only": [
+        -0.00021343262061856993,
+        0.0005518768902800231
+      ],
+      "leading_response_evaluator_only": [
+        -0.00021338834764831846,
+        0.0005517766952966369
+      ],
+      "leading_error_norm": 1.095405431365048e-07,
+      "energy_minus_command_work": -6.505213034913027e-19,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.8141745345118308e-05,
+        1.753889587362518e-06,
+        1.095405431365048e-07
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4053934914751335,
+        -0.7975907826751909,
+        0.10745762977630724,
+        -0.2428572691021184
+      ],
+      "observed_initial_position": [
+        0.3999966221629707,
+        -0.7853971960830657
+      ],
+      "observed_final_position": [
+        0.40538835315747734,
+        -0.7975929728021486
+      ],
+      "displacement_evaluator_only": [
+        0.005393491475133461,
+        -0.012192619277742622
+      ],
+      "leading_response_evaluator_only": [
+        0.005414213562373095,
+        -0.012242640687119286
+      ],
+      "leading_error_norm": 5.414375583199597e-05,
+      "energy_minus_command_work": -3.174543961037557e-16,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4013522529976379,
+        -0.7884556847624308,
+        0.05403817445527738,
+        -0.12217546882909773
+      ],
+      "observed_initial_position": [
+        0.39999554682816624,
+        -0.7853971823841897
+      ],
+      "observed_final_position": [
+        0.40134033264530755,
+        -0.7884550336414418
+      ],
+      "displacement_evaluator_only": [
+        0.0013522529976378594,
+        -0.003057521364982496
+      ],
+      "leading_response_evaluator_only": [
+        0.0013535533905932738,
+        -0.0030606601717798215
+      ],
+      "leading_error_norm": 3.3975182044290743e-06,
+      "energy_minus_command_work": -3.903127820947816e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40033830699071454,
+        -0.7861631320697774,
+        0.02705805289986347,
+        -0.06118178934406187
+      ],
+      "observed_initial_position": [
+        0.3999787540795833,
+        -0.7853985731307942
+      ],
+      "observed_final_position": [
+        0.4003239922706049,
+        -0.7861652218032564
+      ],
+      "displacement_evaluator_only": [
+        0.00033830699071452086,
+        -0.0007649686723291138
+      ],
+      "leading_response_evaluator_only": [
+        0.00033838834764831846,
+        -0.0007651650429449554
+      ],
+      "leading_error_norm": 2.1255674405424136e-07,
+      "energy_minus_command_work": 1.5070410197548512e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        5.414375583199597e-05,
+        3.3975182044290743e-06,
+        2.1255674405424136e-07
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4026140712115078,
+        -0.39772652381548146,
+        0.05222719261521118,
+        -0.10041014273310761
+      ],
+      "observed_initial_position": [
+        0.39998095807660733,
+        -0.3927070308366352
+      ],
+      "observed_final_position": [
+        0.4026278383394649,
+        -0.3977270434851073
+      ],
+      "displacement_evaluator_only": [
+        0.0026140712115077513,
+        -0.005027442116757319
+      ],
+      "leading_response_evaluator_only": [
+        0.0026167812573081504,
+        -0.005034371901994302
+      ],
+      "leading_error_norm": 7.440851542059606e-06,
+      "energy_minus_command_work": -4.542807102714264e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4006540260101567,
+        -0.3939572418104014,
+        0.026154267233592057,
+        -0.050309086554017446
+      ],
+      "observed_initial_position": [
+        0.39998726359218834,
+        -0.3926935119553025
+      ],
+      "observed_final_position": [
+        0.40065588034106003,
+        -0.39394818552115635
+      ],
+      "displacement_evaluator_only": [
+        0.000654026010156683,
+        -0.0012581601116772867
+      ],
+      "leading_response_evaluator_only": [
+        0.0006541953143270376,
+        -0.0012585929754985756
+      ],
+      "leading_error_norm": 4.6479564313820306e-07,
+      "energy_minus_command_work": -1.4474099002681484e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40016353824825673,
+        -0.39301370289256443,
+        0.013082213402733281,
+        -0.025167531398575124
+      ],
+      "observed_initial_position": [
+        0.3999773996178825,
+        -0.39268450585458525
+      ],
+      "observed_final_position": [
+        0.4001545400413776,
+        -0.3930170953361716
+      ],
+      "displacement_evaluator_only": [
+        0.0001635382482567116,
+        -0.0003146211938402921
+      ],
+      "leading_response_evaluator_only": [
+        0.0001635488285817594,
+        -0.0003146482438746439
+      ],
+      "leading_error_norm": 2.9045613034529166e-08,
+      "energy_minus_command_work": -3.97089045672816e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        7.440851542059606e-06,
+        4.6479564313820306e-07,
+        2.9045613034529166e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3949478672972661,
+        -0.3799720879426825,
+        -0.10139702309075228,
+        0.25536745730690313
+      ],
+      "observed_initial_position": [
+        0.39999494947353326,
+        -0.3926989115414365
+      ],
+      "observed_final_position": [
+        0.39494486109528676,
+        -0.3799927300074975
+      ],
+      "displacement_evaluator_only": [
+        -0.005052132702733914,
+        0.012726993756041638
+      ],
+      "leading_response_evaluator_only": [
+        -0.005034371901994302,
+        0.012685525061296757
+      ],
+      "leading_error_norm": 4.5112068083344156e-05,
+      "energy_minus_command_work": -6.522560269672795e-16,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.398740295060487,
+        -0.38952510460855,
+        -0.050432651562904204,
+        0.12706286507009446
+      ],
+      "observed_initial_position": [
+        0.3999917074129054,
+        -0.3927197401211669
+      ],
+      "observed_final_position": [
+        0.3987335334530824,
+        -0.38952382068985564
+      ],
+      "displacement_evaluator_only": [
+        -0.0012597049395129956,
+        0.0031739770901741404
+      ],
+      "leading_response_evaluator_only": [
+        -0.0012585929754985756,
+        0.0031713812653241893
+      ],
+      "leading_error_norm": 2.823963636626506e-06,
+      "energy_minus_command_work": -1.0234868508263162e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.3996852822298451,
+        -0.39190607408359684,
+        -0.025182982961303033,
+        0.06345359153788746
+      ],
+      "observed_initial_position": [
+        0.4000052392953403,
+        -0.3927027700194691
+      ],
+      "observed_final_position": [
+        0.39967362149181446,
+        -0.3919094449093178
+      ],
+      "displacement_evaluator_only": [
+        -0.0003147177701549042,
+        0.0007930076151272947
+      ],
+      "leading_response_evaluator_only": [
+        -0.0003146482438746439,
+        0.0007928453163310473
+      ],
+      "leading_error_norm": 1.7656387770485354e-07,
+      "energy_minus_command_work": -7.047314121155779e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        4.5112068083344156e-05,
+        2.823963636626506e-06,
+        1.7656387770485354e-07
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40761687509540656,
+        -0.410336880873731,
+        0.15165037155284086,
+        -0.3511103506215616
+      ],
+      "observed_initial_position": [
+        0.4000016310772807,
+        -0.39270408437264664
+      ],
+      "observed_final_position": [
+        0.4076111960197701,
+        -0.4103314816926356
+      ],
+      "displacement_evaluator_only": [
+        0.007616875095406539,
+        -0.017637799175006852
+      ],
+      "leading_response_evaluator_only": [
+        0.007651153159302453,
+        -0.01771989696329106
+      ],
+      "leading_error_norm": 8.896646843396163e-05,
+      "energy_minus_command_work": -1.1973061431191923e-14,
+      "nfev": 50
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40191064984413893,
+        -0.39712393405490837,
+        0.07634040004499341,
+        -0.17678908762249818
+      ],
+      "observed_initial_position": [
+        0.3999881240904742,
+        -0.39269027093256986
+      ],
+      "observed_final_position": [
+        0.4019172009568632,
+        -0.39712319738768354
+      ],
+      "displacement_evaluator_only": [
+        0.001910649844138912,
+        -0.004424852356184228
+      ],
+      "leading_response_evaluator_only": [
+        0.0019127882898256133,
+        -0.004429974240822765
+      ],
+      "leading_error_norm": 5.550374059958025e-06,
+      "energy_minus_command_work": -9.150666335777657e-17,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        -0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4004780634861253,
+        -0.39380625529737534,
+        0.03823439018215127,
+        -0.08854828673622782
+      ],
+      "observed_initial_position": [
+        0.39998437324302594,
+        -0.39269773001600183
+      ],
+      "observed_final_position": [
+        0.4004835497833543,
+        -0.39381558491953117
+      ],
+      "displacement_evaluator_only": [
+        0.0004780634861252797,
+        -0.001107173598651201
+      ],
+      "leading_response_evaluator_only": [
+        0.0004781970724564033,
+        -0.0011074935602056913
+      ],
+      "leading_error_norm": 3.4672857426939327e-07,
+      "energy_minus_command_work": -2.8406096919120216e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        8.896646843396163e-05,
+        5.550374059958025e-06,
+        3.4672857426939327e-07
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.0
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40299997840070556,
+        -0.005999946001705549,
+        0.05999870407055578,
+        -0.11999676017055777
+      ],
+      "observed_initial_position": [
+        0.4000016776880429,
+        2.9452906359873105e-06
+      ],
+      "observed_final_position": [
+        0.40298714195769675,
+        -0.005988235835860222
+      ],
+      "displacement_evaluator_only": [
+        0.0029999784007055386,
+        -0.005999946001705549
+      ],
+      "leading_response_evaluator_only": [
+        0.003000000000000001,
+        -0.006000000000000002
+      ],
+      "leading_error_norm": 5.815793432635891e-08,
+      "energy_minus_command_work": 2.6020852139652106e-17,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.0
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4007499996625007,
+        -0.0014999991562516684,
+        0.02999995950013784,
+        -0.05999989875033319
+      ],
+      "observed_initial_position": [
+        0.4000076640739029,
+        9.887298890148753e-06
+      ],
+      "observed_final_position": [
+        0.40075856496041895,
+        -0.0014892899122728217
+      ],
+      "displacement_evaluator_only": [
+        0.0007499996625006666,
+        -0.0014999991562516684
+      ],
+      "leading_response_evaluator_only": [
+        0.0007500000000000002,
+        -0.0015000000000000005
+      ],
+      "leading_error_norm": 9.087447650599094e-10,
+      "energy_minus_command_work": 1.4365678785432934e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.0
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4001874999947266,
+        -0.00037499998681641005,
+        0.014999998734375318,
+        -0.029999996835938247
+      ],
+      "observed_initial_position": [
+        0.39999358883816394,
+        -1.7405258564990738e-06
+      ],
+      "observed_final_position": [
+        0.40018591438823814,
+        -0.00037799476682996106
+      ],
+      "displacement_evaluator_only": [
+        0.00018749999472655876,
+        -0.00037499998681641005
+      ],
+      "leading_response_evaluator_only": [
+        0.00018750000000000006,
+        -0.0003750000000000001
+      ],
+      "leading_error_norm": 1.4199163012622337e-11,
+      "energy_minus_command_work": 3.333921680392926e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        5.815793432635891e-08,
+        9.087447650599094e-10,
+        1.4199163012622337e-11
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.0
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3940003464327514,
+        0.014999190159897093,
+        -0.11997921672416684,
+        0.29995141598804964
+      ],
+      "observed_initial_position": [
+        0.40000164009003136,
+        -1.9790723761303376e-06
+      ],
+      "observed_final_position": [
+        0.3940088148062293,
+        0.014998283546322124
+      ],
+      "displacement_evaluator_only": [
+        -0.005999653567248631,
+        0.014999190159897093
+      ],
+      "leading_response_evaluator_only": [
+        -0.006000000000000002,
+        0.015000000000000005
+      ],
+      "leading_error_norm": 8.808272495255692e-07,
+      "energy_minus_command_work": 5.516420653606247e-16,
+      "nfev": 50
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.0
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.3985000054139969,
+        0.0037499873439062006,
+        -0.059999350325637905,
+        0.14999848128123816
+      ],
+      "observed_initial_position": [
+        0.39999933421310135,
+        1.4670771649526774e-05
+      ],
+      "observed_final_position": [
+        0.39850420927834895,
+        0.0037524403597770663
+      ],
+      "displacement_evaluator_only": [
+        -0.0014999945860031394,
+        0.0037499873439062006
+      ],
+      "leading_response_evaluator_only": [
+        -0.0015000000000000005,
+        0.003750000000000001
+      ],
+      "leading_error_norm": 1.3765466657564473e-08,
+      "energy_minus_command_work": 6.071532165918825e-18,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.0
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39962500008459473,
+        0.0009374998022462426,
+        -0.029999979697291165,
+        0.0749999525391233
+      ],
+      "observed_initial_position": [
+        0.3999935019895703,
+        1.5642936374137706e-05
+      ],
+      "observed_final_position": [
+        0.3996308456387856,
+        0.0009328289734131156
+      ],
+      "displacement_evaluator_only": [
+        -0.0003749999154052941,
+        0.0009374998022462426
+      ],
+      "leading_response_evaluator_only": [
+        -0.0003750000000000001,
+        0.0009375000000000003
+      ],
+      "leading_error_norm": 2.1508791917173184e-10,
+      "energy_minus_command_work": -9.75781955236954e-19,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        8.808272495255692e-07,
+        1.3765466657564473e-08,
+        2.1508791917173184e-10
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.0
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4089990616622104,
+        -0.02099776436527123,
+        0.17994371421350572,
+        -0.41986589650909345
+      ],
+      "observed_initial_position": [
+        0.40000076113281474,
+        -1.4400313864280383e-06
+      ],
+      "observed_final_position": [
+        0.4090084081205467,
+        -0.021003317320198563
+      ],
+      "displacement_evaluator_only": [
+        0.008999061662210373,
+        -0.02099776436527123
+      ],
+      "leading_response_evaluator_only": [
+        0.009000000000000003,
+        -0.021000000000000008
+      ],
+      "leading_error_norm": 2.4245701573627576e-06,
+      "energy_minus_command_work": 3.812922200197022e-15,
+      "nfev": 50
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.0
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4022499853331664,
+        -0.005249965055532908,
+        0.08999824000827915,
+        -0.20999580673158194
+      ],
+      "observed_initial_position": [
+        0.4000014263434261,
+        9.734361071508059e-06
+      ],
+      "observed_final_position": [
+        0.4022480142309351,
+        -0.005254088272341993
+      ],
+      "displacement_evaluator_only": [
+        0.0022499853331663933,
+        -0.005249965055532908
+      ],
+      "leading_response_evaluator_only": [
+        0.0022500000000000007,
+        -0.005250000000000002
+      ],
+      "leading_error_norm": 3.78976488527986e-08,
+      "energy_minus_command_work": 4.0766001685454967e-17,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.0
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40056249977082553,
+        -0.001312499453980325,
+        0.044999944998185354,
+        -0.10499986895540897
+      ],
+      "observed_initial_position": [
+        0.4000021449322327,
+        2.0423975663287443e-05
+      ],
+      "observed_final_position": [
+        0.4005504337122238,
+        -0.001313306065095432
+      ],
+      "displacement_evaluator_only": [
+        0.0005624997708255086,
+        -0.001312499453980325
+      ],
+      "leading_response_evaluator_only": [
+        0.0005625000000000002,
+        -0.0013125000000000005
+      ],
+      "leading_error_norm": 5.921641947514132e-10,
+      "energy_minus_command_work": 2.710505431213761e-17,
+      "nfev": 38,
+      "three_duration_error_norms": [
+        2.4245701573627576e-06,
+        3.78976488527986e-08,
+        5.921641947514132e-10
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40261948803399356,
+        0.38765779088699526,
+        0.05244386151305629,
+        -0.10096408077519177
+      ],
+      "observed_initial_position": [
+        0.3999979763546069,
+        0.39269931750691883
+      ],
+      "observed_final_position": [
+        0.40263261380176535,
+        0.38765285069653593
+      ],
+      "displacement_evaluator_only": [
+        0.0026194880339935334,
+        -0.005041290811728882
+      ],
+      "leading_response_evaluator_only": [
+        0.0026167812573081504,
+        -0.005034371901994302
+      ],
+      "leading_error_norm": 7.429532417305927e-06,
+      "energy_minus_command_work": -4.393187202911264e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40065436456742376,
+        0.391440056029319,
+        0.026181351783695336,
+        -0.05037833109602417
+      ],
+      "observed_initial_position": [
+        0.3999754364981693,
+        0.3926905635825081
+      ],
+      "observed_final_position": [
+        0.40064387439210675,
+        0.39143939149030343
+      ],
+      "displacement_evaluator_only": [
+        0.0006543645674237375,
+        -0.0012590256694051671
+      ],
+      "leading_response_evaluator_only": [
+        0.0006541953143270376,
+        -0.0012585929754985756
+      ],
+      "leading_error_norm": 4.6461879809578235e-07,
+      "energy_minus_command_work": -2.222614453595284e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4001635594081088,
+        0.39238440640747,
+        0.013085598978823314,
+        -0.025176186984191173
+      ],
+      "observed_initial_position": [
+        0.4000002973678608,
+        0.39271062871586576
+      ],
+      "observed_final_position": [
+        0.4001535567791393,
+        0.3923847506230705
+      ],
+      "displacement_evaluator_only": [
+        0.00016355940810880432,
+        -0.0003146752912541184
+      ],
+      "leading_response_evaluator_only": [
+        0.0001635488285817594,
+        -0.0003146482438746439
+      ],
+      "leading_error_norm": 2.9042849876224617e-08,
+      "energy_minus_command_work": -6.247715018947719e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        7.429532417305927e-06,
+        4.6461879809578235e-07,
+        2.9042849876224617e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3949834656041575,
+        0.4053429777541656,
+        -0.09997324903747612,
+        0.2520439225948988
+      ],
+      "observed_initial_position": [
+        0.4000039818499115,
+        0.39271246697919476
+      ],
+      "observed_final_position": [
+        0.39499615954352985,
+        0.4053486477355158
+      ],
+      "displacement_evaluator_only": [
+        -0.005016534395842542,
+        0.012643896055441473
+      ],
+      "leading_response_evaluator_only": [
+        -0.005034371901994302,
+        0.012685525061296757
+      ],
+      "leading_error_norm": 4.528963186219774e-05,
+      "energy_minus_command_work": -6.288372600415926e-16,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.39874252018644196,
+        0.39586786463575996,
+        -0.05025464272265572,
+        0.12664733573560327
+      ],
+      "observed_initial_position": [
+        0.3999987487263256,
+        0.39271038951784176
+      ],
+      "observed_final_position": [
+        0.39873783963731735,
+        0.3958654003684827
+      ],
+      "displacement_evaluator_only": [
+        -0.00125747981355806,
+        0.003168782937035819
+      ],
+      "leading_response_evaluator_only": [
+        -0.0012585929754985756,
+        0.0031713812653241893
+      ],
+      "leading_error_norm": 2.826736528217303e-06,
+      "energy_minus_command_work": -1.1449174941446927e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39968542130112267,
+        0.3934917646771441,
+        -0.025160731566550073,
+        0.06340164968750328
+      ],
+      "observed_initial_position": [
+        0.4000032190139012,
+        0.3927014997980173
+      ],
+      "observed_final_position": [
+        0.39968133563733216,
+        0.3934931953512853
+      ],
+      "displacement_evaluator_only": [
+        -0.0003145786988773547,
+        0.0007926829784199452
+      ],
+      "leading_response_evaluator_only": [
+        -0.0003146482438746439,
+        0.0007928453163310473
+      ],
+      "leading_error_norm": 1.7660720265313967e-07,
+      "energy_minus_command_work": 1.2468324983583301e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        4.528963186219774e-05,
+        2.826736528217303e-06,
+        1.7660720265313967e-07
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40768524466551237,
+        0.37489752524804354,
+        0.1543845526142492,
+        -0.35765920892764513
+      ],
+      "observed_initial_position": [
+        0.3999800493987463,
+        0.3926941915486285
+      ],
+      "observed_final_position": [
+        0.4076864374507956,
+        0.37490620235109856
+      ],
+      "displacement_evaluator_only": [
+        0.007685244665512347,
+        -0.0178015564506806
+      ],
+      "leading_response_evaluator_only": [
+        0.007651153159302453,
+        -0.01771989696329106
+      ],
+      "leading_error_norm": 8.8490127564501e-05,
+      "energy_minus_command_work": -1.1147333056626962e-14,
+      "nfev": 50
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40191492382375144,
+        0.3882639924140479,
+        0.07668231371264991,
+        -0.17760803070818534
+      ],
+      "observed_initial_position": [
+        0.40001424607832387,
+        0.39269974957484743
+      ],
+      "observed_final_position": [
+        0.4019207508945361,
+        0.388259082258897
+      ],
+      "displacement_evaluator_only": [
+        0.0019149238237514132,
+        -0.00443508928467623
+      ],
+      "leading_response_evaluator_only": [
+        0.0019127882898256133,
+        -0.004429974240822765
+      ],
+      "leading_error_norm": 5.542939542437187e-06,
+      "energy_minus_command_work": -9.020562075079397e-17,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.39269908169872414
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4004783306132944,
+        0.3915912682838437,
+        0.038277130492487224,
+        -0.08865065724545551
+      ],
+      "observed_initial_position": [
+        0.4000070293253338,
+        0.392712914780224
+      ],
+      "observed_final_position": [
+        0.4004821972263522,
+        0.39159422402877153
+      ],
+      "displacement_evaluator_only": [
+        0.00047833061329438653,
+        -0.0011078134148804208
+      ],
+      "leading_response_evaluator_only": [
+        0.0004781970724564033,
+        -0.0011074935602056913
+      ],
+      "leading_error_norm": 3.4661241806319844e-07,
+      "energy_minus_command_work": 1.7889335846010823e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        8.8490127564501e-05,
+        5.542939542437187e-06,
+        3.4661241806319844e-07
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4020015203103524,
+        0.7819796057736349,
+        0.04006087009111677,
+        -0.06845815582757826
+      ],
+      "observed_initial_position": [
+        0.3999964326110062,
+        0.7854066255441883
+      ],
+      "observed_final_position": [
+        0.40199150606525974,
+        0.7819713906682513
+      ],
+      "displacement_evaluator_only": [
+        0.0020015203103523893,
+        -0.0034185576238133786
+      ],
+      "leading_response_evaluator_only": [
+        0.0020000000000000005,
+        -0.0034142135623730953
+      ],
+      "leading_error_norm": 4.602413862804692e-06,
+      "energy_minus_command_work": 2.168404344971009e-19,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4005000948842779,
+        0.784544338789112,
+        0.02000759254299574,
+        -0.034163836856082395
+      ],
+      "observed_initial_position": [
+        0.40002447324025814,
+        0.7854069376519126
+      ],
+      "observed_final_position": [
+        0.4005072910408032,
+        0.7845604626305437
+      ],
+      "displacement_evaluator_only": [
+        0.0005000948842778796,
+        -0.0008538246083362733
+      ],
+      "leading_response_evaluator_only": [
+        0.0005000000000000001,
+        -0.0008535533905932738
+      ],
+      "leading_error_norm": 2.873361973480397e-07,
+      "energy_minus_command_work": -6.071532165918825e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40012500592815736,
+        0.7851847581031588,
+        0.010000948561434873,
+        -0.017073779393580818
+      ],
+      "observed_initial_position": [
+        0.4000065083024141,
+        0.7854034081828909
+      ],
+      "observed_final_position": [
+        0.40011507866155605,
+        0.7851880173385305
+      ],
+      "displacement_evaluator_only": [
+        0.00012500592815734013,
+        -0.00021340529428948152
+      ],
+      "leading_response_evaluator_only": [
+        0.00012500000000000003,
+        -0.00021338834764831846
+      ],
+      "leading_error_norm": 1.795359841810468e-08,
+      "energy_minus_command_work": -1.9922214919421144e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        4.602413862804692e-06,
+        2.873361973480397e-07,
+        1.795359841810468e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3965970784991999,
+        0.7942010449249807,
+        -0.06783337487560866,
+        0.17554867934859367
+      ],
+      "observed_initial_position": [
+        0.39998706101060627,
+        0.7853980226639854
+      ],
+      "observed_final_position": [
+        0.3966010162137519,
+        0.7942009724449028
+      ],
+      "displacement_evaluator_only": [
+        -0.003402921500800127,
+        0.008802881527532391
+      ],
+      "leading_response_evaluator_only": [
+        -0.0034142135623730953,
+        0.00882842712474619
+      ],
+      "leading_error_norm": 2.793005892541911e-05,
+      "energy_minus_command_work": -1.0824674490095276e-15,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.3991471542074684,
+        0.7876036689784861,
+        -0.03408555239200291,
+        0.08815623663654787
+      ],
+      "observed_initial_position": [
+        0.39998950737647465,
+        0.7854188072285418
+      ],
+      "observed_final_position": [
+        0.3991461987168378,
+        0.7876109046578564
+      ],
+      "displacement_evaluator_only": [
+        -0.0008528457925316424,
+        0.0022055055810378255
+      ],
+      "leading_response_evaluator_only": [
+        -0.0008535533905932738,
+        0.0022071067811865477
+      ],
+      "leading_error_norm": 1.7505818841438238e-06,
+      "energy_minus_command_work": -4.0766001685454967e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.3997866559060809,
+        0.7859498399457632,
+        -0.0170639879847141,
+        0.04412611402639964
+      ],
+      "observed_initial_position": [
+        0.40001083477963584,
+        0.7853944539463983
+      ],
+      "observed_final_position": [
+        0.39980587678001683,
+        0.785944202682646
+      ],
+      "displacement_evaluator_only": [
+        -0.00021334409391909892,
+        0.0005516765483148944
+      ],
+      "leading_response_evaluator_only": [
+        -0.00021338834764831846,
+        0.0005517766952966369
+      ],
+      "leading_error_norm": 1.0948886017291721e-07,
+      "energy_minus_command_work": 1.8973538018496328e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.793005892541911e-05,
+        1.7505818841438238e-06,
+        1.0948886017291721e-07
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40543516070134794,
+        0.7731049680091137,
+        0.10912441525704576,
+        -0.2468803545565214
+      ],
+      "observed_initial_position": [
+        0.4000054229045581,
+        0.7854019934168674
+      ],
+      "observed_final_position": [
+        0.40542500548230714,
+        0.7731097999106838
+      ],
+      "displacement_evaluator_only": [
+        0.005435160701347919,
+        -0.012293195388334621
+      ],
+      "leading_response_evaluator_only": [
+        0.005414213562373095,
+        -0.012242640687119286
+      ],
+      "leading_error_norm": 5.472257711587045e-05,
+      "energy_minus_command_work": -4.49293380277993e-16,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4013548573001892,
+        0.7823343560856968,
+        0.054246518787935134,
+        -0.12267834489158928
+      ],
+      "observed_initial_position": [
+        0.39999377437635963,
+        0.7853947463657686
+      ],
+      "observed_final_position": [
+        0.4013624682881752,
+        0.7823326760127055
+      ],
+      "displacement_evaluator_only": [
+        0.001354857300189194,
+        -0.0030638073117514875
+      ],
+      "leading_response_evaluator_only": [
+        0.0013535533905932738,
+        -0.0030606601717798215
+      ],
+      "leading_error_norm": 3.4065628183831123e-06,
+      "energy_minus_command_work": -5.724587470723463e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        0.7853981633974483
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40033846975952986,
+        0.7846328018536812,
+        0.027084095911315543,
+        -0.061244648776643915
+      ],
+      "observed_initial_position": [
+        0.39999326917317307,
+        0.7854204177428851
+      ],
+      "observed_final_position": [
+        0.40034981194290514,
+        0.7846249747355408
+      ],
+      "displacement_evaluator_only": [
+        0.0003384697595298358,
+        -0.0007653615437670513
+      ],
+      "leading_response_evaluator_only": [
+        0.00033838834764831846,
+        -0.0007651650429449554
+      ],
+      "leading_error_norm": 2.126980666028535e-07,
+      "energy_minus_command_work": 1.962405932198763e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        5.472257711587045e-05,
+        3.4065628183831123e-06,
+        2.126980666028535e-07
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.178097245096172
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40161897450062006,
+        1.1758573508799701,
+        0.03238874386504518,
+        -0.044837990357815743
+      ],
+      "observed_initial_position": [
+        0.40001012051466445,
+        1.1780929281843366
+      ],
+      "observed_final_position": [
+        0.40161728555453474,
+        1.1758482633971774
+      ],
+      "displacement_evaluator_only": [
+        0.0016189745006200407,
+        -0.0022398942162018542
+      ],
+      "leading_response_evaluator_only": [
+        0.0016185128603389083,
+        -0.0022378909170604417
+      ],
+      "leading_error_norm": 2.055801352064046e-06,
+      "energy_minus_command_work": 5.9631119486702744e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.178097245096172
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40040465701831673,
+        1.1775376472544803,
+        0.016187433518510555,
+        -0.02238891941367091
+      ],
+      "observed_initial_position": [
+        0.4000160187116518,
+        1.1780961493202204
+      ],
+      "observed_final_position": [
+        0.400388992189499,
+        1.1775529155182483
+      ],
+      "displacement_evaluator_only": [
+        0.00040465701831671197,
+        -0.0005595978416916836
+      ],
+      "leading_response_evaluator_only": [
+        0.0004046282150847271,
+        -0.0005594727292651104
+      ],
+      "leading_error_norm": 1.2838514499661472e-07,
+      "energy_minus_command_work": -7.128629284092192e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.178097245096172
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40010115885320396,
+        1.1779573690957923,
+        0.008092852231444231,
+        -0.011190705514464404
+      ],
+      "observed_initial_position": [
+        0.4000055183173728,
+        1.178089503783124
+      ],
+      "observed_final_position": [
+        0.4000961981392243,
+        1.1779578253877043
+      ],
+      "displacement_evaluator_only": [
+        0.00010115885320394202,
+        -0.0001398760003796795
+      ],
+      "leading_response_evaluator_only": [
+        0.00010115705377118177,
+        -0.0001398681823162776
+      ],
+      "leading_error_norm": 8.022473036096831e-09,
+      "energy_minus_command_work": -2.0396553369883552e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.055801352064046e-06,
+        1.2838514499661472e-07,
+        8.022473036096831e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.178097245096172
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3977672705510001,
+        1.1841807769551365,
+        -0.04455163477201492,
+        0.1214560837166599
+      ],
+      "observed_initial_position": [
+        0.3999945537004138,
+        1.178105574232149
+      ],
+      "observed_final_position": [
+        0.39776950369735764,
+        1.1841630827599035
+      ],
+      "displacement_evaluator_only": [
+        -0.002232729448999937,
+        0.006083531858964486
+      ],
+      "leading_response_evaluator_only": [
+        -0.0022378909170604412,
+        0.006094294694459791
+      ],
+      "leading_error_norm": 1.1936472696680547e-05,
+      "energy_minus_command_work": 4.597017211338539e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.178097245096172
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.3994408505090143,
+        1.1796201444404375,
+        -0.022353058750438793,
+        0.060889022677089094
+      ],
+      "observed_initial_position": [
+        0.3999964502284807,
+        1.1781085884080327
+      ],
+      "observed_final_position": [
+        0.3994436367414022,
+        1.1796069357827437
+      ],
+      "displacement_evaluator_only": [
+        -0.0005591494909857331,
+        0.001522899344265527
+      ],
+      "leading_response_evaluator_only": [
+        -0.0005594727292651103,
+        0.0015235736736149477
+      ],
+      "leading_error_norm": 7.477988076648631e-07,
+      "energy_minus_command_work": -1.0278236595162582e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.178097245096172
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.3998601520302102,
+        1.1784780963431005,
+        -0.011186220851482128,
+        0.030464726727101182
+      ],
+      "observed_initial_position": [
+        0.400006447426485,
+        1.1781089614490945
+      ],
+      "observed_final_position": [
+        0.39986326982707476,
+        1.1784754906128208
+      ],
+      "displacement_evaluator_only": [
+        -0.00013984796978983027,
+        0.00038085124692854855
+      ],
+      "leading_response_evaluator_only": [
+        -0.00013986818231627758,
+        0.00038089341840373694
+      ],
+      "leading_error_norm": 4.676515310514708e-08,
+      "energy_minus_command_work": 9.595189226496714e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.1936472696680547e-05,
+        7.477988076648631e-07,
+        4.676515310514708e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.178097245096172
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40386483778040844,
+        1.1697438330185226,
+        0.07746625024740698,
+        -0.16749464577985831
+      ],
+      "observed_initial_position": [
+        0.3999912472485937,
+        1.178119959382265
+      ],
+      "observed_final_position": [
+        0.40387081670644676,
+        1.1697446814068506
+      ],
+      "displacement_evaluator_only": [
+        0.0038648377804084144,
+        -0.008353412077649391
+      ],
+      "leading_response_evaluator_only": [
+        0.0038564037773993493,
+        -0.008332185611520233
+      ],
+      "leading_error_norm": 2.2840649532998037e-05,
+      "energy_minus_command_work": 6.609296443471635e-16,
+      "nfev": 38
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.178097245096172
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40096462616641815,
+        1.1760128764188564,
+        0.0386060808339458,
+        -0.08342769627175692
+      ],
+      "observed_initial_position": [
+        0.399993105112911,
+        1.1780933391197612
+      ],
+      "observed_final_position": [
+        0.40096103500761215,
+        1.17600955245076
+      ],
+      "displacement_evaluator_only": [
+        0.0009646261664181255,
+        -0.00208436867731554
+      ],
+      "leading_response_evaluator_only": [
+        0.0009641009443498373,
+        -0.002083046402880058
+      ],
+      "leading_error_norm": 1.4227676914190712e-06,
+      "energy_minus_command_work": 1.0191500421363742e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.178097245096172
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40024105803284826,
+        1.1775764009214482,
+        0.01928726715792115,
+        -0.041674141713988755
+      ],
+      "observed_initial_position": [
+        0.39999363175484964,
+        1.178112880732208
+      ],
+      "observed_final_position": [
+        0.40024597820598495,
+        1.1775860328670602
+      ],
+      "displacement_evaluator_only": [
+        0.00024105803284824034,
+        -0.0005208441747237558
+      ],
+      "leading_response_evaluator_only": [
+        0.00024102523608745933,
+        -0.0005207616007200145
+      ],
+      "leading_error_norm": 8.884871192979412e-08,
+      "energy_minus_command_work": 2.873135757086587e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.2840649532998037e-05,
+        1.4227676914190712e-06,
+        8.884871192979412e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4015000003378619,
+        1.569295201344233,
+        0.030000020278947322,
+        -0.030045027053101338
+      ],
+      "observed_initial_position": [
+        0.39999416569733104,
+        1.5708032223490358
+      ],
+      "observed_final_position": [
+        0.40149609590020763,
+        1.5692774169836117
+      ],
+      "displacement_evaluator_only": [
+        0.001500000337861851,
+        -0.0015011254506636096
+      ],
+      "leading_response_evaluator_only": [
+        0.0015000000000000002,
+        -0.0015
+      ],
+      "leading_error_norm": 1.1254507143228498e-06,
+      "energy_minus_command_work": -3.2959746043559335e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4003750000052749,
+        1.5704212564753628,
+        0.015000000633038555,
+        -0.015005625844164483
+      ],
+      "observed_initial_position": [
+        0.4000021758787461,
+        1.57078617162698
+      ],
+      "observed_final_position": [
+        0.4003774616610656,
+        1.5704348833039843
+      ],
+      "displacement_evaluator_only": [
+        0.00037500000527485033,
+        -0.0003750703195337657
+      ],
+      "leading_response_evaluator_only": [
+        0.00037500000000000006,
+        -0.000375
+      ],
+      "leading_error_norm": 7.031953396351596e-08,
+      "energy_minus_command_work": 3.7947076036992655e-19,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40009375000008246,
+        1.5707025724002555,
+        0.007500000019777162,
+        -0.007500703151370431
+      ],
+      "observed_initial_position": [
+        0.4000100499932499,
+        1.570802019557993
+      ],
+      "observed_final_position": [
+        0.4000911919034085,
+        1.570707315073344
+      ],
+      "displacement_evaluator_only": [
+        9.375000008243761e-05,
+        -9.375439464109903e-05
+      ],
+      "leading_response_evaluator_only": [
+        9.375000000000002e-05,
+        -9.375e-05
+      ],
+      "leading_error_norm": 4.3946410997971335e-09,
+      "energy_minus_command_work": -2.0681156440160997e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.1254507143228498e-06,
+        7.031953396351596e-08,
+        4.3946410997971335e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3985026213738433,
+        1.5752918376823393,
+        -0.029895217343046072,
+        0.08982065274666173
+      ],
+      "observed_initial_position": [
+        0.4000022107034238,
+        1.5707755414365445
+      ],
+      "observed_final_position": [
+        0.39850223756729086,
+        1.57528006876547
+      ],
+      "displacement_evaluator_only": [
+        -0.0014973786261567312,
+        0.004495510887442711
+      ],
+      "leading_response_evaluator_only": [
+        -0.0015000000000000002,
+        0.0045000000000000005
+      ],
+      "leading_error_norm": 5.198435570264538e-06,
+      "energy_minus_command_work": 1.6479873021779667e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.39962516400570847,
+        1.5719210457153063,
+        -0.014986881813212099,
+        0.0449775204452499
+      ],
+      "observed_initial_position": [
+        0.3999924317322001,
+        1.570799982419714
+      ],
+      "observed_final_position": [
+        0.399624580640719,
+        1.5719428866518808
+      ],
+      "displacement_evaluator_only": [
+        -0.0003748359942915558,
+        0.001124718920409773
+      ],
+      "leading_response_evaluator_only": [
+        -0.00037500000000000006,
+        0.0011250000000000001
+      ],
+      "leading_error_norm": 3.254283460987846e-07,
+      "energy_minus_command_work": -1.441988889405721e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.3999062602530184,
+        1.5710775592194355,
+        -0.007498359588079262,
+        0.02249718813928167
+      ],
+      "observed_initial_position": [
+        0.4000176244080413,
+        1.570816367563956
+      ],
+      "observed_final_position": [
+        0.3999027952457583,
+        1.5710885751239658
+      ],
+      "displacement_evaluator_only": [
+        -9.37397469816248e-05,
+        0.00028123242453892416
+      ],
+      "leading_response_evaluator_only": [
+        -9.375000000000002e-05,
+        0.00028125000000000003
+      ],
+      "leading_error_norm": 2.0347511342471704e-08,
+      "energy_minus_command_work": -7.359022245745361e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        5.198435570264538e-06,
+        3.254283460987846e-07,
+        2.0347511342471704e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.403003012935821,
+        1.5647873000050647,
+        0.06012077686824695,
+        -0.12036160919262959
+      ],
+      "observed_initial_position": [
+        0.40000435217678815,
+        1.5707928846043362
+      ],
+      "observed_final_position": [
+        0.40301402298988415,
+        1.564805013476111
+      ],
+      "displacement_evaluator_only": [
+        0.0030030129358210034,
+        -0.0060090267898318395
+      ],
+      "leading_response_evaluator_only": [
+        0.0030000000000000005,
+        -0.006
+      ],
+      "leading_error_norm": 9.516339471124408e-06,
+      "energy_minus_command_work": 9.046582927219049e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4007501877017021,
+        1.569295763877359,
+        0.030015024209833818,
+        -0.060045050118516935
+      ],
+      "observed_initial_position": [
+        0.39998552195191206,
+        1.5707949716743352
+      ],
+      "observed_final_position": [
+        0.400753615960921,
+        1.5692998949835812
+      ],
+      "displacement_evaluator_only": [
+        0.0007501877017020986,
+        -0.001500562917537529
+      ],
+      "leading_response_evaluator_only": [
+        0.0007500000000000001,
+        -0.0015
+      ],
+      "leading_error_norm": 5.93386958930138e-07,
+      "energy_minus_command_work": -2.47198095326695e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.5707963267948966
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40018751172190004,
+        1.5704212916321267,
+        0.015001875756033727,
+        -0.030005626564890416
+      ],
+      "observed_initial_position": [
+        0.4000065525388173,
+        1.570790069910125
+      ],
+      "observed_final_position": [
+        0.40020971801636995,
+        1.5704086091253366
+      ],
+      "displacement_evaluator_only": [
+        0.0001875117219000133,
+        -0.0003750351627698212
+      ],
+      "leading_response_evaluator_only": [
+        0.00018750000000000003,
+        -0.000375
+      ],
+      "leading_error_norm": 3.7065122708798084e-08,
+      "energy_minus_command_work": 2.7484525072507537e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        9.516339471124408e-06,
+        5.93386958930138e-07,
+        3.7065122708798084e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.9634954084936211
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4016183072497136,
+        1.9624953448805706,
+        0.03236203329251488,
+        -0.020019848899457057
+      ],
+      "observed_initial_position": [
+        0.399987902082639,
+        1.9634954347377491
+      ],
+      "observed_final_position": [
+        0.4016076625761386,
+        1.962504984263036
+      ],
+      "displacement_evaluator_only": [
+        0.0016183072497135687,
+        -0.0010000636130504947
+      ],
+      "leading_response_evaluator_only": [
+        0.0016185128603389083,
+        -0.000999134803617375
+      ],
+      "leading_error_norm": 9.51295270830707e-07,
+      "energy_minus_command_work": -6.938893903907228e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.9634954084936211
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40040461536323363,
+        1.963245566743177,
+        0.016184100470992217,
+        -0.009995992013297162
+      ],
+      "observed_initial_position": [
+        0.3999940406597006,
+        1.9635003600762937
+      ],
+      "observed_final_position": [
+        0.400406847354393,
+        1.9632473921346498
+      ],
+      "displacement_evaluator_only": [
+        0.0004046153632336069,
+        -0.00024984175044417967
+      ],
+      "leading_response_evaluator_only": [
+        0.0004046282150847271,
+        -0.00024978370090434374
+      ],
+      "leading_error_norm": 5.9455186084797665e-08,
+      "energy_minus_command_work": -6.5052130349130266e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.9634954084936211
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4001011562505122,
+        1.9634329589403152,
+        0.008092435780735275,
+        -0.004996254511309285
+      ],
+      "observed_initial_position": [
+        0.3999842414631817,
+        1.9635027040984623
+      ],
+      "observed_final_position": [
+        0.4001041625327665,
+        1.9634323602946582
+      ],
+      "displacement_evaluator_only": [
+        0.00010115625051215771,
+        -6.244955330592106e-05
+      ],
+      "leading_response_evaluator_only": [
+        0.00010115705377118177,
+        -6.244592522608593e-05
+      ],
+      "leading_error_norm": 3.7159370755922863e-09,
+      "energy_minus_command_work": -1.4148838350935833e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        9.51295270830707e-07,
+        5.9455186084797665e-08,
+        3.7159370755922863e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.9634954084936211
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3990026111730837,
+        1.9671102529443827,
+        -0.019912869020334074,
+        0.07225820923175574
+      ],
+      "observed_initial_position": [
+        0.4000064199160761,
+        1.963505268124239
+      ],
+      "observed_final_position": [
+        0.39902692132214823,
+        1.9671196491067142
+      ],
+      "displacement_evaluator_only": [
+        -0.0009973888269163012,
+        0.003614844450761545
+      ],
+      "leading_response_evaluator_only": [
+        -0.000999134803617375,
+        0.0036167824675736584
+      ],
+      "leading_error_norm": 2.6085137156484782e-06,
+      "energy_minus_command_work": 7.41594285980085e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.9634954084936211
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.3997503254509131,
+        1.964399482795459,
+        -0.009982616269242012,
+        0.03615812199414591
+      ],
+      "observed_initial_position": [
+        0.4000100694814814,
+        1.9634910891778152
+      ],
+      "observed_final_position": [
+        0.399736063228497,
+        1.9644130783632703
+      ],
+      "displacement_evaluator_only": [
+        -0.0002496745490869201,
+        0.0009040743018378095
+      ],
+      "leading_response_evaluator_only": [
+        -0.00024978370090434374,
+        0.0009041956168934146
+      ],
+      "leading_error_norm": 1.6319148863639244e-07,
+      "energy_minus_command_work": -2.1358782797964437e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.9634954084936211
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39993756089720645,
+        1.9637214498126963,
+        -0.0049945824407307115,
+        0.018082698793027433
+      ],
+      "observed_initial_position": [
+        0.39999311621616873,
+        1.9634973696577982
+      ],
+      "observed_final_position": [
+        0.39994707456288164,
+        1.9637163343610957
+      ],
+      "displacement_evaluator_only": [
+        -6.243910279357667e-05,
+        0.00022604131907510983
+      ],
+      "leading_response_evaluator_only": [
+        -6.244592522608593e-05,
+        0.00022604890422335365
+      ],
+      "leading_error_norm": 1.0201963498476065e-08,
+      "energy_minus_command_work": -1.8675382421062814e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.6085137156484782e-06,
+        1.6319148863639244e-07,
+        1.0201963498476065e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.9634954084936211
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4026182630831942,
+        1.9588751357636083,
+        0.05237768058299214,
+        -0.09249272972891151
+      ],
+      "observed_initial_position": [
+        0.39998218227337995,
+        1.9634994102380054
+      ],
+      "observed_final_position": [
+        0.4026275796656544,
+        1.9588916012361302
+      ],
+      "displacement_evaluator_only": [
+        0.0026182630831941833,
+        -0.004620272730012864
+      ],
+      "leading_response_evaluator_only": [
+        0.0026176476639562835,
+        -0.004615917271191033
+      ],
+      "leading_error_norm": 4.398722813163616e-06,
+      "energy_minus_command_work": 2.862293735361732e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.9634954084936211
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4006544501208903,
+        1.9623411573478593,
+        0.0261795364788296,
+        -0.04618092411537637
+      ],
+      "observed_initial_position": [
+        0.40000321552498275,
+        1.963477807123662
+      ],
+      "observed_final_position": [
+        0.4006466963808023,
+        1.9623476036441299
+      ],
+      "displacement_evaluator_only": [
+        0.0006544501208902709,
+        -0.001154251145761842
+      ],
+      "leading_response_evaluator_only": [
+        0.0006544119159890709,
+        -0.0011539793177977582
+      ],
+      "leading_error_norm": 2.744996476020779e-07,
+      "energy_minus_command_work": -1.431146867680866e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        1.9634954084936211
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.400163605362765,
+        1.9632068966809753,
+        0.013088619830281678,
+        -0.023082303828662068
+      ],
+      "observed_initial_position": [
+        0.3999972737221672,
+        1.9635005598822806
+      ],
+      "observed_final_position": [
+        0.4001687879808676,
+        1.9632010375585254
+      ],
+      "displacement_evaluator_only": [
+        0.00016360536276499582,
+        -0.0002885118126458863
+      ],
+      "leading_response_evaluator_only": [
+        0.00016360297899726772,
+        -0.00028849482944943956
+      ],
+      "leading_error_norm": 1.7149673761647688e-08,
+      "energy_minus_command_work": -9.486769009248164e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        4.398722813163616e-06,
+        2.744996476020779e-07,
+        1.7149673761647688e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.4019997393185834,
+        2.3556076991341786,
+        0.03998956611165309,
+        -0.0117559134708649
+      ],
+      "observed_initial_position": [
+        0.3999867201021848,
+        2.3562042090224167
+      ],
+      "observed_final_position": [
+        0.40199934989413716,
+        2.3556015770055256
+      ],
+      "displacement_evaluator_only": [
+        0.0019997393185833823,
+        -0.0005867910581662805
+      ],
+      "leading_response_evaluator_only": [
+        0.002,
+        -0.0005857864376269052
+      ],
+      "leading_error_norm": 1.0378907597163306e-06,
+      "energy_minus_command_work": 1.8865117801247777e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4004999837229652,
+        2.3560479807939156,
+        0.019998697629688825,
+        -0.005862887494941389
+      ],
+      "observed_initial_position": [
+        0.39998848661578784,
+        2.3561977906753704
+      ],
+      "observed_final_position": [
+        0.4004943745378335,
+        2.3560415227993827
+      ],
+      "displacement_evaluator_only": [
+        0.0004999837229651694,
+        -0.00014650939842919541
+      ],
+      "leading_response_evaluator_only": [
+        0.0005,
+        -0.0001464466094067263
+      ],
+      "leading_error_norm": 6.486449880716234e-08,
+      "energy_minus_command_work": 6.884683795282953e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4001249989829286,
+        2.3561578746156755,
+        0.009999837262082143,
+        -0.0029295600788526123
+      ],
+      "observed_initial_position": [
+        0.4000192052475789,
+        2.3562087340065108
+      ],
+      "observed_final_position": [
+        0.4001305405531044,
+        2.3561673638673524
+      ],
+      "displacement_evaluator_only": [
+        0.00012499898292855915,
+        -3.661557666934101e-05
+      ],
+      "leading_response_evaluator_only": [
+        0.000125,
+        -3.661165235168158e-05
+      ],
+      "leading_error_norm": 4.053973779876522e-09,
+      "energy_minus_command_work": 2.981555974335137e-19,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.0378907597163306e-06,
+        6.486449880716234e-08,
+        4.053973779876522e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.399415767337904,
+        2.3593653101427394,
+        -0.011653575022434862,
+        0.06340137961617934
+      ],
+      "observed_initial_position": [
+        0.40001108374832134,
+        2.356180483684758
+      ],
+      "observed_final_position": [
+        0.3994138125883699,
+        2.3593837911728515
+      ],
+      "displacement_evaluator_only": [
+        -0.000584232662096007,
+        0.0031708199503945877
+      ],
+      "leading_response_evaluator_only": [
+        -0.000585786437626905,
+        0.0031715728752538105
+      ],
+      "leading_error_norm": 1.7265903521255524e-06,
+      "energy_minus_command_work": -2.3180242447740085e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.39985365049519656,
+        2.3569873362616307,
+        -0.005850095922866932,
+        0.031711958014251806
+      ],
+      "observed_initial_position": [
+        0.39999192133321604,
+        2.3561944630270313
+      ],
+      "observed_final_position": [
+        0.399856246431105,
+        2.3569795208832542
+      ],
+      "displacement_evaluator_only": [
+        -0.00014634950480346687,
+        0.0007928460692858685
+      ],
+      "leading_response_evaluator_only": [
+        -0.00014644660940672625,
+        0.0007928932188134526
+      ],
+      "leading_error_norm": 1.0794619921778431e-07,
+      "energy_minus_command_work": -3.4531839193663316e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39996339441658624,
+        2.3563927105487683,
+        -0.002927961155413544,
+        0.01585739268972495
+      ],
+      "observed_initial_position": [
+        0.3999959339094986,
+        2.356184519600944
+      ],
+      "observed_final_position": [
+        0.3999592816718688,
+        2.3563926612014536
+      ],
+      "displacement_evaluator_only": [
+        -3.6605583413784615e-05,
+        0.00019822035642347302
+      ],
+      "leading_response_evaluator_only": [
+        -3.6611652351681563e-05,
+        0.00019822330470336316
+      ],
+      "leading_error_norm": 6.747174335053124e-09,
+      "energy_minus_command_work": -8.998878031629687e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.7265903521255524e-06,
+        1.0794619921778431e-07,
+        6.747174335053124e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40258506823817325,
+        2.352434618183384,
+        0.0516870598439746,
+        -0.07524775282327828
+      ],
+      "observed_initial_position": [
+        0.3999946286786254,
+        2.3561958029774717
+      ],
+      "observed_final_position": [
+        0.40260771254093586,
+        2.3524262426441442
+      ],
+      "displacement_evaluator_only": [
+        0.002585068238173227,
+        -0.003759872008960663
+      ],
+      "leading_response_evaluator_only": [
+        0.0025857864376269053,
+        -0.0037573593128807153
+      ],
+      "leading_error_norm": 2.613322032480516e-06,
+      "energy_minus_command_work": 3.642919299551295e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4006464015836699,
+        2.3552549934580984,
+        0.02585426415861874,
+        -0.03758614744193417
+      ],
+      "observed_initial_position": [
+        0.39999245972089,
+        2.356185698308246
+      ],
+      "observed_final_position": [
+        0.40064487234188845,
+        2.355261671666365
+      ],
+      "displacement_evaluator_only": [
+        0.0006464015836698533,
+        -0.0009394967342464255
+      ],
+      "leading_response_evaluator_only": [
+        0.0006464466094067263,
+        -0.0009393398282201788
+      ],
+      "leading_error_norm": 1.6323853115453784e-07,
+      "energy_minus_command_work": -2.4936649967166602e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.356194490192345
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40016160883608604,
+        2.3559596454308083,
+        0.012928481643135082,
+        -0.018788365338630073
+      ],
+      "observed_initial_position": [
+        0.4000059816664129,
+        2.3561923413248795
+      ],
+      "observed_final_position": [
+        0.4001627499505515,
+        2.3559573861152585
+      ],
+      "displacement_evaluator_only": [
+        0.0001616088360860135,
+        -0.00023484476153656786
+      ],
+      "leading_response_evaluator_only": [
+        0.00016161165235168158,
+        -0.0002348349570550447
+      ],
+      "leading_error_norm": 1.020094163550559e-08,
+      "energy_minus_command_work": -8.890457814381136e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.613322032480516e-06,
+        1.6323853115453784e-07,
+        1.020094163550559e-08
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.7488935718910685
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40261667362447884,
+        2.748693482575184,
+        0.05233131044307096,
+        -0.004019763089439538
+      ],
+      "observed_initial_position": [
+        0.40001774347405655,
+        2.748894906746573
+      ],
+      "observed_final_position": [
+        0.40262076396744584,
+        2.748692177479898
+      ],
+      "displacement_evaluator_only": [
+        0.002616673624478816,
+        -0.00020008931588444412
+      ],
+      "leading_response_evaluator_only": [
+        0.0026167812573081504,
+        -0.00019919061262199986
+      ],
+      "leading_error_norm": 9.051256155244483e-07,
+      "energy_minus_command_work": -2.710505431213761e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.7488935718910685
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.400654188609283,
+        2.748843718075296,
+        0.026167275876115358,
+        -0.0019963992199799234
+      ],
+      "observed_initial_position": [
+        0.40000344133672183,
+        2.748880245785591
+      ],
+      "observed_final_position": [
+        0.40065420206416874,
+        2.748843157260817
+      ],
+      "displacement_evaluator_only": [
+        0.0006541886092829574,
+        -4.9853815772493704e-05
+      ],
+      "leading_response_evaluator_only": [
+        0.0006541953143270376,
+        -4.9797653155499966e-05
+      ],
+      "leading_error_norm": 5.65614459124094e-08,
+      "energy_minus_command_work": -1.2468324983583301e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.7488935718910685
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4001635484098604,
+        2.748881118967715,
+        0.013083839281949502,
+        -0.0009965146760925409
+      ],
+      "observed_initial_position": [
+        0.3999911287583159,
+        2.7489029010425075
+      ],
+      "observed_final_position": [
+        0.40017852324364095,
+        2.7488735905222
+      ],
+      "displacement_evaluator_only": [
+        0.00016354840986038122,
+        -1.2452923353389878e-05
+      ],
+      "leading_response_evaluator_only": [
+        0.0001635488285817594,
+        -1.2449413288874991e-05
+      ],
+      "leading_error_norm": 3.53495127140506e-09,
+      "energy_minus_command_work": -2.927345865710862e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        9.051256155244483e-07,
+        5.65614459124094e-08,
+        3.53495127140506e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.7488935718910685
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3998021274915931,
+        2.7519085914029286,
+        -0.003931120583754461,
+        0.06029754787146931
+      ],
+      "observed_initial_position": [
+        0.40001319524579115,
+        2.748894928404667
+      ],
+      "observed_final_position": [
+        0.3997994940743094,
+        2.7518972137640367
+      ],
+      "displacement_evaluator_only": [
+        -0.0001978725084069155,
+        0.0030150195118601175
+      ],
+      "leading_response_evaluator_only": [
+        -0.00019919061262199986,
+        0.00301516248255215
+      ],
+      "leading_error_norm": 1.3258353369115867e-06,
+      "energy_minus_command_work": -8.890457814381136e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.7488935718910685
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.3999502848042891,
+        2.749647353536007,
+        -0.0019853105398633226,
+        0.03015090730431326
+      ],
+      "observed_initial_position": [
+        0.4000000754652766,
+        2.748887471337038
+      ],
+      "observed_final_position": [
+        0.39994665990615413,
+        2.7496510735693063
+      ],
+      "displacement_evaluator_only": [
+        -4.9715195710897664e-05,
+        0.0007537816449385559
+      ],
+      "leading_response_evaluator_only": [
+        -4.9797653155499966e-05,
+        0.0007537906206380375
+      ],
+      "leading_error_norm": 8.294451971966624e-08,
+      "energy_minus_command_work": 5.5294310796760726e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.7488935718910685
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39998755574148315,
+        2.74908201898462,
+        -0.0009951283310747796,
+        0.015075722572182211
+      ],
+      "observed_initial_position": [
+        0.39999358843854227,
+        2.7489092865769784
+      ],
+      "observed_final_position": [
+        0.39999611578841554,
+        2.749073515702395
+      ],
+      "displacement_evaluator_only": [
+        -1.2444258516874918e-05,
+        0.0001884470935515914
+      ],
+      "leading_response_evaluator_only": [
+        -1.2449413288874991e-05,
+        0.0001884476551595094
+      ],
+      "leading_error_norm": 5.1852750964919285e-09,
+      "energy_minus_command_work": -1.4216600986716177e-16,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.3258353369115867e-06,
+        8.294451971966624e-08,
+        5.1852750964919285e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.7488935718910685
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40281477960617934,
+        2.7456777178511595,
+        0.056271731446219365,
+        -0.06434715577179825
+      ],
+      "observed_initial_position": [
+        0.4000020440229553,
+        2.748888368395538
+      ],
+      "observed_final_position": [
+        0.40279502039800374,
+        2.7456749526367465
+      ],
+      "displacement_evaluator_only": [
+        0.0028147796061793184,
+        -0.003215854039908983
+      ],
+      "leading_response_evaluator_only": [
+        0.0028159718699301505,
+        -0.00321435309517415
+      ],
+      "leading_error_norm": 1.916853658621682e-06,
+      "energy_minus_command_work": 1.8604909279851256e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.7488935718910685
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40070391848746484,
+        2.748089889939809,
+        0.02815375980675932,
+        -0.032151026905360966
+      ],
+      "observed_initial_position": [
+        0.3999871669798729,
+        2.748886507644587
+      ],
+      "observed_final_position": [
+        0.4007127458581885,
+        2.7480773486248244
+      ],
+      "displacement_evaluator_only": [
+        0.0007039184874648163,
+        -0.0008036819512593496
+      ],
+      "leading_response_evaluator_only": [
+        0.0007039929674825376,
+        -0.0008035882737935375
+      ],
+      "leading_error_norm": 1.1967765305497165e-07,
+      "energy_minus_command_work": 1.491862189340054e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        2.7488935718910685
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40017599358744654,
+        2.7486926689698374,
+        0.014079114626364572,
+        -0.016072701976043838
+      ],
+      "observed_initial_position": [
+        0.3999932851672577,
+        2.7488934214307585
+      ],
+      "observed_final_position": [
+        0.40018231779673263,
+        2.7486745969573465
+      ],
+      "displacement_evaluator_only": [
+        0.00017599358744652127,
+        -0.0002009029212310942
+      ],
+      "leading_response_evaluator_only": [
+        0.0001759982418706344,
+        -0.00020089706844838437
+      ],
+      "leading_error_norm": 7.477882673161157e-09,
+      "energy_minus_command_work": 7.456600441269057e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        1.916853658621682e-06,
+        1.1967765305497165e-07,
+        7.477882673161157e-09
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.403,
+        3.141592653589793,
+        0.060000000000000005,
+        -1.4695761589768223e-20
+      ],
+      "observed_initial_position": [
+        0.3999878895849064,
+        3.1415950494321936
+      ],
+      "observed_final_position": [
+        0.4030302257700634,
+        3.1416024064883072
+      ],
+      "displacement_evaluator_only": [
+        0.0030000000000000027,
+        0.0
+      ],
+      "leading_response_evaluator_only": [
+        0.0030000000000000005,
+        0.0
+      ],
+      "leading_error_norm": 2.168404344971009e-18,
+      "energy_minus_command_work": -1.0842021724855044e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.40075000000000005,
+        3.141592653589793,
+        0.03,
+        -1.836970198721027e-21
+      ],
+      "observed_initial_position": [
+        0.40000355988100517,
+        3.1415828968598145
+      ],
+      "observed_final_position": [
+        0.40074627620362335,
+        3.1415824332525135
+      ],
+      "displacement_evaluator_only": [
+        0.0007500000000000284,
+        0.0
+      ],
+      "leading_response_evaluator_only": [
+        0.0007500000000000001,
+        0.0
+      ],
+      "leading_error_norm": 2.8297676701871666e-17,
+      "energy_minus_command_work": -1.702197410802242e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        0.0
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.40018750000000003,
+        3.141592653589793,
+        0.015,
+        -2.2962127484012844e-22
+      ],
+      "observed_initial_position": [
+        0.3999945648147835,
+        3.1415977054308617
+      ],
+      "observed_final_position": [
+        0.400166451004538,
+        3.14159289152216
+      ],
+      "displacement_evaluator_only": [
+        0.0001875000000000071,
+        0.0
+      ],
+      "leading_response_evaluator_only": [
+        0.00018750000000000003,
+        0.0
+      ],
+      "leading_error_norm": 7.074419175467916e-18,
+      "energy_minus_command_work": -4.255493527005605e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        2.168404344971009e-18,
+        2.8297676701871666e-17,
+        7.074419175467916e-18
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.3999999955000263,
+        3.1445926535898,
+        -2.6999736738616204e-07,
+        0.060000000000675055
+      ],
+      "observed_initial_position": [
+        0.4000178650703111,
+        3.1415955407793965
+      ],
+      "observed_final_position": [
+        0.40001416326999584,
+        3.1445811653561897
+      ],
+      "displacement_evaluator_only": [
+        -4.4999737269790785e-09,
+        0.003000000000006775
+      ],
+      "leading_response_evaluator_only": [
+        0.0,
+        0.0030000000000000005
+      ],
+      "leading_error_norm": 4.499973726984178e-09,
+      "energy_minus_command_work": -1.1058862159352145e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.39999999992968754,
+        3.142342653589793,
+        -8.437494856157841e-09,
+        0.030000000000001335
+      ],
+      "observed_initial_position": [
+        0.4000002979671853,
+        3.1415944296202634
+      ],
+      "observed_final_position": [
+        0.40000840227529494,
+        3.142341670984337
+      ],
+      "displacement_evaluator_only": [
+        -7.031247806210672e-11,
+        0.0007500000000000284
+      ],
+      "leading_response_evaluator_only": [
+        0.0,
+        0.0007500000000000001
+      ],
+      "leading_error_norm": 7.031247806211241e-11,
+      "energy_minus_command_work": -1.2576745200831851e-17,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.0,
+        0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.39999999999890135,
+        3.141780153589793,
+        -2.6367186593931845e-10,
+        0.015
+      ],
+      "observed_initial_position": [
+        0.4000097297213242,
+        3.14160674472248
+      ],
+      "observed_final_position": [
+        0.40000776314020525,
+        3.141777273812314
+      ],
+      "displacement_evaluator_only": [
+        -1.098676705169055e-12,
+        0.0001875000000000071
+      ],
+      "leading_response_evaluator_only": [
+        0.0,
+        0.00018750000000000003
+      ],
+      "leading_error_norm": 1.098676705191831e-12,
+      "energy_minus_command_work": -4.296151108473811e-18,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        4.499973726984178e-09,
+        7.031247806211241e-11,
+        1.098676705191831e-12
+      ]
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.1,
+      "final_state_evaluator_only": [
+        0.40299999550003035,
+        3.13859264908981,
+        0.059999730003037724,
+        -0.06000026999831234
+      ],
+      "observed_initial_position": [
+        0.39999368409606484,
+        3.1416029327069497
+      ],
+      "observed_final_position": [
+        0.4029899040213937,
+        3.1385922570624456
+      ],
+      "displacement_evaluator_only": [
+        0.002999995500030328,
+        -0.0030000044999831665
+      ],
+      "leading_response_evaluator_only": [
+        0.0030000000000000005,
+        -0.0030000000000000005
+      ],
+      "leading_error_norm": 6.363927682497781e-09,
+      "energy_minus_command_work": 7.37257477290143e-18,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.05,
+      "final_state_evaluator_only": [
+        0.4007499999296876,
+        3.1408426535194804,
+        0.029999991562505938,
+        -0.0300000084374967
+      ],
+      "observed_initial_position": [
+        0.4000033026026244,
+        3.1415873465063946
+      ],
+      "observed_final_position": [
+        0.4007303697059941,
+        3.1408356617139144
+      ],
+      "displacement_evaluator_only": [
+        0.0007499999296875504,
+        -0.000750000070312673
+      ],
+      "leading_response_evaluator_only": [
+        0.0007500000000000001,
+        -0.0007500000000000001
+      ],
+      "leading_error_norm": 9.943697783655161e-11,
+      "energy_minus_command_work": -1.2598429244281562e-16,
+      "nfev": 26
+    },
+    {
+      "q0_evaluator_only": [
+        0.4,
+        3.141592653589793
+      ],
+      "v0_prepared_rest": [
+        0.0,
+        0.0
+      ],
+      "command": [
+        0.6,
+        -0.6
+      ],
+      "duration": 0.025,
+      "final_state_evaluator_only": [
+        0.4001874999989014,
+        3.1414051535886944,
+        0.01499999973632813,
+        -0.015000000263671869
+      ],
+      "observed_initial_position": [
+        0.39998879599587556,
+        3.1416001431886786
+      ],
+      "observed_final_position": [
+        0.40019860073295427,
+        3.1414005927296356
+      ],
+      "displacement_evaluator_only": [
+        0.0001874999989013859,
+        -0.0001875000010986838
+      ],
+      "leading_response_evaluator_only": [
+        0.00018750000000000003,
+        -0.00018750000000000003
+      ],
+      "leading_error_norm": 1.5537242455827842e-12,
+      "energy_minus_command_work": -4.1931519020876884e-17,
+      "nfev": 26,
+      "three_duration_error_norms": [
+        6.363927682497781e-09,
+        9.943697783655161e-11,
+        1.5537242455827842e-12
+      ]
+    }
+  ],
+  "energy_checks": [
+    {
+      "q0": [
+        2.441219701088844,
+        2.6498643180424963
+      ],
+      "v0": [
+        0.18683458847739898,
+        -0.34230105125692284
+      ],
+      "command": [
+        0.8701945667516631,
+        0.48244445678300485
+      ],
+      "final_state": [
+        2.6105394765974217,
+        2.5223341790005467,
+        0.4805156922417827,
+        -0.1794490782605016
+      ],
+      "tighter_state": [
+        2.6105394765974386,
+        2.5223341790005653,
+        0.48051569224179047,
+        -0.17944907826052414
+      ],
+      "energy_work_error": 1.8041124150158794e-14,
+      "tolerance_state_difference": 2.2537527399890678e-14,
+      "nfev": 62
+    },
+    {
+      "q0": [
+        -0.9876330733983161,
+        1.5182051616089458
+      ],
+      "v0": [
+        0.07440531536914008,
+        0.528867927534575
+      ],
+      "command": [
+        0.5725800274847841,
+        -0.41152161892489425
+      ],
+      "final_state": [
+        -0.8715870069217203,
+        1.6484168600847136,
+        0.37800606127890557,
+        -0.0015151511290257547
+      ],
+      "tighter_state": [
+        -0.8715870069217447,
+        1.6484168600847726,
+        0.3780060612789055,
+        -0.001515151128958947
+      ],
+      "energy_work_error": -5.37556110735693e-14,
+      "tolerance_state_difference": 6.68076705068188e-14,
+      "nfev": 62
+    },
+    {
+      "q0": [
+        -0.6444818051295393,
+        1.3389821819959273
+      ],
+      "v0": [
+        -0.53529600075412,
+        0.24699455770013135
+      ],
+      "command": [
+        0.464560605004412,
+        0.6747997483691364
+      ],
+      "final_state": [
+        -0.9265775708441851,
+        1.5260328335598912,
+        -0.5925413978088557,
+        0.49277465832703277
+      ],
+      "tighter_state": [
+        -0.9265775708442349,
+        1.5260328335600277,
+        -0.5925413978088951,
+        0.4927746583270407
+      ],
+      "energy_work_error": 2.6367796834847468e-14,
+      "tolerance_state_difference": 1.3655743202889425e-13,
+      "nfev": 50
+    },
+    {
+      "q0": [
+        0.2111384465960917,
+        1.168931005642599
+      ],
+      "v0": [
+        -0.3284970488254075,
+        0.419775247475198
+      ],
+      "command": [
+        -0.9380134573782875,
+        0.43372943968559574
+      ],
+      "final_state": [
+        -0.04604457664559117,
+        1.5284757219439544,
+        -0.6860681962808299,
+        0.948615501472674
+      ],
+      "tighter_state": [
+        -0.04604457664544376,
+        1.5284757219437546,
+        -0.686068196280952,
+        0.9486155014729724
+      ],
+      "energy_work_error": -3.9979131116751887e-13,
+      "tolerance_state_difference": 2.9831692671677956e-13,
+      "nfev": 74
+    },
+    {
+      "q0": [
+        -0.7578248232163038,
+        -0.6649246120613048
+      ],
+      "v0": [
+        -0.2000600072318524,
+        -0.4518954030157625
+      ],
+      "command": [
+        -0.7306996734682774,
+        -0.7529245697616456
+      ],
+      "final_state": [
+        -0.8479412300104865,
+        -1.0001007938305984,
+        -0.20385913500267555,
+        -0.815531697690157
+      ],
+      "tighter_state": [
+        -0.8479412300104631,
+        -1.0001007938306925,
+        -0.20385913500271502,
+        -0.8155316976901392
+      ],
+      "energy_work_error": 7.105427357601002e-15,
+      "tolerance_state_difference": 9.414691248821327e-14,
+      "nfev": 74
+    },
+    {
+      "q0": [
+        -0.7571429190914865,
+        0.2500818498409241
+      ],
+      "v0": [
+        0.1749149655354849,
+        0.09502980620769896
+      ],
+      "command": [
+        0.5718378842736465,
+        0.6287985841005213
+      ],
+      "final_state": [
+        -0.7362197099316099,
+        0.5059797548422172,
+        -0.06045938484316357,
+        0.8661975418573292
+      ],
+      "tighter_state": [
+        -0.736219709931606,
+        0.5059797548422059,
+        -0.060459384843176575,
+        0.8661975418573569
+      ],
+      "energy_work_error": -8.076872504148014e-15,
+      "tolerance_state_difference": 2.7644553313166398e-14,
+      "nfev": 110
+    },
+    {
+      "q0": [
+        2.353259836257184,
+        -1.3166264987008216
+      ],
+      "v0": [
+        0.5007398793250047,
+        -0.012492967898981244
+      ],
+      "command": [
+        0.5913133689182317,
+        0.37090875180089133
+      ],
+      "final_state": [
+        2.585404301178953,
+        -1.2256287109461832,
+        0.409850803611862,
+        0.39388228983293977
+      ],
+      "tighter_state": [
+        2.5854043011789867,
+        -1.2256287109462451,
+        0.40985080361183157,
+        0.39388228983300855
+      ],
+      "energy_work_error": 1.3211653993039363e-14,
+      "tolerance_state_difference": 6.877831637552845e-14,
+      "nfev": 62
+    },
+    {
+      "q0": [
+        2.1503653180802207,
+        -0.46437738044924703
+      ],
+      "v0": [
+        0.43655900837595574,
+        -0.397754151335903
+      ],
+      "command": [
+        0.6474468767643027,
+        0.5275249485015563
+      ],
+      "final_state": [
+        2.325456252486313,
+        -0.5076008800335416,
+        0.26081644866140713,
+        0.22538835351717856
+      ],
+      "tighter_state": [
+        2.325456252486312,
+        -0.5076008800335364,
+        0.2608164486613704,
+        0.22538835351726527
+      ],
+      "energy_work_error": 7.355227538141662e-16,
+      "tolerance_state_difference": 8.670841822322473e-14,
+      "nfev": 98
+    },
+    {
+      "q0": [
+        -0.5788079454287933,
+        -1.9347735931358454
+      ],
+      "v0": [
+        -0.5948257280098372,
+        -0.5635296870870706
+      ],
+      "command": [
+        -0.7657365780507868,
+        0.2984422602878485
+      ],
+      "final_state": [
+        -0.9997068934001443,
+        -2.0389499433438063,
+        -1.04931201317672,
+        0.17166079314973237
+      ],
+      "tighter_state": [
+        -0.9997068934004587,
+        -2.0389499433435456,
+        -1.0493120131768547,
+        0.17166079314956978
+      ],
+      "energy_work_error": -2.4663604492047853e-13,
+      "tolerance_state_difference": 3.1441516057384433e-13,
+      "nfev": 74
+    },
+    {
+      "q0": [
+        -1.5763663925717655,
+        -1.952607937990507
+      ],
+      "v0": [
+        -0.01581725420580038,
+        -0.5362286993247045
+      ],
+      "command": [
+        0.010565850830705159,
+        -0.209237051108776
+      ],
+      "final_state": [
+        -1.59749181387028,
+        -2.2397161204120133,
+        -0.07669372214332743,
+        -0.6103568269392663
+      ],
+      "tighter_state": [
+        -1.5974918138702752,
+        -2.239716120412014,
+        -0.07669372214332669,
+        -0.6103568269392678
+      ],
+      "energy_work_error": -5.065392549852277e-16,
+      "tolerance_state_difference": 4.884981308350689e-15,
+      "nfev": 74
+    },
+    {
+      "q0": [
+        -2.71022019302075,
+        0.8774094949399025
+      ],
+      "v0": [
+        0.16015258289138423,
+        -0.011810096550234017
+      ],
+      "command": [
+        -0.10037356860284419,
+        0.30668837475784705
+      ],
+      "final_state": [
+        -2.67274764295202,
+        0.9780152910876961,
+        -0.0021522221664733443,
+        0.40065932362092893
+      ],
+      "tighter_state": [
+        -2.6727476429520247,
+        0.9780152910877178,
+        -0.0021522221664638016,
+        0.40065932362091944
+      ],
+      "energy_work_error": 5.093148125467906e-15,
+      "tolerance_state_difference": 2.1649348980190553e-14,
+      "nfev": 74
+    },
+    {
+      "q0": [
+        -2.441666241116209,
+        -0.48279604932295994
+      ],
+      "v0": [
+        0.30352997013790517,
+        -0.1710538097201451
+      ],
+      "command": [
+        0.7695315488993868,
+        -0.8686470957680428
+      ],
+      "final_state": [
+        -2.08722071678821,
+        -1.0196564095610265,
+        1.0014533416858427,
+        -1.6688297045774634
+      ],
+      "tighter_state": [
+        -2.0872207167883197,
+        -1.01965640956078,
+        1.0014533416858844,
+        -1.6688297045776042
+      ],
+      "energy_work_error": -2.4635848916432224e-13,
+      "tolerance_state_difference": 2.4646951146678475e-13,
+      "nfev": 122
+    },
+    {
+      "q0": [
+        -2.653885901475473,
+        -1.8922258621165475
+      ],
+      "v0": [
+        0.30624329720615084,
+        0.4981401106544764
+      ],
+      "command": [
+        0.3102260761045208,
+        0.5791173280712358
+      ],
+      "final_state": [
+        -2.559283235571323,
+        -1.517055728116695,
+        0.04101668387054411,
+        1.0379031483155172
+      ],
+      "tighter_state": [
+        -2.5592832355714266,
+        -1.5170557281165327,
+        0.04101668387038809,
+        1.0379031483155294
+      ],
+      "energy_work_error": 2.3389623571290485e-13,
+      "tolerance_state_difference": 1.6231460620019789e-13,
+      "nfev": 62
+    },
+    {
+      "q0": [
+        -1.5786717481913322,
+        -1.912580813752014
+      ],
+      "v0": [
+        0.20942195475246295,
+        -0.03393497222269759
+      ],
+      "command": [
+        0.0947943195816694,
+        -0.6852737246421905
+      ],
+      "final_state": [
+        -1.4373735921813973,
+        -2.0308539952939313,
+        0.35612898813943394,
+        -0.43062218650138423
+      ],
+      "tighter_state": [
+        -1.4373735921813533,
+        -2.030853995294107,
+        0.35612898813946414,
+        -0.4306221865013761
+      ],
+      "energy_work_error": 1.0795531135698866e-13,
+      "tolerance_state_difference": 1.758593271006248e-13,
+      "nfev": 62
+    },
+    {
+      "q0": [
+        1.6255993052736546,
+        -3.002313990511054
+      ],
+      "v0": [
+        -0.14265632795050143,
+        -0.4170170670400938
+      ],
+      "command": [
+        0.06342497433896876,
+        0.7018250780142934
+      ],
+      "final_state": [
+        1.5596206250733293,
+        -3.122909497882555,
+        -0.11769240125545523,
+        -0.06555939334695399
+      ],
+      "tighter_state": [
+        1.5596206250732743,
+        -3.122909497882561,
+        -0.11769240125545409,
+        -0.06555939334694573
+      ],
+      "energy_work_error": -7.438494264988549e-15,
+      "tolerance_state_difference": 5.5067062021407764e-14,
+      "nfev": 62
+    },
+    {
+      "q0": [
+        1.521883948765275,
+        -0.37349413348189664
+      ],
+      "v0": [
+        0.08650683429844441,
+        -0.1615502783754713
+      ],
+      "command": [
+        0.43819710931827327,
+        0.9836834775179202
+      ],
+      "final_state": [
+        1.3929125734491357,
+        0.0051132550884096795,
+        -0.6380624032586037,
+        1.759030095462796
+      ],
+      "tighter_state": [
+        1.3929125734489423,
+        0.005113255088865738,
+        -0.6380624032588126,
+        1.7590300954632947
+      ],
+      "energy_work_error": 1.9828583219805296e-13,
+      "tolerance_state_difference": 4.987121826616203e-13,
+      "nfev": 158
+    },
+    {
+      "q0": [
+        1.3792701756323593,
+        -2.915655385792187
+      ],
+      "v0": [
+        0.2421708081490117,
+        0.5751230161374311
+      ],
+      "command": [
+        -0.7266906262541046,
+        -0.7649574849515277
+      ],
+      "final_state": [
+        1.4105653695503577,
+        -2.7188508584472233,
+        -0.09613020340713285,
+        0.2136439809780893
+      ],
+      "tighter_state": [
+        1.4105653695529567,
+        -2.718850858447475,
+        -0.09613020340654552,
+        0.2136439809781269
+      ],
+      "energy_work_error": -1.659256065877912e-12,
+      "tolerance_state_difference": 2.5990321006474915e-12,
+      "nfev": 98
+    },
+    {
+      "q0": [
+        2.982595475478335,
+        2.4234966450349953
+      ],
+      "v0": [
+        0.2551974106129763,
+        -0.2613614400049193
+      ],
+      "command": [
+        0.2259828767188734,
+        -0.9533445810465764
+      ],
+      "final_state": [
+        3.150046202620062,
+        2.153280332853276,
+        0.4244583480183437,
+        -0.8372988985373543
+      ],
+      "tighter_state": [
+        3.1500462026202287,
+        2.1532803328529764,
+        0.4244583480182956,
+        -0.8372988985372252
+      ],
+      "energy_work_error": 4.795053243356051e-13,
+      "tolerance_state_difference": 2.9976021664879227e-13,
+      "nfev": 86
+    },
+    {
+      "q0": [
+        -0.4918342463105154,
+        -0.2512908672312735
+      ],
+      "v0": [
+        -0.46624680559928244,
+        -0.2203645636601932
+      ],
+      "command": [
+        -0.656263621243357,
+        0.2465185209577747
+      ],
+      "final_state": [
+        -0.8784255681485875,
+        -0.015521725181501854,
+        -1.079589701201916,
+        1.1669713508873918
+      ],
+      "tighter_state": [
+        -0.8784255681488531,
+        -0.015521725180866502,
+        -1.0795897012019966,
+        1.1669713508876065
+      ],
+      "energy_work_error": 3.0270230766404893e-13,
+      "tolerance_state_difference": 6.353511466938855e-13,
+      "nfev": 146
+    },
+    {
+      "q0": [
+        -2.384910971948691,
+        -1.2961926994788102
+      ],
+      "v0": [
+        -0.276409073674369,
+        -0.3548429973229271
+      ],
+      "command": [
+        -0.8849713430876696,
+        0.9040946950131163
+      ],
+      "final_state": [
+        -2.670669371461217,
+        -1.144559046919609,
+        -0.8706807855114349,
+        1.0324556439535764
+      ],
+      "tighter_state": [
+        -2.670669371461211,
+        -1.1445590469195612,
+        -0.8706807855115767,
+        1.0324556439540118
+      ],
+      "energy_work_error": -1.3700152123874432e-13,
+      "tolerance_state_difference": 4.354294702579864e-13,
+      "nfev": 110
+    },
+    {
+      "q0": [
+        -0.962829789700776,
+        1.2929410123288312
+      ],
+      "v0": [
+        -0.3746607474828101,
+        0.20041864410692878
+      ],
+      "command": [
+        0.9904449588950357,
+        -0.8191162124942051
+      ],
+      "final_state": [
+        -1.0057538806458486,
+        1.0979129819001479,
+        0.23899582586873477,
+        -1.03994483300584
+      ],
+      "tighter_state": [
+        -1.0057538806458368,
+        1.0979129819001223,
+        0.238995825868796,
+        -1.039944833005968
+      ],
+      "energy_work_error": -1.740274591099933e-14,
+      "tolerance_state_difference": 1.2789769243681803e-13,
+      "nfev": 122
+    },
+    {
+      "q0": [
+        -1.1938691764914127,
+        2.99726388875973
+      ],
+      "v0": [
+        -0.5733358919320007,
+        -0.2460024848451513
+      ],
+      "command": [
+        -0.2463986062367629,
+        -0.12622356703261128
+      ],
+      "final_state": [
+        -1.5003260168913042,
+        2.8502377252530877,
+        -0.6422179134916061,
+        -0.3479825746561551
+      ],
+      "tighter_state": [
+        -1.5003260168914672,
+        2.850237725253144,
+        -0.6422179134916708,
+        -0.3479825746562736
+      ],
+      "energy_work_error": -4.833633493461775e-14,
+      "tolerance_state_difference": 1.6298074001497298e-13,
+      "nfev": 62
+    },
+    {
+      "q0": [
+        2.5381411797319,
+        0.8566660672476067
+      ],
+      "v0": [
+        -0.2474042654137208,
+        0.13602140257388406
+      ],
+      "command": [
+        -0.11059225201524736,
+        -0.7285984318527303
+      ],
+      "final_state": [
+        2.5118125347890943,
+        0.6686762161138887,
+        0.17577679860910095,
+        -0.9523772203841209
+      ],
+      "tighter_state": [
+        2.511812534788678,
+        0.6686762161147929,
+        0.17577679860981676,
+        -0.952377220385953
+      ],
+      "energy_work_error": -1.23681620500804e-12,
+      "tolerance_state_difference": 1.8320900352364333e-12,
+      "nfev": 110
+    },
+    {
+      "q0": [
+        -1.5362329602002858,
+        -1.8381580549620606
+      ],
+      "v0": [
+        -0.05047931500794267,
+        0.3140978957990258
+      ],
+      "command": [
+        0.5567095485387346,
+        0.677945473930833
+      ],
+      "final_state": [
+        -1.5697606946572555,
+        -1.5889573101652008,
+        -0.10266701808658667,
+        0.7017213674768452
+      ],
+      "tighter_state": [
+        -1.569760694657272,
+        -1.5889573101651602,
+        -0.10266701808660032,
+        0.7017213674768432
+      ],
+      "energy_work_error": 2.761679773755077e-14,
+      "tolerance_state_difference": 4.063416270128073e-14,
+      "nfev": 74
+    }
+  ],
+  "coupling_examples": [
+    {
+      "q2": 0.0,
+      "inverse_inertia": [
+        [
+          1.0000000000000002,
+          -2.0000000000000004
+        ],
+        [
+          -2.0000000000000004,
+          5.000000000000001
+        ]
+      ],
+      "command": [
+        0.0,
+        1.0
+      ],
+      "displacement": [
+        -0.0024999749357405123,
+        0.006249941408258401
+      ],
+      "short_pulse_response": [
+        -1.9999799485924095,
+        4.99995312660672
+      ]
+    },
+    {
+      "q2": 3.141592653589793,
+      "inverse_inertia": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "command": [
+        0.0,
+        1.0
+      ],
+      "displacement": [
+        -3.2552050348876165e-10,
+        0.0012500000000001954
+      ],
+      "short_pulse_response": [
+        -2.6041640279100926e-07,
+        1.000000000000156
+      ]
+    }
+  ],
+  "summary": {
+    "rest_pulse_episodes": 153,
+    "rest_environment_integration_time": 8.925,
+    "general_energy_episodes": 24,
+    "general_environment_integration_time": 12.0,
+    "maximum_energy_work_error": 1.659256065877912e-12,
+    "maximum_tighter_solver_state_difference": 2.5990321006474915e-12,
+    "minimum_inertia_eigenvalue": 0.17157287525380993,
+    "maximum_linearized_target_torque": 0.5,
+    "target_acceleration_vectors": [
+      [
+        0.1,
+        0.0
+      ],
+      [
+        0.0,
+        0.1
+      ],
+      [
+        0.1,
+        -0.1
+      ],
+      [
+        -0.1,
+        0.1
+      ],
+      [
+        0.05,
+        0.1
+      ]
+    ],
+    "generic_pose_error_ratios": [
+      {
+        "q2": -3.141592653589793,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          2.168404344971009e-18,
+          2.8297676701871666e-17,
+          7.074419175467916e-18
+        ],
+        "coarse_over_middle": 0.07662835249042145,
+        "middle_over_fine": 4.0
+      },
+      {
+        "q2": -3.141592653589793,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          4.499973726984178e-09,
+          7.031247806211241e-11,
+          1.098676705191831e-12
+        ],
+        "coarse_over_middle": 63.999646307572974,
+        "middle_over_fine": 63.99742319997193
+      },
+      {
+        "q2": -3.141592653589793,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          6.363927682497781e-09,
+          9.943697783655161e-11,
+          1.5537242455827842e-12
+        ],
+        "coarse_over_middle": 63.99960880708194,
+        "middle_over_fine": 63.99911574994695
+      },
+      {
+        "q2": -2.748893571891069,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          9.047463881196347e-07,
+          5.6555520183347295e-08,
+          3.534858755943109e-09
+        ],
+        "coarse_over_middle": 15.997490345531933,
+        "middle_over_fine": 15.99937199421654
+      },
+      {
+        "q2": -2.748893571891069,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          1.3292246545951895e-06,
+          8.299747754534151e-08,
+          5.186102588409483e-09
+        ],
+        "coarse_over_middle": 16.01524159416814,
+        "middle_over_fine": 16.003824862785034
+      },
+      {
+        "q2": -2.748893571891069,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          1.9114669051174296e-06,
+          1.1959348573562778e-07,
+          7.476567918604468e-09
+        ],
+        "coarse_over_middle": 15.983035307984084,
+        "middle_over_fine": 15.995773333113839
+      },
+      {
+        "q2": -2.356194490192345,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          1.0377337586181931e-06,
+          6.486204580633804e-08,
+          4.053935425413383e-09
+        ],
+        "coarse_over_middle": 15.999090773618342,
+        "middle_over_fine": 15.999772813284022
+      },
+      {
+        "q2": -2.356194490192345,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          1.7280573536814643e-06,
+          1.0796912079445301e-07,
+          6.747532535383478e-09
+        ],
+        "coarse_over_middle": 16.005107209970394,
+        "middle_over_fine": 16.001274573819728
+      },
+      {
+        "q2": -2.356194490192345,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          2.6093204983358564e-06,
+          1.631760077301949e-07,
+          1.019996448805639e-08
+        ],
+        "coarse_over_middle": 15.990834281533994,
+        "middle_over_fine": 15.997703513699998
+      },
+      {
+        "q2": -1.9634954084936207,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          9.512626428189307e-07,
+          5.94546764098925e-08,
+          3.7159293082379436e-09
+        ],
+        "coarse_over_middle": 15.999795142449935,
+        "middle_over_fine": 15.999948190103032
+      },
+      {
+        "q2": -1.9634954084936207,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          2.6153328262345786e-06,
+          1.632980369631622e-07,
+          1.0203628384499895e-08
+        ],
+        "coarse_over_middle": 16.015702790258047,
+        "middle_over_fine": 16.00391848954678
+      },
+      {
+        "q2": -1.9634954084936207,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          4.3808398955651735e-06,
+          2.7422022857760655e-07,
+          1.714530785161064e-08
+        ],
+        "coarse_over_middle": 15.97562629966724,
+        "middle_over_fine": 15.99389354515709
+      },
+      {
+        "q2": -1.5707963267948966,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          1.124550712626015e-06,
+          7.030547140602213e-08,
+          4.394421268536772e-09
+        ],
+        "coarse_over_middle": 15.995209051819115,
+        "middle_over_fine": 15.998801004672913
+      },
+      {
+        "q2": -1.5707963267948966,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          5.220953340173687e-06,
+          3.257801842982941e-07,
+          2.0353008842562466e-08
+        ],
+        "coarse_over_middle": 16.026000327242816,
+        "middle_over_fine": 16.006487631303855
+      },
+      {
+        "q2": -1.5707963267948966,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          9.457520463570326e-06,
+          5.924679213448229e-07,
+          3.705076268387433e-08
+        ],
+        "coarse_over_middle": 15.962924105836851,
+        "middle_over_fine": 15.990707840480805
+      },
+      {
+        "q2": -1.1780972450961724,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          2.0514383915537817e-06,
+          1.283169738917639e-07,
+          8.021407937003814e-09
+        ],
+        "coarse_over_middle": 15.987272216099655,
+        "middle_over_fine": 15.99681438713779
+      },
+      {
+        "q2": -1.1780972450961724,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          1.2012263770825861e-05,
+          7.489830340755055e-07,
+          4.6783656621199915e-08
+        ],
+        "coarse_over_middle": 16.03809862749828,
+        "middle_over_fine": 16.009501782639738
+      },
+      {
+        "q2": -1.1780972450961724,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          2.2638122256695364e-05,
+          1.4196032508893692e-06,
+          8.879926766349144e-08
+        ],
+        "coarse_over_middle": 15.94679516443258,
+        "middle_over_fine": 15.986654938067906
+      },
+      {
+        "q2": -0.7853981633974483,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          4.5889982863021175e-06,
+          2.871265779666214e-07,
+          1.7950323162851324e-08
+        ],
+        "coarse_over_middle": 15.982492177493898,
+        "middle_over_fine": 15.995621658825483
+      },
+      {
+        "q2": -0.7853981633974483,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          2.8141745345118308e-05,
+          1.753889587362518e-06,
+          1.095405431365048e-07
+        ],
+        "coarse_over_middle": 16.045334636735937,
+        "middle_over_fine": 16.01132819997884
+      },
+      {
+        "q2": -0.7853981633974483,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          5.414375583199597e-05,
+          3.3975182044290743e-06,
+          2.1255674405424136e-07
+        ],
+        "coarse_over_middle": 15.936266584653781,
+        "middle_over_fine": 15.984052726937131
+      },
+      {
+        "q2": -0.39269908169872414,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          7.440851542059606e-06,
+          4.6479564313820306e-07,
+          2.9045613034529166e-08
+        ],
+        "coarse_over_middle": 16.008866803958252,
+        "middle_over_fine": 16.00226659308785
+      },
+      {
+        "q2": -0.39269908169872414,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          4.5112068083344156e-05,
+          2.823963636626506e-06,
+          1.7656387770485354e-07
+        ],
+        "coarse_over_middle": 15.974734057565566,
+        "middle_over_fine": 15.994005531228082
+      },
+      {
+        "q2": -0.39269908169872414,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          8.896646843396163e-05,
+          5.550374059958025e-06,
+          3.4672857426939327e-07
+        ],
+        "coarse_over_middle": 16.02891399262457,
+        "middle_over_fine": 16.007835730451283
+      },
+      {
+        "q2": 0.0,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          5.815793432635891e-08,
+          9.087447650599094e-10,
+          1.4199163012622337e-11
+        ],
+        "coarse_over_middle": 63.99809557365079,
+        "middle_over_fine": 63.99988254604031
+      },
+      {
+        "q2": 0.0,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          8.808272495255692e-07,
+          1.3765466657564473e-08,
+          2.1508791917173184e-10
+        ],
+        "coarse_over_middle": 63.98818662944001,
+        "middle_over_fine": 63.99925533043891
+      },
+      {
+        "q2": 0.0,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          2.4245701573627576e-06,
+          3.78976488527986e-08,
+          5.921641947514132e-10
+        ],
+        "coarse_over_middle": 63.97679620654652,
+        "middle_over_fine": 63.998548356520935
+      },
+      {
+        "q2": 0.39269908169872414,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          7.429532417305927e-06,
+          4.6461879809578235e-07,
+          2.9042849876224617e-08
+        ],
+        "coarse_over_middle": 15.990597986468705,
+        "middle_over_fine": 15.99769995285944
+      },
+      {
+        "q2": 0.39269908169872414,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          4.528963186219774e-05,
+          2.826736528217303e-06,
+          1.7660720265313967e-07
+        ],
+        "coarse_over_middle": 16.021879439453773,
+        "middle_over_fine": 16.005782809261035
+      },
+      {
+        "q2": 0.39269908169872414,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          8.8490127564501e-05,
+          5.542939542437187e-06,
+          3.4661241806319844e-07
+        ],
+        "coarse_over_middle": 15.964476409495994,
+        "middle_over_fine": 15.991751170976608
+      },
+      {
+        "q2": 0.7853981633974483,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          4.602413862804692e-06,
+          2.873361973480397e-07,
+          1.795359841810468e-08
+        ],
+        "coarse_over_middle": 16.017522001343806,
+        "middle_over_fine": 16.00437921449137
+      },
+      {
+        "q2": 0.7853981633974483,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          2.793005892541911e-05,
+          1.7505818841438238e-06,
+          1.0948886017291721e-07
+        ],
+        "coarse_over_middle": 15.95472864103079,
+        "middle_over_fine": 15.988675755497924
+      },
+      {
+        "q2": 0.7853981633974483,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          5.472257711587045e-05,
+          3.4065628183831123e-06,
+          2.126980666028535e-07
+        ],
+        "coarse_over_middle": 16.06386848954217,
+        "middle_over_fine": 16.015955729131253
+      },
+      {
+        "q2": 1.178097245096172,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          2.055801352064046e-06,
+          1.2838514499661472e-07,
+          8.022473036096831e-09
+        ],
+        "coarse_over_middle": 16.012766524649358,
+        "middle_over_fine": 16.003188096606912
+      },
+      {
+        "q2": 1.178097245096172,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          1.1936472696680547e-05,
+          7.477988076648631e-07,
+          4.676515310514708e-08
+        ],
+        "coarse_over_middle": 15.962144596023547,
+        "middle_over_fine": 15.990513406071981
+      },
+      {
+        "q2": 1.178097245096172,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          2.2840649532998037e-05,
+          1.4227676914190712e-06,
+          8.884871192979412e-08
+        ],
+        "coarse_over_middle": 16.053674588447205,
+        "middle_over_fine": 16.01337442621908
+      },
+      {
+        "q2": 1.5707963267948966,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          1.1254507143228498e-06,
+          7.031953396351596e-08,
+          4.3946410997971335e-09
+        ],
+        "coarse_over_middle": 16.004809060691013,
+        "middle_over_fine": 16.001200636557574
+      },
+      {
+        "q2": 1.5707963267948966,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          5.198435570264538e-06,
+          3.254283460987846e-07,
+          2.0347511342471704e-08
+        ],
+        "coarse_over_middle": 15.974132654954833,
+        "middle_over_fine": 15.99352081055301
+      },
+      {
+        "q2": 1.5707963267948966,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          9.516339471124408e-06,
+          5.93386958930138e-07,
+          3.7065122708798084e-08
+        ],
+        "coarse_over_middle": 16.037324932590586,
+        "middle_over_fine": 16.00930782266874
+      },
+      {
+        "q2": 1.9634954084936211,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          9.51295270830707e-07,
+          5.9455186084797665e-08,
+          3.7159370755922863e-09
+        ],
+        "coarse_over_middle": 16.000206768740526,
+        "middle_over_fine": 16.000051904894285
+      },
+      {
+        "q2": 1.9634954084936211,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          2.6085137156484782e-06,
+          1.6319148863639244e-07,
+          1.0201963498476065e-08
+        ],
+        "coarse_over_middle": 15.984373556763842,
+        "middle_over_fine": 15.996086308363036
+      },
+      {
+        "q2": 1.9634954084936211,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          4.398722813163616e-06,
+          2.744996476020779e-07,
+          1.7149673761647688e-08
+        ],
+        "coarse_over_middle": 16.024511694601966,
+        "middle_over_fine": 16.00611483443781
+      },
+      {
+        "q2": 2.356194490192345,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          1.0378907597163306e-06,
+          6.486449880716234e-08,
+          4.053973779876522e-09
+        ],
+        "coarse_over_middle": 16.000906178307304,
+        "middle_over_fine": 16.000226525672794
+      },
+      {
+        "q2": 2.356194490192345,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          1.7265903521255524e-06,
+          1.0794619921778431e-07,
+          6.747174335053124e-09
+        ],
+        "coarse_over_middle": 15.994915658328189,
+        "middle_over_fine": 15.998726853251583
+      },
+      {
+        "q2": 2.356194490192345,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          2.613322032480516e-06,
+          1.6323853115453784e-07,
+          1.020094163550559e-08
+        ],
+        "coarse_over_middle": 16.009222908324784,
+        "middle_over_fine": 16.002300276512386
+      },
+      {
+        "q2": 2.7488935718910685,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          9.051256155244483e-07,
+          5.65614459124094e-08,
+          3.53495127140506e-09
+        ],
+        "coarse_over_middle": 16.002519046739337,
+        "middle_over_fine": 16.00062958998797
+      },
+      {
+        "q2": 2.7488935718910685,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          1.3258353369115867e-06,
+          8.294451971966624e-08,
+          5.1852750964919285e-09
+        ],
+        "coarse_over_middle": 15.984604424651694,
+        "middle_over_fine": 15.996165714675762
+      },
+      {
+        "q2": 2.7488935718910685,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          1.916853658621682e-06,
+          1.1967765305497165e-07,
+          7.477882673161157e-09
+        ],
+        "coarse_over_middle": 16.01680522378904,
+        "middle_over_fine": 16.004216472198248
+      },
+      {
+        "q2": 3.141592653589793,
+        "command": [
+          0.6,
+          0.0
+        ],
+        "errors": [
+          2.168404344971009e-18,
+          2.8297676701871666e-17,
+          7.074419175467916e-18
+        ],
+        "coarse_over_middle": 0.07662835249042145,
+        "middle_over_fine": 4.0
+      },
+      {
+        "q2": 3.141592653589793,
+        "command": [
+          0.0,
+          0.6
+        ],
+        "errors": [
+          4.499973726984178e-09,
+          7.031247806211241e-11,
+          1.098676705191831e-12
+        ],
+        "coarse_over_middle": 63.999646307572974,
+        "middle_over_fine": 63.99742319997193
+      },
+      {
+        "q2": 3.141592653589793,
+        "command": [
+          0.6,
+          -0.6
+        ],
+        "errors": [
+          6.363927682497781e-09,
+          9.943697783655161e-11,
+          1.5537242455827842e-12
+        ],
+        "coarse_over_middle": 63.99960880708194,
+        "middle_over_fine": 63.99911574994695
+      }
+    ]
+  }
+}
