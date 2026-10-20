@@ -1,0 +1,40 @@
+{
+  "status": "UNRELEASED PILOT ARTIFACT INDEPENDENTLY VERIFIED; fair learning comparison pending",
+  "training_episodes_independently_replayed": 768,
+  "fresh_test_episodes_independently_replayed": 32,
+  "independent_CEM_seeds": 8,
+  "candidate_policies_checked": 384,
+  "physical_training_steps_per_seed": 8256,
+  "maximum_absolute_errors": {
+    "physical_states": 1.0658141036401503e-13,
+    "observations": 1.0658141036401503e-13,
+    "commands": 4.107825191113079e-15,
+    "goals": 0.0,
+    "observed_fitness": 1.1368683772161603e-13,
+    "evaluator_metrics": 4.547473508864641e-13,
+    "CEM_coordinates": 0.0,
+    "CEM_gains": 0.0,
+    "summary": 0.0,
+    "quadrature": 2.991579206579331e-12,
+    "counterexample_MC": 2.7755575615628914e-17
+  },
+  "independent_adaptive_quadrature_cross_moment": 0.12114110192043179,
+  "adaptive_quadrature_reported_error": 7.182777577324503e-14,
+  "million_sample_contrast_standard_errors_from_expectation": [
+    -0.7148195861945086,
+    -0.6886596289817875,
+    -0.5751379632842498
+  ],
+  "scope": [
+    "CEM gain generation, elite updates and globalbest selection reconstructed using observed arrays/fitness only.",
+    "True theta/state/evaluator loss are simulator/scorer data and never used for candidate ranking.",
+    "Every training candidate uses fresh unique sensor streams; incumbent coordinates are reevaluated with new noise.",
+    "Fresh test policy is fixed before its independent test noise; finite training winner fitness remains optimistic.",
+    "Expected1.6R offset requires lagged action timing, additive iid sensing, and goals/normalization exogenous to current sensor errors.",
+    "Motor-first bounded contrast has policy-dependent bias; this observation-loss bridge is not universal.",
+    "Control and motor disturbance continue all86 test steps; no v10/v11 forced coast is used.",
+    "Fixed PD is descriptive and weak; same-data model-based competitors and richer controller families remain required.",
+    "Eight independent training-seed clusters determine MC SE after averaging two test tasks.",
+    "No complete learning-method comparison, competitive robotics claim or general mechanism established."
+  ]
+}
