@@ -22,8 +22,8 @@ an ownership or novelty requirement. Known-method screenings and baselines remai
 useful work without becoming our proposed new mechanism.
 
 **Current state:** v17 is the latest verified ledger. There is no demonstrated
-breakthrough, reliable general learner or competitive framework. The campaign is
-paused at the user's request. This instructions revision does not resume it.
+breakthrough, reliable general learner or competitive framework. The user resumed the mechanism campaign through a replacement Goal on
+2026-10-20. Follow research/campaign_plan.md and current handoff state.
 Read `research/campaign_goal.md` and the newest opening of
 `research/continuation_handoff.md` for the operational objective and pause state.
 Historical instructions to continue immediately do not override a user pause.

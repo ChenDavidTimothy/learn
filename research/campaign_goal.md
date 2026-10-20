@@ -1,9 +1,9 @@
 # Revised campaign goal: construct a consequential learning mechanism
 
 2026-10-20. User-authorized course correction after v17. This is the operational
-objective for the next campaign, governed by AGENTS.md. Research remains PAUSED
-until the user resumes it. This file is not a claim that the app's stored Goal
-text has been replaced, and it does not launch a new campaign.
+objective for the next campaign, governed by AGENTS.md. The user resumed on 2026-10-20 through a replacement Goal attachment.
+The actual current campaign is described in research/campaign_plan.md; the
+ultimate objective remains unachieved.
 
 ## Ultimate objective
 

@@ -1,0 +1,70 @@
+{
+  "status": "COMPLETE EXPLORATORY CROSS-BODY DATA; NO FIT/TEST VALUE INSPECTED",
+  "source_sha256": "168e71018edbd00a44d06538d7593dca90ec28476cbf88f452ec225e0f3bb4b8",
+  "ordinary_sha256": "9df86c1cb3d1d8566279d0085b448610d2f188972c02c0bec47a8ea770bfabb7",
+  "evaluator_sha256": "22f01e3cc15179e545933ee5fe5d3f660af417707830209d2d4e4a6a7a0b9831",
+  "seed_roles": [
+    20261020,
+    18,
+    10,
+    "split",
+    "parameter0/initial1/action2"
+  ],
+  "splits": {
+    "train": 32,
+    "validation": 8,
+    "test_id": 8,
+    "test_ood": 8
+  },
+  "trajectories_per_body": 8,
+  "steps": 96,
+  "dt": 0.05,
+  "physical_intervals": 43008,
+  "simulated_seconds": 2150.4,
+  "measurement": "Exact observed q/v and issued actions; finite observed delta-v/dt targets, no derivative/model labels. Simplified noiseless exploratory screen.",
+  "supplied_features": "sin/cos both q, both v, issued u; grouped same-body trajectories",
+  "checks": {
+    "unit_rhs_max": 4.440892098500626e-16,
+    "unit_step_refinement": [
+      [
+        4.972019462812227e-10,
+        3.10402814562849e-11,
+        1.9386714456004484e-12
+      ],
+      [
+        1.3320733405208784e-10,
+        8.350875546625502e-12,
+        5.225819776910612e-13
+      ],
+      [
+        4.964251232308925e-12,
+        3.0941915696303113e-13,
+        1.9317880628477724e-14
+      ],
+      [
+        5.612440512337002e-10,
+        3.514660784631474e-11,
+        2.198075055304116e-12
+      ],
+      [
+        2.86780710290202e-10,
+        1.8070656082613823e-11,
+        1.13464793116691e-12
+      ],
+      [
+        9.515310761543105e-11,
+        5.9472426983120386e-12,
+        3.717026686445024e-13
+      ]
+    ],
+    "generalized_flow_spot_errors": [
+      3.1472602302073938e-12,
+      1.1099898777899853e-11,
+      1.2701402429815545e-12,
+      5.230352262408644e-11,
+      7.047140648808181e-13,
+      1.5240653183923314e-10
+    ]
+  },
+  "wall_seconds": 0.9307799339294434
+}

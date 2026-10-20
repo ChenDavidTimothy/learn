@@ -1,3 +1,102 @@
+# ACTIVE Goal: first post-v17 candidate rejected quickly; no v18 ledger
+
+2026-10-20. The user resumed the revised Goal through the new attachment. The
+first bounded mechanism attempt is complete; the broad Goal remains ACTIVE and
+unresolved. Do not pause, complete or block the Goal because this candidate lost.
+Do not continue the retired candidate either. No experiment process is running.
+
+Actual progress: implemented a learned residual-conditioned matrix transport
+update plus matched separable MetaFun-family updater, ALPaCA predictive-NLL core,
+CoDA full-network low-rank contextual core and pooled/fine-tuning baseline. All
+five methods trained at both prespecified learning rates, 2000steps, one seed.
+Training/validation/test body separation and bounded prefit checks pass.
+Strongest competitors substantially outperform the candidate on held-out dynamics:
+OOD support16/64 scaled MSE joint .750616/.640077 versus CoDA .359611/.306448,
+ALPaCA .459555/.378381 and separable .677843/.604399. Candidate fails the frozen
+10% improvement criterion. Correct support helps but extra complexity does not.
+Retire it: no additional steps/seeds/architecture tuning/controller rollouts.
+
+Read error_transport_screen_findings.md and the decision prepended to
+campaign_plan.md. The original plan/protocol remains intact below that decision.
+Independent check_error_transport_screen_results.py/.json/.md verifies all raw
+forecast MSEs and recorded selection/provenance, with explicit finite scope. It
+adds no fits, physical rollouts or full network replay. No originality or general
+robotics/competitive framework is claimed. No new ledger is justified.
+
+Data: error_transport_screen_data*.npz/_report.json, 56 physical bodies
+(32train/8val/8ID/8out-of-range),448trajectories,43008intervals/2150.4simsec.
+Fully observed exact q/v and measured delta-v/dt, no true-parameter labels.
+Hidden masses/lengths/damping/gains/coupling vary. This removes v17 camera
+ambiguity to isolate update learning; not evidence of less supplied intelligence.
+All source/data/10fit reports+weights/raw test predictions and fixtures remain.
+Models use existing ownerGPU/project.venv, no dependency or service changes.
+
+Next scientific decision: identify an independent consequential limitation of
+acquiring transferable knowledge from experience and derive a candidate operation
+that addresses it. The first screen shows standard learned-prior and context
+adaptation are strong, not that functional updates generally fail. Do not select
+another architecture merely to keep running. Do not infer a need for update
+rejection or switching-task detection from aggregate errors when current strong
+baselines adapt normally. Grouped-body/trajectory identity is still supplied;
+removing such a condition could be a legitimate independent research question,
+but first check its actual relevance and established solutions, not manufacture
+a task just to rescue a favorite mechanism. Any next candidate needs its own
+bounded proposal/falsifier and serious modern competitor, not another ledger.
+
+Latest verified scientific ledger v17 remains immutable at cd97e105... . All v17
+release checks/historical evidence are preserved. Research now produces actual
+candidate/comparator code and promptly accepts defeat, unlike the old exhaustive
+physics/audit loop. Commit/push this verified negative progress over SSH, verify
+remote, and continue the active objective with consequence-based judgment.
+
+---
+
+# ACTIVE: replacement Goal resumed the mechanism-focused campaign
+
+2026-10-20. The user supplied a new active Goal attachment at
+/home/dtdav/.codex/attachments/80880570-6653-4aa2-81e5-9266b707e227/goal-objective.md.
+It explicitly asks for consequential versions toward an actual learning mechanism.
+Copied PAUSED paragraphs in that attachment were historical, not a new pause.
+Current AGENTS.md, campaign_goal.md and campaign_plan.md govern the resumed work.
+Latest verified ledger remains v17; no v18 release or breakthrough is claimed.
+
+Selected mechanism hypothesis: learn a residual-conditioned signed matrix for
+transporting an observed error into prediction corrections at other inputs.
+This is a scoped MetaFun-family variation, not a new framework by naming.
+The early critic rejected centered-command loss as a transfer mechanism and
+identified MetaFun as direct prior art. A matched separable MetaFun-style update,
+ALPaCA predictive-NLL core, CoDA whole-network hypernetwork core and ordinary
+pooled/fine-tuning comparisons are executable. CoDA transition regression differs
+from the original integrated-trajectory loss and is disclosed. No modern-method
+or full published-benchmark superiority is claimed.
+
+Data: error_transport_screen_data.npz, 32 train/8 val/8 held-out ID/8 held-out
+out-of-range bodies, 8 trajectories x96 intervals each, 43008 intervals/2150.4sec.
+Masses/lengths/damping/actuator gains/coupling vary. Fully observed exact q/v,
+finite observed delta-v/dt targets; physical parameters evaluator-only.
+Noiseless screening deliberately isolates updating; not a sensor improvement.
+Root source baselinephysics checks pass. No historical full-trajectory audit.
+
+Source/plan: error_transport_data.py, error_transport_model.py,
+error_transport_baselines.py, error_transport_screen.py, campaign_plan.md.
+Baseline posterior/functional/gradient fixtures PASS; independent candidate/dataflow
+fixtures finishing, no source-review leakage blocker. Root smoke backward finite.
+First two joint candidate fits (LR .001/.003, seed0, 2000steps) are running with
+logs error_transport_screen_joint_lr*_seed0_run.log. Check actual process/session
+state before continuing; no test scores yet. All methods must receive both rates
+and validation-only checkpoint/adaptation tuning before scoring test outcomes.
+Independent critic must decide continue/pivot/retire at first discriminating result.
+The screen threshold and support0/4/16/64, wrong-system ablation, matched comparator
+and constraints are in campaign_plan.md, fixed before fitting. No controller work
+is owed if the candidate fails. Do not rescue from held-out outcomes.
+
+Existing owner PC, project.venv, Torch GPU RTX3060Ti8GB. No dependencies/services
+installed. Preserve v17 release immutable; read-only builder --check remains
+available. Need save actual fit/results, proportionate independent review, then
+commit/push verified progress and verify SSH remote. Goal unresolved/ACTIVE.
+
+---
+
 # PAUSED — research direction and campaign instructions revised after v17
 
 2026-10-20, Europe/Berlin. The user challenged the effectiveness of five hours of

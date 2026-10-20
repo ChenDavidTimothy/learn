@@ -1,0 +1,94 @@
+{
+  "status": "PASS SMALL PREFIT MODEL/DATAFLOW FIXTURES; NOT CAPABILITY EVIDENCE",
+  "checks": {
+    "ErrorTransport": {
+      "zero_support_maxerror": 0.0,
+      "zero_residual_maxerror": 5.551115123125783e-17,
+      "support_permutation_maxerror": 1.1102230246251565e-16,
+      "query_permutation_maxerror": 0.0,
+      "chunk_maxerror": 5.551115123125783e-17,
+      "batch_separation_maxerror": 0.0,
+      "input_gradcheck": true,
+      "parameter_direction_error": 2.8437807664261072e-11,
+      "finite_gradient_norms": {
+        "gates": 0.029825017746943655,
+        "base.0.weight": 0.07699576859740345,
+        "base.0.bias": 0.13813273973598236,
+        "base.2.weight": 0.2634039266679649,
+        "base.2.bias": 0.3018595310067935,
+        "base.4.weight": 0.3427663627498429,
+        "base.4.bias": 0.7352225100362615,
+        "encode.0.weight": 0.030299564745625427,
+        "encode.0.bias": 0.01137868158049415,
+        "encode.2.weight": 0.061229113509260046,
+        "encode.2.bias": 0.042615355526416966,
+        "encode.4.weight": 0.09711305991911517,
+        "encode.4.bias": 0.10255148678428355,
+        "operator.0.weight": 1.0206504970509966,
+        "operator.0.bias": 0.27368051331600124,
+        "operator.2.weight": 0.44307625064724815,
+        "operator.2.bias": 0.45221715937086593
+      }
+    },
+    "SeparableTransport": {
+      "zero_support_maxerror": 0.0,
+      "zero_residual_maxerror": 4.163336342344337e-17,
+      "support_permutation_maxerror": 2.7755575615628914e-17,
+      "query_permutation_maxerror": 0.0,
+      "chunk_maxerror": 2.7755575615628914e-17,
+      "batch_separation_maxerror": 0.0,
+      "input_gradcheck": true,
+      "parameter_direction_error": 6.3354321788722245e-12,
+      "finite_gradient_norms": {
+        "gates": 0.002039528075204402,
+        "base.0.weight": 0.1287697039281205,
+        "base.0.bias": 0.06582894298990948,
+        "base.2.weight": 0.308520065187171,
+        "base.2.bias": 0.16440859740087088,
+        "base.4.weight": 0.28743225959432905,
+        "base.4.bias": 0.19486568147257086,
+        "encode.0.weight": 0.008753006890525024,
+        "encode.0.bias": 0.0014791906607277134,
+        "encode.2.weight": 0.013005233294920754,
+        "encode.2.bias": 0.0010678660202981486,
+        "encode.4.weight": 0.01142103343365212,
+        "encode.4.bias": 0.0034913617355288697,
+        "similarity.0.weight": 0.021670780153104745,
+        "similarity.0.bias": 0.017602829217335084,
+        "similarity.2.weight": 0.02112302704970097,
+        "similarity.2.bias": 0.029323600721387993,
+        "local.0.weight": 0.03955094573217114,
+        "local.0.bias": 0.0120080854989785,
+        "local.2.weight": 0.056840677138406966,
+        "local.2.bias": 0.0
+      }
+    }
+  },
+  "driver_checks": {
+    "fixed_support_queries_disjoint": true,
+    "wrong_support_keeps_query_targets": true,
+    "train_only_scales_exact": true,
+    "body_split_counts": [
+      32,
+      8,
+      8,
+      8
+    ],
+    "sampled_training_query_trajectory_disjoint": true
+  },
+  "source_sha256": {
+    "check_error_transport_model.py": "99dbf0863a2036807f73d1cc419b2e5376aef675b6f984008fb243e5482af9b9",
+    "error_transport_model.py": "79c518f1e3f1db772a6bad5ae3a55763173cc2de7726a3bced5b03138744fe45",
+    "error_transport_screen.py": "d132bdcf909a7eb0c821f04ac942b4b076bc02d2d2c4f6c896e55d28d532eb9f",
+    "error_transport_baselines.py": "a7b65167b37d229a075c6a4815b54013579c2ee58f86731e6ee619f1a3749787",
+    "error_transport_screen_data.npz": "9df86c1cb3d1d8566279d0085b448610d2f188972c02c0bec47a8ea770bfabb7"
+  },
+  "wall_seconds": 0.3980257511138916,
+  "limitations": [
+    "Small fixtures only; no training optimization, test forecasts, model capability or independent physics checked.",
+    "Autograd gradcheck and finite differences verify local derivatives; not independent reimplementation of model.",
+    "Bounded matrix entries do not ensure contraction or prevent iterative amplification.",
+    "Candidate and separable comparator are related to existing functional meta-learning; tests do not establish originality.",
+    "Driver training objectives differ by algorithm; identical sampled records are not identical optimization."
+  ]
+}

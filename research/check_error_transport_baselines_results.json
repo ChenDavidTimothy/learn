@@ -1,0 +1,21 @@
+{
+  "status": "PASS SYNTHETIC BASELINE CORES; NO LEARNING PERFORMANCE CLAIM",
+  "source_sha256": "a7b65167b37d229a075c6a4815b54013579c2ee58f86731e6ee619f1a3749787",
+  "seed": 83172,
+  "alpaca_recursive_vs_batch_mean_weight_max_error": 2.384185791015625e-07,
+  "alpaca_recursive_vs_batch_covariance_max_error": 3.5762786865234375e-07,
+  "alpaca_zero_support_prior_prediction_max_error": 7.450580596923828e-09,
+  "alpaca_finite_NLL_and_all_parameter_gradients": true,
+  "coda_whole_parameter_functional_mapping_max_error": 0.0,
+  "coda_hypernetwork_directional_gradient_error": 1.9965362696439115e-11,
+  "coda_zero_support_base_prediction_max_error": 0.0,
+  "coda_batch_vs_separate_adaptation_context_max_error": 2.5331974029541016e-07,
+  "coda_adaptation_global_parameters_and_existing_gradients_unchanged": true,
+  "parameter_counts": {
+    "alpaca": 7904,
+    "coda": 44050,
+    "coda_base": 4866,
+    "coda_hypernetwork": 38928
+  },
+  "limitations": "Author implementation fixtures, not independent consequential-result reproduction. No campaign physics/data sampled; no meta-training or baseline competitiveness tested."
+}
