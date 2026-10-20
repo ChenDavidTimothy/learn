@@ -1,3 +1,170 @@
+# PAUSED AT USER REQUEST — continuation handoff after verified v17
+
+2026-10-20, Europe/Berlin. The user is switching AI and explicitly requested:
+"stop for a moment, do not go into v18 yet ... create a continuation handoff ...
+and then push". Research is paused, not complete. Do not resume investigations
+until the user resumes the work. Older ACTIVE blocks below are historical
+snapshots, preserved verbatim; this opening block is authoritative current state.
+
+## Published state and exact stopping point
+
+Canonical repository: /home/dtdav/dev/learn, branch main.
+Existing SSH origin: git@github.com:ChenDavidTimothy/learn.git.
+Latest verified ledger: research/first_principles_robot_learning_ledger_v17.md.
+V17 release commit: cd97e105e7e64259d4556d52a80e0344a4d9bbbf.
+Its SSH push succeeded and origin/main was verified to contain that exact commit.
+V17 preserves every v16 byte, and thus all preceding ledger history. README
+points to v17. The broad scientific objective remains unresolved; no breakthrough
+or general-learning architecture is established. The Goal is PAUSED.
+
+No v18 ledger, diagnostic implementation, new learner, fit or physical fork has
+been created or run. A prospective text draft was written just before the stop.
+It is now saved as research/after_v17_prospective_diagnostic_draft.md, explicitly
+an UNEXECUTED PROPOSAL for the successor to reassess, not an adopted next release.
+The previous v18-named untracked draft was renamed into that handoff artifact.
+No experiment process is running. All subagents are completed or interrupted;
+the requested next-diagnostic synthetic preflight was interrupted before any
+result was returned. Do not assume that preflight passed.
+
+## What v17 actually established
+
+The moving Cartesian construction learns from noisy endpoint positions and
+issued commands without certified initial rest, exact initial position, joint
+encoders, current true velocity or a fixed supplied response matrix. It still
+supplies h16 features, distance, affine local fit family, bootstrap convention,
+training support, planner and clock. Stored experience/local regression/control
+are established methods, not newly invented learning principles.
+
+Exploratory pilot retained local control reached 22/24 sustained goal windows;
+that apparent reliability did NOT generalize. Fixed fresh corpora 200--207 give:
+
+- Retained local library: 55/192 precise windows, mean 18 sec cost 22.82666885.
+- Frozen acquired library: 19/192, mean cost 33.70509936.
+- Privileged exact-state nominal reference: 192/192, mean cost .03279607342.
+- Paired frozen-minus-retained cost: 10.87843051 +/- 2.62552145 descriptive
+  corpus SE. All eight corpus cost differences favor retention; one precision
+  difference is negative. Retained passes 7/64 first and 48/128 later windows.
+
+Keep all 310 failed ordinary windows. Retention helps relative cost but does not
+establish reliable competence. Frozen still uses acquired experience, current
+context refitting, causal history and feedback. Post-divergence experiences
+vary, so this is the total closed-loop append effect, not a pure per-row effect.
+The reference has privileged information and diagnoses authority on its own
+paths, not equally informed learning or recovery from every failed state.
+
+All scientific audit gates PASS: 119,552 physical intervals/512 full rolling
+trajectories/1,416 independent Radau spots; all 11,520 actual decisions/34,560
+control member fits and all candidate validation/selected test forecasts.
+Independent aggregate scores, corpus means/paired SEs, resources and every failed
+window reconstruct. There are eight acquired corpora of ONE fixed body, not
+eight robot types; windows and paired noise repeats are not independent bodies.
+
+A single original coefficient comparison failed at rep206/frozen episode7/
+renewal88/member1: 2.14559e-10 vs original atol 2e-10 (rtol 2e-8). The original
+source, failure and full fixture remain. Exact source normal-equation replay,
+80-digit optimum, third pivoted QR, conditioning/backward-error accounting and
+unchanged downstream prediction/cost/gradient checks diagnose roundoff. Exactly
+one explicit secondary numerical certificate is logged. All eight corpora were
+replayed/rebound under final auditor SHA
+507d3bd427a661a57df07314f10f083bc55d35435225253a250d962b083989d7.
+This numerical correction does not repair or explain away physical failures.
+
+All 11,520 local objectives also have independent selected-cost/gradient replay
+and a post hoc convex modeled-gap bound. Maximum absolute bound 1.66648e-4;
+maximum bound/selected-objective 2.27143%, at a near-zero .000383878 objective.
+This narrows large pointwise losses from incomplete optimization of that fixed
+learned quadratic. It does not certify physical accuracy, long-horizon decisions,
+closed-loop optimality, or causal irrelevance of small action differences.
+
+## Best next step, when the user resumes
+
+Reassess from first principles before adopting another architecture. The central
+uncertainty is why an acquired relationship remains unreliable despite retention:
+poor immediate consequences, wrong action effects, hidden ambiguity, inadequate
+history/metric, support shift, long-horizon model error or misleading uncertainty
+are different explanations. The strongest next step is a small diagnostic that
+separates them as far as existing evidence permits, before constructing a rescue.
+
+1. Read AGENTS.md and the latest v17 ledger. Run only the read-only release check:
+   .venv/bin/python research/build_ledger_v17.py --check
+   Do not rerun old audit scripts casually: their canonical report caches may be
+   overwritten, changing hashes and invalidating the immutable release manifest.
+2. Review the unexecuted draft and independent prospective critique. First
+   reconstruct ALL 11,520 saved next-pair predictions at their actual ordinary
+   prefixes, without new fits, optimizer calls or physics. Use the saved local
+   coefficients/query and train-only scales. Both future readings must be
+   predicted before either arrives; no within-pair teacher forcing. Compare mean
+   and member predictions with actual noisy readings and true endpoint targets,
+   first/second sample, phases/cases, and coherent member dispersion. Preserve all
+   records, with descriptive means/SE first clustered by the eight corpora.
+3. A useful algebraic simplification needs preflight verification: for saved
+   coefficients C (69x4), the first-block normalized correction is
+   [1, standardized_context - saved_query, 2*u] @ C. At the actual query the
+   context block vanishes, leaving C[0] + (2*u) @ C[-2:]. Denormalize each target
+   correction and add o_t + k*(o_t-o_(t-1)), k=1,2. Compare this direct formula
+   independently with a generic causal rollout on synthetic prefixes before
+   executing the all-record diagnostic. Root had planned implementation but
+   wrote NO code yet. Keep truth states only as evaluator targets.
+4. Interpret that complete prequential pass before further construction. The
+   proposed second stage fixes all corpora/variants/cases and renewals
+   [0,15,30,60]: 512 logical records, with 64 identical initial retained/frozen
+   pairs, hence 448 prescribed physical starts after verified reuse. Fork only
+   commands [0,+/-.4e1,+/-.4e2], held .2 sec. Reuse already stored actual-issued
+   outcomes rather than adding a sixth physical fork. This would add 2,240
+   privileged continuations/4,480 intervals/448 simsec, no ordinary learning.
+   Separate zero-action drift, coherent within-member contrasts, symmetric odd
+   secants and even nonlinearity; do not tune a radius, model or controller.
+5. Require independent reconstruction of prediction/statistic/dataflow claims and
+   independent Hamiltonian/Radau checking before interpreting new fork results.
+   Preserve failures before repair and actual sources/results. This diagnostic
+   alone need not warrant a new ledger; do not manufacture a v18 release.
+
+Crucial limits: a fork measures one world's F(X,u), not E[F(X,u)|H]. Large
+per-world contrast error includes conditional ambiguity and cannot uniquely
+identify representation or fitting failure. Three bootstrap members are not a
+calibrated physical posterior. Nearby records are not support certificates.
+Expected noisy/true per-coordinate forecast MSE difference is sensor variance
+4e-8, not an identity for each realized pair. Different policies visit different
+later states, so aggregate forecast differences do not isolate predictor quality.
+
+The more consequential subsequent question is when population experience earns
+its acquisition cost versus estimating the useful local relation from the same
+encounter's stream. A serious local/prefix estimator is a possible lower-data
+rival (the existing 1.6 sec warmup has four random held commands), not an automatic
+answer. Its stronger local/second-order assumptions must be disclosed. Choose
+any comparison after diagnostic reasoning, freeze a separate protocol, preserve
+equal sensing/time/commands and use fresh evaluation. No architecture menu,
+optimizer ladder or test-driven parameter rescue follows from v17's failures.
+
+## Files to read first
+
+- research/first_principles_robot_learning_ledger_v17.md
+- research/cartesian_stream_v17_study_aggregate_results.json
+- research/audit_cartesian_stream_v17_study_report.md
+- research/audit_cartesian_stream_v17_study_physics_report.md
+- research/audit_cartesian_stream_v17_study_aggregate_report.md
+- research/audit_cartesian_stream_v17_study_roundoff_report.md
+- research/cartesian_stream_v17_optimizer_certificate_report.md
+- research/cartesian_stream_v17_replication_direction_independent.md
+- research/cartesian_stream_v17_prefix_diagnostic_independent.md
+- research/after_v17_prospective_diagnostic_draft.md (unexecuted proposal only)
+- research/cartesian_stream_v17_prefix_learning_prospective_independent.md
+- research/cartesian_stream_v17_ledger_build_review_independent.md
+
+Raw fresh artifacts are research/cartesian_stream_v17_rep200..207_*; the release
+manifest and executable builder bind the complete v17 evidence lineage. All
+previous pilot/ablation/negative results and literature notes remain. Use the
+owner PC and existing .venv/bin/python; no new packages, environments or services
+were installed. SSH publication only, no force-push, preserve unrelated work.
+
+This handoff and the unexecuted proposal are the only post-v17 additions. They
+are being committed/pushed for the AI change. Stop after verifying that push;
+the user's pause supersedes historical instructions to immediately continue.
+
+---
+
+# Historical continuation snapshots (superseded by paused state above)
+
 # ACTIVE: v17 verified and ready for SSH publication
 
 V17 ledger and release manifest generated; build_ledger_v17.py --check PASSES all
