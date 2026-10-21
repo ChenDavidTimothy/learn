@@ -1,0 +1,17 @@
+{
+  "status": "PASS SYNTHETIC DRIVER FIXTURES; NO FIT/SCORING RUN",
+  "source_sha256": "f9f25f668b501620206f99aaf74ad418dbf6aaba1748dea3545878a7d392ee2e",
+  "fixture_source_sha256": "59cf6b0e2b1d6f0cd94524f09f73ce2010362719fac5b93418daa7a52cb0cc75",
+  "episode_cases": 100,
+  "observed_support_counts": {
+    "0": 32,
+    "4": 22,
+    "16": 21,
+    "64": 25
+  },
+  "support_query_trajectories_disjoint": true,
+  "old_new_body_mix_and_coda_remap": true,
+  "expanded_prior_oldblock_and_independent_unit_newblock": true,
+  "coda_old_contexts_global_weights_preserved_new_random_contexts_retained": true,
+  "unequal_group_validation_equal_weight": 5.0
+}

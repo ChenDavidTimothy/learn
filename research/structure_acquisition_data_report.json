@@ -1,0 +1,49 @@
+{
+  "status": "FRESH ACQUISITION/VALIDATION/LATER TEST GENERATED BEFORE ACQUISITION-DEPENDENT FITTING",
+  "source_sha256": "5885ddf65ebe7f852c7e920d8b1c599caab1cc1616ce2a1cdb1f03dd6a27b47b",
+  "physics_parent_sha256": "168e71018edbd00a44d06538d7593dca90ec28476cbf88f452ec225e0f3bb4b8",
+  "plan_sha256": "755bc9173df4ec9c6eebff0fdde6018f441d6172b36a7d6784044545d434815c",
+  "ordinary_sha256": "2a951bea04e71b344d450adf6c036190d41847caee3e217f97a6d4c83f5a0a96",
+  "evaluator_sha256": "af6039c06f8926d1edb8293e5a47fbc2acc807093d4e0ba2e5bb41d2cd0a0066",
+  "seed_roles": [
+    20261020,
+    18,
+    40,
+    "split",
+    "role"
+  ],
+  "bodies": 36,
+  "trajectories": 288,
+  "physical_intervals": 27648,
+  "simulated_seconds": 1382.4,
+  "checks": {
+    "new_flow_DOP853_spot_error": [
+      4.2299497238218464e-13,
+      1.3405943022348765e-13,
+      6.390443729742401e-12,
+      1.0046363740912057e-10,
+      1.249778475154173e-08,
+      1.144944783426638e-08
+    ],
+    "zero_change_old_flow_error": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "wall_seconds": 1.6692302227020264,
+  "splits": {
+    "acquisition": 8,
+    "validation": 4,
+    "new_id": 8,
+    "new_ood": 8,
+    "old_id": 8
+  },
+  "scope": "Exact q/v and finite velocity differences. New nonlinearities align with supplied grammar. Evaluator coefficients never learner features.",
+  "original_status": "FRESH ACQUISITION/VALIDATION/LATER TEST GENERATED BEFORE LEARNER FITTING",
+  "original_source_sha256": "8bcfff9aef51f5bc869859e6fe90b98dedd46d93807bf66a595b2620d9fbeb55",
+  "timing_clarification": "Independent old-only pretraining ran concurrently with new sampling. Status wording corrected; numerical source, RNG roles and all data bytes unchanged."
+}

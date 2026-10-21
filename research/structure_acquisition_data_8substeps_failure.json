@@ -1,0 +1,27 @@
+{
+  "status": "PREFLIGHT FAILURE BEFORE DATA SAMPLING OR LEARNER FITTING",
+  "seed_roles": [
+    20261020,
+    18,
+    40,
+    99
+  ],
+  "DOP853_spot_errors": [
+    6.764866444797235e-12,
+    2.1449508835758024e-12,
+    1.0147449547304177e-10,
+    1.6159253934944218e-09,
+    4.95374722825348e-07,
+    1.8751260388860658e-07
+  ],
+  "required_error": 1e-07,
+  "zero_change_old_flow_errors": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "correction": "Increase RK4 substeps to16 before sampling, retain original tolerance and family. One bounded instrument correction; not a learner rescue."
+}

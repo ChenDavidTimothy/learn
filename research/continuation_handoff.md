@@ -1,3 +1,86 @@
+# ACTIVE ultimate Goal; feature-acquisition screen rejected and preserved
+
+2026-10-21. User resumed after an overnight execution/usage interruption. All
+14 new fits had completed on the owner PC; no fit was restarted. The later-test
+selection, forecast scoring and frozen decision are now complete. No process is
+running. No v18 or competitive framework/breakthrough is claimed. The ultimate
+Goal remains active and unachieved; the feature-acquisition branch is retired.
+
+Read structure_acquisition_findings.md and current campaign_plan.md first.
+Meta-grown programs improve over the old 32-feature library but fail the declared
+competition/retention guards. New-law ID16/64: meta .177233/.118422, fit-grown
+.190874/.094799, old-library .329424/.332147, continued neural ALPaCA64
+.214774/.072591, continued CoDA .126821/.102658. Retention strongly favors CoDA;
+meta's OOD64 win and other mixed rankings are preserved. Do not cherry-pick that
+column, extend the grammar, or use test outcomes for more tuning. The independent
+direction critic recommends ending this attempt, with no rescue rollout or
+benchmark expansion. This does not rule out useful executable knowledge generally.
+
+All ordinary/evaluator data, graph acquisition records, 14 reports/weights,
+validation-only frozen selections, 120 raw prediction arrays, 960 body scores,
+training losses, exact decision and source are available under structure_acquisition_*
+and check_structure_acquisition_*. The independently implemented arithmetic checker
+was executed unchanged by root after its author was interrupted: PASS. It covers
+saved forecasts, recorded validation choices, train-only normalization, graph
+reconstruction/prefix and provenance. It does not regenerate neural forward passes,
+optimization histories, exhaustive graph search or physics. Exact scope is saved.
+
+The old graph's plan hash matches the exact current plan prefix before the prefit
+instrument correction. Original 8-substep check/failure are preserved; 16 substeps
+passed the same six spots without widened tolerance. Old-only pretraining ran
+concurrently with new sampling; no acquisition-dependent fit preceded it. The
+report's status wording correction retains its original wording/source hash and
+changes no numerical data. Canonical frozen learner/feature/plan sources remain
+unchanged throughout fitting, scoring and checking.
+
+Publication: commit/push this verified negative checkpoint over the existing SSH
+remote and verify remote HEAD. Read current Git state for the exact commit; no
+old scientific ledger or released artifact is rewritten. Latest ledger stays v17.
+
+Next action: reconsider the fundamental capability problem rather than invent a
+fourth parameterization. Current evidence supports actual learning and useful
+feature expansion but no overall competitive advantage. Any next construction
+requires a concrete information/capability gap, a derived experience-dependent
+operation, strongest relevant conventional explanation and discriminating test.
+No particular new architecture or diagnostic is selected by this handoff. Earlier
+snapshots follow intact.
+
+---
+
+# ACTIVE new campaign: acquire reusable executable features
+
+2026-10-20. Read campaign_plan.md and structure_acquisition_plan.md. Prior error
+transport and implicit-relation candidates are retired; this is a new question
+about acquiring computations that help later learning, with full continued-neural
+comparators. It is related to established symbolic/modular meta-learning, not a
+new principle by naming. Source, critics and tiny formula/driver fixtures exist.
+
+Current phase: original 32 training bodies yielded graph_old (32 features).
+Fresh structure_acquisition_data.npz contains eight acquisition/four validation/
+24 later bodies. Only ordinary q/v/actions and measured finite velocity differences
+are learner inputs; evaluator archives hold true coefficients. New-law cubic
+actuation/quadratic drag align with the supplied generic grammar, limiting any
+success. No actual control or framework claim follows from this screen.
+
+Original 8-substep spot check failed before sampling at max4.95e-7 vs1e-7.
+Source/failure preserved, prospective16substep correction passes same six spots
+at max1.25e-8; no tolerance widening or full physics ladder. Independent old-only
+pretraining ran concurrently with new sampling; no new-data-dependent fitting did.
+
+Old-program and neural64 LR.001 fits completed. Their LR.003 fits and graph
+acquisition meta/fit stages are next; inspect actual sessions/reports before
+launching/restarting. Driver supports old/programold|neural then continued
+meta|fit|frozen|neural|coda, both rates. Continued fits use 8,000 steps, full neural
+parameter learning and replay; graphs preserve old computation exactly. Validation
+selection precedes later-test scoring. No new test score inspected at this snapshot.
+
+Existing environment/owner GPU, no installations. No v18 is justified by planning
+or fitting. Ultimate Goal remains active and unachieved. Follow the declared
+continue/reject gate and independent result/direction checks; do not rescue prior
+or current candidates from test losses. Earlier snapshots follow intact.
+
+---
+
 # ACTIVE ultimate Goal; second candidate rejected and two-candidate attempt closed
 
 2026-10-20. The implicit-relation screen is complete, independently checked, and

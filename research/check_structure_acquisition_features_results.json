@@ -1,0 +1,62 @@
+{
+  "status": "PASS TINY INDEPENDENT RIDGE AND PRODUCTION FEATURE-ADDITION FIXTURES; NO SEARCH OR CAPABILITY TEST",
+  "source_sha256": "82ade60ee7cd580a80898d8b6fdef97358e4a96d36a06af7ff9f1bdb2c8f59f2",
+  "ridge": 0.1,
+  "records": [
+    {
+      "case": "generic",
+      "query_prediction_max_error": 9.46465128492946e-15,
+      "coefficient_max_error": 3.0808688933348094e-15,
+      "minimum_schur_denominator": 8.169904478700346,
+      "direct_vs_nonnegative_denominator_max_error": 3.552713678800501e-15
+    },
+    {
+      "case": "duplicate",
+      "query_prediction_max_error": 5.329070518200751e-15,
+      "coefficient_max_error": 4.371503159461554e-15,
+      "minimum_schur_denominator": 0.1989917819020448,
+      "direct_vs_nonnegative_denominator_max_error": 1.4682699500667695e-14
+    },
+    {
+      "case": "zero",
+      "query_prediction_max_error": 5.995204332975845e-15,
+      "coefficient_max_error": 1.6375789613221059e-15,
+      "minimum_schur_denominator": 0.1,
+      "direct_vs_nonnegative_denominator_max_error": 0.0
+    },
+    {
+      "case": "nearly_duplicate",
+      "query_prediction_max_error": 4.440892098500626e-15,
+      "coefficient_max_error": 1.7305601396344628e-14,
+      "minimum_schur_denominator": 0.19713222227319704,
+      "direct_vs_nonnegative_denominator_max_error": 7.327471962526033e-15
+    },
+    {
+      "case": "rescaled",
+      "query_prediction_max_error": 2.584044089815052e-14,
+      "coefficient_max_error": 2.6645352591003757e-15,
+      "minimum_schur_denominator": 4077.054478114669,
+      "direct_vs_nonnegative_denominator_max_error": 3.637978807091713e-12
+    }
+  ],
+  "production_checks": {
+    "batched_candidate_prediction_max_error": 7.549516567451064e-15,
+    "first_fragment_unseen_input_error": 0.0,
+    "nested_fragment_unseen_input_error": 0.0,
+    "duplicate_unexplained_fraction": 6.186214909805665e-32,
+    "source_sha256": "d9d00112985df0604f4962d9859cac56cf7897fc849401da17a47d0fff0b3097"
+  },
+  "duplicate_feature_counterexample": {
+    "single_effective_coefficient": 0.9929078014184397,
+    "duplicate_effective_coefficient": 0.99644128113879,
+    "meaning": "Same function span, changed effective prior penalty; reject as structure novelty."
+  },
+  "conditions": [
+    "Same sum-loss ridge convention before and after addition, including new column penalty.",
+    "Same fixed normalization and original columns; renormalizing previous columns changes the problem.",
+    "Intercept penalty must match: these fixtures penalize every coefficient equally.",
+    "Support labels fit coefficients; query labels can select structures only on declared training episodes. Heldout validation selects frozen choices; test labels never select."
+  ],
+  "limitations": "Small production prediction, nested-program and duplicate fixtures only; not a full search or dataflow execution. No data acquisition, model training, physics, feature search or test scoring.",
+  "wall_seconds": 0.015385150909423828
+}

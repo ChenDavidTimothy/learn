@@ -14,6 +14,10 @@ implicit relation conditioning on fresh bodies: conventional adapters remained
 stronger. Both candidates are retired, with reproducible results and independent
 checks. The [campaign plan](research/campaign_plan.md) records the decisions;
 the broad objective remains active and unresolved.
+The [feature-acquisition screen](research/structure_acquisition_findings.md)
+finds that growing executable features helps relative to its old library, but
+fails the competitive and retention criterion against continued neural learning.
+Its proposed selector is retired; all raw results and mixed rankings remain.
 No v18 result is claimed; the earlier exhaustive
 diagnostic proposal remains optional, not the default agenda.
 

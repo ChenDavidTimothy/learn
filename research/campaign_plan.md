@@ -1,3 +1,58 @@
+# Current decision: reject the feature-acquisition formulation
+
+2026-10-21. All four old-only and ten continued fits completed during the
+interruption; no fitting was restarted. The frozen later-body screen and bounded
+independent result check are complete. Read structure_acquisition_findings.md.
+
+The candidate acquires useful features compared with its old frozen library,
+but its primary new-law ID errors .177233/.118422 at 16/64 support lose to the
+strongest neural competitors (.126821/.072591), and retention is worse. All
+accuracy/retention continuation guards fail. Its OOD-64 local win and beneficial
+expansion remain recorded; they do not replace the frozen criterion. Fit-grown
+features offer no consistent inferiority to the proposed selector. Retire this
+formulation; no test-informed grammar/physics/search repair or control rollout.
+No v18 or breakthrough is claimed. The ultimate Goal remains active/unachieved.
+
+The scientific issue going forward is not whether another parameterization can
+be made to win a column. Three concrete post-v17 learning operations have failed
+their declared competitive tests. The next mechanism must follow from a
+consequential capability limitation and a derived operation with a serious
+existing account. This attempt supplies no warrant for a fourth architecture,
+more physics auditing, or automatic benchmark expansion. Keep earlier evidence,
+including the mixed rankings, and reconsider the problem before construction.
+
+Full earlier frozen plans and decisions follow unchanged.
+
+---
+
+# Active new campaign: acquired structure versus continued neural learning
+
+2026-10-20. The two previous candidates remain retired. The new, independently
+criticized question is whether acquiring executable feature fragments makes later
+physical systems easier to learn than competent continued neural learning with
+replay. This is symbolic feature construction plus Bayesian conditioning, not a
+claim of a new learning principle. Read structure_acquisition_plan.md for the
+frozen operation, supplied grammar, new physical experience, competitors, budgets
+and falsifier; structure_acquisition_direction_audit.md gives the prior-art and
+opportunity-cost critique. Do not change grammar or physics from test outcomes.
+
+The old feature DAG was acquired from original train bodies only. Data generation
+adds eight acquisition/four validation/24 later test bodies under new-law and
+retention splits; parameters and compound physical terms are not learner inputs.
+A prefit eight-substep integration failure is preserved; 16 substeps pass the
+same six spots and criterion. Old-only pretraining can run concurrently with
+independent new sampling. All acquisition-dependent learning waits for sampling.
+
+Old-program and neural64 pretraining, both rates, precede continued learning for
+all five methods (meta-grown, fit-grown, frozen features, neural64, CoDA). Neural
+competitors update their full shared models with acquisition data and replay.
+Selected states will be frozen by validation before later bodies are scored.
+No test score has yet been inspected. No v18 or competitive claim is assumed.
+
+The prior attempt's full decisions and plans follow unchanged.
+
+---
+
 # Decision: close the two-candidate attempt; ultimate objective unresolved
 
 2026-10-20. The second frozen screen is complete and independently checked.

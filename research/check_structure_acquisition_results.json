@@ -1,0 +1,951 @@
+{
+  "status": "PASS BOUNDED INDEPENDENT RAW SCORE/VALIDATION SELECTION/GRAPH PROVENANCE CHECK",
+  "source_sha256": "381801198c8cf071f6ac2a70ea08c6a0ea992a063c976048a282ecea9212d3cc",
+  "input_sha256": {
+    "structure_acquisition_graph_old.json": "8b29c5d1dc670faceaa9d1c5dd1143ecd7e44101158b62c90564cb1615fcedef",
+    "structure_acquisition_graph_meta.json": "20c50e0d8ab915c150bcc071006fdde4f593dcdfa36558c83dff435047039ac8",
+    "structure_acquisition_graph_fit.json": "7a6c0972ac0c14fc106fc0dfd1031739d2a07ab3cf2f3540dbe6a612ea411021",
+    "structure_acquisition_plan.md": "755bc9173df4ec9c6eebff0fdde6018f441d6172b36a7d6784044545d434815c",
+    "structure_acquisition_features.py": "93f117c71acf3e8118bb3afb49fab2597547cb6469b172b2606b4204e263641d",
+    "error_transport_screen_data.npz": "9df86c1cb3d1d8566279d0085b448610d2f188972c02c0bec47a8ea770bfabb7",
+    "structure_acquisition_data.npz": "2a951bea04e71b344d450adf6c036190d41847caee3e217f97a6d4c83f5a0a96",
+    "structure_acquisition_data_report.json": "a3519fe168a058f30b47ce9b5adc54ad2c4d6144a4bed355b747d44176d486e3",
+    "structure_acquisition_data.py": "5885ddf65ebe7f852c7e920d8b1c599caab1cc1616ce2a1cdb1f03dd6a27b47b",
+    "structure_acquisition_old_programold_lr0.001_seed0.json": "a1246ffdecae294b615fcfc61d889260c11e340f48c40b5c61f2fd838f5af5bf",
+    "structure_acquisition_old_programold_lr0.001_seed0.pt": "0363e79d8b99f42ce3a9151ef27aa407379a092a1265c6b2ece300cef1086b80",
+    "structure_acquisition_screen.py": "f9f25f668b501620206f99aaf74ad418dbf6aaba1748dea3545878a7d392ee2e",
+    "error_transport_baselines.py": "a7b65167b37d229a075c6a4815b54013579c2ee58f86731e6ee619f1a3749787",
+    "error_transport_screen.py": "d132bdcf909a7eb0c821f04ac942b4b076bc02d2d2c4f6c896e55d28d532eb9f",
+    "structure_acquisition_old_programold_lr0.003_seed0.json": "192fbf1193ca332844058b5ca1625b4ec145ea73a5432abec86e6be40c7a8b1f",
+    "structure_acquisition_old_programold_lr0.003_seed0.pt": "3563eec8e5becd7cef44e2d6d9985574d28ca5a5c764a54c7b1d249039fe7142",
+    "structure_acquisition_old_neural_lr0.001_seed0.json": "bea2e325bdf5660b07f94813453b9d0b6d26b8593be3ba2cd7f0da0465bf7438",
+    "structure_acquisition_old_neural_lr0.001_seed0.pt": "6fd7f5cdc289ab2856f01013b61156a34c6fc852f7590d0f822cb4662b9fc5e9",
+    "structure_acquisition_old_neural_lr0.003_seed0.json": "930f3a1d5817114a120badbd3f8a2d9c914d83c12ab334945c3e6c1410153c30",
+    "structure_acquisition_old_neural_lr0.003_seed0.pt": "b1b9236c6765e798ee7306f5dd0917482b00c1b33b0a66b14d424b0afd33bdd3",
+    "error_transport_screen_coda_lr0.001_seed0.json": "6164c8705139d45f0f9636ccdb0a0d314df3dbe3a21fd16cee531b721de3adb1",
+    "error_transport_screen_coda_lr0.001_seed0.pt": "c351976b840641b422c6935bc8dd7f577283e05b340263676ab52ad707b1ef69",
+    "error_transport_screen_coda_lr0.003_seed0.json": "20db60753559d2c92e2554de25dbb4e00921f13fcf4d0d044e2df916e4edcaa9",
+    "error_transport_screen_coda_lr0.003_seed0.pt": "bfc959429d65c8672ca8834585273bd3de01482978b17a9c8dd3a374b1b69a12",
+    "structure_acquisition_continue_meta_lr0.001_seed0.json": "59249916e24cedc00f393a0f0f08e415c7e22876da893433ab337edaf1c3eddf",
+    "structure_acquisition_continue_meta_lr0.001_seed0.pt": "358593abd59b1ee2a206e3c9408ee12dc737590e51f9892f9870ae199762a3bb",
+    "structure_acquisition_continue_meta_lr0.003_seed0.json": "7ea23d73ccd92c4e428d7c47978894b10df681b5cf3d72cab0bb8e2bde9edd86",
+    "structure_acquisition_continue_meta_lr0.003_seed0.pt": "3ee6eb7fe1a0ba7e221599a8f163d96584b7544c256bb37ecd141036ed2e86f1",
+    "structure_acquisition_continue_fit_lr0.001_seed0.json": "70427a0c8daf5bf0d13d949ff0e18476d21327872d036760acc8dd2cba2ca67f",
+    "structure_acquisition_continue_fit_lr0.001_seed0.pt": "2dbefe0f26c51a257cf6a240f5130acfd0fa1eed4e383dbea85248edbabe7b50",
+    "structure_acquisition_continue_fit_lr0.003_seed0.json": "b813e55f01fe06a32c6fdd22829ec89bfda8b30556431c9f0d17ba621e11650e",
+    "structure_acquisition_continue_fit_lr0.003_seed0.pt": "51119679231df4875cfadd1a98a727618a62404622e18ac58d12013394479b47",
+    "structure_acquisition_continue_frozen_lr0.001_seed0.json": "bbc48c97d09c8462798d8d4536c075213138d6c96a5de0b497c146997a86f5e4",
+    "structure_acquisition_continue_frozen_lr0.001_seed0.pt": "bd111a81803c93bc6c83b355e9da0b1e4dbd178a761e86d0022836fdb03a64a7",
+    "structure_acquisition_continue_frozen_lr0.003_seed0.json": "efd96732f85165b43893f5549ef88da86d644a5ccc532fdba45ea7fdc4dffe28",
+    "structure_acquisition_continue_frozen_lr0.003_seed0.pt": "2df60c460f4936e5c045fba182f978754bf896d54b251393a4b21a19fe357e0a",
+    "structure_acquisition_continue_neural_lr0.001_seed0.json": "a7f97c18a31bcd67e5dc6f3551cf97d5f9705191944acc1d0fd2a6015de16d58",
+    "structure_acquisition_continue_neural_lr0.001_seed0.pt": "249109059a2f8b868735e88c1d11d1b0e003d2e6306c415136f07d7e0b4b5e75",
+    "structure_acquisition_continue_neural_lr0.003_seed0.json": "7cec9b04c9addd23f488bfbafdae86f1ba2896080697b8297fc951c9030de36b",
+    "structure_acquisition_continue_neural_lr0.003_seed0.pt": "336e1c645e1a06631271117a5e61b8ff445750268213446e0338fb493d896722",
+    "structure_acquisition_continue_coda_lr0.001_seed0.json": "a0eb2c5bfc55cd26021163557931637e5b50bbb9660e131cc825828fa516a14b",
+    "structure_acquisition_continue_coda_lr0.001_seed0.pt": "98f1c85cd65ec1a79870839bba72ed0216862e11cc86da1ae7429028b910eb39",
+    "structure_acquisition_continue_coda_lr0.003_seed0.json": "030865af7227b442731b58ee01dfd9799d47fc857534a2cb03014434261b2f0e",
+    "structure_acquisition_continue_coda_lr0.003_seed0.pt": "6e6da13eeea0bab0fad37c4b7efb1372b7ab0ec639109d5e3181dff09fbc14c8",
+    "structure_acquisition_results.json": "d9ad683e7da5440657693127dc65e88c41265ded4e1feea32cf0d591e2eae197",
+    "structure_acquisition_selection.json": "173c0f1c2cae6be7d699d648c5aa21111edb143d277abfc49fefa0fb23b6a555",
+    "structure_acquisition_predictions.npz": "720736ec55818fb1d6e4b5332038a339c1f7c8587d493793b33dd925e81b129a",
+    "structure_acquisition_decision.json": "a83a8d4f6877975fffc3ce596c125098fecea75bb4d22973b240439d8bef77a7",
+    "structure_acquisition_decision.py": "6cc79449ea44695e154303da575df23c06861c0234de6409b67d4712744667f8"
+  },
+  "scope": {
+    "old_fits": 4,
+    "continued_fits": 10,
+    "original_CoDA_parent_fits": 2,
+    "prediction_arrays": 120,
+    "per_body_scores": 960,
+    "prediction_shape_per_array": [
+      8,
+      672,
+      2
+    ],
+    "neural_forward_passes": 0,
+    "model_fits": 0,
+    "physical_rollouts": 0
+  },
+  "maximum_absolute_errors": {
+    "graph_record_gain": 0.0,
+    "validation_group_mean": 0.0,
+    "validation_equal_group_criterion": 0.0,
+    "old_saved_train_only_scale_x_mean": 0.0,
+    "old_saved_train_only_scale_x_std": 0.0,
+    "old_saved_train_only_scale_y_mean": 0.0,
+    "old_saved_train_only_scale_y_std": 0.0,
+    "continued_saved_train_only_scale_x_mean": 0.0,
+    "continued_saved_train_only_scale_x_std": 0.0,
+    "continued_saved_train_only_scale_y_mean": 0.0,
+    "continued_saved_train_only_scale_y_std": 0.0,
+    "saved_standardized_prediction_MSE": 2.692931214909322e-06,
+    "saved_raw_prediction_MSE": 0.0,
+    "zero_evidence_wrong_support_invariance": 0.0,
+    "decision_mean": 3.9552070418835683e-07
+  },
+  "graph_checks": {
+    "old": {
+      "recorded_plan_sha256": "d5ddd872265215113bbb7160d21b015f4241a2a892d87ac4bf876cb6e7b0b131",
+      "current_plan_sha256": "755bc9173df4ec9c6eebff0fdde6018f441d6172b36a7d6784044545d434815c",
+      "old_plan_is_exact_prefix_before_documented_instrument_amendment": true,
+      "initial_features": 9,
+      "actual_features": 32,
+      "features_added": 23,
+      "retained_operations": 36,
+      "status": "FEATURE TARGET REACHED",
+      "selection_records": 23,
+      "wall_seconds": 0.997485876083374
+    },
+    "meta": {
+      "recorded_plan_sha256": "755bc9173df4ec9c6eebff0fdde6018f441d6172b36a7d6784044545d434815c",
+      "current_plan_sha256": "755bc9173df4ec9c6eebff0fdde6018f441d6172b36a7d6784044545d434815c",
+      "old_plan_is_exact_prefix_before_documented_instrument_amendment": false,
+      "initial_features": 32,
+      "actual_features": 48,
+      "features_added": 16,
+      "retained_operations": 62,
+      "status": "FEATURE TARGET REACHED",
+      "selection_records": 16,
+      "wall_seconds": 1.5115880966186523
+    },
+    "fit": {
+      "recorded_plan_sha256": "755bc9173df4ec9c6eebff0fdde6018f441d6172b36a7d6784044545d434815c",
+      "current_plan_sha256": "755bc9173df4ec9c6eebff0fdde6018f441d6172b36a7d6784044545d434815c",
+      "old_plan_is_exact_prefix_before_documented_instrument_amendment": false,
+      "initial_features": 32,
+      "actual_features": 48,
+      "features_added": 16,
+      "retained_operations": 63,
+      "status": "FEATURE TARGET REACHED",
+      "selection_records": 16,
+      "wall_seconds": 1.5091824531555176
+    }
+  },
+  "validation_choices": [
+    {
+      "phase": "old",
+      "method": "programold",
+      "lr": 0.001,
+      "selected_checkpoint": 2000,
+      "criterion": 0.05395080576029917
+    },
+    {
+      "phase": "old",
+      "method": "programold",
+      "lr": 0.003,
+      "selected_checkpoint": 2000,
+      "criterion": 0.04566021337329099
+    },
+    {
+      "phase": "old",
+      "method": "neural",
+      "lr": 0.001,
+      "selected_checkpoint": 2000,
+      "criterion": 0.030223090356836717
+    },
+    {
+      "phase": "old",
+      "method": "neural",
+      "lr": 0.003,
+      "selected_checkpoint": 1500,
+      "criterion": 0.02516750238525371
+    },
+    {
+      "phase": "continue",
+      "method": "meta",
+      "lr": 0.001,
+      "selected_checkpoint": 2000,
+      "criterion": 0.07777880269956465
+    },
+    {
+      "phase": "continue",
+      "method": "meta",
+      "lr": 0.003,
+      "selected_checkpoint": 2000,
+      "criterion": 0.07784389817000678
+    },
+    {
+      "phase": "continue",
+      "method": "fit",
+      "lr": 0.001,
+      "selected_checkpoint": 8000,
+      "criterion": 0.062217390814718485
+    },
+    {
+      "phase": "continue",
+      "method": "fit",
+      "lr": 0.003,
+      "selected_checkpoint": 8000,
+      "criterion": 0.06168213707860559
+    },
+    {
+      "phase": "continue",
+      "method": "frozen",
+      "lr": 0.001,
+      "selected_checkpoint": 8000,
+      "criterion": 0.10325106019930293
+    },
+    {
+      "phase": "continue",
+      "method": "frozen",
+      "lr": 0.003,
+      "selected_checkpoint": 8000,
+      "criterion": 0.10024930521224935
+    },
+    {
+      "phase": "continue",
+      "method": "neural",
+      "lr": 0.001,
+      "selected_checkpoint": 6000,
+      "criterion": 0.06055373257064882
+    },
+    {
+      "phase": "continue",
+      "method": "neural",
+      "lr": 0.003,
+      "selected_checkpoint": 6000,
+      "criterion": 0.06335095412214287
+    },
+    {
+      "phase": "continue",
+      "method": "coda",
+      "lr": 0.001,
+      "selected_checkpoint": 4000,
+      "criterion": 0.05018899777011635
+    },
+    {
+      "phase": "continue",
+      "method": "coda",
+      "lr": 0.003,
+      "selected_checkpoint": 4000,
+      "criterion": 0.04571315158924942
+    }
+  ],
+  "selected_parents": {
+    "programold": {
+      "report": "/home/dtdav/dev/learn/research/structure_acquisition_old_programold_lr0.003_seed0.json",
+      "report_sha256": "192fbf1193ca332844058b5ca1625b4ec145ea73a5432abec86e6be40c7a8b1f",
+      "weights": "/home/dtdav/dev/learn/research/structure_acquisition_old_programold_lr0.003_seed0.pt",
+      "weights_sha256": "3563eec8e5becd7cef44e2d6d9985574d28ca5a5c764a54c7b1d249039fe7142",
+      "validation": {
+        "adaptation_lr": 0.03,
+        "criterion": 0.04566021337329099,
+        "group_means": {
+          "old": 0.04566021337329099
+        },
+        "body_scores": {
+          "old": {
+            "4": [
+              0.06312212347984314,
+              0.04105857387185097,
+              0.0823957622051239,
+              0.11065519601106644,
+              0.03960404172539711,
+              0.09085427969694138,
+              0.0391194187104702,
+              0.027871975675225258
+            ],
+            "16": [
+              0.04269576072692871,
+              0.021947234869003296,
+              0.013845790177583694,
+              0.09782996028661728,
+              0.01756093092262745,
+              0.07592686265707016,
+              0.03148660436272621,
+              0.017018379643559456
+            ],
+            "64": [
+              0.04816553741693497,
+              0.020494787022471428,
+              0.014545806683599949,
+              0.052282027900218964,
+              0.017667032778263092,
+              0.08547277003526688,
+              0.026291005313396454,
+              0.017933258786797523
+            ]
+          }
+        },
+        "wall_seconds": 0.01813793182373047,
+        "step": 2000
+      },
+      "parameter_count": 1088
+    },
+    "neural": {
+      "report": "/home/dtdav/dev/learn/research/structure_acquisition_old_neural_lr0.003_seed0.json",
+      "report_sha256": "930f3a1d5817114a120badbd3f8a2d9c914d83c12ab334945c3e6c1410153c30",
+      "weights": "/home/dtdav/dev/learn/research/structure_acquisition_old_neural_lr0.003_seed0.pt",
+      "weights_sha256": "b1b9236c6765e798ee7306f5dd0917482b00c1b33b0a66b14d424b0afd33bdd3",
+      "validation": {
+        "adaptation_lr": 0.03,
+        "criterion": 0.02516750238525371,
+        "group_means": {
+          "old": 0.02516750238525371
+        },
+        "body_scores": {
+          "old": {
+            "4": [
+              0.08016831427812576,
+              0.022414948791265488,
+              0.006596257444471121,
+              0.05425451695919037,
+              0.049596913158893585,
+              0.06951458007097244,
+              0.03162937983870506,
+              0.014687188901007175
+            ],
+            "16": [
+              0.01774883083999157,
+              0.005547382403165102,
+              0.007197569590061903,
+              0.0529806949198246,
+              0.011620678938925266,
+              0.04536174237728119,
+              0.022516850382089615,
+              0.006730925757437944
+            ],
+            "64": [
+              0.014132832176983356,
+              0.004580968990921974,
+              0.00413005705922842,
+              0.01568761095404625,
+              0.0094744972884655,
+              0.032793086022138596,
+              0.019330428913235664,
+              0.005323801189661026
+            ]
+          }
+        },
+        "wall_seconds": 0.0046541690826416016,
+        "step": 1500
+      },
+      "parameter_count": 13120
+    },
+    "coda": {
+      "report": "/home/dtdav/dev/learn/research/error_transport_screen_coda_lr0.003_seed0.json",
+      "report_sha256": "20db60753559d2c92e2554de25dbb4e00921f13fcf4d0d044e2df916e4edcaa9",
+      "weights": "/home/dtdav/dev/learn/research/error_transport_screen_coda_lr0.003_seed0.pt",
+      "weights_sha256": "bfc959429d65c8672ca8834585273bd3de01482978b17a9c8dd3a374b1b69a12",
+      "validation": {
+        "adaptation_lr": 0.01,
+        "criterion": 0.018498817187113065,
+        "body_scores": {
+          "4": [
+            0.032452259212732315,
+            0.018252413719892502,
+            0.01050308533012867,
+            0.11964984238147736,
+            0.005784760229289532,
+            0.04001504182815552,
+            0.018393097445368767,
+            0.00904629286378622
+          ],
+          "16": [
+            0.005799866281449795,
+            0.0043907444924116135,
+            0.0020527017768472433,
+            0.09101719409227371,
+            0.004582783207297325,
+            0.010197605937719345,
+            0.00943624135106802,
+            0.004082530736923218
+          ],
+          "64": [
+            0.004868092946708202,
+            0.0026898898649960756,
+            0.001578964525833726,
+            0.02110208012163639,
+            0.004296251107007265,
+            0.009912156499922276,
+            0.010273092426359653,
+            0.003594624111428857
+          ]
+        },
+        "wall_seconds": 0.24970602989196777,
+        "step": 2000
+      },
+      "parameter_count": 44050
+    }
+  },
+  "selected_continued_fits": {
+    "meta": {
+      "report": "/home/dtdav/dev/learn/research/structure_acquisition_continue_meta_lr0.001_seed0.json",
+      "report_sha256": "59249916e24cedc00f393a0f0f08e415c7e22876da893433ab337edaf1c3eddf",
+      "weights": "/home/dtdav/dev/learn/research/structure_acquisition_continue_meta_lr0.001_seed0.pt",
+      "weights_sha256": "358593abd59b1ee2a206e3c9408ee12dc737590e51f9892f9870ae199762a3bb",
+      "validation": {
+        "adaptation_lr": 0.03,
+        "criterion": 0.07777880269956465,
+        "group_means": {
+          "old": 0.06695808869941781,
+          "new": 0.08859951669971149
+        },
+        "body_scores": {
+          "old": {
+            "4": [
+              0.0533013790845871,
+              0.36650535464286804,
+              0.19845077395439148,
+              0.07617434859275818,
+              0.09640532732009888,
+              0.13241620361804962,
+              0.05937808007001877,
+              0.08653911203145981
+            ],
+            "16": [
+              0.03706613555550575,
+              0.027026867493987083,
+              0.014163916930556297,
+              0.07066256552934647,
+              0.029218021780252457,
+              0.0721944198012352,
+              0.031158680096268654,
+              0.029397374019026756
+            ],
+            "64": [
+              0.024203872308135033,
+              0.01755698025226593,
+              0.010536800138652325,
+              0.04322058707475662,
+              0.024257870391011238,
+              0.06461307406425476,
+              0.019947223365306854,
+              0.02259916067123413
+            ]
+          },
+          "new": {
+            "4": [
+              0.10390693694353104,
+              0.07131697982549667,
+              0.211689293384552,
+              0.0792442187666893
+            ],
+            "16": [
+              0.0611850880086422,
+              0.06550388038158417,
+              0.08357639610767365,
+              0.09686163812875748
+            ],
+            "64": [
+              0.04612079635262489,
+              0.061990104615688324,
+              0.08153867721557617,
+              0.1002601906657219
+            ]
+          }
+        },
+        "wall_seconds": 0.05182695388793945,
+        "step": 2000
+      },
+      "parameter_count": 2400
+    },
+    "fit": {
+      "report": "/home/dtdav/dev/learn/research/structure_acquisition_continue_fit_lr0.003_seed0.json",
+      "report_sha256": "b813e55f01fe06a32c6fdd22829ec89bfda8b30556431c9f0d17ba621e11650e",
+      "weights": "/home/dtdav/dev/learn/research/structure_acquisition_continue_fit_lr0.003_seed0.pt",
+      "weights_sha256": "51119679231df4875cfadd1a98a727618a62404622e18ac58d12013394479b47",
+      "validation": {
+        "adaptation_lr": 0.03,
+        "criterion": 0.06168213707860559,
+        "group_means": {
+          "old": 0.04328059086886545,
+          "new": 0.08008368328834574
+        },
+        "body_scores": {
+          "old": {
+            "4": [
+              0.06381074339151382,
+              0.1674749255180359,
+              0.02928890474140644,
+              0.07713257521390915,
+              0.09759492427110672,
+              0.11659309267997742,
+              0.05025172233581543,
+              0.07522435486316681
+            ],
+            "16": [
+              0.022008536383509636,
+              0.010386285372078419,
+              0.008538481779396534,
+              0.057987917214632034,
+              0.027353864163160324,
+              0.05110081657767296,
+              0.024664562195539474,
+              0.015331058762967587
+            ],
+            "64": [
+              0.012259049341082573,
+              0.006525858771055937,
+              0.007354001980274916,
+              0.02314520813524723,
+              0.01932527683675289,
+              0.04786597192287445,
+              0.015386867336928844,
+              0.012129181064665318
+            ]
+          },
+          "new": {
+            "4": [
+              0.09081082046031952,
+              0.05789966508746147,
+              0.22063323855400085,
+              0.06775102019309998
+            ],
+            "16": [
+              0.041859451681375504,
+              0.07046210020780563,
+              0.08221691101789474,
+              0.08266858011484146
+            ],
+            "64": [
+              0.017986690625548363,
+              0.06223707273602486,
+              0.0783713310956955,
+              0.08810731768608093
+            ]
+          }
+        },
+        "wall_seconds": 0.05346393585205078,
+        "step": 8000
+      },
+      "parameter_count": 2400
+    },
+    "frozen": {
+      "report": "/home/dtdav/dev/learn/research/structure_acquisition_continue_frozen_lr0.003_seed0.json",
+      "report_sha256": "efd96732f85165b43893f5549ef88da86d644a5ccc532fdba45ea7fdc4dffe28",
+      "weights": "/home/dtdav/dev/learn/research/structure_acquisition_continue_frozen_lr0.003_seed0.pt",
+      "weights_sha256": "2df60c460f4936e5c045fba182f978754bf896d54b251393a4b21a19fe357e0a",
+      "validation": {
+        "adaptation_lr": 0.03,
+        "criterion": 0.10024930521224935,
+        "group_means": {
+          "old": 0.06396531406790018,
+          "new": 0.13653329635659853
+        },
+        "body_scores": {
+          "old": {
+            "4": [
+              0.056102123111486435,
+              0.34197595715522766,
+              0.1793416440486908,
+              0.0518253892660141,
+              0.060625337064266205,
+              0.10194966197013855,
+              0.05373964086174965,
+              0.059656593948602676
+            ],
+            "16": [
+              0.052934430539608,
+              0.020647307857871056,
+              0.020056776702404022,
+              0.08247433602809906,
+              0.026087837293744087,
+              0.07459022849798203,
+              0.03795519843697548,
+              0.025051511824131012
+            ],
+            "64": [
+              0.04787413403391838,
+              0.01899593137204647,
+              0.01988859660923481,
+              0.04203856736421585,
+              0.02728530950844288,
+              0.08100838214159012,
+              0.032670024782419205,
+              0.02039261721074581
+            ]
+          },
+          "new": {
+            "4": [
+              0.15402546525001526,
+              0.0833909660577774,
+              0.2566817104816437,
+              0.10292984545230865
+            ],
+            "16": [
+              0.1267988085746765,
+              0.09995000064373016,
+              0.17132113873958588,
+              0.09760546684265137
+            ],
+            "64": [
+              0.13287144899368286,
+              0.1370796412229538,
+              0.14878813922405243,
+              0.12695692479610443
+            ]
+          }
+        },
+        "wall_seconds": 0.031403303146362305,
+        "step": 8000
+      },
+      "parameter_count": 1088
+    },
+    "neural": {
+      "report": "/home/dtdav/dev/learn/research/structure_acquisition_continue_neural_lr0.001_seed0.json",
+      "report_sha256": "a7f97c18a31bcd67e5dc6f3551cf97d5f9705191944acc1d0fd2a6015de16d58",
+      "weights": "/home/dtdav/dev/learn/research/structure_acquisition_continue_neural_lr0.001_seed0.pt",
+      "weights_sha256": "249109059a2f8b868735e88c1d11d1b0e003d2e6306c415136f07d7e0b4b5e75",
+      "validation": {
+        "adaptation_lr": 0.03,
+        "criterion": 0.06055373257064882,
+        "group_means": {
+          "old": 0.0438848834989282,
+          "new": 0.07722258164236943
+        },
+        "body_scores": {
+          "old": {
+            "4": [
+              0.055174607783555984,
+              0.31231001019477844,
+              0.026213878765702248,
+              0.08207891881465912,
+              0.06775222718715668,
+              0.1107085645198822,
+              0.047744426876306534,
+              0.02140548638999462
+            ],
+            "16": [
+              0.02601950615644455,
+              0.014470861293375492,
+              0.008627712726593018,
+              0.05438343808054924,
+              0.020300282165408134,
+              0.04060039669275284,
+              0.03251989185810089,
+              0.012747316621243954
+            ],
+            "64": [
+              0.010098121128976345,
+              0.005383920390158892,
+              0.0045439982786774635,
+              0.022110916674137115,
+              0.01637202873826027,
+              0.03149445354938507,
+              0.02163274772465229,
+              0.00854349136352539
+            ]
+          },
+          "new": {
+            "4": [
+              0.0634242445230484,
+              0.046614084392786026,
+              0.23817022144794464,
+              0.05426521226763725
+            ],
+            "16": [
+              0.03164372220635414,
+              0.06566638499498367,
+              0.08506468683481216,
+              0.06945519149303436
+            ],
+            "64": [
+              0.032712869346141815,
+              0.05010674148797989,
+              0.07615089416503906,
+              0.11339672654867172
+            ]
+          }
+        },
+        "wall_seconds": 0.014924287796020508,
+        "step": 6000
+      },
+      "parameter_count": 13120
+    },
+    "coda": {
+      "report": "/home/dtdav/dev/learn/research/structure_acquisition_continue_coda_lr0.003_seed0.json",
+      "report_sha256": "030865af7227b442731b58ee01dfd9799d47fc857534a2cb03014434261b2f0e",
+      "weights": "/home/dtdav/dev/learn/research/structure_acquisition_continue_coda_lr0.003_seed0.pt",
+      "weights_sha256": "6e6da13eeea0bab0fad37c4b7efb1372b7ab0ec639109d5e3181dff09fbc14c8",
+      "validation": {
+        "adaptation_lr": 0.01,
+        "criterion": 0.04571315158924942,
+        "group_means": {
+          "old": 0.03339183116622735,
+          "new": 0.058034472012271486
+        },
+        "body_scores": {
+          "old": {
+            "4": [
+              0.03875676169991493,
+              0.14879687130451202,
+              0.03612494096159935,
+              0.062411025166511536,
+              0.06082030385732651,
+              0.07020898163318634,
+              0.04419765621423721,
+              0.046957772225141525
+            ],
+            "16": [
+              0.015481912530958652,
+              0.01954498328268528,
+              0.001699243439361453,
+              0.05869877338409424,
+              0.007168310694396496,
+              0.015260733664035797,
+              0.03701099380850792,
+              0.05351189896464348
+            ],
+            "64": [
+              0.007040543481707573,
+              0.0021614939905703068,
+              0.0012294953921809793,
+              0.011765227653086185,
+              0.012802686542272568,
+              0.011641422286629677,
+              0.013622995465993881,
+              0.024488920345902443
+            ]
+          },
+          "new": {
+            "4": [
+              0.042191095650196075,
+              0.06051020324230194,
+              0.1412643939256668,
+              0.0902811735868454
+            ],
+            "16": [
+              0.040958937257528305,
+              0.08773653209209442,
+              0.054225027561187744,
+              0.03219987824559212
+            ],
+            "64": [
+              0.024457411840558052,
+              0.03502548485994339,
+              0.019533131271600723,
+              0.06803039461374283
+            ]
+          }
+        },
+        "wall_seconds": 0.5162765979766846,
+        "step": 4000
+      },
+      "parameter_count": 44114
+    }
+  },
+  "independent_means": {
+    "meta": {
+      "new_id": {
+        "0": 0.693293205480261,
+        "4": 0.2201375327581634,
+        "16": 0.17723334830554355,
+        "64": 0.11842231471434328
+      },
+      "new_id_wrong_support": {
+        "0": 0.693293205480261,
+        "4": 1.3279764384087125,
+        "16": 1.3514493942191093,
+        "64": 1.3499997125214627
+      },
+      "new_ood": {
+        "0": 4.270494730837181,
+        "4": 2.579581273976933,
+        "16": 0.8730520334694769,
+        "64": 0.3176561294702006
+      },
+      "new_ood_wrong_support": {
+        "0": 4.270494730837181,
+        "4": 5.425342055485514,
+        "16": 7.077075381129142,
+        "64": 7.9139374114584475
+      },
+      "old_id": {
+        "0": 0.1765558054069607,
+        "4": 0.08440410563108897,
+        "16": 0.03855331801931847,
+        "64": 0.038632416971540066
+      },
+      "old_id_wrong_support": {
+        "0": 0.1765558054069607,
+        "4": 0.2135142965016481,
+        "16": 0.31662053346314484,
+        "64": 0.29313698802518523
+      }
+    },
+    "fit": {
+      "new_id": {
+        "0": 0.692887749586815,
+        "4": 0.28430795246224305,
+        "16": 0.19087382352593624,
+        "64": 0.09479881484715635
+      },
+      "new_id_wrong_support": {
+        "0": 0.692887749586815,
+        "4": 1.5634537086576479,
+        "16": 1.4237268498637579,
+        "64": 1.276241929265876
+      },
+      "new_ood": {
+        "0": 4.245043265309011,
+        "4": 2.394580354947875,
+        "16": 0.70106370105549,
+        "64": 0.3515443920246907
+      },
+      "new_ood_wrong_support": {
+        "0": 4.245043265309011,
+        "4": 6.092842572090824,
+        "16": 7.29965542199423,
+        "64": 7.863761192161687
+      },
+      "old_id": {
+        "0": 0.16347080282900966,
+        "4": 0.07282299941472542,
+        "16": 0.03561029926027735,
+        "64": 0.02511913047428714
+      },
+      "old_id_wrong_support": {
+        "0": 0.16347080282900966,
+        "4": 0.21887362741551417,
+        "16": 0.3148704517773394,
+        "64": 0.2873259121056805
+      }
+    },
+    "frozen": {
+      "new_id": {
+        "0": 0.8011120381312089,
+        "4": 0.33250193486747304,
+        "16": 0.32942364973189286,
+        "64": 0.3321470059070532
+      },
+      "new_id_wrong_support": {
+        "0": 0.8011120381312089,
+        "4": 1.2788332154726119,
+        "16": 1.3313132461095696,
+        "64": 1.2536339160896763
+      },
+      "new_ood": {
+        "0": 4.390969449885991,
+        "4": 2.865021007991272,
+        "16": 1.5685406934264376,
+        "64": 0.7280360925834912
+      },
+      "new_ood_wrong_support": {
+        "0": 4.390969449885991,
+        "4": 5.596113357668807,
+        "16": 6.847599587296589,
+        "64": 8.30832034023041
+      },
+      "old_id": {
+        "0": 0.15264846080007402,
+        "4": 0.08812323919697601,
+        "16": 0.05286198494819857,
+        "64": 0.049040128913157705
+      },
+      "old_id_wrong_support": {
+        "0": 0.15264846080007402,
+        "4": 0.23356140688149285,
+        "16": 0.3545616583040436,
+        "64": 0.31582694266729533
+      }
+    },
+    "neural": {
+      "new_id": {
+        "0": 0.6440859867576898,
+        "4": 0.23322503054432406,
+        "16": 0.21477424390659272,
+        "64": 0.07259125480282988
+      },
+      "new_id_wrong_support": {
+        "0": 0.6440859867576898,
+        "4": 1.450325926696315,
+        "16": 1.6218918195963146,
+        "64": 1.3435715195936984
+      },
+      "new_ood": {
+        "0": 4.23996882869672,
+        "4": 2.3816545903966153,
+        "16": 0.7922375031287376,
+        "64": 0.3655595267437014
+      },
+      "new_ood_wrong_support": {
+        "0": 4.23996882869672,
+        "4": 6.199355415418765,
+        "16": 7.288919768314194,
+        "64": 7.8811454392062705
+      },
+      "old_id": {
+        "0": 0.18559234018339793,
+        "4": 0.061773921178173624,
+        "16": 0.027846349101545535,
+        "64": 0.025150640505782175
+      },
+      "old_id_wrong_support": {
+        "0": 0.18559234018339793,
+        "4": 0.2143076950673191,
+        "16": 0.29601030040523735,
+        "64": 0.2882336961569693
+      }
+    },
+    "coda": {
+      "new_id": {
+        "0": 0.6985309897834275,
+        "4": 0.34424106633324,
+        "16": 0.1268207244338132,
+        "64": 0.1026577429116292
+      },
+      "new_id_wrong_support": {
+        "0": 0.6985309897834275,
+        "4": 1.0961484573098583,
+        "16": 0.9245029245582543,
+        "64": 0.9194906785990212
+      },
+      "new_ood": {
+        "0": 4.257159662911576,
+        "4": 3.0655331597326043,
+        "16": 1.9223896345529314,
+        "64": 0.9250923909145279
+      },
+      "new_ood_wrong_support": {
+        "0": 4.257159662911576,
+        "4": 4.585281292063733,
+        "16": 6.203143109367749,
+        "64": 9.385231261432988
+      },
+      "old_id": {
+        "0": 0.15631557045475653,
+        "4": 0.051091391277857556,
+        "16": 0.013868382345751249,
+        "64": 0.01293148953531409
+      },
+      "old_id_wrong_support": {
+        "0": 0.15631557045475653,
+        "4": 0.2216392286471598,
+        "16": 0.2643229971510479,
+        "64": 0.2742769289540257
+      }
+    }
+  },
+  "continuation_gates": {
+    "16": {
+      "new_id_improves_10_percent_over_neural_and_frozen": false,
+      "other_new_id_budget_within_5_percent": false,
+      "new_ood_within_5_percent_at_both": false,
+      "retention_within_5_percent_at_both": false,
+      "correct_support_beats_wrong": true
+    },
+    "64": {
+      "new_id_improves_10_percent_over_neural_and_frozen": false,
+      "other_new_id_budget_within_5_percent": false,
+      "new_ood_within_5_percent_at_both": false,
+      "retention_within_5_percent_at_both": false,
+      "correct_support_beats_wrong": true
+    }
+  },
+  "continuation_pass": false,
+  "criterion_beats_fit_by_10_percent": {
+    "16": false,
+    "64": false
+  },
+  "wall_seconds": 0.2638418674468994,
+  "limitations": [
+    "Saved raw test predictions independently scored, not regenerated through models.",
+    "Validation scores checked for arithmetic/equal-group weighting/checkpoint/LR selection and source/dataflow provenance, not independent forward reconstruction.",
+    "Weight metadata/scales/finite states inspected; optimizer history and learned global optima not certified.",
+    "Graph structure/prefix/records checked; feature search not rerun and semantic equivalence not proved.",
+    "Wrong-support body roll inferred from unchanged reviewed driver; predictions are not independently regenerated.",
+    "Single exploratory seed and one acquired corpus; fixed physical family and supplied grammar; no control/novelty/framework claim."
+  ]
+}
