@@ -1,3 +1,71 @@
+# Direction decision after actual control and maintained-learning failure
+
+2026-10-21. The innovation-memory control candidate and the official AMAGO-GRU
+competence prerequisite are complete. Both fail their frozen gates; read their
+findings and bounded independent checks. The independent critic recommends
+closing this calibration instrument campaign, not adding another head or tuning
+against these results. The ultimate Goal remains active and unachieved, v17
+remains the latest ledger, and there is no demonstrated breakthrough.
+
+## First-principles construction question
+
+A candidate route concerns experience-acquired applicability: when can prior
+behavior be substituted into a new objective/constraint combination without
+breaking other requirements? This must concern actual acquired capability,
+not new orders of supplied joint goals or new masses in a hand-specified family.
+Persistent experience must reduce the cost of a genuinely unseen combination;
+removing the relevant experience must remove the claimed benefit. Do not supply
+the skill labels, preservation predicates, decomposition or oracle actions that
+constitute the claimed discovery.
+
+An elementary diagnostic (not a novel theorem or experiment): start observable
+bits A=B=0. Isolated trials a->10 and b->01 fit both a world where actions set one
+bit while preserving the other and a world where they reset the other. The
+sequence ab achieves 11 only in the first. A b-after-a trial distinguishes them.
+Endpoint achievements alone cannot justify compositional reuse. Under full
+observable Markov transition knowledge, ordinary planning already handles this;
+the counterexample establishes no new algorithm or gap against that explanation.
+
+The independent theory auditor derived contextual program substitution as an
+alternative to endpoint-skill membership. Its missing operation is acquiring and
+transferring a compact preservation/applicability relation from ordinary
+experience with less interaction/computation than competent learned transition
+planning. A generic counterexample-guided rewrite loop is already known. No
+specific new operation has yet survived this comparison. The next bounded pass
+must resolve this construction decision, not start a benchmark or architecture
+menu in advance. Budget approximately 30 minutes; stop this attempt if the
+missing insight remains, without treating the ultimate Goal as achieved.
+
+## Closest primary methods actually checked
+
+- [Upal 2001, Learning Plan Rewriting Rules](https://cdn.aaai.org/FLAIRS/2001/FLAIRS01-079.pdf):
+  actual plan-rewrite/precondition procedure inspected. Good/bad traces and
+  contexts support applicability learning within a supplied planning vocabulary;
+  generic learned rewrite preconditions are not a new operation.
+- [Sensory commutativity](https://arxiv.org/html/2002.05630v3): actual action-order
+  method and visual differentiator inspected. Experiments compare observations
+  after reordered actions. The visual mask is trained from supplied synthetic
+  labels; this is not automatic arbitrary-continuation equivalence. Merely
+  proposing commutation probes would repeat an existing idea.
+- [Robust Subtask Learning for Compositional Generalization](https://proceedings.mlr.press/v202/jothimurugan23a/jothimurugan23a.pdf):
+  actual MDP/game formulation and relevant experiment sections inspected.
+  Adversarial subtask sequences address arrival conditions, with supplied
+  subtask identities, rewards, terminal sets and jump structure. Arrival-aware
+  skill learning is established; automatic discovery of applicability is a
+  different requirement, not a demonstrated gap or our solution.
+- [Run-Time Task Composition with Safety Semantics](https://proceedings.mlr.press/v235/leahy24a.html)
+  and [Boolean Task Algebra](https://arxiv.org/abs/2001.01394) were located at
+  primary sources, but their methods have not yet been checked. Do not infer a
+  novelty claim from their abstracts. HER, FB and SoRB were checked earlier below.
+
+No new data, substantive training, new mechanism, validation success or
+competitive claim belongs to this direction review. It records a construction
+obstacle and the decision that further calibration variants are unjustified.
+
+Earlier direction reviews follow unchanged.
+
+---
+
 # Direction review after the feature-acquisition rejection
 
 2026-10-21. Verified checkpoint 378cc0a3b3fde1923edfd8768a3e50a2bc552c61

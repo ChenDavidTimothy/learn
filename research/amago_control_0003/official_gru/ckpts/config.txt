@@ -1,0 +1,96 @@
+# Parameters for Actor:
+# ==============================================================================
+Actor.activation = 'leaky_relu'
+Actor.d_hidden = 256
+Actor.dropout_p = 0.0
+Actor.n_layers = 2
+
+# Parameters for Agent:
+# ==============================================================================
+Agent.critic_loss_weight = 10.0
+Agent.fake_filter = False
+Agent.gamma = 0.999
+Agent.n_step = 1
+Agent.num_actions_for_value_in_actor_loss = 1
+Agent.num_actions_for_value_in_critic_loss = 1
+Agent.num_critics = 4
+Agent.num_critics_td = 2
+Agent.offline_coeff = 0.1
+Agent.online_coeff = 1.0
+Agent.pass_obs_keys_to_actor = None
+Agent.popart = True
+Agent.reward_multiplier = 10.0
+Agent.tau = 0.003
+Agent.use_multigamma = True
+Agent.use_target_actor = True
+
+# Parameters for DiskTrajDataset:
+# ==============================================================================
+DiskTrajDataset.dset_min_size = 1
+DiskTrajDataset.relabeler = None
+
+# Parameters for Experiment:
+# ==============================================================================
+Experiment.always_load_latest = False
+Experiment.async_env_mp_context = None
+Experiment.batches_per_update = 1
+Experiment.force_reset_train_envs_every = None
+Experiment.grad_clip = 1.0
+Experiment.has_dset_edit_rights = True
+Experiment.l2_coeff = 0.001
+Experiment.lr_warmup_steps = 500
+Experiment.mixed_precision = 'no'
+Experiment.padded_sampling = 'none'
+Experiment.start_collecting_at_epoch = 0
+Experiment.start_learning_at_epoch = 0
+Experiment.wandb_entity = None
+Experiment.wandb_group_name = None
+Experiment.wandb_project = None
+
+# Parameters for FFTstepEncoder:
+# ==============================================================================
+FFTstepEncoder.activation = 'leaky_relu'
+FFTstepEncoder.auto_scale = False
+FFTstepEncoder.d_hidden = 128
+FFTstepEncoder.d_output = 128
+FFTstepEncoder.hide_rl2s = False
+FFTstepEncoder.n_layers = 2
+FFTstepEncoder.norm = None
+FFTstepEncoder.normalize_inputs = True
+FFTstepEncoder.out_norm = 'layer'
+FFTstepEncoder.specify_obs_keys = None
+
+# Parameters for GRUTrajEncoder:
+# ==============================================================================
+GRUTrajEncoder.d_hidden = 128
+GRUTrajEncoder.d_output = 128
+GRUTrajEncoder.n_layers = 1
+GRUTrajEncoder.norm = 'layer'
+
+# Parameters for InputNorm:
+# ==============================================================================
+InputNorm.beta = 0.0001
+InputNorm.init_nu = 1.0
+
+# Parameters for Multigammas:
+# ==============================================================================
+Multigammas.continuous = [0.1, 0.9, 0.95, 0.97, 0.99, 0.995]
+Multigammas.discrete = [0.1, 0.9, 0.95, 0.97, 0.99, 0.995]
+
+# Parameters for NCritics:
+# ==============================================================================
+NCritics.activation = 'leaky_relu'
+NCritics.d_hidden = 256
+NCritics.dropout_p = 0.0
+NCritics.n_layers = 2
+
+# Parameters for PopArtLayer:
+# ==============================================================================
+PopArtLayer.beta = 0.0005
+PopArtLayer.init_nu = 100.0
+
+# Parameters for TanhGaussian:
+# ==============================================================================
+TanhGaussian.clip_actions_on_log_prob = (-0.99, 0.99)
+TanhGaussian.std_high = 7.38905609893065
+TanhGaussian.std_low = 0.006737946999085467

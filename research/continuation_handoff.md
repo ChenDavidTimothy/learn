@@ -1,3 +1,84 @@
+# Calibration branch closed; ultimate Goal active and unachieved
+
+2026-10-21, completed before 03:13 UTC. No fit remains running. Read
+[AMAGO findings](amago_control_findings.md),
+[selection](amago_control_selection.json) and the
+[independent result check](check_amago_control_results.md).
+The official pinned AMAGO-GRU budgeted prerequisite completed both 128-epoch
+fits. Literal cost selection chooses rate .0003 / epoch 96: cost 1.2582925567,
+precision 1/192 validation goals. The prospective 75% gate fails; no fresh
+confirmation was sampled. Fixed-rho RLS on the same validation bodies achieves
+cost .3001656741 and 67/192, not full task competence. This is failure of these
+settings and budget, not AMAGO generally or proof the threshold is attainable.
+All eight checkpoints, validation archives, reports/losses and supported
+continuation states are retained. Main study plus diagnostic: 4,070,400 physical
+intervals; discarded engineering adds 33,600 separately. Ordinary replay remains
+locally under ignored local_datasets; do not delete it or rerun successful fits.
+The independently authored saved-result check passes, with explicitly bounded
+scope. No further audit, fit extension or calibration head is warranted.
+
+The innovation-memory construction and all three prediction constructions remain
+retired. Latest verified living ledger remains v17. No new general framework,
+competitive result or breakthrough is established. Do not create v18 for this
+negative prerequisite or restart the old exhaustive numerical agenda.
+
+## Current construction decision
+
+The calibration campaign is CLOSED. The independent direction critic recommends
+this closure. The next investigation must justify a distinct unsupplied reusable
+capability and an actual learning operation. Read the newest opening of
+post_screen_direction_review.md. Current question: can ordinary experience acquire
+when a prior behavior remains applicable inside an unseen combination of
+objectives/constraints, rather than only estimating different body coefficients?
+No new algorithm or benchmark is selected. Full transition learning and planning,
+HER, forward-backward methods, replay planning and learned plan rewriting already
+provide serious existing accounts. Generic composition is not an original rule.
+
+Bound the next construction decision to roughly 30 minutes of focused derivation
+and closest-method checks. The one missing operation is acquisition/transfer of
+compact preservation or applicability information without experimenter-supplied
+skill predicates or decomposition. A proposal must identify a consequential
+advantage over competent learned transition planning and a falsifier. If no
+operation survives that test, record the specific missing insight; do not create
+another head, toy benchmark or literature collection to fill time. This bound is
+not permission to manufacture novelty. Ultimate Goal remains active, unachieved.
+
+Publication: protocol/source frozen and SSH-verified at
+14b87ac5fd855ac21c734c07020cc3b3cfc8a6a2; final results are being committed
+with this entry. Use Git history and remote main for the exact publication hash.
+
+Earlier snapshots follow unchanged; their running PIDs and plans are historical.
+
+---
+
+# Active official AMAGO fits; previous control formulation remains retired
+
+2026-10-21, launched approximately 02:50:36 UTC after frozen protocol/source
+14b87ac5fd855ac21c734c07020cc3b3cfc8a6a2 was SSH-pushed and remotely verified.
+Two official GRU baseline fits are running on the owner PC/GPU. Do not restart:
+
+- PID1269736 / exec session83705: learning rate .0001, output research/amago_control_0001.
+- PID1269737 / exec session87661: learning rate .0003, output research/amago_control_0003.
+
+Each gets128 epochs,64 bodies/240 steps per epoch and50 official replay batches.
+Read report.json within each directory for live progress and actual source hashes.
+The45-minute total fit budget ends approximately03:35UTC. No fresh confirmation
+is permitted until validation-only selection is frozen and its gate is assessed.
+Read amago_control_plan.md. Source is frozen: do not edit driver, adapter, plan,
+runtime or upstream during these fits. Checkpoint I/O uses supported pickle to
+preserve CUDA GRU views; official learning operations are unchanged. Ordinary
+replay is preserved locally in research/local_datasets/amago_amago_control_0001
+and corresponding0003; do not delete or publish it by accident. No H is used.
+
+The verified negative innovation-control result is checkpoint
+374500e479748a672916013a9427ae9b11fe7cc3. It is retired; do not tune against its
+closed test. The ultimate Goal remains active and unachieved; latest ledger v17.
+There is still no demonstrated breakthrough or competitive learning framework.
+
+Earlier state follows unchanged.
+
+---
+
 # Active prerequisite study: maintained learned-control competence
 
 2026-10-21. Verified innovation-control negative checkpoint
