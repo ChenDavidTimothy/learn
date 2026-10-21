@@ -1,3 +1,26 @@
+# Active prerequisite study: maintained learned-control competence
+
+2026-10-21. Verified innovation-control negative checkpoint
+374500e479748a672916013a9427ae9b11fe7cc3 is SSH-published. That formulation stays
+retired. Read amago_control_plan.md and amago_control_feasibility.md for this
+bounded next study. The official pinned AMAGO core and license are vendored
+without algorithm changes. Its configurable GRU is used; no full Transformer or
+SOTA reproduction is claimed.
+
+Process-local Gymnasium .29 compatibility preserves canonical Gymnasium 1.4 and
+all pre-existing packages; 37 necessary support dependencies were added/pinned.
+No logging service or upload. Source, interface, update and runtime checks pass;
+no expensive fit has started yet. Two settings each receive 128 epochs of 64
+bodies/240 steps, 50 official replay batches/epoch, and validation on 64 fixed
+bodies at four checkpoints. Total fit budget: 45 minutes. No H and no reuse of
+the previous closed test. Read live Git/files for fit status; do not rerun
+successful fits or closed physics audits. The ultimate Goal remains active and
+unachieved; latest ledger stays v17.
+
+Earlier state follows unchanged.
+
+---
+
 # Active Goal; innovation-memory control construction rejected
 
 2026-10-21. Read innovation_control_findings.md and independent

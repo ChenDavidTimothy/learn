@@ -1,0 +1,1086 @@
+{
+  "status": "FULL-BATCH ENGINEERING RUNTIME PROFILE; DISCARDED WEIGHTS; NO COMPETENCE CLAIM",
+  "official_commit": "54c25ab6da9371614c47352f569a56c0fe938d3b",
+  "smoke": false,
+  "lr": 0.0001,
+  "sources": {
+    "amago_control_study.py": "454f3eeef1c402228773b2499a79e0568983387a4908a4beca75cf8057d829c7",
+    "amago_control_env.py": "dff477918952a0ae0ec6e21d8251b957f9f0ddd8b218c6c97daf94dfd5d7e257",
+    "amago_runtime.py": "537f287b169b82f51f632201f24e5c82f57ec2e82d643635a323a144e7a3d1d1",
+    "innovation_control_env.py": "958889cc7ecffee0126841e203476c6baace9e7ddf1baefc750f5d38a69112e0",
+    "error_transport_data.py": "168e71018edbd00a44d06538d7593dca90ec28476cbf88f452ec225e0f3bb4b8",
+    "third_party/amago/UPSTREAM.json": "1b329f2c0a6dabaf1290583df8e18e57591d4778379261e8e21dc8c960360d27",
+    "amago_control_plan.md": "38aeec2502dad91f5e510e3dbb0e435de1ed825534b13d392a2d55338d576b0d"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "training": {
+        "mean_cost": 1.9587380035704105,
+        "body_cost": [
+          0.4387122792567325,
+          2.526477574771554,
+          2.230089839808178,
+          1.61670273727685,
+          2.7394913114089294,
+          2.06343403908138,
+          2.3489647266616696,
+          2.0704636385792377,
+          0.6269268675474476,
+          2.4539583102021543,
+          1.4583904503856007,
+          2.1006595628941738,
+          0.32339746477224984,
+          1.782377881443289,
+          2.022839423500738,
+          3.927089497007158,
+          2.25141935229641,
+          2.457088296041489,
+          2.1418344546511956,
+          1.9845134055658107,
+          1.775506726459836,
+          3.09783915638353,
+          0.6167595866986488,
+          1.4248946231021316,
+          1.2715954198639412,
+          2.9075031025911633,
+          2.190742145058613,
+          0.4579220816711975,
+          0.9713079144869964,
+          0.8642034383243896,
+          0.6066868730411302,
+          1.1073955707449248,
+          4.8023559143701124,
+          4.243961812420593,
+          0.26956446743968315,
+          1.5234495774066688,
+          2.2271017788415524,
+          3.3961080587883523,
+          2.8022708648297794,
+          3.7450721653791486,
+          2.920595547223915,
+          1.7879134918499384,
+          2.3152400882567523,
+          0.966558269006807,
+          2.8995487555339263,
+          3.995740873480678,
+          2.9644907682106387,
+          1.9033638580419436,
+          0.6498567374873286,
+          2.1409500336978393,
+          1.1225527350448812,
+          0.8776744933621079,
+          3.169921565738492,
+          1.3709886030679053,
+          3.1638364685748286,
+          3.918985385912644,
+          0.19711693197485783,
+          1.7533532320464396,
+          0.17553562738295833,
+          0.7249351360408712,
+          2.609689958472389,
+          2.123632070861407,
+          1.18186022715564,
+          0.5578189790264402
+        ],
+        "precision_fraction": 0.0,
+        "precise_goals": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "physical_seed": 2026102180000
+      },
+      "wall_seconds": 1.4909985065460205,
+      "log_end": 4
+    }
+  ],
+  "candidates": [
+    {
+      "epoch": 1,
+      "metrics": {
+        "mean_cost": 2.2196519464089626,
+        "body_cost": [
+          3.6238708150542465,
+          2.5707858545825766,
+          2.0554231357230512,
+          2.7041853249373586,
+          2.8454774409094297,
+          2.2745034137137874,
+          0.4983940513140034,
+          3.2371586843357414,
+          2.1362343427425827,
+          4.645178510609672,
+          2.909313436815491,
+          2.242692041467975,
+          3.115892519177241,
+          2.2841793746948356,
+          2.4869222018802195,
+          3.6007932350235183,
+          3.0517542754782245,
+          2.223091941581223,
+          0.6549027291528599,
+          2.103876295032493,
+          2.2285934048402587,
+          1.1598475559879842,
+          1.6884189070467805,
+          3.476886674445476,
+          0.4751057767214659,
+          2.163662248138893,
+          4.0252635811082635,
+          3.4767388036465965,
+          1.409114363048122,
+          0.6949654322275303,
+          1.450350261450401,
+          3.8791262184664133,
+          2.457832060502243,
+          2.655975818397721,
+          0.7481793084640851,
+          0.48965302650094744,
+          2.956564225278736,
+          2.0531280491510833,
+          0.9747045228081606,
+          3.870865997945245,
+          1.1268805698501814,
+          1.262984215186895,
+          0.1705170449032068,
+          2.9131190667783797,
+          1.9863116071802522,
+          2.298090408726179,
+          2.7343305710293513,
+          3.5479533391893314,
+          2.0663566883375197,
+          1.8322490434316299,
+          2.949171408270946,
+          0.8878294600042616,
+          3.771375340950435,
+          2.896938582375394,
+          2.9485675155791133,
+          0.5722955715666209,
+          1.3374502703455204,
+          0.6347525905245363,
+          3.0357795984828595,
+          0.27163124568354324,
+          2.761864504376087,
+          1.3231575165656697,
+          2.8849088206921114,
+          2.2436037297406464
+        ],
+        "precision_fraction": 0.0,
+        "precise_goals": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "physical_seed": 2026102181000
+      },
+      "weights": "epoch_001.pt",
+      "weights_sha256": "f1428ba714631af053c261b6022a1d443fef42e5f28868ec9b019f38d51ec372",
+      "validation": "epoch_001_validation.npz"
+    }
+  ],
+  "local_logs": [
+    {
+      "key": "dataset",
+      "metrics": {
+        "Trajectory Files Saved in FIFO Replay Buffer": 64.0,
+        "Trajectory Files Saved in Protected Replay Buffer": 0.0,
+        "Total Trajectory Files in Replay Buffer": 64.0,
+        "Trajectory Files Deleted": 0.0,
+        "Buffer Disk Space (GB)": 0.001109159
+      }
+    },
+    {
+      "key": "train-update",
+      "metrics": {
+        "Loss": 22.455617904663086,
+        "activation-TanhGaussian-mu-max": 0.3574899435043335,
+        "activation-TanhGaussian-mu-min": -0.3259781002998352,
+        "activation-TanhGaussian-mu-std": 0.12743480503559113,
+        "activation-TanhGaussian-mu-mean": -0.02003600262105465,
+        "activation-TanhGaussian-std-max": 0.6545298099517822,
+        "activation-TanhGaussian-std-min": 0.1062602773308754,
+        "activation-TanhGaussian-std-std": 0.07219597697257996,
+        "activation-TanhGaussian-std-mean": 0.26035889983177185,
+        "activation-TanhGaussian-raw_std-max": 0.31775426864624023,
+        "activation-TanhGaussian-raw_std-min": -0.21522369980812073,
+        "activation-TanhGaussian-raw_std-std": 0.08140774816274643,
+        "activation-TanhGaussian-raw_std-mean": 0.03309246152639389,
+        "Q(s, a) (global mean, rescaled) gamma=0.100": 0.20580682158470154,
+        "Q(s,a) (global mean, raw scale) gamma=0.100": 0.02058069221675396,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.100": 0.3008054494857788,
+        "Q(s, a) (global mean, rescaled) gamma=0.900": 0.3160903751850128,
+        "Q(s,a) (global mean, raw scale) gamma=0.900": 0.03160902112722397,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.900": 0.28112342953681946,
+        "Q(s, a) (global mean, rescaled) gamma=0.950": 0.3783704936504364,
+        "Q(s,a) (global mean, raw scale) gamma=0.950": 0.03783705085515976,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.950": 0.2780568599700928,
+        "Q(s, a) (global mean, rescaled) gamma=0.970": 0.4316174387931824,
+        "Q(s,a) (global mean, raw scale) gamma=0.970": 0.043161749839782715,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.970": 0.27812671661376953,
+        "Q(s, a) (global mean, rescaled) gamma=0.990": 0.5679050087928772,
+        "Q(s,a) (global mean, raw scale) gamma=0.990": 0.056790512055158615,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.990": 0.28636229038238525,
+        "Q(s, a) (global mean, rescaled) gamma=0.995": 0.6672185063362122,
+        "Q(s,a) (global mean, raw scale) gamma=0.995": 0.06672181934118271,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.995": 0.2978864014148712,
+        "Q(s, a) (global mean, rescaled) gamma=0.999": 0.9198033809661865,
+        "Q(s,a) (global mean, raw scale) gamma=0.999": 0.09198034554719925,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.999": 0.3410987854003906,
+        "Q(s, a) (global std, rescaled, ignoring padding)": 2.8641936779022217,
+        "Min TD Target": -67.256103515625,
+        "Max TD Target": 7.747504711151123,
+        "TD Target (test-time gamma)": -16.847440719604492,
+        "Mean Reward (in training sequences)": -1.6257216930389404,
+        "Sequences Containing Done": 16.0,
+        "Min Reward (in training sequences)": -6.139289855957031,
+        "Max Reward (in training sequences)": -0.03410384804010391,
+        "PopArt mu (mean over gamma)": -8.438039779663086,
+        "PopArt nu (mean over gamma)": 297.2804260253906,
+        "PopArt w (mean over gamma)": 0.665135383605957,
+        "PopArt b (mean over gamma)": 0.5611963272094727,
+        "PopArt sigma (mean over gamma)": 15.035199165344238,
+        "Minimum Action Logprob": -54.83648681640625,
+        "Maximum Action Logprob": 1.7029787302017212,
+        "Mean Action Logprob": -0.842347264289856,
+        "Filter Max": 1.0,
+        "Filter Min": 0.0,
+        "Filter Mean": 0.43307292461395264,
+        "Filter 95th Percentile": 1.0,
+        "Filter 75th Percentile": 1.0,
+        "Pct. of Actions Approved by Binary FBC Filter (All Gammas)": 43.30729293823242,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.100)": 47.03125,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.900)": 38.151039123535156,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.950)": 44.08854293823242,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.970)": 36.82291793823242,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.990)": 53.203125,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.995)": 32.13541793823242,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.999)": 51.718746185302734,
+        "Critic Loss": 2.2774126529693604,
+        "Actor Loss": -0.3185087740421295,
+        "Sequence Length": 241.0,
+        "Batch Size (in Timesteps)": 3840.0,
+        "Unmasked Batch Size (in Timesteps)": 3840.0,
+        "Learning Rate": 0.0,
+        "Actor Grad Norm": 0.005020083725214249,
+        "Critic Grad Norm": 0.6598488438335263,
+        "TrajEncoder Grad Norm": 0.6099208507724242,
+        "TstepEncoder Grad Norm": 0.4360003623535007
+      }
+    },
+    {
+      "key": "train-update",
+      "metrics": {
+        "Loss": 25.31913185119629,
+        "activation-TanhGaussian-mu-max": 0.37028053402900696,
+        "activation-TanhGaussian-mu-min": -0.31373199820518494,
+        "activation-TanhGaussian-mu-std": 0.12536124885082245,
+        "activation-TanhGaussian-mu-mean": -0.017209719866514206,
+        "activation-TanhGaussian-std-max": 0.5633267760276794,
+        "activation-TanhGaussian-std-min": 0.10801044851541519,
+        "activation-TanhGaussian-std-std": 0.07270417362451553,
+        "activation-TanhGaussian-std-mean": 0.25840795040130615,
+        "activation-TanhGaussian-raw_std-max": 0.2710495591163635,
+        "activation-TanhGaussian-raw_std-min": -0.21034163236618042,
+        "activation-TanhGaussian-raw_std-std": 0.08154214173555374,
+        "activation-TanhGaussian-raw_std-mean": 0.03081466816365719,
+        "Q(s, a) (global mean, rescaled) gamma=0.100": 0.3559861481189728,
+        "Q(s,a) (global mean, raw scale) gamma=0.100": 0.03559856861829758,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.100": 0.2802946865558624,
+        "Q(s, a) (global mean, rescaled) gamma=0.900": 0.4326666593551636,
+        "Q(s,a) (global mean, raw scale) gamma=0.900": 0.04326661303639412,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.900": 0.26036202907562256,
+        "Q(s, a) (global mean, rescaled) gamma=0.950": 0.47032108902931213,
+        "Q(s,a) (global mean, raw scale) gamma=0.950": 0.047032102942466736,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.950": 0.25729140639305115,
+        "Q(s, a) (global mean, rescaled) gamma=0.970": 0.5044580698013306,
+        "Q(s,a) (global mean, raw scale) gamma=0.970": 0.0504458025097847,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.970": 0.2578141689300537,
+        "Q(s, a) (global mean, rescaled) gamma=0.990": 0.6030770540237427,
+        "Q(s,a) (global mean, raw scale) gamma=0.990": 0.06030769273638725,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.990": 0.26861825585365295,
+        "Q(s, a) (global mean, rescaled) gamma=0.995": 0.681475818157196,
+        "Q(s,a) (global mean, raw scale) gamma=0.995": 0.06814757734537125,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.995": 0.28240612149238586,
+        "Q(s, a) (global mean, rescaled) gamma=0.999": 0.9072586297988892,
+        "Q(s,a) (global mean, raw scale) gamma=0.999": 0.09072580933570862,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.999": 0.3327587842941284,
+        "Q(s, a) (global std, rescaled, ignoring padding)": 2.670792579650879,
+        "Min TD Target": -98.94242095947266,
+        "Max TD Target": 6.986989498138428,
+        "TD Target (test-time gamma)": -19.825414657592773,
+        "Mean Reward (in training sequences)": -1.915804386138916,
+        "Sequences Containing Done": 16.0,
+        "Min Reward (in training sequences)": -9.503893852233887,
+        "Max Reward (in training sequences)": -0.004968453198671341,
+        "PopArt mu (mean over gamma)": -12.193045616149902,
+        "PopArt nu (mean over gamma)": 457.1118469238281,
+        "PopArt w (mean over gamma)": 0.5694407224655151,
+        "PopArt b (mean over gamma)": 0.694278359413147,
+        "PopArt sigma (mean over gamma)": 17.561691284179688,
+        "Minimum Action Logprob": -39.276371002197266,
+        "Maximum Action Logprob": 1.6677061319351196,
+        "Mean Action Logprob": -0.9053005576133728,
+        "Filter Max": 1.0,
+        "Filter Min": 0.0,
+        "Filter Mean": 0.44081100821495056,
+        "Filter 95th Percentile": 1.0,
+        "Filter 75th Percentile": 1.0,
+        "Pct. of Actions Approved by Binary FBC Filter (All Gammas)": 44.08110046386719,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.100)": 46.51041793823242,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.900)": 40.0,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.950)": 43.880210876464844,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.970)": 40.91145706176758,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.990)": 50.78125,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.995)": 35.83333206176758,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.999)": 50.65104293823242,
+        "Critic Loss": 2.5815696716308594,
+        "Actor Loss": -0.496564656496048,
+        "Sequence Length": 241.0,
+        "Batch Size (in Timesteps)": 3840.0,
+        "Unmasked Batch Size (in Timesteps)": 3840.0,
+        "Learning Rate": 2.0000000000000002e-07,
+        "Actor Grad Norm": 0.005583681572310515,
+        "Critic Grad Norm": 0.68939622575005,
+        "TrajEncoder Grad Norm": 0.5969486590793495,
+        "TstepEncoder Grad Norm": 0.4064395075751654
+      }
+    },
+    {
+      "key": "train-update",
+      "metrics": {
+        "Loss": 17.52582359313965,
+        "activation-TanhGaussian-mu-max": 0.3791211247444153,
+        "activation-TanhGaussian-mu-min": -0.29781416058540344,
+        "activation-TanhGaussian-mu-std": 0.12796586751937866,
+        "activation-TanhGaussian-mu-mean": -0.016901222988963127,
+        "activation-TanhGaussian-std-max": 0.6662891507148743,
+        "activation-TanhGaussian-std-min": 0.10755453258752823,
+        "activation-TanhGaussian-std-std": 0.07413468509912491,
+        "activation-TanhGaussian-std-mean": 0.25780826807022095,
+        "activation-TanhGaussian-raw_std-max": 0.3233828842639923,
+        "activation-TanhGaussian-raw_std-min": -0.21160480380058289,
+        "activation-TanhGaussian-raw_std-std": 0.08275877684354782,
+        "activation-TanhGaussian-raw_std-mean": 0.029767563566565514,
+        "Q(s, a) (global mean, rescaled) gamma=0.100": 0.46763351559638977,
+        "Q(s,a) (global mean, raw scale) gamma=0.100": 0.046763334423303604,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.100": 0.3225405514240265,
+        "Q(s, a) (global mean, rescaled) gamma=0.900": 0.5233405232429504,
+        "Q(s,a) (global mean, raw scale) gamma=0.900": 0.05233391001820564,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.900": 0.29700925946235657,
+        "Q(s, a) (global mean, rescaled) gamma=0.950": 0.5591191053390503,
+        "Q(s,a) (global mean, raw scale) gamma=0.950": 0.05591195449233055,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.950": 0.2914983630180359,
+        "Q(s, a) (global mean, rescaled) gamma=0.970": 0.5931934118270874,
+        "Q(s,a) (global mean, raw scale) gamma=0.970": 0.0593193843960762,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.970": 0.2898285686969757,
+        "Q(s, a) (global mean, rescaled) gamma=0.990": 0.6947260499000549,
+        "Q(s,a) (global mean, raw scale) gamma=0.990": 0.06947258114814758,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.990": 0.2947894334793091,
+        "Q(s, a) (global mean, rescaled) gamma=0.995": 0.776933491230011,
+        "Q(s,a) (global mean, raw scale) gamma=0.995": 0.07769332826137543,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.995": 0.3047630488872528,
+        "Q(s, a) (global mean, rescaled) gamma=0.999": 1.0135045051574707,
+        "Q(s,a) (global mean, raw scale) gamma=0.999": 0.1013503223657608,
+        "Q(s, a) Ensemble Stdev. (raw scale, ignoring padding) gamma=0.999": 0.3475581109523773,
+        "Q(s, a) (global std, rescaled, ignoring padding)": 3.0408480167388916,
+        "Min TD Target": -66.08865356445312,
+        "Max TD Target": 8.915868759155273,
+        "TD Target (test-time gamma)": -16.852882385253906,
+        "Mean Reward (in training sequences)": -1.6224058866500854,
+        "Sequences Containing Done": 16.0,
+        "Min Reward (in training sequences)": -6.28916597366333,
+        "Max Reward (in training sequences)": -0.019968964159488678,
+        "PopArt mu (mean over gamma)": -13.338082313537598,
+        "PopArt nu (mean over gamma)": 468.5713195800781,
+        "PopArt w (mean over gamma)": 0.5866066217422485,
+        "PopArt b (mean over gamma)": 0.7823669910430908,
+        "PopArt sigma (mean over gamma)": 17.047937393188477,
+        "Minimum Action Logprob": -45.766387939453125,
+        "Maximum Action Logprob": 1.7517657279968262,
+        "Mean Action Logprob": -0.9503596425056458,
+        "Filter Max": 1.0,
+        "Filter Min": 0.0,
+        "Filter Mean": 0.41015625,
+        "Filter 95th Percentile": 1.0,
+        "Filter 75th Percentile": 1.0,
+        "Pct. of Actions Approved by Binary FBC Filter (All Gammas)": 41.015625,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.100)": 46.5625,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.900)": 35.33854293823242,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.950)": 41.11979293823242,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.970)": 36.40625,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.990)": 50.78125,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.995)": 29.84375,
+        "Pct. of Actions Approved by Binary FBC (gamma =  0.999)": 47.05729293823242,
+        "Critic Loss": 1.8092912435531616,
+        "Actor Loss": -0.567088782787323,
+        "Sequence Length": 241.0,
+        "Batch Size (in Timesteps)": 3840.0,
+        "Unmasked Batch Size (in Timesteps)": 3840.0,
+        "Learning Rate": 4.0000000000000003e-07,
+        "Actor Grad Norm": 0.006071091715540662,
+        "Critic Grad Norm": 0.6800570082161274,
+        "TrajEncoder Grad Norm": 0.6008284613283772,
+        "TstepEncoder Grad Norm": 0.4157036439387789
+      }
+    },
+    {
+      "key": "val",
+      "metrics": {
+        "Average Total Return in unchanged_two_link_validation": -532.7164673392272,
+        "Average Total Return (Across All Env Names)": -532.7164673392272,
+        "Average interval_cost in unchanged_two_link_validation": 2.21965194724678,
+        "Average precision in unchanged_two_link_validation": 0.0,
+        "Average all_goals_precise in unchanged_two_link_validation": 0.0,
+        "Average episode_mean_cost in unchanged_two_link_validation": 2.219651939580217,
+        "Bottom Quintile Total Return in unchanged_two_link_validation": -730.1206739269197,
+        "Env FPS (per_process)": 29217.663358254136
+      }
+    }
+  ],
+  "training_interactions": 15360,
+  "validation_interactions": 15360,
+  "wall_seconds": 2.198800563812256,
+  "device": "cuda",
+  "seed": 20261021,
+  "batches_per_epoch": 3,
+  "parameters": 1562308,
+  "operative_config": "# Parameters for Actor:\n# ==============================================================================\nActor.activation = 'leaky_relu'\nActor.d_hidden = 256\nActor.dropout_p = 0.0\nActor.n_layers = 2\n\n# Parameters for Agent:\n# ==============================================================================\nAgent.critic_loss_weight = 10.0\nAgent.fake_filter = False\nAgent.gamma = 0.999\nAgent.n_step = 1\nAgent.num_actions_for_value_in_actor_loss = 1\nAgent.num_actions_for_value_in_critic_loss = 1\nAgent.num_critics = 4\nAgent.num_critics_td = 2\nAgent.offline_coeff = 0.1\nAgent.online_coeff = 1.0\nAgent.pass_obs_keys_to_actor = None\nAgent.popart = True\nAgent.reward_multiplier = 10.0\nAgent.tau = 0.003\nAgent.use_multigamma = True\nAgent.use_target_actor = True\n\n# Parameters for binary_filter:\n# ==============================================================================\nbinary_filter.threshold = 0.0\n\n# Parameters for DiskTrajDataset:\n# ==============================================================================\nDiskTrajDataset.dset_min_size = 1\nDiskTrajDataset.relabeler = None\n\n# Parameters for Experiment:\n# ==============================================================================\nExperiment.always_load_latest = False\nExperiment.async_env_mp_context = None\nExperiment.batches_per_update = 1\nExperiment.force_reset_train_envs_every = None\nExperiment.grad_clip = 1.0\nExperiment.has_dset_edit_rights = True\nExperiment.l2_coeff = 0.001\nExperiment.lr_warmup_steps = 500\nExperiment.mixed_precision = 'no'\nExperiment.padded_sampling = 'none'\nExperiment.start_collecting_at_epoch = 0\nExperiment.start_learning_at_epoch = 0\nExperiment.wandb_entity = None\nExperiment.wandb_group_name = None\nExperiment.wandb_project = None\n\n# Parameters for FFTstepEncoder:\n# ==============================================================================\nFFTstepEncoder.activation = 'leaky_relu'\nFFTstepEncoder.auto_scale = False\nFFTstepEncoder.d_hidden = 128\nFFTstepEncoder.d_output = 128\nFFTstepEncoder.hide_rl2s = False\nFFTstepEncoder.n_layers = 2\nFFTstepEncoder.norm = None\nFFTstepEncoder.normalize_inputs = True\nFFTstepEncoder.out_norm = 'layer'\nFFTstepEncoder.specify_obs_keys = None\n\n# Parameters for GRUTrajEncoder:\n# ==============================================================================\nGRUTrajEncoder.d_hidden = 128\nGRUTrajEncoder.d_output = 128\nGRUTrajEncoder.n_layers = 1\nGRUTrajEncoder.norm = 'layer'\n\n# Parameters for InputNorm:\n# ==============================================================================\nInputNorm.beta = 0.0001\nInputNorm.init_nu = 1.0\n\n# Parameters for Multigammas:\n# ==============================================================================\nMultigammas.continuous = [0.1, 0.9, 0.95, 0.97, 0.99, 0.995]\nMultigammas.discrete = [0.1, 0.9, 0.95, 0.97, 0.99, 0.995]\n\n# Parameters for NCritics:\n# ==============================================================================\nNCritics.activation = 'leaky_relu'\nNCritics.d_hidden = 256\nNCritics.dropout_p = 0.0\nNCritics.n_layers = 2\n\n# Parameters for PopArtLayer:\n# ==============================================================================\nPopArtLayer.beta = 0.0005\nPopArtLayer.init_nu = 100.0\n\n# Parameters for TanhGaussian:\n# ==============================================================================\nTanhGaussian.clip_actions_on_log_prob = (-0.99, 0.99)\nTanhGaussian.std_high = 7.38905609893065\nTanhGaussian.std_low = 0.006737946999085467\n",
+  "original_driver_status": "COMPLETE MAINTAINED BASELINE FIT; FRESH CONFIRMATION UNINSPECTED",
+  "peak_gpu_allocated_bytes": 1366931968,
+  "peak_gpu_reserved_bytes": 1484783616
+}

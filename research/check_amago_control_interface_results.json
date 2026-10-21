@@ -1,0 +1,25 @@
+{
+  "status": "PASS TINY OFFICIAL SEQUENCEWRAPPER AUTO-RESET INTERFACE FIXTURE",
+  "source_sha256": "fd6d8c2e7aa8578e5360b24aa19dddb984eeeef4144d129239283cf0c856e861",
+  "checked_source_sha256": {
+    "amago_control_env.py": "dff477918952a0ae0ec6e21d8251b957f9f0ddd8b218c6c97daf94dfd5d7e257",
+    "amago_control_study.py": "454f3eeef1c402228773b2499a79e0568983387a4908a4beca75cf8057d829c7",
+    "amago_runtime.py": "537f287b169b82f51f632201f24e5c82f57ec2e82d643635a323a144e7a3d1d1",
+    "amago_env.py": "3cb4418a7d3f607ecd87f86b3effbe52b3dba1e0c95660f001647962acf1a50a",
+    "experiment.py": "ca109f8f9041baafe1228859c9cab56b29a1e9cd4be1feb99b0174bcc94566c1",
+    "loading.py": "9d28df8775677c95589621a48c3c62d9008d02e9e5d4dc650c366eb61c6472b6"
+  },
+  "checks": {
+    "old_terminal_q_private_in_completed": true,
+    "terminal_reward_action_done_in_old_replay": true,
+    "new_reset_observation_in_terminal_return": true,
+    "new_RL2_time_action_reward_cleared": true,
+    "no_privileged_secret_in_policy_obs_or_info": true
+  },
+  "wall_seconds": 0.0018210411071777344,
+  "limitations": [
+    "Mocked3-step2-memberplant; no physical integration, optimizer update, networkforward or capability result.",
+    "Manualepoch and fullsequence masks reviewed in pinned source; not executed in this fixture.",
+    "Core wrapper reused unchanged at upstream54c25ab; no new algorithm claim."
+  ]
+}

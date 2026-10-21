@@ -1,0 +1,7 @@
+{
+  "status": "PASS TINY CUDA GRU CONTINUATION IO",
+  "all_four_gru_parameters_exact": true,
+  "optimizer_and_rng_save_load_completed": true,
+  "method": "Accelerator.save_state safe_serialization=False andload_state afterzeroingmodel; one syntheticbackward/Adamstep; noenvironment/controlstudy",
+  "scope": "checks generic CUDA GRU checkpoint view preservation, notfullAMAGOoptimizerresumeorcompletefithistory"
+}

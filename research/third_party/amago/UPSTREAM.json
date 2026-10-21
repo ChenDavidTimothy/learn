@@ -1,0 +1,197 @@
+{
+  "upstream": "UT-Austin-RPL/amago",
+  "commit": "54c25ab6da9371614c47352f569a56c0fe938d3b",
+  "license": "MIT; original LICENSE preserved",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob": "05c6d5c162b9df813ea4ae3b93dd5e99e6840797",
+      "bytes": 1069
+    },
+    {
+      "path": "amago/__init__.py",
+      "git_blob": "e834fd64ec224138eeaf4b2d7ce108992669897a",
+      "bytes": 704
+    },
+    {
+      "path": "amago/agent.py",
+      "git_blob": "ed2c3f7af0044d7abed69205108ff4fcb7287fcb",
+      "bytes": 66201
+    },
+    {
+      "path": "amago/cli_utils.py",
+      "git_blob": "9b080ecef99d1ddb915553c964bd689e5b85f3be",
+      "bytes": 19057
+    },
+    {
+      "path": "amago/envs/__init__.py",
+      "git_blob": "1644dfc7db64ac6bd92efa06103038500e1bf81a",
+      "bytes": 354
+    },
+    {
+      "path": "amago/envs/amago_env.py",
+      "git_blob": "d2847c63b07f1d47f159e7b74130fc92b0e42907",
+      "bytes": 15305
+    },
+    {
+      "path": "amago/envs/builtin/__init__.py",
+      "git_blob": "7f903d533f5bf8aa16285442c047512a4839b704",
+      "bytes": 85
+    },
+    {
+      "path": "amago/envs/builtin/alchemy.py",
+      "git_blob": "269857ddf0ce86b610b7842234589412d8429078",
+      "bytes": 4380
+    },
+    {
+      "path": "amago/envs/builtin/ale_retro.py",
+      "git_blob": "2176b77b25e9d364712007386a63ff981c72d619",
+      "bytes": 15775
+    },
+    {
+      "path": "amago/envs/builtin/babyai.py",
+      "git_blob": "735a5d655a6cc4072a081f98d17bd297dc329477",
+      "bytes": 7381
+    },
+    {
+      "path": "amago/envs/builtin/gymnax_envs.py",
+      "git_blob": "186648c049f16b1764ea19cdc03a542f64d1c7ed",
+      "bytes": 1201
+    },
+    {
+      "path": "amago/envs/builtin/half_cheetah_v4_vel.py",
+      "git_blob": "ea3ddf87142f45da7caa7fd440d15b2a13de7dc8",
+      "bytes": 9901
+    },
+    {
+      "path": "amago/envs/builtin/mazerunner.py",
+      "git_blob": "d018cb597f437e57ffdf93256640991e21707ac2",
+      "bytes": 11492
+    },
+    {
+      "path": "amago/envs/builtin/metaworld_ml.py",
+      "git_blob": "cb9553073e31886a2e1a7f21e22610d597f602d2",
+      "bytes": 5234
+    },
+    {
+      "path": "amago/envs/builtin/popgym_envs.py",
+      "git_blob": "9ddae7657f9404450b8dd57d86ba5c608a7e44a7",
+      "bytes": 9118
+    },
+    {
+      "path": "amago/envs/builtin/procgen_envs.py",
+      "git_blob": "6c1a9d00b529499f4c343968f26da223690ac112",
+      "bytes": 4615
+    },
+    {
+      "path": "amago/envs/builtin/tmaze.py",
+      "git_blob": "824ed6440698ea3998eb3efb0a25a930c79182b8",
+      "bytes": 8332
+    },
+    {
+      "path": "amago/envs/builtin/toy_gym.py",
+      "git_blob": "2dda2cf3c9ea4d18c7204d9c5cc12b1455c144f6",
+      "bytes": 15958
+    },
+    {
+      "path": "amago/envs/builtin/xland_minigrid.py",
+      "git_blob": "34954228c21e9c4ff686d02305231bab02332fb6",
+      "bytes": 10647
+    },
+    {
+      "path": "amago/envs/env_utils.py",
+      "git_blob": "725158e633bd614de2339d785324d0c6553136ef",
+      "bytes": 5947
+    },
+    {
+      "path": "amago/envs/exploration.py",
+      "git_blob": "c52e779f386f310f9dd9bd49027285aa7da0ba45",
+      "bytes": 9404
+    },
+    {
+      "path": "amago/experiment.py",
+      "git_blob": "139c8905f9a3a9c84f95862928c54ad9128dca29",
+      "bytes": 42753
+    },
+    {
+      "path": "amago/hindsight.py",
+      "git_blob": "0b1623222bccb5a70de73612345cc56c7a9ea442",
+      "bytes": 11939
+    },
+    {
+      "path": "amago/loading.py",
+      "git_blob": "579d9aa7c1848d11d91e68a1c16829542de1e8c7",
+      "bytes": 30182
+    },
+    {
+      "path": "amago/nets/__init__.py",
+      "git_blob": "2c241e892cff96caaf3c8eedfa35b5cd55e63a1e",
+      "bytes": 431
+    },
+    {
+      "path": "amago/nets/actor_critic.py",
+      "git_blob": "cd6521358d5b2b59c78a9f067a82ecc72dfdbd9c",
+      "bytes": 30210
+    },
+    {
+      "path": "amago/nets/cnn.py",
+      "git_blob": "4c75562920101483180f5ac24784076591896675",
+      "bytes": 12729
+    },
+    {
+      "path": "amago/nets/ff.py",
+      "git_blob": "65b4d9fa1935e8a15b6e333c8c5053d8d1a364d3",
+      "bytes": 6321
+    },
+    {
+      "path": "amago/nets/goal_embedders.py",
+      "git_blob": "7f2392ee4ec5741f7cb1ae81bd5c9814df22a872",
+      "bytes": 2596
+    },
+    {
+      "path": "amago/nets/policy_dists.py",
+      "git_blob": "046ac54e95677dd81ef95c758894f7f5b9c8dce4",
+      "bytes": 19908
+    },
+    {
+      "path": "amago/nets/traj_encoders.py",
+      "git_blob": "e70032a5b3a1c9520e6012915c9f4c6890e1f860",
+      "bytes": 23535
+    },
+    {
+      "path": "amago/nets/transformer.py",
+      "git_blob": "681d367436e635d5183d33b2f04587195c8f6825",
+      "bytes": 28479
+    },
+    {
+      "path": "amago/nets/tstep_encoders.py",
+      "git_blob": "34e87459db4021e852b5f58d179bd6a44cb917a0",
+      "bytes": 13675
+    },
+    {
+      "path": "amago/nets/utils.py",
+      "git_blob": "b8849ffe8ecf1615aa5ba2e01786fd20d12c81a5",
+      "bytes": 7782
+    },
+    {
+      "path": "amago/utils.py",
+      "git_blob": "d85f81485bb122386cbe42da09535b4e2d88f691",
+      "bytes": 8234
+    },
+    {
+      "path": "examples/01_basic_gym.py",
+      "git_blob": "0d0df8aea5b3f0764ba1f9f0480c9513d408a0db",
+      "bytes": 2710
+    },
+    {
+      "path": "examples/02_gymnax.py",
+      "git_blob": "54564b3f693e68a0bcd173b16a54dc21d061b092",
+      "bytes": 4677
+    },
+    {
+      "path": "pyproject.toml",
+      "git_blob": "cb1c8bd70140bc356558fcf2844e48c659c3d8ff",
+      "bytes": 1446
+    }
+  ]
+}
