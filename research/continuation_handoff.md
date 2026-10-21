@@ -1,3 +1,37 @@
+# Active Goal; innovation-memory control construction rejected
+
+2026-10-21. Read innovation_control_findings.md and independent
+check_innovation_control_results_scope.md. Four fits and fresh closed-loop
+control scoring are complete and independently checked. Candidate2/96ID and
+0/96OOD precise goals; RLS42/96 and33/96. ZeroingH barely changes candidate
+behavior. All frozen gates fail. This formulation is retired, not rescued.
+RLS is much better without pretraining but also does not fully solve the task.
+No new framework, modern-SOTA result, reliable general control or v18 is claimed.
+
+All source, four fit reports/losses/16weights, validation-only selection,26raw
+validation/test archives, failed windows and independent checks are preserved.
+Study costs7,864,320train+138,240val+61,440test interactions; discarded timing
+fixtures add46,080 separately. No physical or optimization history was silently
+rerun. Protocol checkpointa1a3e24d70eec2ea30c370e3a8de73a8da6c2ff1 was SSH
+published before fitting. Read current Git for final-result publication status.
+
+Next scientific decision, endorsed by the independent critic: establish whether
+a faithful maintained history-based learner can learn competent calibration and
+tracking on this UNCHANGED task under a prospectively bounded budget. This is a
+prerequisite study, not rescue of H or another memory-head proposal. Both learned
+PPO pilots were weak; correct BPTT/source does not prove adequate optimization.
+Use training/validation and fresh confirmation, never tune on this closed test.
+AMAGO Section4 supplies a relevant established account. Initial feasibility read
+finds its current core requires gymnasium<=.29.1 whereas the preserved project
+has1.4.0 (Torch2.14.1). No dependencies have been installed/downgraded and no
+external implementation adopted. Resolve implementation feasibility within a
+bounded pass; do not turn dependency work into another research campaign.
+The ultimate Goal remains active/unachieved, latest ledger v17.
+
+Earlier state follows unchanged.
+
+---
+
 # Active bounded control screen: innovation response memory
 
 2026-10-21. Read innovation_control_plan.md. Independent premise review supports

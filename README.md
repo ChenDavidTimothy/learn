@@ -18,6 +18,12 @@ The [feature-acquisition screen](research/structure_acquisition_findings.md)
 finds that growing executable features helps relative to its old library, but
 fails the competitive and retention criterion against continued neural learning.
 Its proposed selector is retired; all raw results and mixed rankings remain.
+The [innovation-memory control screen](research/innovation_control_findings.md)
+rejects the next construction on actual closed-loop performance:2/96ID and
+0/96OOD precise goals, with negligible benefit from its stored memory. Conventional
+adaptive control is substantially better but also falls short of full competence.
+The next prerequisite is competent maintained history-based learning before
+proposing another memory head.
 No v18 result is claimed; the earlier exhaustive
 diagnostic proposal remains optional, not the default agenda.
 
