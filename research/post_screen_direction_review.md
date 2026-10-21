@@ -1,3 +1,78 @@
+# Direction review after the feature-acquisition rejection
+
+2026-10-21. Verified checkpoint 378cc0a3b3fde1923edfd8768a3e50a2bc552c61
+was SSH-pushed; remote main matched exactly. Three post-v17 constructions are
+now retired. The ultimate Goal remains ACTIVE and unachieved. This begins the
+next investigation; it neither selects a fourth algorithm nor reopens a loser.
+
+## Challenge the common framing
+
+All three attempts still judged reusable knowledge chiefly through short-term
+consequence prediction from supplied q/v/action features. A different scientific
+question is now under review: **can experience acquire reusable control knowledge
+that reliably composes for objectives specified after acquisition?**
+
+The relevant distinction is reliable closed-loop decisions, not merely replacing
+one-step prediction with a longer prediction horizon. An experienced segment is
+not automatically a feedback skill. On an inertial body, identical positions
+with different velocities support different continuations. Any proposed reuse
+operation must preserve the arrival information relevant to its next decision.
+These are design constraints, not new discoveries or evidence that existing RL
+cannot handle the problem. No particular state ontology, representation or policy
+architecture is required by that reasoning.
+
+A meaningful later test would measure completion, settling, interaction/compute
+cost and retention on fresh goal combinations, without resets between subgoals.
+Both candidate and competitors must receive the SAME complete objective and
+ordinary information. A new composition mechanism must not receive future goals
+that are hidden from a goal-conditioned competitor. Limited random action coverage
+must not be mislabeled a representation failure; equal acquisition or competent
+offline treatment is necessary. These conditions govern a future proposal;
+no new dataset, control run or benchmark is selected here.
+
+## Existing explanations that the next proposal must confront
+
+[HER](https://papers.nips.cc/paper/7090-hindsight-experience-replay.pdf) already
+reuses achieved outcomes through goal relabeling and off-policy learning. Its
+method was checked by the independent critic. Generic hindsight reuse is therefore
+not a new operation, and an old implementation alone is not the complete modern
+comparison.
+
+[Forward–backward representations](https://proceedings.neurips.cc/paper_files/paper/2021/file/003dd617c12d444ff9c80f717c3fa982-Paper.pdf):
+read the representation construction and policy/reward mapping, with the critic
+checking Sections 3–4. FB already learns long-run occupancy from reward-free
+experience for rewards specified later. Its assumptions and approximation quality
+matter; its existence does not establish transfer to changed dynamics or arbitrary
+history-dependent objectives without additional machinery.
+
+[2026 FB analysis](https://arxiv.org/html/2602.11399v2): examined Sections 3.3–4.1.
+It questions classical fixed-point justification for the coupled practical update
+and proposes fixed-behavior-policy representation fitting with policy improvement.
+This is an existing substantive alternative, not our derivation or a proof that
+all practical FB variants diverge. A future competitor choice must account for
+such developments rather than use only original FB as a straw target.
+
+[SoRB](https://papers.neurips.cc/paper_files/paper/2019/file/5c48ff18e0a47baaf81d8b8ea51eec92-Paper.pdf)
+already constructs replay-buffer planning using learned goal reachability. Generic
+trajectory stitching and graph search are not sufficient successor proposals.
+USHER's stochastic hindsight-bias correction was also located at its primary
+PMLR page, but its full method was not evaluated; do not call that issue novel.
+
+## Unresolved construction decision
+
+No distinct, defensible new learning operation has yet been derived for this
+question. The independent critic recommends it as a question, not a fourth
+algorithm. Before any substantial training, derive a concrete operation, explain
+what ordinary experience changes and why that could exceed the strongest existing
+account, then specify a falsifier and appropriate modern comparator. If that
+cannot be done within the bounded planning pass, record the missing insight;
+do not manufacture a weak mechanism, repeat a literature survey indefinitely,
+or build a control benchmark merely to appear productive.
+
+The earlier direction review is preserved below unchanged.
+
+---
+
 # Direction review after two defeated constructions
 
 2026-10-20. The verified negative checkpoint f56ea3c14043ff5b10a76bd4d0525efb288b5188

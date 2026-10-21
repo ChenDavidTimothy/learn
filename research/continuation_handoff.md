@@ -33,17 +33,24 @@ report's status wording correction retains its original wording/source hash and
 changes no numerical data. Canonical frozen learner/feature/plan sources remain
 unchanged throughout fitting, scoring and checking.
 
-Publication: commit/push this verified negative checkpoint over the existing SSH
-remote and verify remote HEAD. Read current Git state for the exact commit; no
-old scientific ledger or released artifact is rewritten. Latest ledger stays v17.
+Publication verified: checkpoint 378cc0a3b3fde1923edfd8768a3e50a2bc552c61 was
+SSH-pushed, and remote main returned the same commit. This later handoff/direction
+note is a documentation follow-up; read current Git state for its exact commit.
+No old ledger or released artifact is rewritten. Latest ledger stays v17.
 
 Next action: reconsider the fundamental capability problem rather than invent a
 fourth parameterization. Current evidence supports actual learning and useful
 feature expansion but no overall competitive advantage. Any next construction
 requires a concrete information/capability gap, a derived experience-dependent
 operation, strongest relevant conventional explanation and discriminating test.
-No particular new architecture or diagnostic is selected by this handoff. Earlier
-snapshots follow intact.
+The next direction review has begun in post_screen_direction_review.md. It
+challenges the shared prediction framing: can experience acquire control knowledge
+that composes reliably for objectives specified later? HER, FB, contemporary
+one-step FB and replay-buffer planning already supply serious existing accounts.
+The independent critic supports that question but does not yet recommend another
+algorithm. No distinct new learning operation or control experiment is selected.
+Derive that operation before substantial implementation; give every competitor
+the same full objective and information. Earlier snapshots follow intact.
 
 ---
 
