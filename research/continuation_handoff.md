@@ -1,3 +1,25 @@
+# Active bounded control screen: innovation response memory
+
+2026-10-21. Read innovation_control_plan.md. Independent premise review supports
+one actual-control screen: explicit initial action-probe cross-moments read by a
+learned feedback policy, compared with full-history PPO-GRU and conventional
+online RLS adaptive control with unknown actuator correspondence. This is a
+known-family statistical bias, not a claimed new general principle. Absolute
+tracking competence, both rival costs, transfer and an experience ablation gate
+continuation. All earlier prediction candidates stay retired.
+
+The environment reuses validated two-link mechanics; exact q/v and complete
+future objective are supplied fairly. Probes last32 steps, then memory is held;
+this prefit correction removes an obvious persistent-noise precision handicap.
+No substantive fit or validation/test control score has yet been inspected.
+One-update runtime checks are finite and estimate a few minutes for four fits;
+critical independent replay/likelihood review precedes fitting. No v18 is claimed.
+The ultimate Goal remains active and unachieved.
+
+Earlier state follows unchanged.
+
+---
+
 # ACTIVE ultimate Goal; feature-acquisition screen rejected and preserved
 
 2026-10-21. User resumed after an overnight execution/usage interruption. All

@@ -1,0 +1,26 @@
+{
+  "status": "ONE UPDATE RUNTIME FIXTURE; NO VALIDATION/TEST SCORED",
+  "results": [
+    {
+      "kind": "moment",
+      "rollout_seconds": 0.28618860244750977,
+      "optimize_seconds": 0.3019552230834961,
+      "parameters": 6085,
+      "all_finite": true
+    },
+    {
+      "kind": "gru",
+      "rollout_seconds": 0.30606985092163086,
+      "optimize_seconds": 0.46147727966308594,
+      "parameters": 26629,
+      "all_finite": true
+    }
+  ],
+  "sources": {
+    "innovation_control_plan.md": "9470f4af6697c20b39e8791b68279bac31f4a85c85d5e5fccfa1e6d2775dda64",
+    "innovation_control_screen.py": "68dc6e85d0df62140531c460fa83bd0dff45f85d827b603ad9eb805e8e5c07c5",
+    "innovation_control_env.py": "958889cc7ecffee0126841e203476c6baace9e7ddf1baefc750f5d38a69112e0",
+    "error_transport_data.py": "168e71018edbd00a44d06538d7593dca90ec28476cbf88f452ec225e0f3bb4b8"
+  },
+  "note": "Earlier moment-only attempt completed one optimizer update but lost printed timing to an inline json.dumps flush argument typo. Its weights were discarded; this corrected runtime fixture is not a fit selection."
+}

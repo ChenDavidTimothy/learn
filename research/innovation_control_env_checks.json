@@ -1,0 +1,31 @@
+{
+  "status": "PASS BOUNDED INSTRUMENT AND SYNTHETIC INTERFACE CHECKS; NO CONTROL STUDY",
+  "source_sha256": "958889cc7ecffee0126841e203476c6baace9e7ddf1baefc750f5d38a69112e0",
+  "mechanics_source_sha256": "168e71018edbd00a44d06538d7593dca90ec28476cbf88f452ec225e0f3bb4b8",
+  "issued_torque_exact_step_error": 0.0,
+  "dop853_spot_errors": [
+    1.1265033350582598e-10,
+    5.839045913447194e-11,
+    4.841159140234197e-10,
+    1.2138033633757317e-13,
+    4.27577417916325e-12,
+    6.336121627370517e-10
+  ],
+  "dop853_max_error": 6.336121627370517e-10,
+  "dop853_tolerance": 1e-07,
+  "rls_single_update_ridge_error": 8.881784197001252e-16,
+  "rls_tolerance": 1e-12,
+  "physical_check_seed": 20261021,
+  "physical_check_cases": 6,
+  "synthetic_checks": [
+    "deterministic reset",
+    "240 clock transitions with identity mocked flow: no goal reset",
+    "exact20 tail observations per goal",
+    "fixed parameters and B",
+    "32 calibration updates before inverse control",
+    "regularized gain orientation with negative channel",
+    "future objective supplied as defensive copy"
+  ],
+  "provenance": "Physical numbers captured from one earlier checks() invocation before observation-only metadata change; no physics re-execution after that change.",
+  "scope": "No training, fitting, control study, performance or modern-method claim."
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS SMALL CONDITIONAL STEIN/SCORE AND PRODUCTION GRU FIXTURES; NO CONTROL CAPABILITY TEST",
+  "source_sha256": "f00b4ebe1a6812a4c1c9c122562e44bf644773e33ee259ba9d27d7a1d19b9c02",
+  "production_GRU": {
+    "synthetic_driver_probe_zero_after32": true,
+    "synthetic_driver_memory_freezes_after32": true,
+    "synthetic_memory_recursion_error": 0.0,
+    "network_past_probe_input_error": 0.0,
+    "deterministic_evaluation_latent_action_error": 5.960464477539063e-08,
+    "actual_rollout_to_full_GRU_replay_ratio_error": 0.0,
+    "driver_source_sha256": "68dc6e85d0df62140531c460fa83bd0dff45f85d827b603ad9eb805e8e5c07c5",
+    "GRU_step_vs_full_mean_error": 2.0599841277224584e-18,
+    "GRU_step_vs_full_value_error": 1.6653345369377348e-16,
+    "full_BPTT_step_vs_batch_gradient_error": 1.1102230246251565e-15,
+    "episode_permutation_error": 0.0,
+    "unchanged_conditional_ratio_error": 0.0,
+    "scope": "Synthetic 9-step GRU sequences plus40-step mocked-driver traces crossing32-step cutoff; no physical simulator, fit or optimizer update."
+  },
+  "conditional_Stein": {
+    "moment": 0.24336928305416483,
+    "sensitivity": 0.24336928305416497,
+    "error": 1.3877787807814457e-16
+  },
+  "current_probe_leak_counterexample": {
+    "actual_moment": 0.0,
+    "incorrect_reduced_identity_rhs": 0.2632574480488034,
+    "mean_rule": "mu_base-rho*current_xi"
+  },
+  "conditional_score": {
+    "mean_score": 0.6953408087261854,
+    "mean_finite_difference": 0.6953408087123635,
+    "logstd_score": -0.04257130269784945,
+    "logstd_finite_difference": -0.04257130269691433,
+    "same_policy_ratio_max_error": 5.684341886080802e-14
+  },
+  "wall_seconds": 0.8568816184997559,
+  "limitations": [
+    "Synthetic smooth response and deterministic Gaussian quadrature only.",
+    "Production GRU and cutoff timing checked with synthetic sequences/mocked plant only; no physical rollout or fit.",
+    "Stein identity requires current mean/std chosen before current independent probe; controlsaturation included bychainrule.",
+    "Score validity needs fixed stored latent action/probe during PPO update and correct recurrent history replay.",
+    "No convergence, stability, sufficient-statistic or controller competence theorem."
+  ]
+}
